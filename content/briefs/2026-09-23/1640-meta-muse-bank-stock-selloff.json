@@ -1,0 +1,23 @@
+{
+  "id": "2026-09-23-meta-muse-bank-stock-selloff",
+  "publishedAt": "2026-09-23T16:40:00+07:00",
+  "section": "banking",
+  "star": true,
+  "headline": "Meta's Muse agent knocks bank, insurer and broker stocks",
+  "body": "Investors sold companies that profit when customers never switch after Meta's Muse, an agent that can compare services and buy on a user's behalf, hit the top of Apple's US App Store. The S&P 500 Financials Index fell as much as 2.4% on Tuesday to its lowest since July, JPMorgan, Wells Fargo and Morgan Stanley each dropped more than 2.5%, and Allstate and Charles Schwab slid more than 5%.",
+  "figure": {
+    "value": "-2.4%",
+    "label": "S&P 500 Financials at Tuesday's low"
+  },
+  "note": "Goldman frames this as a bet against consumer inertia: fees and add-ons that survive because switching is a hassle. An agent that compares and switches for you turns that inertia into churn, and a lot of retail banking and insurance margin sits right there.",
+  "sources": [
+    {
+      "name": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-22/meta-s-muse-drags-down-stocks-that-depend-on-consumer-inertia"
+    },
+    {
+      "name": "Investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/meta-ai-agent-triggers-heavy-selloff-in-banks-insurers-and-travel-stocks-4911491"
+    }
+  ]
+}

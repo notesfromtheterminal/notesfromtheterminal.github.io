@@ -1,0 +1,13 @@
+[
+  { "label": "NVDA", "cnbc": "NVDA", "decimals": 2 },
+  { "label": "MSFT", "cnbc": "MSFT", "decimals": 2 },
+  { "label": "GOOGL", "cnbc": "GOOGL", "decimals": 2 },
+  { "label": "TSM", "cnbc": "TSM", "decimals": 2 },
+  { "label": "IHSG", "yahoo": "^JKSE", "decimals": 2 },
+  { "label": "BBCA", "yahoo": "BBCA.JK", "decimals": 0 },
+  { "label": "BBRI", "yahoo": "BBRI.JK", "decimals": 0 },
+  { "label": "BMRI", "yahoo": "BMRI.JK", "decimals": 0 },
+  { "label": "DBS", "cnbc": "D05-SG", "decimals": 2 },
+  { "label": "GRAB", "cnbc": "GRAB", "decimals": 2 },
+  { "label": "SEA", "cnbc": "SE", "decimals": 2 }
+]

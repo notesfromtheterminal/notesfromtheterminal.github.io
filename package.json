@@ -1,0 +1,21 @@
+{
+  "name": "notes-from-the-terminal",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Notes from the Terminal: AI in finance news, filed from Jakarta.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "wire": "node scripts/fetch-wire.mjs",
+    "ticker": "node scripts/fetch-ticker.mjs",
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/build.mjs",
+    "refresh": "node scripts/fetch-wire.mjs && node scripts/fetch-ticker.mjs && node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.11.1"
+  }
+}

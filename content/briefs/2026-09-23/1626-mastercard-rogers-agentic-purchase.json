@@ -1,0 +1,18 @@
+{
+  "id": "2026-09-23-mastercard-rogers-agentic-purchase",
+  "publishedAt": "2026-09-23T16:26:00+07:00",
+  "section": "payments",
+  "headline": "Mastercard and Rogers Bank complete what they call Canada's first agentic purchase",
+  "body": "A Flybits-built AI assistant followed instructions set by a Rogers Red credit card holder, found an eligible product within a set budget and paid for it using Mastercard Agent Pay. The partners say 41% of Canadians they surveyed are open to letting AI assistants help them shop online.",
+  "note": "This is the other half of the week's agent story. While banks write principles and Amazon blocks Muse, the card networks are building rails that let an agent pay inside limits the customer set.",
+  "sources": [
+    {
+      "name": "Rogers",
+      "url": "https://about.rogers.com/news-ideas/mastercard-flybits-and-rogers-establish-benchmark-for-secure-consumer-controlled-agentic-commerce-in-canada"
+    },
+    {
+      "name": "Finextra",
+      "url": "https://www.finextra.com/pressarticle/110975/rogers-bank-completes-agentic-commerce-transactions-with-flybits-and-mastercard"
+    }
+  ]
+}

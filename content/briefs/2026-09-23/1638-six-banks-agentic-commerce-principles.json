@@ -1,0 +1,22 @@
+{
+  "id": "2026-09-23-six-banks-agentic-commerce-principles",
+  "publishedAt": "2026-09-23T16:38:00+07:00",
+  "section": "banking",
+  "tags": [
+    "payments"
+  ],
+  "star": true,
+  "headline": "Six global banks set rules for AI agents that shop and pay",
+  "body": "ASB Bank, Bank of America, Capital One, Commonwealth Bank of Australia, ING and NatWest published Building Trust in Agentic Commerce, a set of voluntary principles for AI agents that buy on a customer's behalf. They want an audit trail of what the customer asked for, what authority they granted and what happened at payment, and they flag agents that ask for card details and key them into websites.",
+  "note": "The banks are writing the rulebook before a regulator does. If agents must identify themselves and leave a trail, banks keep their seat at the checkout, and the question of who pays for an agent's mistake gets answered before the first big loss.",
+  "sources": [
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/banks-want-audit-trail-from-ai-shopping-instructions-payment-outcome/"
+    },
+    {
+      "name": "Finextra",
+      "url": "https://www.finextra.com/newsarticle/48454/global-banks-take-on-agentic-commerce-scam-and-fraud-concerns"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Notes from the Terminal",
+  "tagline": "AI in finance, filed from Jakarta.",
+  "description": "Live AI-in-finance news with a Southeast Asia desk. Banking, payments, models and the rules, briefed through the day.",
+  "author": "@0xNotMarc",
+  "x": "0xNotMarc",
+  "substackUrl": "",
+  "timezone": "Asia/Jakarta",
+  "tzLabel": "WIB",
+  "wireWindowHours": 72,
+  "riverWindowHours": 72
+}

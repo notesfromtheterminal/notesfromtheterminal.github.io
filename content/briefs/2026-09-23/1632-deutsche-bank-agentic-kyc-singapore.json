@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-23-deutsche-bank-agentic-kyc-singapore",
+  "publishedAt": "2026-09-23T16:32:00+07:00",
+  "section": "sea",
+  "tags": [
+    "banking"
+  ],
+  "company": "Deutsche Bank",
+  "headline": "Deutsche Bank puts AI agents on wealth KYC in Singapore and Hong Kong",
+  "body": "Deutsche Bank's private bank rolled out an agentic AI tool for source-of-wealth checks across its Singapore and Hong Kong booking centres, automating the research and paperwork behind proving where a client's money came from before staff review it. The bank estimates a 30% uplift in client onboarding.",
+  "figure": {
+    "value": "30%",
+    "label": "estimated uplift in client onboarding"
+  },
+  "note": "Source-of-wealth checks are one of the slowest steps in Asian private-bank onboarding. Bank of Singapore says its own agent cut onboarding from more than 30 days to about 15, so this is becoming table stakes on Singapore's wealth desks.",
+  "sources": [
+    {
+      "name": "Finextra",
+      "url": "https://www.finextra.com/newsarticle/48452/deutsche-bank-estimates-30-uplift-in-client-onboarding-by-deploying-kyc-ai"
+    },
+    {
+      "name": "Private Banker International",
+      "url": "https://www.privatebankerinternational.com/news/bank-of-singapore-wealth-client-onboarding-ai/"
+    }
+  ]
+}

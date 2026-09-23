@@ -1,0 +1,239 @@
+[
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "url": "https://openai.com/news/rss.xml",
+    "kind": "lab",
+    "region": "global"
+  },
+  {
+    "id": "google-ai",
+    "name": "Google AI",
+    "url": "https://blog.google/technology/ai/rss/",
+    "kind": "lab",
+    "region": "global"
+  },
+  {
+    "id": "deepmind",
+    "name": "Google DeepMind",
+    "url": "https://deepmind.google/blog/rss.xml",
+    "kind": "lab",
+    "region": "global"
+  },
+  {
+    "id": "nvidia",
+    "name": "NVIDIA",
+    "url": "https://blogs.nvidia.com/feed/",
+    "kind": "lab",
+    "region": "global",
+    "requireAI": true
+  },
+  {
+    "id": "huggingface",
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog/feed.xml",
+    "kind": "lab",
+    "region": "global"
+  },
+  {
+    "id": "techcrunch-ai",
+    "name": "TechCrunch",
+    "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "kind": "ai",
+    "region": "global"
+  },
+  {
+    "id": "verge-ai",
+    "name": "The Verge",
+    "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+    "kind": "ai",
+    "region": "global"
+  },
+  {
+    "id": "arstechnica-ai",
+    "name": "Ars Technica",
+    "url": "https://arstechnica.com/ai/feed/",
+    "kind": "ai",
+    "region": "global"
+  },
+  {
+    "id": "mittr-ai",
+    "name": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+    "kind": "ai",
+    "region": "global"
+  },
+  {
+    "id": "the-decoder",
+    "name": "The Decoder",
+    "url": "https://the-decoder.com/feed/",
+    "kind": "ai",
+    "region": "global"
+  },
+  {
+    "id": "bloomberg-tech",
+    "name": "Bloomberg",
+    "url": "https://feeds.bloomberg.com/technology/news.rss",
+    "kind": "ai",
+    "region": "global",
+    "requireAI": true
+  },
+  {
+    "id": "ft-ai",
+    "name": "Financial Times",
+    "url": "https://www.ft.com/artificial-intelligence?format=rss",
+    "kind": "ai",
+    "region": "global",
+    "requireAI": true
+  },
+  {
+    "id": "cnbc-tech",
+    "name": "CNBC",
+    "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html",
+    "kind": "ai",
+    "region": "global",
+    "requireAI": true
+  },
+  {
+    "id": "finextra",
+    "name": "Finextra",
+    "url": "https://www.finextra.com/rss/headlines.aspx",
+    "kind": "finance",
+    "region": "global",
+    "requireAI": true
+  },
+  {
+    "id": "bankingdive",
+    "name": "Banking Dive",
+    "url": "https://www.bankingdive.com/feeds/news/",
+    "kind": "finance",
+    "region": "global",
+    "requireAI": true
+  },
+  {
+    "id": "paymentsdive",
+    "name": "Payments Dive",
+    "url": "https://www.paymentsdive.com/feeds/news/",
+    "kind": "finance",
+    "region": "global",
+    "requireAI": true
+  },
+  {
+    "id": "pymnts",
+    "name": "PYMNTS",
+    "url": "https://www.pymnts.com/feed/",
+    "kind": "finance",
+    "region": "global",
+    "requireAI": true
+  },
+  {
+    "id": "tearsheet",
+    "name": "Tearsheet",
+    "url": "https://tearsheet.co/feed/",
+    "kind": "finance",
+    "region": "global",
+    "requireAI": true
+  },
+  {
+    "id": "fintechnews-sg",
+    "name": "Fintech News Singapore",
+    "url": "https://fintechnews.sg/feed/",
+    "kind": "finance",
+    "region": "sea",
+    "requireAI": true,
+    "seaOnly": true
+  },
+  {
+    "id": "fintechnews-my",
+    "name": "Fintech News Malaysia",
+    "url": "https://fintechnews.my/feed/",
+    "kind": "finance",
+    "region": "sea",
+    "requireAI": true,
+    "seaOnly": true
+  },
+  {
+    "id": "fintechnews-ph",
+    "name": "Fintech News Philippines",
+    "url": "https://fintechnews.ph/feed/",
+    "kind": "finance",
+    "region": "sea",
+    "requireAI": true,
+    "seaOnly": true
+  },
+  {
+    "id": "fintechnews-id",
+    "name": "Fintech News Indonesia",
+    "url": "https://fintechnews.id/feed/",
+    "kind": "finance",
+    "region": "sea",
+    "requireAI": true,
+    "seaOnly": true
+  },
+  {
+    "id": "techinasia",
+    "name": "Tech in Asia",
+    "url": "https://www.techinasia.com/feed",
+    "kind": "ai",
+    "region": "asia",
+    "requireAI": true
+  },
+  {
+    "id": "bt-sg",
+    "name": "The Business Times",
+    "url": "https://www.businesstimes.com.sg/rss/banking-finance",
+    "kind": "finance",
+    "region": "sea",
+    "requireAI": true,
+    "seaOnly": true
+  },
+  {
+    "id": "gn-ai-banking",
+    "name": "Google News",
+    "type": "googlenews",
+    "query": "(\"generative AI\" OR \"AI agent\" OR \"agentic AI\" OR \"artificial intelligence\") (bank OR banks OR lender OR insurer OR \"asset manager\") when:1d",
+    "hl": "en-US",
+    "gl": "US",
+    "ceid": "US:en",
+    "kind": "finance",
+    "region": "global",
+    "requireAI": true
+  },
+  {
+    "id": "gn-id-ai-finance",
+    "name": "Google News",
+    "type": "googlenews",
+    "query": "(AI OR \"artificial intelligence\" OR \"generative AI\") (bank OR banking OR fintech OR lending OR OJK OR \"Bank Indonesia\") Indonesia when:2d",
+    "hl": "en-ID",
+    "gl": "ID",
+    "ceid": "ID:en",
+    "kind": "finance",
+    "region": "sea",
+    "requireAI": true
+  },
+  {
+    "id": "gn-sea-ai-finance",
+    "name": "Google News",
+    "type": "googlenews",
+    "query": "(AI OR \"artificial intelligence\") (bank OR fintech OR payments OR insurer) (Singapore OR Malaysia OR Philippines OR Thailand OR Vietnam) when:2d",
+    "hl": "en-SG",
+    "gl": "SG",
+    "ceid": "SG:en",
+    "kind": "finance",
+    "region": "sea",
+    "requireAI": true
+  },
+  {
+    "id": "gn-id-bahasa",
+    "name": "Google News (ID)",
+    "type": "googlenews",
+    "query": "(AI OR \"kecerdasan buatan\") (bank OR perbankan OR fintech OR OJK OR pinjol) when:2d",
+    "hl": "id",
+    "gl": "ID",
+    "ceid": "ID:id",
+    "kind": "finance",
+    "region": "sea",
+    "requireAI": true,
+    "display": false
+  }
+]

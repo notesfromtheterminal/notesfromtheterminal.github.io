@@ -1,0 +1,110 @@
+# Refreshes the free wire and ticker every 20 minutes, rebuilds whenever the
+# newsroom run pushes new briefs, and turns each Morning Note into a pull request
+# that must be merged (approved) before it publishes. Deploys to GitHub Pages.
+name: Update site
+
+on:
+  schedule:
+    - cron: '*/20 * * * *'
+  push:
+    branches: [main, 'claude/**']
+  workflow_dispatch:
+
+jobs:
+  # Briefs: if the desk could only push to claude/newsroom, fast-forward main to
+  # it, then start a deploy on main (Pages only accepts deploys from main).
+  promote:
+    if: github.ref == 'refs/heads/claude/newsroom'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Fast-forward main
+        run: |
+          git fetch origin claude/newsroom
+          git merge --ff-only FETCH_HEAD
+          git push origin HEAD:main
+      - name: Deploy from main
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run update.yml --ref main --repo "$GITHUB_REPOSITORY"
+
+  # Morning Note: never auto-published. Open (or refresh) a pull request for approval.
+  note-approval:
+    if: startsWith(github.ref, 'refs/heads/claude/note-')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Open or refresh the approval pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          date="${BRANCH#claude/note-}"
+          node scripts/note-pr.mjs "$date" > pr-body.md
+          title="$(node scripts/note-pr.mjs "$date" --title)"
+          if [ "$(gh pr view "$BRANCH" --json state --jq .state 2>/dev/null)" = "OPEN" ]; then
+            gh pr edit "$BRANCH" --title "$title" --body-file pr-body.md
+          else
+            gh pr create --base main --head "$BRANCH" --title "$title" --body-file pr-body.md
+          fi
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - id: pages
+        uses: actions/configure-pages@v5
+      - name: Refresh wire and ticker
+        env:
+          WIRE_STATE_URL: ${{ steps.pages.outputs.base_url }}/data/wire.json
+          TICKER_STATE_URL: ${{ steps.pages.outputs.base_url }}/data/ticker.json
+        run: |
+          node scripts/fetch-wire.mjs
+          node scripts/fetch-ticker.mjs
+      - name: Restore share cards
+        uses: actions/cache@v4
+        with:
+          path: .cache/cards
+          key: cards-v1-${{ hashFiles('content/**', 'scripts/cards.mjs', 'scripts/lib/util.mjs', 'config/site.json', 'config/sections.json') }}
+          restore-keys: cards-v1-
+      - name: Build
+        env:
+          SITE_URL: ${{ steps.pages.outputs.origin }}
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
+        run: node scripts/build.mjs
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deployment
+        uses: actions/deploy-pages@v4

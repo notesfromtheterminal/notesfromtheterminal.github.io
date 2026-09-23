@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-23-experian-singapore-ai-credit-survey",
+  "publishedAt": "2026-09-23T16:30:00+07:00",
+  "section": "sea",
+  "tags": [
+    "banking"
+  ],
+  "headline": "Nearly half of Singaporeans would let an AI agent apply for credit, Experian finds",
+  "body": "In an Experian study run by Forrester Consulting, 49% of 482 Singapore respondents were comfortable with an AI agent applying for a loan or credit card, and 83% trust AI to compare loans. The top worry, cited by 82%, is AI being manipulated by fake offers, the highest share across the 13 markets surveyed.",
+  "figure": {
+    "value": "49%",
+    "label": "comfortable letting an AI agent apply for credit"
+  },
+  "note": "77% would be more comfortable if the agent were linked to a trusted financial institution. That is the opening for banks: become the agent customers trust before a big tech assistant becomes the front door to credit.",
+  "sources": [
+    {
+      "name": "Fintech News Singapore",
+      "url": "https://fintechnews.sg/137604/ai/singapore-ai-lending-loan-comparison/"
+    }
+  ]
+}
