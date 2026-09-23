@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-23",
+  "publishedAt": "2026-09-23T16:41:00+07:00",
+  "title": "The agent is at the checkout, and banks want to see its ID",
+  "dek": "A market selloff, a bank rulebook and a blocked agent all landed within 48 hours. They are one story about who controls the moment of payment.",
+  "lead": "2026-09-23-meta-muse-bank-stock-selloff",
+  "stories": [
+    "2026-09-23-six-banks-agentic-commerce-principles",
+    "2026-09-23-amazon-blocks-meta-muse",
+    "2026-09-23-mastercard-rogers-agentic-purchase",
+    "2026-09-23-experian-singapore-ai-credit-survey",
+    "2026-09-23-deutsche-bank-agentic-kyc-singapore",
+    "2026-09-23-komisi-xi-ojk-ai-layoffs",
+    "2026-09-23-anthropic-openai-price-cuts"
+  ],
+  "body": [
+    "Three things happened within 48 hours, and they belong together. Meta's Muse agent climbed to the top of Apple's US App Store, and investors sold the banks, insurers and brokers that live on customers who never switch. Six global banks, including Bank of America, ING and NatWest, published principles for AI agents that shop and pay. And Amazon blocked Muse from its store, saying it was never told the agent was coming.",
+    "Put together, this is a fight over the moment of payment. Whoever sits between the customer and the checkout decides which card gets used, which insurer gets quoted and which fees get noticed. For years that seat belonged to the bank app and the customer's habits. An agent that compares everything for you breaks the habit, and Goldman's **consumer inertia** basket is the market pricing exactly that.",
+    "The banks' answer is a smart one: let agents in, but make them declare themselves and leave an audit trail of what the customer asked for and what authority they gave. That keeps the bank inside the transaction. Mastercard tested the same idea in Canada this week with Rogers Bank, where an agent paid inside limits the cardholder had set.",
+    "Southeast Asia is closer to this than it looks. In Experian's new survey, nearly half of Singaporeans said they would let an AI agent apply for credit, and 77% would be more comfortable if that agent were tied to a financial institution they trust. Deutsche Bank and Bank of Singapore are already putting agents on KYC. And in Jakarta, parliament just told OJK that digitalization can't be a cover for layoffs, a reminder that the politics of automation arrive before the savings do.",
+    "So here is my read for banks in the region. The agent that earns the customer's trust will own the relationship. If that agent belongs to a big tech platform, the bank becomes a payment rail in the background. If it is the bank's own, built on the cheaper models Anthropic and OpenAI released this week, the bank keeps the front door.",
+    "Which one is your bank building?"
+  ]
+}
