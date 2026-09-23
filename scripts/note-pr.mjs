@@ -36,5 +36,7 @@ console.log(
     ...(errors.length ? ['**Validation errors (fix before merging)**', '', ...errors.map((e) => `- ${e}`), ''] : []),
     '**Merge this pull request to publish the note. Close it to discard.**',
     `To edit first, change \`content/notes/${date}.json\` on this branch, then merge.`,
+    '',
+    '🤖 Generated with [Claude Code](https://claude.com/claude-code)',
   ].join('\n'),
 );
