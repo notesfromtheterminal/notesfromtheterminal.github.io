@@ -147,7 +147,7 @@ ${ld}
     }</p>
 <p class="u-right">${site.substackUrl ? `<a class="btn btn-ghost" href="${esc(site.substackUrl)}">Subscribe</a>` : ''}<a class="btn btn-x" href="${esc(followUrl)}" target="_blank" rel="noopener">${X_ICON}<span>Follow <span class="u-handle">@${esc(site.x)}</span></span></a></p>
 </div></div>
-<header class="masthead"><div class="wrap masthead-row">${wordmark()}<p class="tagline">${esc(site.tagline)}</p></div></header>
+<header class="masthead"><div class="wrap masthead-row">${wordmark()}</div></header>
 ${nav(active)}
 ${tape()}
 <main id="main" class="wrap">

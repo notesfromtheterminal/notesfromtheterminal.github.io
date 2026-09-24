@@ -8,7 +8,7 @@ The site has two layers, and neither one pays per story.
 
 | Layer | What it does | Runs | Cost |
 |---|---|---|---|
-| **The wire** | Pulls headlines from about 30 feeds, filters for AI in finance, tags sections, merges duplicates, fetches delayed quotes | GitHub Actions, every 20 min | Free on a public repo |
+| **The wire** | Pulls headlines from about 30 feeds, filters for AI in finance, tags sections, merges duplicates, fetches delayed quotes | GitHub Actions, every 5 min | Free on a public repo |
 | **The desk** | Claude reads the wire, verifies the stories that matter and writes short briefs; the 07:00 WIB run also drafts the Morning Note | A scheduled Claude Code routine on the owner's Claude plan | Plan usage, no API credits |
 
 Briefs publish on their own. The Morning Note never does: the desk pushes it to a `claude/note-YYYY-MM-DD` branch, a workflow opens a pull request with the full text, and merging that pull request is the approval.
@@ -41,7 +41,7 @@ npm run serve     # http://localhost:4321
 1. Push this repo to GitHub (public, so Actions and Pages are free).
 2. Settings → Pages → Source: **GitHub Actions**.
 3. Settings → Actions → General → Workflow permissions: tick **Allow GitHub Actions to create and approve pull requests** (the Morning Note approval flow needs it).
-4. The `Update site` workflow runs on every push and every 20 minutes.
+4. The `Update site` workflow runs on every push and every 5 minutes.
 
 For a custom domain later, add it under Settings → Pages. The build reads `SITE_URL` and `BASE_PATH` from the Pages configuration, so links follow automatically.
 

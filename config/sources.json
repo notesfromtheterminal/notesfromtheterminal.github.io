@@ -197,7 +197,8 @@
     "ceid": "US:en",
     "kind": "finance",
     "region": "global",
-    "requireAI": true
+    "requireAI": true,
+    "every": 15
   },
   {
     "id": "gn-id-ai-finance",
@@ -209,7 +210,8 @@
     "ceid": "ID:en",
     "kind": "finance",
     "region": "sea",
-    "requireAI": true
+    "requireAI": true,
+    "every": 15
   },
   {
     "id": "gn-sea-ai-finance",
@@ -221,7 +223,8 @@
     "ceid": "SG:en",
     "kind": "finance",
     "region": "sea",
-    "requireAI": true
+    "requireAI": true,
+    "every": 15
   },
   {
     "id": "gn-id-bahasa",
@@ -234,6 +237,7 @@
     "kind": "finance",
     "region": "sea",
     "requireAI": true,
-    "display": false
+    "display": false,
+    "every": 15
   }
 ]

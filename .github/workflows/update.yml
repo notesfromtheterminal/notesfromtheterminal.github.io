@@ -1,11 +1,11 @@
-# Refreshes the free wire and ticker every 20 minutes, rebuilds whenever the
+# Refreshes the free wire and ticker every 5 minutes, rebuilds whenever the
 # newsroom run pushes new briefs, and turns each Morning Note into a pull request
 # that must be merged (approved) before it publishes. Deploys to GitHub Pages.
 name: Update site
 
 on:
   schedule:
-    - cron: '*/20 * * * *'
+    - cron: '2-59/5 * * * *'
   push:
     branches: [main, 'claude/**']
   workflow_dispatch:

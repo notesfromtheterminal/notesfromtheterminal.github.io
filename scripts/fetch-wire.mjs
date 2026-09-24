@@ -1,5 +1,5 @@
 // The free, no-LLM layer: pull headlines from curated feeds, tag them,
-// merge duplicates, and write data/wire.json. Runs every ~20 minutes in
+// merge duplicates, and write data/wire.json. Runs every 5 minutes in
 // GitHub Actions. State carries over between runs by reading the previous
 // wire.json from the live site (WIRE_STATE_URL), so nothing gets committed.
 import { XMLParser } from 'fast-xml-parser';
@@ -86,17 +86,32 @@ function parseEntries(xml) {
   throw new Error('not an RSS/Atom feed');
 }
 
-async function fetchSource(src) {
+async function fetchSource(src, prev) {
   const started = Date.now();
   const health = { id: src.id, name: src.name, ok: false, kept: 0, seen: 0 };
+  // Polite polling: a source is fetched at most every `every` minutes (default 5),
+  // and only re-downloaded when the publisher says the feed changed (304 otherwise).
+  // Items from skipped or unchanged sources carry over from the previous state.
+  const every = (src.every ?? 5) * 60_000;
+  if (prev?.fetchedAt && NOW - Date.parse(prev.fetchedAt) < every - 60_000) {
+    return { items: [], health: { ...prev, skipped: true, ms: 0 } };
+  }
   try {
-    const res = await fetch(feedUrl(src), {
-      headers: { 'User-Agent': UA, Accept: 'application/rss+xml, application/atom+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.5' },
-      signal: AbortSignal.timeout(20000),
-      redirect: 'follow',
-    });
+    const headers = { 'User-Agent': UA, Accept: 'application/rss+xml, application/atom+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.5' };
+    if (prev?.etag) headers['If-None-Match'] = prev.etag;
+    if (prev?.lastModified) headers['If-Modified-Since'] = prev.lastModified;
+    const res = await fetch(feedUrl(src), { headers, signal: AbortSignal.timeout(20000), redirect: 'follow' });
     health.status = res.status;
+    health.fetchedAt = new Date(NOW).toISOString();
+    if (res.status === 304) {
+      Object.assign(health, { ok: true, notModified: true, kept: prev?.kept ?? 0, seen: prev?.seen ?? 0, etag: prev?.etag, lastModified: prev?.lastModified });
+      return { items: [], health };
+    }
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const etag = res.headers.get('etag');
+    const lastModified = res.headers.get('last-modified');
+    if (etag) health.etag = etag;
+    if (lastModified) health.lastModified = lastModified;
     const entries = parseEntries(await res.text());
     health.seen = entries.length;
     // Some feeds stamp every item with the feed's build time. Those dates are
@@ -216,8 +231,9 @@ const previous =
   (await readJSON(p('data', 'wire.private.json'), null)) ||
   (await readJSON(p('data', 'wire.json'), { items: [] }));
 const prevById = new Map((previous.items ?? []).map((it) => [it.id, it]));
+const prevHealth = new Map((previous.sources ?? []).map((h) => [h.id, h]));
 
-const results = await pool(sources, 8, fetchSource);
+const results = await pool(sources, 8, (src) => fetchSource(src, prevHealth.get(src.id)));
 const fresh = results.flatMap((r) => r.items);
 const health = results.map((r) => r.health);
 
@@ -243,7 +259,10 @@ await writeJSON(p('data', 'wire.json'), { ...meta, items: items.map(({ summary, 
 await writeJSON(p('data', 'wire.private.json'), { ...meta, items });
 
 const ok = health.filter((h) => h.ok).length;
-console.log(`wire: ${items.length} items from ${ok}/${health.length} sources (${fresh.length} fetched this run)`);
+const unchanged = health.filter((h) => h.notModified && !h.skipped).length;
+const skipped = health.filter((h) => h.skipped).length;
+console.log(`wire: ${items.length} items from ${ok}/${health.length} sources (${fresh.length} fetched this run, ${unchanged} unchanged, ${skipped} not due)`);
 for (const h of health) {
-  console.log(`  ${h.ok ? 'ok ' : 'ERR'} ${h.id.padEnd(18)} kept ${String(h.kept).padStart(3)} / seen ${String(h.seen).padStart(3)}  ${h.ms}ms${h.error ? '  ' + h.error : ''}`);
+  const state = h.skipped ? 'not due' : h.notModified ? 'unchanged' : `kept ${String(h.kept).padStart(3)} / seen ${String(h.seen).padStart(3)}`;
+  console.log(`  ${h.ok ? 'ok ' : 'ERR'} ${h.id.padEnd(18)} ${state}  ${h.ms}ms${h.error ? '  ' + h.error : ''}`);
 }
