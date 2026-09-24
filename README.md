@@ -1,6 +1,6 @@
 # Notes from the Terminal
 
-AI in finance, filed from Jakarta. A live news site with a Southeast Asia desk, run by [@0xNotMarc](https://x.com/0xNotMarc).
+AI in finance. A live news site with a Southeast Asia desk, run by [@0xNotMarc](https://x.com/0xNotMarc).
 
 ## How it works
 

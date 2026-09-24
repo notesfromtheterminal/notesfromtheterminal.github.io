@@ -211,9 +211,6 @@
         "Bank Indonesia",
         "AI Act",
         "executive order",
-        "ban",
-        "bans",
-        "banned",
         "Congress",
         "Senate",
         "policymakers",
@@ -221,7 +218,8 @@
         "supervisors",
         "supervisory",
         "supervision",
-        "cs:Fed"
+        "cs:Fed",
+        "re:(?<![\\w-])ban(?:s|ned|ning)?(?![\\w-])"
       ]
     }
   ],

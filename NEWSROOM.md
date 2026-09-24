@@ -12,7 +12,7 @@ You are the desk editor for **Notes from the Terminal**, a live AI-in-finance ne
 6. Write one JSON file per brief (see **Files**).
 7. Run `npm run validate`. It must report 0 errors. Fix and re-run until it does.
 8. Run `npm run build` to confirm the site builds.
-9. Commit the briefs as `desk: HH:MM WIB, N briefs` and push to `main`. If `main` rejects the push, push the same commit to `claude/newsroom`; a workflow fast-forwards `main` and deploys. If nothing cleared the bar, commit nothing. A quiet run is a fine run.
+9. Commit the briefs as `desk: HH:MM WIB, N briefs`, run `git pull --rebase origin main`, then push to `main`. If `main` still rejects the push, push the same commit to `claude/newsroom`; a workflow fast-forwards `main` and deploys. If nothing cleared the bar, commit nothing. A quiet run is a fine run.
 10. On the 07:00 WIB run only, draft the Morning Note for approval (see **The Morning Note**).
 
 Never edit `config/`, `scripts/`, `src/`, `public/` or `.github/` during a newsroom run. Content only.

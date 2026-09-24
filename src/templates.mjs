@@ -243,6 +243,12 @@ ${n.dek ? `<p class="note-card-dek">${esc(n.dek)}</p>` : ''}
 
   // ---------- pages ----------
 
+  // The phone strip leads with finance news; general AI stays in the wire column.
+  const stripItems = (wire) => {
+    const finance = wire.filter((i) => i.section !== 'models').slice(0, 3);
+    return finance.length === 3 ? finance : wire.slice(0, 3);
+  };
+
   function frontPage({ lead, top, note: n, river: riverBriefs, wire }) {
     const hero = lead
       ? leadArticle(lead)
@@ -254,7 +260,8 @@ ${n.dek ? `<p class="note-card-dek">${esc(n.dek)}</p>` : ''}
       path: '',
       active: 'home',
       pageKind: 'front',
-      body: `<div class="front${side ? '' : ' front-solo'}">
+      body: `<section class="live-strip" aria-labelledby="live-h"><h2 class="label" id="live-h">Latest headlines <span class="label-note"><span class="pulse" aria-hidden="true"></span>live</span></h2><ol class="wire-list" data-wire-list data-limit="3" data-exclude="models">${stripItems(wire).map(wireItem).join('')}</ol></section>
+<div class="front${side ? '' : ' front-solo'}">
 <div class="front-lead">${hero}</div>
 ${side ? `<div class="front-side">${side}</div>` : ''}
 </div>

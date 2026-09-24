@@ -243,8 +243,21 @@ for (const it of fresh) {
   const prev = prevById.get(it.id);
   merged.set(it.id, { ...it, firstSeen: prev?.firstSeen ?? new Date(NOW).toISOString(), also: prev?.also });
 }
-// Keep earlier items that have scrolled out of their feed but are still inside the window.
-for (const prev of prevById.values()) if (!merged.has(prev.id)) merged.set(prev.id, prev);
+// Keep earlier items that have scrolled out of their feed (or weren't re-fetched this
+// run) while they are inside the window. They are re-tagged with the current rules so
+// config fixes apply at once. The public state has no summaries, so the AI check is
+// skipped for them (they passed it when first fetched).
+const sourceById = new Map(sources.map((s) => [s.id, s]));
+for (const prev of prevById.values()) {
+  if (merged.has(prev.id)) continue;
+  const src = sourceById.get(prev.sourceId);
+  if (!src) continue; // source removed from the config
+  const c = classify({ title: prev.title, summary: prev.summary ?? '' }, { ...src, requireAI: src.requireAI && Boolean(prev.summary) });
+  if (!c.keep) continue;
+  const display = src.display !== false && (src.type !== 'googlenews' || trusted.has(prev.source.toLowerCase()));
+  const { display: _old, ...rest } = prev;
+  merged.set(prev.id, { ...rest, section: c.section, tags: c.tags, ...(display ? {} : { display: false }) });
+}
 
 const inWindow = [...merged.values()].filter((it) => NOW - Date.parse(it.publishedAt ?? it.firstSeen) <= WINDOW_MS);
 const items = cluster(inWindow)

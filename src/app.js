@@ -48,17 +48,21 @@
   }
 
   async function refreshWire() {
-    const list = document.querySelector('[data-wire-list]');
-    if (!list) return;
+    const lists = document.querySelectorAll('[data-wire-list]');
+    if (!lists.length) return;
     const res = await fetch(`${base}data/wire.json?t=${Date.now()}`, { cache: 'no-store' });
     if (!res.ok) return;
     const wire = await res.json();
-    const limit = Number(list.dataset.limit || 30);
-    const section = list.dataset.section || '';
-    const items = wire.items
-      .filter((i) => i.display !== false && (!section || i.section === section || (i.tags || []).includes(section)))
-      .slice(0, limit);
-    if (items.length) list.innerHTML = items.map(wireItem).join('');
+    lists.forEach((list) => {
+      const limit = Number(list.dataset.limit || 30);
+      const section = list.dataset.section || '';
+      const exclude = list.dataset.exclude || '';
+      const items = wire.items
+        .filter((i) => i.display !== false && (!section || i.section === section || (i.tags || []).includes(section)))
+        .filter((i) => !exclude || i.section !== exclude)
+        .slice(0, limit);
+      if (items.length) list.innerHTML = items.map(wireItem).join('');
+    });
   }
 
   let wireUpdatedAt = body.dataset.wireUpdated || '';
