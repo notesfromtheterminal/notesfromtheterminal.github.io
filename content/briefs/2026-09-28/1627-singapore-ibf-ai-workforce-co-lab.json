@@ -1,0 +1,13 @@
+{
+  "id": "2026-09-28-singapore-ibf-ai-workforce-co-lab",
+  "publishedAt": "2026-09-28T16:27:00+07:00",
+  "section": "sea",
+  "tags": ["banking"],
+  "headline": "Singapore commits 80,000 finance workers to AI training by 2028",
+  "body": "The Institute of Banking and Finance launched an AI Workforce Co-Lab with 23 banks, insurers and asset managers, including DBS, OCBC and UOB, that together employ about 40 percent of Singapore's financial sector workforce. They have committed to train more than 80,000 employees in AI skills through IBF-recognised programs by 2028, with more than half already trained. Deputy Prime Minister Gan Kim Yong, who chairs MAS, Singapore's central bank, announced the plan on September 24.",
+  "note": "Singapore is trying to retrain its banking workforce rather than let AI adoption outrun it, in roles like credit underwriting and fraud detection where agents already do part of the work. Whether training keeps pace with that adoption is the real test.",
+  "sources": [
+    { "name": "MAS", "url": "https://www.mas.gov.sg/news/speeches/2026/keynote-address-by-dpm-gan-kim-yong-at-the-ibf-distinction-evening-on-24-september-2026" },
+    { "name": "PressNewsAgency", "url": "https://pressnewsagency.org/over-80000-finance-workers-to-get-ai-training-by-2028-as-industry-launches-job-transformation-initiative/" }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "2026-09-28-fideuram-ai-voice-cloning-fraud",
+  "publishedAt": "2026-09-28T16:23:00+07:00",
+  "section": "banking",
+  "tags": ["fraud"],
+  "star": true,
+  "company": "Fideuram",
+  "headline": "AI voice cloning scam drains $108 million from Italy's Fideuram",
+  "body": "Fraudsters combined a spoofed WhatsApp message impersonating Intesa Sanpaolo's chief executive with an AI-cloned voice of a law firm partner to convince Fideuram's then chairman to authorize transfers to accounts in China and Hong Kong in February. Italian, Chinese and Portuguese authorities have recovered more than half of the roughly $108 million, about 95 million euros, taken; about 36 million euros remains missing, some of it converted into cryptocurrency.",
+  "note": "This is a case of voice cloning beating a bank's internal controls rather than a customer's. Expect wealth managers and private banks, where large wires can move on a senior executive's say so, to add callback verification and delay rules for any instruction that arrives only by phone or chat.",
+  "sources": [
+    { "name": "Gulf News", "url": "https://gulfnews.com/world/europe/ai-voice-cloning-scam-hits-italian-bank-fake-executives-trigger-95m-overseas-transfers-1.500688692" },
+    { "name": "Archyde", "url": "https://www.archyde.com/ex-fideuram-chairman-scammed-out-of-e36m-in-ai-whatsapp-and-voice-fraud/" }
+  ]
+}
