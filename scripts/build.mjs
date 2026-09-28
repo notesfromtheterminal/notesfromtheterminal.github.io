@@ -116,6 +116,19 @@ await page('archive/', T.archiveIndex({ days: [...days].map(([key, list]) => ({ 
 for (const [key, list] of days) await page(`archive/${key}/`, T.archiveDay({ key, date: list[0].publishedAt, briefs: list }));
 
 await page('about/', T.aboutPage({ sourceNames }));
+await page('search/', T.searchPage());
+
+// Search index for the client: every brief and note, plus the wire window.
+await writeText(
+  p('dist', 'data', 'search.json'),
+  JSON.stringify({
+    builtAt: now.toISOString(),
+    sections: Object.fromEntries(sections.map((s) => [s.id, s.label])),
+    briefs: briefs.map((b) => ({ id: b.id, t: b.headline, b: b.body, n: b.note ?? '', c: b.company ?? '', s: b.section, g: b.tags ?? [], d: b.publishedAt, src: b.sources.map((x) => x.name).join(', ') })),
+    notes: notes.map((n) => ({ date: n.date, t: n.title, k: n.dek ?? '', b: n.body.join(' ').slice(0, 1500), d: n.publishedAt })),
+    wire: wireItems.map((i) => ({ t: i.title, u: i.url, s: i.source, sec: i.section, g: i.tags ?? [], d: i.publishedAt ?? i.firstSeen })),
+  }),
+);
 await writeText(p('dist', '404.html'), T.notFoundPage());
 
 // Feeds, sitemap, robots, live data for the client and for the next wire run.
@@ -136,6 +149,7 @@ await writeJSON(p('dist', 'data', 'latest.json'), {
 
 await cp(p('src', 'site.css'), p('dist', 'assets', 'site.css'));
 await cp(p('src', 'app.js'), p('dist', 'assets', 'app.js'));
+await cp(p('src', 'search.js'), p('dist', 'assets', 'search.js'));
 if (existsSync(p('public'))) await cp(p('public'), DIST, { recursive: true });
 
 console.log(

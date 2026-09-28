@@ -5,6 +5,9 @@ import { dayKey, esc, longDay, shortDay, timeOf } from '../scripts/lib/util.mjs'
 const X_ICON =
   '<svg class="x-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>';
 
+const SEARCH_ICON =
+  '<svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>';
+
 export function makeTemplates(ctx) {
   const { site, base, siteUrl, sections, sectionMap, now, ticker, wireUpdatedAt, latestBriefAt, buildId, cardIds = new Set() } = ctx;
   const tz = site.timezone;
@@ -147,7 +150,7 @@ ${ld}
     }</p>
 <p class="u-right">${site.substackUrl ? `<a class="btn btn-ghost" href="${esc(site.substackUrl)}">Subscribe</a>` : ''}<a class="btn btn-x" href="${esc(followUrl)}" target="_blank" rel="noopener">${X_ICON}<span>Follow <span class="u-handle">@${esc(site.x)}</span></span></a></p>
 </div></div>
-<header class="masthead"><div class="wrap masthead-row">${wordmark()}</div></header>
+<header class="masthead"><div class="wrap masthead-row">${wordmark()}<form class="search-form" action="${u('search/')}" method="get" role="search"><label class="sr" for="site-q">Search the desk</label><input id="site-q" type="search" name="q" placeholder="Search news, companies, topics" autocomplete="off"><button type="submit" aria-label="Search">${SEARCH_ICON}</button></form></div></header>
 ${nav(active)}
 ${tape()}
 <main id="main" class="wrap">
@@ -438,6 +441,28 @@ ${shareBar(n.title, path)}
     });
   }
 
+  function searchPage() {
+    const chips = [['', 'All'], ...sections.map((x) => [x.id, x.short])]
+      .map(([id, label]) => `<button type="button" class="chip" data-search-filter="${id}" aria-pressed="${id === '' ? 'true' : 'false'}">${esc(label)}</button>`)
+      .join('');
+    const ideas = ['agentic commerce', 'fraud', 'KYC', 'Indonesia', 'Singapore', 'Nvidia', 'regulator']
+      .map((q) => `<button type="button" class="chip chip-idea" data-search-idea="${esc(q)}">${esc(q)}</button>`)
+      .join('');
+    return layout({
+      title: 'Search',
+      description: 'Search every brief, Morning Note and live wire headline on the desk.',
+      path: 'search/',
+      pageKind: 'search',
+      body: `<header class="page-head"><p class="kicker">Search</p><h1 class="page-title">Search the desk</h1><p class="page-dek">Every brief and Morning Note, plus the last three days of the live wire.</p></header>
+<form class="search-big" role="search" data-search-form><label class="sr" for="q">Search</label><span class="search-big-icon">${SEARCH_ICON}</span><input id="q" type="search" name="q" placeholder="Try a company, a country or a topic" autocomplete="off"></form>
+<div class="chips" role="group" aria-label="Filter by section">${chips}</div>
+<p class="search-status" aria-live="polite" data-search-status></p>
+<div class="search-ideas" data-search-ideas><p class="label-note">Popular searches</p><div class="chips">${ideas}</div></div>
+<div class="search-results" data-search-results><noscript><p class="empty">Search needs JavaScript. You can browse the <a href="${u('archive/')}">archive</a> instead.</p></noscript></div>
+<script src="${u(`assets/search.js?v=${buildId}`)}" defer></script>`,
+    });
+  }
+
   function aboutPage({ sourceNames }) {
     return layout({
       title: 'About',
@@ -509,5 +534,5 @@ ${paths.map((x) => `<url><loc>${esc(abs(x.path))}</loc>${x.lastmod ? `<lastmod>$
 `;
   }
 
-  return { frontPage, sectionPage, storyPage, notePage, notesIndex, wirePage, archiveIndex, archiveDay, aboutPage, notFoundPage, rss, sitemap, abs, u };
+  return { frontPage, sectionPage, storyPage, notePage, notesIndex, wirePage, archiveIndex, archiveDay, aboutPage, searchPage, notFoundPage, rss, sitemap, abs, u };
 }
