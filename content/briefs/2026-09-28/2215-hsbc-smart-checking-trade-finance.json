@@ -1,0 +1,12 @@
+{
+  "id": "2026-09-28-hsbc-smart-checking-trade-finance",
+  "publishedAt": "2026-09-28T22:10:00+07:00",
+  "section": "banking",
+  "company": "HSBC",
+  "headline": "HSBC rolls out AI tool to speed up trade finance document checks",
+  "body": "HSBC launched Smart Checking, an AI tool that extracts and classifies data from trade finance documents to standardize how they are processed, traced and reviewed. The bank handles more than 1 million documentary presentations a year, some running hundreds of pages, and says the tool is already live in the UK, Hong Kong and the UAE with a global rollout planned.",
+  "note": "Trade finance is paperwork-heavy, and checking a single presentation can take hours, so shaving that time off speeds up when exporters get paid. It is a narrow back-office task, the kind of AI deployment likely to spread faster than customer-facing agents.",
+  "sources": [
+    { "name": "PYMNTS.com", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/hsbc-deploys-ai-to-enhance-trade-finance-operations/" }
+  ]
+}

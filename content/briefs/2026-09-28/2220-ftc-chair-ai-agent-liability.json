@@ -1,0 +1,12 @@
+{
+  "id": "2026-09-28-ftc-chair-ai-agent-liability",
+  "publishedAt": "2026-09-28T22:11:00+07:00",
+  "section": "rules",
+  "tags": ["agentic-ai"],
+  "headline": "FTC chair says companies can't blame AI agents for their own actions",
+  "body": "FTC Chairman Andrew Ferguson told a Reuters event on September 25 that giving software the power to act does not make the software responsible when something goes wrong. He said regulators will look at the instructions, permissions and controls a company built into its AI agents rather than treating a bad outcome as the agent's fault, and that he prefers applying existing law before writing new AI-specific rules.",
+  "note": "This lands the same message banks have been pre-empting on their own: whoever deploys the agent owns the outcome. It reinforces the case for the audit trails and permission logs banks and card networks are already building into agentic commerce.",
+  "sources": [
+    { "name": "PYMNTS.com", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ftc-chair-says-companies-cannot-blame-ai-agents-for-their-actions/" }
+  ]
+}

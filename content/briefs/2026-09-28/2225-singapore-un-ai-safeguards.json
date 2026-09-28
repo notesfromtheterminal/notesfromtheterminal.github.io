@@ -1,0 +1,12 @@
+{
+  "id": "2026-09-28-singapore-un-ai-safeguards",
+  "publishedAt": "2026-09-28T22:12:00+07:00",
+  "section": "sea",
+  "tags": ["rules"],
+  "headline": "Singapore calls for a UN framework on AI safeguards",
+  "body": "Foreign Minister Vivian Balakrishnan told the UN General Assembly on September 26 that Singapore wants countries to consider a UN framework convention on AI safeguards, with common methods for assessing AI risks, testing models and reporting serious incidents. He said human beings must remain in control and accountable, and that Singapore will share its own AI governance and testing tools with other countries, joining Finland and Norway in pushing for tighter global standards.",
+  "note": "Singapore, home to MAS and the region's financial hub, is trying to shape global AI rules rather than wait for them. If a UN framework moves forward, expect its risk-assessment and incident-reporting language to feed back into how MAS and other SEA regulators supervise agentic AI in finance.",
+  "sources": [
+    { "name": "Fintech News Singapore", "url": "https://fintechnews.sg/137803/ai/singapore-un-ai-safeguards-framework/" }
+  ]
+}
