@@ -9,5 +9,6 @@
   "tzLabel": "WIB",
   "wireWindowHours": 72,
   "riverWindowHours": 72,
-  "wireEveryMinutes": 5
+  "wireEveryMinutes": 5,
+  "goatcounter": "https://notesfromthetermina.goatcounter.com/count"
 }

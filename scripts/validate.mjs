@@ -108,8 +108,11 @@ export async function loadContent({ now = Date.now() } = {}) {
       e.push('body must be 1-8 non-empty paragraphs');
     if (n.lead != null && !briefIds.has(n.lead)) e.push(`lead ${n.lead} is not a published brief`);
     for (const id of n.stories ?? []) if (!briefIds.has(id)) e.push(`story ${id} is not a published brief`);
-    for (const [k, v] of [['title', n.title], ['dek', n.dek], ...(n.body ?? []).map((x, i) => [`body[${i}]`, x])])
-      if (typeof v === 'string') e.push(...styleIssues(k, v));
+    for (const [k, v] of [['title', n.title], ['dek', n.dek], ...(n.body ?? []).map((x, i) => [`body[${i}]`, x])]) {
+      if (typeof v !== 'string') continue;
+      e.push(...styleIssues(k, v));
+      if (/\[\[[^\]]*\]\]/.test(v)) e.push(`${k}: unfilled placeholder [[...]]; fill it in or remove it before publishing`);
+    }
     if (e.length) errors.push(...e.map((m) => `${where}: ${m}`));
     else if (!n.draft) notes.push(n);
   }

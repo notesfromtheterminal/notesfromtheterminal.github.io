@@ -138,6 +138,7 @@ export function makeTemplates(ctx) {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Schibsted+Grotesk:wght@500;600;700;800;900&display=swap">
 <link rel="stylesheet" href="${u(`assets/site.css?v=${buildId}`)}">
+${site.goatcounter ? `<script data-goatcounter="${esc(site.goatcounter)}" async src="https://gc.zgo.at/count.js"></script>` : ''}
 ${ld}
 </head>
 <body data-page="${pageKind}" data-latest-brief="${esc(latestBriefAt ?? '')}" data-wire-updated="${esc(wireUpdatedAt ?? '')}">
@@ -159,7 +160,7 @@ ${body}
 <footer class="site-footer"><div class="wrap">
 <div class="footer-top">${wordmark(' wordmark-inverse')}<p class="footer-tagline">${esc(site.tagline)}</p></div>
 <nav class="footer-links" aria-label="Footer"><a href="${u('about/')}">About &amp; how it works</a><a href="${u('archive/')}">Archive</a><a href="${u('notes/')}">Morning Notes</a><a href="${u('wire/')}">The Wire</a><a href="${u('feed.xml')}">RSS</a><a href="https://x.com/${esc(site.x)}" target="_blank" rel="noopener">X @${esc(site.x)}</a>${site.substackUrl ? `<a href="${esc(site.substackUrl)}">Substack</a>` : ''}</nav>
-<p class="disclosure">Briefs are written with AI from the linked reporting and checked against those sources before they publish. The wire is an automated feed of other publishers' headlines, linked to the original. Prices are delayed. Nothing here is investment advice.</p>
+<p class="disclosure">Briefs are written with AI from the linked reporting and checked against those sources before they publish. The wire is an automated feed of other publishers' headlines, linked to the original. Nothing here is investment advice.</p>
 <p class="copyright">© ${now.getFullYear()} ${esc(site.name)}</p>
 </div></footer>
 <div class="fresh" hidden><button type="button" data-refresh><span class="pulse" aria-hidden="true"></span>New stories · Refresh</button></div>
@@ -463,28 +464,28 @@ ${shareBar(n.title, path)}
     });
   }
 
-  function aboutPage({ sourceNames }) {
+  function aboutPage() {
+    const x = `<a href="https://x.com/${esc(site.x)}" target="_blank" rel="noopener">@${esc(site.x)}</a>`;
     return layout({
       title: 'About',
-      description: `What ${site.name} is and how it's made.`,
+      description: 'One place for AI in finance: the stories that change how banks, lenders, insurers and payment companies work, without the noise.',
       path: 'about/',
       body: `<article class="prose">
 <p class="kicker">About</p>
-<h1 class="page-title">A live desk for AI in finance</h1>
-<p class="lede">${esc(site.name)} tracks what banks, lenders, insurers and payment companies are actually doing with AI, with a Southeast Asia desk that starts in Indonesia, plus the model and lab news that moves the whole field.</p>
-<p>It's run from Jakarta by <a href="https://x.com/${esc(site.x)}" target="_blank" rel="noopener">@${esc(site.x)}</a>. Follow along on X.</p>
-<h2>How it works</h2>
-<ol class="how">
-<li><strong>The wire.</strong> About every ${esc(String(site.wireEveryMinutes ?? 20))} minutes an automated feed pulls headlines from ${esc(String(ctx.sourceCount))} publishers and filters them for AI in finance. Every headline links straight to the original story. Nothing is copied.</li>
-<li><strong>The briefs.</strong> Through the day, the desk picks the stories that matter and writes a short brief: what happened, the number that counts, and a note on why it matters. Briefs are written with AI (Claude) from the linked reporting, and every figure is checked against those sources before it publishes.</li>
-<li><strong>The Morning Note.</strong> Every morning at 07:00 ${TZ}, one note connects the day's stories.</li>
-</ol>
+<h1 class="page-title">One place for AI in finance</h1>
+<p class="lede">${esc(site.name)} is one place to follow what AI is actually changing in finance: inside banks, lenders, insurers and payment companies, with a desk for Southeast Asia.</p>
+<p>Most financial news covers everything at once, so the AI stories that matter to people working in finance get buried between market moves, politics and gadget launches. So the idea here is simple: fewer stories, picked because they change how finance works, each one short enough to read in under a minute, with a note on why it matters.</p>
+<h2>What you will find here</h2>
+<ul class="how">
+<li><strong>The briefs.</strong> The day's AI-in-finance stories, sorted into Banking &amp; Lending, Payments &amp; Fintech, the SEA Desk, Models &amp; Labs, Deals, and Rules &amp; Regulators.</li>
+<li><strong>The Morning Note.</strong> One note each morning that connects the stories worth your attention.</li>
+<li><strong>The Wire.</strong> Live headlines, linked straight to the original reporting.</li>
+</ul>
+<p>Follow along on X at ${x}.</p>
 <h2>Corrections</h2>
-<p>Spot a mistake? Reply to <a href="https://x.com/${esc(site.x)}" target="_blank" rel="noopener">@${esc(site.x)}</a> on X. Fixes are made on the brief itself, with a correction line.</p>
+<p>Spot a mistake? Reply to ${x} on X, and the brief gets fixed with a correction line.</p>
 <h2>Not advice</h2>
-<p>Nothing here is investment advice. Ticker prices are delayed and come from free public sources.</p>
-<h2>Sources on the wire</h2>
-<p class="source-list">${sourceNames.map(esc).join(' · ')}, plus trusted publishers found through Google News.</p>
+<p>Nothing here is investment advice.</p>
 </article>`,
     });
   }
