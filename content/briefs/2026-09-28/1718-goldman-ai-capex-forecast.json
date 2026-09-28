@@ -1,0 +1,14 @@
+{
+  "id": "2026-09-28-goldman-ai-capex-forecast",
+  "publishedAt": "2026-09-28T17:18:00+07:00",
+  "section": "deals",
+  "tags": ["models"],
+  "company": "Goldman Sachs",
+  "headline": "Goldman sees Big Tech AI spending topping Wall Street's own estimates",
+  "body": "Goldman Sachs strategists led by Ryan Hammond forecast Amazon, Alphabet, Microsoft, Oracle and Meta will lift AI infrastructure spending 54% to $1.2 trillion in 2027, above the Street's $1.1 trillion consensus, after an estimated $800 billion this year. The bank says the outlay would be the largest technology investment cycle relative to GDP since 19th century railroad building, and that the five companies would need roughly $300 billion a year in AI revenue to break even on it.",
+  "note": "Goldman is both a forecaster and a lender into this buildout, so a number this far above consensus is a signal the debt and equity backing hyperscaler capex has room to grow further before anyone calls it overextended.",
+  "figure": { "value": "$1.2T", "label": "Goldman's 2027 hyperscaler AI capex forecast" },
+  "sources": [
+    { "name": "PYMNTS.com", "url": "https://www.pymnts.com/big-tech/2026/goldman-sachs-projects-big-tech-ai-infrastructure-spending-to-hit-1-2-trillion-in-2027/" }
+  ]
+}

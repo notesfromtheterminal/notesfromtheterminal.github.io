@@ -1,0 +1,17 @@
+{
+  "id": "2026-09-28-remcontrol-ai-banking-trojan",
+  "publishedAt": "2026-09-28T17:16:00+07:00",
+  "section": "banking",
+  "tags": ["fraud"],
+  "star": true,
+  "company": "Group-IB",
+  "headline": "Threat researchers find a banking trojan whose phishing screens were written by AI",
+  "body": "Group-IB says it uncovered RemControl, an Android trojan sold as malware-as-a-service that overlays fake screens on more than 30 banking apps across Italy, France, Spain, Poland, Portugal, Canada and Gulf states, streaming the victim's screen and logging keystrokes. Researchers found a verbatim AI assistant reply embedded in a live phishing page, evidence the operators, tracked as UNKK, used an AI coding assistant to build the panel and overlays by describing the project to it as a parental-control app.",
+  "note": "Banks' own fraud teams are racing to deploy AI defenses while the same tools are lowering the skill bar for the criminals building the attacks, so the AI arms race in fraud now runs on both sides of the ledger.",
+  "sources": [
+    {
+      "name": "Group-IB",
+      "url": "https://www.group-ib.com/blog/remcontrol-android-banking-trojan/"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "2026-09-28-natwest-voice-spending-insights",
+  "publishedAt": "2026-09-28T17:14:00+07:00",
+  "section": "banking",
+  "tags": ["fraud"],
+  "company": "NatWest",
+  "headline": "NatWest trials a voice AI that talks customers through their spending",
+  "body": "NatWest Group is trialling a generative audio-visual tool, built on its own small language model, that lets Royal Bank of Scotland customers ask about their spending in natural voice or text and get interactive graphs back. Cora, NatWest's digital assistant, also gained a Fraud Triage Agent that has handled about 19,000 conversations routing customers who report suspicious card transactions to the right team.",
+  "note": "A homegrown model instead of a bought-in chatbot signals banks want to own the AI layer that sits on top of customer transaction data, not rent it from a vendor who also serves their rivals.",
+  "sources": [
+    {
+      "name": "NatWest Group",
+      "url": "https://www.natwestgroup.com/news-and-insights/news-room/press-releases/2026/natwest-group-first-to-unveil-next-generation-of-ai-tools-to-hel.html"
+    }
+  ]
+}
