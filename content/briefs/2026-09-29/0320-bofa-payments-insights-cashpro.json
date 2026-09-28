@@ -1,0 +1,14 @@
+{
+  "id": "2026-09-29-bofa-payments-insights-cashpro",
+  "publishedAt": "2026-09-29T03:20:00+07:00",
+  "section": "banking",
+  "tags": ["payments"],
+  "company": "Bank of America",
+  "figure": { "value": "213M", "label": "payments CashPro handled in H1 2026, up 10% year on year" },
+  "headline": "Bank of America adds AI benchmarking to its CashPro treasury platform",
+  "body": "Bank of America launched Payments Insights, an AI-powered addition to CashPro Data Intelligence that gives corporate and commercial clients peer benchmarking and visualizations on payment efficiency, cross-border flows and working-capital performance. The bank says CashPro handled 213 million payments in the first half of 2026, up 10% from a year earlier.",
+  "note": "Treasury teams have had their own payment data for years; what they lacked was a peer benchmark to know if their process is actually slow. Folding that into an existing platform, rather than selling separate analytics, is how a large bank makes an AI feature feel like table stakes.",
+  "sources": [
+    { "name": "Bank of America Newsroom", "url": "https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/09/bank-of-america-launches-payments-insights-for-cashpro--clients.html" }
+  ]
+}

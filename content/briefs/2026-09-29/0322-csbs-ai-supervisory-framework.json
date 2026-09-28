@@ -1,0 +1,14 @@
+{
+  "id": "2026-09-29-csbs-ai-supervisory-framework",
+  "publishedAt": "2026-09-29T03:22:00+07:00",
+  "section": "rules",
+  "tags": ["banking"],
+  "company": "CSBS",
+  "headline": "State bank regulators publish their own AI examination playbook",
+  "body": "The Conference of State Bank Supervisors released an AI Supervisory Framework on September 16 to help state examiners review AI use at state-chartered banks and state-licensed nonbank financial institutions, covering governance, AI inventories, generative AI, third-party risk and consumer protection. CSBS president Brandon Milhorn said AI \"provides a powerful new tool for financial institutions to improve services, protect consumers, and increase operating efficiency.\"",
+  "note": "The OCC, Federal Reserve and FDIC updated joint model-risk guidance in April but left generative and agentic AI out of scope, calling it too new to pin down. States just filled that gap themselves, so a state-chartered bank's AI exam can now be more specific than a federally chartered peer's.",
+  "sources": [
+    { "name": "CSBS", "url": "https://www.csbs.org/newsroom/csbs-announces-ai-supervisory-framework" },
+    { "name": "PYMNTS.com", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/state-regulators-give-banks-an-ai-exam-playbook-as-federal-gap-persists/" }
+  ]
+}

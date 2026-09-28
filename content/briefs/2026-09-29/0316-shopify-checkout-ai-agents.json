@@ -1,0 +1,13 @@
+{
+  "id": "2026-09-29-shopify-checkout-ai-agents",
+  "publishedAt": "2026-09-29T03:16:00+07:00",
+  "section": "payments",
+  "tags": ["models"],
+  "company": "Shopify",
+  "headline": "Shopify opens checkout to browser-based AI shopping agents",
+  "body": "Shopify extended its WebMCP standard with three new tools, get_checkout, update_checkout and complete_checkout, letting an AI agent read a cart, change details like address or delivery, and submit a purchase with the buyer's authorization instead of scraping the page. The rollout covers all eligible Shopify merchants, with Meta's Muse and Instinct AI named as early agent partners.",
+  "note": "This gives agents a structured door into checkout instead of a screen to fake being a shopper on. It moves the agentic commerce question from whether agents can buy to who is liable when one gets the order wrong, the gap last week's bank consortium principles were trying to close.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/" }
+  ]
+}

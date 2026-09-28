@@ -1,0 +1,15 @@
+{
+  "id": "2026-09-29-banca-ifis-ai-voice-fraud",
+  "publishedAt": "2026-09-29T03:18:00+07:00",
+  "section": "banking",
+  "tags": ["fraud"],
+  "company": "Banca Ifis",
+  "headline": "Milan prosecutors find a second AI voice-cloning fraud, this time at Banca Ifis",
+  "figure": { "value": "€24M", "label": "transferred after the AI-assisted fraud" },
+  "body": "A Banca Ifis manager authorized about 24 million euros in transfers in May after a series of fraudulent emails and a cloned voice, the same method used weeks later against Fideuram, according to Ansa. About 20 million euros were recovered after the money was traced through Spain, Singapore, Hong Kong and Bahrain and seized in Barcelona; prosecutors have opened a third, smaller case worth about 2 million euros.",
+  "note": "Milan's prosecutors are now treating AI-voice fraud against bank staff as a caseload, not an isolated incident. That argues for callback verification and a cooling-off period on any large wire authorized only by phone, message or email, at any bank, not just the ones already hit.",
+  "sources": [
+    { "name": "Ansa.it", "url": "https://www.ansa.it/sito/notizie/cronaca/2026/09/25/truffa-da-395-milioni-allex-capo-di-fideuram-un-indagato_f747847d-aaa5-4f5f-9bee-1d476b6bea1e.html" },
+    { "name": "beBankers", "url": "https://www.bebankers.it/fideuram-e-banca-ifis-le-truffe-corrono-sulla-voce-dellintelligenza-artificiale/" }
+  ]
+}
