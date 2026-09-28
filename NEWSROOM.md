@@ -41,6 +41,8 @@ Rules of thumb:
 - Every number, name, date and quote must appear in a source you opened during this run. Never write figures from a headline alone unless two independent outlets carry them.
 - If a source is blocked (paywall, Cloudflare, bot check), do not try to get around it. Find a second outlet or the company's own release. If you can't verify it, skip it.
 - Attribute claims: "the bank estimates", "OpenAI says", "the union alleged". A company's marketing claim is never stated as fact.
+- Anything attributed to a party ("Nvidia says", "the regulator said") must appear in that party's own words in a source listed on the brief. Never carry a claim over from a different article into a sentence attributed to someone else.
+- Source quality: lead with the primary source (the company's release, the regulator's statement, the filing) and back it with an established outlet (see `config/publishers.json`). Aggregators and content farms (for example Archyde, PressNewsAgency, Crypto Briefing) are never a brief's source; if they are the only corroboration, find a better one or skip the story.
 - Market moves: use the source's figure and its framing (intraday or close). If sources disagree, use the safe bound ("more than 2.5%").
 - Layoffs, lawsuits and fraud allegations: report only what was said on the record, by whom, and where (hearing, filing, statement).
 - If a published brief turns out to be wrong, fix the text and add `"correction"` and `"updatedAt"`. Never delete a brief quietly.
@@ -55,7 +57,7 @@ House style, enforced by `npm run validate` where a machine can check it:
 - **Figure:** only when one number is the story. Write negatives with a leading `-`; the site renders a true minus.
 - No em dashes. Use commas, colons or full stops.
 - Never use: "dive into", "game-changing", "straightforward", "leverage" as a verb, "synergize", "circle back", "touch base", "furthermore", "it could be argued".
-- Avoid the "It's not X, it's Y" formula and runs of short staccato sentences. Vary sentence length and connect ideas with "so", "because", "for example".
+- Avoid the "It's not X, it's Y" formula and its cousins ("X rather than Y", "it does not panic, it just executes"). Use a contrast at most once a day across all notes, not in every note. Avoid runs of short staccato sentences; vary sentence length and connect ideas with "so", "because", "for example".
 - Name regulators and explain them on first mention: "OJK, Indonesia's financial regulator", "MAS, Singapore's central bank", "Bank Indonesia (BI)".
 - US spelling. "$350 million" in body text; "$3.5B" is fine in a figure.
 - No first person in briefs. Never copy article text: at most one short quote (under 15 words) per brief, in quotation marks and attributed.

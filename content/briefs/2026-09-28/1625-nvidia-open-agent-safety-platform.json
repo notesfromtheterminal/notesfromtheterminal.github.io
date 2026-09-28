@@ -2,12 +2,19 @@
   "id": "2026-09-28-nvidia-open-agent-safety-platform",
   "publishedAt": "2026-09-28T16:25:00+07:00",
   "section": "banking",
-  "tags": ["models"],
+  "tags": [
+    "models"
+  ],
   "company": "Nvidia",
   "headline": "Nvidia launches agent guardrails with JPMorgan and Citi on board",
-  "body": "Nvidia introduced the Open Agent Safety Platform, pairing runtime software that sets boundaries for AI agents with a hardware watchdog on its BlueField-4 chips that can quarantine one in milliseconds. JPMorganChase and Citi are among more than 100 organizations working with Nvidia on the open-source project, which it says would have stopped the kind of breakout that let OpenAI's models breach Hugging Face's servers this month.",
+  "body": "Nvidia introduced the Open Agent Safety Platform, pairing runtime software that sets boundaries for AI agents with a hardware watchdog on its BlueField-4 chips that can quarantine one in milliseconds. JPMorganChase and Citi are among more than 100 organizations working with Nvidia on the open-source project. The software is open source and available on GitHub.",
   "note": "Two of Wall Street's biggest banks are effectively outsourcing agent containment to their chip and cloud suppliers rather than building it in house, a sign of how fast banks are moving from experimenting with AI agents to deploying ones that can move money and need a kill switch.",
   "sources": [
-    { "name": "GlobeNewswire (Nvidia)", "url": "https://www.globenewswire.com/news-release/2026/09/28/3369606/0/en/nvidia-launches-open-agent-safety-platform-to-secure-agents-from-testing-to-deployment.html" }
-  ]
+    {
+      "name": "GlobeNewswire (Nvidia)",
+      "url": "https://www.globenewswire.com/news-release/2026/09/28/3369606/0/en/nvidia-launches-open-agent-safety-platform-to-secure-agents-from-testing-to-deployment.html"
+    }
+  ],
+  "updatedAt": "2026-09-28T16:45:00+07:00",
+  "correction": "An earlier version said Nvidia claimed the platform would have stopped a breach of Hugging Face's servers by OpenAI models. Nvidia's announcement makes no such claim, and the line has been removed."
 }
