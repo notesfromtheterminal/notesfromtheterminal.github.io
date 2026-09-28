@@ -7,7 +7,7 @@
   ],
   "company": "Nvidia",
   "headline": "Nvidia launches agent guardrails with JPMorgan and Citi on board",
-  "body": "Nvidia introduced the Open Agent Safety Platform, pairing runtime software that sets boundaries for AI agents with a hardware watchdog on its BlueField-4 chips that can quarantine one in milliseconds. JPMorganChase and Citi are among more than 100 organizations working with Nvidia on the open-source project. The software is open source and available on GitHub.",
+  "body": "Nvidia introduced the Open Agent Safety Platform, pairing runtime software that sets boundaries for AI agents with a hardware watchdog on its BlueField-4 chips that can quarantine one in milliseconds. JPMorganChase and Citi are among more than 100 organizations working with Nvidia on the open-source project. The software is available on GitHub.",
   "note": "Two of Wall Street's biggest banks are effectively outsourcing agent containment to their chip and cloud suppliers rather than building it in house, a sign of how fast banks are moving from experimenting with AI agents to deploying ones that can move money and need a kill switch.",
   "sources": [
     {
