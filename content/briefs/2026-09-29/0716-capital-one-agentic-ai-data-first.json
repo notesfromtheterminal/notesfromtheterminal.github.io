@@ -1,0 +1,13 @@
+{
+  "id": "2026-09-29-capital-one-agentic-ai-data-first",
+  "publishedAt": "2026-09-29T07:16:00+07:00",
+  "section": "banking",
+  "tags": ["models"],
+  "company": "Capital One",
+  "headline": "Capital One says agentic AI lives or dies on data plumbing",
+  "body": "Capital One vice president of enterprise AI Rashmi Shetty said the bank treats agentic AI as an end-to-end system, not a model choice, leaning on governed data pipelines, sandbox testing, observability of agent actions and human review for high-risk steps. The bank's Chat Concierge multi-agent tool has been in production for more than two years helping customers shop for cars.",
+  "note": "The lesson from a bank that has run agents in production the longest: the hard part is not picking a model but building the data lineage and guardrails around it, which is the work still missing at banks racing to bolt agents onto legacy pipelines.",
+  "sources": [
+    { "name": "Banking Dive", "url": "https://www.bankingdive.com/news/capital-one-agentic-ai-strategy/831461/" }
+  ]
+}

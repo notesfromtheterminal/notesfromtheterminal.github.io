@@ -1,0 +1,13 @@
+{
+  "id": "2026-09-29-anthropic-sonnet-5-5-cheaper",
+  "publishedAt": "2026-09-29T07:14:00+07:00",
+  "section": "models",
+  "company": "Anthropic",
+  "headline": "Anthropic ships a cheaper Sonnet that nearly matches Opus",
+  "body": "Anthropic released Claude Sonnet 5.5, which it says runs more than 30% faster and costs up to 30% less per task than Sonnet 5, at the same $2-per-million-input, $10-per-million-output pricing. On benchmarks such as GDPval-AA and OSWorld 2.1, Sonnet 5.5 scores within a few points of the larger Opus 5.5 model.",
+  "note": "Banks and fintechs running Claude at scale for coding, document work and agents get most of a flagship model's capability at mid-tier pricing, which lowers the cost floor for the agentic pilots already spreading across back-office and customer-service work.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/" },
+    { "name": "The Decoder", "url": "https://www.the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task/" }
+  ]
+}

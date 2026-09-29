@@ -1,0 +1,13 @@
+{
+  "id": "2026-09-29-amlc-philippines-ai-financial-crime",
+  "publishedAt": "2026-09-29T07:18:00+07:00",
+  "section": "sea",
+  "tags": ["rules"],
+  "company": "AMLC",
+  "headline": "Philippine anti-money laundering body tells banks to prove AI actually works",
+  "body": "The Anti-Money Laundering Council's executive director, Ronel Buenaventura, said banks using AI to fight financial crime must be able to explain and audit how the systems work, from the data used to how decisions are checked, and show the tools actually help detect or prevent crime rather than just speed up compliance work. He said boards must receive and act on risks the technology flags, and human review stays mandatory.",
+  "note": "The AMLC is doing what US federal banking regulators have so far avoided: setting explicit explainability and audit requirements for AI-driven compliance tools, ahead of the broader agentic AI rollout Philippine banks are only starting.",
+  "sources": [
+    { "name": "Philstar.com", "url": "https://www.philstar.com/business/2026/09/29/2559563/amlc-banks-show-ai-helps-curb-financial-crime" }
+  ]
+}
