@@ -13,7 +13,11 @@ const sectionsCfg = await readJSON(p('config', 'sections.json'));
 const sourcesCfg = await readJSON(p('config', 'sources.json'));
 const wire = await readJSON(p('data', 'wire.json'), { updatedAt: null, items: [] });
 const ticker = await readJSON(p('data', 'ticker.json'), { updatedAt: null, quotes: [] });
-const { briefs, notes, errors, warnings } = await loadContent();
+const { briefs, notes: allNotes, errors, warnings } = await loadContent();
+// A Morning Note merged the night before stays off every page, feed and card until
+// its publishedAt (07:00 WIB); the 5-minute rebuild then releases it.
+const notes = allNotes.filter((n) => Date.parse(n.publishedAt) <= Date.now());
+if (notes.length < allNotes.length) console.log(`hold  ${allNotes.length - notes.length} note(s) until publishedAt`);
 
 for (const w of warnings) console.log(`warn  ${w}`);
 for (const e of errors) console.log(`skip  ${e}`);
