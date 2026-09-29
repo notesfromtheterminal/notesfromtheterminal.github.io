@@ -1,0 +1,13 @@
+{
+  "id": "2026-09-29-ecb-digital-euro-ai-agents",
+  "publishedAt": "2026-09-29T22:14:00+07:00",
+  "section": "rules",
+  "tags": ["payments"],
+  "company": "European Central Bank",
+  "headline": "ECB opens a track for AI agents to pay with the digital euro",
+  "body": "The European Central Bank is calling for merchants, payment service providers, fintechs and researchers to apply by November 9 for a new round of its digital euro innovation platform. One workstream covers AI in payments, including AI agents initiating or coordinating transactions on a user's behalf, with workshops running through the first half of 2027.",
+  "note": "Any issuance of a digital euro still needs EU legislation, so this is early. But a central bank formally scoping how AI agents should authorize payments gives banks and payment firms a live reference point for their own agentic commerce rules, ahead of one being set for them.",
+  "sources": [
+    { "name": "European Central Bank", "url": "https://www.ecb.europa.eu/press/intro/news/html/ecb.mipnews260928.en.html" }
+  ]
+}

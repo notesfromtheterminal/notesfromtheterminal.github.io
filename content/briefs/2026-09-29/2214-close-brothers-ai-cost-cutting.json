@@ -1,0 +1,14 @@
+{
+  "id": "2026-09-29-close-brothers-ai-cost-cutting",
+  "publishedAt": "2026-09-29T22:14:00+07:00",
+  "section": "banking",
+  "company": "Close Brothers",
+  "figure": { "value": "-£60.3M", "label": "Close Brothers' FY2026 pre-tax loss" },
+  "headline": "Close Brothers leans on AI as it halves its annual loss",
+  "body": "The UK merchant bank reported a statutory pre-tax loss of £60.3 million for the year to July 31, down from £122.4 million a year earlier, after car finance redress provisions and restructuring costs. It delivered £36 million in annualised cost savings, ahead of a £25 million target, and says continued investment in AI and automation is central to more than £60 million of savings it expects in the coming year.",
+  "note": "Close Brothers is treating AI less as a product feature and more as a cost line: a lender still absorbing motor finance redress charges is betting that automation, not new business, gets it back to profit.",
+  "sources": [
+    { "name": "Investegate", "url": "https://www.investegate.co.uk/announcement/rns/close-brothers-group--cbg/preliminary-results/9795269" },
+    { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/close-brothers-group-h2-earnings-100225681.html" }
+  ]
+}

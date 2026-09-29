@@ -1,0 +1,15 @@
+{
+  "id": "2026-09-29-blue-fire-ai-mizuho-funding",
+  "publishedAt": "2026-09-29T22:14:00+07:00",
+  "section": "sea",
+  "tags": ["deals"],
+  "company": "Blue Fire AI",
+  "figure": { "value": "$9M", "label": "Blue Fire AI's new funding round" },
+  "headline": "Singapore's Blue Fire AI raises $9 million and lands a Mizuho tie-up",
+  "body": "The Singapore capital-markets AI firm closed a $9 million round with Japan's Asset Management One (AM-One), a Mizuho Financial Group unit that manages more than $500 billion. AM-One is taking a minority stake and will distribute equity investment products in Japan built on Blue Fire AI's neuro-symbolic decision engine, which the company says has a seven-year live investment track record.",
+  "note": "A $500 billion asset manager buying into a Singapore AI vendor, rather than just licensing its software, is a stronger signal of trust than a typical vendor deal, and shows Japanese asset managers looking to Southeast Asia for investment-decision technology.",
+  "sources": [
+    { "name": "e27", "url": "https://e27.co/blue-fire-ai-closes-us9m-round-with-am-one-stake-under-mizuho-partnership-20260929/" },
+    { "name": "DealStreetAsia", "url": "https://www.dealstreetasia.com/stories/sg-digest-blue-fire-ai-bags-funding-1982-ventures-backs-us-fintech-firm-496546" }
+  ]
+}
