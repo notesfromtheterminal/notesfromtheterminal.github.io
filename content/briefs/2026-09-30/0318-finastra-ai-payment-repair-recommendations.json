@@ -1,0 +1,14 @@
+{
+  "id": "2026-09-30-finastra-ai-payment-repair-recommendations",
+  "publishedAt": "2026-09-30T03:18:00+07:00",
+  "section": "payments",
+  "tags": ["banking"],
+  "company": "Finastra",
+  "headline": "Finastra adds AI recommendations to fix failed bank payments",
+  "body": "Finastra launched Repair Recommendations on September 29 at Sibos in Miami, a feature inside its AI OperatorAssist platform that flags payment discrepancies across Swift, Fedwire, SEPA, UPI and Nexus, diagnoses the likely cause and suggests a compliant fix for staff to approve. Finastra payments EVP Barry Rodrigues said the tool aims to cut resolution times and reduce errors as payment volumes grow.",
+  "note": "The tool recommends rather than executes, keeping a person in the loop on every fix. That is the shape agentic AI is taking in payments operations for now: vendors are competing on how much of the diagnosis they can automate while leaving the final call, and the compliance exposure, with bank staff.",
+  "sources": [
+    { "name": "PYMNTS.com", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/finastra-deploys-ai-help-banks-tackle-payment-processing-issues/" },
+    { "name": "Financial IT", "url": "https://financialit.net/news/artificial-intelligence/finastra-launches-ai-powered-repair-recommendations-modern-payments" }
+  ]
+}

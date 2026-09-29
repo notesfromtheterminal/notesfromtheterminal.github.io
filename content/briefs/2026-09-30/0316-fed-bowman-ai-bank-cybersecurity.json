@@ -1,0 +1,14 @@
+{
+  "id": "2026-09-30-fed-bowman-ai-bank-cybersecurity",
+  "publishedAt": "2026-09-30T03:16:00+07:00",
+  "section": "rules",
+  "tags": ["banking"],
+  "company": "Federal Reserve",
+  "headline": "Fed's Bowman calls AI both a bank security tool and a growing threat",
+  "body": "Federal Reserve Vice Chair for Supervision Michelle Bowman told a Community Bank Cyber Workshop in Denver on September 29 that AI is speeding up both attacks and defenses: it helps threat actors find vulnerabilities faster, build more convincing social-engineering campaigns and adapt attacks in real time, while also becoming what she called \"a critical component\" of banks' own security measures. She said examiners are tailoring their reviews to account for the cost of these defenses at smaller banks.",
+  "note": "Bowman stopped short of proposing new rules, but the speech puts AI-driven cyber risk into standard supervisory language rather than a footnote. Community banks should expect examiners to start asking pointed questions about AI-specific controls even before any formal guidance catches up.",
+  "sources": [
+    { "name": "Federal Reserve", "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260929a.htm" },
+    { "name": "PYMNTS.com", "url": "https://www.pymnts.com/cybersecurity/2026/federal-reserve-michelle-bowman-says-ai-is-blessing-threat-bank-security/" }
+  ]
+}
