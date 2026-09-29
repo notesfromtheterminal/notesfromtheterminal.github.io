@@ -369,7 +369,7 @@ ${related.length ? `<section><h2 class="label">On the wire</h2><ol class="wire-l
 <p class="kicker">The Morning Note</p>
 <h1 class="mn-title">${esc(n.title)}</h1>
 ${n.dek ? `<p class="mn-dek">${esc(n.dek)}</p>` : ''}
-<p class="byline">By <a href="https://x.com/${esc(site.x)}" target="_blank" rel="noopener">${esc(site.author)}</a> <span class="dot" aria-hidden="true">·</span> ${timeTag(n.publishedAt, `${longDay(n.publishedAt, tz)}, ${timeOf(n.publishedAt, tz)} ${TZ}`)}</p>
+<p class="byline">By <a href="https://x.com/${esc(site.x)}" target="_blank" rel="noopener">${esc(site.author)}</a> <span class="dot" aria-hidden="true">·</span> ${timeTag(n.publishedAt, longDay(n.publishedAt, tz))}</p>
 <div class="mn-body">${n.body.map((para) => `<p>${inline(para)}</p>`).join('\n')}</div>
 ${stories.length ? `<section class="mn-stories" aria-labelledby="mn-s-h"><h2 class="label" id="mn-s-h">The stories behind this note</h2>${topList(stories)}</section>` : ''}
 ${shareBar(n.title, path)}
@@ -380,10 +380,10 @@ ${shareBar(n.title, path)}
   function notesIndex({ notes }) {
     return layout({
       title: 'Morning Notes',
-      description: 'One note every morning at 07:00 WIB connecting the day in AI and finance.',
+      description: 'One note every morning connecting the day in AI and finance.',
       path: 'notes/',
       active: 'notes',
-      body: `<header class="page-head"><p class="kicker">Every morning, 07:00 ${TZ}</p><h1 class="page-title">Morning Notes</h1><p class="page-dek">One note that connects the day's stories in AI and finance.</p></header>
+      body: `<header class="page-head"><p class="kicker">Every morning</p><h1 class="page-title">Morning Notes</h1><p class="page-dek">One note that connects the day's stories in AI and finance.</p></header>
 <div class="index-list">${
         notes.length
           ? notes
@@ -392,7 +392,7 @@ ${shareBar(n.title, path)}
                   `<article class="index-item"><p class="kicker">${esc(longDay(n.publishedAt, tz))}</p><h2 class="index-title"><a href="${u(`notes/${n.date}/`)}">${esc(n.title)}</a></h2>${n.dek ? `<p class="index-dek">${esc(n.dek)}</p>` : ''}</article>`,
               )
               .join('')
-          : '<p class="empty">The first Morning Note lands at 07:00 WIB.</p>'
+          : '<p class="empty">The first Morning Note is on its way.</p>'
       }</div>`,
     });
   }
