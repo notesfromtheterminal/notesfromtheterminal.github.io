@@ -2,7 +2,14 @@
 // wire. Every term must match somewhere (headline counts most); each term also
 // matches as a word prefix, so results appear while typing. No dependencies.
 (() => {
-  const TZ = 'Asia/Jakarta';
+  // Dates follow the reader's own time zone, like the rest of the site.
+  const TZ = (() => {
+    try {
+      return Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC';
+    } catch {
+      return 'UTC';
+    }
+  })();
   const base = document.documentElement.dataset.base || '/';
   const input = document.getElementById('q');
   const out = document.querySelector('[data-search-results]');
@@ -19,6 +26,11 @@
       const [y, m, day] = keyFmt.format(d).split('-');
       return `${Number(day)} ${MONTHS[Number(m) - 1]} ${y}`;
     },
+  };
+  // A Morning Note is dated by its edition (YYYY-MM-DD), the same for every reader.
+  const editionDate = (key) => {
+    const [y, m, day] = String(key).split('-');
+    return `${Number(day)} ${MONTHS[Number(m) - 1]} ${y}`;
   };
   const esc = (s) =>
     String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
@@ -103,7 +115,7 @@
       .slice(0, 50)
       .map((doc) =>
         doc.kind === 'note'
-          ? `<article class="result"><p class="kicker">The Morning Note · ${esc(dateFmt.format(new Date(doc.d)))}</p><h3 class="result-head"><a href="${base}notes/${esc(doc.date)}/">${mark(doc.t, terms)}</a></h3><p class="result-snip">${mark(snippet(`${doc.k} ${doc.b}`.trim(), terms), terms)}</p></article>`
+          ? `<article class="result"><p class="kicker">The Morning Note · ${esc(editionDate(doc.date))}</p><h3 class="result-head"><a href="${base}notes/${esc(doc.date)}/">${mark(doc.t, terms)}</a></h3><p class="result-snip">${mark(snippet(`${doc.k} ${doc.b}`.trim(), terms), terms)}</p></article>`
           : `<article class="result"><p class="kicker">${esc(index.label(doc.s))} · ${esc(dateFmt.format(new Date(doc.d)))}</p><h3 class="result-head"><a href="${base}story/${esc(doc.id)}/">${mark(doc.t, terms)}</a></h3><p class="result-snip">${mark(snippet(doc.b, terms), terms)}</p></article>`,
       )
       .join('');

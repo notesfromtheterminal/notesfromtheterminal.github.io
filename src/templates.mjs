@@ -10,8 +10,8 @@ const SEARCH_ICON =
 
 export function makeTemplates(ctx) {
   const { site, base, siteUrl, sections, sectionMap, now, ticker, wireUpdatedAt, latestBriefAt, buildId, cardIds = new Set() } = ctx;
-  const tz = site.timezone;
-  const TZ = site.tzLabel;
+  const tz = site.timezone; // edition days: Morning Notes and archive pages
+  const D = 'UTC'; // times are built in UTC; app.js rewrites them in the reader's own time zone
 
   const u = (path = '') => base + String(path).replace(/^\/+/, '');
   const abs = (path = '') => siteUrl + u(path);
@@ -23,16 +23,24 @@ export function makeTemplates(ctx) {
   const storyPath = (b) => `story/${b.id}/`;
   const sec = (id) => sectionMap[id] ?? { id, label: id, short: id };
 
-  const todayKey = dayKey(now, tz);
-  const yesterdayKey = dayKey(new Date(now.getTime() - 86400_000), tz);
+  const todayKey = dayKey(now, D);
+  const yesterdayKey = dayKey(new Date(now.getTime() - 86400_000), D);
   const dayLabel = (iso) => {
-    const k = dayKey(iso, tz);
+    const k = dayKey(iso, D);
     if (k === todayKey) return 'Today';
     if (k === yesterdayKey) return 'Yesterday';
-    return longDay(iso, tz).replace(/ \d{4}$/, '');
+    return longDay(iso, D).replace(/ \d{4}$/, '');
   };
-  const clock = (iso) => (dayKey(iso, tz) === todayKey ? timeOf(iso, tz) : shortDay(iso, tz));
-  const timeTag = (iso, text) => `<time datetime="${esc(iso)}">${esc(text ?? timeOf(iso, tz))}</time>`;
+  // Each data-t format has a twin in app.js, which re-renders it in the reader's time zone.
+  const at = {
+    hm: (iso) => timeOf(iso, D),
+    hmz: (iso) => `${timeOf(iso, D)} UTC`,
+    clock: (iso) => (dayKey(iso, D) === todayKey ? timeOf(iso, D) : shortDay(iso, D)),
+    dateline: (iso) => `${longDay(iso, D)}, ${timeOf(iso, D)} UTC`,
+  };
+  const timeTag = (iso, t = 'hm') => `<time datetime="${esc(iso)}" data-t="${t}">${esc(at[t](iso))}</time>`;
+  // Edition dates (Morning Notes, archive days) read the same for every reader.
+  const dateTag = (iso, text) => `<time datetime="${esc(iso)}">${esc(text)}</time>`;
 
   function inline(text) {
     return esc(text)
@@ -73,7 +81,7 @@ export function makeTemplates(ctx) {
     `<a class="share" href="${esc(shareUrl(text, path))}" target="_blank" rel="noopener">${X_ICON}<span>${label}</span></a>`;
 
   const meta = (b, { withTime = false } = {}) =>
-    `<p class="meta">${withTime ? `${timeTag(b.publishedAt, `${timeOf(b.publishedAt, tz)} ${TZ}`)}<span class="dot" aria-hidden="true">·</span>` : ''}${sourcesLine(b)}<span class="dot" aria-hidden="true">·</span>${shareLink(b.headline, storyPath(b))}</p>`;
+    `<p class="meta">${withTime ? `${timeTag(b.publishedAt, 'hmz')}<span class="dot" aria-hidden="true">·</span>` : ''}${sourcesLine(b)}<span class="dot" aria-hidden="true">·</span>${shareLink(b.headline, storyPath(b))}</p>`;
 
   // ---------- shared chrome ----------
 
@@ -89,7 +97,7 @@ export function makeTemplates(ctx) {
         return `<li><span class="t-sym">${esc(q.label)}</span><span class="t-px">${esc(px)}</span><span class="t-chg ${dir}"><span aria-hidden="true">${arrow}</span><span class="sr">${dir === 'down' ? 'down' : dir === 'up' ? 'up' : 'unchanged'} </span>${esc(pct)}</span></li>`;
       })
       .join('');
-    return `<div class="tape" role="region" aria-label="Market ticker, delayed prices"><div class="wrap tape-row"><ul class="tape-list">${items}</ul><span class="tape-meta">Delayed<span class="tape-time"> · ${esc(timeOf(ticker.updatedAt, tz))} ${TZ}</span></span></div></div>`;
+    return `<div class="tape" role="region" aria-label="Market ticker, delayed prices"><div class="wrap tape-row"><ul class="tape-list">${items}</ul><span class="tape-meta">Delayed<span class="tape-time"> · ${timeTag(ticker.updatedAt, 'hmz')}</span></span></div></div>`;
   }
 
   function nav(active) {
@@ -144,9 +152,9 @@ ${ld}
 <body data-page="${pageKind}" data-latest-brief="${esc(latestBriefAt ?? '')}" data-wire-updated="${esc(wireUpdatedAt ?? '')}">
 <a class="skip" href="#main">Skip to content</a>
 <div class="utility"><div class="wrap utility-row">
-<p class="u-left"><span class="u-date" data-today>${esc(longDay(now, tz))}</span><span class="dot u-date-dot" aria-hidden="true">·</span><span>Jakarta <span data-clock>${esc(timeOf(now, tz))}</span> ${TZ}</span>${
+<p class="u-left"><span class="u-date" data-today>${esc(longDay(now, D))}</span><span class="dot u-date-dot" aria-hidden="true">·</span><span><span data-clock>${esc(timeOf(now, D))}</span> <span data-zone>UTC</span></span>${
       wireUpdatedAt
-        ? `<span class="dot u-wire-dot" aria-hidden="true">·</span><span class="u-live"><span class="pulse" aria-hidden="true"></span>Wire updated <span data-wire-age data-ago="${esc(wireUpdatedAt)}">${esc(timeOf(wireUpdatedAt, tz))} ${TZ}</span></span>`
+        ? `<span class="dot u-wire-dot" aria-hidden="true">·</span><span class="u-live"><span class="pulse" aria-hidden="true"></span>Wire updated <span data-wire-age data-ago="${esc(wireUpdatedAt)}">${esc(at.hmz(wireUpdatedAt))}</span></span>`
         : ''
     }</p>
 <p class="u-right">${site.substackUrl ? `<a class="btn btn-ghost" href="${esc(site.substackUrl)}">Subscribe</a>` : ''}<a class="btn btn-x" href="${esc(followUrl)}" target="_blank" rel="noopener">${X_ICON}<span>Follow <span class="u-handle">@${esc(site.x)}</span></span></a></p>
@@ -211,7 +219,7 @@ ${meta(b)}
   }
 
   const wireItem = (it) =>
-    `<li class="wire-item" data-section="${esc(it.section)}" data-tags="${esc((it.tags ?? []).join(' '))}">${timeTag(it.publishedAt ?? it.firstSeen, clock(it.publishedAt ?? it.firstSeen))}<div class="wire-text">${ext(it.url, esc(it.title), 'wire-head')}<span class="wire-meta"><span class="wire-src">${esc(it.source)}</span>${
+    `<li class="wire-item" data-section="${esc(it.section)}" data-tags="${esc((it.tags ?? []).join(' '))}">${timeTag(it.publishedAt ?? it.firstSeen, 'clock')}<div class="wire-text">${ext(it.url, esc(it.title), 'wire-head')}<span class="wire-meta"><span class="wire-src">${esc(it.source)}</span>${
       it.also?.length ? `<span class="wire-also" title="Also reported by ${esc(it.also.map((a) => a.source).join(', '))}">+${it.also.length}</span>` : ''
     }<span class="wire-sec">${esc(sec(it.section).short)}</span></span></div></li>`;
 
@@ -227,7 +235,7 @@ ${items.length ? `<ol class="wire-list" data-wire-list data-limit="${limit}" dat
     `<ol class="top-list">${briefs
       .map(
         (b, i) =>
-          `<li><span class="top-n">${i + 1}</span><div><a class="top-head" href="${u(storyPath(b))}">${esc(b.headline)}</a><p class="top-meta">${esc(sec(b.section).short)} · ${timeTag(b.publishedAt, clock(b.publishedAt))}</p></div></li>`,
+          `<li><span class="top-n">${i + 1}</span><div><a class="top-head" href="${u(storyPath(b))}">${esc(b.headline)}</a><p class="top-meta">${esc(sec(b.section).short)} · ${timeTag(b.publishedAt, 'clock')}</p></div></li>`,
       )
       .join('')}</ol>`;
 
@@ -325,7 +333,7 @@ ${wireRail(wire, { section: section.id, title: `Wire: ${section.short}` })}
 <article class="story">
 ${kicker(b, { big: b.star })}
 <h1 class="story-head">${esc(b.headline)}</h1>
-<p class="dateline">${timeTag(b.publishedAt, `${longDay(b.publishedAt, tz)}, ${timeOf(b.publishedAt, tz)} ${TZ}`)}${b.updatedAt ? ` <span class="updated">Updated ${esc(timeOf(b.updatedAt, tz))} ${TZ}</span>` : ''}</p>
+<p class="dateline">${timeTag(b.publishedAt, 'dateline')}${b.updatedAt ? ` <span class="updated">Updated ${timeTag(b.updatedAt, 'hmz')}</span>` : ''}</p>
 ${card ? `<figure class="story-card"><img src="${u(card)}" width="1200" height="630" alt="${esc(cardAlt)}"></figure>` : figure(b)}
 <p class="story-body">${bodyHtml(b)}</p>
 ${note(b)}
@@ -368,7 +376,7 @@ ${related.length ? `<section><h2 class="label">On the wire</h2><ol class="wire-l
 <p class="kicker">The Morning Note</p>
 <h1 class="mn-title">${esc(n.title)}</h1>
 ${n.dek ? `<p class="mn-dek">${esc(n.dek)}</p>` : ''}
-<p class="byline">By <a href="https://x.com/${esc(site.x)}" target="_blank" rel="noopener">${esc(site.author)}</a> <span class="dot" aria-hidden="true">·</span> ${timeTag(n.publishedAt, longDay(n.publishedAt, tz))}</p>
+<p class="byline">By <a href="https://x.com/${esc(site.x)}" target="_blank" rel="noopener">${esc(site.author)}</a> <span class="dot" aria-hidden="true">·</span> ${dateTag(n.publishedAt, longDay(n.publishedAt, tz))}</p>
 <div class="mn-body">${n.body.map((para) => `<p>${inline(para)}</p>`).join('\n')}</div>
 ${stories.length ? `<section class="mn-stories" aria-labelledby="mn-s-h"><h2 class="label" id="mn-s-h">The stories behind this note</h2>${topList(stories)}</section>` : ''}
 ${shareBar(n.title, path)}
