@@ -1,15 +1,16 @@
 {
   "id": "2026-09-28-apollo-ai-agents-bank-run-warning",
   "publishedAt": "2026-09-28T16:21:00+07:00",
+  "updatedAt": "2026-09-29T17:11:00+07:00",
   "section": "banking",
   "tags": ["deposits"],
   "star": true,
   "company": "Apollo",
-  "headline": "Apollo economist warns AI agents could trigger a bank run at machine speed",
-  "body": "Torsten Slok, Apollo's chief economist, wrote in a client note that AI agents could sweep household cash out of checking accounts paying around 0.1 percent into fintech accounts yielding 3.3 to 5 percent, all at once. He said that could drain banks of the cheap deposits they rely on to fund lending, turning slow deposit flight into a synchronized, machine-speed run.",
-  "note": "Digital bank runs so far have depended on people panicking together. An agent doing exactly what it was told, chasing yield continuously, does not panic, it just executes, so a rate gap regulators have long tolerated now reads as a standing vulnerability rather than background noise.",
+  "headline": "Apollo economist warns AI agents could drain banks of cheap deposits",
+  "body": "Torsten Slok, Apollo's chief economist, asked \"Is an agentic bank run coming?\" in a note arguing that AI assistants could soon sweep household cash automatically out of checking accounts paying around 0.1 percent into accounts yielding 3.3 to 5 percent. If every household did that, he said, banks could lose much of the cheap deposit funding they lend from.",
+  "note": "Digital bank runs so far have needed people to panic together. An agent chasing yield needs only the rate gap, so a gap between checking and savings rates that regulators have long tolerated starts to look like a standing risk to deposit funding.",
+  "correction": "An earlier version said Torsten Slok described AI agents moving deposits all at once in a synchronized, machine-speed run. His note does not say that, so those words have been removed, along with a secondary source that used them.",
   "sources": [
-    { "name": "Apollo", "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/is-an-agentic-bank-run-coming" },
-    { "name": "Crypto Briefing", "url": "https://cryptobriefing.com/apollo-economist-ai-agents-bank-runs/" }
+    { "name": "Apollo", "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/is-an-agentic-bank-run-coming" }
   ]
 }

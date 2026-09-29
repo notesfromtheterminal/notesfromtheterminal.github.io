@@ -468,12 +468,12 @@ ${shareBar(n.title, path)}
     const x = `<a href="https://x.com/${esc(site.x)}" target="_blank" rel="noopener">@${esc(site.x)}</a>`;
     return layout({
       title: 'About',
-      description: 'One place for AI in finance: the stories that change how banks, lenders, insurers and payment companies work, without the noise.',
+      description: 'One place for AI in finance, curated to cut the noise: the stories that change how banks, lenders, insurers and payment companies work.',
       path: 'about/',
       body: `<article class="prose">
 <p class="kicker">About</p>
 <h1 class="page-title">One place for AI in finance</h1>
-<p class="lede">${esc(site.name)} is one place to follow what AI is actually changing in finance: inside banks, lenders, insurers and payment companies, with a desk for Southeast Asia.</p>
+<p class="lede">${esc(site.name)} is one place for AI in finance, curated for one mission: following what AI is actually changing inside banks, lenders, insurers and payment companies, with a desk for Southeast Asia.</p>
 <p>Most financial news covers everything at once, so the AI stories that matter to people working in finance get buried between market moves, politics and gadget launches. So the idea here is simple: fewer stories, picked because they change how finance works, each one short enough to read in under a minute, with a note on why it matters.</p>
 <h2>What you will find here</h2>
 <ul class="how">
