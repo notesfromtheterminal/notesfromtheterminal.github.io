@@ -114,7 +114,7 @@ export function makeTemplates(ctx) {
   const wordmark = (cls = '') =>
     `<a class="wordmark${cls}" href="${u('')}" aria-label="${esc(site.name)}, home"><span class="wm-notes">Notes from the</span> <span class="wm-terminal">Terminal</span><span class="cursor" aria-hidden="true"></span></a>`;
 
-  function layout({ title, description, path = '', type = 'website', body, active, jsonLd, pageKind = 'page', image }) {
+  function layout({ title, description, path = '', type = 'website', body, active, jsonLd, pageKind = 'page', image, signup = true }) {
     const fullTitle = title ? `${title} | ${site.name}` : `${site.name}: ${site.tagline}`;
     const desc = description || site.description;
     const ld = jsonLd ? `<script type="application/ld+json">${JSON.stringify(jsonLd).replace(/</g, '\\u003c')}</script>` : '';
@@ -166,6 +166,7 @@ ${tape()}
 ${body}
 </main>
 <footer class="site-footer"><div class="wrap">
+${signup ? signupBox('footer', { compact: true }) : ''}
 <div class="footer-top">${wordmark(' wordmark-inverse')}<p class="footer-tagline">${esc(site.tagline)}</p></div>
 <nav class="footer-links" aria-label="Footer"><a href="${u('about/')}">About</a><a href="${u('archive/')}">Archive</a><a href="${u('notes/')}">Morning Notes</a><a href="${u('wire/')}">The Wire</a><a href="${u('feed.xml')}">RSS</a><a href="https://x.com/${esc(site.x)}" target="_blank" rel="noopener">X @${esc(site.x)}</a>${site.substackUrl ? `<a href="${esc(site.substackUrl)}">Substack</a>` : ''}</nav>
 <p class="copyright">© ${now.getFullYear()} ${esc(site.name)}</p>
@@ -252,6 +253,28 @@ ${n.dek ? `<p class="note-card-dek">${esc(n.dek)}</p>` : ''}
   const shareBar = (text, path) =>
     `<div class="share-bar"><a class="btn btn-x" href="${esc(shareUrl(text, path))}" target="_blank" rel="noopener">${X_ICON}<span>Share on X</span></a><a class="btn btn-ghost" href="${esc(followUrl)}" target="_blank" rel="noopener">Follow @${esc(site.x)}</a></div>`;
 
+  // The Morning Note by email. The form posts straight to Kit, so it works without
+  // JavaScript; app.js upgrades it to an in-page submit with a confirmation line.
+  function signupBox(id, { compact = false } = {}) {
+    if (!site.kitFormId) return '';
+    const action = `https://app.kit.com/forms/${encodeURIComponent(site.kitFormId)}/subscriptions`;
+    const head = compact ? 'Get the Morning Note by email' : 'The AI-in-finance stories that matter, before work';
+    const dek = compact
+      ? 'The AI-in-finance stories that matter, before work. Free, and you can leave anytime.'
+      : 'One short email each morning, readable in under three minutes. Free, and you can leave anytime.';
+    return `<section class="signup${compact ? ' signup-compact' : ''}" aria-labelledby="signup-h-${id}">
+${compact ? '' : '<p class="kicker">The Morning Note, by email</p>'}
+<h2 class="signup-head" id="signup-h-${id}">${head}</h2>
+<p class="signup-dek">${dek}</p>
+<form class="signup-form" action="${esc(action)}" method="post" data-signup>
+<label class="sr" for="signup-email-${id}">Email address</label>
+<input id="signup-email-${id}" type="email" name="email_address" placeholder="Your email" autocomplete="email" required>
+<button type="submit">Subscribe</button>
+</form>
+<p class="signup-status" data-signup-status role="status" aria-live="polite"></p>
+</section>`;
+  }
+
   // ---------- pages ----------
 
   // The phone strip leads with finance news; general AI stays in the wire column.
@@ -264,13 +287,14 @@ ${n.dek ? `<p class="note-card-dek">${esc(n.dek)}</p>` : ''}
     const hero = lead
       ? leadArticle(lead)
       : `<article class="lead lead-empty"><p class="kicker">The desk</p><h1 class="lead-head">The first briefs land shortly</h1><p class="lead-body">The wire is already live: headlines on AI in banking, payments, the labs and Southeast Asia, refreshed through the day.</p></article>`;
-    const side = [n ? noteCard(n) : '', top.length ? `<section class="top" aria-labelledby="top-h"><h2 class="label" id="top-h">Top stories</h2>${topList(top)}</section>` : '']
+    const side = [n ? noteCard(n) : '', signupBox('front'), top.length ? `<section class="top" aria-labelledby="top-h"><h2 class="label" id="top-h">Top stories</h2>${topList(top)}</section>` : '']
       .filter(Boolean)
       .join('\n');
     return layout({
       path: '',
       active: 'home',
       pageKind: 'front',
+      signup: false,
       body: `<section class="live-strip" aria-labelledby="live-h"><h2 class="label" id="live-h">Latest headlines <span class="label-note"><span class="pulse" aria-hidden="true"></span>live</span></h2><ol class="wire-list" data-wire-list data-limit="3" data-exclude="models">${stripItems(wire).map(wireItem).join('')}</ol></section>
 <div class="front${side ? '' : ' front-solo'}">
 <div class="front-lead">${hero}</div>
@@ -314,6 +338,7 @@ ${wireRail(wire, { section: section.id, title: `Wire: ${section.short}` })}
       type: 'article',
       active: b.section,
       pageKind: 'story',
+      signup: false,
       image: card,
       jsonLd: {
         '@context': 'https://schema.org',
@@ -342,6 +367,7 @@ ${b.correction ? `<p class="correction"><strong>Correction:</strong> ${esc(b.cor
         .map((s) => `<li>${ext(s.url, `${esc(s.name)} <span aria-hidden="true">↗</span>`)}</li>`)
         .join('')}</ul></section>
 ${shareBar(b.headline, path)}
+${signupBox('story')}
 </article>
 <aside class="story-aside">
 ${more.length ? `<section><h2 class="label">More in ${esc(sec(b.section).label)}</h2>${topList(more)}</section>` : ''}
@@ -362,6 +388,7 @@ ${related.length ? `<section><h2 class="label">On the wire</h2><ol class="wire-l
       type: 'article',
       active: 'notes',
       pageKind: 'note',
+      signup: false,
       jsonLd: {
         '@context': 'https://schema.org',
         '@type': 'OpinionNewsArticle',
@@ -378,6 +405,7 @@ ${related.length ? `<section><h2 class="label">On the wire</h2><ol class="wire-l
 ${n.dek ? `<p class="mn-dek">${esc(n.dek)}</p>` : ''}
 <p class="byline">By <a href="https://x.com/${esc(site.x)}" target="_blank" rel="noopener">${esc(site.author)}</a> <span class="dot" aria-hidden="true">·</span> ${dateTag(n.publishedAt, longDay(n.publishedAt, tz))}</p>
 <div class="mn-body">${n.body.map((para) => `<p>${inline(para)}</p>`).join('\n')}</div>
+${signupBox('note')}
 ${stories.length ? `<section class="mn-stories" aria-labelledby="mn-s-h"><h2 class="label" id="mn-s-h">The stories behind this note</h2>${topList(stories)}</section>` : ''}
 ${shareBar(n.title, path)}
 </article>`,
@@ -485,7 +513,7 @@ ${shareBar(n.title, path)}
 <h2>What you will find here</h2>
 <ul class="how">
 <li><strong>The briefs.</strong> The day's AI-in-finance stories, sorted into Banking &amp; Lending, Payments &amp; Fintech, the SEA Desk, Models &amp; Labs, Deals, and Rules &amp; Regulators.</li>
-<li><strong>The Morning Note.</strong> One note each morning that connects the stories worth your attention.</li>
+<li><strong>The Morning Note.</strong> One note each morning that connects the stories worth your attention, on the site and by email.</li>
 <li><strong>The Wire.</strong> Live headlines, linked straight to the original reporting.</li>
 </ul>
 <p>Follow along on X at ${x}.</p>

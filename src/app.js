@@ -188,6 +188,40 @@
     }),
   );
 
+  // Newsletter sign-up: submit to Kit in the page. Without JavaScript, or if Kit
+  // can't be reached this way, the form posts to Kit's own page instead.
+  document.querySelectorAll('form[data-signup]').forEach((form) => {
+    const status = form.closest('.signup')?.querySelector('[data-signup-status]');
+    const say = (text, state) => {
+      if (!status) return;
+      status.textContent = text;
+      status.dataset.state = state;
+    };
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const button = form.querySelector('button');
+      button.disabled = true;
+      say('Sending…', 'busy');
+      try {
+        const res = await fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } });
+        const data = await res.json().catch(() => ({}));
+        if (res.ok && data.status === 'success') {
+          form.hidden = true;
+          say('Almost there: check your inbox and confirm your email.', 'ok');
+          window.goatcounter?.count?.({ path: 'newsletter-signup', title: 'Newsletter sign-up', event: true });
+        } else if (data.status === 'quarantined') {
+          form.submit(); // Kit wants a human check; its own page handles that
+        } else {
+          say("That didn't go through. Check the address and try again.", 'error');
+        }
+      } catch {
+        form.submit();
+      } finally {
+        button.disabled = false;
+      }
+    });
+  });
+
   localize();
   document.querySelectorAll('section.river:not(.river-solo)').forEach(regroupRiver);
   document.querySelectorAll('.wire-page').forEach(regroupWirePage);
