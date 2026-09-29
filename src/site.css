@@ -246,7 +246,6 @@ mark { background: #ffe2c2; color: inherit; padding: 0 1px; border-radius: 2px; 
 .footer-tagline { font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: #a1a1aa; }
 .footer-links { display: flex; flex-wrap: wrap; gap: 10px 24px; padding: 20px 0; font-weight: 600; font-size: 14.5px; }
 .footer-links a:hover { color: var(--tape-sym); }
-.disclosure { max-width: 60em; font-family: var(--serif); font-size: 15px; line-height: 1.55; color: #b4b4bb; }
 .copyright { margin-top: 14px; font-family: var(--mono); font-size: 12px; color: #8a8a93; }
 
 /* ---------- live refresh pill ---------- */

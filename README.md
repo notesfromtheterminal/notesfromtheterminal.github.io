@@ -9,9 +9,9 @@ The site has two layers, and neither one pays per story.
 | Layer | What it does | Runs | Cost |
 |---|---|---|---|
 | **The wire** | Pulls headlines from about 30 feeds, filters for AI in finance, tags sections, merges duplicates, fetches delayed quotes | GitHub Actions, every 5 min | Free on a public repo |
-| **The desk** | Claude reads the wire, verifies the stories that matter and writes short briefs; the 07:00 WIB run also drafts the Morning Note | A scheduled Claude Code routine on the owner's Claude plan | Plan usage, no API credits |
+| **The desk** | Reads the wire, verifies the stories that matter and writes short briefs; the morning run also drafts the Morning Note | A scheduled routine, five runs a day | Included in the owner's existing plan |
 
-Briefs publish on their own. The Morning Note never does: the desk pushes it to a `claude/note-YYYY-MM-DD` branch, a workflow opens a pull request with the full text, and merging that pull request is the approval.
+Briefs publish on their own. The Morning Note never does: the desk pushes it to its own branch, a workflow opens a pull request with the full text, and merging that pull request is the approval.
 
 The site itself is static HTML on GitHub Pages. A small script in the page refreshes the clock, the wire rail and a "new stories" prompt without a reload.
 
@@ -43,7 +43,7 @@ npm run serve     # http://localhost:4321
 3. Settings → Actions → General → Workflow permissions: tick **Allow GitHub Actions to create and approve pull requests** (the Morning Note approval flow needs it).
 4. The `Update site` workflow runs on every push and every 5 minutes.
 
-For a custom domain later, add it under Settings → Pages. The build reads `SITE_URL` and `BASE_PATH` from the Pages configuration, so links follow automatically.
+The site runs on its custom domain, [notesfromtheterminal.com](https://notesfromtheterminal.com), set under Settings → Pages. The build reads `SITE_URL` and `BASE_PATH` from the Pages configuration, so links follow automatically.
 
 ## Notes
 

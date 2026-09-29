@@ -159,8 +159,7 @@ ${body}
 </main>
 <footer class="site-footer"><div class="wrap">
 <div class="footer-top">${wordmark(' wordmark-inverse')}<p class="footer-tagline">${esc(site.tagline)}</p></div>
-<nav class="footer-links" aria-label="Footer"><a href="${u('about/')}">About &amp; how it works</a><a href="${u('archive/')}">Archive</a><a href="${u('notes/')}">Morning Notes</a><a href="${u('wire/')}">The Wire</a><a href="${u('feed.xml')}">RSS</a><a href="https://x.com/${esc(site.x)}" target="_blank" rel="noopener">X @${esc(site.x)}</a>${site.substackUrl ? `<a href="${esc(site.substackUrl)}">Substack</a>` : ''}</nav>
-<p class="disclosure">Briefs are written with AI from the linked reporting and checked against those sources before they publish. The wire is an automated feed of other publishers' headlines, linked to the original. Nothing here is investment advice.</p>
+<nav class="footer-links" aria-label="Footer"><a href="${u('about/')}">About</a><a href="${u('archive/')}">Archive</a><a href="${u('notes/')}">Morning Notes</a><a href="${u('wire/')}">The Wire</a><a href="${u('feed.xml')}">RSS</a><a href="https://x.com/${esc(site.x)}" target="_blank" rel="noopener">X @${esc(site.x)}</a>${site.substackUrl ? `<a href="${esc(site.substackUrl)}">Substack</a>` : ''}</nav>
 <p class="copyright">© ${now.getFullYear()} ${esc(site.name)}</p>
 </div></footer>
 <div class="fresh" hidden><button type="button" data-refresh><span class="pulse" aria-hidden="true"></span>New stories · Refresh</button></div>
