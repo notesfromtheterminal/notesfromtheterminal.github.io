@@ -1,0 +1,12 @@
+{
+  "id": "2026-09-29-nasdaq-calypso-agentic-ai",
+  "publishedAt": "2026-09-29T17:18:00+07:00",
+  "section": "banking",
+  "company": "Nasdaq",
+  "headline": "Nasdaq opens a sandboxed AI agent environment inside its Calypso platform",
+  "body": "Nasdaq built a governed operating environment inside its Calypso trading platform that lets banks run AI agents against trading, risk and collateral data with sandboxing and no external data retention. The first capability is a natural-language assistant for querying platform data and documents, and Nasdaq said nearly half of firms it surveyed pointed to manual work as a bottleneck in post-trade operations.",
+  "note": "Banks want agents working their trading desks but not with free rein over the system of record, so wrapping them in the exchange's own sandbox is a template other market infrastructure providers are likely to copy.",
+  "sources": [
+    { "name": "Nasdaq", "url": "https://www.globenewswire.com/news-release/2026/09/29/3370427/6948/en/nasdaq-calypso-launches-agentic-capabilities-to-scale-ai-adoption-across-the-trade-lifecycle.html" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "2026-09-29-mastercard-b2b-analytics-suppliers",
+  "publishedAt": "2026-09-29T17:16:00+07:00",
+  "section": "payments",
+  "company": "Mastercard",
+  "headline": "Mastercard launches AI tool to flag which suppliers will take a card",
+  "body": "Mastercard rolled out Advanced B2B Analytics, which scores corporate suppliers on how likely they are to accept card payments by analyzing accounts payable data and shows the results in dashboards for banks and their clients. Absa Group and Emirates NBD are among the first banks offering the tool to corporate customers.",
+  "note": "B2B card payments lag consumer ones because banks rarely know which suppliers will actually say yes to a card, so a scoring tool turns that guesswork into a sales lead list.",
+  "sources": [
+    { "name": "Fintech News Singapore", "url": "https://fintechnews.sg/138112/ai/mastercard-ai-analytics-supplier-card-payments/" }
+  ]
+}
