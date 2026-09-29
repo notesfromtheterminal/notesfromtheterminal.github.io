@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-29",
+  "publishedAt": "2026-09-29T07:00:00+07:00",
+  "title": "Bank controls were built for human speed, and AI is testing them",
+  "dek": "A voice-cloning fraud caseload in Milan, a warning about an agentic bank run and a burst of new guardrails all point to the gap between how fast AI acts and how fast banks can check it.",
+  "lead": "2026-09-28-apollo-ai-agents-bank-run-warning",
+  "stories": [
+    "2026-09-28-fideuram-ai-voice-cloning-fraud",
+    "2026-09-29-banca-ifis-ai-voice-fraud",
+    "2026-09-28-nvidia-open-agent-safety-platform",
+    "2026-09-28-ftc-chair-ai-agent-liability",
+    "2026-09-29-capital-one-agentic-ai-data-first"
+  ],
+  "body": [
+    "AI is moving into the path of real money, sometimes in a fraudster's hands and soon, perhaps, in a customer's, and the controls banks built for human speed are being tested from both sides. That thread links a fraud caseload in Milan, a warning from one of Wall Street's biggest credit investors and new guardrails from a chipmaker, a regulator and a bank.",
+    "Start with the fraud. Milan prosecutors are now working three cases of AI voice cloning against bank staff. In February, Fideuram's then chairman authorized about 95 million euros (roughly $108 million) in transfers after a WhatsApp message from someone posing as Intesa Sanpaolo's chief executive, and the AI-cloned voice of a well-known law firm's lawyer, convinced him the request was real. Three months later, the same playbook got a Banca Ifis manager to authorize about 24 million euros. Most of the money has since been recovered, but the pattern should worry any compliance officer: a convincing voice and a plausible reason to move fast beat internal controls twice in three months.",
+    "Then there is Apollo's chief economist, Torsten Slok, who asks whether an agentic bank run is coming. AI assistants could soon sweep household cash automatically out of checking accounts paying around 0.1% and into accounts paying 3.3% to 5%, he wrote, and if every household did that, banks could lose much of the cheap deposit funding they lend from. Because an agent can act on a rate gap the moment it sees one, a gap regulators have long tolerated starts to look like a standing vulnerability.",
+    "What connects the fraud and the funding risk is speed: AI can make a fake instruction sound real, and an agent can act on a real one faster than any human check was built for. So the response has to move at the same speed. Nvidia's new Open Agent Safety Platform, with JPMorganChase and Citi among more than 100 organizations working on it, pairs software boundaries with a hardware watchdog that can quarantine a misbehaving agent in milliseconds. FTC Chairman Andrew Ferguson drew the accountability line last Friday: a company cannot blame its agent when something goes wrong, because regulators will look at the instructions, permissions and controls it built in. Capital One's vice president of enterprise AI, Rashmi Shetty, made a similar point from inside a bank: agentic AI succeeds or fails on the governed data, testing and human review around the model.",
+    "So the question for all of us this week is whether the agentic AI plans on our desks come with the callback checks, permission logs and kill switch to match, because the FTC's chair has already said who gets the blame when they do not."
+  ]
+}
