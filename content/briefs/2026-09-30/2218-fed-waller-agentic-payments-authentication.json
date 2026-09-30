@@ -1,0 +1,14 @@
+{
+  "id": "2026-09-30-fed-waller-agentic-payments-authentication",
+  "publishedAt": "2026-09-30T22:18:00+07:00",
+  "section": "rules",
+  "tags": ["payments"],
+  "company": "Federal Reserve",
+  "headline": "Fed's Waller says AI shopping agents need a new kind of authentication",
+  "body": "Federal Reserve Governor Christopher Waller told Sibos 2026 in Miami on September 29 that agentic commerce changes what payment authentication must prove: not just that a buyer is authorized to pay, but that an agent has authority to pay on the buyer's behalf. He pointed to a possible new payment object, a machine-readable record of delegated authority akin to a digital power of attorney, spelling out what an agent can buy, how much it can spend and when that authority expires.",
+  "note": "Waller named authentication, liability and fraud as the barriers holding back agent-delegated shopping. Card networks are already filling the gap with their own credentialing schemes, so banks may end up choosing between competing standards before regulators settle on one.",
+  "sources": [
+    { "name": "Federal Reserve", "url": "https://www.federalreserve.gov/newsevents/speech/waller20260928a.htm" },
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/federal-reserve-waller-says-ai-shopping-changes-what-banks-must-authenticate/" }
+  ]
+}

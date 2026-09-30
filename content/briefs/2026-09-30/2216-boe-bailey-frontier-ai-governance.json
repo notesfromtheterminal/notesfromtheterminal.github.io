@@ -1,0 +1,14 @@
+{
+  "id": "2026-09-30-boe-bailey-frontier-ai-governance",
+  "publishedAt": "2026-09-30T22:16:00+07:00",
+  "section": "rules",
+  "tags": ["banking"],
+  "star": true,
+  "company": "Bank of England",
+  "headline": "Bank of England chief says society must keep the right to intervene on AI",
+  "body": "Bank of England Governor Andrew Bailey wrote on September 30 that frontier AI models increasingly refine their own performance through recursive learning, creating what he called \"a closed loop in which the model progressively governs itself.\" He said \"regulation is not, in my view, the right place to start\": rigorous testing of models before and after deployment must come first, so that authorities keep what he called an unequivocal \"right to intervene.\"",
+  "note": "A central bank governor framing AI oversight as a financial stability question, not just a tech policy one, puts model testing and deployment scrutiny on the table for any bank running frontier models in core systems, ahead of formal rules rather than after them.",
+  "sources": [
+    { "name": "Bank of England", "url": "https://www.bankofengland.co.uk/bank-insights/2026/frontier-ai-and-the-question-of-governance" }
+  ]
+}

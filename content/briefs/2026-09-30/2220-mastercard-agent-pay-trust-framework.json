@@ -1,0 +1,12 @@
+{
+  "id": "2026-09-30-mastercard-agent-pay-trust-framework",
+  "publishedAt": "2026-09-30T22:20:00+07:00",
+  "section": "payments",
+  "company": "Mastercard",
+  "headline": "Mastercard adds AI agent detection and trust signals to Agent Pay",
+  "body": "Mastercard said on September 30 it has added new services to its Agent Pay program: a probability score estimating whether a transaction was initiated by an AI agent, and trust and intelligence signals that flag unusual activity for extra review. The company said the additions combine identity, intent, behavioral and fraud insights to help banks and merchants make authorization decisions.",
+  "note": "Mastercard is building the risk layer for agentic commerce before regulators do, which the Fed's Waller and others say is the industry's biggest open question. Whether banks trust a card network's own scoring of \"is this an agent\" more than building their own is the next fight.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/mastercard/2026/mastercard-deploys-new-risk-insights-to-support-agentic-payments/" }
+  ]
+}
