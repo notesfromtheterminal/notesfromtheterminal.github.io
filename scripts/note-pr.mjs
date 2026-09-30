@@ -35,15 +35,26 @@ const parts = Object.fromEntries(
     .map((x) => [x.type, x.value]),
 );
 const liveAt = `${parts.weekday} ${parts.day} ${parts.month}, ${parts.hour}:${parts.minute} WIB`;
+const editionDay = `${parts.weekday}, ${parts.day} ${parts.month}`;
 const goesLive =
   Date.parse(note.publishedAt) > Date.now()
     ? `**Goes live ${liveAt}** once merged: the site holds it until then. Schedule the email for the same time.`
     : '**Publishes as soon as you merge.**';
 
-// Also on the wire: three fresh finance headlines the stories don't already cover.
+// Also on the wire: three headlines from the last 36 hours that the stories don't cover,
+// banking, payments, SEA and rules before deals, and one per publisher.
 const covered = new Set(stories.flatMap((b) => b.sources.map((s) => s.url)));
 const wire = SITE ? await fetchJSON(`${SITE}/data/wire.json`) : null;
-const wireItems = (wire?.items ?? []).filter((i) => i.display !== false && i.section !== 'models' && !covered.has(i.url)).slice(0, 3);
+const RANK = ['banking', 'payments', 'sea', 'rules', 'deals'];
+const rank = (i) => (RANK.indexOf(i.section) + 1 || RANK.length + 1);
+const when = (i) => Date.parse(i.publishedAt ?? i.firstSeen);
+const wireItems = [];
+for (const i of (wire?.items ?? [])
+  .filter((i) => i.display !== false && i.section !== 'models' && !covered.has(i.url) && Date.now() - when(i) < 36 * 3600_000)
+  .sort((a, b) => rank(a) - rank(b) || when(b) - when(a))) {
+  if (wireItems.length === 3) break;
+  if (!wireItems.some((w) => w.source === i.source)) wireItems.push(i);
+}
 
 const email = [
   '## Email version, ready for Kit',
@@ -55,6 +66,8 @@ const email = [
   'In Kit: Broadcasts → New broadcast. Copy everything from **Start of email** to **End of email**, paste it in, set the subject and preview text, then schedule it.',
   '',
   '**Start of email**',
+  '',
+  `**Notes from the Terminal · The Morning Note** · ${editionDay}`,
   '',
   '### Top stories',
   '',
