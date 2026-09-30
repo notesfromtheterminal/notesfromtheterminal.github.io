@@ -1,0 +1,13 @@
+{
+  "id": "2026-09-30-deemoney-seon-fraud-thailand",
+  "publishedAt": "2026-09-30T07:17:00+07:00",
+  "section": "sea",
+  "tags": ["payments", "banking"],
+  "company": "DeeMoney",
+  "headline": "Thai remittance fintech DeeMoney picks SEON for real-time fraud checks",
+  "body": "DeeMoney, a Bank of Thailand-licensed cross-border payments fintech that has processed more than 260 billion baht across 515 million transactions since 2017, selected SEON to run real-time fraud screening, transaction monitoring and AML checks across its transfers to more than 85 countries. SEON migrated DeeMoney's existing fraud rules from its previous vendor without disrupting live operations.",
+  "note": "Remittance is a volume business where a fraud rule change can slow every transfer, so the appeal is consolidation: one system for screening, scoring and AML instead of several bolted together. Expect more Southeast Asian remittance players to make the same trade as AML expectations tighten.",
+  "sources": [
+    { "name": "GlobeNewswire", "url": "https://www.globenewswire.com/news-release/2026/09/29/3370360/0/en/deemoney-thailand-s-leading-cross-border-payments-fintech-selects-seon-for-real-time-fraud-and-aml-protection.html" }
+  ]
+}

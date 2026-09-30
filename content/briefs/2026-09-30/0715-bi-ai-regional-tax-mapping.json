@@ -1,0 +1,13 @@
+{
+  "id": "2026-09-30-bi-ai-regional-tax-mapping",
+  "publishedAt": "2026-09-30T07:15:00+07:00",
+  "section": "sea",
+  "tags": ["rules", "banking"],
+  "company": "Bank Indonesia",
+  "headline": "Bank Indonesia shows off an AI tool built to find uncollected local tax",
+  "body": "Bank Indonesia (BI) Governor Destry Damayanti said a tool built by a winner of the central bank's Pusat Inovasi Digital Indonesia (PIDI) program combines local government tax revenue data with location data from Google Maps to compare an area's actual tax collection against its potential. She said the AI \"looks at regional tax revenue against the potential that exists in that area,\" speaking at the FEKDI x IFSE 2026 event in Jakarta on September 25.",
+  "note": "Indonesia's regional governments have long struggled to collect local taxes owed. BI showcasing this tool signals it wants AI-driven revenue mapping to spread beyond one pilot region, which matters for local budgets and the banks that handle their tax accounts.",
+  "sources": [
+    { "name": "Kontan", "url": "https://nasional.kontan.co.id/news/bi-manfaatkan-ai-dan-google-maps-untuk-petakan-potensi-pajak-daerah" }
+  ]
+}
