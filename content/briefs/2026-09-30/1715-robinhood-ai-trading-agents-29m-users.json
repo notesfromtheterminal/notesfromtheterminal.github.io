@@ -1,0 +1,15 @@
+{
+  "id": "2026-09-30-robinhood-ai-trading-agents-29m-users",
+  "publishedAt": "2026-09-30T17:15:00+07:00",
+  "section": "payments",
+  "tags": ["models"],
+  "star": true,
+  "company": "Robinhood",
+  "headline": "Robinhood opens AI trading agents to all 29 million users",
+  "body": "Robinhood let its roughly 29 million customers hand a ring-fenced brokerage account to an AI agent built on OpenAI or Anthropic models, which can research, screen and place trades on standing instructions through a feature called Loops. More than 150,000 customers had already opened agentic accounts since a May pilot, and CEO Vlad Tenev said the company is \"delivering tools once reserved for hedge funds, big banks, and quant firms.\"",
+  "note": "Retail brokerages are moving faster on agentic trading than banks are settling who is liable when an agent misfires, and Robinhood puts that risk on the customer.",
+  "sources": [
+    { "name": "Fortune", "url": "https://fortune.com/2026/09/29/robinhood-trading-agents-hood-openai-anthropic/" },
+    { "name": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/09/30/robinhood-is-giving-customers-an-ai-agent-that-trades-for-them-plus-10x-crypto-bets" }
+  ]
+}

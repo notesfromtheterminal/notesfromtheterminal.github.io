@@ -1,0 +1,14 @@
+{
+  "id": "2026-09-30-asic-review-bank-ai-customer-impact",
+  "publishedAt": "2026-09-30T17:16:00+07:00",
+  "section": "rules",
+  "tags": ["banking"],
+  "company": "ASIC",
+  "headline": "Australia's ASIC opens formal review of bank AI use",
+  "body": "ASIC, Australia's securities and investments regulator, told banks it will formally review new and proposed uses of AI in customer-facing decisions such as lending, following a May warning on AI-linked cyber risk and roundtables with 600 industry participants. ASIC said it recognizes AI's benefits for banks but wants to ensure customers stay properly protected.",
+  "note": "This is a regulator moving from talking to banks about AI to formally scrutinizing specific use cases, which is the pattern other markets, including OJK in Indonesia and MAS in Singapore, are likely to follow as agentic tools move into lending decisions.",
+  "sources": [
+    { "name": "iTnews", "url": "https://www.itnews.com.au/news/asic-to-review-banking-sector-ai-use-and-customer-impacts-629307" },
+    { "name": "Inside Small Business", "url": "https://insidesmallbusiness.com.au/management/asic-to-review-banking-sector-ai-use-and-customer-impacts" }
+  ]
+}

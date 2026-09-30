@@ -1,0 +1,14 @@
+{
+  "id": "2026-09-30-duco-pacesetters-agentic-reconciliation",
+  "publishedAt": "2026-09-30T17:18:00+07:00",
+  "section": "banking",
+  "figure": { "value": "76%", "label": "average cut in manual reconciliation work" },
+  "company": "Duco",
+  "headline": "Duco clients cut post-trade reconciliation work by 76% with AI agents",
+  "body": "Duco said the 12 clients in its Pacesetters trial, including BBVA, Blackstone Credit & Insurance and CIBC Mellon, cut time spent on manual post-trade reconciliation tasks by an average of 76% after adopting its agentic operations platform, launched in June. CIBC Mellon's Jeremy Hulme said the goal is to combine operational expertise with agentic capability to reduce manual work.",
+  "note": "Reconciliation is exactly the kind of repetitive, rules-based back-office task agentic AI was built for, so a verified 76% time cut from named clients, not just a vendor's marketing number, is a real signal for where operations budgets go next.",
+  "sources": [
+    { "name": "Finextra", "url": "https://www.finextra.com/pressarticle/111081/duco-clients-report-76-time-savings-in-post-trade-reconciliation-operations-with-ai-platform" },
+    { "name": "Finadium", "url": "https://finadium.com/duco-fis-see-76-time-savings-from-agentic-ai-in-post-trade-ops/" }
+  ]
+}
