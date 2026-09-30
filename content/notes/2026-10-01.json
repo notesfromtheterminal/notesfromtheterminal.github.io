@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-01",
+  "publishedAt": "2026-10-01T07:00:00+07:00",
+  "title": "AI in finance is scaling faster than anyone can watch it",
+  "dek": "Central banks, card networks and brokers are all racing to build the same thing this week: a way to see and stop an AI agent before it acts alone.",
+  "lead": "2026-09-30-boe-bailey-frontier-ai-governance",
+  "stories": [
+    "2026-09-30-fed-waller-agentic-payments-authentication",
+    "2026-09-30-mastercard-agent-pay-trust-framework",
+    "2026-09-30-robinhood-ai-trading-agents-29m-users",
+    "2026-09-30-asic-review-bank-ai-customer-impact"
+  ],
+  "body": [
+    "Andrew Bailey runs the institution that has to worry about every bank at once, so when the Bank of England's governor writes that frontier AI models are starting to refine themselves into what he calls a closed loop in which the model progressively governs itself, it is worth reading twice. He is not asking to ban or slow AI. He wants whoever supervises these systems to keep a tested, proven right to intervene, established before it is needed rather than legislated after.",
+    "That is abstract until it lands in payments, where money actually moves. At Sibos this week, Fed Governor Christopher Waller described the same problem in plainer terms: when an AI agent buys something for you, a bank no longer just needs to know it is really you, it needs to know the agent has permission, for what, and how much. His proposed fix, a machine-readable record of delegated authority attached to the transaction, spelling out what the agent can spend and when, is close to what Bailey wants in the abstract.",
+    "Mastercard is not waiting for the Fed or the Bank of England to agree on a format. This week it added a score to Agent Pay estimating whether a transaction started with an AI agent, plus signals flagging unusual agent behavior for a human to review. That is Bailey's point of intervention, built into the rails, live now, defined by a card network rather than a regulator, before any government has settled the rules.",
+    "Adoption is not waiting either. Robinhood opened its AI trading agents to all 29 million users this week, not a pilot, everyone, so the gap between working out how an agent proves permission and millions of people letting one trade for them is now days, not years. The question is no longer whether banks will hand agents more autonomy. They already have. It is whether anyone, a card network, a central bank, a regulator, can see clearly enough into what an agent did to step in when it goes wrong.",
+    "Australia's ASIC opened a formal review this week of bank AI use and its effect on customers, a start, but reviews look backward, they tell you what already happened. Waller and Bailey are each building something forward looking instead, authority checked before a transaction clears rather than audited after the quarter closes. So watch whether card networks and regulators end up meaning the same thing by authority, because if not, banks spend next year translating between them, one agent at a time."
+  ]
+}
