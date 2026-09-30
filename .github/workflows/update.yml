@@ -64,6 +64,27 @@ jobs:
             gh pr edit "$BRANCH" --add-reviewer "$GITHUB_ACTOR" || echo "::warning::Could not request a review from $GITHUB_ACTOR"
           fi
 
+  # GitHub sometimes leaves a deploy "waiting" on the github-pages environment with no
+  # reviewer or timer (30 Sep 2026: 3.5 hours). It holds the 'pages' slot, every later
+  # deploy is cancelled and the wire freezes, so clear any run stuck like that.
+  unstick:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      actions: write
+    steps:
+      - name: Cancel deploys stuck waiting for more than 15 minutes
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          cutoff=$(date -u -d '15 minutes ago' +%Y-%m-%dT%H:%M:%SZ)
+          for id in $(gh run list -R "$REPO" --workflow update.yml --status waiting --limit 20 --json databaseId,createdAt --jq ".[] | select(.createdAt < \"$cutoff\") | .databaseId"); do
+            echo "::warning::Cancelling run $id: its deploy has been waiting since before $cutoff"
+            gh run cancel "$id" -R "$REPO" || gh api -X POST "repos/$REPO/actions/runs/$id/force-cancel" || true
+          done
+
   deploy:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
