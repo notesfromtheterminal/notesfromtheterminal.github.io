@@ -1,0 +1,14 @@
+{
+  "id": "2026-10-01-google-gemini-4-argon-finance",
+  "publishedAt": "2026-10-01T03:21:00+07:00",
+  "section": "models",
+  "company": "Google",
+  "headline": "Google's Gemini 4 Argon claims the lead on a finance research test",
+  "body": "Google released Gemini 4 Argon, a frontier model built for long, complex professional workflows, with a one million token output limit, up from 64,000. Google says the model leads on the Vals Finance Agent v2 benchmark for multi-step financial research, among other domain tests. Introductory API pricing is $2 per million input tokens and $10 per million output tokens, rising to $4 and $20 after a promotional period.",
+  "note": "Labs are now competing on benchmarks built around real analyst work, not just chat quality, which signals where banks and asset managers piloting AI research agents will look next.",
+  "figure": { "value": "$2 / $10", "label": "introductory price per million input / output tokens" },
+  "sources": [
+    { "name": "Google", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/" },
+    { "name": "9to5Google", "url": "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/" }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "2026-10-01-j-trust-bank-ai-credit-scoring",
+  "publishedAt": "2026-10-01T03:17:00+07:00",
+  "section": "sea",
+  "tags": ["banking"],
+  "company": "J Trust Bank",
+  "headline": "J Trust Bank tests AI for Indonesian consumer credit scoring",
+  "body": "Indonesia's J Trust Bank said on September 30 it is testing AI for consumer credit scoring, with plans to later extend it to customer service and third-party fund management. Business director Widjaja Hendra said the bank is \"currently building AI usage\" in credit scoring, though a full 2026 rollout is not confirmed. It has also partnered with EY Korea's Financial Services AI Center and fintech Danai.id, using AI and CCTV monitoring for loans to the blue economy sector.",
+  "note": "Indonesian banks are moving into AI credit decisions cautiously and on the record, which matters for a regulator watching for algorithmic bias in consumer lending.",
+  "sources": [
+    { "name": "Infobanknews", "url": "https://infobanknews.com/j-trust-bank-uji-ai-untuk-credit-scoring-kredit-konsumer" }
+  ]
+}

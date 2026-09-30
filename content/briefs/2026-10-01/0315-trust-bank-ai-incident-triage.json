@@ -1,0 +1,14 @@
+{
+  "id": "2026-10-01-trust-bank-ai-incident-triage",
+  "publishedAt": "2026-10-01T03:15:00+07:00",
+  "section": "sea",
+  "tags": ["banking"],
+  "company": "Trust Bank",
+  "headline": "Singapore's Trust Bank cuts AI incident triage to two minutes",
+  "body": "Singapore's Trust Bank has cut the time to triage IT incidents from 15 to 20 minutes down to about two minutes using AI agents built on Amazon Bedrock AgentCore, running Anthropic's Claude models. The agents follow runbooks to pull logs, analyze them and post a likely root cause, with reasoning, to the incident ticket before an on-call engineer joins, and the bank says 65% of those analyses are immediately actionable. The agents currently cover IT operations, with security use planned next.",
+  "note": "Trust Bank's chief technology officer calls this a survival exercise, not an innovation project, which reflects how banks now weigh AI on operational resilience such as incident response, not only customer-facing pilots.",
+  "figure": { "value": "2 min", "label": "AI incident triage time, down from 15-20 minutes" },
+  "sources": [
+    { "name": "Computer Weekly", "url": "https://www.computerweekly.com/news/366651387/Trust-Bank-cuts-incident-triage-time-to-two-minutes-with-AI-agents" }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "2026-10-01-oracle-ai-financial-crime-tools",
+  "publishedAt": "2026-10-01T03:19:00+07:00",
+  "section": "banking",
+  "tags": ["rules"],
+  "company": "Oracle",
+  "headline": "Oracle adds agentic AI tools to fight financial crime backlogs",
+  "body": "Oracle Financial Services launched Nexus Case Flow and Nexus Reach on September 29, agentic AI tools that gather evidence, assemble entity context and draft investigation narratives for human review. Nexus Reach extends the same AI capabilities into a bank's existing non-Oracle systems through a browser extension. Oracle's Jason Somrak said the tools put \"relevant context and AI capabilities into the flow of work\" so investigators can focus where it matters most.",
+  "note": "Financial crime teams are buried in alert backlogs, so vendors are racing to put agentic AI inside the investigator's workflow rather than simply generating more alerts for humans to sort through.",
+  "sources": [
+    { "name": "PR Newswire", "url": "https://www.prnewswire.com/news-releases/oracle-brings-new-agentic-capabilities-to-the-fight-against-financial-crime-302890930.html" },
+    { "name": "fintech.global", "url": "https://fintech.global/2026/09/30/oracle-bets-on-ai-agents-to-ease-financial-crime-backlogs/" }
+  ]
+}
