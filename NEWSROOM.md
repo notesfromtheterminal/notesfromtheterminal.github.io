@@ -69,7 +69,7 @@ The note goes out under the owner's byline, so it never publishes without approv
 
 1. After the briefs are committed, create the branch `claude/note-YYYY-MM-DD` from your local `main`. The date is tomorrow in WIB on the 22:00 run, or today on a 07:00 fallback run. Set `date` to that day and `publishedAt` to `YYYY-MM-DDT07:00:00+07:00` for that day. The site keeps a note hidden until its `publishedAt`, so a note merged at night goes live at 07:00 on its own.
 2. Add only the note file, run `npm run validate`, commit as `note: YYYY-MM-DD draft`, and push that branch. Never commit a note to `main`.
-3. A workflow opens a pull request with the full text and a ready-to-paste email version, which a script builds from the note, its briefs and the wire. Do not write an email version yourself. The owner merges to publish or closes to discard. Do not merge it yourself.
+3. A workflow opens a pull request with the full text. Once the newsletter is sending, it adds an email version that a script builds from the note, its briefs and the wire. Do not write an email version yourself. The owner merges to publish or closes to discard. Do not merge it yourself.
 
 Writing the note, in the owner's voice:
 

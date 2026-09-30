@@ -38,7 +38,7 @@ const liveAt = `${parts.weekday} ${parts.day} ${parts.month}, ${parts.hour}:${pa
 const editionDay = `${parts.weekday}, ${parts.day} ${parts.month}`;
 const goesLive =
   Date.parse(note.publishedAt) > Date.now()
-    ? `**Goes live ${liveAt}** once merged: the site holds it until then. Schedule the email for the same time.`
+    ? `**Goes live ${liveAt}** once merged: the site holds it until then.${site.newsletterLive ? ' Schedule the email for the same time.' : ''}`
     : '**Publishes as soon as you merge.**';
 
 // Also on the wire: three headlines from the last 36 hours that the stories don't cover,
@@ -56,7 +56,8 @@ for (const i of (wire?.items ?? [])
   if (!wireItems.some((w) => w.source === i.source)) wireItems.push(i);
 }
 
-const email = [
+// The email version only appears while the newsletter is sending (site.newsletterLive).
+const email = !site.newsletterLive ? [] : [
   '## Email version, ready for Kit',
   '',
   `**Subject:** ${md(note.title)}`,
@@ -115,8 +116,7 @@ console.log(
     '---',
     '',
     ...email,
-    '---',
-    '',
+    ...(email.length ? ['---', ''] : []),
     '🤖 Generated with [Claude Code](https://claude.com/claude-code)',
   ].join('\n'),
 );

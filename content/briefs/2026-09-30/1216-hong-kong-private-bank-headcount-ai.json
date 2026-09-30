@@ -1,12 +1,14 @@
 {
   "id": "2026-09-30-hong-kong-private-bank-headcount-ai",
   "publishedAt": "2026-09-30T12:16:00+07:00",
+  "updatedAt": "2026-09-30T20:55:00+07:00",
   "section": "banking",
   "company": "Capco",
-  "figure": { "value": "2.2%", "label": "Hong Kong private bank headcount growth in 2025, versus 24% AUM growth" },
+  "figure": { "value": "2%", "label": "rise in Hong Kong private wealth staff in 2025, as assets grew 24%" },
   "headline": "Hong Kong private banks add staff far slower than assets grow",
-  "body": "Assets at Hong Kong's private banks and family offices rose 24% last year to HK$12.9 trillion (about $1.65 trillion), while headcount grew just 2.2%, from 9,920 to 10,140, according to Capco and the city's Securities and Futures Commission. Capco's Asia-Pacific wealth and insurance leader Simon Smallcombe said relationship managers are not increasing at the same rate as technology and AI are lifting the team's productivity.",
-  "note": "A wealth manager adding assets 11 times faster than headcount is a concrete read on what AI productivity gains are actually worth to a bank's cost base, not a vendor's promise. It also raises the bar for what one relationship manager is expected to cover.",
+  "body": "Assets at Hong Kong's private banks and family offices rose 24% last year to HK$12.9 trillion (about $1.65 trillion), while industry employment rose just 2%, with 10,140 staff in private banking and wealth management, according to Capco and the city's Securities and Futures Commission. Capco's Asia-Pacific insurance and wealth leader Simon Smallcombe attributed the gap to firms adopting technology, including AI, and said relationship manager numbers are not rising at the same rate.",
+  "note": "An industry adding assets about 12 times faster than staff is a concrete read on what technology and AI productivity gains are worth to a bank's cost base. It also raises the bar for what one relationship manager is expected to cover.",
+  "correction": "An earlier version said headcount grew 2.2%, from 9,920 to 10,140. The sources give 2% growth in industry employment and a headcount of 10,140; the 9,920 figure was not in them.",
   "sources": [
     { "name": "IndexBox", "url": "https://www.indexbox.io/blog/hong-kong-private-wealth-assets-jump-24-while-industry-hiring-rises-only-2/" },
     { "name": "Caproasia", "url": "https://www.caproasia.com/2026/08/06/hong-kong-sfc-asset-wealth-management-survey-2025-asset-wealth-management-aum-at-5-38-trillion-with-2358-licensed-firms-56557-headcount-private-banking-wealth-management-1-65-trillion-a/" }

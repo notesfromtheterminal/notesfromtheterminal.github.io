@@ -259,9 +259,11 @@ ${n.dek ? `<p class="note-card-dek">${esc(n.dek)}</p>` : ''}
     if (!site.kitFormId) return '';
     const action = `https://app.kit.com/forms/${encodeURIComponent(site.kitFormId)}/subscriptions`;
     const head = compact ? 'Get the Morning Note by email' : 'The AI-in-finance stories that matter, before work';
+    // Until the first email goes out (site.newsletterLive), the box says so.
+    const soon = site.newsletterLive ? '' : 'Starting soon. ';
     const dek = compact
-      ? 'The AI-in-finance stories that matter, before work. Free, and you can leave anytime.'
-      : 'One short email each morning, readable in under three minutes. Free, and you can leave anytime.';
+      ? `${soon}The AI-in-finance stories that matter, before work. Free, and you can leave anytime.`
+      : `${soon}One short email each morning, readable in under three minutes. Free, and you can leave anytime.`;
     return `<section class="signup${compact ? ' signup-compact' : ''}" aria-labelledby="signup-h-${id}">
 ${compact ? '' : '<p class="kicker">The Morning Note, by email</p>'}
 <h2 class="signup-head" id="signup-h-${id}">${head}</h2>
