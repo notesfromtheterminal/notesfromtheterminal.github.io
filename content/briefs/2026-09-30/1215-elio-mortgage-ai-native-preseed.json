@@ -1,0 +1,13 @@
+{
+  "id": "2026-09-30-elio-mortgage-ai-native-preseed",
+  "publishedAt": "2026-09-30T12:15:00+07:00",
+  "section": "deals",
+  "company": "Elio Mortgage",
+  "figure": { "value": "$5.1M", "label": "Elio Mortgage's pre-seed round" },
+  "headline": "AI-native mortgage startup Elio raises $5.1 million pre-seed",
+  "body": "Elio Mortgage, founded by former Microsoft engineer Oren Michaely and ex-KKR and Deutsche Bank banker Arad Lev Ari, raised $5.1 million in pre-seed funding led by Motive Partners and Social Leverage, with Insight Partners co-founder Jeff Horing joining as an angel investor. The startup is building its AI platform for the full mortgage origination process inside its own licensed brokerage before selling to advisers, agents and homebuilders.",
+  "note": "Mortgage origination has resisted automation more than most consumer lending because it mixes underwriting, compliance and local licensing. A startup choosing to run a brokerage rather than just sell software to banks is betting the two problems have to be solved together.",
+  "sources": [
+    { "name": "HousingWire", "url": "https://www.housingwire.com/articles/elio-mortgage-5-1m-preseed/" }
+  ]
+}
