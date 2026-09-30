@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-30",
+  "publishedAt": "2026-09-30T07:00:00+07:00",
+  "title": "The AI makers wrote down the risk. Finance builds the fence",
+  "dek": "Anthropic listed existential risk as a risk factor in its IPO filing this week, while regulators and industry groups from Washington to Frankfurt to Asia moved to put guardrails around AI in finance.",
+  "lead": "2026-09-29-anthropic-ipo-prospectus-losses",
+  "stories": [
+    "2026-09-30-fed-bowman-ai-bank-cybersecurity",
+    "2026-09-29-csbs-ai-supervisory-framework",
+    "2026-09-29-ecb-digital-euro-ai-agents",
+    "2026-09-30-sumsub-apac-agentic-ai-council"
+  ],
+  "body": [
+    "Anthropic just listed existential risk to humanity as a risk factor in its IPO prospectus, a legal filing meant to attract investors, and Reuters and the Financial Times reported that it is the first filing on the SEC's database to do so. That is an unusual thing to write down next to an operating loss of more than $8 billion and a valuation target above $2 trillion. So it fits that regulators and industry groups have spent the past two weeks putting up fences around AI in finance, before the technology touches more of the money.",
+    "Start with the United States, where two layers of bank oversight moved within two weeks of each other. The Federal Reserve's Michelle Bowman told a community bank cyber workshop that AI is speeding up attackers while becoming \"a critical component\" of banks' own security, so community banks should expect examiners to ask pointed questions about AI-specific controls even before a formal rule arrives. State regulators have already written theirs: the CSBS published an AI examination playbook for state examiners, filling the gap the OCC, the Fed and the FDIC left when their joint guidance called generative and agentic AI too new to pin down. That means a state-chartered bank can now face a more specific AI exam than a federally chartered peer.",
+    "Europe is working on the same problem from the payments side. The European Central Bank opened a new round of its digital euro innovation platform with a workstream on AI agents initiating payments for their users, even though any digital euro still needs EU legislation before it can be issued. So the central bank is scoping how agents should pay before the currency itself exists, which suggests it sees the agent question as the one that needs a head start.",
+    "The same instinct shows up closer to home. Sumsub is recruiting founding advisors for an Asia-Pacific council on AI agents, and its first working group will take on agentic commerce: who is accountable when an agent buys or pays on someone else's behalf. It is an industry group writing its own guidance before regulators do, with a first meeting planned for early 2027.",
+    "What all of this puts on file, before the first big agentic mistake, is an answer to who was supposed to be watching. So the test for all of us running AI pilots this quarter is simple: if an examiner asked tomorrow who is accountable when our agent acts for a customer, and which controls would catch it going wrong, would we have the answer written down?"
+  ]
+}
