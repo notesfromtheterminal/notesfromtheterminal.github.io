@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-02-fed-fred-mcp-connector-ai-agents",
+  "publishedAt": "2026-10-02T03:14:00+07:00",
+  "section": "rules",
+  "tags": ["banking"],
+  "company": "Federal Reserve",
+  "headline": "Half of traffic to the Fed's FRED database now comes from AI agents",
+  "body": "Federal Reserve Governor Christopher Waller said at FRED Con in St. Louis on October 1 that about half of visits to FRED, the Fed's economic data site, now come from AI agents, with traffic growing 150% a year. The FRED MCP Connector enables users to find and retrieve data using an AI agent of their choice, after staff said agents do not always correctly attribute data back to the original source.",
+  "note": "Fed data already feeds banks' trading and research models, so a direct machine interface makes it faster for an analyst's AI agent to pull a series. It also raises the stakes on getting attribution and interpretation right now that a model is often the one reading the chart.",
+  "sources": [{ "name": "Federal Reserve", "url": "https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm" }],
+  "evidence": [
+    { "source": 0, "text": "October 01, 2026" },
+    { "source": 0, "text": "Governor Christopher J. Waller" },
+    { "source": 0, "text": "At \"Navigating Trust, AI and Storytelling in a World of Data,\" FRED Con 2026, Federal Reserve Bank of St. Louis, St. Louis, Missouri" },
+    { "source": 0, "text": "In the 17 years that I have spent in different roles for the Fed, one of the things that I am most proud of is the modest contribution I made, while here in St. Louis, to the growth and success of FRED (Federal Reserve Economic Data)." },
+    { "source": 0, "text": "FRED traffic has always tended to grow each year, but the pace has picked up since the advent of AI. It is presently growing 150 percent a year, with most of that growth from AI and bots." },
+    { "source": 0, "text": "Already about half of visits to FRED are from AI agents retrieving data, with the other half from flesh-and-blood visitors." },
+    { "source": 0, "text": "Using the Model Context Protocol (MCP), the FRED MCP Connector enables users to find and retrieve data from FRED using an AI agent of their choice—which the FRED staff calls \"BYOAI.\"" },
+    { "source": 0, "text": "One challenge for us in understanding these AI visits is that FRED's managers don't know whether AI agents are correctly attributing data to the original source, or to FRED, as we have sometimes seen in testing." }
+  ]
+}

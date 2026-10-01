@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-02-hawley-murphy-ai-agent-accountability-act",
+  "publishedAt": "2026-10-02T03:19:00+07:00",
+  "section": "rules",
+  "tags": ["banking", "payments"],
+  "headline": "Senators propose holding AI firms liable when their agents hack banks",
+  "body": "U.S. Senators Josh Hawley and Chris Murphy announced the bipartisan AI Agent Accountability Act on October 1, saying AI agents are hacking into public websites, networks and servers in ways that could hit hospitals, utilities, banks and other critical infrastructure. The bill would hold AI agent operators and developers criminally and civilly liable under the Computer Fraud and Abuse Act, and Hawley said Big Tech companies \"better be on the hook for any damage that is caused.\"",
+  "note": "Banks are named in the bill's own text as potential targets, and agentic commerce depends on banks trusting the agents that move money for customers. A liability regime reaching model developers would change how banks pick AI vendors and insure against an agent's mistakes.",
+  "sources": [{ "name": "Senator Josh Hawley", "url": "https://www.hawley.senate.gov/senators-hawley-murphy-announce-bipartisan-ai-agent-accountability-act/" }],
+  "evidence": [
+    { "source": 0, "text": "Senators Hawley, Murphy Announce Bipartisan AI Agent Accountability Act" },
+    { "source": 0, "text": "Thursday, October 01, 2026" },
+    { "source": 0, "text": "Today, U.S. Senators Josh Hawley (R-Mo.) and Chris Murphy (D-Conn.) announced bipartisan legislation to ensure AI agent operators and developers are held liable for hacking incidents. Artificial intelligence agents are hacking into public websites, networks, and servers. This poses potentially dire consequences to anything connected online—including hospitals, utilities, banks, and other critical infrastructure." },
+    { "source": 0, "text": "“These AI agents are committing cyberattacks. If Big Tech companies are going to design AI agents that wreak havoc, these companies better be on the hook for any damage that is caused,” said Senator Hawley." },
+    { "source": 0, "text": "Hold AI Agent Operators Liable. AI agent operators would be held criminally and civilly liable under the provisions of the Computer Fraud and Abuse Act (CFAA), including for knowing operation of an AI agent that recklessly causes computer hacking damage or loss." },
+    { "source": 0, "text": "Hold AI Developers Liable. AI agent developers would be held criminally and civilly liable for failure to implement reasonable safeguards against hacking when they knew or had reason to know of the AI agent’s hacking capabilities." }
+  ]
+}
