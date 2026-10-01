@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-01",
+  "publishedAt": "2026-10-01T07:00:00+07:00",
+  "title": "AI in finance is scaling faster than anyone can watch it",
+  "dek": "This week a central banker, a Fed governor, a card network and a regulator all circled one question: who can see and stop an AI agent when it acts with our money.",
+  "lead": "2026-09-30-boe-bailey-frontier-ai-governance",
+  "stories": [
+    "2026-09-30-fed-waller-agentic-payments-authentication",
+    "2026-09-30-mastercard-agent-pay-trust-framework",
+    "2026-09-30-robinhood-ai-trading-agents-29m-users",
+    "2026-09-30-asic-review-bank-ai-customer-impact"
+  ],
+  "body": [
+    {
+      "head": "The Bank of England wants a way in",
+      "text": "Andrew Bailey, whose job is to worry about every bank at once, wrote this week that frontier AI models increasingly refine themselves, creating what he called \"a closed loop in which the model progressively governs itself.\" He stresses that the benefits are immense, so his ask is narrow: test models before and after deployment, and make sure society keeps the ability to intervene before anyone writes new rules."
+    },
+    {
+      "head": "Payments make it concrete",
+      "text": "That sounds abstract until money moves. At Sibos, Fed Governor Christopher Waller said agentic commerce shifts what a payment has to prove, from the buyer's authority to pay to an agent's authority to pay on the buyer's behalf, and that this \"will require new authentication approaches.\" He stopped short of prescribing a standard, which leaves the design to whoever builds it first."
+    },
+    {
+      "head": "Mastercard is building it into the rails",
+      "text": "Mastercard is already building one. It added a score to Agent Pay that estimates whether a transaction was started by an AI agent, plus signals that flag unusual activity for extra review. So the first working checkpoint for agent payments is coming from a card network, ahead of any rulebook."
+    },
+    {
+      "head": "Customers are already handing over the keys",
+      "text": "Adoption is moving just as fast. Robinhood opened its AI trading agents to its roughly 29 million customers this week, after more than 150,000 opened agentic accounts during a pilot that began in May. So the question of how an agent proves its permission now applies to millions of retail investors."
+    },
+    {
+      "head": "What to watch",
+      "text": "Australia's ASIC told banks it will formally review new and proposed uses of AI in customer decisions such as lending, which brings a regulator's eye to specific use cases. Bailey and Waller are both pointing at checks that happen before the money moves. So the thing to watch is whether card networks and regulators end up meaning the same thing by an agent's authority, because if they don't, our banks will spend next year translating between them."
+    }
+  ]
+}
