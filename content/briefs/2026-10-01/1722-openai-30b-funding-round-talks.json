@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-01-openai-30b-funding-round-talks",
+  "publishedAt": "2026-10-01T17:22:00+07:00",
+  "section": "deals",
+  "tags": ["models"],
+  "company": "OpenAI",
+  "figure": { "value": "$1.4T", "label": "valuation OpenAI is reportedly seeking in its new round" },
+  "headline": "OpenAI in talks to raise $30 billion at a $1.4 trillion valuation",
+  "body": "OpenAI is in talks with investors to raise at least $30 billion in a pre-IPO round at a roughly $1.4 trillion valuation, Bloomberg reported. That would follow its $122 billion round in March at an $852 billion valuation, with run-rate revenue up 70% since July to $40 billion in August, per the report. CEO Sam Altman has ruled out a public listing in 2026 to prioritize AI safety.",
+  "note": "A round this size pushes the valuation banks and sovereign funds have to underwrite higher before any listing tests it, and delaying the IPO again puts safety ahead of the liquidity event investors want. The revenue growth cited is what analysts pricing OpenAI's exposure watch closest.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "OpenAI is in talks with investors to raise at least $30 billion in a pre-IPO funding round at a valuation of roughly $1.4 trillion, Bloomberg reported on Tuesday." },
+    { "source": 0, "text": "The company previously raised $122 billion in March at an $852 billion valuation." },
+    { "source": 0, "text": "While Anthropic momentarily outpaced OpenAI at the start of the year, recent strategic refocus on key areas like coding has fueled a 70% jump in run-rate revenue since July, reaching $40 billion in August, according to the report." },
+    { "source": 0, "text": "However, CEO Sam Altman has now ruled out a public debut in 2026 to prioritize AI safety first." }
+  ]
+}
