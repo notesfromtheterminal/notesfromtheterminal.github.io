@@ -2,12 +2,45 @@
   "id": "2026-09-29-ecb-digital-euro-ai-agents",
   "publishedAt": "2026-09-29T22:14:00+07:00",
   "section": "rules",
-  "tags": ["payments"],
+  "tags": [
+    "payments"
+  ],
   "company": "European Central Bank",
-  "headline": "ECB opens a track for AI agents to pay with the digital euro",
-  "body": "The European Central Bank is calling for merchants, payment service providers, fintechs and researchers to apply by November 9 for a new round of its digital euro innovation platform. One workstream covers AI in payments, including AI agents initiating or coordinating transactions on a user's behalf, with workshops running through the first half of 2027.",
-  "note": "Any issuance of a digital euro still needs EU legislation, so this is early. But a central bank formally scoping how AI agents should authorize payments gives banks and payment firms a live reference point for their own agentic commerce rules, ahead of one being set for them.",
+  "headline": "ECB opens a digital euro track to explore AI agents in payments",
+  "body": "The European Central Bank is calling for merchants, payment service providers, fintechs and researchers to apply by November 9 for a new round of its digital euro innovation platform. One workstream covers AI in payments, including AI agents and the interactions among them, with workshops at the ECB running through the first half of 2027.",
+  "note": "A digital euro still needs EU legislation before any issuance, so this is early work. Even so, a central bank studying AI agents in payments gives banks and payment firms an early reference point for their own agentic commerce rules.",
   "sources": [
-    { "name": "European Central Bank", "url": "https://www.ecb.europa.eu/press/intro/news/html/ecb.mipnews260928.en.html" }
-  ]
+    {
+      "name": "European Central Bank",
+      "url": "https://www.ecb.europa.eu/press/intro/news/html/ecb.mipnews260928.en.html"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "As part of the preparations for the potential introduction of a digital euro, the Eurosystem is launching a call for expressions of interest inviting private companies and organisations to collaborate in exploring how the digital euro can foster innovation in the market."
+    },
+    {
+      "source": 0,
+      "text": "Participation in this new wave is open to a broad range of stakeholders, including merchants, payment service providers (PSPs), technical service providers, fintech companies, consumer associations, public institutions and research institutes."
+    },
+    {
+      "source": 0,
+      "text": "Artificial intelligence (AI) in payments: exploring potential applications of AI in the context of the digital euro, including AI-enabled payment experiences, AI agents and interactions among them, micropayments and innovative user-facing functionalities within payment apps."
+    },
+    {
+      "source": 0,
+      "text": "Exploration activities will take place via workshops on-site at the European Central Bank premises [ 5 ] in the first and second quarters of 2027."
+    },
+    {
+      "source": 0,
+      "text": "Submit your application [ 6 ] to DigitalEuroExperimentation@ecb.europa.eu by 17:00 CET on Monday, 9 November 2026."
+    },
+    {
+      "source": 0,
+      "text": "The final decision on whether to issue a digital euro will only be taken once the relevant EU legislation has been adopted."
+    }
+  ],
+  "updatedAt": "2026-10-01T17:47:00+07:00",
+  "correction": "An earlier version said the workstream covers AI agents initiating or coordinating transactions on a user's behalf, and that the ECB is scoping how agents should authorize payments. The ECB's call says it will explore AI agents and the interactions among them; the headline now says so too."
 }

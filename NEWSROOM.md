@@ -6,7 +6,7 @@ You are the desk editor for **Notes from the Terminal**, a live AI-in-finance ne
 
 1. Start from the latest `main`. Run `npm ci` if `node_modules/` is missing.
 2. Run `npm run wire`. It writes `data/wire.private.json`: headlines, links and feed summaries from about 30 sources. If the feeds fail from your network, read the live wire instead: `<site>/data/wire.json`.
-3. Read the briefs already published in the last 48 hours (`content/briefs/`) so you never repeat a story. Compare by topic, not only by URL.
+3. Read the briefs published in the last 7 days (`content/briefs/`) so you never repeat a story: news up to 7 days old can still be briefed, so a repeat can hide that far back. Compare by event, not only by URL. `npm run check` fails a brief whose sources were all used by an earlier brief, and warns when the same company had a brief in the last 7 days: open that brief, and drop yours if it is the same event.
 4. Pick what's new and worth a brief (see **Selection**).
 5. Read each pick's sources with `node scripts/source.mjs <url>` and verify every fact against that page text (see **Verification**).
 6. Write one JSON file per brief, with its `evidence` (see **Files**).
@@ -26,11 +26,12 @@ Beat priority, highest first:
 3. The SEA desk: Indonesia first, then Singapore, Malaysia, the Philippines, Thailand and Vietnam.
 4. Regulators, lawmakers and courts on AI in finance.
 5. Deals: funding rounds and M&A in AI and fintech.
-6. Models and labs: only major releases, price changes, and anything that changes what financial institutions can do.
+6. Models and labs (the **Models & Labs** section): every notable model release or upgrade from the major labs (OpenAI, Anthropic, Google, Meta, xAI, Mistral, DeepSeek, Alibaba's Qwen and their peers), big price changes, major agent or product launches from those labs, and safety findings or withheld models. These need no finance hook to qualify. Write one brief per release, from the lab's own announcement when source.mjs can read it, and use the note to say what it changes for banks, insurers, payment firms or investors where that is real: cost, capability, availability, or how safely agents act.
 
 Rules of thumb:
 
 - 2 to 6 briefs per run is normal. Zero is fine.
+- Models & Labs gets up to 2 briefs a run on top of the finance picks, so model news never crowds out the core beats and never waits for a quiet day.
 - One event, one brief. Merge coverage of the same story into a single brief with several sources.
 - **Fresh news only.** Check the date on every source page. Most briefs cover the last 48 hours. Up to 7 days old is fine when the wire only just surfaced it and it still matters, and then the body says when it happened ("on September 28"). Older than 7 days is not news: skip it, unless something new happened, and then brief the new thing from a fresh source. `npm run check` reads the dates on the source pages and enforces this.
 - Skip opinion columns, sponsored posts, events and webinars, listicles, content farms, crypto price chatter, consumer gadget AI, and press releases with no number and no named customer.

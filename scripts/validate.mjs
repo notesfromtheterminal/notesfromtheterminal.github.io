@@ -30,6 +30,8 @@ async function listJson(dir) {
 
 // Briefs published from this moment must carry evidence (NEWSROOM.md, Verification).
 const BRIEF_RULES_FROM = Date.parse('2026-10-01T13:00:00+07:00');
+// Briefs published from this moment are checked for repeats of earlier briefs.
+const REPEAT_RULES_FROM = Date.parse('2026-10-01T19:00:00+07:00');
 // Phrases that read as machine-written. None may appear in new briefs or notes, outside quotes.
 const AI_TELLS = [
   "it's worth noting", 'it is worth noting', 'worth noting that', "it's important to note", 'it is important to note',
@@ -142,6 +144,31 @@ export async function loadContent({ now = Date.now() } = {}) {
       Object.defineProperty(b, '_file', { value: file });
       briefs.push(b);
     }
+  }
+
+  // One event, one brief (NEWSROOM.md, Selection). A brief whose sources were all used by
+  // one earlier brief is a repeat; the same company within 7 days is a warning to check by hand.
+  const oldestFirst = [...briefs].sort((x, y) => Date.parse(x.publishedAt) - Date.parse(y.publishedAt));
+  const pageKey = (u) => {
+    try {
+      const x = new URL(u);
+      return `${x.hostname.replace(/^www\./, '')}${x.pathname.replace(/\/+$/, '')}`.toLowerCase();
+    } catch {
+      return String(u);
+    }
+  };
+  for (const [i, b] of oldestFirst.entries()) {
+    if (Date.parse(b.publishedAt) < REPEAT_RULES_FROM) continue;
+    const where = rel(b._file);
+    const mine = b.sources.map((s) => pageKey(s.url));
+    const earlier = oldestFirst.slice(0, i).reverse();
+    const same = earlier.find((a) => {
+      const theirs = new Set(a.sources.map((s) => pageKey(s.url)));
+      return mine.every((k) => theirs.has(k));
+    });
+    if (same) errors.push(`${where}: repeats ${same.id}, which already cites ${mine.length > 1 ? 'all these sources' : 'this source'}. One event, one brief: update that brief or skip this one`);
+    const recent = earlier.find((a) => a.company && a.company === b.company && Date.parse(b.publishedAt) - Date.parse(a.publishedAt) < 7 * 86_400_000);
+    if (!same && recent) warnings.push(`${where}: same company as ${recent.id}. Fine if this is a new development; if it is the same event, drop it`);
   }
 
   const briefIds = new Set(briefs.map((b) => b.id));
