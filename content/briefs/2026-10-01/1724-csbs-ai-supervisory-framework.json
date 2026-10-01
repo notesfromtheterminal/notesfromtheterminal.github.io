@@ -2,18 +2,41 @@
   "id": "2026-10-01-csbs-ai-supervisory-framework",
   "publishedAt": "2026-10-01T17:24:00+07:00",
   "section": "rules",
-  "tags": ["banking"],
+  "tags": [
+    "banking"
+  ],
   "company": "CSBS",
   "headline": "US state bank regulators publish a playbook for examining AI",
-  "body": "The Conference of State Bank Supervisors released a supervisory resource to help state examiners assess the use and risks of AI at state-chartered banks and state-licensed nonbank financial institutions. The framework is a discretionary tool to identify AI use, assess risks and decide when deeper review is needed, built on NIST's AI Risk Management Framework, the Cyber Risk Institute's framework and the US Treasury's AI Lexicon.",
+  "body": "On September 16, the Conference of State Bank Supervisors released a supervisory resource to help state examiners assess the use and risks of AI at state-chartered banks and state-licensed nonbank financial institutions. The framework is a discretionary tool to identify AI use, assess risks and decide when deeper review is needed, built on NIST's AI Risk Management Framework, the Cyber Risk Institute's framework and the US Treasury's AI Lexicon.",
   "note": "This gives state examiners a shared AI question set that banks will likely treat as a de facto standard for AI governance, even though CSBS calls it discretionary. It is also a template other regulators building their own AI exam playbooks, including in Southeast Asia, can study.",
   "sources": [
-    { "name": "CSBS", "url": "https://www.csbs.org/newsroom/csbs-announces-ai-supervisory-framework" }
+    {
+      "name": "CSBS",
+      "url": "https://www.csbs.org/newsroom/csbs-announces-ai-supervisory-framework"
+    }
   ],
   "evidence": [
-    { "source": 0, "text": "Washington, D.C. – The Conference of State Bank Supervisors (CSBS) today released a new supervisory resource to support state examiners in assessing the use and risks of artificial intelligence (AI) at state-chartered banks and state-licensed nonbank financial institutions." },
-    { "source": 0, "text": "The CSBS AI Supervisory Framework provides state examiners with a discretionary tool to identify and understand AI at financial institutions, assess associated risks, and determine when a deeper review may be appropriate using existing supervisory resources." },
-    { "source": 0, "text": "The framework is based on leading AI risk management resources, including the National Institute of Standards and Technology's AI Risk Management Framework, the Cyber Risk Institute's Financial Services AI Risk Management Framework, and the U.S. Department of the Treasury's AI Lexicon." },
-    { "source": 0, "text": "Each state agency will determine the extent to which this framework is incorporated into their supervisory programs." }
-  ]
+    {
+      "source": 0,
+      "text": "CSBS Announces AI Supervisory Framework September 16, 2026"
+    },
+    {
+      "source": 0,
+      "text": "Washington, D.C. – The Conference of State Bank Supervisors (CSBS) today released a new supervisory resource to support state examiners in assessing the use and risks of artificial intelligence (AI) at state-chartered banks and state-licensed nonbank financial institutions."
+    },
+    {
+      "source": 0,
+      "text": "The CSBS AI Supervisory Framework provides state examiners with a discretionary tool to identify and understand AI at financial institutions, assess associated risks, and determine when a deeper review may be appropriate using existing supervisory resources."
+    },
+    {
+      "source": 0,
+      "text": "The framework is based on leading AI risk management resources, including the National Institute of Standards and Technology's AI Risk Management Framework, the Cyber Risk Institute's Financial Services AI Risk Management Framework, and the U.S. Department of the Treasury's AI Lexicon."
+    },
+    {
+      "source": 0,
+      "text": "Each state agency will determine the extent to which this framework is incorporated into their supervisory programs."
+    }
+  ],
+  "correction": "An earlier version did not say when CSBS released the framework. It was published on September 16, two weeks before this brief.",
+  "updatedAt": "2026-10-01T17:29:00+07:00"
 }

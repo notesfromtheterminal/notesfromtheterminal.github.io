@@ -8,7 +8,7 @@
   "company": "Bank of England",
   "headline": "Bank of England chief says society must keep the ability to intervene on AI",
   "body": "Bank of England Governor Andrew Bailey wrote on September 30 that frontier AI models increasingly refine their own performance through recursive learning, creating what he called \"a closed loop in which the model progressively governs itself.\" He argued that regulation is not the right place to start: rigorous testing of models before and after deployment should come first, and society should unequivocally retain the ability to intervene.",
-  "note": "A central bank governor framing AI oversight as a financial stability question, not just a tech policy one, puts model testing and deployment scrutiny on the table for any bank running frontier models in core systems, ahead of formal rules rather than after them.",
+  "note": "A central bank governor treating AI oversight as a financial stability question puts model testing and deployment scrutiny on the table for any bank running frontier models in core systems, ahead of formal rules.",
   "correction": "An earlier version quoted Bailey calling for an unequivocal \"right to intervene.\" He asked whether society should retain the ability to intervene and answered \"unequivocally yes\"; \"right to intervene\" was not his phrase.",
   "sources": [
     { "name": "Bank of England", "url": "https://www.bankofengland.co.uk/bank-insights/2026/frontier-ai-and-the-question-of-governance" }

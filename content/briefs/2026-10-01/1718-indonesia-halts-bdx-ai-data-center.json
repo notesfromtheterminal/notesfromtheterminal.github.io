@@ -8,11 +8,11 @@
   "company": "BDx Data Centers",
   "figure": {
     "value": "640MW",
-    "label": "capacity of the halted BDx AI data center"
+    "label": "capacity of the BDx campus the governor ordered to stop"
   },
-  "headline": "Indonesia halts BDx's 640MW AI data center over missing permits",
+  "headline": "West Java's governor orders BDx to halt its 640MW AI data center over missing permits",
   "body": "West Java's governor ordered Singapore's BDx Data Centers to stop construction on a 640 megawatt AI data center campus in Jatiluhur after it broke ground on September 22 without the required permits. Governor Dedi Mulyadi said the work must stop until permits and an environmental impact assessment are completed, not because of any environmental violation.",
-  "note": "Indonesia wants the AI data center investment but is still building the permitting process to go with it, and similar friction over power and water has already slowed projects in Malaysia. For banks financing the region's AI buildout, approvals are becoming as big a timeline risk as construction.",
+  "note": "Indonesia is pushing to catch up with its neighbors on tech infrastructure, yet this campus was ordered to stop after breaking ground, and opposition to data centers has emerged in Malaysia too. For banks lending to the region's AI buildout, permits are now a timeline risk.",
   "sources": [
     {
       "name": "Reuters",
@@ -39,6 +39,12 @@
     {
       "source": 0,
       "text": "Opposition to data centres has emerged elsewhere in Southeast Asia, including in Malaysia, the region's fastest-growing data-centre market."
+    },
+    {
+      "source": 0,
+      "text": "BDx did not respond to a request for comment. It is unclear if construction has been halted."
     }
-  ]
+  ],
+  "correction": "An earlier version's headline said Indonesia had halted the project. West Java's governor ordered the halt, and Reuters reports it is unclear whether construction has stopped. The note also said friction over power and water had slowed projects in Malaysia; the source says only that opposition to data centers has emerged there.",
+  "updatedAt": "2026-10-01T17:29:00+07:00"
 }

@@ -41,12 +41,33 @@ export async function fetchSource(url, timeoutMs = 20_000) {
     });
     if (!res.ok) return { ok: false, error: `HTTP ${res.status}` };
     if (/pdf/i.test(res.headers.get('content-type') ?? '')) return { ok: false, error: 'PDF, not a web page' };
-    const text = pageText(await res.text());
+    const html = await res.text();
+    const text = pageText(html);
     if (text.length < 400) return { ok: false, error: 'almost no readable text (bot check or script-only page)' };
-    return { ok: true, text, finalUrl: res.url };
+    return { ok: true, text, finalUrl: res.url, published: publishedAt(html) };
   } catch (err) {
     return { ok: false, error: err.name === 'TimeoutError' ? 'timed out' : err.message };
   }
+}
+
+// When a page says it was published, in ms: its meta tags, then its structured data, then
+// the first element styled as a date ("September 16, 2026"). Null when it does not say.
+const DATE_KEYS = 'article:published_time|og:published_time|datepublished|pubdate|publish-date|dc\\.date(?:\\.issued)?|date';
+const DATE_SPOTS = [
+  new RegExp(`<meta[^>]+(?:property|name|itemprop)=["'](?:${DATE_KEYS})["'][^>]*content=["']([^"']+)["']`, 'i'),
+  new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]*(?:property|name|itemprop)=["'](?:${DATE_KEYS})["']`, 'i'),
+  /"datePublished"\s*:\s*"([^"]+)"/,
+  /<[a-z]+[^>]+class=["'][^"']*(?:date|published|timestamp)[^"']*["'][^>]*>\s*([^<]{6,40}?)\s*</i,
+  /<time[^>]+datetime=["']([^"']+)["']/i,
+];
+export function publishedAt(html) {
+  for (const re of DATE_SPOTS) {
+    const raw = String(html).match(re)?.[1]?.trim() ?? '';
+    // A four-digit year, or the parser reads strings like "Sep 2" as 2001.
+    const t = /\b(?:19|20)\d\d\b/.test(raw) ? Date.parse(raw) : NaN;
+    if (t > Date.parse('2000-01-01')) return t;
+  }
+  return null;
 }
 
 // Words in double quotes, two words or more: "a closed loop", "unequivocally yes".

@@ -41,6 +41,27 @@ else {
   files = [...new Set([...changed, ...recent])];
 }
 
+// Freshness (NEWSROOM.md, Selection), for briefs published from this moment: judged by the
+// newest source page that gives a date. Past 2 days the body must say when; past 7 it is not news.
+const FRESH_FROM = Date.parse('2026-10-01T18:00:00+07:00');
+const DAY = 86_400_000;
+const MONTHS = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
+// Does the body say when it happened? A weekday, "last week", or a date on or before the
+// news ("on September 28"). A later date, such as a deadline, does not count.
+function saysWhen(body, newest, published) {
+  if (/\b(?:mon|tues|wednes|thurs|fri|satur|sun)day\b|\blast (?:week|month)\b/i.test(body)) return true;
+  const year = new Date(published).getUTCFullYear();
+  const re = /\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.? (\d{1,2})\b(?:,? (\d{4}))?|\b(\d{1,2}) (jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\b(?:,? (\d{4}))?/gi;
+  return [...String(body).matchAll(re)].some((m) => {
+    const [month, day, given] = m[1] ? [m[1], m[2], m[3]] : [m[5], m[4], m[6]];
+    const on = (y) => Date.UTC(y, MONTHS.indexOf(month.slice(0, 3).toLowerCase()), Number(day));
+    // No year given: the brief's own year, or the year before for a date months ahead (December in January).
+    const at = given ? on(Number(given)) : on(year) > published + 183 * DAY ? on(year - 1) : on(year);
+    return at <= newest + DAY;
+  });
+}
+const dayOf = (ms) => new Date(ms).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+
 const pages = new Map();
 const read = (url) => {
   if (!pages.has(url)) pages.set(url, fetchSource(url));
@@ -82,6 +103,26 @@ for (const file of files) {
     if (!norm(page.text).includes(norm(ev.text))) {
       console.log(`ERROR ${where}: evidence[${i}] is not on ${src.name}'s page (${src.url}): "${ev.text.slice(0, 90)}${ev.text.length > 90 ? '…' : ''}"`);
       errors++;
+    }
+  }
+  if (Date.parse(b.publishedAt) >= FRESH_FROM) {
+    const dates = [];
+    for (const s of b.sources ?? []) {
+      const page = await read(s.url);
+      if (page.ok && page.published) dates.push(page.published);
+    }
+    // Undated pages are left to the desk's own reading of the page.
+    if (dates.length) {
+      const newest = Math.max(...dates);
+      const days = (Date.parse(b.publishedAt) - newest) / DAY;
+      const dated = `its newest source is dated ${dayOf(newest)}, ${Math.floor(days)} days before the brief`;
+      if (days > 7) {
+        console.log(`ERROR ${where}: ${dated}. That is not news: skip it, or brief what is new from a fresh source.`);
+        errors++;
+      } else if (days > 2 && !saysWhen(b.body, newest, Date.parse(b.publishedAt))) {
+        console.log(`ERROR ${where}: ${dated}. Say when it happened in the body ("on September 28").`);
+        errors++;
+      }
     }
   }
 }
