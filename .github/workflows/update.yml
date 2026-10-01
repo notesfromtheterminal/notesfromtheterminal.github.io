@@ -85,6 +85,40 @@ jobs:
       - name: Check evidence against the source pages
         run: node scripts/check-sources.mjs --since "${{ github.event.before }}" --ci
 
+  # Model comparison charts: when a brief asks for one, draw it from Artificial Analysis'
+  # free API (the AA_API_KEY secret) and commit the SVG, so the chart keeps the numbers of
+  # the day the story ran. Without the secret, briefs wait for it. The raw data is never kept.
+  charts:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    concurrency:
+      group: charts
+      cancel-in-progress: false
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Draw missing charts
+        env:
+          AA_API_KEY: ${{ secrets.AA_API_KEY }}
+        run: node scripts/charts.mjs
+      - name: Commit new charts
+        run: |
+          [ -d public/charts ] || exit 0
+          git add public/charts
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "charts: model comparison from Artificial Analysis"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
   # GitHub sometimes leaves a deploy "waiting" on the github-pages environment with no
   # reviewer or timer (30 Sep 2026: 3.5 hours). It holds the 'pages' slot, every later
   # deploy is cancelled and the wire freezes, so clear any run stuck like that.

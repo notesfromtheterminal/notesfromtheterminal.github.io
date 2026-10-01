@@ -2,8 +2,8 @@
 // merge duplicates, and write data/wire.json. Runs every 5 minutes in
 // GitHub Actions. State carries over between runs by reading the previous
 // wire.json from the live site (WIRE_STATE_URL), so nothing gets committed.
-import { XMLParser } from 'fast-xml-parser';
 import { makeClassifier } from './lib/classify.mjs';
+import { parseEntries } from './lib/feeds.mjs';
 import { UA, cleanUrl, fetchJSON, hash, p, readJSON, stripHtml, urlKey, writeJSON } from './lib/util.mjs';
 
 const site = await readJSON(p('config', 'site.json'));
@@ -17,74 +17,12 @@ const WINDOW_MS = (site.wireWindowHours ?? 72) * 3600_000;
 const MAX_ITEMS = 500;
 const NOW = Date.now();
 
-const parser = new XMLParser({
-  ignoreAttributes: false,
-  attributeNamePrefix: '@_',
-  textNodeName: '#text',
-  parseTagValue: false,
-  trimValues: true,
-  processEntities: true,
-  htmlEntities: true,
-  isArray: (name) => name === 'item' || name === 'entry',
-});
-
-const text = (v) => {
-  if (v == null) return '';
-  if (Array.isArray(v)) return text(v[0]);
-  if (typeof v === 'object') return text(v['#text'] ?? '');
-  return String(v);
-};
-
-function atomLink(link) {
-  const links = Array.isArray(link) ? link : [link];
-  const pick = links.find((l) => l && (!l['@_rel'] || l['@_rel'] === 'alternate')) ?? links[0];
-  return typeof pick === 'string' ? pick : pick?.['@_href'];
-}
-
-function rssLink(it) {
-  const link = text(it.link);
-  if (link) return link;
-  const guid = text(it.guid);
-  return /^https?:\/\//.test(guid) ? guid : '';
-}
-
 function feedUrl(src) {
   if (src.type !== 'googlenews') return src.url;
   const q = new URLSearchParams({ q: src.query, hl: src.hl, gl: src.gl, ceid: src.ceid });
   return `https://news.google.com/rss/search?${q}`;
 }
 
-function parseEntries(xml) {
-  const doc = parser.parse(xml);
-  if (doc.rss?.channel) {
-    const ch = Array.isArray(doc.rss.channel) ? doc.rss.channel[0] : doc.rss.channel;
-    return (ch.item ?? []).map((it) => ({
-      title: text(it.title),
-      link: rssLink(it),
-      date: text(it.pubDate) || text(it['dc:date']) || text(it.published) || text(it.updated),
-      summary: text(it.description) || text(it['content:encoded']),
-      publisher: text(it.source),
-    }));
-  }
-  if (doc.feed) {
-    return (doc.feed.entry ?? []).map((e) => ({
-      title: text(e.title),
-      link: atomLink(e.link),
-      date: text(e.published) || text(e.updated),
-      summary: text(e.summary) || text(e.content),
-    }));
-  }
-  const rdf = doc['rdf:RDF'];
-  if (rdf) {
-    return (rdf.item ?? []).map((it) => ({
-      title: text(it.title),
-      link: text(it.link),
-      date: text(it['dc:date']),
-      summary: text(it.description),
-    }));
-  }
-  throw new Error('not an RSS/Atom feed');
-}
 
 async function fetchSource(src, prev) {
   const started = Date.now();

@@ -17,6 +17,11 @@ if (!page.ok) {
   process.exit(1);
 }
 
+if (page.via === 'feed')
+  console.error(
+    `READ VIA FEED: the page itself is unreadable (${page.pageError}), so this is the publisher's own feed entry for it, title and summary only. Quote and take numbers only from this text, and list the page as the source.\n`,
+  );
+
 if (flag === '--find') {
   const hit = norm(page.text).includes(norm(phrase));
   console.log(hit ? `FOUND on the page: "${phrase}"` : `NOT on the page: "${phrase}"`);

@@ -1,7 +1,8 @@
 // Grounding: read a source page as plain text, and compare what a brief or note says
 // (quotes, numbers) with the evidence and sources behind it. Used by validate.mjs
 // (offline) and check-sources.mjs (fetches every source).
-import { decodeEntities, UA } from './util.mjs';
+import { parseEntries } from './feeds.mjs';
+import { cleanUrl, decodeEntities, p, readJSON, UA, urlKey } from './util.mjs';
 
 // The form all text is compared in: straight quotes and dashes, one space, lowercase.
 export function norm(s) {
@@ -31,8 +32,16 @@ export function pageText(html) {
     .trim();
 }
 
-// The page itself, never a summary of it. Bot checks and script-only pages count as unreadable.
+// The page itself, never a summary of it. Bot checks and script-only pages count as unreadable,
+// and then the publisher's own feed is tried (see fromFeed).
 export async function fetchSource(url, timeoutMs = 20_000) {
+  const page = await readPage(url, timeoutMs);
+  if (page.ok) return page;
+  const feed = await fromFeed(url, timeoutMs);
+  return feed ? { ok: true, via: 'feed', pageError: page.error, finalUrl: url, ...feed } : page;
+}
+
+async function readPage(url, timeoutMs) {
   try {
     const res = await fetch(url, {
       headers: { 'User-Agent': UA, Accept: 'text/html,application/xhtml+xml,*/*;q=0.8', 'Accept-Language': 'en' },
@@ -48,6 +57,38 @@ export async function fetchSource(url, timeoutMs = 20_000) {
   } catch (err) {
     return { ok: false, error: err.name === 'TimeoutError' ? 'timed out' : err.message };
   }
+}
+
+// When a page blocks the reader, its publisher's own feed (config/sources.json, same host) may
+// still carry the entry: the title and summary the site publishes for machines to read. A bare
+// title is not enough to brief from. Nothing here gets past a block: it is a different, public URL.
+const feedEntries = new Map();
+let feedsByHost;
+async function fromFeed(url, timeoutMs) {
+  const host = (u) => new URL(u).hostname.replace(/^www\./, '');
+  const key = (u) => urlKey(cleanUrl(u) ?? u);
+  if (!feedsByHost) {
+    feedsByHost = new Map();
+    for (const s of await readJSON(p('config', 'sources.json'), [])) {
+      if (s.url && s.type !== 'googlenews') feedsByHost.set(host(s.url), [...(feedsByHost.get(host(s.url)) ?? []), s.url]);
+    }
+  }
+  for (const feed of feedsByHost.get(host(url)) ?? []) {
+    if (!feedEntries.has(feed))
+      feedEntries.set(
+        feed,
+        fetch(feed, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(timeoutMs) })
+          .then((res) => (res.ok ? res.text() : ''))
+          .then((xml) => (xml ? parseEntries(xml) : []))
+          .catch(() => []),
+      );
+    const entry = (await feedEntries.get(feed)).find((e) => e.link && key(e.link) === key(url));
+    if (!entry) continue;
+    const body = pageText(entry.content || entry.summary || '');
+    if (body.length < 80) return null;
+    return { text: `${pageText(entry.title)}\n${body}`, published: Date.parse(entry.date) || null };
+  }
+  return null;
 }
 
 // When a page says it was published, in ms: its meta tags, then its structured data, then

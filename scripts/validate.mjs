@@ -112,6 +112,11 @@ export async function loadContent({ now = Date.now() } = {}) {
     if (b.star != null && typeof b.star !== 'boolean') e.push('star must be true or false');
     if (b.figure != null && (typeof b.figure?.value !== 'string' || b.figure.value.length > 18 || typeof b.figure?.label !== 'string' || b.figure.label.length > 70))
       e.push('figure needs value (up to 18 chars) and label (up to 70 chars)');
+    if (b.chart != null) {
+      const c = b.chart;
+      if (c?.kind !== 'models' || !Array.isArray(c.models) || c.models.length < 2 || c.models.length > 8 || c.models.some((m) => typeof m !== 'string' || !m.trim()) || !c.models.includes(c.focus))
+        e.push('chart must be {"kind": "models", "models": [2-8 model names as Artificial Analysis lists them], "focus": one of those names}');
+    }
     if (!Array.isArray(b.sources) || !b.sources.length || b.sources.some((s) => !s?.name || !isHttps(s?.url)))
       e.push('sources must be a non-empty list of {name, https url}');
     for (const [k, v] of [['headline', b.headline], ['body', b.body], ['note', b.note], ['figure', b.figure?.label]])
@@ -162,7 +167,7 @@ export async function loadContent({ now = Date.now() } = {}) {
     const where = rel(b._file);
     const mine = b.sources.map((s) => pageKey(s.url));
     const earlier = oldestFirst.slice(0, i).reverse();
-    const same = earlier.find((a) => {
+    const same = oldestFirst.slice(0, i).find((a) => {
       const theirs = new Set(a.sources.map((s) => pageKey(s.url)));
       return mine.every((k) => theirs.has(k));
     });

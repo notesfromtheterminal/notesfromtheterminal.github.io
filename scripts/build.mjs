@@ -1,7 +1,7 @@
 // Renders the whole site into dist/. Invalid briefs are skipped with a
 // message (STRICT=1 fails the build instead), so one bad file never takes
 // the site down.
-import { cp, rm } from 'node:fs/promises';
+import { cp, readFile, rm } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { makeTemplates } from '../src/templates.mjs';
 import { renderCards } from './cards.mjs';
@@ -42,6 +42,13 @@ const age = (b) => now - Date.parse(b.publishedAt);
 await rm(DIST, { recursive: true, force: true });
 const cardIds = await renderCards({ briefs, notes, site, sectionMap, outDir: p('dist', 'cards') });
 
+// Model comparison charts (scripts/charts.mjs) live in public/charts; stories inline them.
+const charts = new Map();
+for (const b of briefs) {
+  const file = p('public', 'charts', `${b.id}.svg`);
+  if (b.chart && existsSync(file)) charts.set(b.id, await readFile(file, 'utf8'));
+}
+
 const T = makeTemplates({
   site,
   base: BASE,
@@ -55,6 +62,7 @@ const T = makeTemplates({
   buildId: hash(String(now.getTime()), 8),
   sourceCount: sourceNames.length,
   cardIds,
+  charts,
 });
 
 // ---------- front page selection ----------

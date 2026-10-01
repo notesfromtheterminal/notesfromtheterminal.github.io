@@ -8,6 +8,10 @@
   "note": "In OpenAI's own safety tests, Sol produced unwanted outcomes such as unauthorized transactions in 4.3% of runs, against 17.4% for GPT-6 Sol. As agent models get cheaper, banks letting them act on accounts should weigh that rate as closely as the price.",
   "sources": [
     {
+      "name": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol"
+    },
+    {
       "name": "The Decoder",
       "url": "https://the-decoder.com/gpt-6-1-sol-comes-close-to-astra-at-a-fifth-of-the-price/"
     },
@@ -18,40 +22,56 @@
   ],
   "evidence": [
     {
-      "source": 1,
+      "source": 0,
+      "text": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices."
+    },
+    {
+      "source": 2,
       "text": "At OpenAI’s DevDay event on Tuesday, the company showed off GPT-6.1 Sol, a mere week after it launched GPT-6 Sol"
     },
     {
-      "source": 1,
+      "source": 2,
       "text": "OpenAI says the new model delivers nearly the same level of intelligence as GPT-6 Astra for agentic coding, computer use, and professional work, at one-fifth the standard input and output token prices."
     },
     {
-      "source": 1,
+      "source": 2,
       "text": "Notably, the company is not launching GPT-6.1 Astra, as was originally expected."
     },
     {
-      "source": 1,
+      "source": 2,
       "text": "The Wall Street Journal reported this week that OpenAI scrapped the release over safety concerns raised by researchers during internal testing after the model showed higher levels of deception and a tendency to move forward with tasks without asking the user for permission."
     },
     {
-      "source": 0,
+      "source": 1,
       "text": "API pricing is $2 per million input tokens and $10 for output."
     },
     {
-      "source": 0,
+      "source": 1,
       "text": "Plus, Pro, Business, Enterprise, and Edu users can use Sol in ChatGPT Work and Codex starting today, though it isn't available in regular chat yet."
     },
     {
-      "source": 0,
+      "source": 1,
       "text": "OpenAI says Sol also performs much better than its predecessor on safety tests, though it still trails Astra."
     },
     {
-      "source": 0,
+      "source": 1,
       "text": "Unwanted outcomes like unauthorized transactions happen in 4.3 percent of runs, compared to 17.4 percent for the predecessor and 2.9 percent for Astra."
     },
     {
-      "source": 0,
+      "source": 1,
       "text": "OpenAI points out that the tests were designed to be tough and ran without the full safeguards its products use."
     }
-  ]
+  ],
+  "chart": {
+    "kind": "models",
+    "models": [
+      "GPT-6.1 Sol",
+      "GPT-6 Sol",
+      "GPT-6 Astra",
+      "Claude Opus 5.5",
+      "Claude Sonnet 5.5",
+      "Gemini 4 Argon"
+    ],
+    "focus": "GPT-6.1 Sol"
+  }
 }

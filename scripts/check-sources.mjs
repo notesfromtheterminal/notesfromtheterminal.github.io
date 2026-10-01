@@ -44,6 +44,8 @@ else {
 // Freshness (NEWSROOM.md, Selection), for briefs published from this moment: judged by the
 // newest source page that gives a date. Past 2 days the body must say when; past 7 it is not news.
 const FRESH_FROM = Date.parse('2026-10-01T18:00:00+07:00');
+// From this moment every listed source must be readable, directly or through its publisher's feed.
+const READABLE_FROM = Date.parse('2026-10-01T20:00:00+07:00');
 const DAY = 86_400_000;
 const MONTHS = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
 // Does the body say when it happened? A weekday, "last week", or a date on or before the
@@ -103,6 +105,22 @@ for (const file of files) {
     if (!norm(page.text).includes(norm(ev.text))) {
       console.log(`ERROR ${where}: evidence[${i}] is not on ${src.name}'s page (${src.url}): "${ev.text.slice(0, 90)}${ev.text.length > 90 ? '…' : ''}"`);
       errors++;
+    }
+  }
+  if (Date.parse(b.publishedAt) >= READABLE_FROM) {
+    const cited = new Set(b.evidence.map((ev) => ev.source));
+    for (const [i, s] of (b.sources ?? []).entries()) {
+      if (cited.has(i)) continue; // checked above, through its evidence
+      const page = await read(s.url);
+      if (page.ok) continue;
+      const msg = `${where}: source ${i} (${s.name}) is unreadable (${page.error})`;
+      if (ci) {
+        console.log(`warn  ${msg}`);
+        warnings++;
+      } else {
+        console.log(`ERROR ${msg}. A brief may only list pages the reader can open, or that the publisher's feed carries: drop it, or skip the story.`);
+        errors++;
+      }
     }
   }
   if (Date.parse(b.publishedAt) >= FRESH_FROM) {

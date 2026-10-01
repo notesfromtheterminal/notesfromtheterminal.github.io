@@ -210,6 +210,9 @@ mark { background: #ffe2c2; color: inherit; padding: 0 1px; border-radius: 2px; 
 .story-card img { display: block; width: 100%; height: auto; border: 1px solid var(--rule); border-radius: 4px; }
 .story-body { font-size: 22px; line-height: 1.55; max-width: 36em; }
 .story .note { font-size: 19px; max-width: 36em; margin-top: 18px; }
+/* Model comparison charts (scripts/charts.mjs), drawn from Artificial Analysis data */
+.chart { margin: 18px 0 6px; max-width: 560px; }
+.chart svg { display: block; width: 100%; height: auto; border: 1px solid var(--rule); border-radius: 4px; }
 .correction { margin-top: 16px; padding: 10px 13px; border: 1px solid var(--rule); font-size: 16px; }
 .story-sources { margin-top: 34px; max-width: 36em; }
 .story-sources ul { list-style: none; margin: 8px 0 0; padding: 0; }

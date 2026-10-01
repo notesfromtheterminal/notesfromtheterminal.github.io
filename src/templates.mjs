@@ -9,7 +9,7 @@ const SEARCH_ICON =
   '<svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>';
 
 export function makeTemplates(ctx) {
-  const { site, base, siteUrl, sections, sectionMap, now, ticker, wireUpdatedAt, latestBriefAt, buildId, cardIds = new Set() } = ctx;
+  const { site, base, siteUrl, sections, sectionMap, now, ticker, wireUpdatedAt, latestBriefAt, buildId, cardIds = new Set(), charts = new Map() } = ctx;
   const tz = site.timezone; // edition days: Morning Notes and archive pages
   const D = 'UTC'; // times are built in UTC; app.js rewrites them in the reader's own time zone
 
@@ -73,6 +73,9 @@ export function makeTemplates(ctx) {
 
   const note = (b) =>
     b.note ? `<p class="note"><span class="note-label">Note</span>${esc(b.note)}</p>` : '';
+
+  // Inline, so the chart takes the site's fonts. Its credit line links to Artificial Analysis.
+  const chartFigure = (b) => (charts.has(b.id) ? `<figure class="chart">${charts.get(b.id)}</figure>` : '');
 
   const sourcesLine = (b) =>
     `<span class="srcs">${b.sources.length > 1 ? 'Sources' : 'Source'}: ${b.sources
@@ -366,6 +369,7 @@ ${kicker(b, { big: b.star })}
 ${card ? `<figure class="story-card"><img src="${u(card)}" width="1200" height="630" alt="${esc(cardAlt)}"></figure>` : figure(b)}
 <p class="story-body">${bodyHtml(b)}</p>
 ${note(b)}
+${chartFigure(b)}
 ${b.correction ? `<p class="correction"><strong>Correction:</strong> ${esc(b.correction)}</p>` : ''}
 <section class="story-sources" aria-labelledby="src-h"><h2 class="label" id="src-h">Read the original</h2><ul>${b.sources
         .map((s) => `<li>${ext(s.url, `${esc(s.name)} <span aria-hidden="true">↗</span>`)}</li>`)
