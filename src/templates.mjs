@@ -77,6 +77,22 @@ export function makeTemplates(ctx) {
   // Inline, so the chart takes the site's fonts. Its credit line links to Artificial Analysis.
   const chartFigure = (b) => (charts.has(b.id) ? `<figure class="chart">${charts.get(b.id)}</figure>` : '');
 
+  // A comparison table from figures in the brief's own evidence; the chart's model is marked.
+  const squash = (s) => String(s ?? '').toLowerCase().replace(/[^a-z0-9.]+/g, '');
+  const tableFigure = (b) => {
+    const t = b.table;
+    if (!t) return '';
+    const src = b.sources[t.source];
+    const head = t.columns.map((c, i) => `<th scope="col"${i ? ' class="num"' : ''}>${esc(c)}</th>`).join('');
+    const rows = t.rows
+      .map((r) => {
+        const mark = b.chart && squash(r[0]) === squash(b.chart.focus) ? ' class="focus"' : '';
+        return `<tr${mark}>${r.map((c, i) => (i ? `<td class="num">${esc(c)}</td>` : `<th scope="row">${esc(c)}</th>`)).join('')}</tr>`;
+      })
+      .join('');
+    return `<figure class="data-table"><figcaption>${esc(t.title)}</figcaption><div class="table-scroll"><table><thead><tr>${head}</tr></thead><tbody>${rows}</tbody></table></div><p class="table-source">Source: ${ext(src.url, esc(src.name))}</p></figure>`;
+  };
+
   const sourcesLine = (b) =>
     `<span class="srcs">${b.sources.length > 1 ? 'Sources' : 'Source'}: ${b.sources
       .map((s) => ext(s.url, esc(s.name)))
@@ -370,6 +386,7 @@ ${card ? `<figure class="story-card"><img src="${u(card)}" width="1200" height="
 <p class="story-body">${bodyHtml(b)}</p>
 ${note(b)}
 ${chartFigure(b)}
+${tableFigure(b)}
 ${b.correction ? `<p class="correction"><strong>Correction:</strong> ${esc(b.correction)}</p>` : ''}
 <section class="story-sources" aria-labelledby="src-h"><h2 class="label" id="src-h">Read the original</h2><ul>${b.sources
         .map((s) => `<li>${ext(s.url, `${esc(s.name)} <span aria-hidden="true">↗</span>`)}</li>`)

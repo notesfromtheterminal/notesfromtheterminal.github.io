@@ -117,6 +117,14 @@ export async function loadContent({ now = Date.now() } = {}) {
       if (c?.kind !== 'models' || !Array.isArray(c.models) || c.models.length < 2 || c.models.length > 8 || c.models.some((m) => typeof m !== 'string' || !m.trim()) || !c.models.includes(c.focus))
         e.push('chart must be {"kind": "models", "models": [2-8 model names as Artificial Analysis lists them], "focus": one of those names}');
     }
+    if (b.table != null) {
+      const tb = b.table;
+      const cell = (c) => typeof c === 'string' && c.trim() && c.length <= 40;
+      if (typeof tb?.title !== 'string' || !tb.title.trim() || tb.title.length > 80 || !Array.isArray(tb.columns) || tb.columns.length < 2 || tb.columns.length > 6 || !tb.columns.every(cell) || !Array.isArray(tb.rows) || tb.rows.length < 2 || tb.rows.length > 12 || tb.rows.some((r) => !Array.isArray(r) || r.length !== tb.columns.length || !r.every(cell)) || !Number.isInteger(tb.source) || !b.sources?.[tb.source])
+        e.push('table must be {"title", "columns": [2-6], "rows": [2-12 rows, one cell per column, each up to 40 chars], "source": <index into sources>}');
+      else if (/artificialanalysis\.ai/i.test(b.sources[tb.source].url))
+        e.push("table source is Artificial Analysis, whose terms allow charts but not tables: use the chart field for their numbers");
+    }
     if (!Array.isArray(b.sources) || !b.sources.length || b.sources.some((s) => !s?.name || !isHttps(s?.url)))
       e.push('sources must be a non-empty list of {name, https url}');
     for (const [k, v] of [['headline', b.headline], ['body', b.body], ['note', b.note], ['figure', b.figure?.label]])
@@ -131,6 +139,14 @@ export async function loadContent({ now = Date.now() } = {}) {
         const g = ungrounded([b.headline, b.body, b.note, b.figure?.value].filter(Boolean).join(' \n '), ev.map((x) => x.text));
         for (const q of g.quotes) e.push(`quote "${q}" is in no evidence sentence: quotation marks are only for words copied from the source`);
         for (const n of g.numbers) e.push(`number ${n} is in no evidence sentence: copy the sentence that states it into evidence, or drop it`);
+        // Tables: every number and every row name must be in the evidence. Which cell a number
+        // belongs in cannot be checked by machine, so the desk copies cells one by one.
+        if (Array.isArray(b.table?.rows)) {
+          for (const n of ungrounded(b.table.rows.flat().join(' \n '), ev.map((x) => x.text)).numbers)
+            e.push(`table number ${n} is in no evidence sentence: copy the source's sentence or table into evidence, or drop it`);
+          const said = norm(ev.map((x) => x.text).join(' \n '));
+          for (const r of b.table.rows) if (!said.includes(norm(r[0]))) e.push(`table row "${r[0]}" is named in no evidence sentence`);
+        }
         for (const s of unsupported(b.body, ev.map((x) => x.text)))
           e.push(`body sentence has no evidence behind it: "${s.slice(0, 100)}${s.length > 100 ? '…' : ''}". Add the source sentence that says it, or cut the claim`);
       }

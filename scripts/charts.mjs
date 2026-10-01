@@ -30,9 +30,9 @@ if (!pending.length) {
   console.log('charts: nothing to draw');
   process.exit(0);
 }
-// The free API allows 1,000 requests a day. A new brief is tried on every run for its first
-// hour; after that, once an hour, until Artificial Analysis has benchmarked the model.
-const fresh = pending.some((b) => Date.now() - Date.parse(b.publishedAt) < HOUR);
+// The free API allows 1,000 requests a day. A new or just-updated brief is tried on every run
+// for an hour; after that, once an hour, until Artificial Analysis has benchmarked the model.
+const fresh = pending.some((b) => Date.now() - Date.parse(b.updatedAt ?? b.publishedAt) < HOUR);
 if (!fixture && !fresh && new Date().getUTCMinutes() >= 5) {
   console.log(`charts: ${pending.length} waiting, next try at the top of the hour`);
   process.exit(0);
@@ -70,6 +70,20 @@ const HEAD = "font-family=\"'Schibsted Grotesk','Helvetica Neue',Arial,sans-seri
 const MONO = "font-family=\"'IBM Plex Mono',Menlo,monospace\"";
 const day = (d) => d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
 
+// Artificial Analysis names carry the run settings, sometimes long ("Claude Opus 5.5 (Adaptive
+// Reasoning, Max Effort, Default Fallback)"). The model name stays full size; the settings go
+// smaller, cut at a word if the line would run past the chart. The description keeps them whole.
+const split = (name) => {
+  const m = String(name).match(/^(.*?)\s*(\(.*\))\s*$/);
+  return m ? [m[1], m[2]] : [String(name), ''];
+};
+function fit(settings, room) {
+  if (settings.length <= room) return settings;
+  const cut = settings.slice(0, Math.max(0, room - 2));
+  const at = Math.max(cut.lastIndexOf(', '), cut.lastIndexOf(' '));
+  return `${(at > 1 ? cut.slice(0, at) : cut).replace(/[,\s]+$/, '')}…)`;
+}
+
 function drawChart(b, rows, asOf) {
   const W = 480;
   const X = 20;
@@ -79,7 +93,7 @@ function drawChart(b, rows, asOf) {
   const focus = rows.find((r) => r.focus);
   const parts = [];
   let y = 34;
-  parts.push(`<text x="${X}" y="${y}" ${HEAD} font-size="21" font-weight="800" fill="${C.ink}">${esc(`${focus.label} against its peers`)}</text>`);
+  parts.push(`<text x="${X}" y="${y}" ${HEAD} font-size="21" font-weight="800" fill="${C.ink}">${esc(`${split(focus.label)[0]} against its peers`)}</text>`);
 
   const panel = (title, note, value, show) => {
     y += 38;
@@ -90,7 +104,10 @@ function drawChart(b, rows, asOf) {
     for (const r of ordered) {
       const v = value(r);
       const weight = r.focus ? 800 : 600;
-      parts.push(`<text x="${X}" y="${y + 18}" ${HEAD} font-size="16.5" font-weight="${weight}" fill="${r.focus ? C.ink : C.text}">${esc(r.label)}</text>`);
+      const [name, settings] = split(r.label);
+      const room = Math.floor((W - 2 * X - name.length * (r.focus ? 9.8 : 9.2) - 6) / 6.6);
+      const small = settings ? `<tspan font-size="12.5" font-weight="400" fill="${C.muted}"> ${esc(fit(settings, room))}</tspan>` : '';
+      parts.push(`<text x="${X}" y="${y + 18}" ${HEAD} font-size="16.5" font-weight="${weight}" fill="${r.focus ? C.ink : C.text}">${esc(name)}${small}</text>`);
       if (v == null) parts.push(`<text x="${X}" y="${y + 38}" ${MONO} font-size="13" fill="${C.muted}">not listed</text>`);
       else {
         const w = Math.max(2, Math.round((BAR * v) / max));

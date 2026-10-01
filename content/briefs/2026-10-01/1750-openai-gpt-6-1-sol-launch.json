@@ -60,6 +60,10 @@
     {
       "source": 1,
       "text": "OpenAI points out that the tests were designed to be tough and ran without the full safeguards its products use."
+    },
+    {
+      "source": 1,
+      "text": "Price per million tokens Claude Opus 5.5 GPT-6 Sol GPT-6.1 Sol Claude Sonnet 5.5 Input tokens 4 $ 2 $ 2 $ 2 $ Output tokens $20 $10 $10 $10 Cache read operations $0.20 $0.20 $0.10 $0.20 Cache write accesses $5 $2.50 $2.50 $2.50"
     }
   ],
   "chart": {
@@ -73,5 +77,42 @@
       "Gemini 4 Argon"
     ],
     "focus": "GPT-6.1 Sol"
-  }
+  },
+  "table": {
+    "title": "API prices, USD per 1M tokens",
+    "columns": [
+      "Model",
+      "Input",
+      "Output",
+      "Cached input"
+    ],
+    "rows": [
+      [
+        "GPT-6.1 Sol",
+        "$2",
+        "$10",
+        "$0.10"
+      ],
+      [
+        "GPT-6 Sol",
+        "$2",
+        "$10",
+        "$0.20"
+      ],
+      [
+        "Claude Sonnet 5.5",
+        "$2",
+        "$10",
+        "$0.20"
+      ],
+      [
+        "Claude Opus 5.5",
+        "$4",
+        "$20",
+        "$0.20"
+      ]
+    ],
+    "source": 1
+  },
+  "updatedAt": "2026-10-01T18:53:00+07:00"
 }

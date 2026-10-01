@@ -213,6 +213,23 @@ mark { background: #ffe2c2; color: inherit; padding: 0 1px; border-radius: 2px; 
 /* Model comparison charts (scripts/charts.mjs), drawn from Artificial Analysis data */
 .chart { margin: 18px 0 6px; max-width: 560px; }
 .chart svg { display: block; width: 100%; height: auto; border: 1px solid var(--rule); border-radius: 4px; }
+/* Comparison tables: figures from the brief's own evidence */
+.data-table { margin: 18px 0 6px; max-width: 560px; }
+.data-table figcaption { margin-bottom: 6px; font-family: var(--mono); font-size: 11.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--accent-ink); }
+.table-scroll { overflow-x: auto; }
+.data-table table { width: 100%; border-collapse: collapse; font-family: var(--head); font-size: 15px; }
+.data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--rule); text-align: left; white-space: nowrap; }
+.data-table thead th { font-family: var(--mono); font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); border-bottom: 2px solid var(--ink); }
+.data-table .num { text-align: right; font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.data-table tbody th { font-weight: 600; }
+.data-table tr.focus > * { background: var(--note-bg); }
+.data-table tr.focus th { box-shadow: inset 3px 0 0 var(--accent); }
+.table-source { margin-top: 6px; font-size: 13px; color: var(--muted); }
+@media (max-width: 720px) {
+  .data-table table { font-size: 14px; }
+  .data-table th, .data-table td { padding: 7px 6px; }
+  .data-table thead th { white-space: normal; }
+}
 .correction { margin-top: 16px; padding: 10px 13px; border: 1px solid var(--rule); font-size: 16px; }
 .story-sources { margin-top: 34px; max-width: 36em; }
 .story-sources ul { list-style: none; margin: 8px 0 0; padding: 0; }
