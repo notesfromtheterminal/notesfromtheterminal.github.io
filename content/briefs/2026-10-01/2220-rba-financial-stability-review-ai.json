@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-01-rba-financial-stability-review-ai",
+  "publishedAt": "2026-10-01T22:20:00+07:00",
+  "section": "rules",
+  "tags": ["banking"],
+  "star": false,
+  "company": "Reserve Bank of Australia",
+  "headline": "RBA flags circular AI financing and agent-driven herd trading as stability risks",
+  "body": "The Reserve Bank of Australia's half-yearly Financial Stability Review, released Thursday, warned a shift in sentiment toward the AI investment boom, fed by a debt-financing cycle becoming \"more opaque and circular,\" could trigger broader financial fallout. It cited \"circular financing,\" where chipmakers fund neocloud firms that then buy their products, and warned of \"herd behaviour and market correlation\" as AI agents take a bigger role in investment decisions, on top of AI-driven cyberattack risk.",
+  "note": "This names a transmission mechanism, circular vendor financing that concentrates risk the way it did in past tech cycles, and AI trading agents correlating on the same signals, which gives a sell-off a new way to move faster than regulators are used to.",
+  "sources": [{ "name": "ABC News", "url": "https://www.abc.net.au/news/2026-10-01/rba-financial-stability-review-october-2026/107215072" }],
+  "evidence": [
+    { "source": 0, "text": "Reflecting recent comments from the RBA governor and other senior officials, the bank warned that a bursting of the potential AI bubble could trigger broader financial fallout." },
+    { "source": 0, "text": "One possible trigger could be a shift in sentiment towards the AI investment boom, which is increasingly fuelled by expectations of sustained rapid earnings growth and a debt-financing cycle that is becoming more opaque and circular." },
+    { "source": 0, "text": "The RBA also highlighted concerns about \"circular financing\" within the AI sector, for example where chipmakers provided financial support to neocloud firms who then purchased their products." },
+    { "source": 0, "text": "In addition, it warned of financial market risks around \"herd behaviour and market correlation\" as AI agents played a greater role in investment decisions." },
+    { "source": 0, "text": "A key concern is increasing vulnerabilities to AI-driven cyber attacks, especially the reliance of financial institutions on a small number of critical technology service providers." }
+  ]
+}

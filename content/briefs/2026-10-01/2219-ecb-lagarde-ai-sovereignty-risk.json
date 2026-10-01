@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-01-ecb-lagarde-ai-sovereignty-risk",
+  "publishedAt": "2026-10-01T22:19:00+07:00",
+  "section": "rules",
+  "tags": ["banking"],
+  "star": false,
+  "company": "European Central Bank",
+  "headline": "ECB's Lagarde warns AI debt concentration could spill into euro area markets",
+  "body": "ECB President Christine Lagarde told the European Parliament's economic affairs committee on September 28 that global equity valuations are concentrated in a small number of AI-related firms rapidly increasing their debt funding, and a sharp reassessment of their prospects could trigger market corrections that spill over to euro area investors. She said euro area firms will devote around 10% of total investment to AI this year, with AI-related borrowing already a quarter of firms' credit growth.",
+  "note": "A quarter of credit growth to firms tied to one asset class is a concentration number worth sitting with. Emerging-market supervisors far from Frankfurt should note that a reassessment of AI valuations in the US or Europe would not stay contained there.",
+  "sources": [{ "name": "European Central Bank", "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260928~a875675544.en.html" }],
+  "evidence": [
+    { "source": 0, "text": "Firms are set to devote around 10% of total investment to AI in 2026, and AI-related borrowing already accounts for roughly a quarter of credit growth to firms." },
+    { "source": 0, "text": "Global equity valuations are concentrated in a relatively small number of AI-related firms, which are also rapidly increasing their debt funding. A sharp reassessment of AI companies’ prospects and the sustainability of their debt could trigger market corrections and spill over to euro area investors and the wider economy." },
+    { "source": 0, "text": "Europe should strengthen underdeveloped critical parts of the AI value chain. Building European capacity will also ensure that we can rely on European tech for sensitive activities – in line with the aim of the Technological Sovereignty Package." }
+  ]
+}

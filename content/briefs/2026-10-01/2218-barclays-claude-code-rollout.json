@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-01-barclays-claude-code-rollout",
+  "publishedAt": "2026-10-01T22:18:00+07:00",
+  "section": "banking",
+  "tags": [],
+  "star": false,
+  "company": "Barclays",
+  "headline": "Barclays expects most developers on Anthropic's Claude Code by 2027",
+  "body": "Barclays expects half of its developers to be using Anthropic's agentic coding tool Claude Code by the end of this year and most of them by the end of 2027, part of an expanded partnership covering the bank's global operations, Anthropic said in a press release. Barclays' Colleague Knowledge Assistant has handled over 1 million searches from more than 16,000 UK staff, and Claude models already process 120,000 client emails a day in its Global Markets business.",
+  "note": "120,000 client emails a day already running through Claude at a bank Barclays' size is what separates a pilot from an operating model. Other large banks watching this should ask whether their own oversight and audit processes can scale as fast as the rollout.",
+  "sources": [{ "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/barclays-accelerates-ai-rollout-with-anthropic-claude-code/" }],
+  "evidence": [
+    { "source": 0, "text": "British universal bank Barclays expects half of its developers to be using Anthropic ’s agentic artificial intelligence coding tool Claude Code by the end of the year, and most of them to be using it by the end of 2027, Anthropic said in a Thursday (Oct. 1) press release." },
+    { "source": 0, "text": "The growing adoption of Claude Code is part of an expanded strategic collaboration of Barclays and Anthropic that will see the bank integrate AI systems across its global operations, according to the release." },
+    { "source": 0, "text": "“At Barclays, we’re using Claude to help modernize legacy platforms, improve software quality and allow our technical experts to focus on the most complex challenges,” Bright said." },
+    { "source": 0, "text": "Examples include Barclays’ Colleague Knowledge Assistant, which is used by more than 16,000 Barclays UK employees and has handled over 1 million searches since 2025, and Claude models used within Barclays’ Global Markets business, which process 120,000 emails from clients each day and help colleagues act on them, according to the release." }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-01-shinhan-bank-ai-hacking-leak",
+  "publishedAt": "2026-10-01T22:17:00+07:00",
+  "section": "banking",
+  "tags": ["fraud"],
+  "star": false,
+  "company": "Shinhan Bank",
+  "headline": "Shinhan Bank says AI-assisted hackers leaked data on 25,000 customers",
+  "body": "Shinhan Bank said personal information on around 25,000 customers, including loan amounts, annual income, names and phone numbers, was leaked on Wednesday through a breach of its loan broker login site. Sources told the Korea Herald the hackers, suspected to be based overseas, used AI tools in the attack, and the bank has blocked external IP access and suspended the affected service while South Korea's financial watchdog investigates.",
+  "note": "An industry official told the paper the entire financial sector is exposed to this kind of attack on vulnerable customer-facing platforms. That argues for routine AI-powered penetration testing beyond the core banking systems that usually get the attention.",
+  "sources": [{ "name": "The Korea Herald", "url": "https://www.koreaherald.com/article/10891104" }],
+  "evidence": [
+    { "source": 0, "text": "Personal information of around 25,000 customers has been leaked from Shinhan Bank, the lender said Thursday, prompting the financial watchdog to conduct an on-site inspection." },
+    { "source": 0, "text": "According to the bank, loan borrowing by customers, their annual income, names and phone numbers were leaked on Wednesday via hacking. Shinhan said it took emergency steps to minimize potential damage from the leak." },
+    { "source": 0, "text": "Sources said the hackers, currently suspected to be based overseas, utilized advanced artificial intelligence tools in the attacks." },
+    { "source": 0, "text": "\"The entire financial industry is vulnerable to AI agent-assisted attacks. Financial institutions need to promptly conduct their own security inspections to address potential vulnerabilities,\" an industry official said." },
+    { "source": 0, "text": "Shinhan Bank said it has launched a response team to make all-out efforts to address the situation and has completed safety measures, including blocking access from external IP addresses and suspending the affected services." }
+  ]
+}
