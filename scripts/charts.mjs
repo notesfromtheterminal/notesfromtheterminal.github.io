@@ -84,6 +84,34 @@ function fit(settings, room) {
   return `${(at > 1 ? cut.slice(0, at) : cut).replace(/[,\s]+$/, '')}…)`;
 }
 
+// What the chart shows, in two or three plain sentences under it. Artificial Analysis' terms
+// allow brief citations of individual data points with their credit, so the sentences quote
+// values from the chart and compute nothing new: no ratios, no gaps.
+const ORDINAL = ['first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eighth'];
+const COUNT = ['', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight'];
+const list = (xs) => (xs.length < 2 ? xs.join('') : `${xs.slice(0, -1).join(', ')} and ${xs.at(-1)}`);
+function commentary(rows) {
+  const name = (r) => split(r.label)[0];
+  const byIq = [...rows].sort((a, z) => z.iq - a.iq);
+  const f = rows.find((r) => r.focus);
+  const lead = byIq[0];
+  const s = [];
+  if (lead === f)
+    s.push(`${name(f)} has the highest score in this comparison, ${f.iq.toFixed(1)} on Artificial Analysis' Intelligence Index, ahead of ${name(byIq[1])} at ${byIq[1].iq.toFixed(1)}.`);
+  else
+    s.push(`${name(f)} scores ${f.iq.toFixed(1)} on Artificial Analysis' Intelligence Index, ${ORDINAL[byIq.indexOf(f)]} of the ${COUNT[rows.length]} models here, while ${name(lead)} leads at ${lead.iq.toFixed(1)}.`);
+  const priced = rows.filter((r) => r.price != null);
+  if (f.price != null && priced.length > 1) {
+    const low = Math.min(...priced.map((r) => r.price));
+    const high = priced.reduce((a, r) => (r.price > a.price ? r : a));
+    const twins = priced.filter((r) => r !== f && r.price === f.price).map(name);
+    if (f.price === low) s.push(`Its price, $${f.price.toFixed(2)} per million tokens, is the lowest here${twins.length ? `, shared with ${list(twins)}` : ''}.`);
+    else s.push(`It costs $${f.price.toFixed(2)} per million tokens, against $${low.toFixed(2)} for ${list(priced.filter((r) => r.price === low).map(name))}.`);
+    if (high !== f && high.price > f.price) s.push(`The most expensive is ${name(high)} at $${high.price.toFixed(2)}.`);
+  }
+  return s.join(' ');
+}
+
 function drawChart(b, rows, asOf) {
   const W = 480;
   const X = 20;
@@ -132,13 +160,12 @@ function drawChart(b, rows, asOf) {
   parts.push(`<text x="${X}" y="${y}" ${HEAD} font-size="13" fill="${C.muted}">Price blends input and output tokens 3:1. Notes from the Terminal</text>`);
   const H = y + 16;
 
-  const desc = ordered
-    .map((r) => `${r.label}: ${r.iq.toFixed(1)}${r.price == null ? '' : `, $${r.price.toFixed(2)} per million tokens`}`)
-    .join('; ');
+  const desc = `Bar charts of the Artificial Analysis Intelligence Index and price per million tokens for ${COUNT[rows.length]} models, with ${split(focus.label)[0]} highlighted.`;
   const id = `chart-${b.id}`;
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-labelledby="${id}-t ${id}-d" data-asof="${asOf.toISOString().slice(0, 10)}">
 <title id="${id}-t">${esc(`${focus.label} against its peers on the Artificial Analysis Intelligence Index and price`)}</title>
 <desc id="${id}-d">${esc(desc)}</desc>
+<metadata id="${id}-note">${esc(commentary(rows))}</metadata>
 <rect width="${W}" height="${H}" fill="#ffffff"/>
 ${parts.join('\n')}
 </svg>

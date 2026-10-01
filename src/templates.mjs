@@ -74,8 +74,14 @@ export function makeTemplates(ctx) {
   const note = (b) =>
     b.note ? `<p class="note"><span class="note-label">Note</span>${esc(b.note)}</p>` : '';
 
-  // Inline, so the chart takes the site's fonts. Its credit line links to Artificial Analysis.
-  const chartFigure = (b) => (charts.has(b.id) ? `<figure class="chart">${charts.get(b.id)}</figure>` : '');
+  // Inline, so the chart takes the site's fonts. Its credit line links to Artificial Analysis, and
+  // the sentences under it (written when it was drawn, already escaped) come from its <metadata>.
+  const chartFigure = (b) => {
+    const svg = charts.get(b.id);
+    if (!svg) return '';
+    const says = svg.match(/<metadata[^>]*>([\s\S]*?)<\/metadata>/)?.[1]?.trim();
+    return `<figure class="chart">${svg}${says ? `<figcaption class="chart-note">${says} Source: ${ext('https://artificialanalysis.ai/', 'Artificial Analysis')}.</figcaption>` : ''}</figure>`;
+  };
 
   // A comparison table from figures in the brief's own evidence; the chart's model is marked.
   const squash = (s) => String(s ?? '').toLowerCase().replace(/[^a-z0-9.]+/g, '');

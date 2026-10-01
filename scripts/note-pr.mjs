@@ -1,10 +1,11 @@
 // Builds the approval pull request for a Morning Note. The workflow runs it when
 // the desk pushes a claude/note-YYYY-MM-DD branch; merging the PR publishes.
-// The body ends with a ready-to-paste email version for Kit.
+// Once the newsletter is live, the body ends with the email's HTML block for Kit.
 //   node scripts/note-pr.mjs 2026-09-24           -> PR body (markdown)
 //   node scripts/note-pr.mjs 2026-09-24 --title   -> PR title
+import { execFileSync } from 'node:child_process';
 import { loadContent } from './validate.mjs';
-import { fetchJSON, p, readJSON } from './lib/util.mjs';
+import { p, readJSON } from './lib/util.mjs';
 
 const [date, flag] = process.argv.slice(2);
 if (!/^\d{4}-\d{2}-\d{2}$/.test(date ?? '')) {
@@ -35,65 +36,44 @@ const parts = Object.fromEntries(
     .map((x) => [x.type, x.value]),
 );
 const liveAt = `${parts.weekday} ${parts.day} ${parts.month}, ${parts.hour}:${parts.minute} WIB`;
-const editionDay = `${parts.weekday}, ${parts.day} ${parts.month}`;
 const goesLive =
   Date.parse(note.publishedAt) > Date.now()
     ? `**Goes live ${liveAt}** once merged: the site holds it until then.${site.newsletterLive ? ' Schedule the email for the same time.' : ''}`
     : '**Publishes as soon as you merge.**';
 
-// Also on the wire: three headlines from the last 36 hours that the stories don't cover,
-// banking, payments, SEA and rules before deals, and one per publisher.
-const covered = new Set(stories.flatMap((b) => b.sources.map((s) => s.url)));
-const wire = SITE ? await fetchJSON(`${SITE}/data/wire.json`) : null;
-const RANK = ['banking', 'payments', 'sea', 'rules', 'deals'];
-const rank = (i) => (RANK.indexOf(i.section) + 1 || RANK.length + 1);
-const when = (i) => Date.parse(i.publishedAt ?? i.firstSeen);
-const wireItems = [];
-for (const i of (wire?.items ?? [])
-  .filter((i) => i.display !== false && i.section !== 'models' && !covered.has(i.url) && Date.now() - when(i) < 36 * 3600_000)
-  .sort((a, b) => rank(a) - rank(b) || when(b) - when(a))) {
-  if (wireItems.length === 3) break;
-  if (!wireItems.some((w) => w.source === i.source)) wireItems.push(i);
-}
 
 // The email version only appears while the newsletter is sending (site.newsletterLive).
-const email = !site.newsletterLive ? [] : [
-  '## Email version, ready for Kit',
-  '',
-  `**Subject:** ${md(note.title)}`,
-  '',
-  `**Preview text:** ${md(note.dek ?? '')}`,
-  '',
-  'In Kit: Broadcasts → New broadcast. Copy everything from **Start of email** to **End of email**, paste it in, set the subject and preview text, then schedule it.',
-  '',
-  '**Start of email**',
-  '',
-  `**Notes from the Terminal · The Morning Note** · ${editionDay}`,
-  '',
-  '### Top stories',
-  '',
-  ...stories.slice(0, 4).flatMap((b) => [
-    `**[${md(b.headline)}](${SITE}/story/${b.id}/)**`,
-    '',
-    md(b.body),
-    '',
-    ...(b.note ? [`*Why it matters:* ${md(b.note)}`, ''] : []),
-  ]),
-  `**A note from us:** enjoying the Morning Note? Forward it to a colleague in finance, or follow [@${site.x} on X](https://x.com/${site.x}) for the stories as they land.`,
-  '',
-  "### Today's idea",
-  '',
-  `**${md(note.title)}**`,
-  '',
-  ...(note.dek ? [md(note.dek), ''] : []),
-  `[Read the Morning Note →](${SITE}/notes/${date}/)`,
-  '',
-  ...(wireItems.length
-    ? ['### Also on the wire', '', ...wireItems.map((i) => `- [${md(i.title)}](${i.url}) · ${md(i.source)}`), '']
-    : []),
-  '**End of email**',
-  '',
-];
+// The email: the HTML block scripts/email.mjs builds for Kit (the Kit template supplies the
+// frame, unsubscribe link and address). GitHub shows a copy button on the code block.
+let emailHtml = '';
+if (site.newsletterLive) {
+  try {
+    emailHtml = execFileSync(process.execPath, [p('scripts', 'email.mjs'), date], { encoding: 'utf8', env: { ...process.env, SITE_URL: SITE } }).trim();
+  } catch (err) {
+    emailHtml = '';
+    console.error(`email: could not build the email (${err.message.split('\n')[0]})`);
+  }
+}
+const email = !site.newsletterLive
+  ? []
+  : [
+      '## Email for Kit',
+      '',
+      `**Subject:** ${md(note.title)}`,
+      '',
+      `**Preview text:** ${md(note.dek ?? '')}`,
+      '',
+      ...(emailHtml
+        ? [
+            'In Kit: Send → Broadcasts → New broadcast. Add an **HTML block**, click Edit, paste the code below (copy button at its top right), Save. Set the subject and preview text above, send yourself a test, then schedule it for **07:00 WIB**.',
+            '',
+            '```html',
+            emailHtml,
+            '```',
+            '',
+          ]
+        : ['**The email could not be built for this note.** Ask Claude to check `scripts/email.mjs`.', '']),
+    ];
 
 console.log(
   [

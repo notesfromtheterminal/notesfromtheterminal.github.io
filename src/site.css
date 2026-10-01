@@ -213,6 +213,8 @@ mark { background: #ffe2c2; color: inherit; padding: 0 1px; border-radius: 2px; 
 /* Model comparison charts (scripts/charts.mjs), drawn from Artificial Analysis data */
 .chart { margin: 18px 0 6px; max-width: 560px; }
 .chart svg { display: block; width: 100%; height: auto; border: 1px solid var(--rule); border-radius: 4px; }
+.chart-note { margin-top: 9px; font-size: 15.5px; line-height: 1.5; color: var(--text); }
+.chart-note a { color: inherit; }
 /* Comparison tables: figures from the brief's own evidence */
 .data-table { margin: 18px 0 6px; max-width: 560px; }
 .data-table figcaption { margin-bottom: 6px; font-family: var(--mono); font-size: 11.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--accent-ink); }

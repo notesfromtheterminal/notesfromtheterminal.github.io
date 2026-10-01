@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+  Notes from the Terminal: Kit email template (set up once).
+  Kit: Email Templates, + New Email Template, Create HTML Template, paste this file.
+  Each morning's email goes into one HTML block in the broadcast; Kit places it in the
+  message-content slot below, with the unsubscribe link and mailing address it requires.
+  (Never write Kit's placeholder tags in this comment: Kit fills them in here too.)
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="x-apple-disable-message-reformatting">
+<meta name="color-scheme" content="light only">
+<meta name="supported-color-schemes" content="light only">
+<title></title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,400&family=Schibsted+Grotesk:wght@600;800&display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; padding: 0; background: #0b0b0c; -webkit-text-size-adjust: 100%; }
+  img { border: 0; display: block; max-width: 100%; height: auto; }
+  a { text-decoration: none; }
+  @media (max-width: 620px) {
+    .nft-pad { padding-left: 22px !important; padding-right: 22px !important; }
+    .nft-col { max-width: 100% !important; width: 100% !important; margin: 0 0 22px !important; }
+    .nft-title { font-size: 27px !important; }
+    .nft-h { font-size: 17px !important; letter-spacing: .1em !important; }
+    .nft-img { max-width: 100% !important; }
+  }
+</style>
+</head>
+<body style="margin:0;padding:0;background:#0b0b0c;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#0b0b0c;">
+  <tr>
+    <td align="center" style="padding:20px 10px 28px;">
+      <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;">
+        <tr><td>{{ message_content }}</td></tr>
+        <tr>
+          <td style="padding:22px 24px 4px;text-align:center;font-family:'Schibsted Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:11.5px;line-height:1.7;color:#7d7d86;">
+            You subscribed at <a href="https://notesfromtheterminal.com" style="color:#a1a1aa;text-decoration:underline;">notesfromtheterminal.com</a> &middot; <a href="{{ unsubscribe_url }}" style="color:#a1a1aa;text-decoration:underline;">Unsubscribe</a><br>
+            {{ address }}
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
