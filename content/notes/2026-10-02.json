@@ -2,7 +2,7 @@
   "date": "2026-10-02",
   "publishedAt": "2026-10-02T07:00:00+07:00",
   "title": "AI now runs inside the bank, and so do the risks",
-  "dek": "Barclays and Trust Bank show agentic AI doing real operational work this week, while a breach in Seoul and warnings from the ECB and Australia's central bank show why security and oversight need to keep pace.",
+  "dek": "Barclays and Trust Bank show agentic AI doing real operational work, while a breach at Korea's Shinhan Bank and warnings from the ECB and Australia's central bank show why security and oversight need to keep pace.",
   "lead": "2026-10-01-barclays-claude-code-rollout",
   "stories": [
     "2026-10-01-trust-bank-ai-incident-triage",
@@ -13,23 +13,23 @@
   "body": [
     {
       "head": "From pilot to production",
-      "text": "Barclays says most of its developers will be using Anthropic's Claude Code by the end of 2027, and its Global Markets business already routes 120,000 client emails a day through Claude models. In Singapore, Trust Bank's AI agents now triage IT incidents in about two minutes, down from 15 to 20, with 65% of the analysis immediately actionable before an engineer even joins the ticket. Both banks are describing systems running inside daily operations, where the person only steps in once the work is mostly done."
+      "text": "Barclays expects most of its developers to be using Anthropic's Claude Code by the end of 2027, and its Global Markets business already runs 120,000 client emails a day through Claude models. In Singapore, Trust Bank's AI agents now triage IT incidents in about two minutes, down from 15 to 20, and the bank says about 65% of their root-cause analyses are actionable before an engineer even joins the ticket. Both banks are describing AI inside daily operations, doing the first pass on work that people then act on."
     },
     {
       "head": "Where it already breaks",
-      "text": "Shinhan Bank said AI-assisted hackers, suspected to be based overseas, got into a loan broker login page this week and leaked loan amounts, income, names and phone numbers for about 25,000 customers. An industry official said the entire financial sector carries this exposure, because the attackers used AI tools to sweep for any weak platform, so every bank's customer-facing portals are now worth testing with the same kind of tool."
+      "text": "Shinhan Bank said hackers broke into its loan broker login site on Wednesday and leaked loan amounts, annual income, names and phone numbers for about 25,000 customers, and sources told the Korea Herald the attackers, suspected to be overseas, used AI tools. An industry official told the paper the entire financial industry is vulnerable to AI agent-assisted attacks and that institutions need to run their own security inspections promptly. Customer-facing portals like this one belong at the top of that list."
     },
     {
       "head": "Two central banks agree",
-      "text": "Christine Lagarde told the European Parliament that global AI valuations sit in a small number of firms piling on debt, with AI-related borrowing already around a quarter of credit growth to firms as they put roughly 10% of total investment into AI this year. Days later, Australia's central bank echoed the point in its own Financial Stability Review, warning about chipmakers financing the neocloud firms that buy their chips in a cycle it called more opaque and circular, and about AI trading agents that could all move the same way at once."
+      "text": "On September 28, Christine Lagarde told the European Parliament that global equity valuations are concentrated in a small number of AI-related firms that are rapidly increasing their debt, with AI-related borrowing already around a quarter of credit growth to firms as they put roughly 10% of total investment into AI this year. Days later, Australia's central bank made a similar case in its Financial Stability Review. It warned that the AI boom runs on a debt-financing cycle that is becoming more opaque and circular, with chipmakers funding the neocloud firms that buy their products, and that AI agents could push markets into herd behavior as they take on more investment decisions."
     },
     {
       "head": "The thread connecting them",
-      "text": "So pull these four stories together: AI agents are now trusted with real operational authority inside banks, the money financing AI itself is concentrated and increasingly circular, and the tools making banks faster are making attackers faster too. None of that argues against deploying agents. It argues for building the audit trail, the security budget and the kill switch at the same speed as the rollout."
+      "text": "So put these stories together: AI agents now do real operational work inside banks, the money financing AI itself is concentrated and increasingly circular, and the tools making banks faster are making attackers faster too. None of that argues against deploying agents. It argues for building the audit trail, the security budget and the kill switch at the same speed as the rollout."
     },
     {
-      "head": "One question for Monday",
-      "text": "Watch whether South Korea's financial watchdog finds Shinhan's gap was a one-off or something other loan broker portals share. And ask the question Lagarde and the RBA are both circling this week: when a quarter of credit growth to firms is tied to the same AI trade, what happens to the banks lending into it once sentiment turns."
+      "head": "What to watch next",
+      "text": "Watch whether South Korea's financial watchdog finds Shinhan's gap was a one-off or something other loan broker portals share. And ask the question both central banks are raising: if sentiment on AI turns, what happens to the banks lending into it, when AI-related borrowing is already about a quarter of credit growth to firms by Lagarde's count?"
     }
   ]
 }
