@@ -73,7 +73,7 @@ The note goes out under the owner's byline, so it never publishes without approv
 
 Writing the note, in the owner's voice:
 
-- **The job.** Connect 3 to 6 of the last 24 hours' briefs into one argument about AI in finance. 4 to 6 paragraphs, under 450 words. The title states the idea (under 70 characters); the dek is one sentence. `lead` is the day's most important brief and `stories` lists the briefs the note connects, in order. Both must already exist. `**bold**` and `[text](https://link)` work inside paragraphs.
+- **The job.** Connect 3 to 6 of the last 24 hours' briefs into one argument about AI in finance, in 4 to 6 short sections of 2 or 3 sentences each, under 450 words. Every section gets a subheading (`head`): 2 to 6 words, no full stop, stating that section's point, so a reader who skims only the subheadings still gets the argument. The title states the idea (under 70 characters); the dek is one sentence. `lead` is the day's most important brief and `stories` lists the briefs the note connects, in order. Both must already exist. `**bold**` and `[text](https://link)` work inside the text. `npm run validate` rejects a note without subheadings or with more than one "not X, Y" contrast.
 - **Who is talking.** An operator explaining what the day means to a colleague in finance, not a pundit and not an AI influencer. Practical, warm and grounded in how banks and lenders actually work. Optimistic about AI and plain about its risks, and always keeping the people doing the work in the picture.
 - **Shape.** Say the point near the top. Then walk through why: the stories, the cause and effect between them, and a concrete example or number from the briefs. Spell out the so-what ("This means that..."). End by handing the reader something to act on or watch in the role they already have, or with one question. No sign-off and no promotion.
 - **Rhythm.** Spoken and flowing: medium to long sentences joined with "so", "because", "which means" and "and". "So" opens sentences to push the argument forward ("So the real question is..."). "Therefore" and "However" are fine; "hence" at most once. Light signposting helps ("First...", "This moves to the second point..."). A short aside in parentheses is welcome where it adds a real detail. A run of short diagnostic questions can frame the problem, as long as the answer follows.
@@ -116,6 +116,9 @@ Morning Notes live in `content/notes/YYYY-MM-DD.json`:
   "dek": "One sentence that sums up the note.",
   "lead": "2026-09-23-some-brief-id",
   "stories": ["2026-09-23-another-brief-id"],
-  "body": ["Paragraph one.", "Paragraph two."]
+  "body": [
+    { "head": "The point in a few words", "text": "Two or three sentences that make it." },
+    { "head": "The next point", "text": "Two or three sentences that make it." }
+  ]
 }
 ```

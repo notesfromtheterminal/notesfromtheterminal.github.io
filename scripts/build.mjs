@@ -129,7 +129,7 @@ await writeText(
     builtAt: now.toISOString(),
     sections: Object.fromEntries(sections.map((s) => [s.id, s.label])),
     briefs: briefs.map((b) => ({ id: b.id, t: b.headline, b: b.body, n: b.note ?? '', c: b.company ?? '', s: b.section, g: b.tags ?? [], d: b.publishedAt, src: b.sources.map((x) => x.name).join(', ') })),
-    notes: notes.map((n) => ({ date: n.date, t: n.title, k: n.dek ?? '', b: n.body.join(' ').slice(0, 1500), d: n.publishedAt })),
+    notes: notes.map((n) => ({ date: n.date, t: n.title, k: n.dek ?? '', b: n.body.map((x) => (typeof x === 'string' ? x : `${x.head ?? ''} ${x.text}`)).join(' ').slice(0, 1500), d: n.publishedAt })),
     wire: wireItems.map((i) => ({ t: i.title, u: i.url, s: i.source, sec: i.section, g: i.tags ?? [], d: i.publishedAt ?? i.firstSeen })),
   }),
 );

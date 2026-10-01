@@ -44,6 +44,12 @@ const isHttps = (u) => {
   }
 };
 
+// Notes dated from this day on must carry subheadings and keep to one contrast.
+const NOTE_RULES_FROM = '2026-10-01';
+// The "It's not X, it's Y" family the house style limits to once a note.
+const CONTRAST =
+  /\brather than\b|\binstead of\b|\bnot (?:just|only|merely)\b|\bno longer\b|, not (?:a |an |the )?\w+|\b(?:is|was|are) not\b[^.]{0,80}\.\s+(?:It|They|This|That) (?:is|was|are)\b|\bisn't\b[^.]{0,80}\bit's\b/gi;
+
 export async function loadContent({ now = Date.now() } = {}) {
   const sections = new Set((await readJSON(p('config', 'sections.json'))).sections.map((s) => s.id));
   const errors = [];
@@ -104,11 +110,25 @@ export async function loadContent({ now = Date.now() } = {}) {
     if (!ISO_WITH_OFFSET.test(n.publishedAt ?? '')) e.push('publishedAt must be ISO 8601 with a timezone offset');
     if (typeof n.title !== 'string' || n.title.length < 10 || n.title.length > 120) e.push('title must be 10-120 chars');
     if (n.dek != null && (typeof n.dek !== 'string' || n.dek.length > 220)) e.push('dek must be a string up to 220 chars');
-    if (!Array.isArray(n.body) || !n.body.length || n.body.length > 8 || n.body.some((x) => typeof x !== 'string' || !x.trim()))
-      e.push('body must be 1-8 non-empty paragraphs');
+    // A section is a paragraph string or { "head", "text" }. From 1 Oct 2026 every section
+    // needs a subheading, and the house limit of one "not X, Y" contrast is enforced.
+    const paras = Array.isArray(n.body) ? n.body.map((x) => (typeof x === 'string' ? { text: x } : x)) : [];
+    if (!paras.length || paras.length > 8 || paras.some((x) => !x || typeof x.text !== 'string' || !x.text.trim() || (x.head != null && typeof x.head !== 'string')))
+      e.push('body must be 1-8 sections, each a paragraph string or { "head", "text" }');
+    else if (n.date >= NOTE_RULES_FROM) {
+      paras.forEach((x, i) => {
+        if (!x.head?.trim()) e.push(`body[${i}]: needs a subheading ("head") that states the section's point`);
+        else if (x.head.length > 60 || /[.!]$/.test(x.head.trim())) e.push(`body[${i}].head: keep it under 60 characters, with no full stop`);
+      });
+      const contrasts = [n.title, n.dek, ...paras.map((x) => x.text)].join(' ').match(CONTRAST) ?? [];
+      if (contrasts.length > 1)
+        e.push(`uses the "not X, Y" contrast ${contrasts.length} times; the house limit is one (${contrasts.slice(0, 4).map((c) => `"${c.trim()}"`).join(', ')})`);
+      const words = paras.map((x) => x.text).join(' ').split(/\s+/).length;
+      if (words > 450) e.push(`body is ${words} words; keep it under 450`);
+    }
     if (n.lead != null && !briefIds.has(n.lead)) e.push(`lead ${n.lead} is not a published brief`);
     for (const id of n.stories ?? []) if (!briefIds.has(id)) e.push(`story ${id} is not a published brief`);
-    for (const [k, v] of [['title', n.title], ['dek', n.dek], ...(n.body ?? []).map((x, i) => [`body[${i}]`, x])]) {
+    for (const [k, v] of [['title', n.title], ['dek', n.dek], ...paras.flatMap((x, i) => [[`body[${i}].head`, x.head], [`body[${i}]`, x.text]])]) {
       if (typeof v !== 'string') continue;
       e.push(...styleIssues(k, v));
       if (/\[\[[^\]]*\]\]/.test(v)) e.push(`${k}: unfilled placeholder [[...]]; fill it in or remove it before publishing`);

@@ -100,7 +100,7 @@ console.log(
     `## ${note.title}`,
     '',
     ...(note.dek ? [`*${note.dek}*`, ''] : []),
-    ...note.body.flatMap((para) => [para, '']),
+    ...note.body.flatMap((x) => (typeof x === 'string' ? [x, ''] : [...(x.head ? [`### ${x.head}`, ''] : []), x.text, ''])),
     '---',
     '',
     '**Stories this note connects**',

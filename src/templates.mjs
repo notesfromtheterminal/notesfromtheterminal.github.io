@@ -38,6 +38,8 @@ export function makeTemplates(ctx) {
     clock: (iso) => (dayKey(iso, D) === todayKey ? timeOf(iso, D) : shortDay(iso, D)),
     dateline: (iso) => `${longDay(iso, D)}, ${timeOf(iso, D)} UTC`,
   };
+  // A note section is a paragraph string or { head, text }.
+  const paraText = (x) => (typeof x === 'string' ? x : x?.text ?? '');
   const timeTag = (iso, t = 'hm') => `<time datetime="${esc(iso)}" data-t="${t}">${esc(at[t](iso))}</time>`;
   // Edition dates (Morning Notes, archive days) read the same for every reader.
   const dateTag = (iso, text) => `<time datetime="${esc(iso)}">${esc(text)}</time>`;
@@ -385,7 +387,7 @@ ${related.length ? `<section><h2 class="label">On the wire</h2><ol class="wire-l
     return layout({
       image: card,
       title: n.title,
-      description: n.dek || n.body[0],
+      description: n.dek || paraText(n.body[0]),
       path,
       type: 'article',
       active: 'notes',
@@ -395,7 +397,7 @@ ${related.length ? `<section><h2 class="label">On the wire</h2><ol class="wire-l
         '@context': 'https://schema.org',
         '@type': 'OpinionNewsArticle',
         headline: n.title,
-        description: n.dek || n.body[0],
+        description: n.dek || paraText(n.body[0]),
         datePublished: n.publishedAt,
         mainEntityOfPage: abs(path),
         author: { '@type': 'Person', name: site.author, url: `https://x.com/${site.x}` },
@@ -406,7 +408,9 @@ ${related.length ? `<section><h2 class="label">On the wire</h2><ol class="wire-l
 <h1 class="mn-title">${esc(n.title)}</h1>
 ${n.dek ? `<p class="mn-dek">${esc(n.dek)}</p>` : ''}
 <p class="byline">By <a href="https://x.com/${esc(site.x)}" target="_blank" rel="noopener">${esc(site.author)}</a> <span class="dot" aria-hidden="true">·</span> ${dateTag(n.publishedAt, longDay(n.publishedAt, tz))}</p>
-<div class="mn-body">${n.body.map((para) => `<p>${inline(para)}</p>`).join('\n')}</div>
+<div class="mn-body">${n.body
+  .map((x) => (typeof x === 'string' ? `<p>${inline(x)}</p>` : `${x.head ? `<h2 class="mn-sub">${esc(x.head)}</h2>` : ''}<p>${inline(x.text)}</p>`))
+  .join('\n')}</div>
 ${signupBox('note')}
 ${stories.length ? `<section class="mn-stories" aria-labelledby="mn-s-h"><h2 class="label" id="mn-s-h">The stories behind this note</h2>${topList(stories)}</section>` : ''}
 ${shareBar(n.title, path)}
