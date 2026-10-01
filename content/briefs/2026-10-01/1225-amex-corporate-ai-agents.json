@@ -1,0 +1,49 @@
+{
+  "id": "2026-10-01-amex-corporate-ai-agents",
+  "publishedAt": "2026-10-01T12:25:00+07:00",
+  "section": "payments",
+  "company": "American Express",
+  "headline": "American Express plans AI agents to chase expense details and answer spend questions",
+  "body": "American Express launched the next generation of Amex Corporate, pairing new Corporate Cashback Cards that earn 1.5% on up to $10 million a year with expense software and an app that uses AI to recommend expense details and review receipts. Later this fall it plans to add AI agents: one that messages employees by SMS or Slack to complete and submit expenses, and one that answers finance teams' questions about spending.",
+  "note": "Card issuers are starting to compete on software that acts for the customer, which turns the corporate card into an entry point for agents that touch spending data and approvals. Finance teams will want to know exactly what those agents can submit and who signs off.",
+  "sources": [
+    {
+      "name": "American Express (Business Wire)",
+      "url": "https://www.financialcontent.com/article/bizwire-2026-9-30-american-express-delivers-the-next-generation-of-amex-corporate"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "American Express ( NYSE: AXP ) announced today the launch of the next generation of Amex Corporate, with new capabilities that bring together the new American Express Corporate Cashback ® Cards, integrated Expense Management software, and new Amex Expense mobile app."
+    },
+    {
+      "source": 0,
+      "text": "1.5% cash back as a monthly statement credit on up to $10 million per calendar year across all of the company’s Corporate Cashback Cards, then 1% after"
+    },
+    {
+      "source": 0,
+      "text": "Once an expense is generated, the app uses AI to make recommendations for various fields based on an employee’s expense history, which they can review and accept."
+    },
+    {
+      "source": 0,
+      "text": "If needed, Amex Expense will prompt employees to upload a photo of a receipt and use AI to review the receipt against the expense details to ensure accuracy."
+    },
+    {
+      "source": 0,
+      "text": "For example, later this fall American Express plans to introduce new AI agents into the Amex Corporate Expense Management software"
+    },
+    {
+      "source": 0,
+      "text": "Expense agent: When a new expense is made but key details are still needed for submission, an expense agent reaches out to the employee through SMS and/or Slack and makes suggestions for fields such as expense category, business purpose, attendees, and project codes based on an employee’s expense history."
+    },
+    {
+      "source": 0,
+      "text": "Through the conversation, employees can adjust or confirm suggested details, share receipts, and have the agent submit the expense for approval."
+    },
+    {
+      "source": 0,
+      "text": "Insights agent: Finance teams can ask questions about company spending, and the agent will analyze spend data, generate supporting charts in seconds, and answer follow-up questions."
+    }
+  ]
+}

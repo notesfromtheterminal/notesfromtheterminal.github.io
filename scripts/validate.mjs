@@ -3,6 +3,7 @@
 import { readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { norm, ungrounded, unsupported } from './lib/grounding.mjs';
 import { p, readJSON } from './lib/util.mjs';
 
 // House style (communication-style.md). "Leverage" is banned as jargon but stays legal
@@ -25,6 +26,34 @@ async function listJson(dir) {
     else if (e.name.endsWith('.json')) out.push(full);
   }
   return out;
+}
+
+// Briefs published from this moment must carry evidence (NEWSROOM.md, Verification).
+const BRIEF_RULES_FROM = Date.parse('2026-10-01T13:00:00+07:00');
+// Phrases that read as machine-written. None may appear in new briefs or notes, outside quotes.
+const AI_TELLS = [
+  "it's worth noting", 'it is worth noting', 'worth noting that', "it's important to note", 'it is important to note',
+  'delve', 'tapestry', 'a testament to', 'navigate the complex', 'navigating the complex', "in today's fast-paced",
+  'ever-evolving', 'paradigm shift', 'cutting-edge', 'unlock the potential', 'unlocks the potential', 'harness the power',
+  'plays a crucial role', 'plays a pivotal role', 'a pivotal moment', 'underscores the importance', 'highlights the importance',
+  'in the realm of', 'moreover', 'additionally,', 'in addition,', 'in conclusion', 'only time will tell', 'remains to be seen',
+  'sends a clear signal', "here's the thing", 'the bottom line is', 'let me be real', 'to be honest', "i'll be honest",
+  'make no mistake', 'at the end of the day', 'the stakes have never been higher', 'a new era of',
+];
+const AI_TELL_PATTERNS = [/(?:^|[.!?]\s+)i (?:think|believe)\b/, /\b(?:everyone|most people) (?:thinks?|assumes?|believes?)\b/];
+
+function tellIssues(label, text) {
+  if (typeof text !== 'string') return [];
+  const plain = norm(text.replace(/["\u201C][^"\u201C\u201D]*["\u201D]/g, ' '));
+  const hits = AI_TELLS.filter((t) => plain.includes(t));
+  for (const re of AI_TELL_PATTERNS) if (re.test(plain)) hits.push(plain.match(re)[0].replace(/^[.!?]\s+/, '').trim());
+  return hits.map((h) => `${label}: "${h}" reads as machine-written; say it plainly`);
+}
+
+// Three short sentences in a row read as staccato, an AI tell in the owner's voice guide.
+function staccato(text) {
+  const words = String(text ?? '').split(/(?<=[.!?])\s+/).map((s) => s.split(/\s+/).filter(Boolean).length);
+  return words.some((w, i) => i + 2 < words.length && w <= 6 && words[i + 1] <= 6 && words[i + 2] <= 6);
 }
 
 function styleIssues(label, text) {
@@ -85,17 +114,38 @@ export async function loadContent({ now = Date.now() } = {}) {
       e.push('sources must be a non-empty list of {name, https url}');
     for (const [k, v] of [['headline', b.headline], ['body', b.body], ['note', b.note], ['figure', b.figure?.label]])
       if (typeof v === 'string') e.push(...styleIssues(k, v));
+    // New briefs: every quote and number must come from an evidence sentence copied from
+    // a listed source (check-sources.mjs confirms the sentence is on that page).
+    if (Date.parse(b.publishedAt) >= BRIEF_RULES_FROM || b.evidence != null) {
+      const ev = b.evidence;
+      if (!Array.isArray(ev) || !ev.length || ev.length > 15 || ev.some((x) => !Number.isInteger(x?.source) || !b.sources?.[x.source] || typeof x?.text !== 'string' || x.text.trim().length < 15 || x.text.length > 600))
+        e.push('evidence must list 1-15 { "source": <index into sources>, "text": "the exact sentence copied from that page" }');
+      else {
+        const g = ungrounded([b.headline, b.body, b.note, b.figure?.value].filter(Boolean).join(' \n '), ev.map((x) => x.text));
+        for (const q of g.quotes) e.push(`quote "${q}" is in no evidence sentence: quotation marks are only for words copied from the source`);
+        for (const n of g.numbers) e.push(`number ${n} is in no evidence sentence: copy the sentence that states it into evidence, or drop it`);
+        for (const s of unsupported(b.body, ev.map((x) => x.text)))
+          e.push(`body sentence has no evidence behind it: "${s.slice(0, 100)}${s.length > 100 ? '…' : ''}". Add the source sentence that says it, or cut the claim`);
+      }
+      e.push(...tellIssues('headline', b.headline), ...tellIssues('body', b.body), ...tellIssues('note', b.note));
+      const found = (s) => [...String(s ?? '').matchAll(CONTRAST)].map((m) => `"${m[0].trim()}"`);
+      const pointed = [...found(b.headline), ...found(b.note)];
+      if (pointed.length) e.push(`headline or note uses the "not X, Y" contrast (${pointed.join(', ')}); state the point directly`);
+      if (found(b.body).length > 1) e.push(`body uses the "not X, Y" contrast more than once (${found(b.body).join(', ')})`);
+    }
     if (typeof b.headline === 'string' && /\.$/.test(b.headline)) warnings.push(`${where}: headline ends with a period`);
     if (typeof b.body === 'string' && (b.body.match(/[.!?](\s|$)/g) ?? []).length > 3) warnings.push(`${where}: body runs past 3 sentences`);
 
     if (e.length) errors.push(...e.map((m) => `${where}: ${m}`));
     else {
       seen.add(b.id);
+      Object.defineProperty(b, '_file', { value: file });
       briefs.push(b);
     }
   }
 
   const briefIds = new Set(briefs.map((b) => b.id));
+  const briefById = new Map(briefs.map((b) => [b.id, b]));
   for (const file of await listJson(p('content', 'notes'))) {
     const where = rel(file);
     let n;
@@ -125,6 +175,17 @@ export async function loadContent({ now = Date.now() } = {}) {
         e.push(`uses the "not X, Y" contrast ${contrasts.length} times; the house limit is one (${contrasts.slice(0, 4).map((c) => `"${c.trim()}"`).join(', ')})`);
       const words = paras.map((x) => x.text).join(' ').split(/\s+/).length;
       if (words > 450) e.push(`body is ${words} words; keep it under 450`);
+      // A note may only quote and count what its own briefs say.
+      const cited = [n.lead, ...(n.stories ?? [])].map((id) => briefById.get(id)).filter(Boolean);
+      const refs = cited.flatMap((b) => [b.headline, b.body, b.note ?? '', b.figure?.value ?? '', ...(b.evidence ?? []).map((x) => x.text)]);
+      const g = ungrounded([n.title, n.dek, ...paras.map((x) => `${x.head ?? ''} ${x.text}`)].join(' \n '), refs);
+      for (const q of g.quotes) e.push(`quote "${q}" is in none of the note's briefs: a note only quotes what its briefs quote`);
+      for (const num of g.numbers) e.push(`number ${num} is in none of the note's briefs: take every figure from the briefs it connects`);
+      paras.forEach((x, i) => {
+        e.push(...tellIssues(`body[${i}]`, `${x.head ?? ''}. ${x.text}`));
+        if (staccato(x.text)) e.push(`body[${i}]: three short sentences in a row read as staccato; join them into one flowing sentence`);
+      });
+      e.push(...tellIssues('title', n.title), ...tellIssues('dek', n.dek));
     }
     if (n.lead != null && !briefIds.has(n.lead)) e.push(`lead ${n.lead} is not a published brief`);
     for (const id of n.stories ?? []) if (!briefIds.has(id)) e.push(`story ${id} is not a published brief`);

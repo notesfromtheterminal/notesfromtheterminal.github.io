@@ -1,0 +1,49 @@
+{
+  "id": "2026-10-01-schwab-charley-ai-assistant",
+  "publishedAt": "2026-10-01T12:24:00+07:00",
+  "section": "banking",
+  "company": "Charles Schwab",
+  "figure": {
+    "value": "65%",
+    "label": "of surveyed Schwab investors say AI can help with routine tasks"
+  },
+  "headline": "Schwab readies Charley, an AI assistant that can complete select account tasks",
+  "body": "Charles Schwab announced Charley, a generative AI assistant that will roll out in phases from October to eligible U.S. retail clients on Schwab.com and Schwab Mobile. By voice or text, clients will be able to ask questions, get suggested next steps and complete select tasks such as adding beneficiaries or enrolling eligible securities in dividend reinvestment, with a hand-off to a Schwab representative when needed.",
+  "note": "A brokerage letting an AI assistant make account changes, even small ones like beneficiaries, brings agentic AI into regulated client service. Schwab's own warning that Charley may give inaccurate or incomplete results shows where the checking sits for now: with the client.",
+  "sources": [
+    {
+      "name": "Charles Schwab (Business Wire)",
+      "url": "https://www.financialcontent.com/article/bizwire-2026-9-30-meet-charley-schwabs-new-ai-powered-assistant-designed-to-help-clients-get-answers-and-take-action"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Charles Schwab today announced Charley, its new generative AI-powered assistant designed to give clients a simpler, more conversational way to engage digitally with a brand they trust."
+    },
+    {
+      "source": 0,
+      "text": "Beginning in October, Charley will roll out in phases to eligible U.S. retail clients on Schwab.com and Schwab Mobile, bringing Schwab information, tools, and resources together in one conversation."
+    },
+    {
+      "source": 0,
+      "text": "Through voice or text, clients will be able to ask questions in their own words, receive information and suggested next steps, complete select tasks, and connect with a Schwab representative when additional support is needed."
+    },
+    {
+      "source": 0,
+      "text": "Complete select actions: Add or update watchlists, enroll eligible securities in dividend reinvestment, add beneficiaries, update contact information, add or update a trusted contact when eligible, and set or manage alerts through the Schwab Mobile App."
+    },
+    {
+      "source": 0,
+      "text": "about two-thirds (65%) said AI can either help execute routine tasks or play a meaningful role in investing when paired with human expertise."
+    },
+    {
+      "source": 0,
+      "text": "Charley may provide inaccurate or incomplete results."
+    },
+    {
+      "source": 0,
+      "text": "Users should verify all information using the provided links before relying on it, and confirm any changes to their accounts have been completed as intended."
+    }
+  ]
+}

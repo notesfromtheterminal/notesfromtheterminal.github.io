@@ -13,7 +13,9 @@
     "validate": "node scripts/validate.mjs",
     "build": "node scripts/build.mjs",
     "refresh": "node scripts/fetch-wire.mjs && node scripts/fetch-ticker.mjs && node scripts/build.mjs",
-    "serve": "node scripts/serve.mjs"
+    "serve": "node scripts/serve.mjs",
+    "source": "node scripts/source.mjs",
+    "check": "node scripts/validate.mjs && node scripts/check-sources.mjs"
   },
   "dependencies": {
     "fast-xml-parser": "^5.11.1"

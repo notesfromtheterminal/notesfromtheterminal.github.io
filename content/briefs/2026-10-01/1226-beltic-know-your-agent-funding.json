@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-01-beltic-know-your-agent-funding",
+  "publishedAt": "2026-10-01T12:26:00+07:00",
+  "section": "deals",
+  "tags": [
+    "payments"
+  ],
+  "company": "Beltic",
+  "figure": {
+    "value": "$8.8M",
+    "label": "seed and pre-seed funding for Beltic, led by Norwest"
+  },
+  "headline": "Beltic raises $8.8 million to verify AI agents before they transact",
+  "body": "San Francisco startup Beltic emerged from stealth with $7.3 million in seed funding led by Norwest, on top of a $1.5 million pre-seed round, to build \"know your agent\" checks, the agentic version of know your customer. Its platform verifies the identity, authority and transactional legitimacy of AI agents in real time, so merchants, payment providers, financial institutions and card networks can confirm an agent is authorized.",
+  "note": "Agent verification is turning into its own product category, and it targets the first of the three challenges the Fed's Waller listed for agentic commerce, authentication. Banks and card networks now face a build-or-buy decision on that check.",
+  "sources": [
+    {
+      "name": "Beltic (PR Newswire)",
+      "url": "https://www.prnewswire.com/news-releases/beltic-emerges-from-stealth-to-secure-autonomous-agent-transactions-at-scale-302893772.html"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "With $8.8M in funding led by Norwest, new Know Your Agent (KYA) platform empowers companies to confidently do business with agents"
+    },
+    {
+      "source": 0,
+      "text": "Beltic, the company building agent verification infrastructure, today emerges from stealth with $7.3 million in Seed funding led by Norwest, with participation from Restive Ventures, Oxford Seed Fund, and Collide Capital, who also led a $1.5 million pre-seed round that included Latitud Ventures, Positive Ventures, and other notable angels."
+    },
+    {
+      "source": 0,
+      "text": "As agents begin initiating transactions on businesses' behalf, merchants, payment providers, financial institutions and card networks need a reliable way to verify that each agent is authorized."
+    },
+    {
+      "source": 0,
+      "text": "This is the foundation of \"know your agent\" (KYA), the agentic equivalent of \"know your customer\" (KYC)."
+    },
+    {
+      "source": 0,
+      "text": "The company's platform verifies the identity, authority, and transactional legitimacy of AI agents in real time, enabling them to safely accept and deploy agentic traffic across any protocol or payment rail."
+    },
+    {
+      "source": 0,
+      "text": "Founded in 2025 and headquartered in San Francisco, Beltic builds agent verification infrastructure."
+    }
+  ]
+}
