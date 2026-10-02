@@ -94,21 +94,39 @@ async function fromFeed(url, timeoutMs) {
 // When a page says it was published, in ms: its meta tags, then its structured data, then
 // the first element styled as a date ("September 16, 2026"). Null when it does not say.
 const DATE_KEYS = 'article:published_time|og:published_time|datepublished|pubdate|publish-date|dc\\.date(?:\\.issued)?|date';
-const DATE_SPOTS = [
+const DATE_META = [
   new RegExp(`<meta[^>]+(?:property|name|itemprop)=["'](?:${DATE_KEYS})["'][^>]*content=["']([^"']+)["']`, 'i'),
   new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]*(?:property|name|itemprop)=["'](?:${DATE_KEYS})["']`, 'i'),
   /"datePublished"\s*:\s*"([^"]+)"/,
-  /<[a-z]+[^>]+class=["'][^"']*(?:date|published|timestamp)[^"']*["'][^>]*>\s*([^<]{6,40}?)\s*</i,
-  /<time[^>]+datetime=["']([^"']+)["']/i,
 ];
+const MONTHS = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
+const MON = '(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\\.?';
+// A date written out in text: "30 September 2026", "September 30, 2026" or "2026-09-30".
+function dateInText(text) {
+  let m = text.match(new RegExp(`\\b(\\d{1,2})\\s+${MON}\\s+((?:19|20)\\d\\d)\\b`, 'i'));
+  if (m) return Date.UTC(Number(m[3]), MONTHS.indexOf(m[2].toLowerCase()), Number(m[1]));
+  m = text.match(new RegExp(`\\b${MON}\\s+(\\d{1,2}),?\\s+((?:19|20)\\d\\d)\\b`, 'i'));
+  if (m) return Date.UTC(Number(m[3]), MONTHS.indexOf(m[1].toLowerCase()), Number(m[2]));
+  m = text.match(/\b((?:19|20)\d\d)-(\d{2})-(\d{2})/);
+  return m ? Date.UTC(Number(m[1]), Number(m[2]) - 1, Number(m[3])) : null;
+}
+// When a page says it was published, in ms: its meta tags, then its structured data, then the
+// first element styled as a date that holds one ("Published on 30 September 2026"), and only
+// then a <time> tag, which on many sites belongs to a sidebar. Null when it does not say.
 export function publishedAt(html) {
-  for (const re of DATE_SPOTS) {
-    const raw = String(html).match(re)?.[1]?.trim() ?? '';
-    // A four-digit year, or the parser reads strings like "Sep 2" as 2001.
+  const page = String(html);
+  for (const re of DATE_META) {
+    const raw = page.match(re)?.[1]?.trim() ?? '';
     const t = /\b(?:19|20)\d\d\b/.test(raw) ? Date.parse(raw) : NaN;
     if (t > Date.parse('2000-01-01')) return t;
   }
-  return null;
+  for (const m of page.matchAll(/<[a-z]+[^>]+class=["'][^"']*(?:date|published|timestamp)[^"']*["'][^>]*>([\s\S]{0,200}?)<\/(?:div|span|p|time|li|small)>/gi)) {
+    const t = dateInText(m[1].replace(/<[^>]+>/g, ' '));
+    if (t) return t;
+  }
+  const time = page.match(/<time[^>]+datetime=["']([^"']+)["']/i)?.[1];
+  const t = time && /\b(?:19|20)\d\d\b/.test(time) ? Date.parse(time) : NaN;
+  return t > Date.parse('2000-01-01') ? t : null;
 }
 
 // Words that report or connect without adding a fact, which a brief may use freely, plus

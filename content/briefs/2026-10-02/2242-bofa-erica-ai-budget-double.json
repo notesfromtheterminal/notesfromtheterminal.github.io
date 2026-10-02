@@ -6,14 +6,34 @@
   "star": false,
   "company": "Bank of America",
   "headline": "Bank of America to double AI budget as Erica assistant handles 3.6 billion transactions",
-  "body": "Bank of America chief technology and information officer Hari Gopalkrishnan said at Fortune's AIQ Summit on October 1 that the bank's Erica virtual assistant has handled 3.6 billion transactions, and without it the bank would need 11,000 more people to answer calls. CEO Brian Moynihan said in September that about 140 AI uses cost $400 million and generate $800 million in benefit, and that the AI expense budget will double next year.",
+  "body": "Bank of America chief technology and information officer Hari Gopalkrishnan said at Fortune's AIQ Summit that the bank's Erica virtual assistant has handled 3.6 billion transactions, and without it the bank would need 11,000 more people to answer calls. CEO Brian Moynihan said in September that about 140 AI uses cost $400 million and generated $800 million in benefits, and that the AI expense budget will double next year.",
   "note": "Every AI project at the bank goes through a review covering 16 risk pillars, including privacy, bias and workforce impact, a sign that governance at this scale has to grow alongside the spending before agents are trusted to act without a human in the loop.",
-  "sources": [{ "name": "Fortune", "url": "https://fortune.com/2026/10/01/ai-regulated-industries-bank-of-america-sp-global/" }],
+  "sources": [
+    {
+      "name": "Fortune",
+      "url": "https://fortune.com/2026/10/01/ai-regulated-industries-bank-of-america-sp-global/"
+    }
+  ],
   "evidence": [
-    { "source": 0, "text": "Hari Gopalkrishnan, Chief Technology and Information Officer, Bank of America" },
-    { "source": 0, "text": "Sally Moore, Chief Client Officer and Co-Head of Market Intelligence, S&P Global at the Fortune AIQ Summit at the New York Stock Exchange on October 1, 2026." },
-    { "source": 0, "text": "Its Erica virtual assistant has handled 3.6 billion transactions, he said, and without it the bank would need 11,000 more people to answer the calls." },
-    { "source": 0, "text": "CEO Brian Moynihan said in September that about 140 AI uses cost $400 million and generate $800 million in benefit, and that the AI expense budget will double next year." },
-    { "source": 0, "text": "Every AI project also goes through a review that covers 16 “pillars” of risk, including privacy, bias, workforce impact and intellectual property." }
+    {
+      "source": 0,
+      "text": "Hari Gopalkrishnan, Chief Technology and Information Officer, Bank of America"
+    },
+    {
+      "source": 0,
+      "text": "From left: Sally Moore, chief client officer and co-head of Market Intelligence, S&P Global, with Hari Gopalkrishnan, chief technology and information officer, Bank of America, at the Fortune AIQ Summit, Oct. 1, 2026."
+    },
+    {
+      "source": 0,
+      "text": "Its Erica virtual assistant has handled 3.6 billion transactions, he said, and without it the bank would need 11,000 more people to answer calls."
+    },
+    {
+      "source": 0,
+      "text": "The caution comes with heavy spending: CEO Brian Moynihan said in September that about 140 AI uses cost $400 million and generated $800 million in benefits, and that the AI expense budget will double next year."
+    },
+    {
+      "source": 0,
+      "text": "Every AI project also goes through a review that covers 16 “pillars” of risk, including privacy, bias, workforce impact, and intellectual property."
+    }
   ]
 }
