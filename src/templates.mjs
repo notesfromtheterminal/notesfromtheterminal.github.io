@@ -283,14 +283,13 @@ ${n.dek ? `<p class="note-card-dek">${esc(n.dek)}</p>` : ''}
   // The Morning Note by email. The form posts straight to Kit, so it works without
   // JavaScript; app.js upgrades it to an in-page submit with a confirmation line.
   function signupBox(id, { compact = false } = {}) {
-    if (!site.kitFormId) return '';
+    // Paused (site.newsletterLive false): no sign-up box anywhere. The Kit form stays set up.
+    if (!site.kitFormId || !site.newsletterLive) return '';
     const action = `https://app.kit.com/forms/${encodeURIComponent(site.kitFormId)}/subscriptions`;
     const head = compact ? 'Get the Morning Note by email' : 'The AI-in-finance stories that matter, before work';
-    // Until the first email goes out (site.newsletterLive), the box says so.
-    const soon = site.newsletterLive ? '' : 'Starting soon. ';
     const dek = compact
-      ? `${soon}The AI-in-finance stories that matter, before work. Free, and you can leave anytime.`
-      : `${soon}One short email each morning, readable in under three minutes. Free, and you can leave anytime.`;
+      ? `The AI-in-finance stories that matter, before work. Free, and you can leave anytime.`
+      : `One short email each morning, readable in under three minutes. Free, and you can leave anytime.`;
     return `<section class="signup${compact ? ' signup-compact' : ''}" aria-labelledby="signup-h-${id}">
 ${compact ? '' : '<p class="kicker">The Morning Note, by email</p>'}
 <h2 class="signup-head" id="signup-h-${id}">${head}</h2>
@@ -547,7 +546,7 @@ ${shareBar(n.title, path)}
 <h2>What you will find here</h2>
 <ul class="how">
 <li><strong>The briefs.</strong> The day's AI-in-finance stories, sorted into Banking &amp; Lending, Payments &amp; Fintech, the SEA Desk, Models &amp; Labs, Deals, and Rules &amp; Regulators.</li>
-<li><strong>The Morning Note.</strong> One note each morning that connects the stories worth your attention, on the site and by email.</li>
+<li><strong>The Morning Note.</strong> One note each morning that connects the stories worth your attention${site.newsletterLive ? ', on the site and by email' : ''}.</li>
 <li><strong>The Wire.</strong> Live headlines, linked straight to the original reporting.</li>
 </ul>
 <p>Follow along on X at ${x}.</p>
