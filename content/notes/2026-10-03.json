@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-03",
+  "publishedAt": "2026-10-03T07:00:00+07:00",
+  "title": "Three central banks just priced AI debt as a systemic risk",
+  "dek": "Three central banks flagged AI-linked debt concentration within days of each other, even as a major bank keeps raising its AI budget and AI-enabled attacks keep hitting Korean banks.",
+  "lead": "2026-10-02-boe-fpc-ai-debt-risk",
+  "stories": [
+    "2026-10-01-ecb-lagarde-ai-sovereignty-risk",
+    "2026-10-01-rba-financial-stability-review-ai",
+    "2026-10-02-bofa-erica-ai-budget-double",
+    "2026-10-02-korea-banks-ai-hacking-widens"
+  ],
+  "body": [
+    {
+      "head": "Three warnings in three days",
+      "text": "A Morgan Stanley estimate cited in the Bank of England's latest financial stability assessment puts global AI-related debt issuance at around $450 billion, already more than double the total issuance in all of 2025. Around the same time, the European Central Bank said AI-related borrowing already accounts for roughly a quarter of credit growth to firms, and the Reserve Bank of Australia warned that its debt-financing cycle is becoming more opaque and circular.",
+      "support": [
+        "As of early September, Morgan Stanley estimated that global AI-related debt issuance totalled around $450 billion, more than double the total issuance in all of 2025.",
+        "Firms are set to devote around 10% of total investment to AI in 2026, and AI-related borrowing already accounts for roughly a quarter of credit growth to firms.",
+        "One possible trigger could be a shift in sentiment towards the AI investment boom, which is increasingly fuelled by expectations of sustained rapid earnings growth and a debt-financing cycle that is becoming more opaque and circular."
+      ]
+    },
+    {
+      "head": "Why it's concentrated",
+      "text": "What worries each of them is concentration. The RBA pointed to chipmakers financing the very neocloud firms that buy their chips, a loop it called circular financing. Lagarde made a similar point about Europe: equity valuations sit in a small number of AI firms that are borrowing fast, so a reassessment of their prospects could spill over to euro area investors and the wider economy.",
+      "support": [
+        "The RBA also highlighted concerns about \"circular financing\" within the AI sector, for example where chipmakers provided financial support to neocloud firms who then purchased their products.",
+        "Global equity valuations are concentrated in a relatively small number of AI-related firms, which are also rapidly increasing their debt funding. A sharp reassessment of AI companies’ prospects and the sustainability of their debt could trigger market corrections and spill over to euro area investors and the wider economy."
+      ]
+    },
+    {
+      "head": "The attack surface grew too",
+      "text": "The RBA's review named AI-driven cyberattacks as a standalone risk, and three banks in Korea spent this week proving the point. KB Kookmin, Hana and Shinhan each disclosed breaches days apart, the latest from an external hacking agent that tried to break into a sales support system. Local investigators found traces of a Chinese-language AI penetration-testing tool on a server tied to the Shinhan attack, an early sign that AI agents are now doing some of the probing themselves.",
+      "support": [
+        "A key concern is increasing vulnerabilities to AI-driven cyber attacks, especially the reliance of financial institutions on a small number of critical technology service providers.",
+        "On Friday, KB Kookmin Bank said that personal information belonging to 119 customers was leaked after abnormal external access to a mobile system used by employees.",
+        "Later that day, Hana Bank said personal information belonging to 89 customers had been exposed following an external hacking agent's attempt to gain unauthorized access to its sales support system.",
+        "Those incidents came a day after Shinhan Bank disclosed a data breach affecting about 25,000 customers.",
+        "According to local media reports, traces of a Chinese-language AI penetration-testing tool were found on a server believed to have been used in the attack against the bank."
+      ]
+    },
+    {
+      "head": "Banks are spending anyway",
+      "text": "None of this is slowing the money going into AI on the bank side. Bank of America said its Erica assistant has handled 3.6 billion transactions and that without it the bank would need 11,000 more people to answer calls, and its CEO said the AI expense budget will double next year. That is the trade-off sitting under every one of these warnings: the operational case for AI inside a bank is strong enough that spending keeps rising even as the macro case gets shakier.",
+      "support": [
+        "Its Erica virtual assistant has handled 3.6 billion transactions, he said, and without it the bank would need 11,000 more people to answer the calls.",
+        "CEO Brian Moynihan said in September that about 140 AI uses cost $400 million and generate $800 million in benefit, and that the AI expense budget will double next year."
+      ]
+    },
+    {
+      "head": "What to watch this week",
+      "text": "For a credit or risk team, the read is not to panic but to check two things: how concentrated your own bank's AI-linked exposure is among counterparties, and how fast your AI governance process can catch an agent probing your systems before a breach like this week's does. The central banks have started measuring the first problem. Most banks have not yet, and that gap is the story to watch over the next few months. [[Owner: add a line here on how your own clients or portfolio are already asking about AI-linked concentration risk, if you have one]]"
+    }
+  ]
+}
