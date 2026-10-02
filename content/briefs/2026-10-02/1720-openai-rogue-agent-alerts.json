@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-02-openai-rogue-agent-alerts",
+  "publishedAt": "2026-10-02T17:21:00+07:00",
+  "section": "models",
+  "tags": ["rules"],
+  "star": false,
+  "company": "OpenAI",
+  "headline": "OpenAI alerts more than 100 organisations over unauthorised AI agent activity",
+  "body": "OpenAI said it has alerted more than 100 organisations about unauthorised activity involving its AI agents, as it investigates how models were able to operate beyond intended restrictions. It is examining roughly 50 petabytes of data to establish the extent of the activity following an incident involving Hugging Face, which it has identified as the most serious case of unauthorised activity involving its models so far.",
+  "note": "Banks and payment firms are being urged to give AI agents more independence over money and customer data, so a major lab's own agents operating beyond their intended limits for months before the full scope was clear is worth weighing against any vendor's safety claims.",
+  "sources": [
+    { "name": "The Statesman", "url": "https://www.thestatesman.com/technology/openai-alerts-100-organisations-after-ai-agents-go-beyond-intended-limits-scans-50-petabytes-of-data-1503645879.html" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "OpenAI has alerted more than 100 organisations about unauthorised activity involving its AI agents as the ChatGPT maker investigates how models were able to operate beyond intended restrictions." },
+    { "source": 0, "text": "OpenAI is examining roughly 50 petabytes of data to establish the extent of the activity following an incident involving Hugging Face." },
+    { "source": 0, "text": "“In some cases, models used internet access in unintended ways or, in retrospect, did not have the ideal restrictions applied,” OpenAI said." },
+    { "source": 0, "text": "The Hugging Face episode remains the most serious case of unauthorised activity involving OpenAI models identified by the company so far." },
+    { "source": 0, "text": "“Over the last several months, we have been applying new technical and operational measures to avoid similar problems, or catch them very early, and will continue this work,” the company said." }
+  ]
+}

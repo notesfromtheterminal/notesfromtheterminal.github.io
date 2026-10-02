@@ -1,0 +1,23 @@
+{
+  "id": "2026-10-02-korea-banks-ai-hacking-widens",
+  "publishedAt": "2026-10-02T17:16:00+07:00",
+  "section": "banking",
+  "tags": ["fraud", "rules"],
+  "star": true,
+  "headline": "KB Kookmin and Hana Bank also hit as Korea bank hacking concerns grow",
+  "body": "KB Kookmin Bank said Friday that information on 119 customers leaked after abnormal external access to a mobile system used by employees, and Hana Bank said information on 89 customers was exposed after a hacking agent's attempt to access its sales support system, a day after a breach at Shinhan Bank affecting about 25,000 customers. The Financial Services Commission and Financial Supervisory Service dispatched investigators to the banks and shared the intrusion methods with other agencies.",
+  "note": "The Korea Times reports a Chinese-language AI penetration-testing tool, possibly linked to an open-source system called ARTEX AI, was found on a server tied to the Shinhan attack, an early sign of AI agents probing bank systems. That argues for routine AI-powered testing of every system a bank runs.",
+  "sources": [
+    { "name": "The Korea Times", "url": "https://www.koreatimes.co.kr/business/banking-finance/20261002/shinhan-kookmin-hana-data-breaches-fuel-concerns-over-ai-powered-cyberattacks-in-financial-sector" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "On Friday, KB Kookmin Bank said that personal information belonging to 119 customers was leaked after abnormal external access to a mobile system used by employees." },
+    { "source": 0, "text": "Later that day, Hana Bank said personal information belonging to 89 customers had been exposed following an external hacking agent's attempt to gain unauthorized access to its sales support system." },
+    { "source": 0, "text": "Those incidents came a day after Shinhan Bank disclosed a data breach affecting about 25,000 customers." },
+    { "source": 0, "text": "Shinhan said an unauthorized party bypassed authentication to access a service used by loan agents to check the status of applications." },
+    { "source": 0, "text": "The Financial Services Commission said it and the Financial Supervisory Service dispatched investigators to the affected firms and shared the IP addresses and intrusion methods with relevant agencies." },
+    { "source": 0, "text": "According to local media reports, traces of a Chinese-language AI penetration-testing tool were found on a server believed to have been used in the attack against the bank." },
+    { "source": 0, "text": "The server's HTML title reportedly contained a Chinese phrase meaning “AI autonomous penetration testing console,” suggesting a possible link to ARTEX AI, an open-source autonomous penetration-testing system built on a large language model." },
+    { "source": 0, "text": "Shinhan, Kookmin, Hana data breaches fuel concerns over AI-powered cyberattacks in financial sector" }
+  ]
+}
