@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-02-halluminate-30m-series-a-finance-ai",
+  "publishedAt": "2026-10-02T10:57:00+07:00",
+  "section": "deals",
+  "tags": [
+    "banking"
+  ],
+  "company": "Halluminate",
+  "figure": {
+    "value": "51%",
+    "label": "top average score by a frontier model on its deal due-diligence tasks"
+  },
+  "headline": "Halluminate raises $30 million to build AI training environments for financial work",
+  "body": "Halluminate, a nine-person San Francisco startup building AI training environments for financial work, has raised $30 million in a Series A led by Oak HC/FT, bringing its total funding to $38.5 million. On its August benchmark, seven frontier models worked through a simulated due-diligence process for a company acquisition, and the highest average score was 51%. CEO Jerry Wu told Fortune that four of the top five closed-source U.S. AI labs are paying customers.",
+  "note": "A top score of 51% on deal due-diligence tasks is a useful reality check for banks and private-equity firms weighing AI agents: the agents struggled to carry instructions through to the final deliverable.",
+  "sources": [
+    {
+      "name": "Fortune",
+      "url": "https://fortune.com/2026/10/01/halluminate-raises-30-million-series-a-oakhc-ft/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Halluminate, a nine-person San Francisco startup building AI training environments for financial work, has raised $30 million in a Series A led by Oak HC/FT, bringing its total funding to $38.5 million."
+    },
+    {
+      "source": 0,
+      "text": "A benchmark released by the company in August asked seven frontier models to work through a simulated company-acquisition due-diligence process."
+    },
+    {
+      "source": 0,
+      "text": "The highest average score was 51%."
+    },
+    {
+      "source": 0,
+      "text": "Across the benchmark, agents struggled to carry instructions through to the final deliverable: They left out required changes, used the wrong analytical method, or relied on information that had been superseded."
+    },
+    {
+      "source": 0,
+      "text": "According to Wu, four of the top five closed-source U.S. AI labs are paying customers."
+    },
+    {
+      "source": 0,
+      "text": "Simulating an investment banker’s work is fundamentally different from simulating a software engineer’s work, CEO Jerry Wu tells Fortune"
+    }
+  ]
+}

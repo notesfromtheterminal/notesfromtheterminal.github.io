@@ -64,6 +64,39 @@ jobs:
             gh pr edit "$BRANCH" --add-reviewer "$GITHUB_ACTOR" || echo "::warning::Could not request a review from $GITHUB_ACTOR"
           fi
 
+  # A Morning Note corrected on main after its pull request was merged, before 07:00: the
+  # email already scheduled in Kit is out of date, so post the corrected email on that pull
+  # request, which notifies the owner. Merging the PR adds the note, so it posts nothing.
+  note-changed:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Post the corrected email on the note's pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          for f in $(git diff --name-only --diff-filter=M "$BEFORE" HEAD -- content/notes); do
+            case "$f" in *.json) ;; *) continue ;; esac
+            date="$(basename "$f" .json)"
+            node scripts/note-pr.mjs "$date" --changed > comment.md || continue
+            [ -s comment.md ] || continue
+            pr="$(gh pr list --state merged --head "claude/note-$date" --json number --jq '.[0].number')"
+            if [ -n "$pr" ]; then gh pr comment "$pr" --body-file comment.md; else echo "::warning::No merged pull request for the $date note"; fi
+          done
+
   # Second check on the desk's commits: every evidence sentence must be on its source
   # page. An unreadable page is only a warning here (publishers block GitHub's runners
   # more often); a sentence missing from a readable page fails the run.

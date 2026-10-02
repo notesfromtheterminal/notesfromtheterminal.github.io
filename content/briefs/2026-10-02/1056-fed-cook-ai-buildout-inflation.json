@@ -1,0 +1,45 @@
+{
+  "id": "2026-10-02-fed-cook-ai-buildout-inflation",
+  "publishedAt": "2026-10-02T10:56:00+07:00",
+  "section": "rules",
+  "company": "Federal Reserve",
+  "figure": {
+    "value": "$2T",
+    "label": "in announced AI investment plans, mostly not yet spent"
+  },
+  "headline": "Fed's Cook says the AI buildout is adding to inflation pressure",
+  "body": "Fed Governor Lisa Cook said on September 28 that AI appears to be adding inflationary pressures to the economy, postponing inflation's return to the Fed's 2 percent target. She said data-center investment relies on construction labor and energy used across the economy, and that companies have only spent a small fraction of the $2 trillion in announced plans.",
+  "note": "Cook voted for the 25 basis point rise in September and expects continued pressure on inflation from the AI buildout in coming months, which ties the AI investment wave directly to what banks and their borrowers pay for credit.",
+  "sources": [
+    {
+      "name": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/newsevents/speech/cook20260928a.htm"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "September 28, 2026 An Update on AI and the Economy Governor Lisa D. Cook At the Oakland Tech Week Opening Keynote, cohosted by the Kapor Center, Oakland, California"
+    },
+    {
+      "source": 0,
+      "text": "In the short term, AI appears to be adding inflationary pressures to the economy, postponing inflation’s return to our 2 percent target."
+    },
+    {
+      "source": 0,
+      "text": "Data-center investment relies on inputs, like construction labor and energy, that are broadly used in many sectors in the economy."
+    },
+    {
+      "source": 0,
+      "text": "And even more investment is in the pipeline, and companies have only spent a small fraction of the $2 trillion in announced plans."
+    },
+    {
+      "source": 0,
+      "text": "As you know, I voted along with the rest of the FOMC to raise rates 25 basis points at the recent September meeting."
+    },
+    {
+      "source": 0,
+      "text": "Furthermore, in coming months I expect to see continued pressure on inflation from the AI buildout, as discussed today, and from the pass-through of higher oil prices and supply chain disruptions associated with the conflict in the Middle East."
+    }
+  ]
+}

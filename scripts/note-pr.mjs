@@ -22,7 +22,7 @@ if (flag === '--title') {
 
 const site = await readJSON(p('config', 'site.json'));
 const SITE = (process.env.SITE_URL || site.url || '').replace(/\/+$/, '');
-const { briefs, errors } = await loadContent();
+const { briefs, errors, warnings } = await loadContent();
 const byId = new Map(briefs.map((b) => [b.id, b]));
 const ids = [...new Set([note.lead, ...(note.stories ?? [])].filter(Boolean))];
 const stories = ids.map((id) => byId.get(id)).filter(Boolean);
@@ -43,11 +43,15 @@ const goesLive =
     : '**Publishes as soon as you merge.**';
 
 
-// The email version only appears while the newsletter is sending (site.newsletterLive).
-// The email: the HTML block scripts/email.mjs builds for Kit (the Kit template supplies the
-// frame, unsubscribe link and address). GitHub shows a copy button on the code block.
+// The email (only while site.newsletterLive): the HTML block scripts/email.mjs builds for Kit;
+// the Kit template supplies the frame, unsubscribe link and address.
+// This note's own check results: the email is only built from a note that passes.
+const mine = (list) => list.filter((m) => m.includes(`content/notes/${date}.json`)).map((m) => m.split('.json: ').slice(1).join('.json: '));
+const noteErrors = mine(errors);
+const noteWarnings = mine(warnings);
+
 let emailHtml = '';
-if (site.newsletterLive) {
+if (site.newsletterLive && !noteErrors.length) {
   try {
     emailHtml = execFileSync(process.execPath, [p('scripts', 'email.mjs'), date], { encoding: 'utf8', env: { ...process.env, SITE_URL: SITE } }).trim();
   } catch (err) {
@@ -55,6 +59,23 @@ if (site.newsletterLive) {
     console.error(`email: could not build the email (${err.message.split('\n')[0]})`);
   }
 }
+const emailCode = (howTo) =>
+  emailHtml
+    ? [
+        howTo,
+        '',
+        ...(noteWarnings.length ? ['**Before you schedule, check these against the sources above:**', '', ...noteWarnings.map((w) => `- ${w}`), ''] : []),
+        '```html',
+        emailHtml,
+        '```',
+        '',
+      ]
+    : [
+        noteErrors.length
+          ? '**No email yet: the note fails its checks (listed above). The code appears here once they pass.**'
+          : '**The email could not be built for this note.** Ask Claude to check `scripts/email.mjs`.',
+        '',
+      ];
 const email = !site.newsletterLive
   ? []
   : [
@@ -64,17 +85,32 @@ const email = !site.newsletterLive
       '',
       `**Preview text:** ${md(note.dek ?? '')}`,
       '',
-      ...(emailHtml
-        ? [
-            'In Kit: Send → Broadcasts → New broadcast. Add an **HTML block**, click Edit, paste the code below (copy button at its top right), Save. Set the subject and preview text above, send yourself a test, then schedule it for **07:00 WIB**.',
-            '',
-            '```html',
-            emailHtml,
-            '```',
-            '',
-          ]
-        : ['**The email could not be built for this note.** Ask Claude to check `scripts/email.mjs`.', '']),
+      ...emailCode(
+        'In Kit: Send → Broadcasts → New broadcast. Add an **HTML block**, click Edit, paste the code below (copy button at its top right), Save. Set the subject and preview text above, send yourself a test, then schedule it for **07:00 WIB**.',
+      ),
     ];
+
+// --changed: the note was corrected on main after its pull request was merged. If its email has
+// not gone out yet, the one scheduled in Kit is out of date, so this prints the comment that
+// carries the corrected email (nothing once the note has published or the newsletter is off).
+if (flag === '--changed') {
+  if (site.newsletterLive && Date.parse(note.publishedAt) > Date.now())
+    console.log(
+      [
+        '## This note changed after you merged it',
+        '',
+        'If you already scheduled the Kit email, open that broadcast, replace everything in its HTML block with the code below, check the subject and preview text, and keep the 07:00 schedule.',
+        '',
+        `**Subject:** ${md(note.title)}`,
+        '',
+        `**Preview text:** ${md(note.dek ?? '')}`,
+        '',
+        ...(noteErrors.length ? ['**The corrected note fails its checks:**', '', ...noteErrors.map((x) => `- ${x}`), ''] : []),
+        ...emailCode('The corrected email:'),
+      ].join('\n'),
+    );
+  process.exit(0);
+}
 
 console.log(
   [
