@@ -4,6 +4,7 @@
 //   node scripts/note-pr.mjs 2026-09-24           -> PR body (markdown)
 //   node scripts/note-pr.mjs 2026-09-24 --title   -> PR title
 import { execFileSync } from 'node:child_process';
+import { untraced } from './lib/grounding.mjs';
 import { loadContent } from './validate.mjs';
 import { p, readJSON } from './lib/util.mjs';
 
@@ -80,7 +81,20 @@ console.log(
     `## ${note.title}`,
     '',
     ...(note.dek ? [`*${note.dek}*`, ''] : []),
-    ...note.body.flatMap((x) => (typeof x === 'string' ? [x, ''] : [...(x.head ? [`### ${x.head}`, ''] : []), x.text, ''])),
+    // Each section with the evidence it rests on, so a reader can check the two side by side.
+    ...note.body.flatMap((x) => {
+      if (typeof x === 'string') return [x, ''];
+      const sup = Array.isArray(x.support) ? x.support : [];
+      const known = stories.flatMap((b) => [...b.sources.map((s) => s.name), b.company ?? '', b.headline]);
+      const loose = sup.length ? untraced(x.text, [...sup, ...known]) : [];
+      return [
+        ...(x.head ? [`### ${x.head}`, ''] : []),
+        x.text,
+        '',
+        ...(sup.length ? [`<details><summary>Sources for this section (${sup.length})</summary>`, '', ...sup.map((s) => `> ${md(s)}`), '', '</details>', ''] : []),
+        ...(loose.length ? [`*Words not in its sources, check the meaning: ${loose.join(', ')}*`, ''] : []),
+      ];
+    }),
     '---',
     '',
     '**Stories this note connects**',

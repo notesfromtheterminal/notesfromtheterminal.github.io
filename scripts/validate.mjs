@@ -3,7 +3,7 @@
 import { readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { norm, ungrounded, unsupported } from './lib/grounding.mjs';
+import { attributedClauses, misattributed, namesIn, norm, numbersIn, ungrounded, unsupported, untraced } from './lib/grounding.mjs';
 import { p, readJSON } from './lib/util.mjs';
 
 // House style (communication-style.md). "Leverage" is banned as jargon but stays legal
@@ -30,6 +30,12 @@ async function listJson(dir) {
 
 // Briefs published from this moment must carry evidence (NEWSROOM.md, Verification).
 const BRIEF_RULES_FROM = Date.parse('2026-10-01T13:00:00+07:00');
+// Briefs published from this moment: every fact word of the headline and body must be in the
+// evidence (NEWSROOM.md, Verification), so no source-less detail can slip into a sentence.
+const STRICT_FROM = Date.parse('2026-10-02T11:00:00+07:00');
+// Notes dated from this day: built only on briefs with evidence, and every section that names
+// someone or gives a number carries its own "support" from that evidence.
+const NOTE_SUPPORT_FROM = '2026-10-03';
 // Briefs published from this moment are checked for repeats of earlier briefs.
 const REPEAT_RULES_FROM = Date.parse('2026-10-01T19:00:00+07:00');
 // Phrases that read as machine-written. None may appear in new briefs or notes, outside quotes.
@@ -147,6 +153,13 @@ export async function loadContent({ now = Date.now() } = {}) {
           const said = norm(ev.map((x) => x.text).join(' \n '));
           for (const r of b.table.rows) if (!said.includes(norm(r[0]))) e.push(`table row "${r[0]}" is named in no evidence sentence`);
         }
+        if (Date.parse(b.publishedAt) >= STRICT_FROM) {
+          const missing = untraced(`${b.headline} \n ${b.body}`, [...ev.map((x) => x.text), ...b.sources.map((s) => s.name), b.company ?? '']);
+          if (missing.length)
+            e.push(`${missing.map((w) => `"${w}"`).join(', ')} ${missing.length > 1 ? 'are' : 'is'} in no evidence sentence: use the source's own word, add the sentence that says it to evidence, or cut the detail`);
+          for (const m of misattributed(`${b.headline}. ${b.body} ${b.note ?? ''}`, ev.map((x) => x.text)))
+            e.push(`"${m.word}" is given to ${m.speaker}, but the source gives it to ${m.source}: name who actually said it`);
+        }
         for (const s of unsupported(b.body, ev.map((x) => x.text)))
           e.push(`body sentence has no evidence behind it: "${s.slice(0, 100)}${s.length > 100 ? '…' : ''}". Add the source sentence that says it, or cut the claim`);
       }
@@ -229,6 +242,37 @@ export async function loadContent({ now = Date.now() } = {}) {
       const g = ungrounded([n.title, n.dek, ...paras.map((x) => `${x.head ?? ''} ${x.text}`)].join(' \n '), refs);
       for (const q of g.quotes) e.push(`quote "${q}" is in none of the note's briefs: a note only quotes what its briefs quote`);
       for (const num of g.numbers) e.push(`number ${num} is in none of the note's briefs: take every figure from the briefs it connects`);
+      // Each section's names and numbers come from the evidence it lists as its support; any other
+      // word missing from that support is a warning, shown under the section in the pull request.
+      if (n.date >= NOTE_SUPPORT_FROM) {
+        for (const b of cited) if (!b.evidence?.length) e.push(`brief ${b.id} has no evidence: a note may only connect briefs that do`);
+        const pool = cited.flatMap((b) => (b.evidence ?? []).map((x) => norm(x.text)));
+        // Outlet and company names count as said: "sources told the Korea Herald" names the source.
+        const known = cited.flatMap((b) => [...b.sources.map((s) => s.name), b.company ?? '']);
+        paras.forEach((x, i) => {
+          const names = namesIn(x.text);
+          if (!names.length && !numbersIn(x.text).length && x.support == null) return;
+          const sup = x.support;
+          if (!Array.isArray(sup) || !sup.length || sup.length > 8 || sup.some((s) => typeof s !== 'string' || s.trim().length < 15)) {
+            e.push(`body[${i}]: it names someone or gives a number, so it needs "support": 1-8 sentences copied from the evidence of the briefs the note connects`);
+            return;
+          }
+          for (const s of sup) if (!pool.some((t) => t.includes(norm(s)))) e.push(`body[${i}].support: "${s.slice(0, 80)}" is in no evidence of the note's briefs`);
+          const g = ungrounded(x.text, sup);
+          for (const q of g.quotes) e.push(`body[${i}]: quote "${q}" is not in this section's support`);
+          for (const num of g.numbers) e.push(`body[${i}]: number ${num} is not in this section's support`);
+          const said = norm([...sup, ...known].join(' '));
+          for (const name of names) if (!said.includes(norm(name))) e.push(`body[${i}]: "${name}" is not in this section's support`);
+          for (const m of misattributed(x.text, sup)) e.push(`body[${i}]: "${m.word}" is given to ${m.speaker}, but the support gives it to ${m.source}: name who actually said it`);
+          // What someone is said to have said must be in the support word for word or in its own words.
+          for (const c of attributedClauses(x.text)) {
+            const off = untraced(c, [...sup, ...known]);
+            if (off.length) e.push(`body[${i}]: "${c.trim().slice(0, 70)}…" attributes ${off.map((w) => `"${w}"`).join(', ')}, which the support does not contain`);
+          }
+          const loose = untraced(x.text, [...sup, ...known, ...cited.map((b) => b.headline)]);
+          if (loose.length) warnings.push(`${where}: body[${i}] words not in its support (check each keeps the source's meaning): ${loose.join(', ')}`);
+        });
+      }
       paras.forEach((x, i) => {
         e.push(...tellIssues(`body[${i}]`, `${x.head ?? ''}. ${x.text}`));
         if (staccato(x.text)) e.push(`body[${i}]: three short sentences in a row read as staccato; join them into one flowing sentence`);

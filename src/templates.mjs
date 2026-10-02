@@ -438,6 +438,7 @@ ${n.dek ? `<p class="mn-dek">${esc(n.dek)}</p>` : ''}
 <div class="mn-body">${n.body
   .map((x) => (typeof x === 'string' ? `<p>${inline(x)}</p>` : `${x.head ? `<h2 class="mn-sub">${esc(x.head)}</h2>` : ''}<p>${inline(x.text)}</p>`))
   .join('\n')}</div>
+${n.correction ? `<p class="correction"><strong>Correction:</strong> ${esc(n.correction)}</p>` : ''}
 ${signupBox('note')}
 ${stories.length ? `<section class="mn-stories" aria-labelledby="mn-s-h"><h2 class="label" id="mn-s-h">The stories behind this note</h2>${topList(stories)}</section>` : ''}
 ${shareBar(n.title, path)}

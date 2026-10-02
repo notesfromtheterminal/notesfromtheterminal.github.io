@@ -13,11 +13,11 @@
   "body": [
     {
       "head": "From pilot to production",
-      "text": "Barclays expects most of its developers to be using Anthropic's Claude Code by the end of 2027, and its Global Markets business already runs 120,000 client emails a day through Claude models. In Singapore, Trust Bank's AI agents now triage IT incidents in about two minutes, down from 15 to 20, and the bank says about 65% of their root-cause analyses are actionable before an engineer even joins the ticket. Both banks are describing AI inside daily operations, doing the first pass on work that people then act on."
+      "text": "Barclays expects most of its developers to be using Anthropic's Claude Code by the end of 2027, and its Global Markets business already runs 120,000 client emails a day through Claude models. In Singapore, Trust Bank's AI agents now triage IT incidents in about two minutes, down from 15 to 20, and the bank says about 65% of their root-cause analyses are actionable, work that is done before the on-call engineer joins the call. Both banks are describing AI inside daily operations, doing the first pass on work that people then act on."
     },
     {
       "head": "Where it already breaks",
-      "text": "Shinhan Bank said hackers broke into its loan broker login site on Wednesday and leaked loan amounts, annual income, names and phone numbers for about 25,000 customers, and sources told the Korea Herald the attackers, suspected to be overseas, used AI tools. An industry official told the paper the entire financial industry is vulnerable to AI agent-assisted attacks and that institutions need to run their own security inspections promptly. Customer-facing portals like this one belong at the top of that list."
+      "text": "Shinhan Bank said hackers leaked loan amounts, annual income, names and phone numbers for about 25,000 customers on Wednesday, and sources told the Korea Herald the attackers, suspected to be overseas, used AI tools. An industry official told the paper the entire financial industry is vulnerable to AI agent-assisted attacks and that institutions need to run their own security inspections promptly. Customer-facing online platforms like this one belong at the top of that list."
     },
     {
       "head": "Two central banks agree",
@@ -29,7 +29,9 @@
     },
     {
       "head": "What to watch next",
-      "text": "Watch whether South Korea's financial watchdog finds Shinhan's gap was a one-off or something other loan broker portals share. And ask the question both central banks are raising: if sentiment on AI turns, what happens to the banks lending into it, when AI-related borrowing is already about a quarter of credit growth to firms by Lagarde's count?"
+      "text": "Watch whether South Korea's financial watchdog finds Shinhan's gap was a one-off or a weakness other banks' online platforms share. And ask the question both central banks are raising: if sentiment on AI turns, what happens to the banks lending into it, when AI-related borrowing is already about a quarter of credit growth to firms by Lagarde's count?"
     }
-  ]
+  ],
+  "updatedAt": "2026-10-02T10:42:00+07:00",
+  "correction": "An earlier version said the hackers broke into Shinhan Bank's loan broker login site, and that Trust Bank's analyses are ready before an engineer joins the ticket. The Korea Herald does not name the site that was hacked, and Computer Weekly says the work is done before the on-call engineer joins the call."
 }
