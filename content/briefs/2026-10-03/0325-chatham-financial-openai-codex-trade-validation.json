@@ -1,0 +1,15 @@
+{
+  "id": "2026-10-03-chatham-financial-openai-codex-trade-validation",
+  "publishedAt": "2026-10-03T03:25:00+07:00",
+  "section": "banking",
+  "company": "Chatham Financial",
+  "figure": { "value": "30 min to <4 min", "label": "Chatham Financial's trade validation time, before and after" },
+  "headline": "Chatham Financial scales capital markets work with OpenAI's Codex",
+  "body": "Chatham Financial said it uses OpenAI's Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation time from 30 minutes to under 4 minutes.",
+  "note": "Cutting a manual check from 30 minutes to under 4 is the kind of back-office time saving treasury and capital markets teams will be watching for. The figure comes from Chatham and OpenAI's own account of the work, so an outside audit would still be useful.",
+  "sources": [{ "name": "OpenAI", "url": "https://openai.com/index/chatham-financial" }],
+  "evidence": [
+    { "source": 0, "text": "Chatham scales its capital markets expertise with OpenAI" },
+    { "source": 0, "text": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4." }
+  ]
+}

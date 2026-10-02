@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-03-wall-street-ai-agent-orchestration-hiring",
+  "publishedAt": "2026-10-03T03:20:00+07:00",
+  "section": "banking",
+  "star": true,
+  "company": "Draup",
+  "figure": { "value": "1,721%", "label": "rise in bank job posts mentioning 'agent orchestration' this year" },
+  "headline": "Job posts for 'agent orchestration' skills jump 1,721% at Wall Street banks",
+  "body": "Posts for AI-related roles at banks including JPMorgan Chase, Citigroup and Capital One rose 49% this year to 139,819 listings, while posts referencing agent orchestration jumped 1,721%, the most sought-after technical skill in finance, according to Draup. Draup CEO Vijay Swaminathan said \"this is arguably the hottest skill on Wall Street,\" and generative AI managers earn a median base salary of about $190,000.",
+  "note": "A 1,721% jump in postings for one skill shows banks moving from chatbots to systems of agents that need people to design and supervise them. It also prices that expertise: generative AI managers already earn a median base salary of about $190,000.",
+  "sources": [{ "name": "CNBC", "url": "https://www.cnbc.com/2026/10/02/ai-redefining-wall-street-jobs.html" }],
+  "evidence": [
+    { "source": 0, "text": "Job postings referencing \"agent orchestration\" exploded by 1,721% this year, making it one of the most sought-after technical skills in finance, according to an analysis by enterprise hiring data firm Draup provided exclusively to CNBC." },
+    { "source": 0, "text": "Posts for AI-related roles at banks including JPMorgan Chase , Citigroup and Capital One surged 49% this year compared with 2025 to 139,819 listings, according to an analysis by enterprise hiring data firm Draup that was provided exclusively to CNBC." },
+    { "source": 0, "text": "\"This is arguably the hottest skill on Wall Street,\" Draup CEO Vijay Swaminathan said in an interview." },
+    { "source": 0, "text": "Roles tied to generative AI and agents typically pay more than tech roles elsewhere in finance, with generative AI managers paid a median base salary of about $190,000, according to Draup." },
+    { "source": 0, "text": "For instance, references to agent orchestration, or the ability to design agents that work in concert on a task, jumped 1,721% this year." }
+  ]
+}
