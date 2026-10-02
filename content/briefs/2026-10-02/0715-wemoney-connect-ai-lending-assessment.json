@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-02-wemoney-connect-ai-lending-assessment",
+  "publishedAt": "2026-10-02T07:15:00+07:00",
+  "section": "banking",
+  "tags": ["lending"],
+  "star": false,
+  "company": "WeMoney",
+  "headline": "WeMoney launches an AI tool that assesses loan files from open banking data",
+  "body": "WeMoney launched WeMoney Connect, an AI tool for Australian banks, lenders and brokers that pulls an applicant's bank data through the Consumer Data Right and applies the lender's own credit policy to it, producing a decision-ready file in minutes. Industry bodies had told Australia's Treasury that loan verification is \"not only slow and costly, but increasingly vulnerable to manipulation,\" and WeMoney says it built the tool at lenders' request.",
+  "note": "Routing credit-policy checks through an AI agent that works from verified bank data is where several lenders are now looking for speed, because that data is harder to alter than the paperwork a loan officer used to chase.",
+  "sources": [{ "name": "Australian FinTech", "url": "https://australianfintech.com.au/wemoney-launches-wemoney-connect-ai-powered-lending-assessment-built-on-the-consumer-data-right/" }],
+  "evidence": [
+    { "source": 0, "text": "WeMoney today launched WeMoney Connect in a limited early access release for Australian banks, non-bank lenders, brokers and other financial institutions." },
+    { "source": 0, "text": "Through its Agentic Assess capability, Connect applies each lender’s own credit policy to that evidence, so lending teams can understand risk better and make better lending decisions. Once an applicant has shared their data, the file can be decision ready in minutes." },
+    { "source": 0, "text": "In a joint letter to Treasury in April 2026, Australia’s banking, broking, customer-owned banking, finance and fintech industry bodies warned that current verification is “not only slow and costly, but increasingly vulnerable to manipulation”. WeMoney built Connect in response, at the request of lenders it already works with." }
+  ]
+}

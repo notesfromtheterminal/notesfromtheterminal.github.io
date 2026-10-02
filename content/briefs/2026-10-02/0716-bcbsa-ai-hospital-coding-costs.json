@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-02-bcbsa-ai-hospital-coding-costs",
+  "publishedAt": "2026-10-02T07:16:00+07:00",
+  "section": "banking",
+  "tags": ["insurance"],
+  "star": false,
+  "company": "Blue Cross Blue Shield Association",
+  "headline": "Blue Cross Blue Shield ties $942 million in extra billing to AI-assisted coding",
+  "body": "Blue Cross Blue Shield Association estimated that AI-assisted hospital coding contributed to nearly $942 million in extra costs for its health plans between 2023 and 2025, with about 70%, or $653 million, tied to extra diagnoses that did not change a patient's care. BCBSA's Luke Chalker said \"multiple factors contribute to coding intensity,\" but added that the findings suggest AI-enabled coding tools are playing a role.",
+  "note": "Hospital coding is one example of a wider pattern: when AI speeds up a process built on an existing financial incentive, it can scale whatever bias is already in the system as easily as it scales efficiency, which is a caution for AI-driven credit and claims models too.",
+  "figure": { "value": "$942M", "label": "extra costs BCBSA linked to AI-assisted hospital coding, 2023-2025" },
+  "sources": [{ "name": "CNBC", "url": "https://www.cnbc.com/2026/10/01/health-care-costs-insurance-claims-billing-ai.html" }],
+  "evidence": [
+    { "source": 0, "text": "Blue Cross Blue Shield Association recently estimated that hospitals' use of AI-assisted medical coding contributed to close to $1 billion ( $942 million ) in additional costs for its health plans between 2023 and 2025." },
+    { "source": 0, "text": "Roughly 70%, or $653 million of the billing identified by the insurer, was tied to additional diagnoses that were not accompanied by a change in care, Luke Chalker, BCBSA's senior vice president of product and data science, told CNBC." },
+    { "source": 0, "text": "Chalker stopped short of attributing the entire increase to AI. \"While multiple factors contribute to coding intensity, the findings suggest AI-enabled coding and documentation tools are playing a role,\" he said." }
+  ]
+}
