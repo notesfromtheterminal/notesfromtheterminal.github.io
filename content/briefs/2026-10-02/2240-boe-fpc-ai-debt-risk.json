@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-02-boe-fpc-ai-debt-risk",
+  "publishedAt": "2026-10-02T22:17:00+07:00",
+  "section": "rules",
+  "tags": ["banking"],
+  "star": true,
+  "company": "Bank of England",
+  "headline": "Bank of England: global AI debt issuance already more than double 2025's total",
+  "body": "The Bank of England's Financial Policy Committee said on September 30 that Morgan Stanley estimated global AI-related debt issuance at around $450 billion as of early September, more than double the total issuance in all of 2025. JP Morgan analysts estimated AI-related capital expenditure financed through debt issuance could total around $4.1 trillion between 2026 and 2030. The FPC said this debt issuance broadens the exposure of capital markets to developments in AI.",
+  "note": "The FPC warned that a reassessment of AI earnings expectations could affect AI-related asset valuations and sovereign debt markets at the same time, so the risk from AI-linked credit runs beyond any single lender into the funding markets banks and insurers both depend on.",
+  "sources": [{ "name": "Bank of England", "url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/september-2026" }],
+  "evidence": [
+    { "source": 0, "text": "Record of the Financial Policy Committee meeting on 25 September 2026" },
+    { "source": 0, "text": "The rapid increase in artificial intelligence (AI)-related debt issuance broadens the exposure of capital markets to developments in AI." },
+    { "source": 0, "text": "As of early September, Morgan Stanley estimated that global AI-related debt issuance totalled around $450 billion, more than double the total issuance in all of 2025." },
+    { "source": 0, "text": "JP Morgan analysts estimated that AI-related capital expenditure financed through debt issuance would total around $4.1 trillion between 2026 and 2030." },
+    { "source": 0, "text": "A reassessment of those expectations could therefore affect not only AI-related asset valuations but also sovereign debt markets." }
+  ]
+}
