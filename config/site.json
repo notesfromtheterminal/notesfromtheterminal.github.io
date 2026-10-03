@@ -12,5 +12,8 @@
   "wireEveryMinutes": 5,
   "goatcounter": "https://notesfromthetermina.goatcounter.com/count",
   "kitFormId": "9978428",
-  "newsletterLive": true
+  "newsletterLive": true,
+  "reviewers": [
+    "MarcTwoBot"
+  ]
 }
