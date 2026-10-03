@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-04",
+  "publishedAt": "2026-10-04T07:00:00+07:00",
+  "title": "Finance is hiring for agents before it can fully govern them",
+  "dek": "Wall Street's AI-agent hiring boom arrived alongside new agent deployments in insurance and payments, a major lab's training push, and a fraud case showing the same technology cuts both ways.",
+  "lead": "2026-10-03-wall-street-ai-agent-orchestration-hiring",
+  "stories": [
+    "2026-10-03-liberate-ai-insurance-agents-scale",
+    "2026-10-03-emvco-agentic-payments-intent-framework",
+    "2026-10-03-anthropic-frontier-academy-ai-engineers",
+    "2026-10-03-malang-ojk-ai-voice-clone-fraud"
+  ],
+  "body": [
+    {
+      "head": "The hiring signal",
+      "text": "Postings for AI-related roles at banks including JPMorgan Chase, Citigroup and Capital One rose 49% this year to 139,819 listings, and postings mentioning agent orchestration jumped 1,721%, Draup found. Draup's own CEO calls it arguably the hottest skill on Wall Street, and generative AI managers already earn a median base salary of about $190,000.",
+      "support": [
+        "Posts for AI-related roles at banks including JPMorgan Chase , Citigroup and Capital One surged 49% this year compared with 2025 to 139,819 listings, according to an analysis by enterprise hiring data firm Draup that was provided exclusively to CNBC.",
+        "Job postings referencing \"agent orchestration\" exploded by 1,721% this year, making it one of the most sought-after technical skills in finance, according to an analysis by enterprise hiring data firm Draup provided exclusively to CNBC.",
+        "\"This is arguably the hottest skill on Wall Street,\" Draup CEO Vijay Swaminathan said in an interview.",
+        "Roles tied to generative AI and agents typically pay more than tech roles elsewhere in finance, with generative AI managers paid a median base salary of about $190,000, according to Draup."
+      ]
+    },
+    {
+      "head": "Agents already doing the work",
+      "text": "Agents are already doing that work. Liberate's AI agents answer insurance policyholder calls and log them in a carrier's core system, and Liberate says they have given insurers and brokers back more than 100 million minutes. More than 70 carriers and brokers run over 3.5 million transactions a month on its platform, and Branch, a home and auto insurer, cut claim reporting time 42% after moving first notice of loss to Liberate's agents.",
+      "support": [
+        "An artificial intelligence (AI) agent answers, pulls the balance and logs the call in the carrier’s core system, with no employee on the line.",
+        "Liberate’s agents handle requests that don’t need human judgment, such as a contractor asking for a certificate of insurance or a policyholder checking on an open claim, the company said.",
+        "Interactions like that have given insurance agencies and carriers back more than 100 million minutes, Liberate , a provider of AI agents for property and casualty insurers, said Wednesday (Sept. 30).",
+        "More than 70 carriers and brokers run over 3.5 million transactions a month on the platform.",
+        "Branch , a home and auto insurer, moved first notice of loss to Liberate’s AI agents and digital intake.",
+        "Reporting a claim now takes about 7 minutes, down from more than 12 with its outsourced call center, a 42% cut, Liberate said ."
+      ]
+    },
+    {
+      "head": "Payment rails are catching up",
+      "text": "Card networks are trying to keep pace with what agents are now allowed to do. EMVCo closed public comment on Sept. 30 on a framework for Intent Services that would let payment participants register what a consumer authorized an AI agent to do, before, during and after a transaction, and it may add know your agent checks to identify agents in a payment. PYMNTS Intelligence found 56% of consumers would let an agent search and compare products, but just 37% would let one authorize a payment.",
+      "support": [
+        "The standards body closed public comments Sept. 30 on its Agentic Payments — Framework for Specifications .",
+        "EMVCo’s proposed Intent Services would let payment participants register, reference, retrieve and manage consumer-authorized intent before, during and after a transaction.",
+        "EMVCo may develop know your agent capabilities and agentic transaction indicators to identify agents and signal their involvement in payments.",
+        "PYMNTS Intelligence found that 56% of consumers would let AI agents search and compare products, but just 37% would let them authorize payments."
+      ]
+    },
+    {
+      "head": "Labs are training the supervisors",
+      "text": "The talent gap behind all that hiring is why Anthropic is investing $100 million in a Claude Frontier Academy that aims to train 10,000 frontier deployed engineers by the end of 2027, drawing its first groups from Accenture, Morgan Stanley and Novo Nordisk. Anthropic's Steve Corfield says the academy trains people the way its own engineers learn. A bank sending staff through a lab's own training pipeline is a sign of how seriously it now takes AI fluency as an in-house skill.",
+      "support": [
+        "Anthropic will invest $100 million into an academy for training AI talent, working with companies to integrate artificial intelligence into their operations.",
+        "The investment will fund a program called the Claude Frontier Academy, which aims to train 10,000 \"frontier deployed engineers\" drawn from companies that are part of Anthropic's Claude Partner Network by the end of 2027, the company said in a press release on Friday.",
+        "Engineers from Accenture , Morgan Stanley , Novo Nordisk and a number of top consulting firms are included in the first groups.",
+        "\"Claude Frontier Academy trains people the way our own engineers learn, and we want those who graduate to set the standard for how AI gets built inside a business,\" Steve Corfield, Anthropic's global head of business development and partnerships, said in the release."
+      ]
+    },
+    {
+      "head": "The same capability cuts both ways",
+      "text": "The same voice-cloning capability that powers legitimate agents is already being turned against people directly. In Malang, a scam cloned the voice of a victim's close contact with AI and used it to talk its way into a transfer of Rp80 juta, OJK's local branch disclosed. OJK Malang's Faried Faletehan linked the case to a wider pattern of AI-enabled scams reaching smaller cities too.",
+      "support": [
+        "Korban terkecoh hingga menderita kerugian materiil mencapai Rp80 juta.",
+        "Dalam ruang siaran Talkshow Radio City Guide FM pada Jumat (2/10/2026), Kepala OJK Malang, Faried Faletehan, membeberkan kasus terbaru yang menimpa seorang warga di Malang.",
+        "Pelaku memanfaatkan teknologi AI untuk mengkloning atau menirukan suara teman dekat korban secara sangat presisi, lalu menghubungi korban menggunakan nomor baru."
+      ]
+    },
+    {
+      "head": "What to watch",
+      "text": "Put together, this is one week where agents moved from answering questions to handling calls, payments and transfers on their own, which is exactly why the hiring, the standards and the fraud are all accelerating together. For a bank or insurer, the useful question is whether the people, the payment rails and the fraud controls built around these agents are growing as fast as the agents themselves."
+    }
+  ]
+}
