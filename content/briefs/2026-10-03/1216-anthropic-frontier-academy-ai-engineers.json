@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-03-anthropic-frontier-academy-ai-engineers",
+  "publishedAt": "2026-10-03T12:16:00+07:00",
+  "section": "models",
+  "tags": ["banking"],
+  "company": "Anthropic",
+  "headline": "Anthropic to invest $100 million to train 10,000 'frontier deployed engineers'",
+  "body": "Anthropic will invest $100 million in a new program, the Claude Frontier Academy, which aims to train 10,000 \"frontier deployed engineers\" from companies in its Claude Partner Network by the end of 2027. The first groups included engineers from Accenture, Morgan Stanley and Novo Nordisk, and Anthropic's Steve Corfield says the academy \"trains people the way our own engineers learn.\"",
+  "note": "Morgan Stanley's engineers training inside Anthropic's own pipeline shows how seriously a big bank now takes AI fluency as an in-house skill. Banks may soon compete as hard for people who can turn their workflows into agent prompts as they do for traders.",
+  "sources": [{ "name": "CNBC", "url": "https://www.cnbc.com/2026/10/02/anthropic-to-invest-100-million-to-train-ai-engineer-talent.html" }],
+  "evidence": [
+    { "source": 0, "text": "Anthropic will invest $100 million into an academy for training AI talent, working with companies to integrate artificial intelligence into their operations." },
+    { "source": 0, "text": "The investment will fund a program called the Claude Frontier Academy, which aims to train 10,000 \"frontier deployed engineers\" drawn from companies that are part of Anthropic's Claude Partner Network by the end of 2027, the company said in a press release on Friday." },
+    { "source": 0, "text": "Engineers from Accenture , Morgan Stanley , Novo Nordisk and a number of top consulting firms are included in the first groups." },
+    { "source": 0, "text": "\"Claude Frontier Academy trains people the way our own engineers learn, and we want those who graduate to set the standard for how AI gets built inside a business,\" Steve Corfield, Anthropic's global head of business development and partnerships, said in the release." }
+  ]
+}
