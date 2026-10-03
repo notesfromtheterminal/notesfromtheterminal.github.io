@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-03-malang-ojk-ai-voice-clone-fraud",
+  "publishedAt": "2026-10-03T22:18:00+07:00",
+  "section": "sea",
+  "tags": ["fraud"],
+  "figure": { "value": "Rp80 juta", "label": "cost of an AI voice-cloning scam in Malang, OJK says" },
+  "headline": "OJK Malang warns after a scam cloned a target's voice with AI",
+  "body": "OJK Malang head Faried Faletehan said a scam cloned a target's voice with AI for a transfer that cost it Rp80 juta.",
+  "note": "A voice clone convincing enough to beat a personal relationship is harder for banks and e-wallets to design defenses around, and this case shows the pattern reaching smaller Indonesian cities beyond Java's big centers.",
+  "sources": [{ "name": "Malang Post", "url": "https://malang-post.com/2026/10/02/warga-malang-rugi-rp80-juta-akibat-kloning-suara-ai-ojk-minta-masyarakat-waspada-modus-deepfake/" }],
+  "evidence": [
+    { "source": 0, "text": "MALANG POST – Kantor Otoritas Jasa Keuangan (OJK) Malang bersama akademisi Fakultas Ilmu Komputer Universitas Brawijaya (FILKOM UB), membongkar maraknya tren modus penipuan berbasis kecerdasan buatan (Artificial Intelligence/AI) seperti kloning suara (voice cloning) dan deepfake yang menelan korban warga Malang hingga puluhan juta rupiah, Jumat (2/10/2026)." },
+    { "source": 0, "text": "Dalam ruang siaran Talkshow Radio City Guide FM pada Jumat (2/10/2026), Kepala OJK Malang, Faried Faletehan, membeberkan kasus terbaru yang menimpa seorang warga di Malang." },
+    { "source": 0, "text": "Korban terkecoh hingga menderita kerugian materiil mencapai Rp80 juta." },
+    { "source": 0, "text": "Pelaku memanfaatkan teknologi AI untuk mengkloning atau menirukan suara teman dekat korban secara sangat presisi, lalu menghubungi korban menggunakan nomor baru." },
+    { "source": 0, "text": "Pelaku mempelajari kebiasaan, hobi, serta pola percakapan targetnya di media sosial. Begitu suara orang terdekatnya berhasil dikloning dengan AI, pelaku menghubungi korban untuk meminta transfer uang. Korban percaya penuh karena suaranya identik,\" jelas Faried Faletehan." }
+  ]
+}
