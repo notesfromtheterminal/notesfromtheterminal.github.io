@@ -2,8 +2,8 @@
 // without the owner merging by hand. The reviewer (the owner's Grok bot, an org member) only
 // comments; this script, run by the workflow with its own token, does the merge. All required:
 //   - the branch is claude/note-YYYY-MM-DD and the PR changes only content/notes/YYYY-MM-DD.json
-//   - the latest verdict comment ("APPROVED ..." or "CHANGES ...") from an owner, member or
-//     collaborator is APPROVED, and it was posted after the branch's last commit
+//   - the latest verdict comment ("APPROVED ..." or "CHANGES ...") from an owner, member,
+//     collaborator or a reviewer named in config/site.json is APPROVED, and it was posted after the branch's last commit
 //   - every check on the head commit passed (skipped checks are fine)
 //   node scripts/auto-merge.mjs [--dry-run]
 import { execFileSync } from 'node:child_process';
@@ -25,10 +25,10 @@ const ghJson = (args) => {
 };
 
 // A verdict is a comment that starts with APPROVED or CHANGES, from someone the repo trusts.
-export function verdictOf(pr) {
+export function verdictOf(pr, reviewers = new Set()) {
   const last = Math.max(...pr.commits.map((c) => Date.parse(c.committedDate)));
   const verdicts = pr.comments
-    .filter((c) => TRUSTED.has(c.authorAssociation) && /^\s*(APPROVED|CHANGES)\b/.test(c.body) && Date.parse(c.createdAt) > last)
+    .filter((c) => (TRUSTED.has(c.authorAssociation) || reviewers.has(c.author.login.toLowerCase())) && /^\s*(APPROVED|CHANGES)\b/.test(c.body) && Date.parse(c.createdAt) > last)
     .sort((a, b) => Date.parse(a.createdAt) - Date.parse(b.createdAt));
   const latest = verdicts.at(-1);
   return latest ? { word: latest.body.trim().split(/\s/)[0].replace(/\W+$/, ''), by: latest.author.login } : null;
@@ -46,7 +46,7 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
       console.log(`auto-merge: #${pr.number} changes more than the note (${files.join(', ')}); left for the owner`);
       continue;
     }
-    const verdict = verdictOf(pr);
+    const verdict = verdictOf(pr, new Set((site.reviewers ?? []).map((x) => x.toLowerCase())));
     if (verdict?.word !== 'APPROVED') {
       console.log(`auto-merge: #${pr.number} ${verdict ? `has ${verdict.word} from ${verdict.by}` : 'has no verdict since its last commit'}`);
       continue;

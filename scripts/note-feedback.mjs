@@ -1,11 +1,17 @@
 // The reviewer's verdict on the open Morning Note pull request, for the desk. Prints the
 // branch and the requested changes when the latest verdict (a comment starting with
-// CHANGES or APPROVED, from an owner, member or collaborator) asks for changes and is newer
+// CHANGES or APPROVED, from an owner, member, collaborator or a reviewer named in the config) asks for changes and is newer
 // than the branch's last commit; prints nothing to do otherwise. The repo is public, so no
 // token is needed.
 //   node scripts/note-feedback.mjs
+import { p, readJSON } from './lib/util.mjs';
+
 const repo = 'notesfromtheterminal/notesfromtheterminal.github.io';
 const TRUSTED = new Set(['OWNER', 'MEMBER', 'COLLABORATOR']);
+// The reviewer bot by name (config/site.json "reviewers"): its org membership is private, so
+// an anonymous request sees its comments as "NONE".
+const reviewers = new Set(((await readJSON(p('config', 'site.json'))).reviewers ?? []).map((x) => x.toLowerCase()));
+const trusted = (c) => TRUSTED.has(c.author_association) || reviewers.has(c.user.login.toLowerCase());
 const api = async (path) => {
   const res = await fetch(`https://api.github.com/repos/${repo}${path}`, { headers: { Accept: 'application/vnd.github+json', 'User-Agent': 'notes-from-the-terminal-desk' } });
   if (!res.ok) throw new Error(`GitHub API ${res.status} for ${path}`);
@@ -18,7 +24,7 @@ for (const pr of prs) {
   const commits = await api(`/pulls/${pr.number}/commits?per_page=100`);
   const last = Math.max(...commits.map((c) => Date.parse(c.commit.committer.date)));
   const verdicts = (await api(`/issues/${pr.number}/comments?per_page=100`)).filter(
-    (c) => TRUSTED.has(c.author_association) && /^\s*(APPROVED|CHANGES)\b/.test(c.body),
+    (c) => trusted(c) && /^\s*(APPROVED|CHANGES)\b/.test(c.body),
   );
   const latest = verdicts.at(-1);
   if (!latest || !/^\s*CHANGES\b/.test(latest.body) || Date.parse(latest.created_at) < last) continue;
