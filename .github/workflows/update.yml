@@ -43,11 +43,17 @@ jobs:
       pull-requests: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
       - run: npm ci
+      - name: Bring in the latest main (corrected briefs)
+        run: |
+          git fetch -q origin main
+          git -c user.name=ci -c user.email=ci@localhost merge -q --no-edit origin/main || echo "::warning::Could not merge main into the note branch"
       - name: Open or refresh the approval pull request
         env:
           GH_TOKEN: ${{ github.token }}
@@ -64,9 +70,59 @@ jobs:
             gh pr edit "$BRANCH" --add-reviewer "$GITHUB_ACTOR" || echo "::warning::Could not request a review from $GITHUB_ACTOR"
           fi
 
-  # A Morning Note corrected on main after its pull request was merged, before 07:00: the
-  # email already scheduled in Kit is out of date, so post the corrected email on that pull
-  # request, which notifies the owner. Merging the PR adds the note, so it posts nothing.
+  # The note's own checks, as a status on its pull request: auto-merge waits for it to pass.
+  note-check:
+    if: startsWith(github.ref, 'refs/heads/claude/note-')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Bring in the latest main (corrected briefs)
+        run: |
+          git fetch -q origin main
+          git -c user.name=ci -c user.email=ci@localhost merge -q --no-edit origin/main || echo "::warning::Could not merge main into the note branch"
+      - name: Check the note and the briefs it connects
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: node scripts/note-check.mjs "${BRANCH#claude/note-}"
+
+  # Merge a Morning Note the reviewer approved; scripts/auto-merge.mjs holds the conditions.
+  # Runs on the five-minute schedule, and the next run deploys what it merged.
+  auto-merge:
+    if: github.event_name != 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+      pull-requests: write
+      checks: read
+      statuses: read
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Merge an approved Morning Note
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/auto-merge.mjs
+
+  # A Morning Note, or a brief it connects, corrected on main after its pull request was
+  # merged and before it goes out: the email already scheduled in Kit is out of date, so post
+  # the corrected email on that pull request for the reviewer to swap in. Merging adds the
+  # note, so it posts nothing.
   note-changed:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
@@ -88,9 +144,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           BEFORE: ${{ github.event.before }}
         run: |
-          for f in $(git diff --name-only --diff-filter=M "$BEFORE" HEAD -- content/notes); do
-            case "$f" in *.json) ;; *) continue ;; esac
-            date="$(basename "$f" .json)"
+          for date in $(node scripts/changed-notes.mjs "$BEFORE" HEAD); do
             node scripts/note-pr.mjs "$date" --changed > comment.md || continue
             [ -s comment.md ] || continue
             pr="$(gh pr list --state merged --head "claude/note-$date" --json number --jq '.[0].number')"
