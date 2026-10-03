@@ -284,8 +284,9 @@ export async function loadContent({ now = Date.now() } = {}) {
     for (const [k, v] of [['title', n.title], ['dek', n.dek], ...paras.flatMap((x, i) => [[`body[${i}].head`, x.head], [`body[${i}]`, x.text]])]) {
       if (typeof v !== 'string') continue;
       e.push(...styleIssues(k, v));
-      if (/\[\[[^\]]*\]\]/.test(v)) e.push(`${k}: unfilled placeholder [[...]]; fill it in or remove it before publishing`);
+      if (/\[\[[^\]]*\]\]/.test(v)) e.push(`${k}: placeholder [[...]]: the note must publish exactly as written, so put an idea for the owner in "suggestion" instead`);
     }
+    if (n.suggestion != null && (typeof n.suggestion !== 'string' || n.suggestion.length > 300)) e.push('suggestion must be a string up to 300 characters');
     if (e.length) errors.push(...e.map((m) => `${where}: ${m}`));
     else if (!n.draft) notes.push(n);
   }

@@ -94,7 +94,7 @@ Writing the note, in the owner's voice:
 - **Shape.** Say the point near the top. Then walk through why: the stories, the cause and effect between them, and a concrete example or number from the briefs. Spell out the so-what ("This means that..."). End by handing the reader something to act on or watch in the role they already have, or with one question. No sign-off and no promotion.
 - **Rhythm.** Spoken and flowing: medium to long sentences joined with "so", "because", "which means" and "and". "So" opens sentences to push the argument forward ("So the real question is..."). "Therefore" and "However" are fine; "hence" at most once. Light signposting helps ("First...", "This moves to the second point..."). A short aside in parentheses is welcome where it adds a real detail. A run of short diagnostic questions can frame the problem, as long as the answer follows.
 - **We, not you.** Bring the reader along with "we" and "us" where it fits. Explain any term that might lose a reader in plain words, in the same sentence.
-- **Honesty.** Never invent personal experience, clients, anecdotes, quotes or figures. Every fact must come from the briefs. If a personal example would make the note stronger, leave a placeholder in double square brackets, like `[[Owner: add a line from your own lending experience here]]`, and the owner fills it in before approving. The validator blocks publishing while a placeholder remains.
+- **Honesty.** Never invent personal experience, clients, anecdotes, quotes or figures. Every fact must come from the briefs. The note must be complete and publishable exactly as you commit it: the owner merges from his phone and does not edit it. Never put a placeholder in the note (`npm run check` fails `[[...]]`). If a personal example would make it stronger, write the idea in the note's optional `suggestion` field, such as `"suggestion": "A line on how your own clients ask about AI-linked concentration risk would fit at the end of the last section."`; the pull request shows it to the owner, and the note publishes fine without it.
 - **Never.** Em dashes, the banned phrases above, staccato runs of short sentences, "It's not X, it's Y" (at most once, and not in a contrarian piece), myth-bust openers ("Everyone thinks X, but..."), performative sincerity ("let me be real", "I'll be honest"), opening a claim with "I think" or "I believe", hype, and naming any former employer.
 
 ## Files
@@ -141,6 +141,7 @@ Morning Notes live in `content/notes/YYYY-MM-DD.json`:
   "body": [
     { "head": "The point in a few words", "text": "Two or three sentences that make it.", "support": ["The evidence sentence from a connected brief that backs it, copied exactly."] },
     { "head": "What it means", "text": "Two or three sentences of argument; a section that names no one and gives no number needs no support." }
-  ]
+  ],
+  "suggestion": "Optional: an idea for a personal line the owner could add. Never part of the published note."
 }
 ```

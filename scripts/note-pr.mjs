@@ -140,6 +140,8 @@ console.log(
     ...(errors.length ? ['**Validation errors (fix before merging)**', '', ...errors.map((e) => `- ${e}`), ''] : []),
     goesLive,
     '',
+    ...(note.suggestion ? [`**Optional personal touch:** ${md(note.suggestion)} The note publishes fine without it; tell Claude the line if you want it added before you merge.`] : []),
+    '',
     'Merge this pull request to publish the note. Close it to discard.',
     `To edit first, change \`content/notes/${date}.json\` on this branch, then merge.`,
     '',
