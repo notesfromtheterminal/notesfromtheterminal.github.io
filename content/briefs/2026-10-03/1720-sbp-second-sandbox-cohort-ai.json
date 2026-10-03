@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-03-sbp-second-sandbox-cohort-ai",
+  "publishedAt": "2026-10-03T17:20:00+07:00",
+  "section": "rules",
+  "tags": ["payments"],
+  "company": "State Bank of Pakistan",
+  "headline": "Pakistan's central bank opens a second sandbox cohort for AI, payments",
+  "body": "The State Bank of Pakistan (SBP) launched the second cohort of its Regulatory Sandbox, inviting firms to test solutions across artificial intelligence in financial services, payment innovations, technology-enabled inward remittances and next-generation financial services. Applications are open until November 30. The SBP said only proposals falling within those four themes will be considered.",
+  "note": "A sandbox lets the SBP see how AI-driven lending, payments and remittance tools actually behave before they reach everyday customers, catching problems while oversight is still easy to apply.",
+  "sources": [{ "name": "Profit by Pakistan Today", "url": "https://profit.pakistantoday.com.pk/2026/10/03/sbp-launches-second-regulatory-sandbox-cohort-for-ai-payments-innovations" }],
+  "evidence": [
+    { "source": 0, "text": "The State Bank of Pakistan (SBP) has launched the second cohort of its Regulatory Sandbox, inviting individuals and firms to test innovative financial solutions across artificial intelligence, payments, inward remittances and next-generation financial services." },
+    { "source": 0, "text": "Applications for the second cohort will remain open until November 30, 2026, the central bank said in a statement." },
+    { "source": 0, "text": "The second cohort will consider proposals across four themes: artificial intelligence in financial services, innovations in payments, technology-enabled inward remittances and an open category covering next-generation financial services." },
+    { "source": 0, "text": "The SBP said only proposals falling within the scope of these four themes would be considered for participation." },
+    { "source": 0, "text": "The regulatory sandbox forms part of the central bank's broader efforts under SBP Vision 2028 to support innovation in Pakistan's digital financial services ecosystem while maintaining consumer protection and financial stability." }
+  ]
+}
