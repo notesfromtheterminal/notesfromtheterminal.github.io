@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-03-emvco-agentic-payments-intent-framework",
+  "publishedAt": "2026-10-03T07:14:00+07:00",
+  "section": "payments",
+  "tags": ["banking"],
+  "company": "EMVCo",
+  "figure": { "value": "37%", "label": "consumers who would let an AI agent authorize payments" },
+  "headline": "EMVCo proposes a framework to carry agent authority through card payments",
+  "body": "EMVCo closed public comments on Sept. 30 on a framework proposing \"Intent Services\" that would let payment participants register and retrieve what a consumer authorized an AI agent to do, before, during and after a transaction. The standards body may also develop know your agent capabilities to identify agents in a payment. PYMNTS Intelligence found 56% of consumers would let an agent search and compare products, but just 37% would let one authorize payments.",
+  "note": "A valid card credential does not say what an agent was told to buy or for how much, and EMVCo's framework is an attempt to close that gap before issuers and networks carry liability for agents acting on it. Where that authority sits will shape how fast banks let agents hold a card at all.",
+  "sources": [{ "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/emvco-framework-targets-consumer-intent-agentic-payments/" }],
+  "evidence": [
+    { "source": 0, "text": "Artificial intelligence agents add information to a card payment that merchants, issuers and networks don’t routinely exchange today: what the consumer authorized the agent to do and whether the transaction falls within that authority." },
+    { "source": 0, "text": "EMVCo is developing a technical framework for carrying that information through card payments." },
+    { "source": 0, "text": "The standards body closed public comments Sept. 30 on its Agentic Payments — Framework for Specifications ." },
+    { "source": 0, "text": "EMVCo’s proposed Intent Services would let payment participants register, reference, retrieve and manage consumer-authorized intent before, during and after a transaction." },
+    { "source": 0, "text": "EMVCo may develop know your agent capabilities and agentic transaction indicators to identify agents and signal their involvement in payments." },
+    { "source": 0, "text": "PYMNTS Intelligence found that 56% of consumers would let AI agents search and compare products, but just 37% would let them authorize payments." }
+  ]
+}

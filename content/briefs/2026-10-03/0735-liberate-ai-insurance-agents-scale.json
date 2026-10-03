@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-03-liberate-ai-insurance-agents-scale",
+  "publishedAt": "2026-10-03T07:16:00+07:00",
+  "section": "banking",
+  "tags": ["models"],
+  "company": "Liberate",
+  "figure": { "value": "42%", "label": "Branch's claim reporting time cut using Liberate's AI agents" },
+  "headline": "Liberate says its AI agents gave insurers back more than 100 million minutes",
+  "body": "Liberate, a provider of AI agents for property and casualty insurers, said on Sept. 30 that its agents, which answer policyholder calls and log them in carriers' core systems, have given insurance agencies and carriers back more than 100 million minutes. More than 70 carriers and brokers run over 3.5 million transactions a month on the platform. Branch, a home and auto insurer, cut claim reporting time 42%, after it moved first notice of loss to Liberate's AI agents, the company said.",
+  "note": "The figures are Liberate's own account, so outside verification would help. Knowing how much of the 100 million minutes came after hours would show whether insurers gained new service capacity or just a lighter workload for existing staff, but Liberate did not break out that split.",
+  "sources": [{ "name": "PYMNTS", "url": "https://www.pymnts.com/insurance/2026/liberates-ai-agents-take-over-the-insurance-night-shift/" }],
+  "evidence": [
+    { "source": 0, "text": "An artificial intelligence (AI) agent answers, pulls the balance and logs the call in the carrier’s core system, with no employee on the line." },
+    { "source": 0, "text": "Interactions like that have given insurance agencies and carriers back more than 100 million minutes, Liberate , a provider of AI agents for property and casualty insurers, said Wednesday (Sept. 30)." },
+    { "source": 0, "text": "Liberate’s agents handle requests that don’t need human judgment, such as a contractor asking for a certificate of insurance or a policyholder checking on an open claim, the company said." },
+    { "source": 0, "text": "More than 70 carriers and brokers run over 3.5 million transactions a month on the platform." },
+    { "source": 0, "text": "Branch , a home and auto insurer, moved first notice of loss to Liberate’s AI agents and digital intake." },
+    { "source": 0, "text": "Reporting a claim now takes about 7 minutes, down from more than 12 with its outsourced call center, a 42% cut, Liberate said ." },
+    { "source": 0, "text": "The announcement does not say how many of the 100 million minutes came after hours." }
+  ]
+}
