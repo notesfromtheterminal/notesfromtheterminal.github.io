@@ -4,7 +4,7 @@
   "section": "sea",
   "tags": ["payments", "fraud"],
   "headline": "OJK plans a QRIS-like app to check before payment or transfer",
-  "body": "OJK's Dicky Kartikoyono said OJK plans an anti-scam app like QRIS to check whether a firm or payment is legal first. OJK will also push \"check before payment\" and \"check before transfer\".",
+  "body": "OJK's Dicky Kartikoyono said OJK plans an anti-scam app like QRIS to check whether a firm or a rekening is legal first. OJK will also push \"check before payment\" and \"check before transfer\".",
   "note": "OJK is reaching for infrastructure people already use daily, QRIS, so a fraud check could reach existing bank and e-wallet apps faster than a standalone tool would.",
   "sources": [{ "name": "BanyuPos", "url": "https://www.banyupos.com/34845/ojk-siapkan-aplikasi-anti-scam-konsepnya-mirip-qris.html" }],
   "evidence": [
@@ -13,5 +13,7 @@
     { "source": 0, "text": "“Logika seperti ini, saya mau pakai juga di perlindungan konsumen. Saya mau bikin yang namanya anti-scam apps. Depannya seperti QRIS, tapi tersambung dengan ekosistem keuangan digital,” kata Dicky dalam acara Cerdas Literasi Keuangan Digital: Cerdas Bertransaksi, Bijak Berinvestasi oleh Katadata, Sabtu (3/10)." },
     { "source": 0, "text": "“Ini perusahaan legal enggak? Bisa tanya. Ini nomor transaksi, atau nomor rekening ini legal atau enggak? Bisa tanya di apps itu,” ujarnya." },
     { "source": 0, "text": "Di samping itu OJK juga akan mendorong perubahan perilaku masyarakat melalui kampanye “check before payment” dan “check before transfer”." }
-  ]
+  ],
+  "correction": "An earlier version said the app would check whether a payment is legal. The source says the app checks the legality of a firm or a rekening (account), not a payment.",
+  "updatedAt": "2026-10-04T22:20:00+07:00"
 }
