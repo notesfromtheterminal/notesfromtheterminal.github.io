@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-04-google-gemini-free-tier-restricted",
+  "publishedAt": "2026-10-04T22:19:00+07:00",
+  "section": "models",
+  "tags": [],
+  "company": "Google",
+  "headline": "Google cuts free Gemini users down to its smallest model, Flash-Lite",
+  "body": "Google will restrict Gemini access for personal accounts starting in October 2026: free users get only the smallest model, Flash-Lite, down from the current free tier's access to Flash and varying access to Pro. AI Plus subscribers at $4.99 a month keep Flash-Lite and Flash but lose Pro, and all three models now require AI Pro at $19.99 a month or AI Ultra at $99.99 or $199.99 a month.",
+  "note": "Banks and insurers piloting Gemini on free or low-cost accounts for internal tools now need a paid plan to keep using anything beyond the smallest model, a sign AI labs are starting to charge more for capability as the technology matures.",
+  "sources": [{ "name": "The Decoder", "url": "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/" }],
+  "evidence": [
+    { "source": 0, "text": "Starting in October 2026, Google will restrict access to its Gemini models for personal account users." },
+    { "source": 0, "text": "Without a subscription, users will only get the smallest model, \"Flash-Lite.\"" },
+    { "source": 0, "text": "The more powerful \"Flash\" and \"Pro\" won't be included." },
+    { "source": 0, "text": "That's a cut from the current free tier, which offers access to 3.6 Flash and varying access to 3.1 Pro." },
+    { "source": 0, "text": "AI Plus subscribers ($4.99/month) lose access to Pro and can only use Flash-Lite and Flash." },
+    { "source": 0, "text": "All three models require AI Pro ($19.99/month) or AI Ultra ($99.99 or $199.99/month)." }
+  ]
+}
