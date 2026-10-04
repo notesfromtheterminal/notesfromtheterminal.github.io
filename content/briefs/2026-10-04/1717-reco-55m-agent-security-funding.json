@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-04-reco-55m-agent-security-funding",
+  "publishedAt": "2026-10-04T17:17:00+07:00",
+  "section": "deals",
+  "company": "Reco",
+  "headline": "Reco raises $55 million more for AI agent security, brings total to $140 million",
+  "body": "Reco raised an additional $55 million on September 29, including a strategic investment from AT&T Ventures and new investors Forestay and Quadrille Capital. It brings Reco's total funding to $140 million, and Reco cited a Gartner prediction that the average Fortune 500 enterprise will have more than 150,000 agents in use by 2028, up from fewer than 15 in 2025.",
+  "note": "Gartner's forecast is a governance problem as much as an adoption number: banks and insurers running their own agent pilots will face the same sprawl of permissions and identities that pushed AT&T to back a vendor built to track what its agents can touch.",
+  "sources": [
+    { "name": "Reco", "url": "https://www.reco.ai/blog/reco-raises-55-million-in-additional-funding-with-participation-from-at-t-ventures" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "September 29, 2026" },
+    { "source": 0, "text": "Reco , the leader in Agentic Security, today announced it has raised an additional $55 million including a strategic investment from AT&T Ventures and support from new investors Forestay and Quadrille Capital." },
+    { "source": 0, "text": "It brings Reco’s total funding to $140 million and will support expansion across sales, partnerships, channels and customer support." },
+    { "source": 0, "text": "Gartner predicts the average global Fortune 500 enterprise will have more than 150,000 agents in use by 2028, up from fewer than 15 in 2025, creating significant agent sprawl, IT complexity and management challenges." }
+  ]
+}
