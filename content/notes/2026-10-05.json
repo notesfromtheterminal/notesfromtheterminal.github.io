@@ -38,10 +38,11 @@
     },
     {
       "head": "Even the free tier has a price now",
-      "text": "Google is drawing its own line between what is free and what is accountable. From this month, a free Gemini account drops to the smallest model, Flash-Lite, while Flash and Pro sit behind paid plans starting at $19.99 a month. A bank or insurer that has been piloting agents on a free account now has to decide what the sharper model is worth paying for.",
+      "text": "Google is drawing its own line between what is free and what is accountable. From this month, a free Gemini account drops to the smallest model, Flash-Lite, Flash stays available on the $4.99 a month AI Plus plan, and Pro now requires AI Pro at $19.99 a month or AI Ultra. A bank or insurer that has been piloting agents on a free account now has to decide what the sharper model is worth paying for.",
       "support": [
         "Starting in October 2026, Google will restrict access to its Gemini models for personal account users.",
         "Without a subscription, users will only get the smallest model, \"Flash-Lite.\"",
+        "AI Plus subscribers ($4.99/month) lose access to Pro and can only use Flash-Lite and Flash.",
         "All three models require AI Pro ($19.99/month) or AI Ultra ($99.99 or $199.99/month)."
       ]
     },
