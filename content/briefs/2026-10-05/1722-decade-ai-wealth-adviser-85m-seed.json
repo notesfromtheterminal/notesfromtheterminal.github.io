@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-05-decade-ai-wealth-adviser-85m-seed",
+  "publishedAt": "2026-10-05T17:22:00+07:00",
+  "section": "deals",
+  "tags": ["banking"],
+  "company": "Decade",
+  "headline": "Nubank alum raises $85 million for an AI investment adviser charging a flat fee",
+  "body": "Decade, an AI investment adviser from Nubank alum and CEO Vitor Olivier, emerged from stealth with an $85 million seed round, the largest ever raised by a Latin American startup. Decade charges a flat fee of about $40 a month instead of earning commissions, and connects to a customer's full financial life through Brazil's open banking APIs to flag high-fee products and offer on-demand access to a human advisor for bigger decisions.",
+  "note": "Early usage data shows customers act on its recommendations, with the chance of holding a flagged asset falling from about 20% to 2%, an early test of whether flat-fee AI advice can out-compete Brazil's commission-based advisory business, where an advisor's income still depends on what they sell.",
+  "sources": [{ "name": "PYMNTS", "url": "https://www.pymnts.com/news/investment-tracker/2026/nubank-alum-launches-decade-to-give-money-an-ai-copilot/" }],
+  "evidence": [
+    { "source": 0, "text": "A Nubank alum raised $85 million, the largest seed round in Latin American history, to build Decade, an AI investment adviser that CEO Vitor Olivier says will deliver “self-driving money.”" },
+    { "source": 0, "text": "His new company, Decade , recently emerged from stealth with an $85 million seed round, the largest ever raised by a Latin American startup." },
+    { "source": 0, "text": "Decade charges a flat fee of about $40 a month instead of earning commissions." },
+    { "source": 0, "text": "For that fee, customers get a platform that connects to their full financial life through Brazil’s open banking APIs." },
+    { "source": 0, "text": "It consolidates spending and investments, flags high-fee products or tax inefficiencies and offers on-demand access to a human advisor for bigger decisions." },
+    { "source": 0, "text": "Early usage data shows customers act on its recommendations, with the chance of holding a flagged asset falling from about 20% to 2%." },
+    { "source": 0, "text": "Brazil’s investment advisory business still runs largely on commissions, so an advisor’s income depends on what they sell rather than what fits the client." },
+    { "source": 0, "text": "Vitor Olivier spent years building the infrastructure behind Nubank , the Brazilian digital bank that gave roughly 100 million people a cheaper, simpler way to handle everyday transactions." }
+  ]
+}
