@@ -1,0 +1,23 @@
+{
+  "id": "2026-10-05-korea-lee-orders-bank-hacking-probe",
+  "publishedAt": "2026-10-05T07:16:00+07:00",
+  "section": "banking",
+  "tags": ["fraud", "rules"],
+  "star": true,
+  "headline": "Lee Jae Myung orders probe as bank cyberattacks spread to nonbank institutions",
+  "body": "President Lee Jae Myung ordered a thorough investigation into data breaches that spread from Shinhan Bank to KB Kookmin Bank, Hana Bank and BNK Busan Bank, then to nonbank institutions Yegaram Savings Bank, with about 40,000 customers affected, and Hyundai Capital, where data on 146 housing loan agents was exposed. Financial regulators convened an emergency meeting with chief executives from banks, insurers, credit card companies, savings banks and fintechs to discuss countermeasures.",
+  "note": "FSC chairman Lee Eog-weon said the industry must stay on \"the highest alert\" as breaches hit savings banks and other finance companies alongside major banks. Regulators urged companies to join government-led AI security testing and speed up adopting AI-based security models.",
+  "sources": [{ "name": "The Korea Times", "url": "https://www.koreatimes.co.kr/business/banking-finance/20261004/lee-orders-thorough-probe-into-ai-powered-cyberattacks-in-banks" }],
+  "evidence": [
+    { "source": 0, "text": "Lee orders thorough probe into data breaches at local banks" },
+    { "source": 0, "text": "President Lee Jae Myung on Sunday ordered a thorough investigation into a string of recent data breaches at financial institutions, as artificial intelligence (AI)-powered cyberattacks increasingly target them." },
+    { "source": 0, "text": "Shinhan Bank on Thursday reported a breach affecting about 25,000 customers, followed by similar incidents reported at KB Kookmin Bank, Hana Bank and BNK Busan Bank on Friday." },
+    { "source": 0, "text": "The breaches have since spread beyond major banks to nonbank financial institutions." },
+    { "source": 0, "text": "Yegaram Savings Bank has also reported a leak of personal information involving about 40,000 customers, while Hyundai Capital said some personal data of 146 housing loan agents had been exposed." },
+    { "source": 0, "text": "Later in the day, financial regulators convened an emergency meeting with chief executives from across the financial sector to discuss countermeasures." },
+    { "source": 0, "text": "Financial Services Commission (FSC) Chairman Lee Eog-weon and Financial Supervisory Service Gov. Lee Chan-jin chaired the meeting, which brought together representatives from banks, securities firms, insurers, credit card companies, savings banks and fintech companies." },
+    { "source": 0, "text": "\"We are seeing multiple data breaches across the financial sector in a short period of time, involving not only major commercial banks but also savings banks and other finance companies,\" the FSC chairman said. \"The entire industry must take the situation seriously and remain on the highest alert.\"" },
+    { "source": 0, "text": "At Sunday's meeting, regulators urged companies to participate in government-led initiatives, including AI security testing, and accelerate the adoption of AI-based security model." },
+    { "source": 0, "text": "As cyberattacks become increasingly sophisticated with the rapid development of AI, financial companies are turning to AI technologies to strengthen their defenses." }
+  ]
+}
