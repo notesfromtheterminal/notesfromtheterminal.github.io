@@ -1,8 +1,8 @@
 {
   "date": "2026-10-06",
   "publishedAt": "2026-10-06T07:00:00+07:00",
-  "title": "The AI risk regulators warned about just hit Korea's banks",
-  "dek": "In one week, global and regional regulators started writing AI into their risk rulebooks, and South Korea's banks showed exactly what that risk looks like once it stops being theoretical.",
+  "title": "A wave of bank breaches hits Korea as regulators start flagging AI risk",
+  "dek": "In the past week, global and regional regulators began flagging AI as a risk to finance, and South Korea's banks were hit by a string of breaches in which authorities say AI tools may have been used.",
   "lead": "2026-10-05-korea-lee-orders-bank-hacking-probe",
   "stories": [
     "2026-10-05-basel-committee-ai-operational-risk",
@@ -25,8 +25,8 @@
       ]
     },
     {
-      "head": "Basel folds AI into risk rules",
-      "text": "The Basel Committee on Banking Supervision said after it met in Indonesia on 28-29 September that AI has the potential to amplify operational vulnerabilities, including from cyber attacks and correlated dependencies in the financial system, and agreed to review its operational risk loss categories with a focus on cyber risk and AI. That is the same category a breach like Korea's would fall into, so banks should expect it to show up in formal risk reporting as well as internal policy.",
+      "head": "Basel reviews its AI risk categories",
+      "text": "The Basel Committee on Banking Supervision said after it met in Indonesia on 28-29 September that AI has the potential to amplify operational vulnerabilities, including from cyber attacks and correlated dependencies in the financial system. It agreed to review the adequacy of its operational risk loss categories, with a focus on cyber risk and AI developments.",
       "support": [
         "The Basel Committee met in Indonesia on 28–29 September 2026, to discuss a range of analytical, supervisory and regulatory initiatives.",
         "While frontier AI offers the potential for substantial opportunities to enhance efficiency and innovation across financial services, it also has the potential to amplify operational vulnerabilities, including from cyber attacks and correlated dependencies in the financial system.",
@@ -45,7 +45,7 @@
     },
     {
       "head": "Tokyo ties AI to rate risk",
-      "text": "Bank of Japan deputy governor Shinichi Uchida said the AI boom, \"a big positive demand shock,\" may have eased financial conditions by boosting demand and asset prices, but warned there is a risk of correction if profits do not follow. He said bond issuance by AI-related firms is pushing up long-term interest rates, and the BOJ has flagged AI-related demand as a factor that could push inflation above its 2% target.",
+      "text": "Bank of Japan deputy governor Shinichi Uchida said the AI boom, \"a big positive demand shock,\" may have eased financial conditions by boosting demand and asset prices, but warned there is a risk of correction if profits do not follow. He said bond issuance by AI-related firms is pushing up long-term interest rates, and the BOJ has flagged AI-related demand as a factor that could push underlying inflation above its 2% target.",
       "support": [
         "TOKYO – Bank of Japan (BOJ) deputy governor Shinichi Uchida said the global AI boom may have eased financial conditions by stoking demand and boosting asset prices, but warned of the risk of a market pullback if expected profits fail to materialise.",
         "Referring to global AI adoption in an Oct 5 speech on the central bank’s website, Uchida described it as “a big positive demand shock, which has put upward pressure on the economy and prices”.",
@@ -55,8 +55,8 @@
       ]
     },
     {
-      "head": "Malaysia writes risk into law",
-      "text": "Malaysia's Digital Minister Gobind Singh Deo told the Dewan Rakyat that high-risk AI systems will face stricter safety controls, testing and human oversight under a new AI Bill expected to be tabled early next year. The Bill takes a risk-based approach, assessing systems by their potential harm, and he said safety controls and human oversight \"must be strengthened before their use is expanded.\"",
+      "head": "Malaysia drafts a risk-based AI law",
+      "text": "Malaysia's Digital Minister Gobind Singh Deo told the Dewan Rakyat that high-risk AI systems will face stricter safety controls, testing and human oversight under a new AI Bill expected to be tabled early next year. The Bill, still being drafted, will adopt a risk-based approach, with controls and obligations assessed by an AI system's potential harm. For increasingly powerful and autonomous AI systems, he said safety controls, testing and human oversight \"must be strengthened before their use is expanded.\"",
       "support": [
         "KUALA LUMPUR: High-risk artificial intelligence (AI) systems are set to face stricter safety controls, testing and human oversight under a new Bill expected to be tabled early next year, says Gobind Singh Deo.",
         "The Digital Minister said the government was still currently in the process of drafting the Bill that he said will adopt a risk-based approach.",
@@ -68,7 +68,7 @@
     },
     {
       "head": "What this means for risk teams",
-      "text": "Four regulators moved in the same direction this week: treat AI exposure as a formal risk category, not a side project, and do it before a crisis forces the question. Korea's breach shows what happens when that work lags the technology, so risk and compliance teams should check whether AI incidents already fall under their operational-risk, credit-risk or compliance categories, or whether they would simply slip through the gap."
+      "text": "Treat AI exposure as a formal risk category before a breach forces the question. Risk and compliance teams should check whether AI incidents already fall under their operational-risk, credit-risk or compliance categories, or whether they would simply slip through the gap."
     }
   ]
 }
