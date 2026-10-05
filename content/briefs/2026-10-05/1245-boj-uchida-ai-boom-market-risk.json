@@ -4,8 +4,10 @@
   "section": "rules",
   "company": "Bank of Japan",
   "headline": "BOJ deputy governor warns of market correction risk from AI boom",
-  "body": "Bank of Japan deputy governor Shinichi Uchida said on Oct 5 that the global AI boom has been \"a big positive demand shock\" that eased financial conditions by stoking demand and boosting asset prices. He said \"there is a risk of correction if profits do not follow,\" and said huge bond issuance by AI-related firms is already pushing up long-term interest rates. The BOJ has identified AI-related demand as among factors that could push inflation above its 2% target, necessitating further tightening.",
+  "body": "Bank of Japan deputy governor Shinichi Uchida said on Oct 5 the AI boom, \"a big positive demand shock,\" may have eased financial conditions by boosting demand and asset prices. He said \"there is a risk of correction if profits do not follow,\" and that bond issuance by AI firms is pushing up long-term rates. The BOJ has identified robust AI-related demand as a factor that could push underlying inflation above its 2% target.",
   "note": "A central bank naming AI-linked bond issuance as a force on long-term yields means lenders and investors exposed to the AI buildout should expect that link to show up in the next rate decision as well as the next earnings call.",
+  "updatedAt": "2026-10-05T22:13:00+07:00",
+  "correction": "An earlier version stated as fact that the AI boom eased financial conditions and dropped \"underlying\" from the BOJ's inflation measure; Uchida said it may have done so, and the BOJ's concern is underlying inflation.",
   "sources": [{ "name": "The Straits Times", "url": "https://www.straitstimes.com/business/bank-of-japan-says-ai-boom-may-have-eased-financial-conditions-warns-of-market-risks" }],
   "evidence": [
     { "source": 0, "text": "TOKYO – Bank of Japan (BOJ) deputy governor Shinichi Uchida said the global AI boom may have eased financial conditions by stoking demand and boosting asset prices, but warned of the risk of a market pullback if expected profits fail to materialise." },
