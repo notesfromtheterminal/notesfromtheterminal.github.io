@@ -5,7 +5,7 @@
   "tags": ["rules"],
   "company": "OpenAI",
   "headline": "OpenAI safety report writer resigns, says its culture is broken",
-  "body": "Robinson led the writing of safety reports for OpenAI's major product launches. After three-and-a-half years at the company, he resigned, saying OpenAI's culture is broken. He argued frontier AI companies need to start operating \"like nuclear-power plants or busy airports\" because he never encountered a colleague with experience making nuclear reactors run without melting down or helping the financial system grow without collapsing.",
+  "body": "Robinson led the writing of safety reports for OpenAI's major product launches. After three-and-a-half years at the company, he resigned, saying OpenAI's culture is broken. He argued frontier AI companies need to start operating \"like nuclear-power plants or busy airports.\" He said he never encountered a colleague at OpenAI with experience helping the financial system grow without collapsing.",
   "note": "Robinson's comparison points at finance as one of the fields whose safety discipline AI labs still lack, worth remembering as banks let agents take on more autonomy over money and customer data on the strength of a lab's own safety claims.",
   "sources": [{ "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/" }],
   "evidence": [
@@ -16,6 +16,6 @@
     { "source": 0, "text": "Given the increased risk, Robinson argued that frontier AI companies need to start operating “like nuclear-power plants or busy airports, with layers of redundancy and careful, time-consuming planning, so that the occasional and inevitable human error does not open a door to disaster.”" },
     { "source": 0, "text": "But Robinson said that in his time at OpenAI, he “never encountered a colleague who had experience making airplanes fly safely or nuclear reactors run without melting down, or helping the financial system grow without collapsing.”" }
   ],
-  "correction": "An earlier version attached the three-and-a-half years at OpenAI to Robinson's safety-report writing role. The source states the tenure separately, as the basis for his claim to be among the company's longest-tenured employees.",
-  "updatedAt": "2026-10-04T22:20:00+07:00"
+  "correction": "An earlier version said Robinson argued for nuclear-plant-style operating discipline because he never encountered a colleague with relevant safety experience. The source states those as two separate points, not cause and effect.",
+  "updatedAt": "2026-10-05T12:20:00+07:00"
 }
