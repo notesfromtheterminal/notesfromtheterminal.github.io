@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-05-malaysia-ai-governance-bill-risk-based",
+  "publishedAt": "2026-10-05T22:25:00+07:00",
+  "section": "sea",
+  "tags": ["rules"],
+  "headline": "Malaysia plans stricter controls for high-risk AI systems under new Bill",
+  "body": "Malaysia's Digital Minister Gobind Singh Deo told the Dewan Rakyat on Oct 5 that high-risk AI systems will face stricter safety controls, testing and human oversight under a new AI Bill expected to be tabled early next year. The Bill will take a risk-based approach, assessing controls by an AI system's potential harm rather than its industry, and will complement existing laws. For increasingly autonomous systems, he said safety controls and human oversight \"must be strengthened before their use is expanded.\"",
+  "note": "A risk-based AI bill assessing systems by their potential harm, independent of industry, would pull banks and fintechs using high-risk AI into the same obligations as other sectors, so Malaysian lenders piloting autonomous agents should watch the bill's text once it reaches parliament.",
+  "sources": [{ "name": "The Star", "url": "https://www.thestar.com.my/news/nation/2026/10/05/gobind-high-risk-ai-systems-to-face-stricter-safeguards-under-new-bill" }],
+  "evidence": [
+    { "source": 0, "text": "KUALA LUMPUR: High-risk artificial intelligence (AI) systems are set to face stricter safety controls, testing and human oversight under a new Bill expected to be tabled early next year, says Gobind Singh Deo." },
+    { "source": 0, "text": "The Digital Minister said the government was still currently in the process of drafting the Bill that he said will adopt a risk-based approach." },
+    { "source": 0, "text": "“The level of controls and obligations will be assessed according to the potential harm of the AI system itself, rather than classifying risks based solely on the industry." },
+    { "source": 0, "text": "He added that the Bill will be designed as a cross-sectoral framework that complements existing laws." },
+    { "source": 0, "text": "“For increasingly powerful and autonomous AI systems, safety controls, testing, monitoring, human oversight, and response mechanisms must be strengthened before their use is expanded,” he said." },
+    { "source": 0, "text": "“This is because the use of AI in this context requires stricter regulation due its direct impact on safety, fundamental rights and the well-being of individuals,” he said during Question Time at the Dewan Rakyat on Monday (Oct 5)." },
+    { "source": 0, "text": "The latter also asked whether the government plans to enact a Malaysian AI Act to regulate high-risk AI systems." }
+  ]
+}

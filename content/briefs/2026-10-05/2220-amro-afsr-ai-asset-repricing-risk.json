@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-05-amro-afsr-ai-asset-repricing-risk",
+  "publishedAt": "2026-10-05T22:20:00+07:00",
+  "section": "sea",
+  "tags": ["rules"],
+  "company": "AMRO",
+  "headline": "AMRO warns AI asset repricing could trigger tighter credit in ASEAN+3",
+  "body": "AMRO, the regional surveillance body, said in its ASEAN+3 Financial Stability Report released on Oct 5 that a sharp repricing of AI-related assets could trigger broader market corrections, forced deleveraging and tighter credit conditions across ASEAN+3. Stronger AI-related exports and investment support the region's 2027 growth forecast of 4.1 percent. AMRO Chief Economist Dong He said the AI investment cycle is supporting regional activities, though \"domestic demand remains uneven.\"",
+  "note": "A regional surveillance body naming AI asset repricing as a channel for forced deleveraging and tighter credit means ASEAN+3 lenders exposed to AI-linked borrowers should treat a global AI correction as a credit event as much as a market one.",
+  "sources": [{ "name": "ASEAN+3 Macroeconomic Research Office (AMRO)", "url": "https://www.amro-asia.org/asean3-navigating-shocks-through-stronger-foundations-and-deeper-financial-integration" }],
+  "evidence": [
+    { "source": 0, "text": "AMRO is an international organization established to support macroeconomic resilience and financial stability of the ASEAN+3 region, comprising members of the Association of Southeast Asia Nations (ASEAN) and China; Hong Kong, China; Japan; and Korea." },
+    { "source": 0, "text": "AMRO’s mandate is to conduct macroeconomic surveillance, support regional financial arrangements, and provide technical assistance to the members." },
+    { "source": 0, "text": "SINGAPORE, October 5, 2026 – AMRO today released its ASEAN+3 Financial Stability Report (AFSR) 2026 and the ASEAN+3 Regional Economic Outlook (AREO) October Update , highlighting the region’s solid performance despite the Middle East energy shock." },
+    { "source": 0, "text": "A sharp repricing of AI-related assets could trigger broader market corrections, forced deleveraging and tighter credit conditions." },
+    { "source": 0, "text": "Growth is projected at 4.1 percent in both 2026 and 2027, and inflation at 1.6 and 1.7 percent, respectively." },
+    { "source": 0, "text": "Both 2027 forecasts are 0.1 percentage point higher: stronger AI-related exports and investment support growth, while higher energy costs and El Niño-related food-price pressures raise inflation." },
+    { "source": 0, "text": "“The AI investment cycle is supporting a widening range of regional activities, although domestic demand remains uneven,” said AMRO Chief Economist Dong He." }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-05-basel-committee-ai-operational-risk",
+  "publishedAt": "2026-10-05T22:19:00+07:00",
+  "section": "rules",
+  "tags": ["banking"],
+  "company": "Basel Committee on Banking Supervision",
+  "headline": "Basel Committee says AI could amplify bank operational risk",
+  "body": "The Basel Committee on Banking Supervision, a global bank regulator, said after it met in Indonesia on 28-29 September that AI has the potential to amplify operational vulnerabilities, including from cyber attacks and correlated dependencies in the financial system. The committee agreed to review the adequacy of its operational risk loss categories, with a focus on cyber risk and AI developments. It is also reviewing its prudential standard for banks' cryptoasset exposures, with an update due by year end.",
+  "note": "A global standard setter folding AI into its operational risk loss categories means banks should expect AI exposure to show up in capital and reporting requirements, alongside existing risk policies.",
+  "sources": [{ "name": "Bank for International Settlements", "url": "https://www.bis.org/media-releases/20261001-basel-committee-meets-advance-supervisory-and-regulatory-initiatives-and-discuss-risks-and" }],
+  "evidence": [
+    { "source": 0, "text": "The Basel Committee met in Indonesia on 28–29 September 2026, to discuss a range of analytical, supervisory and regulatory initiatives." },
+    { "source": 0, "text": "While frontier AI offers the potential for substantial opportunities to enhance efficiency and innovation across financial services, it also has the potential to amplify operational vulnerabilities, including from cyber attacks and correlated dependencies in the financial system." },
+    { "source": 0, "text": "The Committee also agreed to review the sufficiency and adequacy of existing “event type” loss categories set out in the operational risk framework , with a focus on cyber risk and AI developments." },
+    { "source": 0, "text": "The Committee is reviewing targeted elements of its prudential standard for banks’ exposures to cryptoassets. The Committee advanced its review and expects to provide an update by the end of the year." },
+    { "source": 0, "text": "The Basel Committee is the primary global standard setter for the prudential regulation of banks and provides a forum for cooperation on banking supervisory matters." }
+  ]
+}
