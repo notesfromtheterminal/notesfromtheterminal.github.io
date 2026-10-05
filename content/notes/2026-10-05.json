@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-05",
+  "publishedAt": "2026-10-05T07:00:00+07:00",
+  "title": "Someone else is building AI's safety net",
+  "dek": "A safety departure at OpenAI, a funding round for agent security, a regulator's own anti-scam app and a model maker's new price wall all answer the same question: who is managing AI risk when the labs will not.",
+  "lead": "2026-10-04-openai-safety-employee-resigns-broken-culture",
+  "stories": [
+    "2026-10-04-reco-55m-agent-security-funding",
+    "2026-10-04-ojk-qris-anti-scam-app",
+    "2026-10-04-google-gemini-free-tier-restricted"
+  ],
+  "body": [
+    {
+      "head": "A warning on the way out",
+      "text": "David Robinson, who led the writing of OpenAI's safety reports for its major launches, resigned saying the company's culture is broken. He argued frontier AI companies need to operate like nuclear plants or busy airports, with redundancy and careful planning. But he said that in his time there he never met a colleague with experience helping the financial system grow without collapsing.",
+      "support": [
+        "Robinson argued that frontier AI companies need to start operating “like nuclear-power plants or busy airports, with layers of redundancy and careful, time-consuming planning, so that the occasional and inevitable human error does not open a door to disaster.”",
+        "But Robinson said that in his time at OpenAI, he “never encountered a colleague who had experience making airplanes fly safely or nuclear reactors run without melting down, or helping the financial system grow without collapsing.”",
+        "Now he’s quitting, because in his view, the company’s “culture is broken.”"
+      ]
+    },
+    {
+      "head": "The sprawl is already priced in",
+      "text": "That discipline has to come from somewhere else, and for now a security vendor's funding round is doing the work. Reco raised $55 million more, with AT&T Ventures among the backers, to help enterprises track what their AI agents are doing, citing Gartner's forecast that the average Fortune 500 company will run more than 150,000 agents by 2028, up from fewer than 15 in 2025.",
+      "support": [
+        "Reco , the leader in Agentic Security, today announced it has raised an additional $55 million including a strategic investment from AT&T Ventures and support from new investors Forestay and Quadrille Capital.",
+        "Gartner predicts the average global Fortune 500 enterprise will have more than 150,000 agents in use by 2028, up from fewer than 15 in 2025, creating significant agent sprawl, IT complexity and management challenges."
+      ]
+    },
+    {
+      "head": "Jakarta plans its own check",
+      "text": "Indonesia's OJK, meanwhile, is preparing the concept for its own fix: an anti-scam app modeled on QRIS so people can check whether a firm or a rekening is legal before they transact, backed by a \"check before payment\" and \"check before transfer\" campaign. That puts the check in the hands of whoever is about to send the money, before a scam reaches them.",
+      "support": [
+        "Otoritas Jasa Keuangan (OJK) tengah menyiapkan konsep aplikasi anti-scam yang nantinya dapat digunakan masyarakat untuk mengecek legalitas perusahaan jasa keuangan maupun rekening sebelum melakukan transaksi.",
+        "Kepala Eksekutif Pengawas Perilaku Pelaku Usaha Jasa Keuangan, Edukasi, dan Pelindungan Konsumen (PEPK) OJK, Dicky Kartikoyono, mengatakan aplikasi tersebut akan menggunakan pendekatan yang serupa dengan Quick Response Code Indonesian Standard (QRIS), yakni menjadi kanal yang terhubung dengan ekosistem keuangan digital.",
+        "Di samping itu OJK juga akan mendorong perubahan perilaku masyarakat melalui kampanye “check before payment” dan “check before transfer”."
+      ]
+    },
+    {
+      "head": "Even the free tier has a price now",
+      "text": "Google is drawing its own line between what is free and what is accountable. From this month, a free Gemini account drops to the smallest model, Flash-Lite, Flash stays available on the $4.99 a month AI Plus plan, and Pro now requires AI Pro at $19.99 a month or AI Ultra. A bank or insurer that has been piloting agents on a free account now has to decide what the sharper model is worth paying for.",
+      "support": [
+        "Starting in October 2026, Google will restrict access to its Gemini models for personal account users.",
+        "Without a subscription, users will only get the smallest model, \"Flash-Lite.\"",
+        "AI Plus subscribers ($4.99/month) lose access to Pro and can only use Flash-Lite and Flash.",
+        "All three models require AI Pro ($19.99/month) or AI Ultra ($99.99 or $199.99/month)."
+      ]
+    },
+    {
+      "head": "What to watch",
+      "text": "None of these four moves came from the same place, and that is the point: the accountability for agents is being built by a security vendor, a regulator and a pricing team because the labs have not built it themselves. For a bank or insurer running its own pilots, the useful question is not what the model can do this week, but who around it, inside the company or outside, is actually watching what it does."
+    }
+  ]
+}
