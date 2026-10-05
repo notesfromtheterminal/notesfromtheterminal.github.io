@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-06",
+  "publishedAt": "2026-10-06T07:00:00+07:00",
+  "title": "The AI risk regulators warned about just hit Korea's banks",
+  "dek": "In one week, global and regional regulators started writing AI into their risk rulebooks, and South Korea's banks showed exactly what that risk looks like once it stops being theoretical.",
+  "lead": "2026-10-05-korea-lee-orders-bank-hacking-probe",
+  "stories": [
+    "2026-10-05-basel-committee-ai-operational-risk",
+    "2026-10-05-amro-afsr-ai-asset-repricing-risk",
+    "2026-10-05-boj-uchida-ai-boom-market-risk",
+    "2026-10-05-malaysia-ai-governance-bill-risk-based"
+  ],
+  "body": [
+    {
+      "head": "Korea's breach spreads to nonbanks",
+      "text": "President Lee Jae Myung ordered a thorough investigation after breaches spread from Shinhan Bank to KB Kookmin Bank, Hana Bank and BNK Busan Bank, then to nonbank institutions: Yegaram Savings Bank, where about 40,000 customers were affected, and Hyundai Capital, where data on 146 housing loan agents was exposed. Regulators convened an emergency meeting with chief executives across banks, insurers, card companies, savings banks and fintechs, and the FSC chairman said the industry must remain on \"the highest alert.\"",
+      "support": [
+        "President Lee Jae Myung on Sunday ordered a thorough investigation into a string of recent data breaches at financial institutions, as artificial intelligence (AI)-powered cyberattacks increasingly target them.",
+        "Shinhan Bank on Thursday reported a breach affecting about 25,000 customers, followed by similar incidents reported at KB Kookmin Bank, Hana Bank and BNK Busan Bank on Friday.",
+        "The breaches have since spread beyond major banks to nonbank financial institutions.",
+        "Yegaram Savings Bank has also reported a leak of personal information involving about 40,000 customers, while Hyundai Capital said some personal data of 146 housing loan agents had been exposed.",
+        "Later in the day, financial regulators convened an emergency meeting with chief executives from across the financial sector to discuss countermeasures.",
+        "Financial Services Commission (FSC) Chairman Lee Eog-weon and Financial Supervisory Service Gov. Lee Chan-jin chaired the meeting, which brought together representatives from banks, securities firms, insurers, credit card companies, savings banks and fintech companies.",
+        "\"We are seeing multiple data breaches across the financial sector in a short period of time, involving not only major commercial banks but also savings banks and other finance companies,\" the FSC chairman said. \"The entire industry must take the situation seriously and remain on the highest alert.\""
+      ]
+    },
+    {
+      "head": "Basel folds AI into risk rules",
+      "text": "The Basel Committee on Banking Supervision said after it met in Indonesia on 28-29 September that AI has the potential to amplify operational vulnerabilities, including from cyber attacks and correlated dependencies in the financial system, and agreed to review its operational risk loss categories with a focus on cyber risk and AI. That is the same category a breach like Korea's would fall into, so banks should expect it to show up in formal risk reporting as well as internal policy.",
+      "support": [
+        "The Basel Committee met in Indonesia on 28–29 September 2026, to discuss a range of analytical, supervisory and regulatory initiatives.",
+        "While frontier AI offers the potential for substantial opportunities to enhance efficiency and innovation across financial services, it also has the potential to amplify operational vulnerabilities, including from cyber attacks and correlated dependencies in the financial system.",
+        "The Committee also agreed to review the sufficiency and adequacy of existing “event type” loss categories set out in the operational risk framework , with a focus on cyber risk and AI developments."
+      ]
+    },
+    {
+      "head": "ASEAN+3 feels the exposure",
+      "text": "AMRO, the ASEAN+3 regional surveillance body, said in its Financial Stability Report that a sharp repricing of AI-related assets could trigger broader market corrections, forced deleveraging and tighter credit conditions across the region. It still raised the region's 2027 growth forecast to 4.1 percent, pointing to stronger AI-related exports and investment.",
+      "support": [
+        "SINGAPORE, October 5, 2026 – AMRO today released its ASEAN+3 Financial Stability Report (AFSR) 2026 and the ASEAN+3 Regional Economic Outlook (AREO) October Update , highlighting the region’s solid performance despite the Middle East energy shock.",
+        "A sharp repricing of AI-related assets could trigger broader market corrections, forced deleveraging and tighter credit conditions.",
+        "Growth is projected at 4.1 percent in both 2026 and 2027, and inflation at 1.6 and 1.7 percent, respectively.",
+        "Both 2027 forecasts are 0.1 percentage point higher: stronger AI-related exports and investment support growth, while higher energy costs and El Niño-related food-price pressures raise inflation."
+      ]
+    },
+    {
+      "head": "Tokyo ties AI to rate risk",
+      "text": "Bank of Japan deputy governor Shinichi Uchida said the AI boom, \"a big positive demand shock,\" may have eased financial conditions by boosting demand and asset prices, but warned there is a risk of correction if profits do not follow. He said bond issuance by AI-related firms is pushing up long-term interest rates, and the BOJ has flagged AI-related demand as a factor that could push inflation above its 2% target.",
+      "support": [
+        "TOKYO – Bank of Japan (BOJ) deputy governor Shinichi Uchida said the global AI boom may have eased financial conditions by stoking demand and boosting asset prices, but warned of the risk of a market pullback if expected profits fail to materialise.",
+        "Referring to global AI adoption in an Oct 5 speech on the central bank’s website, Uchida described it as “a big positive demand shock, which has put upward pressure on the economy and prices”.",
+        "“Tentatively, it appears the demand side has come first and made financial conditions more accommodative on balance,” Uchida said. “But there is a risk of correction if profits do not follow.”",
+        "While artificial intelligence has boosted stock prices and made financial conditions easier, huge bond issuance by AI-related firms has put upward pressure on long-term interest rates, Uchida said.",
+        "The BOJ has identified robust AI-related demand as among factors that could push underlying inflation above its 2% target, necessitating further monetary tightening."
+      ]
+    },
+    {
+      "head": "Malaysia writes risk into law",
+      "text": "Malaysia's Digital Minister Gobind Singh Deo told the Dewan Rakyat that high-risk AI systems will face stricter safety controls, testing and human oversight under a new AI Bill expected to be tabled early next year. The Bill takes a risk-based approach, assessing systems by their potential harm, and he said safety controls and human oversight \"must be strengthened before their use is expanded.\"",
+      "support": [
+        "KUALA LUMPUR: High-risk artificial intelligence (AI) systems are set to face stricter safety controls, testing and human oversight under a new Bill expected to be tabled early next year, says Gobind Singh Deo.",
+        "The Digital Minister said the government was still currently in the process of drafting the Bill that he said will adopt a risk-based approach.",
+        "“The level of controls and obligations will be assessed according to the potential harm of the AI system itself, rather than classifying risks based solely on the industry.",
+        "“For increasingly powerful and autonomous AI systems, safety controls, testing, monitoring, human oversight, and response mechanisms must be strengthened before their use is expanded,” he said.",
+        "“This is because the use of AI in this context requires stricter regulation due its direct impact on safety, fundamental rights and the well-being of individuals,” he said during Question Time at the Dewan Rakyat on Monday (Oct 5).",
+        "The latter also asked whether the government plans to enact a Malaysian AI Act to regulate high-risk AI systems."
+      ]
+    },
+    {
+      "head": "What this means for risk teams",
+      "text": "Four regulators moved in the same direction this week: treat AI exposure as a formal risk category, not a side project, and do it before a crisis forces the question. Korea's breach shows what happens when that work lags the technology, so risk and compliance teams should check whether AI incidents already fall under their operational-risk, credit-risk or compliance categories, or whether they would simply slip through the gap."
+    }
+  ]
+}
