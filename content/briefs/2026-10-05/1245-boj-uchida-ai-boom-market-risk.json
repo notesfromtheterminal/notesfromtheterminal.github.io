@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-05-boj-uchida-ai-boom-market-risk",
+  "publishedAt": "2026-10-05T12:45:00+07:00",
+  "section": "rules",
+  "company": "Bank of Japan",
+  "headline": "BOJ deputy governor warns of market correction risk from AI boom",
+  "body": "Bank of Japan deputy governor Shinichi Uchida said on Oct 5 that the global AI boom has been \"a big positive demand shock\" that eased financial conditions by stoking demand and boosting asset prices. He said \"there is a risk of correction if profits do not follow,\" and said huge bond issuance by AI-related firms is already pushing up long-term interest rates. The BOJ has identified AI-related demand as among factors that could push inflation above its 2% target, necessitating further tightening.",
+  "note": "A central bank naming AI-linked bond issuance as a force on long-term yields means lenders and investors exposed to the AI buildout should expect that link to show up in the next rate decision as well as the next earnings call.",
+  "sources": [{ "name": "The Straits Times", "url": "https://www.straitstimes.com/business/bank-of-japan-says-ai-boom-may-have-eased-financial-conditions-warns-of-market-risks" }],
+  "evidence": [
+    { "source": 0, "text": "TOKYO – Bank of Japan (BOJ) deputy governor Shinichi Uchida said the global AI boom may have eased financial conditions by stoking demand and boosting asset prices, but warned of the risk of a market pullback if expected profits fail to materialise." },
+    { "source": 0, "text": "Referring to global AI adoption in an Oct 5 speech on the central bank’s website, Uchida described it as “a big positive demand shock, which has put upward pressure on the economy and prices”." },
+    { "source": 0, "text": "“Tentatively, it appears the demand side has come first and made financial conditions more accommodative on balance,” Uchida said. “But there is a risk of correction if profits do not follow.”" },
+    { "source": 0, "text": "While artificial intelligence has boosted stock prices and made financial conditions easier, huge bond issuance by AI-related firms has put upward pressure on long-term interest rates, Uchida said." },
+    { "source": 0, "text": "The BOJ has identified robust AI-related demand as among factors that could push underlying inflation above its 2% target, necessitating further monetary tightening." }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2026-10-05-commbank-ai-news-licence",
+  "publishedAt": "2026-10-05T12:30:00+07:00",
+  "section": "banking",
+  "company": "CommBank",
+  "headline": "CommBank becomes first major Australian bank to pay for news used in AI prompts",
+  "body": "CommBank said on October 2 it has become the first major Australian bank to sign a Copyright Agency Business Licence that gives its people permission to use eligible Australian news content in workplace generative AI tools. The licence does not allow the content to be used to train or improve an AI model. CEO Matt Comyn said it is \"a practical step that shows innovation and the fair treatment of rights holders can be mutually beneficial.\"",
+  "note": "Banks hold troves of licensed and proprietary text, so a cleared, paid path for staff to use copyrighted news in AI prompts, without a training-data claim attached, could become a template other large employers copy as they push GenAI deeper into daily work.",
+  "sources": [
+    { "name": "CommBank", "url": "https://www.commbank.com.au/articles/newsroom/2026/10/commbank-ai-copyright-fees-creators.html" },
+    { "name": "Copyright Agency", "url": "https://www.copyright.com.au/2026/10/commonwealth-bank-takes-practical-step-on-copyright-and-ai-adoption/" }
+  ],
+  "evidence": [
+    { "source": 1, "text": "2 nd October, 2026 — Commonwealth Bank of Australia (CBA) has become the first major Australian bank to sign a Copyright Agency Business Licence that includes permissions to use Australian newspaper text in workplace generative artificial intelligence (GenAI) tools." },
+    { "source": 0, "text": "Australian creators and publishers will receive licence fees paid by CommBank under a new agreement covering the use of eligible Australian news content in workplace generative AI tools." },
+    { "source": 0, "text": "CommBank has become the first major Australian bank to sign a Copyright Agency Business Licence that gives its people permission to use eligible Australian newspaper text and other covered content in prompts for workplace AI tools." },
+    { "source": 0, "text": "The fees paid under the agreement will go back to creators and publishers, including those in the local news media sector, supporting ongoing investment in the creation of Australian content." },
+    { "source": 0, "text": "The agreement does not allow licensed content to be used to train, create or improve an AI model." },
+    { "source": 0, "text": "CommBank CEO Matt Comyn said the agreement was part of taking a responsible approach to adopting AI." },
+    { "source": 0, "text": "“This is a practical step that shows innovation and the fair treatment of rights holders can be mutually beneficial, as we adapt to new technologies.”" }
+  ]
+}
