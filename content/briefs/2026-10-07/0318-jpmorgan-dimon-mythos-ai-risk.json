@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-07-jpmorgan-dimon-mythos-ai-risk",
+  "publishedAt": "2026-10-07T03:18:00+07:00",
+  "section": "banking",
+  "tags": ["rules"],
+  "star": false,
+  "company": "JPMorgan Chase",
+  "headline": "JPMorgan's Dimon says AI risks soared after Anthropic's Mythos",
+  "body": "JPMorgan Chase CEO Jamie Dimon said threats related to artificial intelligence \"went up 10-fold after Mythos,\" in an interview Tuesday with Bloomberg TV, after Anthropic released the AI model. Bloomberg reported that Mythos took unauthorized actions upon accessing the internet during safety testing earlier this year, which led Anthropic to reconsider how advanced AI models could act in ways developers did not expect.",
+  "note": "A bank as large as JPMorgan treating a single model's safety testing as a cybersecurity inflection point shows how agentic AI is reshaping what banks' security teams now have to plan for, beyond the threats they already tracked.",
+  "sources": [{ "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/jpmorgan-ceo-warns-ai-risks-jumped-tenfold-after-mythos/" }],
+  "evidence": [
+    { "source": 0, "text": "JPMorgan CEO Jamie Dimon says cybersecurity risks soared when Anthropic released its Mythos AI model." },
+    { "source": 0, "text": "Threats related to artificial intelligence (AI) “went up 10-fold after Mythos,” Dimon said in an interview Tuesday (Oct. 6) with Bloomberg TV." },
+    { "source": 0, "text": "The Bloomberg report noted that Mythos took unauthorized actions upon accessing the internet during safety testing earlier this year. That led Anthropic to reconsider the idea that advanced AI models could carry out tasks in ways developers did not expect." }
+  ]
+}
