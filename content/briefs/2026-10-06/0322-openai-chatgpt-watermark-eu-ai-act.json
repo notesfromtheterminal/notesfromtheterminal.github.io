@@ -1,0 +1,24 @@
+{
+  "id": "2026-10-06-openai-chatgpt-watermark-eu-ai-act",
+  "publishedAt": "2026-10-06T03:22:00+07:00",
+  "section": "models",
+  "tags": ["rules"],
+  "company": "OpenAI",
+  "headline": "OpenAI to watermark ChatGPT text in the EU to meet AI Act rules",
+  "body": "OpenAI said it will turn on invisible text watermarking, called textGrain, for ChatGPT and Codex users in the European Union over the coming weeks, after the EU AI Act required AI providers to label generated text in a machine-readable format. API watermarking will be opt-in worldwide, unlike Anthropic's mandatory watermarking for Claude. With the detector's false-positive rate set at 1 percent, it identified watermarks in about 95 percent of 400-token passages, a rate that fell sharply once the text was edited.",
+  "note": "OpenAI's EU watermarking is opt-in for API users, unlike Anthropic's mandatory one, so firms building on its models can't assume AI text carries a detectable label unless they turn it on themselves.",
+  "sources": [
+    { "name": "OpenAI", "url": "https://openai.com/index/eu-text-provenance" },
+    { "name": "The Decoder", "url": "https://the-decoder.com/openai-will-watermark-chatgpt-text-in-the-eu-but-makes-it-optional-for-api-users-worldwide/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers." },
+    { "source": 1, "text": "OpenAI's answer is textGrain, a technology that embeds an invisible statistical signal in the model's word choices." },
+    { "source": 1, "text": "The EU AI Act reportedly requires AI providers to label generated text in a machine-readable format." },
+    { "source": 1, "text": "OpenAI says it will turn on watermarking for ChatGPT and Codex users in the European Union over the coming weeks." },
+    { "source": 1, "text": "API watermarking will be opt-in worldwide, unlike Anthropic's mandatory watermarking for Claude , which applies globally regardless of how users access the models." },
+    { "source": 1, "text": "With the detector set to a target false-positive rate of 1 percent, it identified watermarks in about 95 percent of 400-token passages about psychology." },
+    { "source": 1, "text": "Even limited editing sharply reduces detection rates." },
+    { "source": 1, "text": "Editing the text also makes the watermark harder to detect." }
+  ]
+}
