@@ -1,0 +1,28 @@
+{
+  "id": "2026-10-06-cohere-north-2-agent-platform",
+  "publishedAt": "2026-10-06T17:48:00+07:00",
+  "section": "models",
+  "tags": ["banking"],
+  "star": false,
+  "company": "Cohere",
+  "headline": "Cohere introduces North 2, an agent platform built for regulated industries",
+  "body": "Cohere introduced North 2, an upgrade to its enterprise AI platform with a new agent orchestration system that manages complex, multi-step processes on its own, memory, shared libraries and connectors to tools such as Slack and Jira, plus planned financial data providers including PitchBook, FactSet and S&P Global. The platform is model agnostic, deploys on-premises, in the cloud or air-gapped, with guardrails at the individual agent level, and LG CNS and Bell Cyber already run it in production.",
+  "note": "The planned connectors to FactSet, S&P Global and PitchBook point the platform at banks, asset managers and dealmakers who want agents pulling live financial data without sending it to a vendor they do not control, and the air-gapped option is Cohere's pitch to security-conscious, regulated firms.",
+  "sources": [{ "name": "Cohere", "url": "https://cohere.com/blog/introducing-north-2" }],
+  "evidence": [
+    { "source": 0, "text": "Introducing North 2: AI without compromises" },
+    { "source": 0, "text": "North 2 is Cohere’s biggest upgrade yet — unifying enterprise‑grade security, intelligence, cost governance, and full‑stack control into a single agentic AI platform that runs wherever your data lives." },
+    { "source": 0, "text": "At the core of North 2 is an advanced agent orchestration system that manages complex, multi-step processes independently." },
+    { "source": 0, "text": "Memory : Agents that keep context across sessions, instead of starting cold every time." },
+    { "source": 0, "text": "Libraries : Shared knowledge and assets that the whole org can draw from." },
+    { "source": 0, "text": "Connectors : Connect North to your data, with new connectors including enterprise connectors to Slack, SharePoint, OneDrive, Microsoft Outlook, Microsoft Exchange, Jira, Linear, Notion, and GitHub, plus planned financial data providers PitchBook, Crunchbase, Daloopa, FiscalAI, S&P Global, FactSet, among others." },
+    { "source": 0, "text": "With North, get end-to-end, customizable, capable, and secure tooling that integrates with existing systems and helps protect sensitive data — that point teams on the path to true AI for empowerment." },
+    { "source": 0, "text": "Bring your organization’s existing models: North is model agnostic, use our generative model offerings or bring your favorites." },
+    { "source": 0, "text": "It deploys privately on-prem, in the cloud, or fully air-gapped, and North Admin lets teams enforce guardrails at the individual agent level, so rolling agentic AI out to an entire workforce doesn’t mean rolling out risk alongside it." },
+    { "source": 0, "text": "Deployment flexibility: Select the deployment environment that best suits your security needs (self-hosted, VPC, hybrid, or on-premises)." },
+    { "source": 0, "text": "Over the last year, Cohere has rolled out North across high-stakes industries, including finance, healthcare, telecommunications, manufacturing, energy, and the public sector, investing deeply in large-scale production deployments. This has shaped North 2 into a full-stack agentic platform built for organizations that can't afford to compromise on security, intelligence, cost, or control." },
+    { "source": 0, "text": "With North, even the most regulated industries can adopt agentic AI confidently, knowing their deployments align with their operational, compliance, and governance needs." },
+    { "source": 0, "text": "LG CNS leverages North to bring AI to customers at scale across South Korea to unlock real business value." },
+    { "source": 0, "text": "To highlight another example, Bell Cyber is partnering with North to bring government‑grade security to agentic AI." }
+  ]
+}
