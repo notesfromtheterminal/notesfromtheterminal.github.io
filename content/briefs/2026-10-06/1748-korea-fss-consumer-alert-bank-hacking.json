@@ -10,12 +10,12 @@
   "sources": [{ "name": "The Korea Times", "url": "https://www.koreatimes.co.kr/business/banking-finance/20261006/ai-hacking-fears-spread-to-brokerages-insurers-card-issuers" }],
   "evidence": [
     { "source": 0, "text": "AI hacking fears spread to brokerages, insurers, card issuers" },
-    { "source": 0, "text": "Financial authorities issued a consumer alert at the “caution” level Tuesday and began a monthlong response to prevent fraud after suspected AI-assisted attacks exposed personal information at seven financial firms." },
-    { "source": 0, "text": "The affected firms are Shinhan Bank, KB Kookmin Bank, Hana Bank, BNK Busan Bank, Yegaram Savings Bank, Welcome Savings Bank and Hyundai Capital." },
+    { "source": 0, "text": "Financial authorities issued a consumer alert at the “caution” level Tuesday and began a monthlong response effort after suspected AI-assisted cyberattacks stole personal information from seven financial firms." },
+    { "source": 0, "text": "The seven affected firms are Shinhan Bank, KB Kookmin Bank, Hana Bank, BNK Busan Bank, Yegaram Savings Bank, Welcome Savings Bank and Hyundai Capital." },
     { "source": 0, "text": "The digital risk analysis team at the FSS has identified about 30 IP addresses associated with the attacks across multiple countries and territories including the United States, Japan, Hong Kong, Singapore, Vietnam, Thailand, Malaysia, Spain, Latvia, Sweden, Germany and Korea." },
-    { "source": 0, "text": "During the special response period, financial firms must open dedicated support channels for affected customers and immediately report any confirmed or suspected cases of follow-up fraud to regulators." },
+    { "source": 0, "text": "During the special response period, financial firms must open dedicated support channels for affected customers and immediately report any confirmed or suspected cases of fraud that may follow to regulators." },
     { "source": 0, "text": "Amid growing concerns, brokerages, insurers and credit card issuers are stepping up security measures and checking for potential breaches." },
     { "source": 0, "text": "Attempted intrusions detected across several parts of the financial sector have led regulators and industry officials to suspect that the attackers were scanning a broad range of companies for weaknesses rather than pursuing a single target." },
-    { "source": 0, "text": "“Although passwords were not leaked, scammers could piece together exposed personal details to impersonate loan advisers or lure victims with promises of compensation for the data breaches,” an official at the Financial Supervisory Service (FSS) said." }
+    { "source": 0, "text": "“Although passwords were not leaked, scammers could piece together personal details from the exposed data to impersonate loan advisers or lure victims with promises of compensation for the data breaches,” an official at the Financial Supervisory Service (FSS) said." }
   ]
 }
