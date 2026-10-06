@@ -1,0 +1,23 @@
+{
+  "id": "2026-10-06-tiktok-agentic-commerce-shopping-assistant",
+  "publishedAt": "2026-10-06T07:20:00+07:00",
+  "section": "payments",
+  "company": "TikTok",
+  "headline": "TikTok launches an AI shopping assistant and one-click checkout",
+  "body": "TikTok introduced Shopping Assistant, a conversational AI agent that gives real-time guidance on product details, shipping and sizing, and Buy Direct, a one-click in-app checkout built on the Universal Commerce Protocol. The company said the features, built with Salesforce, Shopify, Shoplazza and Stripe, are its first agentic commerce experiences and are currently available to advertisers through eligibility-based testing.",
+  "note": "TikTok is pairing a shopping agent with direct payments so purchases happen inside the feed, the same agentic-commerce bet payment networks and banks are racing to support with their own rails and standards.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/commerce/social-commerce/2026/tiktok-kicks-off-agentic-commerce-push-with-ai-shopping-assistant/" },
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "TikTok has introduced an in-app checkout solution and an artificial intelligence (AI) shopping assistant, saying in a Monday (Oct. 5) press release that these are the first of several agentic commerce experiences the company is adding to its platform." },
+    { "source": 0, "text": "The conversational AI agent, Shopping Assistant, guides users through the shopping journey while understanding context, remembering their needs and helping them find the right products, per the release." },
+    { "source": 0, "text": "“Built into several TikTok touchpoints, Shopping Assistant provides real-time AI-powered shopping guidance like product details, shipping, sizing, availability and purchasing all within one conversation,” TikTok said in the release." },
+    { "source": 0, "text": "The in-app checkout solution, Buy Direct, allows users to buy from a brand without leaving TikTok, according to the release." },
+    { "source": 0, "text": "“The solution simplifies the purchase journey, allowing users to make purchases directly from the For You feed with just one click,” TikTok said in the release." },
+    { "source": 0, "text": "Buy Direct is enabled by integration with the Universal Commerce Protocol (UCP), per the post." },
+    { "source": 0, "text": "These agentic solutions are currently available to advertisers through eligibility-based testing opportunities, according to the post." },
+    { "source": 1, "text": "The company says these new features are being built in partnership with commerce platforms and payment providers including Salesforce, Shopify, Shoplazza, and Stripe, among others." }
+  ]
+}
