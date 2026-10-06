@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-06-plaid-cash-flow-credit-fraud-models",
+  "publishedAt": "2026-10-06T22:21:00+07:00",
+  "section": "banking",
+  "tags": ["payments"],
+  "star": false,
+  "company": "Plaid",
+  "headline": "Plaid adds cash flow credit models and a new fraud foundation model",
+  "body": "Plaid is adding new AI models to its network, aiming to help financial firms with decisions across credit, fraud and payments. LendScore 2 uses cash flow underwriting and predicts a borrower's ability to repay a loan with 42% greater strength than traditional credit data alone, while LendScore Arc is a transformer-based model that learns from the order and timing of a borrower's transactions. Plaid also announced a foundation model purpose-built for fraud, trained on patterns from the Plaid Network.",
+  "note": "Lenders who plug into Plaid's cash flow models get a tool for borrowers who fall outside a traditional credit score, a group agentic underwriting keeps widening as more of a borrower's transaction history becomes machine-readable.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/consumer-finance/2026/plaid-launches-credit-and-fraud-models-fueled-by-cash-flow-data/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Plaid is adding new artificial intelligence models to its network that powers digital finance, aiming to help financial firms with their decisions across credit, fraud and payments, the company said in a Tuesday (Oct. 6) press release emailed to PYMNTS." },
+    { "source": 0, "text": "Another new model, LendScore 2 (Ls2), uses cash flow underwriting and predicts a borrower’s ability to repay a loan with 42% greater strength than with traditional credit data alone, the release said." },
+    { "source": 0, "text": "A third new model introduced Tuesday, LendScore Arc, is a transformer-based credit risk model that learns from the order and timing of a borrower’s transactions." },
+    { "source": 0, "text": "This cash flow data gives lenders a fuller picture of the consumer’s ability to repay, especially in cases where the consumer falls outside the traditional credit lens, according to the release." },
+    { "source": 0, "text": "Plaid also announced Tuesday the availability of a new AI foundation model that is purpose-built for fraud and trained on patterns and data points from the Plaid Network." }
+  ]
+}

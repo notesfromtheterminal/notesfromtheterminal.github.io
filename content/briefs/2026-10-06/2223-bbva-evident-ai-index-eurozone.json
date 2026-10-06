@@ -1,0 +1,23 @@
+{
+  "id": "2026-10-06-bbva-evident-ai-index-eurozone",
+  "publishedAt": "2026-10-06T22:23:00+07:00",
+  "section": "banking",
+  "star": false,
+  "company": "BBVA",
+  "headline": "BBVA tops eurozone banks for AI as Evident's average bank score rose 26%",
+  "body": "BBVA ranked first among eurozone banks and third among all European banks in the Evident AI Index. BBVA said seventy-five percent of employees use generative AI on a recurring basis, saving around 2.4 hours a week, and that it is accelerating software development with productivity improvements of close to 28%. Evident said the banks it assessed advanced almost three times faster over the past year than in the previous three years.",
+  "note": "BBVA's own numbers, seventy-five percent of staff using generative AI weekly and a 28% productivity improvement in coding, give other banks a concrete benchmark for what the 26% rise in Evident's average AI score actually looks like inside a top performer.",
+  "sources": [
+    { "name": "BBVA", "url": "https://www.bbva.com/en/innovation/bbva-ranks-first-among-eurozone-banks-for-its-ai-strategy-according-to-evident/" },
+    { "name": "Evident", "url": "https://evidentinsights.com/events/evident-ai-index-banks-2026-results" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "BBVA is the bank with the most mature artificial intelligence strategy in Spain and the eurozone, according to the international Evident AI Index." },
+    { "source": 0, "text": "The Evident AI Index assesses the AI maturity of 50 of the largest banks across North America, Europe and Asia-Pacific, based on publicly available data." },
+    { "source": 0, "text": "Under this methodology, BBVA ranks first among eurozone banks and third among all European banks." },
+    { "source": 0, "text": "Seventy-five percent of employees use generative AI on a recurring basis , saving an average of around 2.4 hours per week on repetitive, lower-value tasks." },
+    { "source": 0, "text": "it is accelerating software development through a model in which people and agents collaborate throughout the entire lifecycle, already delivering productivity improvements of close to 28%." },
+    { "source": 0, "text": "The capabilities of the banks assessed in its ranking advanced almost three times faster over the past year than during the previous three years, as AI moves from experimentation to deployment at scale across business processes." },
+    { "source": 1, "text": "The average bank score rose 26%, nearly three times the pace of previous years." }
+  ]
+}

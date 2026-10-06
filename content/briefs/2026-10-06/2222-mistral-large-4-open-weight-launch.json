@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-06-mistral-large-4-open-weight-launch",
+  "publishedAt": "2026-10-06T22:22:00+07:00",
+  "section": "models",
+  "tags": ["banking"],
+  "star": false,
+  "company": "Mistral AI",
+  "headline": "Mistral launches trillion-parameter Large 4, open weights to follow this month",
+  "body": "Mistral AI opened a public preview of Mistral Large 4, a 1 trillion-parameter multimodal model trained on 3,800 Nvidia Grace Blackwell GPUs in the company's own European datacenters. Mistral says the model, nicknamed \"Le Chonk,\" is state of the art among open models on cybersecurity, finance and law, and it will release the weights by the end of the month. The launch is funded by Mistral's €3 billion Series D, the largest equity round raised by a European technology company.",
+  "note": "Mistral is pitching Large 4 straight at finance and cybersecurity work that closed models like Claude Opus 5.5 and GPT-6 Astra refuse, which gives banks and insurers an open-weight option they can run and audit on their own infrastructure once the weights land.",
+  "sources": [
+    { "name": "Mistral AI", "url": "https://mistral.ai/news/mistral-large-4/" },
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Today, we’re launching a public preview of Mistral Large 4." },
+    { "source": 0, "text": "ML4 is a 1 trillion-parameter natively multimodal model with 49 billion active parameters." },
+    { "source": 0, "text": "ML4 was trained from scratch on 3,800 NVIDIA Grace Blackwell GPUs in Mistral’s own datacenters in Europe." },
+    { "source": 0, "text": "On critical enterprise workloads, including cybersecurity, finance and law, we find it to be state-of-the-art among open models." },
+    { "source": 0, "text": "We will release the weights by the end of the month." },
+    { "source": 0, "text": "Several leading closed models, including Claude Opus 5.5 and GPT-6 Astra, score near zero on the same test because they refuse to perform the task." },
+    { "source": 0, "text": "ML4 is the first milestone on the roadmap funded by our €3 billion Series D — the largest equity round ever raised by a European technology company." },
+    { "source": 1, "text": "Nicknamed Le Chonk in reference to its 1 trillion parameters, ML4 is definitely not small; but is not an open-weight model yet." }
+  ],
+  "chart": { "kind": "models", "models": ["Mistral Large 4", "GPT-6 Astra", "Claude Opus 5.5"], "focus": "Mistral Large 4" }
+}

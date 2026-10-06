@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-06-dnb-ai-agents-400-tech-layoffs",
+  "publishedAt": "2026-10-06T22:20:00+07:00",
+  "section": "banking",
+  "star": true,
+  "company": "DNB",
+  "headline": "DNB's technology restructuring cuts workforce by about 400 as AI agents contribute efficiency gains",
+  "body": "DNB said it is restructuring its Technology & Services unit, with a reduction in the workforce of about 400 full-time equivalents, after it adopted agentic AI across customer data control, the Know Your Customer process, and technology development and coding. The bank said AI agents can already contribute \"substantial efficiency gains\" in those areas. The downsizing will be completed in the fourth quarter of 2026, with the cost effect fully recognised in the accounts from the second quarter of 2027.",
+  "note": "DNB is naming KYC and coding as the two functions where agentic AI already cuts headcount, a sign for banks running similar agents in those same functions of how quickly the efficiency case can turn into a staffing decision.",
+  "sources": [
+    { "name": "DNB", "url": "https://ir.dnb.no/press-and-reports/press-releases/dnb-making-organisational-changes-technology-services-2485833" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "In order to deliver better customer experiences, increase efficiency and meet customers’ future needs, DNB is carrying out organisational changes and downsizing as part of a comprehensive restructuring of Technology & Services (T&S)." },
+    { "source": 0, "text": "At the same time, the Group has adopted agentic AI in several parts of its operations." },
+    { "source": 0, "text": "Control of customer data and the work relating to the Know Your Customer (KYC) process, as well as technology development and coding, are areas where the bank is already seeing that AI agents can contribute substantial efficiency gains." },
+    { "source": 0, "text": "The changes entail a reduction in the workforce of about 400 full-time equivalents (FTEs)." },
+    { "source": 0, "text": "The restructuring costs will be recognised in the accounts in the fourth quarter of 2026, and the downsizing will be completed during the fourth quarter of 2026, with the effect relating to costs fully recognised in the accounts from the second quarter of 2027." }
+  ]
+}
