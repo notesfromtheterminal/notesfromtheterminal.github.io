@@ -1,0 +1,23 @@
+{
+  "id": "2026-10-07-indonesia-satu-data-law-ai-blockchain",
+  "publishedAt": "2026-10-07T12:30:00+07:00",
+  "section": "sea",
+  "tags": ["rules"],
+  "headline": "Indonesia's parliament passes data law covering AI and blockchain",
+  "body": "Indonesia's parliament passed the Satu Data Indonesia law on October 6, covering national data governance including the use of AI and blockchain. The law requires parliamentary approval before closed data can move outside Indonesian jurisdiction, and data administrators must report incidents within 24 hours. It also sets data security standards, security audits and data sovereignty audits, and provides for a national data body that reports to the president.",
+  "note": "For banks and fintechs that rely on AI tools or cloud infrastructure hosted abroad, the new approval requirement before closed data can leave Indonesian jurisdiction could slow or complicate data flows, and the 24-hour incident reporting rule sets a tight new compliance clock.",
+  "sources": [
+    { "name": "Fintech News Indonesia", "url": "https://fintechnews.id/110850/ai/indonesia-satu-data-law-blockchain-ai/" },
+    { "name": "Kompas.com", "url": "https://nasional.kompas.com/read/2026/10/06/11461751/dpr-ri-sahkan-uu-satu-data-indonesia-atur-ai-hingga-blockchain" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "The Indonesian Parliament (DPR) has passed the Satu Data Indonesia Law to regulate national data governance, including the use of AI and blockchain." },
+    { "source": 0, "text": "Access to and transfers of closed data outside Indonesian jurisdiction will require parliamentary approval, according to a report by Kompas ." },
+    { "source": 0, "text": "The law covers data standards, metadata, reference codes, master data and a national data catalogue, as well as interoperability between government data systems." },
+    { "source": 0, "text": "The DPR approved the law during a plenary session chaired by House Speaker Puan Maharani on 6 October, with all parliamentary factions backing the legislation." },
+    { "source": 0, "text": "Security provisions include data security standards, security audits and data sovereignty audits." },
+    { "source": 0, "text": "Data administrators must report incidents within 24 hours." },
+    { "source": 0, "text": "It also provides for an SDI administering body that will report to the President, with data management responsibilities divided across the central, regional, village and urban ward levels." },
+    { "source": 1, "text": "Dewan Perwakilan Rakyat (DPR) RI mengesahkan Rancangan Undang-Undang (RUU) tentang Satu Data Indonesia (SDI) menjadi undang-undang dalam rapat paripurna DPR yang dipimpin Ketua DPR RI Puan Maharani di Kompleks Parlemen, Senayan, Jakarta, Selasa (6/10/2026)." }
+  ]
+}

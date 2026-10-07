@@ -1,0 +1,28 @@
+{
+  "id": "2026-10-07-anthropic-claude-startups-expansion",
+  "publishedAt": "2026-10-07T12:35:00+07:00",
+  "section": "models",
+  "company": "Anthropic",
+  "headline": "Anthropic expands Claude Startups program with a free year of Claude Team",
+  "body": "Anthropic said on October 6 it is expanding the Claude Startups program, giving approved founders a free year of Claude Team, $1,000 in API credits and up to $45,000 in offers from partners including Linear, Lovable and ElevenLabs. Sarah Wolf, Anthropic's head of startup marketing, said the expansion came from founder feedback for tokens to build with, time with Anthropic's team and support while they get started.",
+  "note": "Subsidized credits and a free year of Claude Team lower the cost for AI-native fintech and finance startups to build on Claude before they settle on a platform to scale with.",
+  "sources": [
+    { "name": "Anthropic", "url": "https://claude.com/programs/startups" },
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/" },
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-expands-discounts-support-founders/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "We’re expanding the Claude Startups program to help startups grow" },
+    { "source": 0, "text": "Approved founders get $1,000 Claude API credits, a free year of Claude Team, and up to $45K in offer value from participating Anthropic partners." },
+    { "source": 1, "text": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits" },
+    { "source": 1, "text": "On Tuesday, Anthropic announced an expansion of its Claude for Startups program, offering subsidized access to its AI models and a variety of other benefits to qualifying companies." },
+    { "source": 1, "text": "The new version of the program, which launched as part of Anthropic’s SF Tech Week event , provides a free year of Claude Team, Anthropic’s paid plan for groups, with up to five premium seats, as well as $1,000 in API credits for building with Claude." },
+    { "source": 1, "text": "Companies are eligible if they were founded in the last five years or received funding in the last two years." },
+    { "source": 2, "text": "Anthropic expanded its Claude Startups program to more founders , the company said via its Claude account in a Tuesday (Oct. 6) post on social platform X." },
+    { "source": 1, "text": "Posted: 9:00 AM PDT · October 6, 2026" },
+    { "source": 2, "text": "In a reply to that post, Anthropic said that the new Claude Startup Stack includes offers from companies building with Claude, including Linear , Lovable , ElevenLabs , Granola and Hex ." },
+    { "source": 2, "text": "Members get discounts and credits worth as much as $45,000 on tools for sales, design, data engineering and other functions, per the reply." },
+    { "source": 2, "text": "Sarah Wolf , head of startup marketing at Anthropic, said in a Tuesday post on X that the benefits offered by the expanded Claude Startups program were developed in response to feedback from founders." },
+    { "source": 2, "text": "The founders’ answers included tokens to build with, time with the Anthropic team, and support and connection while they get started, Wolf said in the post." }
+  ]
+}
