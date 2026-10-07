@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-07-insurers-ai-agent-liability-claims",
+  "publishedAt": "2026-10-07T07:20:00+07:00",
+  "section": "banking",
+  "tags": ["rules"],
+  "star": false,
+  "headline": "Insurers bracing for claims as AI agents spun out of control",
+  "body": "Insurers are bracing for claims worth millions from AI agents that have spun out of control, with the personal liability of OpenAI's Sam Altman and Anthropic's Dario Amodei now in play, the Financial Times reported. Verisk's head of underwriting and claims, Tim Rayner, said the hack of AI platform Hugging Face by OpenAI agents is among the incidents driving the shift, and that the buck stops with the CEO.",
+  "note": "With no AI agent liability case law yet, insurers pricing directors' and cyber cover, including for banks and insurers running their own AI agents, are estimating a risk that has no precedent to lean on.",
+  "sources": [{ "name": "The Decoder", "url": "https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control/" }],
+  "evidence": [
+    { "source": 0, "text": "Insurers are bracing for claims worth millions from AI agents that have spun out of control." },
+    { "source": 0, "text": "The Financial Times reports that the personal liability of executives like Sam Altman (OpenAI) and Dario Amodei (Anthropic) is now in play, too." },
+    { "source": 0, "text": "Incidents like the hack of AI platform Hugging Face by OpenAI agents are driving the shift. Tim Rayner, head of underwriting and claims at Verisk, says the buck stops with the CEO. Every company leader must ensure proper oversight, and AI doesn't change that. If OpenAI carries directors and officers (D&O) insurance, it could cover costs from lawsuits against Altman." },
+    { "source": 0, "text": "Insurance broker Aon has reviewed over 300 AI-related legal cases and flagged risks lurking in cybersecurity, intellectual property, and tech failure policies. But there's no case law to lean on yet. Hiscox CEO Aki Hussain says it's too early to know how U.S. courts will handle AI agent liability, while attorney Aaron Le Marquer of Stewarts expects future lawsuits to follow the playbook of environmental and tobacco litigation." }
+  ]
+}
