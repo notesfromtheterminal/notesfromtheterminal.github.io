@@ -1,8 +1,10 @@
 {
   "date": "2026-10-07",
   "publishedAt": "2026-10-07T07:00:00+07:00",
+  "updatedAt": "2026-10-08T00:30:00+07:00",
+  "correction": "An earlier version said DNB cut exactly 400 jobs; it announced a reduction of about 400 full-time equivalents. It also overstated the link between the Korea attacks and AI agents and added claims the sources do not make. These have been removed.",
   "title": "Banks' AI gains and AI risk are now the same story",
-  "dek": "DNB cut 400 technology jobs to agentic AI this week, Evident's index showed bank AI scores accelerating, and Korea's regulators say AI-assisted attackers are now testing the same financial firms those agents touch.",
+  "dek": "DNB announced about 400 tech job cuts as it adopts agentic AI, Evident showed bank AI scores accelerating, and Korea issued an alert after suspected AI-assisted attacks hit seven financial firms.",
   "lead": "2026-10-06-dnb-ai-agents-400-tech-layoffs",
   "stories": [
     "2026-10-06-bbva-evident-ai-index-eurozone",
@@ -12,7 +14,7 @@
   "body": [
     {
       "head": "Efficiency gains get a body count",
-      "text": "DNB said it is reducing its Technology & Services workforce by about 400 jobs: Know Your Customer work and coding are the two areas where AI agents already contribute \"substantial efficiency gains.\" That is a specific, attributable number tied to two named areas, which is rarer than most AI-productivity claims banks make.",
+      "text": "DNB said it is reducing its Technology & Services workforce by about 400 full-time equivalents, and it names customer data and Know Your Customer work, along with technology development and coding, as areas where AI agents can already contribute \"substantial efficiency gains.\"",
       "support": [
         "In order to deliver better customer experiences, increase efficiency and meet customers’ future needs, DNB is carrying out organisational changes and downsizing as part of a comprehensive restructuring of Technology & Services (T&S).",
         "At the same time, the Group has adopted agentic AI in several parts of its operations.",
@@ -33,15 +35,15 @@
     },
     {
       "head": "More data goes to work",
-      "text": "Plaid's answer this week is to put more of that data to work: LendScore 2 uses cash flow underwriting to predict a borrower's ability to repay a loan with 42% greater strength than traditional credit data alone, and a new foundation model purpose-built for fraud is trained on patterns from the Plaid Network.",
+      "text": "Plaid, meanwhile, added new models this week: LendScore 2 uses cash flow underwriting to predict a borrower's ability to repay a loan with 42% greater strength than traditional credit data alone, and a new foundation model purpose-built for fraud is trained on patterns from the Plaid Network.",
       "support": [
-        "Another new model, LendScore 2 (Ls2), uses cash flow underwriting and predicts a borrower’s ability to repay a loan with 42% greater strength than with traditional credit data alone, the release said.",
+        "A new model, LendScore 2 (Ls2), uses cash flow underwriting and predicts a borrower’s ability to repay a loan with 42% greater strength than with traditional credit data alone, the release said.",
         "Plaid also announced Tuesday the availability of a new AI foundation model that is purpose-built for fraud and trained on patterns and data points from the Plaid Network."
       ]
     },
     {
       "head": "The same firms are targets",
-      "text": "Korea's financial authorities issued a consumer alert and began a monthlong response effort this week after suspected AI-assisted cyberattacks stole personal information from seven financial firms, including Shinhan Bank and Hyundai Capital. Regulators now suspect the attackers are scanning a broad range of companies for weaknesses rather than pursuing a single target, so brokerages, insurers and card issuers are checking their own exposure.",
+      "text": "Korea's financial authorities issued a consumer alert and began a monthlong response effort this week after suspected AI-assisted cyberattacks stole personal information from seven financial firms, including Shinhan Bank and Hyundai Capital. Brokerages, insurers and card issuers are stepping up security checks, and regulators and industry officials suspect the attackers were scanning a broad range of companies for weaknesses rather than pursuing a single target.",
       "support": [
         "Financial authorities issued a consumer alert at the “caution” level Tuesday and began a monthlong response effort after suspected AI-assisted cyberattacks stole personal information from seven financial firms.",
         "The seven affected firms are Shinhan Bank, KB Kookmin Bank, Hana Bank, BNK Busan Bank, Yegaram Savings Bank, Welcome Savings Bank and Hyundai Capital.",

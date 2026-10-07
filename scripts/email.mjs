@@ -35,6 +35,8 @@ for (const i of (wire?.items ?? [])
   if (wireItems.length === 3) break;
   if (!wireItems.some((w) => w.source === i.source)) wireItems.push(i);
 }
+// Wire headlines are the publishers' own; the email follows house style, so no em dashes.
+const undash = (s) => String(s ?? '').replace(/\s*\u2014\s*/g, ': ');
 
 const parts = Object.fromEntries(
   new Intl.DateTimeFormat('en-GB', { timeZone: site.timezone, weekday: 'long', day: 'numeric', month: 'long' }).formatToParts(new Date(note.publishedAt)).map((x) => [x.type, x.value]),
@@ -127,7 +129,7 @@ ${pill(`https://x.com/${site.x}`, `Follow @${esc(site.x)}`, C.ink)}</td></tr>`,
 ${wireItems
   .map(
     (w) =>
-      `<tr><td class="nft-pad" style="padding:0 44px 16px;"><p style="margin:0;font-family:${SERIF};font-size:17px;line-height:1.4;color:${C.ink};"><span style="color:${C.amber};">&#9646;</span>&nbsp; <a href="${esc(w.url)}" style="color:${C.ink};text-decoration:underline;text-decoration-color:${C.amber};">${esc(w.title)}</a></p>
+      `<tr><td class="nft-pad" style="padding:0 44px 16px;"><p style="margin:0;font-family:${SERIF};font-size:17px;line-height:1.4;color:${C.ink};"><span style="color:${C.amber};">&#9646;</span>&nbsp; <a href="${esc(w.url)}" style="color:${C.ink};text-decoration:underline;text-decoration-color:${C.amber};">${esc(undash(w.title))}</a></p>
 <p style="margin:4px 0 0 18px;font-family:${MONO};font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:${C.muted};">${esc(w.source)}</p></td></tr>`,
   )
   .join('')}
