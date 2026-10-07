@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-07-mas-ai-risk-guidelines-finance",
+  "publishedAt": "2026-10-07T17:20:00+07:00",
+  "section": "sea",
+  "tags": ["banking", "rules"],
+  "star": false,
+  "headline": "MAS finalises AI risk guidelines for Singapore's financial institutions",
+  "body": "MAS, Singapore's financial regulator, issued finalised Guidelines on AI Risk Management for financial institutions: firms must maintain inventories of their AI use and apply controls covering data governance, cybersecurity, testing and human oversight. Sections 3 and 4 take effect on 7 October 2027, and sections 5 and 6 apply from 7 October 2028. MAS also intends to consult the financial sector in 2027 on additional guidance for agentic AI.",
+  "note": "The phased deadlines give Singapore's banks and insurers a fixed compliance clock, with full controls due by October 2028, and letting firms use existing governance structures keeps the bar reachable for smaller players while MAS still decides what agentic AI needs on top.",
+  "sources": [
+    { "name": "Fintech News Singapore", "url": "https://fintechnews.sg/138684/ai/mas-ai-guidelines-risk-management-singapore/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "The Monetary Authority of Singapore (MAS) has issued its finalised Guidelines on AI Risk Management for financial institutions." },
+    { "source": 0, "text": "MAS expects financial institutions to maintain inventories of their AI use and apply controls covering areas such as data governance, cybersecurity, testing, human oversight, monitoring and change management." },
+    { "source": 0, "text": "Implementation will take place in phases. Sections 3 and 4 will take effect on 7 October 2027, while Sections 5 and 6 will apply from 7 October 2028." },
+    { "source": 0, "text": "In 2027, the regulator intends to consult the financial sector on what additional guidance for agentic AI would be useful." },
+    { "source": 0, "text": "Firms may also use existing governance structures to oversee these risks and do not need to establish dedicated AI committees." }
+  ]
+}
