@@ -1,0 +1,23 @@
+{
+  "id": "2026-10-07-first-digital-spac-agentic-commerce",
+  "publishedAt": "2026-10-07T22:25:00+07:00",
+  "section": "payments",
+  "tags": ["deals"],
+  "company": "First Digital",
+  "headline": "Stablecoin issuer First Digital plans Nasdaq listing to fund agentic commerce push",
+  "body": "First Digital, the Hong Kong-based issuer of the FDUSD stablecoin, said it plans to list on Nasdaq through a SPAC merger with CSLM Digital Asset Acquisition Corp III to fund the expansion of Finance District, its ecosystem for the agentic economy. Four Finance District products are already live, including Agent Wallet, a multi-chain wallet that AI agents operate through the Model Context Protocol. Founder and CEO Vincent Chok said a listing would give the company \"access to public capital markets.\"",
+  "note": "A stablecoin issuer going public specifically to build out wallets and payment rails for AI agents shows how fast crypto firms are racing to claim infrastructure in agentic commerce before banks and card networks settle on their own rules.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/cryptocurrency/2026/first-digital-eyes-agentic-commerce-expansion-with-spac-listing/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Hong Kong-based stablecoin issuer First Digital says it is ready for its stock market debut." },
+    { "source": 0, "text": "The Nasdaq listing is designed to help First Digital fund the expansion of Finance District, \"ecosystem for the agentic economy,\" the company said in a Wednesday (Oct. 7) news release ." },
+    { "source": 0, "text": "First Digital's listing will happen through a special purpose acquisition company (SPAC) merger with CSLM Digital Asset Acquisition Corp III." },
+    { "source": 0, "text": "Meanwhile, First Digital says it is extending \"the range of venues and applications\" in which FDUSD is used for settlement within Finance District, as well as across centralized and decentralized exchanges and DeFi platforms." },
+    { "source": 0, "text": "Four Finance District products are already live, the release added." },
+    { "source": 0, "text": "These include District Pass, the \"single identity credential used across the ecosystem,\" and Agent Wallet is a multi-chain wallet that artificial intelligence agents operate via the Model Context Protocol ." },
+    { "source": 0, "text": "Vincent Chok , First Digital's founder and CEO, said the company sees Finance District as providing \"the infrastructure that people and their AI agents will need as commerce becomes agentic.\"" },
+    { "source": 0, "text": "\"We are at the beginning of that industry. A Nasdaq listing would give us access to public capital markets, the transparency of a listed company, and shareholders who can participate in building it with us,\" added Chok." }
+  ]
+}

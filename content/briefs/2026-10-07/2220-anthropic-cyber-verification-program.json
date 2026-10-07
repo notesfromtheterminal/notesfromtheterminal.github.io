@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-07-anthropic-cyber-verification-program",
+  "publishedAt": "2026-10-07T22:20:00+07:00",
+  "section": "models",
+  "tags": ["banking"],
+  "company": "Anthropic",
+  "headline": "Anthropic expands Cyber Verification Program with a tier for banking infrastructure",
+  "body": "Anthropic said it expanded its Cyber Verification Program into three tiers that give qualifying security professionals reduced safeguards on Claude Opus 5.5, Sonnet 5.5 and Mythos 5.1. Its top tier, Specialized Access, is reserved for testing flight operating systems, power grids and interbank transfer infrastructure, reviewed in collaboration with the US government, and partners in the predecessor program found at least 129,000 verified vulnerabilities between April and July 2026.",
+  "note": "Putting interbank transfer infrastructure in the same tier as flight controls and power grids shows how seriously AI labs now treat banks' payment rails as a target worth hardening with AI-assisted testing.",
+  "sources": [
+    { "name": "Anthropic", "url": "https://www.anthropic.com/news/cyber-verification-program" },
+    { "name": "The Decoder", "url": "https://the-decoder.com/anthropic-gives-more-security-teams-access-to-claude-with-fewer-safety-restrictions/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals." },
+    { "source": 0, "text": "The former gave a group of organizations securing the most critical software access to Claude Mythos; the latter gave vetted security teams access to reduced safeguards on Claude Opus and Claude Sonnet models." },
+    { "source": 0, "text": "The program now consists of three access tiers, which allow security teams to apply for the level of access that best suits their work." },
+    { "source": 0, "text": "Each tier includes access to our most capable models, including Claude Opus 5.5, Claude Sonnet 5.5, Claude Mythos 5.1, and new models moving forward." },
+    { "source": 0, "text": "Specialized Access , which has the fewest cyber blocks, is reserved for a limited set of verified organizations that are authorized to test safety systems that could impact people’s lives or disrupt markets, such as flight operating systems, power grids, telecom networks, interbank transfer infrastructure, and government administrative networks." },
+    { "source": 0, "text": "For this tier, we currently review every organization in depth in collaboration with the US government." },
+    { "source": 0, "text": "Through the program, our partners uncovered at least 129,000 verified software vulnerabilities between April and July 2026." },
+    { "source": 0, "text": "Of these verified vulnerabilities, more than 33,000 have so far been rated as critical- or high-severity." },
+    { "source": 1, "text": "The CVP splits access into three tiers." },
+    { "source": 1, "text": "\"Specialized Access\" is reserved for testing systems like flight controls, power grids, or banking infrastructure." },
+    { "source": 1, "text": "Partners in the predecessor program, Project Glasswing , found at least 129,000 confirmed vulnerabilities between April and July 2026, according to Anthropic." }
+  ]
+}
