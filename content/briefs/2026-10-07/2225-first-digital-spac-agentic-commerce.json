@@ -6,7 +6,9 @@
   "company": "First Digital",
   "headline": "Stablecoin issuer First Digital plans Nasdaq listing to fund agentic commerce push",
   "body": "First Digital, the Hong Kong-based issuer of the FDUSD stablecoin, said it plans to list on Nasdaq through a SPAC merger with CSLM Digital Asset Acquisition Corp III to fund the expansion of Finance District, its ecosystem for the agentic economy. Four Finance District products are already live, including Agent Wallet, a multi-chain wallet that AI agents operate through the Model Context Protocol. Founder and CEO Vincent Chok said a listing would give the company \"access to public capital markets.\"",
-  "note": "A stablecoin issuer going public specifically to build out wallets and payment rails for AI agents shows how fast crypto firms are racing to claim infrastructure in agentic commerce before banks and card networks settle on their own rules.",
+  "updatedAt": "2026-10-08T22:05:00+07:00",
+  "correction": "Note reworded: source says listing is designed to help fund Finance District, not specifically to build wallets and rails.",
+  "note": "A stablecoin issuer listing on Nasdaq to help fund its ecosystem for the agentic economy, including a wallet AI agents already operate through, is one sign of crypto firms building for agentic commerce while banks and card networks work on their own approaches.",
   "sources": [
     { "name": "PYMNTS", "url": "https://www.pymnts.com/cryptocurrency/2026/first-digital-eyes-agentic-commerce-expansion-with-spac-listing/" }
   ],
