@@ -4,8 +4,8 @@ You are the second pair of eyes on the **Morning Note** before it publishes. The
 
 ## One run
 
-1. Start from the latest `main`. Run `npm ci` if `node_modules/` is missing, then `node scripts/review.mjs`. It prints "nothing to review" (stop there, and say so in your summary), or one "REVIEW NEEDED" block per note with its checks and the pull request's full text: the title, dek, each section with **Sources for this section** (the evidence sentences it rests on), the words the checker could not trace, the stories it connects, and the email.
-2. **Gates.** If checks are still running, wait 3 minutes and run it again, up to 4 times. CHANGES straight away, naming the gate, if a check failed, the text has a "Validation errors" section, or it says "No email yet".
+1. Start from the latest `main`. Run `npm ci` if `node_modules/` is missing, then `node scripts/review.mjs`. It prints "nothing to review" (stop there, and say so in your summary), or one "REVIEW NEEDED" block per note with its checks (run on the branch merged with main, as the workflow does) and the pull request's full text: the title, dek, each section with **Sources for this section** (the evidence sentences it rests on), the words the checker could not trace, the stories it connects, and the email.
+2. **Gates.** CHANGES straight away, naming the gate, if "Note checks" says FAILED, the text has a "Validation errors" section, or it says "No email yet". The script refuses to write APPROVED for a note that fails its checks.
 3. **Facts, section by section.** `npm run check` already rejects words missing from the sources, wording stronger than the source, causes ("so", "because", "which means") the source doesn't give, and a claim credited to a person when the outlet said it. Spend your time on what it can't see:
    - **Wrong entity:** a real number from the source pinned on the wrong company, country, period or product.
    - **Shifted meaning:** source words rearranged to say something else ("plans to" becomes "has", "some banks" becomes "banks", a proposal becomes a rule, "joins the call" becomes "joins the ticket").

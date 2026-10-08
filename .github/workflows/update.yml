@@ -171,7 +171,8 @@ jobs:
         run: |
           git cat-file -e "$BEFORE^{commit}" 2>/dev/null || exit 0
           for f in $(git diff --name-only --diff-filter=AM "$BEFORE" HEAD -- content/review/verdicts); do
-            pr="$(jq -r .pr "$f")"
+            pr="$(gh pr list --state open --head "claude/note-$(jq -r .note "$f")" --json number --jq '.[0].number')"
+            [ -n "$pr" ] || continue
             { echo "Review run verdict: **$(jq -r .verdict "$f")** for commit $(jq -r '.commit[0:7]' "$f")"; echo; jq -r .notes "$f"; } > verdict.md
             gh pr comment "$pr" --body-file verdict.md || echo "::warning::Could not comment on #$pr"
           done
