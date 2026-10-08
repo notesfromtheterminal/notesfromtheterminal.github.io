@@ -22,13 +22,12 @@
     },
     {
       "head": "The chat window becomes a tool",
-      "text": "Meanwhile OpenAI is rolling out GPT-6 in ChatGPT with a feature called Intelligent UI, which presents answers as graphics, buttons, charts and forms instead of plain text. Users can also have small tools built right inside the chat, like a savings calculator, and GPT-6 can also respond while still \"thinking.\" OpenAI says this cuts wait times by 44 percent. For those of us who talk with customers every day, a fair question is what they will expect to see when they ask a chatbot about a loan.",
+      "text": "Meanwhile OpenAI is rolling out GPT-6 in ChatGPT with a feature called Intelligent UI, which presents answers as graphics, buttons, charts and forms instead of plain text. Users can also have small tools built right inside the chat, like a savings calculator, and GPT-6 can also respond while still \"thinking.\" For those of us who talk with customers every day, a fair question is what they will expect to see when they ask a chatbot about a loan.",
       "support": [
         "OpenAI is rolling out GPT-6 with a new feature called \"Intelligent UI\" for all ChatGPT users.",
         "The model now presents answers as interactive interfaces with graphics, buttons, charts, and forms instead of plain text.",
         "Users can also have small tools built right inside the chat, like a savings calculator or a game.",
-        "GPT-6 can also respond while still \"thinking.\"",
-        "OpenAI says this cuts wait times by 44 percent and can produce better answers."
+        "GPT-6 can also respond while still \"thinking.\""
       ]
     },
     {
