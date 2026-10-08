@@ -392,7 +392,6 @@ ${card ? `<figure class="story-card"><img src="${u(card)}" width="1200" height="
 ${note(b)}
 ${chartFigure(b)}
 ${tableFigure(b)}
-${b.correction ? `<p class="correction"><strong>Correction:</strong> ${esc(b.correction)}</p>` : ''}
 <section class="story-sources" aria-labelledby="src-h"><h2 class="label" id="src-h">Read the original</h2><ul>${b.sources
         .map((s) => `<li>${ext(s.url, `${esc(s.name)} <span aria-hidden="true">↗</span>`)}</li>`)
         .join('')}</ul></section>
@@ -437,7 +436,6 @@ ${n.dek ? `<p class="mn-dek">${esc(n.dek)}</p>` : ''}
 <div class="mn-body">${n.body
   .map((x) => (typeof x === 'string' ? `<p>${inline(x)}</p>` : `${x.head ? `<h2 class="mn-sub">${esc(x.head)}</h2>` : ''}<p>${inline(x.text)}</p>`))
   .join('\n')}</div>
-${n.correction ? `<p class="correction"><strong>Correction:</strong> ${esc(n.correction)}</p>` : ''}
 ${signupBox('note')}
 ${stories.length ? `<section class="mn-stories" aria-labelledby="mn-s-h"><h2 class="label" id="mn-s-h">The stories behind this note</h2>${topList(stories)}</section>` : ''}
 ${shareBar(n.title, path)}
@@ -551,7 +549,7 @@ ${shareBar(n.title, path)}
 </ul>
 <p>Follow along on X at ${x}.</p>
 <h2>Corrections</h2>
-<p>Spot a mistake? Reply to ${x} on X, and the brief gets fixed with a correction line.</p>
+<p>Spot a mistake? Reply to ${x} on X, and the brief gets fixed.</p>
 <h2>Not advice</h2>
 <p>Nothing here is investment advice.</p>
 </article>`,
