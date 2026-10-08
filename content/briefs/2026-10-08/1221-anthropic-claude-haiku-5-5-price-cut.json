@@ -18,6 +18,8 @@
     { "source": 1, "text": "Haiku 5.5 is designed for high-volume, cost-sensitive tasks like summarization, database queries, classification, and live customer support, according to Anthropic." },
     { "source": 1, "text": "On average, the model costs about 75 percent less than Haiku 4.5." },
     { "source": 1, "text": "For requests with prompts up to 100,000 tokens, which Anthropic says account for roughly 90 percent of all previous Haiku requests, prices drop by up to 90 percent." },
+    { "source": 1, "text": "Anthropic points out that Haiku 5.5 uses an updated tokenizer that consumes slightly more tokens per task than its predecessor." },
+    { "source": 1, "text": "Real-world savings are likely smaller than the per-token prices suggest." },
     { "source": 1, "text": "Haiku 5.5 is available now across all platforms, including Amazon Web Services, Google Cloud, and Microsoft Azure." },
     { "source": 1, "text": "Alongside the Haiku launch, Anthropic is cutting cache read costs for Sonnet 5.5 by 50 percent, from $0.20 to $0.10 per million tokens." }
   ]
