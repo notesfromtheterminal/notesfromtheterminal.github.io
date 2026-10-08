@@ -130,3 +130,23 @@ export function dayKey(d, tz) {
   );
   return `${parts.year}-${parts.month}-${parts.day}`;
 }
+
+// GitHub's REST API for a repo path ("/issues?state=open"). Anonymous first; GitHub refuses
+// anonymous requests from shared cloud addresses at random (403, rate limit), so on any failure
+// it retries with the gh CLI, which cloud sessions have signed in. Throws when both fail.
+export async function githubApi(repo, path) {
+  let why = '';
+  try {
+    const res = await fetch(`https://api.github.com/repos/${repo}${path}`, { headers: { Accept: 'application/vnd.github+json', 'User-Agent': 'notes-from-the-terminal-desk' } });
+    if (res.ok) return await res.json();
+    why = `HTTP ${res.status}`;
+  } catch (err) {
+    why = err.message;
+  }
+  try {
+    const { execFileSync } = await import('node:child_process');
+    return JSON.parse(execFileSync('gh', ['api', `repos/${repo}${path}`], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'], timeout: 30000 }));
+  } catch (err) {
+    throw new Error(`GitHub API ${why} for ${path}, and gh api failed too (${String(err.stderr || err.message).trim().split('\n')[0]})`);
+  }
+}

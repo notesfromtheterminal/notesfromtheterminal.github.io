@@ -8,7 +8,7 @@
 // request file deletes that file (NEWSROOM.md, step 1).
 //   node scripts/site-watch-issues.mjs
 import { openRequests } from './brief-check.mjs';
-import { p, readJSON } from './lib/util.mjs';
+import { githubApi, p, readJSON } from './lib/util.mjs';
 
 const repo = 'notesfromtheterminal/notesfromtheterminal.github.io';
 const TRUSTED = new Set(['OWNER', 'MEMBER', 'COLLABORATOR']);
@@ -20,11 +20,7 @@ for (const r of requests) console.log(`${r.kind}: ${r.subject}\nRequest file: ${
 
 let issues = [];
 try {
-  const res = await fetch(`https://api.github.com/repos/${repo}/issues?state=open&per_page=50&sort=created&direction=asc`, {
-    headers: { Accept: 'application/vnd.github+json', 'User-Agent': 'notes-from-the-terminal-desk' },
-  });
-  if (!res.ok) throw new Error(`GitHub API ${res.status}`);
-  issues = (await res.json()).filter(
+  issues = (await githubApi(repo, '/issues?state=open&per_page=50&sort=created&direction=asc')).filter(
     (i) => !i.pull_request && /^\s*(CORRECTION|MISSED)\b/i.test(i.title) && (TRUSTED.has(i.author_association) || reviewers.has(i.user.login.toLowerCase())),
   );
 } catch (err) {

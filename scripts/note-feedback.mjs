@@ -5,7 +5,7 @@
 // or the review run's file on main for the branch's head commit (scripts/review.mjs). The repo is public, so no
 // token is needed.
 //   node scripts/note-feedback.mjs
-import { p, readJSON } from './lib/util.mjs';
+import { githubApi, p, readJSON } from './lib/util.mjs';
 import { execFileSync } from 'node:child_process';
 import { fileVerdict, openNotes } from './review.mjs';
 
@@ -15,11 +15,7 @@ const TRUSTED = new Set(['OWNER', 'MEMBER', 'COLLABORATOR']);
 // an anonymous request sees its comments as "NONE".
 const reviewers = new Set(((await readJSON(p('config', 'site.json'))).reviewers ?? []).map((x) => x.toLowerCase()));
 const trusted = (c) => TRUSTED.has(c.author_association) || reviewers.has(c.user.login.toLowerCase());
-const api = async (path) => {
-  const res = await fetch(`https://api.github.com/repos/${repo}${path}`, { headers: { Accept: 'application/vnd.github+json', 'User-Agent': 'notes-from-the-terminal-desk' } });
-  if (!res.ok) throw new Error(`GitHub API ${res.status} for ${path}`);
-  return res.json();
-};
+const api = (path) => githubApi(repo, path);
 
 // Open notes come from git, so a review run's CHANGES file is seen even when the API refuses
 // unauthenticated requests (it does from shared cloud addresses); comments need the API.
