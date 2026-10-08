@@ -1,0 +1,24 @@
+{
+  "id": "2026-10-08-anthropic-claude-haiku-5-5-price-cut",
+  "publishedAt": "2026-10-08T12:21:00+07:00",
+  "section": "models",
+  "star": false,
+  "company": "Anthropic",
+  "headline": "Anthropic launches Claude Haiku 5.5 with prices cut by up to 90%",
+  "body": "Anthropic released Claude Haiku 5.5, its fastest and cheapest small model, designed for high-volume, cost-sensitive tasks such as summarization, database queries and customer support. The model costs about 75 percent less than Haiku 4.5 on average, and prices drop by up to 90 percent for prompts up to 100,000 tokens, which Anthropic says account for roughly 90 percent of previous Haiku requests. Haiku 5.5 is available now on AWS, Google Cloud and Microsoft Azure.",
+  "note": "Banks running high-volume AI work such as customer service queries or compliance checks get a steep cost cut: Haiku 5.5 prices drop up to 90 percent against its predecessor, and Anthropic halved Sonnet 5.5's cache-read price in the same announcement, a sign of how fast the AI price war is moving.",
+  "sources": [
+    { "name": "Anthropic", "url": "https://www.anthropic.com/news" },
+    { "name": "The Decoder", "url": "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Our fastest, cheapest, and most capable small model yet." },
+    { "source": 0, "text": "It’s designed for high-volume, cost-sensitive work." },
+    { "source": 1, "text": "Anthropic has released Claude Haiku 5.5, its fastest and most affordable small model, built for high-volume tasks like data queries and customer support." },
+    { "source": 1, "text": "Haiku 5.5 is designed for high-volume, cost-sensitive tasks like summarization, database queries, classification, and live customer support, according to Anthropic." },
+    { "source": 1, "text": "On average, the model costs about 75 percent less than Haiku 4.5." },
+    { "source": 1, "text": "For requests with prompts up to 100,000 tokens, which Anthropic says account for roughly 90 percent of all previous Haiku requests, prices drop by up to 90 percent." },
+    { "source": 1, "text": "Haiku 5.5 is available now across all platforms, including Amazon Web Services, Google Cloud, and Microsoft Azure." },
+    { "source": 1, "text": "Alongside the Haiku launch, Anthropic is cutting cache read costs for Sonnet 5.5 by 50 percent, from $0.20 to $0.10 per million tokens." }
+  ]
+}
