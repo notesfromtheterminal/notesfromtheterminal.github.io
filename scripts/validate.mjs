@@ -3,7 +3,7 @@
 import { readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { attributedClauses, misattributed, namesIn, norm, numbersIn, ungrounded, unsupported, untraced } from './lib/grounding.mjs';
+import { attributedClauses, hardened, linked, misattributed, namesIn, norm, numbersIn, ungrounded, unsupported, untraced } from './lib/grounding.mjs';
 import { p, readJSON } from './lib/util.mjs';
 
 // House style (communication-style.md). "Leverage" is banned as jargon but stays legal
@@ -36,6 +36,9 @@ const STRICT_FROM = Date.parse('2026-10-02T11:00:00+07:00');
 // Notes dated from this day: built only on briefs with evidence, and every section that names
 // someone or gives a number carries its own "support" from that evidence.
 const NOTE_SUPPORT_FROM = '2026-10-03';
+// From 8 Oct: no hardened words, no invented cause and effect (see hardened() and linked()).
+const MEANING_FROM = Date.parse('2026-10-08T00:00:00+07:00');
+const NOTE_MEANING_FROM = '2026-10-08';
 // Briefs published from this moment are checked for repeats of earlier briefs.
 const REPEAT_RULES_FROM = Date.parse('2026-10-01T19:00:00+07:00');
 // Phrases that read as machine-written. None may appear in new briefs or notes, outside quotes.
@@ -157,8 +160,14 @@ export async function loadContent({ now = Date.now() } = {}) {
           const missing = untraced(`${b.headline} \n ${b.body}`, [...ev.map((x) => x.text), ...b.sources.map((s) => s.name), b.company ?? '']);
           if (missing.length)
             e.push(`${missing.map((w) => `"${w}"`).join(', ')} ${missing.length > 1 ? 'are' : 'is'} in no evidence sentence: use the source's own word, add the sentence that says it to evidence, or cut the detail`);
-          for (const m of misattributed(`${b.headline}. ${b.body} ${b.note ?? ''}`, ev.map((x) => x.text)))
+          for (const m of misattributed(`${b.headline}. ${b.body} ${b.note ?? ''}`, ev.map((x) => x.text), ev.map((x) => b.sources[x.source]?.name)))
             e.push(`"${m.word}" is given to ${m.speaker}, but the source gives it to ${m.source}: name who actually said it`);
+        }
+        if (Date.parse(b.publishedAt) >= MEANING_FROM) {
+          const hard = hardened(`${b.headline} \n ${b.body}`, ev.map((x) => x.text));
+          if (hard.length) e.push(`${hard.map((w) => `"${w}"`).join(', ')}: the evidence never says this. Keep the source's own strength ("expects", "plans", "about")`);
+          const links = linked(b.body, ev.map((x) => x.text));
+          if (links.length) e.push(`body links facts with ${links.map((w) => `"${w}"`).join(', ')}, which no evidence sentence uses: state each fact with its source, and leave cause and effect to the note field`);
         }
         for (const s of unsupported(b.body, ev.map((x) => x.text)))
           e.push(`body sentence has no evidence behind it: "${s.slice(0, 100)}${s.length > 100 ? '…' : ''}". Add the source sentence that says it, or cut the claim`);
@@ -263,7 +272,14 @@ export async function loadContent({ now = Date.now() } = {}) {
           for (const num of g.numbers) e.push(`body[${i}]: number ${num} is not in this section's support`);
           const said = norm([...sup, ...known].join(' '));
           for (const name of names) if (!said.includes(norm(name))) e.push(`body[${i}]: "${name}" is not in this section's support`);
-          for (const m of misattributed(x.text, sup)) e.push(`body[${i}]: "${m.word}" is given to ${m.speaker}, but the support gives it to ${m.source}: name who actually said it`);
+          const ownerOf = (t) => cited.flatMap((b) => (b.evidence ?? []).filter((v) => norm(v.text).includes(norm(t))).map((v) => b.sources[v.source]?.name))[0];
+          for (const m of misattributed(x.text, sup, sup.map(ownerOf))) e.push(`body[${i}]: "${m.word}" is given to ${m.speaker}, but the support gives it to ${m.source}: name who actually said it`);
+          if (n.date >= NOTE_MEANING_FROM) {
+            const hard = hardened(x.text, sup);
+            if (hard.length) e.push(`body[${i}]: ${hard.map((w) => `"${w}"`).join(', ')} is stronger than the support, which never says it: keep the source's own word`);
+            const links = linked(x.text, sup);
+            if (links.length) e.push(`body[${i}]: ${links.map((w) => `"${w}"`).join(', ')} makes one fact cause or explain another, and the support never says so: give the facts side by side, each with its source`);
+          }
           // What someone is said to have said must be in the support word for word or in its own words.
           for (const c of attributedClauses(x.text)) {
             const off = untraced(c, [...sup, ...known]);

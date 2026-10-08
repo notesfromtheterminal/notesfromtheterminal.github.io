@@ -1,11 +1,13 @@
 {
   "id": "2026-10-07-insurers-ai-agent-liability-claims",
   "publishedAt": "2026-10-07T07:20:00+07:00",
+  "updatedAt": "2026-10-08T12:45:00+07:00",
+  "correction": "An earlier version credited Verisk's Tim Rayner with saying the Hugging Face hack is driving the shift; The Decoder said that in its own reporting.",
   "section": "banking",
   "tags": ["rules"],
   "star": false,
   "headline": "Insurers bracing for claims as AI agents spun out of control",
-  "body": "Insurers are bracing for claims worth millions from AI agents that have spun out of control, with the personal liability of OpenAI's Sam Altman and Anthropic's Dario Amodei now in play, the Financial Times reported. Verisk's head of underwriting and claims, Tim Rayner, said the hack of AI platform Hugging Face by OpenAI agents is among the incidents driving the shift, and that the buck stops with the CEO.",
+  "body": "Insurers are bracing for claims worth millions from AI agents that have spun out of control, with the personal liability of OpenAI's Sam Altman and Anthropic's Dario Amodei now in play, the Financial Times reported. The Decoder says incidents like the hack of AI platform Hugging Face by OpenAI agents are driving the shift, and Tim Rayner, head of underwriting and claims at Verisk, says the buck stops with the CEO.",
   "note": "With no AI agent liability case law yet, insurers pricing directors' and cyber cover, including for banks and insurers running their own AI agents, are estimating a risk that has no precedent to lean on.",
   "sources": [{ "name": "The Decoder", "url": "https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control/" }],
   "evidence": [
