@@ -1,0 +1,6 @@
+{
+  "kind": "CORRECTION",
+  "subject": "2026-10-08-anthropic-claude-haiku-5-5-price-cut",
+  "at": "2026-10-08T10:21:39.668Z",
+  "text": "Brief says: \"Banks running high-volume AI work such as customer service queries or compliance checks get a steep cost cut: Haiku 5.5 prices drop up to 90 percent against its predecessor\" (note)\nSource says: \"Haiku 5.5 is designed for high-volume, cost-sensitive tasks like summarization, database queries, classification, and live customer support, according to Anthropic.\" and \"Real-world savings are likely smaller than the per-token prices suggest.\" (https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/)\nSuggested fix: drop \"compliance checks\" (not in the source) and keep the caveat, e.g. \"Banks running high-volume AI work such as customer support or database queries pay up to 90 percent less per token for most prompts, though The Decoder notes real-world savings are likely smaller because the new tokenizer uses slightly more tokens per task.\""
+}

@@ -1,0 +1,6 @@
+{
+  "kind": "CORRECTION",
+  "subject": "2026-10-08-openai-gpt-6-intelligent-ui",
+  "at": "2026-10-08T10:21:39.559Z",
+  "text": "Brief says: \"Banks and wealth platforms building client tools on ChatGPT will now see answers arrive as interactive charts and built-in mini-apps, so compliance teams will need to review that visual output before customers see it.\" (note)\nSource says: \"OpenAI is rolling out GPT-6 with a new feature called \"Intelligent UI\" for all ChatGPT users.\" (https://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps/)\nSuggested fix: no source says the feature reaches tools that banks build on ChatGPT, or that compliance teams must review it. Rewrite the note about ChatGPT users only, e.g. \"Bank customers who ask ChatGPT about money will now get interactive charts and tools such as a savings calculator, which raises what they will expect from a bank's own chat.\""
+}

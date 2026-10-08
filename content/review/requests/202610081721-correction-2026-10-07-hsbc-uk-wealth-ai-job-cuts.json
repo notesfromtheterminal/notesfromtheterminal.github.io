@@ -1,0 +1,6 @@
+{
+  "kind": "CORRECTION",
+  "subject": "2026-10-07-hsbc-uk-wealth-ai-job-cuts",
+  "at": "2026-10-08T10:21:39.451Z",
+  "text": "Brief says: \"Financial adviser roles are now set to fall by around 70 per cent, which turns that warning into a concrete plan within months.\" (note)\nSource says: \"reductions among financial advisers could reach around 70 per cent, the report said, citing people familiar with the plans.\" and \"HSBC is currently in a consultation period on the proposed changes.\" (https://www.businesstimes.com.sg/companies-markets/banking-finance/hsbc-plans-job-cuts-across-uk-wealth-business-ai-push-report)\nSuggested fix: \"Reductions among financial advisers could reach around 70 per cent, according to people familiar with the plans, and HSBC is in a consultation period on the proposed changes.\" (\"Set to fall\" and \"a concrete plan\" are stronger than \"could reach\" and \"proposed\".)"
+}

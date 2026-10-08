@@ -1,0 +1,6 @@
+{
+  "kind": "CORRECTION",
+  "subject": "2026-10-07-first-digital-spac-agentic-commerce",
+  "at": "2026-10-08T10:21:39.779Z",
+  "text": "Brief says: \"A stablecoin issuer going public specifically to build out wallets and payment rails for AI agents\" (note)\nSource says: \"The Nasdaq listing is designed to help First Digital fund the expansion of Finance District, \"ecosystem for the agentic economy,\" the company said\" (https://www.pymnts.com/cryptocurrency/2026/first-digital-eyes-agentic-commerce-expansion-with-spac-listing/)\nSuggested fix: \"A stablecoin issuer listing on Nasdaq to help fund its ecosystem for the agentic economy, including a wallet AI agents already use, ...\" (\"specifically to build out wallets and payment rails\" is narrower and stronger than the source.)"
+}
