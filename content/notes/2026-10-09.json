@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-09",
+  "publishedAt": "2026-10-09T07:00:00+07:00",
+  "title": "Cheaper small models, chat tools and agent wallets arrive",
+  "dek": "Anthropic's small model drops in price, OpenAI puts interactive tools inside ChatGPT, and a stablecoin issuer's agent wallet is already live.",
+  "lead": "2026-10-08-anthropic-claude-haiku-5-5-price-cut",
+  "stories": [
+    "2026-10-08-openai-gpt-6-intelligent-ui",
+    "2026-10-07-first-digital-spac-agentic-commerce"
+  ],
+  "body": [
+    {
+      "head": "Small models get cheaper",
+      "text": "Anthropic has released Claude Haiku 5.5, its fastest and most affordable small model, built for high-volume tasks like data queries and customer support. On average the model costs about 75 percent less than Haiku 4.5, and for requests with prompts up to 100,000 tokens, prices drop by up to 90 percent. Anthropic points out that the model uses an updated tokenizer that consumes slightly more tokens per task, and The Decoder notes that real-world savings are likely smaller than the per-token prices suggest.",
+      "support": [
+        "Anthropic has released Claude Haiku 5.5, its fastest and most affordable small model, built for high-volume tasks like data queries and customer support.",
+        "On average, the model costs about 75 percent less than Haiku 4.5.",
+        "For requests with prompts up to 100,000 tokens, which Anthropic says account for roughly 90 percent of all previous Haiku requests, prices drop by up to 90 percent.",
+        "Anthropic points out that Haiku 5.5 uses an updated tokenizer that consumes slightly more tokens per task than its predecessor.",
+        "Real-world savings are likely smaller than the per-token prices suggest."
+      ]
+    },
+    {
+      "head": "The chat window becomes a tool",
+      "text": "Meanwhile OpenAI is rolling out GPT-6 in ChatGPT with a feature called Intelligent UI, which presents answers as graphics, buttons, charts and forms instead of plain text. Users can also have small tools built right inside the chat, like a savings calculator, and GPT-6 can also respond while still \"thinking.\" For those of us who talk with customers every day, a fair question is what they will expect to see when they ask a chatbot about a loan.",
+      "support": [
+        "OpenAI is rolling out GPT-6 with a new feature called \"Intelligent UI\" for all ChatGPT users.",
+        "The model now presents answers as interactive interfaces with graphics, buttons, charts, and forms instead of plain text.",
+        "Users can also have small tools built right inside the chat, like a savings calculator or a game.",
+        "GPT-6 can also respond while still \"thinking.\""
+      ]
+    },
+    {
+      "head": "Agents get their own wallets",
+      "text": "At the same time, First Digital, the Hong Kong-based stablecoin issuer, says it is ready for its stock market debut. Its listing will happen through a special purpose acquisition company (SPAC) merger with CSLM Digital Asset Acquisition Corp III, and the Nasdaq listing is designed to help fund the expansion of Finance District, its ecosystem for the agentic economy. Four Finance District products are already live, including Agent Wallet, a multi-chain wallet that AI agents operate via the Model Context Protocol.",
+      "support": [
+        "Hong Kong-based stablecoin issuer First Digital says it is ready for its stock market debut.",
+        "The Nasdaq listing is designed to help First Digital fund the expansion of Finance District, \"ecosystem for the agentic economy,\" the company said in a Wednesday (Oct. 7) news release .",
+        "First Digital's listing will happen through a special purpose acquisition company (SPAC) merger with CSLM Digital Asset Acquisition Corp III.",
+        "Four Finance District products are already live, the release added.",
+        "These include District Pass, the \"single identity credential used across the ecosystem,\" and Agent Wallet is a multi-chain wallet that artificial intelligence agents operate via the Model Context Protocol ."
+      ]
+    },
+    {
+      "head": "What to watch in your own shop",
+      "text": "The price of a model, the screen a customer sees and the wallet an agent might hold are separate layers of the same stack. A good exercise for this week is to list the high-volume jobs in your team and ask who would sign off if a cheaper model took one of them over."
+    }
+  ],
+  "suggestion": "A line on which high-volume job your own team would test on a cheaper model first would fit at the end of the last section."
+}
