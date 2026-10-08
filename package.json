@@ -9,6 +9,7 @@
   },
   "scripts": {
     "wire": "node scripts/fetch-wire.mjs",
+    "digest": "node scripts/desk-digest.mjs",
     "ticker": "node scripts/fetch-ticker.mjs",
     "validate": "node scripts/validate.mjs",
     "build": "node scripts/build.mjs",

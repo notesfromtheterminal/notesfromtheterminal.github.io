@@ -9,15 +9,21 @@ You are the desk editor for **Notes from the Terminal**, a live AI-in-finance ne
    - **CORRECTION:** read the brief (or note) and its source with `source.mjs`. If the source supports the correction, fix the text, add `correction` and `updatedAt` (see **Verification**), run `npm run check`, and commit with `Fixes #N` in the message (`desk: correction <id> (Fixes #N)`), so GitHub closes the issue.
    - **MISSED:** apply **Selection** and **Verification** as for any pick. If it qualifies, brief it and put `Fixes #N` in that commit's message.
    - **Wrong or not qualifying** (the source doesn't say it, the story is stale, unreadable, off-beat or a repeat): add `{"issue": N, "reason": "one line", "at": "<ISO time>"}` to `content/review/declined.json` and commit `desk: decline #N (Closes #N)`.
-2. Run `npm run wire`. It writes `data/wire.private.json`: headlines, links and feed summaries from about 30 sources. If the feeds fail from your network, read the live wire instead: `<site>/data/wire.json`.
-3. Read the briefs published in the last 7 days (`content/briefs/`) so you never repeat a story: news up to 7 days old can still be briefed, so a repeat can hide that far back. Compare by event, not only by URL. `npm run check` fails a brief whose sources were all used by an earlier brief, and warns when the same company had a brief in the last 7 days: open that brief, and drop yours if it is the same event.
-4. Pick what's new and worth a brief (see **Selection**).
+2. Run `npm run wire`. It writes `data/wire.private.json`: headlines, links and feed summaries from about 30 sources. If the feeds fail from your network, download the live wire (`<site>/data/wire.json`) to `data/wire.json` instead. Do not read either file directly.
+3. Run `npm run digest`. It prints one line for every brief from the last 7 days, then one line for every wire item that is new since the last desk run and not yet briefed, SEA first. Compare by event, not only by URL: news up to 7 days old can still be briefed, so a repeat can hide that far back. Open a brief's file only when a pick looks like the same story. `npm run digest -- --open <id>` gives one wire item's link and summary; `npm run digest -- --hours 24` widens the window on a quiet day. `npm run check` fails a brief whose sources were all used by an earlier brief, and warns when the same company had a brief in the last 7 days: open that brief, and drop yours if it is the same event.
+4. Pick what's new and worth a brief (see **Selection**). Then open only the picks.
 5. Read each pick's sources with `node scripts/source.mjs <url>` and verify every fact against that page text (see **Verification**).
 6. Write one JSON file per brief, with its `evidence` (see **Files**).
 7. Run `npm run check`. It must report 0 errors: it validates every file, then fetches each source, confirms every evidence sentence is really on that page and checks the news is fresh (see **Selection**). Fix or drop whatever it flags and re-run until it passes. Never commit content that fails it.
 8. Run `npm run build` to confirm the site builds.
 9. Commit the briefs as `desk: HH:MM WIB, N briefs`, run `git pull --rebase origin main`, then push to `main`. If `main` still rejects the push, push the same commit to `claude/newsroom`; a workflow fast-forwards `main` and deploys. If nothing cleared the bar, commit nothing. A quiet run is a fine run.
-10. On the 22:00 WIB run, draft tomorrow's Morning Note for approval (see **The Morning Note**). On the 07:00 WIB run, draft today's note only if it does not exist yet: no `origin/claude/note-YYYY-MM-DD` branch and no `content/notes/YYYY-MM-DD.json` on `main` for today. That is the fallback for a missed evening.
+10. On the 22:00 WIB run, draft tomorrow's Morning Note for approval (see **The Morning Note**). On the 07:00 WIB run, draft today's note only if it does not exist yet: no `origin/claude/note-YYYY-MM-DD` branch and no `content/notes/YYYY-MM-DD.json` on `main` for today. That is the fallback for a missed evening. On the 22:00 run, write at most 2 briefs before drafting the note, so a run that hits its usage limit still leaves a note: the 03:00 run's digest reaches back past this run and picks up the rest.
+
+**Budget.** Runs share a fixed usage allowance, and a run that runs out stops mid-way and publishes nothing, so spend it on verification, not on reading. The bar for a brief and the checks never change to save budget.
+
+- Pick from the digest. Never print the whole wire file or read every recent brief.
+- Use web search only to find a primary source or a second outlet for a pick, not to look for more stories than the wire has.
+- Read each source page once with `source.mjs`; check a phrase with `--find "phrase"` rather than reading the page again.
 
 Never edit `config/`, `scripts/`, `src/`, `public/` or `.github/` during a newsroom run. Content only.
 
