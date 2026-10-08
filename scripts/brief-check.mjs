@@ -32,12 +32,16 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
 
   if (!cmd) {
     const now = new Date().toISOString();
-    const state = await readJSON(STATE, { checkedThrough: new Date(Date.now() - 24 * HOURS).toISOString() });
-    // Never further back than 48 hours, so a missed day doesn't turn into a backlog.
-    const from = Math.max(Date.parse(state.checkedThrough), Date.now() - 48 * HOURS);
+    const state = await readJSON(STATE, {});
+    // From the last check, or the last 24 hours on the first run, and never further back than
+    // 48 hours, so a missed day doesn't turn into a backlog.
+    const from = Math.max(Date.parse(state.checkedThrough) || Date.now() - 24 * HOURS, Date.now() - 48 * HOURS);
     const { briefs } = await loadContent();
+    // A brief gets one request, ever: once the desk has fixed or declined it, it is not checked
+    // again, so a fix can't start a loop of new requests.
+    const filed = state.filed ?? {};
     const due = briefs
-      .filter((b) => Math.max(Date.parse(b.publishedAt), Date.parse(b.updatedAt ?? 0) || 0) > from)
+      .filter((b) => !filed[b.id] && Math.max(Date.parse(b.publishedAt), Date.parse(b.updatedAt ?? 0) || 0) > from)
       .sort((a, b) => Date.parse(a.publishedAt) - Date.parse(b.publishedAt));
     console.log(`Briefs published or corrected since ${new Date(from).toISOString()}: ${due.length}\n`);
     for (const b of due) {
@@ -70,19 +74,24 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
       console.error('brief-check: a MISSED request needs the primary source link');
       process.exit(1);
     }
+    const state = await readJSON(STATE, {});
     const open = await openRequests();
-    if (open.some((r) => r.kind === kind && r.subject === subject)) {
-      console.log(`brief-check: a ${kind} request for "${subject}" is already open, nothing added`);
+    if (open.some((r) => r.kind === kind && r.subject === subject) || (kind === 'CORRECTION' && state.filed?.[subject])) {
+      console.log(`brief-check: "${subject}" already had a ${kind} request, nothing added (one request per brief; put anything new in your summary)`);
       process.exit(0);
     }
     const name = `${stamp()}-${kind.toLowerCase()}-${slug(subject)}.json`;
     await writeJSON(p('content', 'review', 'requests', name), { kind, subject, at: new Date().toISOString(), text });
+    if (kind === 'CORRECTION') await writeJSON(STATE, { ...state, filed: { ...state.filed, [subject]: new Date().toISOString() } });
     console.log(`brief-check: added content/review/requests/${name}`);
     process.exit(0);
   }
 
   if (cmd === 'done' && !Number.isNaN(Date.parse(kind ?? ''))) {
-    await writeJSON(STATE, { checkedThrough: new Date(kind).toISOString() });
+    const state = await readJSON(STATE, {});
+    // Forget requests older than 30 days; their briefs are long out of the check window.
+    const filed = Object.fromEntries(Object.entries(state.filed ?? {}).filter(([, at]) => Date.now() - Date.parse(at) < 30 * 24 * HOURS));
+    await writeJSON(STATE, { checkedThrough: new Date(kind).toISOString(), filed });
     console.log(`brief-check: checked through ${new Date(kind).toISOString()}. Commit content/review/ and push it to main.`);
     process.exit(0);
   }

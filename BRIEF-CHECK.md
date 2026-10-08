@@ -19,7 +19,7 @@ You check the site's published briefs against their sources after they go live, 
    Source says: "<exact words>" (<source link>)
    Suggested fix: <new wording, in the house style of NEWSROOM.md>
    ```
-   (repeat the three lines per problem), then `node scripts/brief-check.mjs add CORRECTION <brief id> <file>`. A request already open for that brief is not filed twice.
+   (repeat the three lines per problem), then `node scripts/brief-check.mjs add CORRECTION <brief id> <file>`. Each brief gets one request, ever: the script refuses a second one and leaves a fixed brief out of later lists, so a fix never starts a new round. Anything you notice later about the same brief goes in your summary only.
 4. **Missed stories (the 06:00 run only).** Search the web for AI-in-finance news from the last 24 hours that the site has no brief on (compare by event with `npm run digest`). File at most 3, each with a primary source that `source.mjs` can read and that passes **Selection** in NEWSROOM.md. Write the source link and one line on why it fits to a scratch file, then `node scripts/brief-check.mjs add MISSED "<headline>" <file>`. None qualifies: file nothing.
 5. **Finish.** Run the `done` command the listing printed. Set the commit identity your routine prompt gives, commit only `content/review/` as `brief check: N briefs, N corrections, N missed`, and push to main. If the push is rejected, `git pull --rebase` and push again.
 6. End with a short summary: briefs checked, each request filed (kind, brief or headline, one line), and any source you could not read.
