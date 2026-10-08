@@ -1,12 +1,14 @@
 {
   "id": "2026-10-08-openai-gpt-6-intelligent-ui",
   "publishedAt": "2026-10-08T12:20:00+07:00",
+  "updatedAt": "2026-10-08T18:16:00+07:00",
+  "correction": "An earlier version said OpenAI claims GPT-6 cuts wait times by 44 percent; a reader reported that OpenAI gives it for a narrower case, which we could not confirm on OpenAI's page, so it has been removed. The note no longer says banks' own ChatGPT tools or compliance reviews are affected, which no source states.",
   "section": "models",
   "star": false,
   "company": "OpenAI",
   "headline": "OpenAI rolls out GPT-6 with an interactive 'Intelligent UI' in ChatGPT",
-  "body": "OpenAI is rolling out GPT-6 globally in ChatGPT with a new 'Intelligent UI' that presents answers as interactive charts, buttons and small tools built into the chat instead of plain text, adapting its format to each question. Paying users get GPT-6 Sol while free users get GPT-6 Luna, and GPT-6 can keep responding while still 'thinking,' which OpenAI says cuts wait times by 44 percent.",
-  "note": "Banks and wealth platforms building client tools on ChatGPT will now see answers arrive as interactive charts and built-in mini-apps, so compliance teams will need to review that visual output before customers see it.",
+  "body": "OpenAI is rolling out GPT-6 globally in ChatGPT with a new 'Intelligent UI' that presents answers as interactive charts, buttons and small tools built into the chat instead of plain text, adapting its format to each question. Paying users get GPT-6 Sol while free users get GPT-6 Luna, and GPT-6 can keep responding while still 'thinking.'",
+  "note": "Bank customers who ask ChatGPT about money will now get interactive charts and tools such as a savings calculator, which raises what they will expect from a bank's own chat.",
   "sources": [
     { "name": "OpenAI", "url": "https://openai.com/index/gpt-6-for-everyone" },
     { "name": "The Decoder", "url": "https://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps/" }

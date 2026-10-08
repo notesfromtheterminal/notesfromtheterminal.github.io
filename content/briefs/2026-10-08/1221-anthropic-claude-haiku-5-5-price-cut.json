@@ -6,7 +6,9 @@
   "company": "Anthropic",
   "headline": "Anthropic launches Claude Haiku 5.5 with prices cut by up to 90%",
   "body": "Anthropic released Claude Haiku 5.5, its fastest and cheapest small model, designed for high-volume, cost-sensitive tasks such as summarization, database queries and customer support. The model costs about 75 percent less than Haiku 4.5 on average, and prices drop by up to 90 percent for prompts up to 100,000 tokens, which Anthropic says account for roughly 90 percent of previous Haiku requests. Haiku 5.5 is available now on AWS, Google Cloud and Microsoft Azure.",
-  "note": "Banks running high-volume AI work such as customer service queries or compliance checks get a steep cost cut: Haiku 5.5 prices drop up to 90 percent against its predecessor, and Anthropic halved Sonnet 5.5's cache-read price in the same announcement, a sign of how fast the AI price war is moving.",
+  "updatedAt": "2026-10-08T22:05:00+07:00",
+  "correction": "Note: dropped compliance checks (not in source), added The Decoder caveat that real-world savings are likely smaller.",
+  "note": "Banks running high-volume AI work such as customer support or database queries pay up to 90 percent less per token for most prompts. The Decoder says real-world savings are likely smaller.",
   "sources": [
     { "name": "Anthropic", "url": "https://www.anthropic.com/news" },
     { "name": "The Decoder", "url": "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/" }

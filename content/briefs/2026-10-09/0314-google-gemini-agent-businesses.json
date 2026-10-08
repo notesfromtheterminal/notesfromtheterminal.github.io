@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-09-google-gemini-agent-businesses",
+  "publishedAt": "2026-10-09T03:14:00+07:00",
+  "section": "models",
+  "company": "Google",
+  "headline": "Google's unified Gemini agent goes to businesses before consumers",
+  "body": "At a Google Cloud event on Thursday, the company announced a unified agent that can get things done on the user's behalf, and businesses get it before consumers. The agent gets its own Workspace account and email address, and it writes an audit trail attributed to the agent, instead of a person. Google CEO Sundar Pichai said Gemini has over 1 billion monthly active users.",
+  "note": "For banks and payment firms, the audit trail matters: an agent working inside company systems records its actions under its own name. Controls for that record are a question to settle before rollout.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "At a Google Cloud event on Thursday, the company announced it's bringing its Gemini AI into the agentic age, with the launch of a unified agent that can not only answer questions but also get things done on the user's behalf, all from a single interface." },
+    { "source": 0, "text": "Given Gemini's adoption in the corporate world, Google will initially focus on bringing the agent to businesses before later rolling it out to consumers." },
+    { "source": 0, "text": "Notably, the AI will have its own Workspace account, as if it's just another co-worker. That means it has its own email address and its own context, Google said." },
+    { "source": 0, "text": "As it takes action, it writes an audit trail attributed to the agent, instead of a person." },
+    { "source": 0, "text": "Google CEO Sundar Pichai pointed out at the event's start, Gemini today has over 1 billion monthly active users." },
+    { "source": 0, "text": "Users can keep track of what Gemini is doing from a \"tasks inbox\" interface, where they can see Gemini's thinking process, delegation of tasks to subagents, loading of special skills, code, and progress." }
+  ]
+}

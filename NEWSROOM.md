@@ -71,7 +71,7 @@ These rules exist because of real errors on this site: a paraphrase printed as a
 - Source quality: lead with the primary source (the company's release, the regulator's statement, the filing) and back it with an established outlet (see `config/publishers.json`). Aggregators and content farms (for example Archyde, PressNewsAgency, Crypto Briefing) are never a brief's source; if they are the only corroboration, find a better one or skip the story.
 - Market moves: use the source's figure and its framing (intraday or close). If sources disagree, use the safe bound ("more than 2.5%").
 - Layoffs, lawsuits and fraud allegations: report only what was said on the record, by whom, and where (hearing, filing, statement).
-- If a published brief turns out to be wrong, fix the text and add `"correction"` and `"updatedAt"`. Never delete a brief quietly.
+- If a published brief turns out to be wrong, fix the text and add `"correction"` and `"updatedAt"`. The `correction` field is the desk's internal record of what changed and why; the site does not show it to readers (the owner's choice), so write it plainly for the next editor. Never delete a brief quietly.
 
 ## Writing
 

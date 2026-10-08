@@ -1,0 +1,24 @@
+{
+  "id": "2026-10-08-crowdstrike-artex-korean-finance",
+  "publishedAt": "2026-10-08T22:10:00+07:00",
+  "section": "banking",
+  "tags": ["sea"],
+  "company": "CrowdStrike",
+  "headline": "CrowdStrike identifies AI tool ARTEX in campaign against South Korean financial organizations",
+  "body": "CrowdStrike Intelligence says a campaign against South Korean financial organizations, active from late September to early October 2026, resulted in exfiltrated data. It says the threat actor, likely a financially motivated Chinese speaker (moderate confidence), used ARTEX, an open-source agentic pentesting tool developed in China. The number of affected organizations remains unconfirmed.",
+  "note": "CrowdStrike says this activity shows how AI tooling can let a financially motivated actor run multiple intrusions in a short time span, and expects adversaries to keep experimenting with it. For bank security teams in Asia, that is a concrete case to read against their own exposure.",
+  "sources": [
+    { "name": "CrowdStrike", "url": "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "CrowdStrike Intelligence identified infrastructure associated with a targeted campaign against South Korean financial organizations that resulted in exfiltrated data." },
+    { "source": 0, "text": "The campaign was active from late September to early October 2026." },
+    { "source": 0, "text": "In this activity, the threat actor leveraged ARTEX, a recently released open-source agentic penetration testing (pentesting) tool developed in China, alongside large language models (LLMs)." },
+    { "source": 0, "text": "While this activity has not been attributed to a named adversary, the threat actor is likely a Chinese speaker and financially motivated." },
+    { "source": 0, "text": "This assessment is made with moderate confidence based on the use of the Chinese-developed tool ARTEX and observed Chinese-language prompts." },
+    { "source": 0, "text": "Analysis of threat actor-controlled open directories uncovered Claude Code session histories, ARTEX configuration files, and Claude memory files, providing direct insight into the threat actor's operational methodology and tooling." },
+    { "source": 0, "text": "As of this writing, the number of organizations affected remains unconfirmed." },
+    { "source": 0, "text": "This activity demonstrates how AI tooling can enable a financially motivated threat actor to conduct multiple intrusions within a short time span." },
+    { "source": 0, "text": "CrowdStrike Intelligence assesses that adversaries will likely continue to experiment with implementing AI tooling in their operations to enhance their operational tempo and capabilities." }
+  ]
+}

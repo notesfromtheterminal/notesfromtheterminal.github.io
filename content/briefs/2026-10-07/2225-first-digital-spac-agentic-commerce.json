@@ -4,9 +4,11 @@
   "section": "payments",
   "tags": ["deals"],
   "company": "First Digital",
-  "headline": "Stablecoin issuer First Digital plans Nasdaq listing to fund agentic commerce push",
-  "body": "First Digital, the Hong Kong-based issuer of the FDUSD stablecoin, said it plans to list on Nasdaq through a SPAC merger with CSLM Digital Asset Acquisition Corp III to fund the expansion of Finance District, its ecosystem for the agentic economy. Four Finance District products are already live, including Agent Wallet, a multi-chain wallet that AI agents operate through the Model Context Protocol. Founder and CEO Vincent Chok said a listing would give the company \"access to public capital markets.\"",
-  "note": "A stablecoin issuer going public specifically to build out wallets and payment rails for AI agents shows how fast crypto firms are racing to claim infrastructure in agentic commerce before banks and card networks settle on their own rules.",
+  "headline": "Stablecoin issuer First Digital to list on Nasdaq via SPAC to help fund Finance District",
+  "body": "First Digital, the Hong Kong-based stablecoin issuer, says its listing will happen through a SPAC merger with CSLM Digital Asset Acquisition Corp III, and the Nasdaq listing is designed to help fund the expansion of Finance District, its ecosystem for the agentic economy. Four Finance District products are already live, and these include Agent Wallet, a multi-chain wallet that AI agents operate via the Model Context Protocol. CEO Vincent Chok said a listing would give the company \"access to public capital markets.\"",
+  "updatedAt": "2026-10-09T03:15:00+07:00",
+  "correction": "Headline and body reworded: the source says the Nasdaq listing is designed to help fund Finance District, not that it is to fund it. Note no longer says banks and card networks have their own approaches, which no source here states.",
+  "note": "A stablecoin issuer is listing on Nasdaq to help fund an ecosystem for the agentic economy, and one of its Finance District products is a wallet that AI agents already operate.",
   "sources": [
     { "name": "PYMNTS", "url": "https://www.pymnts.com/cryptocurrency/2026/first-digital-eyes-agentic-commerce-expansion-with-spac-listing/" }
   ],
