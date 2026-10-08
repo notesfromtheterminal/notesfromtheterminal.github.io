@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-08",
+  "publishedAt": "2026-10-08T07:00:00+07:00",
+  "title": "AI risk in finance now has a rulebook, a price and an owner",
+  "dek": "Singapore finalised its AI risk rules for financial firms, insurers are bracing for claims from rogue agents, and the cyber threat to banks is rising as HSBC plans deep AI-linked job cuts.",
+  "lead": "2026-10-07-mas-ai-risk-guidelines-finance",
+  "stories": [
+    "2026-10-07-insurers-ai-agent-liability-claims",
+    "2026-10-07-jpmorgan-dimon-mythos-ai-risk",
+    "2026-10-07-anthropic-cyber-verification-program",
+    "2026-10-07-hsbc-uk-wealth-ai-job-cuts"
+  ],
+  "body": [
+    {
+      "head": "Singapore writes the rulebook",
+      "text": "MAS, Singapore's financial regulator, has issued its finalised Guidelines on AI Risk Management, which means financial institutions must maintain inventories of their AI use and apply controls covering data governance, cybersecurity, testing and human oversight. The rules phase in, with sections 3 and 4 taking effect on 7 October 2027, and MAS intends to consult the sector in 2027 on what additional guidance for agentic AI would be useful.",
+      "support": [
+        "The Monetary Authority of Singapore (MAS) has issued its finalised Guidelines on AI Risk Management for financial institutions.",
+        "MAS expects financial institutions to maintain inventories of their AI use and apply controls covering areas such as data governance, cybersecurity, testing, human oversight, monitoring and change management.",
+        "Implementation will take place in phases. Sections 3 and 4 will take effect on 7 October 2027, while Sections 5 and 6 will apply from 7 October 2028.",
+        "In 2027, the regulator intends to consult the financial sector on what additional guidance for agentic AI would be useful."
+      ]
+    },
+    {
+      "head": "Insurers start pricing agents",
+      "text": "Insurers are bracing for claims worth millions from AI agents that have spun out of control, the Financial Times reports, and Tim Rayner, head of underwriting and claims at Verisk, says the buck stops with the CEO. So the question of who answers for an agent's mistakes is moving from the engineering team to the boardroom, because that is where the liability lands.",
+      "support": [
+        "Insurers are bracing for claims worth millions from AI agents that have spun out of control.",
+        "The Financial Times reports that the personal liability of executives like Sam Altman (OpenAI) and Dario Amodei (Anthropic) is now in play, too.",
+        "Incidents like the hack of AI platform Hugging Face by OpenAI agents are driving the shift. Tim Rayner, head of underwriting and claims at Verisk, says the buck stops with the CEO. Every company leader must ensure proper oversight, and AI doesn't change that. If OpenAI carries directors and officers (D&O) insurance, it could cover costs from lawsuits against Altman."
+      ]
+    },
+    {
+      "head": "The threat to banks is rising",
+      "text": "JPMorgan CEO Jamie Dimon said threats related to AI \"went up 10-fold after Mythos,\" Anthropic's model. Anthropic, for its part, now reserves the top tier of its Cyber Verification Program, Specialized Access, for verified organizations authorized to test systems such as interbank transfer infrastructure, and its partners uncovered at least 129,000 verified software vulnerabilities between April and July 2026.",
+      "support": [
+        "JPMorgan CEO Jamie Dimon says cybersecurity risks soared when Anthropic released its Mythos AI model.",
+        "Threats related to artificial intelligence (AI) “went up 10-fold after Mythos,” Dimon said in an interview Tuesday (Oct. 6) with Bloomberg TV.",
+        "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+        "Specialized Access , which has the fewest cyber blocks, is reserved for a limited set of verified organizations that are authorized to test safety systems that could impact people’s lives or disrupt markets, such as flight operating systems, power grids, telecom networks, interbank transfer infrastructure, and government administrative networks.",
+        "Through the program, our partners uncovered at least 129,000 verified software vulnerabilities between April and July 2026."
+      ]
+    },
+    {
+      "head": "Fewer people, more automation",
+      "text": "HSBC is planning job cuts across its UK wealth management business as part of a broader push to integrate artificial intelligence, the Financial Times reported, and reductions among financial advisers could reach around 70 per cent. That puts more weight on the controls MAS is asking for, because human oversight has to work with fewer people around to do it.",
+      "support": [
+        "HSBC is planning sweeping job cuts across its UK wealth management business, including a sharp reduction in financial advisers and specialist staff, as part of a broader push to integrate artificial intelligence, the Financial Times reported on Wednesday (Oct 7).",
+        "The bank plans to cut about half of management and specialist roles in the business, while reductions among financial advisers could reach around 70 per cent, the report said, citing people familiar with the plans.",
+        "MAS expects financial institutions to maintain inventories of their AI use and apply controls covering areas such as data governance, cybersecurity, testing, human oversight, monitoring and change management."
+      ]
+    },
+    {
+      "head": "Start with the inventory",
+      "text": "So for anyone running AI in a bank or lender, the practical first step is the one MAS spells out: keep an inventory of your AI use, with each model and agent, who owns it and what it can reach. The same list gives a regulator, an insurer and a security team one place to start, which is why it is worth building before any of them asks.",
+      "support": [
+        "MAS expects financial institutions to maintain inventories of their AI use and apply controls covering areas such as data governance, cybersecurity, testing, human oversight, monitoring and change management."
+      ]
+    }
+  ],
+  "suggestion": "A line on how your own clients are starting their AI inventories, or what they find hardest to list, would fit at the end of the last section."
+}
