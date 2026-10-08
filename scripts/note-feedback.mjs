@@ -1,10 +1,12 @@
 // The reviewer's verdict on the open Morning Note pull request, for the desk. Prints the
-// branch and the requested changes when the latest verdict (a comment starting with
-// CHANGES or APPROVED, from an owner, member, collaborator or a reviewer named in the config) asks for changes and is newer
-// than the branch's last commit; prints nothing to do otherwise. The repo is public, so no
+// branch and the requested changes when the latest verdict asks for changes and is newer
+// than the branch's last commit; prints nothing to do otherwise. A verdict is a comment starting
+// with CHANGES or APPROVED, from an owner, member, collaborator or a reviewer named in the config,
+// or the review run's file on main for the branch's head commit (scripts/review.mjs). The repo is public, so no
 // token is needed.
 //   node scripts/note-feedback.mjs
 import { p, readJSON } from './lib/util.mjs';
+import { fileVerdict } from './review.mjs';
 
 const repo = 'notesfromtheterminal/notesfromtheterminal.github.io';
 const TRUSTED = new Set(['OWNER', 'MEMBER', 'COLLABORATOR']);
@@ -26,6 +28,9 @@ for (const pr of prs) {
   const verdicts = (await api(`/issues/${pr.number}/comments?per_page=100`)).filter(
     (c) => trusted(c) && /^\s*(APPROVED|CHANGES)\b/.test(c.body),
   );
+  const file = await fileVerdict(pr.head.ref.slice('claude/note-'.length), pr.head.sha);
+  if (file) verdicts.push({ body: `${file.verdict}\n\n${file.notes}`, created_at: file.at });
+  verdicts.sort((a, b) => Date.parse(a.created_at) - Date.parse(b.created_at));
   const latest = verdicts.at(-1);
   if (!latest || !/^\s*CHANGES\b/.test(latest.body) || Date.parse(latest.created_at) < last) continue;
   todo++;

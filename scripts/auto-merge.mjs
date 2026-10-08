@@ -2,13 +2,15 @@
 // without the owner merging by hand. The reviewer (the owner's Grok bot, an org member) only
 // comments; this script, run by the workflow with its own token, does the merge. All required:
 //   - the branch is claude/note-YYYY-MM-DD and the PR changes only content/notes/YYYY-MM-DD.json
-//   - the latest verdict comment ("APPROVED ..." or "CHANGES ...") from an owner, member,
-//     collaborator or a reviewer named in config/site.json is APPROVED, and it was posted after the branch's last commit
+//   - the latest verdict is APPROVED: a comment ("APPROVED ..." or "CHANGES ...") from an owner, member,
+//     collaborator or a reviewer named in config/site.json, posted after the branch's last commit, or
+//     the review run's file on main (content/review/verdicts/YYYY-MM-DD.json) for the head commit
 //   - every check on the head commit passed (skipped checks are fine)
 //   node scripts/auto-merge.mjs [--dry-run]
 import { execFileSync } from 'node:child_process';
 import { pathToFileURL } from 'node:url';
 import { p, readJSON } from './lib/util.mjs';
+import { fileVerdict } from './review.mjs';
 
 const repo = process.env.GITHUB_REPOSITORY || 'notesfromtheterminal/notesfromtheterminal.github.io';
 const dry = process.argv.includes('--dry-run');
@@ -31,7 +33,7 @@ export function verdictOf(pr, reviewers = new Set()) {
     .filter((c) => (TRUSTED.has(c.authorAssociation) || reviewers.has(c.author.login.toLowerCase())) && /^\s*(APPROVED|CHANGES)\b/.test(c.body) && Date.parse(c.createdAt) > last)
     .sort((a, b) => Date.parse(a.createdAt) - Date.parse(b.createdAt));
   const latest = verdicts.at(-1);
-  return latest ? { word: latest.body.trim().split(/\s/)[0].replace(/\W+$/, ''), by: latest.author.login } : null;
+  return latest ? { word: latest.body.trim().split(/\s/)[0].replace(/\W+$/, ''), by: latest.author.login, at: Date.parse(latest.createdAt) } : null;
 }
 
 if (import.meta.url === pathToFileURL(process.argv[1]).href) {
@@ -46,7 +48,10 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
       console.log(`auto-merge: #${pr.number} changes more than the note (${files.join(', ')}); left for the owner`);
       continue;
     }
-    const verdict = verdictOf(pr, new Set((site.reviewers ?? []).map((x) => x.toLowerCase())));
+    const comment = verdictOf(pr, new Set((site.reviewers ?? []).map((x) => x.toLowerCase())));
+    const file = await fileVerdict(date, pr.headRefOid);
+    // Whichever came last counts: a reviewer can overrule the review run, and the other way round.
+    const verdict = file && (!comment || Date.parse(file.at) > comment.at) ? { word: file.verdict, by: 'the review run' } : comment;
     if (verdict?.word !== 'APPROVED') {
       console.log(`auto-merge: #${pr.number} ${verdict ? `has ${verdict.word} from ${verdict.by}` : 'has no verdict since its last commit'}`);
       continue;

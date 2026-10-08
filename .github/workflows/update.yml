@@ -151,6 +151,31 @@ jobs:
             if [ -n "$pr" ]; then gh pr comment "$pr" --body-file comment.md; else echo "::warning::No merged pull request for the $date note"; fi
           done
 
+  # The review run's verdict (content/review/verdicts/, REVIEW.md), shown on the note's pull
+  # request so the Publisher and Site Watch can see it. auto-merge reads the file, not this comment.
+  review-comment:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Post new verdicts on their pull requests
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          git cat-file -e "$BEFORE^{commit}" 2>/dev/null || exit 0
+          for f in $(git diff --name-only --diff-filter=AM "$BEFORE" HEAD -- content/review/verdicts); do
+            pr="$(jq -r .pr "$f")"
+            { echo "Review run verdict: **$(jq -r .verdict "$f")** for commit $(jq -r '.commit[0:7]' "$f")"; echo; jq -r .notes "$f"; } > verdict.md
+            gh pr comment "$pr" --body-file verdict.md || echo "::warning::Could not comment on #$pr"
+          done
+
   # Second check on the desk's commits: every evidence sentence must be on its source
   # page. An unreadable page is only a warning here (publishers block GitHub's runners
   # more often); a sentence missing from a readable page fails the run.
