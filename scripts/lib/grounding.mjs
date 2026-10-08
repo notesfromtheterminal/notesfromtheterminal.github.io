@@ -198,6 +198,21 @@ export function speakersOf(clause) {
   words.forEach((w, i) => {
     if (!SAY.test(w.toLowerCase().replace(/[^a-z]/g, ''))) return;
     const who = [];
+    // An appositive name right before the verb: "Verisk's head of claims, Tim Rayner, said".
+    if (/,$/.test(words[i - 1] ?? '') && named(words[i - 1])) {
+      for (let j = i - 1; j >= 0 && who.length < 4; j--) {
+        if (j < i - 1 && /[,;:.!?]$/.test(words[j])) break;
+        if (!named(words[j])) break;
+        who.unshift(words[j].replace(/,$/, ''));
+      }
+      // Only between two commas: "claims, Tim Rayner, said", not "claims at Verisk, says".
+      const before = words[i - 1 - who.length];
+      if (who.length && /,$/.test(before ?? '')) {
+        out.push(norm(who.join(' ')));
+        return;
+      }
+      who.length = 0;
+    }
     for (let j = i - 1; j >= 0 && who.length < 9; j--) {
       const raw = words[j];
       if (/[,;:]$/.test(raw) || (/[.!?]$/.test(raw) && !abbreviation(raw))) break;
@@ -222,8 +237,15 @@ export function attributedClauses(text) {
     .flatMap(clausesOf)
     .filter((c) => speakersOf(c).some((sp) => !NEUTRAL.test(sp)));
 }
-export function misattributed(text, evidence) {
-  const ev = evidence.map((t) => ({ text: norm(t), speakers: clausesOf(t).flatMap(speakersOf) }));
+const sentencesOf = (t) => String(t).split(/(?<=[.!?]["\u201D]?)\s+(?=[A-Z"\u201C])/);
+// `owners[i]` names who published evidence[i] (a company's own release speaks for the company).
+export function misattributed(text, evidence, owners = []) {
+  const ev = evidence.flatMap((t, i) => sentencesOf(t).map((x, k) => ({ item: i, k, text: norm(x), speakers: clausesOf(x).flatMap(speakersOf), owner: norm(owners[i] ?? '') })));
+  // Where in its evidence item a speaker is first named: words before that are the outlet's framing.
+  const firstNamed = (x, m) => {
+    const hit = ev.find((y) => y.item === x.item && speakerWords(m).some((sw) => y.text.includes(sw)));
+    return hit ? hit.k : -1;
+  };
   const out = [];
   for (const sentence of String(text ?? '').split(/(?<=[.!?]["”]?)\s+(?=[A-Z"“])/))
     for (const clause of clausesOf(sentence)) {
@@ -235,6 +257,10 @@ export function misattributed(text, evidence) {
         if (!holders.length) continue;
         const others = (x) => x.speakers.length && x.speakers.every((sp) => !NEUTRAL.test(sp) && !mine.some((m) => sameSpeaker(sp, m) || sameSpeaker(m, sp)));
         if (holders.every(others)) out.push({ sentence, word: w, speaker: mine[0], source: holders[0].speakers[0] });
+        // The outlet says it in its own voice before it names the speaker at all: "Rayner said the
+        // Hugging Face hack is driving the shift" when that came from the sentence before Rayner's.
+        else if (holders.every((x) => !x.speakers.length && mine.every((m) => !speakerWords(m).some((sw) => x.owner.includes(sw)) && firstNamed(x, m) > x.k)))
+          out.push({ sentence, word: w, speaker: mine[0], source: 'the outlet in its own voice' });
       }
     }
   return out;
@@ -290,3 +316,30 @@ export function unsupported(text, refs, share = 0.6) {
     });
 }
 
+
+// Hardening: words of obligation or certainty the source does not use. "MAS expects firms to keep
+// inventories" must not become "firms must keep inventories".
+const HARD = /\b(must|required|requires|require|mandatory|mandates?|mandated|obliged|obligated|compels?|compelled|forced|forces|bans?|banned|prohibits?|prohibited|guarantees?|guaranteed|confirms?|confirmed|proves?|proved|proven)\b/gi;
+export function hardened(text, refs) {
+  const pool = norm(refs.join(' \n '));
+  const found = new Set();
+  for (const m of quietQuotes(text).matchAll(HARD)) {
+    const w = m[1].toLowerCase();
+    const same = w === 'must' ? /\b(?:must|ha(?:d|s|ve) to|needs? to|required)\b/ : null;
+    if (!pool.includes(root(w)) && !pool.includes(w) && !(same && same.test(pool))) found.add(w);
+  }
+  return [...found];
+}
+
+// Links: words that make one fact the cause or consequence of another. The note may join facts,
+// but a cause, a consequence or a "this means" needs a source that says so.
+const LINK = /\b(which means|this means|that means|meaning that|because|as a result|which is why|that is why|that's why|so that|leads? to|led to|driven by|driving|drives|fuel(?:s|ed|ing)?|caus(?:e|es|ed|ing)|in response to|thanks to|due to)\b|(?:^|[.!?]\s+)(So)\b|,\s+(so)\s/g;
+export function linked(text, refs) {
+  const pool = norm(refs.join(' \n '));
+  const found = new Set();
+  for (const m of quietQuotes(text).matchAll(LINK)) {
+    const w = (m[1] ?? m[2] ?? m[3]).toLowerCase();
+    if (w === 'so' || !pool.includes(w)) found.add(w);
+  }
+  return [...found];
+}

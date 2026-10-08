@@ -20,7 +20,7 @@ The site itself is static HTML on GitHub Pages. A small script in the page refre
 ```
 config/      site.json, sources.json (feeds), sections.json (tagging rules), tickers.json, publishers.json
 content/     briefs/YYYY-MM-DD/*.json and notes/YYYY-MM-DD.json, written by the desk
-scripts/     fetch-wire, fetch-ticker, validate, build, serve
+scripts/     fetch-wire, desk-digest, fetch-ticker, validate, build, serve
 src/         templates.mjs, site.css, app.js
 public/      favicon, share card (og.png)
 NEWSROOM.md  the desk's operating manual (read it before writing a brief)

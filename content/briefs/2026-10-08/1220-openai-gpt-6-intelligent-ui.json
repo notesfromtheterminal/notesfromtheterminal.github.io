@@ -1,0 +1,24 @@
+{
+  "id": "2026-10-08-openai-gpt-6-intelligent-ui",
+  "publishedAt": "2026-10-08T12:20:00+07:00",
+  "section": "models",
+  "star": false,
+  "company": "OpenAI",
+  "headline": "OpenAI rolls out GPT-6 with an interactive 'Intelligent UI' in ChatGPT",
+  "body": "OpenAI is rolling out GPT-6 globally in ChatGPT with a new 'Intelligent UI' that presents answers as interactive charts, buttons and small tools built into the chat instead of plain text, adapting its format to each question. Paying users get GPT-6 Sol while free users get GPT-6 Luna, and GPT-6 can keep responding while still 'thinking,' which OpenAI says cuts wait times by 44 percent.",
+  "note": "Banks and wealth platforms building client tools on ChatGPT will now see answers arrive as interactive charts and built-in mini-apps, so compliance teams will need to review that visual output before customers see it.",
+  "sources": [
+    { "name": "OpenAI", "url": "https://openai.com/index/gpt-6-for-everyone" },
+    { "name": "The Decoder", "url": "https://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly." },
+    { "source": 1, "text": "OpenAI is rolling out GPT-6 with a new feature called \"Intelligent UI\" for all ChatGPT users." },
+    { "source": 1, "text": "The model now presents answers as interactive interfaces with graphics, buttons, charts, and forms instead of plain text." },
+    { "source": 1, "text": "The format automatically adapts to the question, so comparisons show up side by side and explanations can turn into interactive charts." },
+    { "source": 1, "text": "Users can also have small tools built right inside the chat, like a savings calculator or a game." },
+    { "source": 1, "text": "Paying customers get GPT-6 Sol, free users get GPT-6 Luna." },
+    { "source": 1, "text": "GPT-6 can also respond while still \"thinking.\"" },
+    { "source": 1, "text": "OpenAI says this cuts wait times by 44 percent and can produce better answers." }
+  ]
+}
