@@ -1,7 +1,7 @@
 {
   "note": "2026-10-09",
-  "commit": "fbfb3186b05a0607e93ad4adc5b6e89a2382d459",
-  "verdict": "CHANGES",
-  "at": "2026-10-08T16:47:33.862Z",
-  "notes": "1. Section 2 (\"The chat window becomes a tool\") says \"OpenAI says this cuts wait times by 44 percent.\" Source (The Decoder, Oct 7): \"OpenAI says this cuts wait times by 44 percent and can produce better answers.\" OpenAI's own page is unreadable (HTTP 403) and its feed text does not give the figure, so it cannot be confirmed at the primary source. The desk's own brief 2026-10-08-openai-gpt-6-intelligent-ui carries a correction: \"a reader reported that OpenAI gives it for a narrower case, which we could not confirm on OpenAI's page, so it has been removed.\" The note reinstates the figure the brief withdrew. Fix: delete the sentence \"OpenAI says this cuts wait times by 44 percent.\" (and its evidence line), ending the paragraph's facts at \"respond while still \\\"thinking.\\\"\".\n2. Brief 2026-10-07-first-digital-spac-agentic-commerce, headline and body say First Digital plans to list on Nasdaq \"to fund\" the Finance District expansion (headline: \"to fund agentic commerce push\"). Source (PYMNTS): \"The Nasdaq listing is designed to help First Digital fund the expansion of Finance District\". The brief's own correction says it was reworded to \"designed to help fund\", but the headline and body still say \"to fund\". Fix: body \"to help fund the expansion of Finance District\"; headline, for example \"Stablecoin issuer First Digital plans Nasdaq listing to help fund agentic commerce push\". The brief also calls First Digital \"issuer of the FDUSD stablecoin\"; the source says \"stablecoin issuer\" and names FDUSD only as settlement, so \"the Hong Kong-based stablecoin issuer\" is safer."
+  "commit": "607b5cfaba598c0bbd1cd27703db316615e13ce2",
+  "verdict": "APPROVED",
+  "at": "2026-10-08T22:47:12.204Z",
+  "notes": ""
 }
