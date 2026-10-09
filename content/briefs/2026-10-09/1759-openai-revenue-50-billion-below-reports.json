@@ -1,0 +1,46 @@
+{
+  "id": "2026-10-09-openai-revenue-50-billion-below-reports",
+  "publishedAt": "2026-10-09T17:59:00+07:00",
+  "section": "deals",
+  "star": true,
+  "company": "OpenAI",
+  "headline": "OpenAI told investors its annualized revenue is roughly $50 billion, below the $68 billion widely reported",
+  "body": "OpenAI told investors it hit roughly $50 billion in annualized revenue at the end of September, CNBC confirmed, lower than the $68 billion figure widely reported late last month. A person familiar with the matter said the $68 billion figure included gross revenue from OpenAI's partners. Nvidia shares fell 3%, Oracle nearly 6% and CoreWeave nearly 8% on Thursday.",
+  "note": "For lenders and investors with exposure to AI infrastructure, the gap is a reminder to check what a run-rate figure counts: OpenAI and Anthropic calculate annualized revenue differently, TechCrunch notes.",
+  "sources": [
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html"
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "OpenAI told investors that it hit roughly $50 billion in annualized revenue at the end of September, CNBC confirmed, lower than the the $68 billion figure widely reported late last month."
+    },
+    {
+      "source": 0,
+      "text": "A person familiar with the matter said the $68 billion figure included gross revenue from OpenAI's partners, which helps investors make a more direct comparison with Anthropic."
+    },
+    {
+      "source": 0,
+      "text": "Nvidia shares fell 3%, Oracle shares fell nearly 6% and CoreWeave shares slipped nearly 8% on Thursday."
+    },
+    {
+      "source": 0,
+      "text": "Shares of Nvidia , Oracle , CoreWeave and other artificial intelligence names sank lower on Thursday after the market learned more details about OpenAI's revenue."
+    },
+    {
+      "source": 1,
+      "text": "It’s worth pointing out that OpenAI and Anthropic calculate their annualized revenue differently — with Anthropic counting sales made by its cloud partners. OpenAI doesn’t do this."
+    },
+    {
+      "source": 1,
+      "text": "The Financial Times reports that the company has told investors that its annualized revenue is “approaching $50 billion.”"
+    }
+  ]
+}
