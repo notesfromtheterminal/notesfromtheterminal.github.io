@@ -512,7 +512,7 @@ ${signupBox('notes')}
       path: 'wire/',
       active: 'wire',
       pageKind: 'wire',
-      body: `<header class="page-head"><p class="kicker"><span class="pulse" aria-hidden="true"></span> Live</p><h1 class="page-title">The Wire</h1><p class="page-dek">Every headline the desk is watching, from ${esc(String(ctx.sourceCount))} sources, refreshed about every ${esc(String(site.wireEveryMinutes ?? 20))} minutes. Each one links to the original story.</p></header>
+      body: `<header class="page-head"><p class="kicker"><span class="pulse" aria-hidden="true"></span> Live</p><h1 class="page-title">The Wire</h1><p class="page-dek">Every headline the desk is watching, as it lands. Each one links to the original story.</p></header>
 <div class="chips" role="group" aria-label="Filter by section">${chips}</div>
 <div class="wire-page">${groups
         .map((g) => `<h2 class="day">${esc(g.label)}</h2><ol class="wire-list wire-list-wide">${g.items.map(wireItem).join('')}</ol>`)
