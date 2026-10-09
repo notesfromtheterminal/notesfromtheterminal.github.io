@@ -432,7 +432,7 @@ ${related.length ? `<section><h2 class="label">On the wire</h2><ol class="wire-l
 <header class="np-head">
 <p class="np-folio"><span>Vol. I <span aria-hidden="true">·</span> No. ${edition}</span><span class="np-folio-mid">AI in finance, before the market opens</span><span>Seven o'clock edition</span></p>
 <p class="np-nameplate" aria-hidden="true">The Morning Note</p>
-<p class="np-motto">&ldquo;All the AI news a banker needs before the open.&rdquo;</p>
+<p class="np-motto">&ldquo;What changed in AI and finance overnight.&rdquo;</p>
 <p class="np-dateline"><span>${dateTag(n.publishedAt, longDay(n.publishedAt, tz))}</span><span class="np-ed">Morning Edition</span><span>${stories.length} ${stories.length === 1 ? 'story' : 'stories'} connected</span></p>
 </header>
 <div class="np-grid">
@@ -475,7 +475,7 @@ ${shareBar(n.title, path)}
 <header class="np-head">
 <p class="np-folio"><span>Vol. I <span aria-hidden="true">·</span> ${notes.length} editions</span><span class="np-folio-mid">AI in finance, before the market opens</span><span>Every morning, 07:00 WIB</span></p>
 <h1 class="np-nameplate">The Morning Note</h1>
-<p class="np-motto">&ldquo;All the AI news a banker needs before the open.&rdquo;</p>
+<p class="np-motto">&ldquo;What changed in AI and finance overnight.&rdquo;</p>
 <p class="np-dateline"><span>The archive</span><span class="np-ed">Every edition, newest first</span><span>By ${esc(site.author)}</span></p>
 </header>
 <section class="np-latest" aria-labelledby="np-latest-h">
