@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-09-openai-fired-safety-researchers",
+  "publishedAt": "2026-10-09T17:54:00+07:00",
+  "section": "models",
+  "star": false,
+  "company": "OpenAI",
+  "headline": "OpenAI defends decision to fire three safety researchers, who dispute misconduct claims",
+  "body": "OpenAI said it fired safety researchers Jasmine Wang, Tomek Korbak and Mikita Balesni after an investigation found they violated clear policies on handling sensitive information, and that the decision was not about raising safety concerns. The three published an open letter on Thursday denying they mishandled sensitive information and warning that terminations like theirs are \"chilling the open culture OpenAI has prized in the past.\"",
+  "note": "Banks that buy from AI labs now have a governance question to add to vendor reviews: how the lab treats the safety staff who flag risks. The dispute lands as OpenAI gears up for an expected IPO in 2027, CNBC reports.",
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/"
+    },
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/09/openai-fired-researchers-ai-concerns.html"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 1,
+      "text": "OpenAI on Friday defended its decision to fire three safety researchers, saying they had committed a \"significant breach of trust.\""
+    },
+    {
+      "source": 0,
+      "text": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect"
+    },
+    {
+      "source": 1,
+      "text": "The AI lab said in a post on X that its decision to part ways with Jasmine Wang, Tomek Korbak and Mikita Balesni, was not about the fact that they had raised safety concerns."
+    },
+    {
+      "source": 1,
+      "text": "The decision came \"after a thorough investigation found they violated clear policies on handling sensitive information,\" OpenAI said in the Friday statement."
+    },
+    {
+      "source": 0,
+      "text": "Jasmine Wang, Tomek Korbak, and Mikita Balesni, the three safety researchers that OpenAI fired last week , have published an open letter denying the firm’s claims that they mishandled sensitive information outside of established company procedures and warned that their dismissal signals a chilling effect that will have ripple effects across the company’s culture."
+    },
+    {
+      "source": 0,
+      "text": "“Terminations such as ours, executed and communicated so abruptly, are chilling the open culture OpenAI has prized in the past.”"
+    },
+    {
+      "source": 1,
+      "text": "The three researchers on Thursday shared a letter they sent to OpenAI's board and safety committees."
+    },
+    {
+      "source": 0,
+      "text": "“I want to be very clear that these decisions were not about raising safety concerns or speaking out,” the memo reads."
+    },
+    {
+      "source": 1,
+      "text": "This latest development comes as OpenAI gears up for an expected IPO in 2027."
+    }
+  ]
+}
