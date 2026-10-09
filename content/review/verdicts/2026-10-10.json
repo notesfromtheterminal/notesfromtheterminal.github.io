@@ -1,7 +1,7 @@
 {
   "note": "2026-10-10",
-  "commit": "9dea08fe7c4d239df460cae65affbe19622adc04",
-  "verdict": "CHANGES",
-  "at": "2026-10-09T16:47:45.488Z",
-  "notes": "1. Brief 2026-10-09-firmus-withdraws-ipo, note field says \"Investors judging the next wave of AI listings will watch whether others follow.\" Source (CNBC): nothing about what investors will watch or about other listings following; it only says Firmus \"will now pursue capital from the private markets and consider alternative public and private market options.\" Fix: drop that sentence, ending the note after \"...keeping other public and private options open.\" (the brief was already corrected once for an unsourced inference of this kind)."
+  "commit": "a03250963bafaff7e24bfe804bdef0c17265a2ae",
+  "verdict": "APPROVED",
+  "at": "2026-10-09T22:46:33.314Z",
+  "notes": ""
 }
