@@ -2,7 +2,7 @@
   "date": "2026-10-10",
   "publishedAt": "2026-10-10T07:00:00+07:00",
   "title": "A number is only as good as what it counts",
-  "dek": "OpenAI's revenue figure, Firmus's pulled IPO and Anthropic's new dashboards all come down to knowing what sits behind a number.",
+  "dek": "OpenAI's revenue figure and Anthropic's new dashboards both come down to knowing what sits behind a number, while Firmus pulls its IPO on market volatility.",
   "lead": "2026-10-09-openai-revenue-50-billion-below-reports",
   "stories": [
     "2026-10-09-firmus-withdraws-ipo",
@@ -11,7 +11,7 @@
   "body": [
     {
       "head": "A run-rate depends on its definition",
-      "text": "OpenAI told investors that it hit roughly $50 billion in annualized revenue at the end of September, CNBC confirmed, lower than the $68 billion figure widely reported late last month. A person familiar with the matter said the $68 billion figure included gross revenue from OpenAI's partners, and the coverage points out that OpenAI and Anthropic calculate their annualized revenue differently, with Anthropic counting sales made by its cloud partners while OpenAI does not.",
+      "text": "OpenAI told investors that it hit roughly $50 billion in annualized revenue at the end of September, CNBC confirmed, lower than the $68 billion figure widely reported late last month. A person familiar with the matter said the $68 billion figure included gross revenue from OpenAI's partners, and TechCrunch notes that OpenAI and Anthropic calculate their annualized revenue differently, with Anthropic counting sales made by its cloud partners while OpenAI does not.",
       "support": [
         "OpenAI told investors that it hit roughly $50 billion in annualized revenue at the end of September, CNBC confirmed, lower than the the $68 billion figure widely reported late last month.",
         "A person familiar with the matter said the $68 billion figure included gross revenue from OpenAI's partners, which helps investors make a more direct comparison with Anthropic.",
@@ -19,8 +19,8 @@
       ]
     },
     {
-      "head": "Markets and listings feel it too",
-      "text": "Shares of Nvidia, Oracle, CoreWeave and other artificial intelligence names sank lower on Thursday after the market learned more details about OpenAI's revenue. Meanwhile Firmus, an Australian AI data center operator backed by Nvidia, has withdrawn its planned IPO, citing market volatility and conditions, the company said in an emailed statement to CNBC, and it had reportedly sought to raise $5 billion at about $30.6 billion.",
+      "head": "An AI listing pulled on volatility",
+      "text": "Shares of Nvidia, Oracle, CoreWeave and other artificial intelligence names sank lower on Thursday after the market learned more details about OpenAI's revenue. Meanwhile Firmus, an Australian AI data center operator backed by Nvidia, has withdrawn its planned IPO, citing market volatility and conditions, the company said in an emailed statement to CNBC, and it had reportedly sought to raise $5 billion at a valuation of about $30.6 billion.",
       "support": [
         "Shares of Nvidia , Oracle , CoreWeave and other artificial intelligence names sank lower on Thursday after the market learned more details about OpenAI's revenue.",
         "Australian AI data center operator Firmus, which is backed by Nvidia , has withdrawn its planned mega initial public offering, citing market volatility and conditions, the company said in an emailed statement to CNBC.",
