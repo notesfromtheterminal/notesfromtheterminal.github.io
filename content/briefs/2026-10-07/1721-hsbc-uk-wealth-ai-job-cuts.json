@@ -1,12 +1,14 @@
 {
   "id": "2026-10-07-hsbc-uk-wealth-ai-job-cuts",
   "publishedAt": "2026-10-07T17:21:00+07:00",
+  "updatedAt": "2026-10-09T12:30:00+07:00",
+  "correction": "An earlier version said adviser roles were set to fall by around 70 per cent in a concrete plan; the report says reductions could reach that level, citing people familiar with the plans.",
   "section": "banking",
   "star": false,
   "company": "HSBC",
   "headline": "HSBC plans job cuts across UK wealth business in AI push",
   "body": "HSBC is planning job cuts across its UK wealth management business, including a sharp reduction in financial advisers and specialist staff, as part of a broader push to integrate artificial intelligence, the Financial Times reported. The bank plans to cut about half of management and specialist roles, while reductions among financial advisers could reach around 70 per cent, citing people familiar with the plans.",
-  "note": "CEO Georges Elhedery told HSBC's investor day in May that generative AI will destroy certain jobs. Financial adviser roles are now set to fall by around 70 per cent, which turns that warning into a concrete plan within months.",
+  "note": "CEO Georges Elhedery told HSBC's investor day in May that generative AI will destroy certain jobs. Reductions among financial advisers could now reach around 70 per cent, according to people familiar with the plans.",
   "sources": [
     { "name": "The Business Times", "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/hsbc-plans-job-cuts-across-uk-wealth-business-ai-push-report" }
   ],
