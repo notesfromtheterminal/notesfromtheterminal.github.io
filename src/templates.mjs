@@ -466,17 +466,33 @@ ${shareBar(n.title, path)}
       description: 'One note every morning connecting the day in AI and finance.',
       path: 'notes/',
       active: 'notes',
-      body: `<header class="page-head"><p class="kicker">Every morning</p><h1 class="page-title">Morning Notes</h1><p class="page-dek">One note that connects the day's stories in AI and finance.</p></header>
-<div class="index-list">${
-        notes.length
-          ? notes
-              .map(
-                (n) =>
-                  `<article class="index-item"><p class="kicker">${esc(longDay(n.publishedAt, tz))}</p><h2 class="index-title"><a href="${u(`notes/${n.date}/`)}">${esc(n.title)}</a></h2>${n.dek ? `<p class="index-dek">${esc(n.dek)}</p>` : ''}</article>`,
-              )
-              .join('')
-          : '<p class="empty">The first Morning Note is on its way.</p>'
-      }</div>`,
+      body: (() => {
+        if (!notes.length) return `<div class="morning-note paper np-archive"><p class="empty">The first Morning Note is on its way.</p></div>`;
+        const sorted = [...notes].sort((a, b) => b.date.localeCompare(a.date));
+        const no = (n) => notes.filter((x) => x.date <= n.date).length;
+        const [latest, ...rest] = sorted;
+        return `<div class="morning-note paper np-archive">
+<header class="np-head">
+<p class="np-folio"><span>Vol. I <span aria-hidden="true">·</span> ${notes.length} editions</span><span class="np-folio-mid">AI in finance, before the market opens</span><span>Every morning, 07:00 WIB</span></p>
+<h1 class="np-nameplate">The Morning Note</h1>
+<p class="np-motto">&ldquo;All the AI news a banker needs before the open.&rdquo;</p>
+<p class="np-dateline"><span>The archive</span><span class="np-ed">Every edition, newest first</span><span>By ${esc(site.author)}</span></p>
+</header>
+<section class="np-latest" aria-labelledby="np-latest-h">
+<p class="np-kicker">Latest edition <span aria-hidden="true">·</span> No. ${no(latest)} <span aria-hidden="true">·</span> ${esc(longDay(latest.publishedAt, tz))}</p>
+<h2 class="np-title" id="np-latest-h"><a href="${u(`notes/${latest.date}/`)}">${esc(latest.title)}</a></h2>
+${latest.dek ? `<p class="np-dek">${esc(latest.dek)}</p>` : ''}
+<p class="np-read"><a href="${u(`notes/${latest.date}/`)}">Read the full note</a></p>
+</section>
+${rest.length ? `<h2 class="np-box-h np-back-h">Back issues</h2>
+<div class="np-issues">${rest
+  .map(
+    (n) => `<article class="np-issue"><p class="np-issue-k">No. ${no(n)} <span aria-hidden="true">·</span> ${esc(shortDay(n.publishedAt, tz))}</p><h3 class="np-issue-t"><a href="${u(`notes/${n.date}/`)}">${esc(n.title)}</a></h3>${n.dek ? `<p class="np-issue-d">${esc(n.dek)}</p>` : ''}</article>`,
+  )
+  .join('')}</div>` : ''}
+${signupBox('notes')}
+</div>`;
+      })(),
     });
   }
 
