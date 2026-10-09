@@ -3,7 +3,7 @@
 import { readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { attributedClauses, hardened, linked, misattributed, namesIn, norm, numbersIn, ungrounded, unsupported, untraced } from './lib/grounding.mjs';
+import { aboutSources, attributedClauses, hardened, linked, namesSea, unhedgedNumbers, misattributed, namesIn, norm, numbersIn, ungrounded, unsupported, untraced } from './lib/grounding.mjs';
 import { p, readJSON } from './lib/util.mjs';
 
 // House style (communication-style.md). "Leverage" is banned as jargon but stays legal
@@ -164,6 +164,11 @@ export async function loadContent({ now = Date.now() } = {}) {
             e.push(`"${m.word}" is given to ${m.speaker}, but the source gives it to ${m.source}: name who actually said it`);
         }
         if (Date.parse(b.publishedAt) >= MEANING_FROM) {
+          const flat = unhedgedNumbers(b.headline, ev.map((x) => x.text));
+          if (flat.length) e.push(`headline states ${flat.join(', ')} as settled, but every source sentence with it is hedged ("reportedly", "sought", "plans"): carry the hedge into the headline`);
+          if ((b.section === 'sea' || (b.tags ?? []).includes('sea')) && !namesSea(`${b.headline} ${b.body} ${b.company ?? ''} ${b.sources.map((x) => x.name).join(' ')} ${ev.map((x) => x.text).join(' ')}`))
+            e.push('filed on the SEA Desk, but no Southeast Asian country, city or ASEAN is named: use another section or tag');
+          if (aboutSources(b.note)) e.push('note comments on what the sources do or do not say: give the reader the news or its meaning instead');
           const hard = hardened(`${b.headline} \n ${b.body}`, ev.map((x) => x.text));
           if (hard.length) e.push(`${hard.map((w) => `"${w}"`).join(', ')}: the evidence never says this. Keep the source's own strength ("expects", "plans", "about")`);
           const links = linked(b.body, ev.map((x) => x.text));

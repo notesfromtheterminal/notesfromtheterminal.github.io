@@ -41,6 +41,8 @@ Beat priority, highest first:
 Rules of thumb:
 
 - 2 to 6 briefs per run is normal. Zero is fine.
+- **Judge each story on its own.** In your summary, give every skipped story its own one-line reason that is true of that story: "no readable source" only after you tried `source.mjs` on it, "repeat" only when you can name the earlier brief's id. Never skip a group of stories under one shared reason.
+- **Stories that must not be missed.** When several established outlets on the wire cover the same story about a major lab (its finances, leadership, staff, safety or legal fights) or about a big bank's AI plans, brief it or name in your summary the specific reason you could not. Wide coverage on the wire is the signal that readers will expect it here.
 - Models & Labs gets up to 2 briefs a run on top of the finance picks, so model news never crowds out the core beats and never waits for a quiet day.
 - One event, one brief. Merge coverage of the same story into a single brief with several sources.
 - **Fresh news only.** Check the date on every source page. Most briefs cover the last 48 hours. Up to 7 days old is fine when the wire only just surfaced it and it still matters, and then the body says when it happened ("on September 28"). Older than 7 days is not news: skip it, unless something new happened, and then brief the new thing from a fresh source. `npm run check` reads the dates on the source pages and enforces this.
@@ -64,6 +66,9 @@ These rules exist because of real errors on this site: a paraphrase printed as a
 
 - Every number, name, date and quote must appear in a source you opened during this run. Never write figures from a headline alone unless two independent outlets carry them.
 - If a source is blocked (paywall, Cloudflare, bot check), do not try to get around it. Find a second outlet or the company's own release. If you can't verify it, skip it.
+- Headlines keep the hedge. A figure the source reports ("reportedly sought $5 billion", "plans to hire 1,000") stays hedged in the headline ("reported at $5 billion", "plans to hire"); `npm run check` rejects a headline that states it as settled. Keep the source's verb too: "coach with an AI platform" is not "train on AI".
+- The SEA Desk (`"section": "sea"` or the `sea` tag) is for Southeast Asia only. Korea, Japan, China, India and Australia go in their beat section with no `sea` tag.
+- The note is about the news, never about the sources ("the sources do not describe..."). If a detail is missing, leave it out.
 - Attribute claims: "the bank estimates", "OpenAI says", "the union alleged". A company's marketing claim is never stated as fact.
 - Keep the source's strength. "Expects" never becomes "must", "plans" never becomes "cut", "about 400" never becomes "400", and "suspected" stays. `npm run check` rejects must, required, bans, confirmed and similar words the evidence does not use.
 - Give each claim to whoever made it. When an outlet says something in its own reporting, credit the outlet ("The Decoder says"), even if the next sentence quotes an expert; `npm run check` rejects a person credited with the sentence before they were named. A number belongs to what the source ties it to: if partners in an earlier program found it, say that program, not the new one.

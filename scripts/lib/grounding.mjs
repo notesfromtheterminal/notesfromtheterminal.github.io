@@ -343,3 +343,26 @@ export function linked(text, refs) {
   }
   return [...found];
 }
+
+// A headline that states a reported number as settled: every evidence sentence that gives the
+// number hedges it ("reportedly sought to raise $5 billion"), but the headline does not.
+const HEDGE = /\b(reported(?:ly)?|reports?|sought|seeks?|plans?|planned|aims?|could|may|might|expects?|expected|estimates?|estimated|according to|people familiar|said to|up to|about|roughly|around|nearly|almost|approaching|proposed|considering|in talks)\b/i;
+// In the headline only words that hedge the figure itself count: "its planned $5 billion IPO"
+// still states the size as fact.
+const HEAD_HEDGE = /\b((?:plans?|planning|aims?|intends?|wants?|hopes?|targets?) to|reported(?:ly)?|sought|seeks?|aims?|could|may|might|expects?|expected|estimates?|estimated|said to|up to|about|roughly|around|nearly|almost|approaching|as much as)\b/i;
+export function unhedgedNumbers(headline, evidence) {
+  if (HEAD_HEDGE.test(headline)) return [];
+  const sentences = evidence.flatMap(sentencesOf);
+  return numbersIn(headline).filter((n) => {
+    const holders = sentences.filter((t) => numbersIn(t).includes(n));
+    return holders.length && holders.every((t) => HEDGE.test(t));
+  });
+}
+
+// The SEA Desk is for Southeast Asia: a brief filed there must name a place in it.
+const SEA = /\b(UOB|DBS|OCBC|MAS|OJK|Bank Indonesia|BSP|BNM|Bank Negara|Maybank|CIMB|NSRC|Grab|GoTo|Gojek|Shopee|BCA|Bank Mandiri|BRI|Southeast Asia|South-?East Asia|ASEAN|Indonesia|Indonesian|Jakarta|Singapore|Singaporean|Malaysia|Malaysian|Kuala Lumpur|Philippines|Philippine|Filipino|Manila|Thailand|Thai|Bangkok|Vietnam|Vietnamese|Hanoi|Ho Chi Minh|Brunei|Cambodia|Laos|Myanmar|Timor)\b/;
+export const namesSea = (text) => SEA.test(String(text ?? ''));
+
+// A note that comments on the sources instead of the news ("the sources do not describe how it
+// would work") makes a claim about the source that is easy to get wrong and adds nothing.
+export const aboutSources = (text) => /\b(?:the |its |our )?(?:sources?|reports?|articles?|release|coverage)\s+(?:do|does|did)(?: not|n['’]t)\b/i.test(String(text ?? ''));
