@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-10",
+  "publishedAt": "2026-10-10T07:00:00+07:00",
+  "title": "A number is only as good as what it counts",
+  "dek": "OpenAI's revenue figure and Anthropic's new dashboards both come down to knowing what sits behind a number, while Firmus pulls its IPO on market volatility.",
+  "lead": "2026-10-09-openai-revenue-50-billion-below-reports",
+  "stories": [
+    "2026-10-09-firmus-withdraws-ipo",
+    "2026-10-09-anthropic-dashboards-motion-beta"
+  ],
+  "body": [
+    {
+      "head": "A run-rate depends on its definition",
+      "text": "OpenAI told investors that it hit roughly $50 billion in annualized revenue at the end of September, CNBC confirmed, lower than the $68 billion figure widely reported late last month. A person familiar with the matter said the $68 billion figure included gross revenue from OpenAI's partners, and TechCrunch notes that OpenAI and Anthropic calculate their annualized revenue differently, with Anthropic counting sales made by its cloud partners while OpenAI does not.",
+      "support": [
+        "OpenAI told investors that it hit roughly $50 billion in annualized revenue at the end of September, CNBC confirmed, lower than the the $68 billion figure widely reported late last month.",
+        "A person familiar with the matter said the $68 billion figure included gross revenue from OpenAI's partners, which helps investors make a more direct comparison with Anthropic.",
+        "It’s worth pointing out that OpenAI and Anthropic calculate their annualized revenue differently — with Anthropic counting sales made by its cloud partners. OpenAI doesn’t do this."
+      ]
+    },
+    {
+      "head": "An AI listing pulled on volatility",
+      "text": "Shares of Nvidia, Oracle, CoreWeave and other artificial intelligence names sank lower on Thursday after the market learned more details about OpenAI's revenue. Meanwhile Firmus, an Australian AI data center operator backed by Nvidia, has withdrawn its planned IPO, citing market volatility and conditions, the company said in an emailed statement to CNBC, and it had reportedly sought to raise $5 billion at a valuation of about $30.6 billion.",
+      "support": [
+        "Shares of Nvidia , Oracle , CoreWeave and other artificial intelligence names sank lower on Thursday after the market learned more details about OpenAI's revenue.",
+        "Australian AI data center operator Firmus, which is backed by Nvidia , has withdrawn its planned mega initial public offering, citing market volatility and conditions, the company said in an emailed statement to CNBC.",
+        "Firmus had reportedly sought to raise $5 billion through the IPO, which would have valued the company at about $30.6 billion, nearly triple its valuation in August."
+      ]
+    },
+    {
+      "head": "Show the query behind the figure",
+      "text": "Anthropic launched Dashboards in beta, which connects data sources like BigQuery, Databricks, Snowflake or Salesforce and turns them into auto-updating live dashboards from a text prompt. Every number shows its underlying query, Anthropic says, and for a finance team that gives a reviewer something concrete to check before a figure reaches a decision.",
+      "support": [
+        "Dashboards connects data sources like BigQuery, Databricks, Snowflake, or Salesforce and turns them into auto-updating live dashboards via text prompt.",
+        "Every number shows its underlying query, and results can be piped into tools like Amplitude, Grafana, or Hex, Anthropic says."
+      ]
+    },
+    {
+      "head": "Ask for the definition first",
+      "text": "Here is a habit for this week: when a figure lands on our desk, ask what it counts, who is counting it, and whether we can see where it came from. A number that arrives with its definition is easier to compare, and one that does not deserves a question before it goes into a paper or a decision."
+    }
+  ],
+  "suggestion": "A line on a time your own clients compared two figures that counted different things would fit at the end of the last section."
+}
