@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-09-anthropic-dashboards-motion-beta",
+  "publishedAt": "2026-10-09T07:22:00+07:00",
+  "section": "models",
+  "star": false,
+  "company": "Anthropic",
+  "headline": "Anthropic adds Dashboards and Motion beta features to Claude",
+  "body": "Anthropic launched two beta features for Claude. Dashboards turns sources like BigQuery, Snowflake or Salesforce into auto-updating live dashboards from a text prompt, and Anthropic says every number shows its underlying query. Motion creates animated explainer videos from text, diagrams and images, and is available on Team and Enterprise plans.",
+  "note": "For finance teams, the useful detail is that Anthropic says every number shows its underlying query, which gives a reviewer something to check before a figure reaches a decision.",
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Anthropic launched two new beta features for Claude." },
+    { "source": 0, "text": "Dashboards connects data sources like BigQuery, Databricks, Snowflake, or Salesforce and turns them into auto-updating live dashboards via text prompt." },
+    { "source": 0, "text": "Every number shows its underlying query, and results can be piped into tools like Amplitude, Grafana, or Hex, Anthropic says." },
+    { "source": 0, "text": "Motion creates animated explainer videos from text, diagrams, and images, editable as code and exportable as MP4." },
+    { "source": 0, "text": "Dashboards is available for paid users, Motion for Team and Enterprise plans." }
+  ]
+}

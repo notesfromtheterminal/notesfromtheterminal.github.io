@@ -1,0 +1,22 @@
+{
+  "id": "2026-10-09-arena-series-b-3-1b-valuation",
+  "publishedAt": "2026-10-09T07:20:00+07:00",
+  "section": "deals",
+  "star": false,
+  "company": "Arena",
+  "headline": "Arena raised $200 million at a $3.1 billion valuation",
+  "body": "Arena, which originated in 2023 as a UC Berkeley research project, said on Thursday that it raised a $200 million Series B round at a $3.1 billion valuation. Lightspeed Venture Partners and Khosla Ventures led the round, after a $150 million Series A in January at a $1.7 billion post-money valuation. The company said it reached $100 million in annualized run-rate revenue in June.",
+  "note": "Enterprises want help finding the model that works best for their own internal needs, and Arena offers that through its AI Evaluations product. Its new alignment leaderboard ranks models on unauthorized action and false attribution, the kinds of failures a bank's risk team would want to test for.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Arena , which originated in 2023 as a research project at UC Berkeley that crowdsourced rankings of AI models, has raised a $200 million Series B round at a $3.1 billion valuation, it said on Thursday." },
+    { "source": 0, "text": "The round was led by Lightspeed Venture Partners and Khosla Ventures, with Salesforce Ventures, 01 Advisors, Dell Technologies Capital, Endeavor Catalyst, a16z, Felicis, and others joining in." },
+    { "source": 0, "text": "Arena previously announced a $150 million Series A in January at a $1.7 billion post-money valuation." },
+    { "source": 0, "text": "This comes after the company said it reached $100 million in annualized run-rate revenue in June." },
+    { "source": 0, "text": "In September of last year, it introduced its commercial product, AI Evaluations , a service that provides model labs and enterprises with detailed performance analytics based on its community feedback." },
+    { "source": 0, "text": "At the same time, enterprises wanted help determining which model works best for their own internal needs rather than relying only on standardized benchmarks." },
+    { "source": 0, "text": "This is where it ranks models based on issues like unauthorized action (taking actions it wasn’t asked to take); false attribution (wrongly crediting statements or facts to the wrong source); and what it calls “deceptive completion” (lying about completing tasks that it didn’t do)." }
+  ]
+}
