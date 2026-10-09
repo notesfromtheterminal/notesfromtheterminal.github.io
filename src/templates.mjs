@@ -171,7 +171,7 @@ export function makeTemplates(ctx) {
 <link rel="alternate" type="application/rss+xml" title="${esc(site.name)}" href="${u('feed.xml')}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Schibsted+Grotesk:wght@500;600;700;800;900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Schibsted+Grotesk:wght@500;600;700;800;900&display=swap">
 <link rel="stylesheet" href="${u(`assets/site.css?v=${buildId}`)}">
 ${site.goatcounter ? `<script data-goatcounter="${esc(site.goatcounter)}" async src="https://gc.zgo.at/count.js"></script>` : ''}
 ${ld}
@@ -406,7 +406,7 @@ ${related.length ? `<section><h2 class="label">On the wire</h2><ol class="wire-l
     });
   }
 
-  function notePage({ note: n, stories }) {
+  function notePage({ note: n, stories, edition = 1, earlier = [] }) {
     const path = `notes/${n.date}/`;
     const card = cardIds.has(`note-${n.date}`) ? `cards/note-${n.date}.png` : null;
     return layout({
@@ -428,16 +428,33 @@ ${related.length ? `<section><h2 class="label">On the wire</h2><ol class="wire-l
         author: { '@type': 'Person', name: site.author, url: `https://x.com/${site.x}` },
         publisher: { '@type': 'Organization', name: site.name, url: abs('') },
       },
-      body: `<article class="morning-note">
-<p class="kicker">The Morning Note</p>
-<h1 class="mn-title">${esc(n.title)}</h1>
-${n.dek ? `<p class="mn-dek">${esc(n.dek)}</p>` : ''}
-<p class="byline">By <a href="https://x.com/${esc(site.x)}" target="_blank" rel="noopener">${esc(site.author)}</a> <span class="dot" aria-hidden="true">·</span> ${dateTag(n.publishedAt, longDay(n.publishedAt, tz))}</p>
-<div class="mn-body">${n.body
+      body: `<article class="morning-note paper">
+<header class="np-head">
+<p class="np-folio"><span>Vol. I <span aria-hidden="true">·</span> No. ${edition}</span><span class="np-folio-mid">AI in finance, before the market opens</span><span>Seven o'clock edition</span></p>
+<p class="np-nameplate" aria-hidden="true">The Morning Note</p>
+<p class="np-motto">&ldquo;All the AI news a banker needs before the open.&rdquo;</p>
+<p class="np-dateline"><span>${dateTag(n.publishedAt, longDay(n.publishedAt, tz))}</span><span class="np-ed">Morning Edition</span><span>${stories.length} ${stories.length === 1 ? 'story' : 'stories'} connected</span></p>
+</header>
+<div class="np-grid">
+<div class="np-lead">
+<p class="np-kicker">The Morning Note</p>
+<h1 class="mn-title np-title">${esc(n.title)}</h1>
+${n.dek ? `<p class="mn-dek np-dek">${esc(n.dek)}</p>` : ''}
+<p class="byline np-byline">By <a href="https://x.com/${esc(site.x)}" target="_blank" rel="noopener">${esc(site.author)}</a></p>
+<div class="mn-body np-body">${n.body
   .map((x) => (typeof x === 'string' ? `<p>${inline(x)}</p>` : `${x.head ? `<h2 class="mn-sub">${esc(x.head)}</h2>` : ''}<p>${inline(x.text)}</p>`))
   .join('\n')}</div>
+</div>
+<aside class="np-side" aria-label="In this edition">
+${stories.length ? `<section class="np-box" aria-labelledby="mn-s-h"><h2 class="np-box-h" id="mn-s-h">In this edition</h2><ol class="np-list">${stories
+  .map((b) => `<li><p class="np-sec">${esc(sec(b.section).label)}</p><a class="np-head-link" href="${u(storyPath(b))}">${esc(b.headline)}</a><p class="np-meta">${esc(shortDay(b.publishedAt, tz))} <span aria-hidden="true">·</span> ${timeTag(b.publishedAt, 'hmz')}</p></li>`)
+  .join('')}</ol></section>` : ''}
+${earlier.length ? `<section class="np-box" aria-labelledby="mn-e-h"><h2 class="np-box-h" id="mn-e-h">Earlier editions</h2><ul class="np-ed-list">${earlier
+  .map((e) => `<li><a href="${u(`notes/${e.date}/`)}"><span class="np-ed-day">${esc(shortDay(e.publishedAt, tz))}</span>${esc(e.title)}</a></li>`)
+  .join('')}</ul><p class="np-more"><a href="${u('notes/')}">All Morning Notes</a></p></section>` : ''}
+</aside>
+</div>
 ${signupBox('note')}
-${stories.length ? `<section class="mn-stories" aria-labelledby="mn-s-h"><h2 class="label" id="mn-s-h">The stories behind this note</h2>${topList(stories)}</section>` : ''}
 ${shareBar(n.title, path)}
 </article>`,
     });

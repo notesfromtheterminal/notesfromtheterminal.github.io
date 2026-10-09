@@ -340,3 +340,65 @@ mark { background: #ffe2c2; color: inherit; padding: 0 1px; border-radius: 2px; 
 @media (prefers-reduced-motion: reduce) {
   .cursor, .pulse { animation: none; }
 }
+
+/* ---------- Morning Note as a front page ---------- */
+.morning-note.paper {
+  --np-paper: #f6f0e4;
+  --np-ink: #1b1915;
+  --np-muted: #5d564b;      /* 6.4:1 on the paper */
+  --np-rule: #1b1915;
+  --np-hair: #cfc5b3;
+  --np-red: #a3361f;        /* 6.1:1 on the paper */
+  --np-display: 'Playfair Display', 'Newsreader', Georgia, serif;
+  max-width: 1120px; margin: 28px auto 64px; padding: clamp(18px, 3.4vw, 44px);
+  background: var(--np-paper); color: var(--np-ink);
+  border: 1px solid var(--np-hair); box-shadow: 0 1px 0 rgba(0,0,0,.04), 0 12px 32px -18px rgba(40,30,10,.25);
+}
+.np-head { text-align: center; }
+.np-folio { display: flex; justify-content: space-between; gap: 12px; margin: 0 0 6px; font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--np-muted); }
+.np-nameplate { margin: 6px 0 2px; font-family: var(--np-display); font-weight: 900; font-size: clamp(44px, 9.2vw, 112px); line-height: .95; letter-spacing: -.02em; color: var(--np-ink); }
+.np-motto { margin: 8px 0 14px; font-family: var(--serif); font-style: italic; font-size: 16px; color: var(--np-muted); }
+.np-dateline { display: flex; justify-content: space-between; gap: 12px; margin: 0; padding: 7px 2px; border-top: 3px double var(--np-rule); border-bottom: 1px solid var(--np-rule); font-family: var(--mono); font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--np-ink); }
+.np-ed { font-family: var(--np-display); font-style: italic; font-weight: 400; text-transform: none; letter-spacing: 0; font-size: 15px; }
+.np-grid { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 0 36px; margin-top: 26px; }
+.np-lead { min-width: 0; padding-right: 36px; border-right: 1px solid var(--np-hair); }
+.np-kicker { margin: 0 0 8px; font-family: var(--mono); font-size: 11.5px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--np-red); }
+.np-title { margin: 0 0 14px; font-family: var(--np-display); font-weight: 900; font-size: clamp(34px, 5vw, 58px); line-height: 1.04; letter-spacing: -.015em; color: var(--np-ink); }
+.np-dek { color: var(--np-muted); font-size: 21px; }
+.morning-note .np-byline { margin: 14px 0 22px; padding-bottom: 14px; border-bottom: 1px solid var(--np-hair); font-family: var(--mono); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--np-muted); }
+.morning-note .np-byline a { color: var(--np-ink); }
+.np-body p { color: var(--np-ink); font-size: 19.5px; line-height: 1.6; text-align: justify; hyphens: auto; }
+.np-body > p:first-of-type::first-letter { float: left; margin: 6px 10px 0 0; font-family: var(--np-display); font-weight: 900; font-size: 4.1em; line-height: .78; color: var(--np-ink); }
+.np-body .mn-sub { margin: 1.4em 0 .35em; font-family: var(--np-display); font-weight: 700; font-size: 24px; letter-spacing: -.005em; color: var(--np-ink); }
+.np-body .mn-sub:first-child { margin-top: 0; }
+.np-body a { color: var(--np-ink); }
+.np-side { min-width: 0; }
+.np-box { margin: 0 0 22px; padding: 14px 16px 16px; border: 1px solid var(--np-rule); }
+.np-box-h { margin: 0 0 10px; padding-bottom: 8px; border-bottom: 1px solid var(--np-rule); font-family: var(--mono); font-size: 11.5px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--np-ink); }
+.np-list, .np-ed-list { list-style: none; margin: 0; padding: 0; }
+.np-list li { padding: 10px 0; border-bottom: 1px solid var(--np-hair); }
+.np-list li:last-child, .np-ed-list li:last-child { border-bottom: 0; }
+.np-sec { margin: 0 0 3px; font-family: var(--mono); font-size: 10.5px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--np-red); }
+.np-head-link { display: block; font-family: var(--np-display); font-weight: 700; font-size: 17.5px; line-height: 1.22; color: var(--np-ink); text-decoration: none; }
+.np-head-link:hover, .np-ed-list a:hover { text-decoration: underline; text-decoration-color: var(--np-red); }
+.np-meta { margin: 4px 0 0; font-family: var(--mono); font-size: 11px; color: var(--np-muted); }
+.np-ed-list li { padding: 8px 0; border-bottom: 1px solid var(--np-hair); }
+.np-ed-list a { display: block; font-family: var(--serif); font-size: 16px; line-height: 1.3; color: var(--np-ink); text-decoration: none; }
+.np-ed-day { display: block; margin-bottom: 2px; font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--np-muted); }
+.np-more { margin: 10px 0 0; font-family: var(--mono); font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase; }
+.np-more a { color: var(--np-red); }
+.morning-note.paper .signup, .morning-note.paper .share { margin-top: 28px; }
+@media (max-width: 880px) {
+  .np-grid { grid-template-columns: 1fr; }
+  .np-lead { padding-right: 0; border-right: 0; }
+  .np-side { margin-top: 28px; }
+  .np-folio .np-folio-mid { display: none; }
+  .np-body p { text-align: left; font-size: 18.5px; }
+}
+@media (max-width: 520px) {
+  .morning-note.paper { margin: 12px -4px 40px; padding: 18px 16px; }
+  .np-dateline { flex-wrap: wrap; justify-content: center; }
+  .np-dateline > span:last-child { display: none; }
+  .np-dek { font-size: 19px; }
+}
+.morning-note.paper .signup { background: transparent; border: 1px solid var(--np-rule); border-top-width: 3px; }

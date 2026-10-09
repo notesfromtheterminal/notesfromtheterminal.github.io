@@ -113,7 +113,9 @@ for (const b of briefs) {
 
 for (const n of notes) {
   const ids = [...new Set([n.lead, ...(n.stories ?? [])].filter(Boolean))];
-  await page(`notes/${n.date}/`, T.notePage({ note: n, stories: ids.map((id) => byId.get(id)).filter(Boolean) }), n.publishedAt);
+  const edition = notes.filter((x) => x.date <= n.date).length;
+  const earlier = notes.filter((x) => x.date < n.date).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 4);
+  await page(`notes/${n.date}/`, T.notePage({ note: n, stories: ids.map((id) => byId.get(id)).filter(Boolean), edition, earlier }), n.publishedAt);
 }
 await page('notes/', T.notesIndex({ notes }), notes[0]?.publishedAt);
 await page('wire/', T.wirePage({ items: wireItems }), wire.updatedAt);
