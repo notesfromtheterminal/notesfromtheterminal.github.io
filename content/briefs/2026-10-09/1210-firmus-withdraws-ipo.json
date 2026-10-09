@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-09-firmus-withdraws-ipo",
+  "publishedAt": "2026-10-09T12:10:00+07:00",
+  "section": "deals",
+  "star": false,
+  "company": "Firmus",
+  "headline": "Firmus has withdrawn its planned $5 billion IPO",
+  "body": "Firmus, an Australian AI data center operator backed by Nvidia, has withdrawn its planned IPO. The company said the proposed offering terms did not adequately reflect its business strength and long-term growth outlook, and it will instead pursue private funding options. Firmus had reportedly sought to raise $5 billion through the IPO, which would have valued the company at about $30.6 billion.",
+  "note": "Choosing private funding over a listing this size shows that AI infrastructure companies can wait for better terms, which matters for investors judging the next wave of AI listings.",
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/09/nvidia-ai-firmus-ipo-.html" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Australian AI data center operator Firmus, which is backed by Nvidia , has withdrawn its planned mega initial public offering, citing market volatility and conditions, the company said in an emailed statement to CNBC." },
+    { "source": 0, "text": "The company said the proposed offering terms did not adequately reflect its business strength and long-term growth outlook, and it will instead pursue private funding options." },
+    { "source": 0, "text": "Firmus had reportedly sought to raise $5 billion through the IPO, which would have valued the company at about $30.6 billion, nearly triple its valuation in August." }
+  ]
+}
