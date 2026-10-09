@@ -1,17 +1,20 @@
 {
   "id": "2026-10-09-uob-graduate-hiring-ai-manager-training",
   "publishedAt": "2026-10-09T12:10:00+07:00",
+  "updatedAt": "2026-10-09T17:59:00+07:00",
+  "correction": "The headline said UOB would train 5,500 managers on AI; the source says it will coach them with an AI platform, on leadership.",
   "section": "sea",
   "tags": ["banking"],
   "star": false,
   "company": "UOB",
-  "headline": "UOB plans to hire 1,000 graduates a year and train 5,500 managers on AI",
+  "headline": "UOB plans to hire 1,000 graduates a year and coach 5,500 managers with an AI platform",
   "body": "UOB expects to recruit 1,000 young graduates a year. Its Better Leader Programme aims to reach 5,500 managers across the region by the end of 2027, and managers practise workplace conversations on an AI-enabled coaching and role-play platform.",
   "note": "UOB pairs graduate hiring with AI-based coaching for its managers, which suggests banks are treating the people side of AI adoption as part of the plan.",
   "sources": [
     { "name": "Fintech News Singapore", "url": "https://fintechnews.sg/138785/ai/uob-ai-workplace-graduates-managers/" }
   ],
   "evidence": [
+    { "source": 0, "text": "The bank aims to hire 1,000 graduates a year, coach 5,500 managers with an AI platform and open flexible advisory roles to experienced professionals." },
     { "source": 0, "text": "The bank plans to hire 1,000 young graduates a year, train 5,500 managers using an AI coaching platform, and open customer-facing and sales advisory roles to experienced professionals seeking flexible work." },
     { "source": 0, "text": "As concerns grow over AI’s impact on entry-level jobs, UOB expects to recruit 1,000 young graduates a year." },
     { "source": 0, "text": "UOB’s new Better Leader Programme, accredited by the Institute of Banking and Finance (IBF), aims to reach 5,500 managers across the region by the end of 2027." },

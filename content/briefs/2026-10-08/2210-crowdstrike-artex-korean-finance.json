@@ -1,8 +1,10 @@
 {
   "id": "2026-10-08-crowdstrike-artex-korean-finance",
   "publishedAt": "2026-10-08T22:10:00+07:00",
+  "updatedAt": "2026-10-09T17:59:00+07:00",
+  "correction": "Removed the SEA Desk tag: the campaign targeted South Korean financial organizations, outside Southeast Asia.",
   "section": "banking",
-  "tags": ["sea"],
+  "tags": ["fraud"],
   "company": "CrowdStrike",
   "headline": "CrowdStrike identifies AI tool ARTEX in campaign against South Korean financial organizations",
   "body": "CrowdStrike Intelligence says a campaign against South Korean financial organizations, active from late September to early October 2026, resulted in exfiltrated data. It says the threat actor, likely a financially motivated Chinese speaker (moderate confidence), used ARTEX, an open-source agentic pentesting tool developed in China. The number of affected organizations remains unconfirmed.",
