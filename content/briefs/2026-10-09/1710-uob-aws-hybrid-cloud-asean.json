@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-09-uob-aws-hybrid-cloud-asean",
+  "publishedAt": "2026-10-09T17:10:00+07:00",
+  "section": "sea",
+  "tags": ["banking"],
+  "company": "UOB",
+  "headline": "UOB signed an MoU with AWS for a Singapore cloud serving ASEAN banking",
+  "body": "UOB has signed a MoU with Amazon Web Services to explore a dedicated cloud environment in Singapore for its five ASEAN markets. The collaboration aims to help UOB meet regulatory and data residency requirements, with initial focus on hybrid cloud architecture, data analytics and AI-powered customer engagement. According to the companies, it is the first collaboration between AWS and a bank to combine hybrid cloud capabilities in ASEAN.",
+  "note": "This is a proposed model still at the exploration stage. The sources do not describe how it would work in practice.",
+  "sources": [
+    { "name": "Fintech News Singapore", "url": "https://fintechnews.sg/138802/ai/uob-aws-partnership-hybrid-cloud-singapore/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "UOB has signed a MoU with Amazon Web Services (AWS) to explore developing a dedicated cloud environment in Singapore as part of a proposed hybrid infrastructure model for banking across ASEAN." },
+    { "source": 0, "text": "The collaboration aims to help UOB strengthen operational resilience, meet regulatory and data residency requirements, and improve customer experiences across its five ASEAN markets." },
+    { "source": 0, "text": "Initial areas of focus include hybrid cloud architecture, data analytics and AI-powered customer engagement." },
+    { "source": 0, "text": "According to the companies, this marks the first collaboration between AWS and a bank to combine hybrid cloud capabilities in ASEAN with security, governance and data residency controls tailored to the banking industry’s regulatory requirements." }
+  ]
+}

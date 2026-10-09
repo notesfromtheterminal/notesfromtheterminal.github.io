@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-09-malaysia-nsrc-ai-scam-check-app",
+  "publishedAt": "2026-10-09T17:10:00+07:00",
+  "section": "sea",
+  "tags": ["payments"],
+  "headline": "NSRC will develop an AI app to check suspicious accounts and links",
+  "body": "Anwar Ibrahim announced that the National Scam Response Centre (NSRC) will develop an AI application for checking suspicious phone numbers, bank accounts and links before financial transactions. He made the announcement while tabling Budget 2027 on 9 October. The budget speech did not specify a funding allocation, launch date or technical details for the application.",
+  "note": "The public can already check some of this through PDRM's Semak Mule portal. The new app's scope is not yet specified.",
+  "sources": [
+    { "name": "Fintech News Malaysia", "url": "https://fintechnews.my/61315/ai/nsrc-ai-scam-checker-budget-2027/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "The National Scam Response Centre (NSRC) will develop an AI application that allows the public to check suspicious phone numbers, bank accounts and links before making financial transactions." },
+    { "source": 0, "text": "Prime Minister and Finance Minister Anwar Ibrahim announced the initiative while tabling Budget 2027 in the Dewan Rakyat on 9 October." },
+    { "source": 0, "text": "However, the budget speech did not specify a funding allocation, launch date or technical details for the application." },
+    { "source": 0, "text": "Separately, the public can already check suspicious phone numbers, bank account numbers and company names through PDRM’s Semak Mule portal ." }
+  ]
+}
