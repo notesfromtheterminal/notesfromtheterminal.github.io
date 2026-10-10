@@ -1,11 +1,13 @@
 {
   "id": "2026-10-10-sierra-personal-agent-protocol-draft",
   "publishedAt": "2026-10-10T08:27:00+07:00",
+  "updatedAt": "2026-10-10T19:46:00+07:00",
+  "correction": "An earlier version left out that the agent can sign in on the customer's behalf only if the company permits it.",
   "section": "payments",
   "star": true,
   "company": "Sierra",
   "headline": "Sierra publishes draft Personal Agent Protocol with Visa, Mastercard, PayPal and Bank of America as design partners",
-  "body": "Sierra published a draft of its Personal Agent Protocol, known as Poppy, and named 35 additional design partners, including Bank of America, BBVA, Mastercard, PayPal, Visa and Wells Fargo. The protocol sets out how a personal agent identifies itself, gets the customer's permission and works with a company; the agent can sign in with a session token that grants only the access the customer approved.",
+  "body": "Sierra published a draft of its Personal Agent Protocol, known as Poppy, and named 35 additional design partners, including Bank of America, BBVA, Mastercard, PayPal, Visa and Wells Fargo. The protocol sets out how a personal agent identifies itself, gets the customer's permission and works with a company; if permitted by the company, the agent can sign in on the customer's behalf with a session token that grants only the access the customer approved.",
   "note": "Card networks, payment firms and banks are helping shape how agents identify themselves while the rules are still a draft. Sierra says it will host design workshops and publish a reference implementation over the next month.",
   "sources": [
     {

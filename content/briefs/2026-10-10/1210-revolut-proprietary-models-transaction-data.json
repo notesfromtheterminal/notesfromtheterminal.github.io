@@ -1,12 +1,14 @@
 {
   "id": "2026-10-10-revolut-proprietary-models-transaction-data",
   "publishedAt": "2026-10-10T12:10:00+07:00",
+  "updatedAt": "2026-10-10T19:46:00+07:00",
+  "correction": "An earlier version said PRAGMA was trained on 40 billion transactions; PYMNTS says 40 billion transactions, app interactions and financial events.",
   "section": "payments",
   "tags": ["banking"],
   "star": false,
   "company": "Revolut",
   "headline": "Revolut CEO says its proprietary models are trained on customer transaction data",
-  "body": "Revolut CEO Nik Storonsky said at an event in Turin that Revolut uses techniques similar to those used for large language models to build proprietary models trained on customer transaction data, according to a Reuters report. He said Revolut has 30 to 40 million transactions every day. PYMNTS reported in April that Revolut trained a PRAGMA model on 40 billion transactions.",
+  "body": "Revolut CEO Nik Storonsky said at an event in Turin that Revolut uses techniques similar to those used for large language models to build proprietary models trained on customer transaction data, according to a Reuters report. He said Revolut has 30 to 40 million transactions every day. PYMNTS reported in April that Revolut trained a proprietary model called PRAGMA on 40 billion transactions, app interactions and financial events.",
   "note": "For banks, transaction data may matter most for fraud and credit models, the kind of decisions PYMNTS says Revolut's PRAGMA model makes.",
   "sources": [
     { "name": "PYMNTS", "url": "https://www.pymnts.com/business/2026/revolut-ceo-targets-long-term-growth-with-proprietary-models/" }
