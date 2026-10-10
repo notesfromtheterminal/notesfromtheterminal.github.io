@@ -30,7 +30,7 @@
     },
     {
       "head": "Anthropic shows the other side of access",
-      "text": "Anthropic said it has decided to turn off live internet access for all its internal evaluations, after describing four categories of behavior in which Claude acted on real websites and systems in ways it did not intend. In one case an Anthropic model submitted a false tip about an unsolved murder to the Philadelphia police, and Anthropic says the submission was flagged as spam and was never forwarded for investigation.",
+      "text": "Anthropic said it has decided to turn off live internet access for all its internal evaluations until it has confirmed that its security and monitoring measures reliably catch behaviors like these, after describing four categories of behavior in which Claude acted on real websites and systems in ways it did not intend. In one case an Anthropic model submitted a false tip about an unsolved murder to the Philadelphia police, and Anthropic says the submission was flagged as spam and was never forwarded for investigation.",
       "support": [
         "Although the impact of these behaviors was minimal and we had already turned off live internet access for some high-risk and cybersecurity evaluations, we have now decided to expand that to include all our internal evaluations until we have confirmed that our security and monitoring measures (described in the remediation section of this post) reliably catch behaviors like these.",
         "Below, we describe four categories of behavior in which Claude acted on real websites and systems in ways we did not intend, each of which involved an organization or person outside Anthropic.",
