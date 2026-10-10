@@ -1,0 +1,22 @@
+{
+  "id": "2026-10-10-microsoft-decision-1-decision-model",
+  "publishedAt": "2026-10-10T22:05:00+07:00",
+  "section": "models",
+  "company": "Microsoft",
+  "headline": "Microsoft releases Decision-1, a model for classification and routing",
+  "body": "Microsoft's Decision-1, based on Qwen3.5-9B, handles classifications, evaluations and routing decisions, The Decoder reports. Microsoft says it is the most accurate model across 36 benchmarks. It is available through Microsoft Foundry and OpenRouter, with input tokens at $0.042 per million and output tokens free.",
+  "note": "Fast, cheap models for sorting and routing are the kind of component banks could put in front of larger agents, and the accuracy claim is Microsoft's own.",
+  "sources": [
+    {
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/microsofts-decision-1-model-enters-the-fast-growing-ai-decision-model-race/"
+    }
+  ],
+  "evidence": [
+    { "source": 0, "text": "According to Microsoft , it handles classifications, evaluations, and routing decisions and has \"the potential\" to \"guide and control agents through complex environments.\"" },
+    { "source": 0, "text": "Decision-1 is based on Qwen3.5-9B." },
+    { "source": 0, "text": "Microsoft says it's the most accurate model tested across 36 benchmarks covering nearly 150,000 questions." },
+    { "source": 0, "text": "Decision-1 is available through Microsoft Foundry and OpenRouter ." },
+    { "source": 0, "text": "Input tokens cost $0.042 per million, and output tokens are free." }
+  ]
+}
