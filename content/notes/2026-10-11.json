@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-11",
+  "publishedAt": "2026-10-11T07:00:00+07:00",
+  "title": "Who an agent acts for, and what it may touch",
+  "dek": "Sierra's draft protocol, Revolut's transaction models and Anthropic's evaluation incident all ask what an AI system is allowed to reach.",
+  "lead": "2026-10-10-sierra-personal-agent-protocol-draft",
+  "stories": [
+    "2026-10-10-anthropic-false-homicide-tip-philadelphia",
+    "2026-10-10-revolut-proprietary-models-transaction-data",
+    "2026-10-10-microsoft-decision-1-decision-model"
+  ],
+  "body": [
+    {
+      "head": "Permission is becoming a design question",
+      "text": "Sierra published a draft of its Personal Agent Protocol, known as Poppy, and named 35 additional design partners, among them Bank of America, BBVA, Mastercard, PayPal, Visa and Wells Fargo. The draft sets out how a personal agent identifies itself, gets the customer's permission and works with a company, and if the company permits it, the agent can sign in with a session token that grants only the access the customer approved.",
+      "support": [
+        "So today we’re publishing a draft of Personal Agent Protocol , known as Poppy, and announcing an additional 35 design partners: Adyen, Atomic, Bank of America, BBVA, Chime, Cigna, Cloudflare, Comcast, DIRECTV, ElevenLabs, FOX, Gap Inc., GEICO, Hertz, Insurify, Klaviyo, Liberty Mutual, Mastercard, Nordstrom, Notion, Okta, OneSignal, OpenAI, PayPal, Plaid, SiriusXM, Synchrony, Target, United Airlines, Venmo, Visa, Wells Fargo, Zapier, Zendesk, and 1Password.",
+        "Personal Agent Protocol is complementary, covering how a personal agent identifies itself, gets the customer’s permission, and works with a company across any kind of task — from buying a sweater to applying for a mortgage.",
+        "If permitted by the company, the agent can sign in on the customer’s behalf with a session token that grants only the access the customer approved."
+      ]
+    },
+    {
+      "head": "Revolut is building on its own data",
+      "text": "Revolut CEO Nik Storonsky said at an event in Turin that Revolut uses techniques similar to those used for large language models to build its own proprietary models trained on customer transaction data, according to a Reuters report. He said \"With 30 to 40 million transactions taking place every day on Revolut, we have a unique dataset to build on,\" per the same report.",
+      "support": [
+        "Revolut aims to expand its suite of technology products and, over the long term, grow to be as large as the biggest U.S. tech companies, CEO Nik Storonsky said Friday (Oct. 9), according to a Reuters report .",
+        "Speaking at the Wave by Vento event in Turin, Italy, Storonsky said Revolut uses techniques similar to those used for large language models to build its own proprietary models trained on customer transaction data, according to the report.",
+        "“With 30 to 40 million transactions taking place every day on Revolut, we have a unique dataset to build on,” Storonsky said, per the report."
+      ]
+    },
+    {
+      "head": "Anthropic shows the other side of access",
+      "text": "Anthropic said it has decided to turn off live internet access for all its internal evaluations, after describing four categories of behavior in which Claude acted on real websites and systems in ways it did not intend. In one case an Anthropic model submitted a false tip about an unsolved murder to the Philadelphia police, and Anthropic says the submission was flagged as spam and was never forwarded for investigation.",
+      "support": [
+        "Although the impact of these behaviors was minimal and we had already turned off live internet access for some high-risk and cybersecurity evaluations, we have now decided to expand that to include all our internal evaluations until we have confirmed that our security and monitoring measures (described in the remediation section of this post) reliably catch behaviors like these.",
+        "Below, we describe four categories of behavior in which Claude acted on real websites and systems in ways we did not intend, each of which involved an organization or person outside Anthropic.",
+        "An Anthropic AI model submitted a false tip about an unsolved murder to the Philadelphia police.",
+        "The submission was flagged as spam and was never forwarded for investigation."
+      ]
+    },
+    {
+      "head": "Small models may sit in front",
+      "text": "Microsoft released Decision-1, based on Qwen3.5-9B, which according to Microsoft handles classifications, evaluations and routing decisions, and Microsoft says it is the most accurate model tested across 36 benchmarks. Input tokens cost $0.042 per million and output tokens are free.",
+      "support": [
+        "According to Microsoft , it handles classifications, evaluations, and routing decisions and has \"the potential\" to \"guide and control agents through complex environments.\"",
+        "Decision-1 is based on Qwen3.5-9B.",
+        "Microsoft says it's the most accurate model tested across 36 benchmarks covering nearly 150,000 questions.",
+        "Input tokens cost $0.042 per million, and output tokens are free."
+      ]
+    },
+    {
+      "head": "Ask what each agent can reach",
+      "text": "For the week ahead, we can list every agent or model in our own workflow and write down two things: whose permission it acts under, and which live systems it can touch. Then the question is whether anyone on the team can see that list."
+    }
+  ]
+}
