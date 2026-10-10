@@ -1,0 +1,34 @@
+{
+  "id": "2026-10-10-sierra-personal-agent-protocol-draft",
+  "publishedAt": "2026-10-10T08:27:00+07:00",
+  "section": "payments",
+  "star": true,
+  "company": "Sierra",
+  "headline": "Sierra publishes draft Personal Agent Protocol with Visa, Mastercard, PayPal and Bank of America as design partners",
+  "body": "Sierra published a draft of its Personal Agent Protocol, known as Poppy, and named 35 additional design partners, including Bank of America, BBVA, Mastercard, PayPal, Visa and Wells Fargo. The protocol sets out how a personal agent identifies itself, gets the customer's permission and works with a company; the agent can sign in with a session token that grants only the access the customer approved.",
+  "note": "Card networks, payment firms and banks are helping shape how agents identify themselves while the rules are still a draft. Sierra says it will host design workshops and publish a reference implementation over the next month.",
+  "sources": [
+    {
+      "name": "Sierra",
+      "url": "https://sierra.ai/blog/poppy"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "So today we’re publishing a draft of Personal Agent Protocol , known as Poppy, and announcing an additional 35 design partners: Adyen, Atomic, Bank of America, BBVA, Chime, Cigna, Cloudflare, Comcast, DIRECTV, ElevenLabs, FOX, Gap Inc., GEICO, Hertz, Insurify, Klaviyo, Liberty Mutual, Mastercard, Nordstrom, Notion, Okta, OneSignal, OpenAI, PayPal, Plaid, SiriusXM, Synchrony, Target, United Airlines, Venmo, Visa, Wells Fargo, Zapier, Zendesk, and 1Password."
+    },
+    {
+      "source": 0,
+      "text": "Personal Agent Protocol is complementary, covering how a personal agent identifies itself, gets the customer’s permission, and works with a company across any kind of task — from buying a sweater to applying for a mortgage."
+    },
+    {
+      "source": 0,
+      "text": "If permitted by the company, the agent can sign in on the customer’s behalf with a session token that grants only the access the customer approved."
+    },
+    {
+      "source": 0,
+      "text": "Over the next month we will host design workshops and publish a reference implementation to help developers get started."
+    }
+  ]
+}

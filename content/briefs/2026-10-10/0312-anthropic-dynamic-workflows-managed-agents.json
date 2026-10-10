@@ -4,21 +4,53 @@
   "section": "models",
   "star": false,
   "company": "Anthropic",
-  "headline": "Anthropic adds dynamic workflows to Claude Managed Agents for up to 1,000 parallel sub-agents",
-  "body": "Anthropic is adding dynamic workflows to Claude Managed Agents, where a lead agent creates a plan and distributes tasks to sub-agents. In Anthropic's testing, a single agent caught between 14 and 27 of 70 bugs in a 116,000-line codebase per run, while the dynamic workflow consistently hit 66, The Decoder reports.",
+  "headline": "Anthropic adds dynamic workflows in beta to Claude Managed Agents, with up to 1,000 agents per run",
+  "body": "Anthropic says Claude Managed Agents can now use dynamic workflows, in beta: a workflow is a program that runs many agents in phases and combines their results. Anthropic caps a run at 64 agents working at once and 1,000 agents over the run's whole life. In Anthropic's testing, a single agent caught between 14 and 27 of 70 bugs per run while the workflow consistently hit 66, The Decoder reports.",
   "note": "For banks and insurers testing agent workloads, the token bill now sits next to the accuracy gain. The Decoder calls cost-effectiveness debatable, and Anthropic recommends starting small.",
   "sources": [
+    {
+      "name": "Anthropic",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+    },
+    {
+      "name": "Anthropic",
+      "url": "https://platform.claude.com/docs/en/managed-agents/workflow-runs"
+    },
     {
       "name": "The Decoder",
       "url": "https://the-decoder.com/anthropics-claude-can-now-orchestrate-up-to-1000-ai-agents-in-parallel-through-dynamic-workflows/"
     }
   ],
   "evidence": [
-    { "source": 0, "text": "Anthropic is adding dynamic workflows to its Claude Managed Agents, bringing multi-agent orchestration to the platform." },
-    { "source": 0, "text": "A lead agent creates a plan, distributes tasks to sub-agents, and merges the results when they're done." },
-    { "source": 0, "text": "Up to 1,000 agents can run in parallel per execution." },
-    { "source": 0, "text": "Anthropic points to its own testing: The team hid 70 bugs in a 116,000-line codebase and found that a single agent caught between 14 and 27 per run, while the dynamic workflow consistently hit 66." },
-    { "source": 0, "text": "Whether this is cost-effective seems debatable." },
-    { "source": 0, "text": "Because these workflows can burn through \"a lot of tokens,\" Anthropic recommends starting small." }
-  ]
+    {
+      "source": 0,
+      "text": "You can now let a Claude Managed Agents agent use dynamic workflows , in beta with the managed-agents-2026-04-01 beta header."
+    },
+    {
+      "source": 0,
+      "text": "A workflow is a program that runs many agents in phases and combines their results."
+    },
+    {
+      "source": 1,
+      "text": "Threads working at once in one run 64 The run creates no more until one finishes."
+    },
+    {
+      "source": 1,
+      "text": "Agents a workflow starts over the run's whole life 1,000 When the workflow asks for more, the server doesn't start another agent, and the run ends with thread_limit_error ."
+    },
+    {
+      "source": 2,
+      "text": "Anthropic points to its own testing: The team hid 70 bugs in a 116,000-line codebase and found that a single agent caught between 14 and 27 per run, while the dynamic workflow consistently hit 66."
+    },
+    {
+      "source": 2,
+      "text": "Whether this is cost-effective seems debatable."
+    },
+    {
+      "source": 2,
+      "text": "Because these workflows can burn through \"a lot of tokens,\" Anthropic recommends starting small."
+    }
+  ],
+  "updatedAt": "2026-10-10T08:27:00+07:00",
+  "correction": "An earlier version said up to 1,000 sub-agents run in parallel, from The Decoder. Anthropic's documentation says 64 agents work at once in a run and 1,000 over the run's whole life, and the feature is in beta."
 }
