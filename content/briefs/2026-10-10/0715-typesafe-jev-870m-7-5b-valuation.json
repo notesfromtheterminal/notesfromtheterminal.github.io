@@ -1,0 +1,44 @@
+{
+  "id": "2026-10-10-typesafe-jev-870m-7-5b-valuation",
+  "publishedAt": "2026-10-10T07:15:00+07:00",
+  "section": "deals",
+  "tags": [
+    "models"
+  ],
+  "company": "TypeSafe AI",
+  "headline": "TypeSafe AI raises $870 million at a $7.5 billion valuation",
+  "body": "TypeSafe AI, the developer of Jev, raised $870 million at a $7.5 billion valuation. The round was led by Andreessen Horowitz, with participation from Sequoia and DCVC. Jev is not a large language model, and the company claims it works significantly faster and uses far fewer tokens than LLMs.",
+  "note": "The pitch centers on automating tasks, and the speed and token claims are the company's own.",
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "TypeSafe AI, the developer of Jev, a new type of AI model that gained rapid popularity after launching just a few weeks ago, has raised $870 million at a $7.5 billion valuation."
+    },
+    {
+      "source": 0,
+      "text": "The round was led by Andreessen Horowitz, with participation from Sequoia and existing investor DCVC."
+    },
+    {
+      "source": 0,
+      "text": "The startup claims that a third of Fortune 500 companies are already using the model, a remarkably swift adoption by enterprises."
+    },
+    {
+      "source": 0,
+      "text": "Jev is based on a transformer architecture, but it is not a large language model (LLM)."
+    },
+    {
+      "source": 0,
+      "text": "What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs."
+    },
+    {
+      "source": 0,
+      "text": "The company positions its approach as uniquely suited for automating tasks rather than generating text or code."
+    }
+  ]
+}
