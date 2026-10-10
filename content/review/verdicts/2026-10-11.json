@@ -1,0 +1,7 @@
+{
+  "note": "2026-10-11",
+  "commit": "b0f8bede8526aca4bcaa535f79be13927860c128",
+  "verdict": "CHANGES",
+  "at": "2026-10-10T16:46:36.926Z",
+  "notes": "1. Section 3 (\"Anthropic shows the other side of access\") says \"Anthropic said it has decided to turn off live internet access for all its internal evaluations\". Source (Anthropic): \"we have now decided to expand that to include all our internal evaluations until we have confirmed that our security and monitoring measures ... reliably catch behaviors like these.\" The shutoff is temporary and conditional; the note presents it as a standing decision. Fix: \"Anthropic said it has decided to turn off live internet access for all its internal evaluations until it has confirmed that its security and monitoring measures reliably catch behaviors like these\".\n2. Brief 2026-10-10-anthropic-false-homicide-tip-philadelphia has the same omission: headline \"Anthropic cuts live internet access from all internal evaluations\" and body \"Anthropic said it is turning off live internet access for all its internal evaluations\" leave out Anthropic's \"until we have confirmed that our security and monitoring measures ... reliably catch behaviors like these\". Fix: add \"until it confirms its security and monitoring measures catch such behavior\" to the body and make the headline say it is paused (for example \"pauses live internet access in all internal evaluations\")."
+}
