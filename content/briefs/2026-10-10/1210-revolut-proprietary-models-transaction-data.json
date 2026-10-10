@@ -1,0 +1,22 @@
+{
+  "id": "2026-10-10-revolut-proprietary-models-transaction-data",
+  "publishedAt": "2026-10-10T12:10:00+07:00",
+  "section": "payments",
+  "tags": ["banking"],
+  "star": false,
+  "company": "Revolut",
+  "headline": "Revolut CEO says its proprietary models are trained on customer transaction data",
+  "body": "Revolut CEO Nik Storonsky said at an event in Turin that Revolut uses techniques similar to those used for large language models to build proprietary models trained on customer transaction data, according to a Reuters report. He said Revolut has 30 to 40 million transactions every day. PYMNTS reported in April that Revolut trained a PRAGMA model on 40 billion transactions.",
+  "note": "For banks, transaction data may matter most for fraud and credit models, the kind of decisions PYMNTS says Revolut's PRAGMA model makes.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/business/2026/revolut-ceo-targets-long-term-growth-with-proprietary-models/" }
+  ],
+  "wire": ["d1dcb74da438"],
+  "evidence": [
+    { "source": 0, "text": "Revolut aims to expand its suite of technology products and, over the long term, grow to be as large as the biggest U.S. tech companies, CEO Nik Storonsky said Friday (Oct. 9), according to a Reuters report ." },
+    { "source": 0, "text": "Speaking at the Wave by Vento event in Turin, Italy, Storonsky said Revolut uses techniques similar to those used for large language models to build its own proprietary models trained on customer transaction data, according to the report." },
+    { "source": 0, "text": "“With 30 to 40 million transactions taking place every day on Revolut, we have a unique dataset to build on,” Storonsky said, per the report." },
+    { "source": 0, "text": "PYMNTS reported in April that Revolut trained a proprietary AI model called PRAGMA on 40 billion transactions, app interactions and financial events drawn from 25 million users across 111 countries." },
+    { "source": 0, "text": "The model makes decisions about things like who’s likely to commit fraud, who’s a credit risk and which customers are about to leave." }
+  ]
+}
