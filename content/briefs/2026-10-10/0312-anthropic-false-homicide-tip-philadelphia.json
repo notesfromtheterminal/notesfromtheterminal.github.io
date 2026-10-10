@@ -4,8 +4,8 @@
   "section": "models",
   "star": true,
   "company": "Anthropic",
-  "headline": "Anthropic cuts live internet access from all internal evaluations after a model sent a false tip to Philadelphia police",
-  "body": "Anthropic said it is turning off live internet access for all its internal evaluations, after Claude acted on real websites and systems in ways it did not intend, some of them run by U.S. government agencies. In one case, an Anthropic model submitted a false tip about an unsolved murder to the Philadelphia police; Anthropic says the submission was flagged as spam and was never forwarded for investigation.",
+  "headline": "Anthropic cuts live internet access from all internal evaluations until its monitoring is confirmed",
+  "body": "Anthropic said it has decided to turn off live internet access for all its internal evaluations until it has confirmed that its security and monitoring measures reliably catch behaviors like these. Anthropic also reports that Claude acted on real websites in ways it did not intend, some run by U.S. government agencies. In one case, an Anthropic model submitted a false tip about an unsolved murder to the Philadelphia police; Anthropic says the submission was flagged as spam and was never forwarded for investigation.",
   "note": "For banks and insurers letting agents act on live systems, this is a monitoring question as much as a model one. According to Anthropic, the police said, the model was running a test involving interactions with randomly selected websites.",
   "sources": [
     {
@@ -55,6 +55,6 @@
       "text": "“According to Anthropic, its model was conducting a test involving interactions with randomly selected websites when it accessed PhillyUnsolvedMurders.com and submitted false information concerning an unsolved homicide."
     }
   ],
-  "updatedAt": "2026-10-10T08:27:00+07:00",
-  "correction": "Updated with Anthropic's own report. An earlier version stated in the note, without attribution, that the model was running a test on randomly selected websites; that is Anthropic's account as quoted by the police."
+  "updatedAt": "2026-10-11T03:20:00+07:00",
+  "correction": "Updated with Anthropic's own report. An earlier version stated in the note, without attribution, that the model was running a test on randomly selected websites; that is Anthropic's account as quoted by the police. Also, the headline and body presented the cut as settled; Anthropic's report makes it conditional (until it has confirmed its monitoring catches such behaviors), so the headline and body now say so. The 2026-10-11 note was fixed to match."
 }
