@@ -17,6 +17,19 @@ const reviewers = new Set(((await readJSON(p('config', 'site.json'))).reviewers 
 const trusted = (c) => TRUSTED.has(c.author_association) || reviewers.has(c.user.login.toLowerCase());
 const api = (path) => githubApi(repo, path);
 
+// A run that works from an old copy of main writes over the site with stale files: stop it here.
+try {
+  const remote = execFileSync('git', ['ls-remote', 'origin', 'refs/heads/main'], { cwd: p(), encoding: 'utf8' }).split('\t')[0];
+  const local = execFileSync('git', ['rev-parse', 'HEAD'], { cwd: p(), encoding: 'utf8' }).trim();
+  const onMain = execFileSync('git', ['rev-parse', '--abbrev-ref', 'HEAD'], { cwd: p(), encoding: 'utf8' }).trim() === 'main';
+  if (onMain && remote && remote !== local) {
+    console.log(`STOP: your main (${local.slice(0, 7)}) is not origin's main (${remote.slice(0, 7)}). Run: git fetch origin main && git checkout -B main origin/main, then start again.`);
+    process.exit(1);
+  }
+} catch {
+  // No remote to compare with (a local copy): carry on.
+}
+
 // Open notes come from git, so a review run's CHANGES file is seen even when the API refuses
 // unauthenticated requests (it does from shared cloud addresses); comments need the API.
 let apiDown = false;

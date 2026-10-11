@@ -19,6 +19,7 @@ You are the second pair of eyes on the **Morning Note** before it publishes. The
    - All clear: `node scripts/review.mjs YYYY-MM-DD APPROVED`.
    - Anything wrong: write the fixes to a scratch file outside the repo as a numbered list, one per item, each with the note's exact words, the source's exact words and the fix, for example `1. Section 1 says "joins the ticket". Source: "That work is done before the on-call engineer joins the call." Fix: "joins the call".` A brief's error goes in the same list, naming the brief's id. Then `node scripts/review.mjs YYYY-MM-DD CHANGES <file>`.
    - Commit only `content/review/verdicts/YYYY-MM-DD.json` to `main` as `review: YYYY-MM-DD APPROVED` (or `CHANGES`), and push. If the push is rejected, `git pull --rebase` and push again.
+   - **Re-reviews.** Your first review of a note must list everything you would change, stories included. When the note comes back revised, check that each earlier item is fixed and read what changed; raise something new only if it is a clear factual error, so the note converges instead of starting a new round.
 7. Finish with a short summary: the note's date, your verdict and each CHANGES item.
 
 ## Never
