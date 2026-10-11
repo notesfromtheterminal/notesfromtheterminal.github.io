@@ -1,0 +1,45 @@
+{
+  "id": "2026-10-11-nadella-ai-models-insider-risk-emergency-brake",
+  "publishedAt": "2026-10-11T12:46:00+07:00",
+  "section": "models",
+  "tags": [
+    "banking"
+  ],
+  "star": true,
+  "company": "Microsoft",
+  "headline": "Microsoft's Satya Nadella says AI models should be treated like insider risks, with an emergency brake",
+  "body": "Microsoft CEO Satya Nadella wrote in a Saturday post on X that frontier closed and open weight models should be treated like insider risks, because any sufficiently capable actor with access to important systems can make mistakes or be compromised. He said every meaningful model action must leave tamper-proof human readable evidence, and that an authorized person should always be able to pause or shut down a model mid-task: \"Think of it like an emergency brake.\"",
+  "note": "For banks running agents, this reads like an operational-risk playbook: log every action an agent takes, and keep a person able to stop it mid-task.",
+  "sources": [
+    {
+      "name": "Satya Nadella on X",
+      "url": "https://x.com/satyanadella/status/2108931348857827686"
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Treating frontier closed and open weight models like insider risks is a way to build such a system. Not because they are necessarily malicious, but because any sufficiently capable actor with access to important systems can make mistakes or be compromised, and the architecture of containment and control must account for that."
+    },
+    {
+      "source": 0,
+      "text": "Observe everything: Every meaningful model action must leave tamper-proof human readable evidence."
+    },
+    {
+      "source": 0,
+      "text": "Containment: We must assume a model is compromised and contain it from the start. Think of it like an emergency brake. An authorized person should always be able to pause or shut down a model mid-task."
+    },
+    {
+      "source": 1,
+      "text": "In a Saturday morning post on X , Nadella wrote that it’s time “to step back and assess the trust architecture” of AI."
+    },
+    {
+      "source": 1,
+      "text": "Microsoft CEO Satya Nadella is the latest tech executive to offer lengthy thoughts on how AI safety might be improved."
+    }
+  ]
+}
