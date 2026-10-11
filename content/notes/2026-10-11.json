@@ -2,7 +2,7 @@
   "date": "2026-10-11",
   "publishedAt": "2026-10-11T07:00:00+07:00",
   "title": "Who an agent acts for, and what it may touch",
-  "dek": "Sierra's draft protocol, Revolut's transaction models and Anthropic's evaluation incident all ask what an AI system is allowed to reach.",
+  "dek": "Sierra's draft protocol and Anthropic's evaluation incident both ask what an AI system is allowed to reach.",
   "lead": "2026-10-10-sierra-personal-agent-protocol-draft",
   "stories": [
     "2026-10-10-anthropic-false-homicide-tip-philadelphia",

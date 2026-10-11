@@ -4,7 +4,7 @@
   "section": "models",
   "company": "Microsoft",
   "headline": "Microsoft releases Decision-1, a model for classification and routing",
-  "body": "Microsoft's Decision-1, based on Qwen3.5-9B, handles classifications, evaluations and routing decisions, The Decoder reports. Microsoft says it is the most accurate model across 36 benchmarks. It is available through Microsoft Foundry and OpenRouter, with input tokens at $0.042 per million and output tokens free.",
+  "body": "Microsoft says Decision-1, based on Qwen3.5-9B, handles classifications, evaluations and routing decisions, The Decoder reports. Microsoft says it is the most accurate model tested across 36 benchmarks. It is available through Microsoft Foundry and OpenRouter, with input tokens at $0.042 per million and output tokens free.",
   "note": "Fast, cheap models for sorting and routing are the kind of component banks could put in front of larger agents, and the accuracy claim is Microsoft's own.",
   "sources": [
     {
