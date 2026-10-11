@@ -2,7 +2,7 @@
   "date": "2026-10-12",
   "publishedAt": "2026-10-12T07:00:00+07:00",
   "title": "Plan for the day an AI model misbehaves",
-  "dek": "Microsoft's CEO, OpenAI and Anthropic each put monitoring and a way to stop a model at the center of this weekend's news.",
+  "dek": "Microsoft's CEO, OpenAI and Anthropic each put the monitoring of AI models at the center of the news in the past few days.",
   "lead": "2026-10-11-nadella-ai-models-insider-risk-emergency-brake",
   "stories": [
     "2026-10-11-openai-model-damaged-task-environment-reset",
@@ -12,7 +12,7 @@
   "body": [
     {
       "head": "Treat the model like an insider",
-      "text": "Microsoft CEO Satya Nadella wrote in a Saturday post on X that frontier closed and open weight models should be treated like insider risks, and he put the reasoning plainly: any sufficiently capable actor with access to important systems can make mistakes or be compromised. Those of us in finance know this posture from how we handle staff with system access.",
+      "text": "Microsoft CEO Satya Nadella wrote in a Saturday post on X that treating frontier closed and open weight models like insider risks is a way to build such a system. He put the reasoning plainly: any sufficiently capable actor with access to important systems can make mistakes or be compromised.",
       "support": [
         "Treating frontier closed and open weight models like insider risks is a way to build such a system. Not because they are necessarily malicious, but because any sufficiently capable actor with access to important systems can make mistakes or be compromised, and the architecture of containment and control must account for that.",
         "In a Saturday morning post on X , Nadella wrote that it’s time “to step back and assess the trust architecture” of AI."
@@ -20,7 +20,7 @@
     },
     {
       "head": "Watch everything, keep a brake",
-      "text": "Nadella's two concrete asks are that every meaningful model action must leave tamper-proof human readable evidence, and that an authorized person should always be able to pause or shut down a model mid-task. In his words, \"Think of it like an emergency brake.\" An operations or audit team can picture each of these on a checklist.",
+      "text": "Two of Nadella's principles are that every meaningful model action must leave tamper-proof human readable evidence, and that an authorized person should always be able to pause or shut down a model mid-task. In his words, \"Think of it like an emergency brake.\" An operations or audit team can picture each of these on a checklist.",
       "support": [
         "Observe everything: Every meaningful model action must leave tamper-proof human readable evidence.",
         "Containment: We must assume a model is compromised and contain it from the start. Think of it like an emergency brake. An authorized person should always be able to pause or shut down a model mid-task."
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "head": "Small models may steer the big ones",
+      "head": "A small model pitched to steer agents",
       "text": "Meanwhile, Microsoft released Decision-1, which it says handles classifications, evaluations and routing decisions and has \"the potential\" to \"guide and control agents through complex environments.\" Decision-1 is based on Qwen3.5-9B, and input tokens cost $0.042 per million, with output tokens free. That is Microsoft's own pitch, and it is worth testing before anyone leans on it.",
       "support": [
         "According to Microsoft , it handles classifications, evaluations, and routing decisions and has \"the potential\" to \"guide and control agents through complex environments.\"",
