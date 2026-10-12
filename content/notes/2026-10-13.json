@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-13",
+  "publishedAt": "2026-10-13T07:00:00+07:00",
+  "title": "Money and rules both tighten around AI",
+  "dek": "A bank CEO describes investors scrutinizing AI financing while governments adjust the rules for AI companies.",
+  "lead": "2026-10-12-dbs-ai-financing-repricing",
+  "stories": [
+    "2026-10-12-eu-virkkunen-ai-act-rogue-agents",
+    "2026-10-12-white-house-ai-incident-reporting",
+    "2026-10-12-uk-aisi-model-access-restored"
+  ],
+  "body": [
+    {
+      "head": "Investors are looking harder at AI financing",
+      "text": "DBS CEO Tan told Bloomberg Television on 12 October that investors are demanding higher returns and examining financing structures more closely, and she described the repricing as healthy. DBS has originated approximately S$25 billion in AI-related financing deals so far this year, according to Tan, and most of it supports hardware such as semiconductors, memory chips and data centres.",
+      "support": [
+        "Speaking to Bloomberg Television on 12 October, Tan said investors are demanding higher returns and examining financing structures more closely.",
+        "However, Tan described the repricing as healthy, as investors seek to ensure that large financial commitments remain sustainable.",
+        "DBS has originated approximately S$25 billion in AI-related financing deals so far this year, according to Tan.",
+        "Most of the financing supports hardware infrastructure, including semiconductors, memory chips and data centres."
+      ]
+    },
+    {
+      "head": "Weaker borrowers sit at the edge",
+      "text": "Tan also warned that financially weaker companies could face credit rating downgrades as markets reassess their exposure to AI-related investments. For a lender, that is a reminder to look at who sits behind an AI deal and how it is structured, and we can ask that question of our own books this week.",
+      "support": [
+        "She warned that financially weaker companies could face credit rating downgrades as markets reassess their exposure to AI-related investments."
+      ]
+    },
+    {
+      "head": "Europe keeps its rulebook",
+      "text": "In Europe, EU tech chief Henna Virkkunen told Reuters that the guardrails of the AI Act are capable of meeting the risk posed by rogue AI agents. The European Commission sent requests for information in late August to more than 30 AI companies, and she is now assessing their responses.",
+      "support": [
+        "The guardrails put in place by the European Union’s AI Act are capable of meeting the risk posed by rogue artificial intelligence agents, EU tech chief Henna Virkkunen told Reuters in an interview published Friday (Oct. 9).",
+        "The European Commission sent requests for information in late August to more than 30 AI companies, seeking details about their safety and security measures and other issues, and Virkkunen is now assessing their responses, she said in the report."
+      ]
+    },
+    {
+      "head": "Washington asks for incident reports",
+      "text": "The White House is reportedly requiring AI companies to report and correct security incidents, and the White House said the process \"is not optional\". At the same time, The Decoder reports that the White House has reversed its decision to block the UK's AI Security Institute from accessing new AI models.",
+      "support": [
+        "The White House is reportedly requiring artificial intelligence companies to report and correct security incidents.",
+        "“This notification and remediation process is not optional,” the White House said in a statement exclusively shared with the news outlet, adding, “It is a critical national security obligation.”",
+        "The White House has reversed its decision to block the UK's AI Security Institute (AISI) from accessing new AI models."
+      ]
+    },
+    {
+      "head": "What to watch in your own role",
+      "text": "Credit teams can watch how AI-related deals are structured, and risk teams can watch which incident reporting and safety testing rules apply to the AI vendors they use. Which of our own AI exposures would we want to explain first?"
+    }
+  ]
+}
