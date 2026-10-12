@@ -1,0 +1,31 @@
+{
+  "id": "2026-10-12-uk-aisi-model-access-restored",
+  "publishedAt": "2026-10-12T22:15:00+07:00",
+  "section": "rules",
+  "tags": [
+    "models"
+  ],
+  "headline": "White House reversed its block on UK AI Security Institute's access to new AI models",
+  "body": "The White House has reversed its decision to block the UK's AI Security Institute from accessing new AI models, The Decoder reports. The institute will again get early access to models from Anthropic, Google DeepMind and OpenAI, according to The Daily Telegraph.",
+  "note": "The institute tests AI systems for safety risks before they ship, a kind of outside check that bank risk teams may look for when approving a model for use.",
+  "sources": [
+    {
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "The White House has reversed its decision to block the UK's AI Security Institute (AISI) from accessing new AI models."
+    },
+    {
+      "source": 0,
+      "text": "The agency tests AI systems for safety risks before they ship, and will now once again get early access to models from Anthropic, Google DeepMind, and OpenAI, The Daily Telegraph reports."
+    },
+    {
+      "source": 0,
+      "text": "Back in September, the Trump administration had told the companies to stop sharing their models with AISI ."
+    }
+  ]
+}
