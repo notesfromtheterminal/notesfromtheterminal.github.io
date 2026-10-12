@@ -1,8 +1,8 @@
 {
   "date": "2026-10-13",
   "publishedAt": "2026-10-13T07:00:00+07:00",
-  "title": "Money and rules both tighten around AI",
-  "dek": "A bank CEO describes investors scrutinizing AI financing while governments adjust the rules for AI companies.",
+  "title": "Investors examine AI financing as regulators take different paths",
+  "dek": "A bank CEO says investors are examining AI financing more closely, while the EU says its AI Act can meet the risk from rogue agents.",
   "lead": "2026-10-12-dbs-ai-financing-repricing",
   "stories": [
     "2026-10-12-eu-virkkunen-ai-act-rogue-agents",
@@ -22,7 +22,7 @@
     },
     {
       "head": "Weaker borrowers sit at the edge",
-      "text": "Tan also warned that financially weaker companies could face credit rating downgrades as markets reassess their exposure to AI-related investments. For a lender, that is a reminder to look at who sits behind an AI deal and how it is structured, and we can ask that question of our own books this week.",
+      "text": "Tan also warned that financially weaker companies could face credit rating downgrades as markets reassess their exposure to AI-related investments. For a lender, that is a reason to check which borrowers are most exposed to AI-related investments.",
       "support": [
         "She warned that financially weaker companies could face credit rating downgrades as markets reassess their exposure to AI-related investments."
       ]
@@ -36,8 +36,8 @@
       ]
     },
     {
-      "head": "Washington asks for incident reports",
-      "text": "The White House is reportedly requiring AI companies to report and correct security incidents, and the White House said the process \"is not optional\". At the same time, The Decoder reports that the White House has reversed its decision to block the UK's AI Security Institute from accessing new AI models.",
+      "head": "Washington reportedly requires incident reports",
+      "text": "The White House is reportedly requiring AI companies to report and correct security incidents, and the White House said the process \"is not optional\". Separately, The Decoder reports that the White House has reversed its decision to block the UK's AI Security Institute from accessing new AI models.",
       "support": [
         "The White House is reportedly requiring artificial intelligence companies to report and correct security incidents.",
         "“This notification and remediation process is not optional,” the White House said in a statement exclusively shared with the news outlet, adding, “It is a critical national security obligation.”",
@@ -46,7 +46,7 @@
     },
     {
       "head": "What to watch in your own role",
-      "text": "Credit teams can watch how AI-related deals are structured, and risk teams can watch which incident reporting and safety testing rules apply to the AI vendors they use. Which of our own AI exposures would we want to explain first?"
+      "text": "Credit teams can watch how AI-related deals are structured, and risk teams can watch which incident reporting and safety testing rules apply to the AI vendors they use. Which of your own AI exposures would you want to explain first?"
     }
   ]
 }
