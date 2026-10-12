@@ -1,0 +1,44 @@
+{
+  "id": "2026-10-12-nvidia-reflection-acquisition-talks",
+  "publishedAt": "2026-10-12T07:15:00+07:00",
+  "section": "deals",
+  "tags": [
+    "models"
+  ],
+  "company": "Nvidia",
+  "headline": "Nvidia reportedly in early talks to acquire open-weight model maker Reflection AI",
+  "body": "Nvidia is reportedly in talks to acquire Reflection AI, a U.S. maker of open-weight models, according to a report by the Financial Times. Sources told the FT that the discussions are in an early phase, and that Nvidia has already invested $800 million in the company.",
+  "note": "For banks weighing models they can run themselves, the report points to Nvidia pushing open-weight models that users can run on their own hardware. According to the sources, the deal could also end as a deeper investment.",
+  "sources": [
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/nvidia-looks-to-purchase-open-weight-ai-firm-reflection/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Nvidia is reportedly in talks to acquire Reflection AI , a U.S. maker of open-weight artificial intelligence models."
+    },
+    {
+      "source": 0,
+      "text": "That’s according to a report Saturday (Oct. 10) by the Financial Times (FT)"
+    },
+    {
+      "source": 0,
+      "text": "Sources with knowledge of the matter told FT that the discussions are in an early phase, and that the deal could play out in various ways."
+    },
+    {
+      "source": 0,
+      "text": "Nvidia could also decide to deepen its investment in Reflection, the sources said."
+    },
+    {
+      "source": 0,
+      "text": "Nvidia has already invested $800 million into the company, the report added."
+    },
+    {
+      "source": 0,
+      "text": "Nvidia has in recent months been focusing more and more on encouraging a market for open-weight AI models, which users can customize and run on their own hardware."
+    }
+  ]
+}

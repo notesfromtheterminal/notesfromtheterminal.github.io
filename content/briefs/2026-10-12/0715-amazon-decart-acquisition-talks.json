@@ -1,0 +1,32 @@
+{
+  "id": "2026-10-12-amazon-decart-acquisition-talks",
+  "publishedAt": "2026-10-12T07:15:00+07:00",
+  "section": "deals",
+  "tags": [
+    "models"
+  ],
+  "company": "Amazon",
+  "headline": "Amazon in talks to buy AI startup Decart, reportedly at around $7 billion",
+  "body": "Amazon is in talks to acquire Decart, a deal that could be valued at around $7 billion, the Wall Street Journal reported on Sunday, citing people familiar with the matter. Decart was valued at nearly $4 billion in May, according to PitchBook data cited by the Journal. Reuters could not immediately verify the report.",
+  "note": "The figure comes from the Journal's report, and talks can still fall apart. For banks, the deal is worth watching as AI infrastructure software changes hands.",
+  "sources": [
+    {
+      "name": "Reuters (via KSL.com)",
+      "url": "https://www.ksl.com/article/51635095/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-wsj-reports"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Amazon is in talks to acquire artificial ​intelligence startup Decart in a deal that could be valued at around $7 billion, the ‌Wall Street Journal reported on Sunday, citing people familiar with ⁠the matter."
+    },
+    {
+      "source": 0,
+      "text": "Decart was valued at nearly $4 billion in May, the Journal report said, citing PitchBook data."
+    },
+    {
+      "source": 0,
+      "text": "Reuters could not immediately verify ​the report."
+    }
+  ]
+}
