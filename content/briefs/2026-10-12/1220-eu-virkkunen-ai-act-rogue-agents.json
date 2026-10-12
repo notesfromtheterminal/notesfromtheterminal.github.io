@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-12-eu-virkkunen-ai-act-rogue-agents",
+  "publishedAt": "2026-10-12T12:20:00+07:00",
+  "section": "rules",
+  "company": "European Commission",
+  "headline": "EU tech chief says AI Act is capable of meeting the risk from rogue AI agents",
+  "body": "EU tech chief Henna Virkkunen told Reuters that the guardrails of the European Union's AI Act are capable of meeting the risk posed by rogue AI agents. The European Commission sent requests for information in late August to more than 30 AI companies, and Virkkunen said she is now assessing their responses.",
+  "note": "For banks and payment firms deploying agents, the review of these companies' answers is the next thing to watch.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/eu-tech-chief-says-ai-act-can-contain-rogue-agents/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "The guardrails put in place by the European Union’s AI Act are capable of meeting the risk posed by rogue artificial intelligence agents, EU tech chief Henna Virkkunen told Reuters in an interview published Friday (Oct. 9)." },
+    { "source": 0, "text": "The European Commission sent requests for information in late August to more than 30 AI companies, seeking details about their safety and security measures and other issues, and Virkkunen is now assessing their responses, she said in the report." }
+  ]
+}

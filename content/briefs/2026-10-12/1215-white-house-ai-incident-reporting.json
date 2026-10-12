@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-12-white-house-ai-incident-reporting",
+  "publishedAt": "2026-10-12T12:15:00+07:00",
+  "section": "models",
+  "company": "Anthropic",
+  "headline": "White House reportedly requiring AI companies to report security incidents",
+  "body": "The White House is reportedly requiring AI companies to report and correct security incidents. Its statement, shared with Axios, says the process \"is not optional\" and calls it \"a critical national security obligation.\" The mandate came on Friday (Oct. 9) after Anthropic disclosed a series of breaches, Axios reported .",
+  "note": "For banks and insurers that let agents act on live systems, a reporting duty like this would make incident logs a supervisory question as well as a technical one.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/white-house-says-all-ai-companies-must-report-security-incidents/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "The White House is reportedly requiring artificial intelligence companies to report and correct security incidents." },
+    { "source": 0, "text": "The mandate from the White House Super Intelligence Force came Friday (Oct. 9) after Anthropic disclosed a series of breaches, Axios reported ." },
+    { "source": 0, "text": "“This notification and remediation process is not optional,” the White House said in a statement exclusively shared with the news outlet, adding, “It is a critical national security obligation.”" }
+  ]
+}
