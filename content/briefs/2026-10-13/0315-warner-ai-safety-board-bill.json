@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-13-warner-ai-safety-board-bill",
+  "publishedAt": "2026-10-13T03:15:00+07:00",
+  "section": "rules",
+  "headline": "Senate bill would establish an AI Safety Board within Commerce",
+  "body": "Democrats Mark Warner, Brian Schatz and Andy Kim introduced the Artificial Intelligence Risk Management and Security Act of 2026. The bill would establish an AI Safety Board within the Department of Commerce. It would be charged with developing a process to perform technical evaluations of the capabilities of AI tools that constitute threats to U.S. national and economic security.",
+  "note": "For bank risk teams, the bill is worth tracking, though PYMNTS says any AI safety bill is likely to face pushback from the White House.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-safety-regulations-gain-momentum-in-congress-ahead-of-midterms/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "The latest effort comes from a trio of Democrats in the Senate led by Mark Warner of Virginia, who introduced the Artificial Intelligence Risk Management and Security Act of 2026 along with Brian Schatz of Hawaii and Andy Kim of New Jersey." },
+    { "source": 0, "text": "The Bill would establish an AI Safety Board within the Department of Commerce." },
+    { "source": 0, "text": "It would be charged with developing a process to perform technical evaluations of the capabilities of AI tools that constitute threats to U.S. national and economic security" },
+    { "source": 0, "text": "Regardless of which party ends up holding the gavel on Capitol Hill in January, any AI safety bill is likely to face pushback from the White House." }
+  ]
+}
