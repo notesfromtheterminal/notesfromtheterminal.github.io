@@ -1,6 +1,0 @@
-{
-  "kind": "CORRECTION",
-  "subject": "2026-10-12-amazon-decart-acquisition-talks",
-  "at": "2026-10-12T14:26:14.695Z",
-  "text": "Brief says: \"For banks, the deal is worth watching as AI infrastructure software changes hands.\" (note)\nSource says: \"Decart's Lucy model, backed by Nvidia, can edit live video in real time, according to the company's website. It has also developed Oasis, a model that generates simulated environments to train and test robotics and autonomous-driving systems.\" (https://www.ksl.com/article/51635095/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-wsj-reports)\nSuggested fix: \"The figure comes from the Journal's report, and talks can still fall apart. For banks, the deal is worth watching as models for live-video editing and robotics simulation change hands.\" (Filed by Site Watch, relayed by Marc.)"
-}

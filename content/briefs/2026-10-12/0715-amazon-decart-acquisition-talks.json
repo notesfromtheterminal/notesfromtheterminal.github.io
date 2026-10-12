@@ -8,7 +8,7 @@
   "company": "Amazon",
   "headline": "Amazon in talks to buy AI startup Decart, reported at around $7 billion",
   "body": "Amazon is in talks to acquire Decart in a deal valued at around $7 billion, the Wall Street Journal reported on Sunday, citing people familiar with the matter. The Journal reported that Decart was valued at nearly $4 billion in May, citing PitchBook data.",
-  "note": "The figure comes from the Journal's report, and talks can still fall apart. For banks, the deal is worth watching as AI infrastructure software changes hands.",
+  "note": "The figure comes from the Journal's report, and talks can still fall apart. For banks, the deal is worth watching as models for live-video editing and robotics simulation change hands.",
   "sources": [
     {
       "name": "Reuters (via KSL.com)",
@@ -23,6 +23,12 @@
     {
       "source": 0,
       "text": "The Journal reported that Decart was valued at nearly $4 billion in May, citing PitchBook data."
+    },
+    {
+      "source": 0,
+      "text": "Decart's Lucy model, ​backed by Nvidia, can ⁠edit live video in real time, ‌according to the ‌company's website. It has also developed Oasis, ⁠a model that generates ⁠simulated environments to train and test robotics and autonomous-driving systems."
     }
-  ]
+  ],
+  "updatedAt": "2026-10-12T22:10:00+07:00",
+  "correction": "Note said Decart deal was about AI infrastructure software; the source describes Decart's Lucy (live video editing) and Oasis (simulation) models. Note reworded."
 }
