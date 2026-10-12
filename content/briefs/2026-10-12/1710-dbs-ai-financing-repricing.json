@@ -1,0 +1,22 @@
+{
+  "id": "2026-10-12-dbs-ai-financing-repricing",
+  "publishedAt": "2026-10-12T17:10:00+07:00",
+  "section": "sea",
+  "tags": ["banking"],
+  "star": true,
+  "company": "DBS",
+  "headline": "DBS CEO says repricing of AI financing risk is healthy",
+  "body": "DBS CEO Tan Su Shan said investors are demanding higher returns and examining financing structures more closely. She described the repricing as healthy. DBS has originated approximately S$25 billion in AI-related financing deals so far this year. Most of it supports hardware infrastructure, including semiconductors, memory chips and data centres.",
+  "note": "For lenders, the practical point is her warning that financially weaker companies could face credit rating downgrades as markets reassess their AI exposure.",
+  "figure": { "value": "S$25B", "label": "AI-related financing DBS has originated so far this year, per its CEO" },
+  "sources": [
+    { "name": "Fintech News Singapore", "url": "https://fintechnews.sg/138858/ai/dbs-ai-financing-risk-repricing/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Speaking to Bloomberg Television on 12 October, Tan said investors are demanding higher returns and examining financing structures more closely." },
+    { "source": 0, "text": "However, Tan described the repricing as healthy, as investors seek to ensure that large financial commitments remain sustainable." },
+    { "source": 0, "text": "DBS has originated approximately S$25 billion in AI-related financing deals so far this year, according to Tan." },
+    { "source": 0, "text": "Most of the financing supports hardware infrastructure, including semiconductors, memory chips and data centres." },
+    { "source": 0, "text": "She warned that financially weaker companies could face credit rating downgrades as markets reassess their exposure to AI-related investments." }
+  ]
+}
