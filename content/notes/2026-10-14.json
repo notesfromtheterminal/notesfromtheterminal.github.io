@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-14",
+  "publishedAt": "2026-10-14T07:00:00+07:00",
+  "title": "AI agents get closer to the money, and the money gets pricier",
+  "dek": "Amex and Mashreq show agents entering payments and bank engineering, while DBS and a JPMorgan loan show how AI infrastructure is being priced.",
+  "lead": "2026-10-13-amex-intent-intelligence-framework",
+  "stories": [
+    "2026-10-13-mashreq-ibm-bob-integration-pilot",
+    "2026-10-12-dbs-ai-financing-repricing",
+    "2026-10-13-jpmorgan-volta-ai-data-centre-loan-pitch"
+  ],
+  "body": [
+    {
+      "head": "Agents need a record of intent",
+      "text": "American Express is introducing a framework designed to capture and authenticate a customer's purchase intent before an AI agent completes the transaction, and the company hopes the \"Intent Intelligence Framework\" becomes an industry standard. Amex said the Intent ID and token can be used in different parts of the transaction process, helping companies to manage areas like fraud prevention and dispute resolution.",
+      "support": [
+        "To get ahead of this problem, American Express is introducing a new framework designed to capture and authenticate a customer’s purchase intent before an AI agent completes the transaction.",
+        "Dubbed the “Intent Intelligence Framework,” the company hopes it will become an industry standard for AI-powered transactions.",
+        "This Intent ID and token can also be used in different parts of the transaction process, helping companies to manage areas like fraud prevention and dispute resolution, Amex said."
+      ]
+    },
+    {
+      "head": "No rise in disputes yet",
+      "text": "Amex also said it has not yet seen an increase in disputes because of agentic commerce, but it wanted to be proactive as this type of commerce scales.",
+      "support": [
+        "Amex said it has not yet seen an increase in disputes because of agentic commerce, but it wanted to be proactive in building this technology as this type of commerce scales."
+      ]
+    },
+    {
+      "head": "Agents inside bank engineering",
+      "text": "IBM says Mashreq cut integration design and troubleshooting time by up to 70% in an early pilot of IBM Bob. A gateway built on Model Context Protocol (MCP) handles about 4,000 AI-agent requests a month across Mashreq's banking, payments and enterprise systems.",
+      "support": [
+        "In an early pilot of IBM Bob, Mashreq cut integration design and troubleshooting time by up to 70%, turning two- to three-hour tasks into minutes.",
+        "A secure gateway built on Model Context Protocol (MCP) handles about 4,000 AI-agent requests a month across Mashreq’s banking, payments and enterprise systems."
+      ]
+    },
+    {
+      "head": "The price of AI infrastructure",
+      "text": "On 7 Oct, The Star reported that JPMorgan was pitching a yield of about 11% on a US$5bil leveraged-loan sale for Volta Infrastructure Holdings, one of the highest borrowing costs seen in the market for risky debt that has become popular for financing the AI boom. DBS CEO Tan described the repricing as healthy.",
+      "support": [
+        "However, Tan described the repricing as healthy, as investors seek to ensure that large financial commitments remain sustainable.",
+        "Wednesday, 07 Oct 2026",
+        "LONDON: JPMorgan Chase & Co is pitching a yield of about 11% on a US$5bil leveraged-loan sale on behalf of Volta Infrastructure Holdings Ltd, one of the highest borrowing costs seen in the market for risky debt that’s become popular for financing the artificial intelligence (AI) boom."
+      ]
+    },
+    {
+      "head": "What to watch in your own role",
+      "text": "If we work in payments or risk, the question is what record an agent leaves for each transaction, and in credit it is how the terms on AI-related loans are shifting. Which of those would we want to understand first?"
+    }
+  ]
+}
