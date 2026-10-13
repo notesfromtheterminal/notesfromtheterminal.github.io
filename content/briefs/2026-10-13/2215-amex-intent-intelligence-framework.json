@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-13-amex-intent-intelligence-framework",
+  "publishedAt": "2026-10-13T22:15:00+07:00",
+  "section": "payments",
+  "company": "American Express",
+  "headline": "American Express introduces a framework to capture a customer's purchase intent before an AI agent pays",
+  "body": "American Express is introducing the \"Intent Intelligence Framework\", designed to capture and authenticate a customer's purchase intent before an AI agent completes the transaction. Amex said it has not yet seen an increase in disputes because of agentic commerce, but wanted to be proactive as this type of commerce scales.",
+  "note": "Agent payments raise a dispute question: who authorized what. A record of the customer's instructions, if networks adopt one, would give issuers and merchants something to check a charge against.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "To get ahead of this problem, American Express is introducing a new framework designed to capture and authenticate a customer’s purchase intent before an AI agent completes the transaction." },
+    { "source": 0, "text": "Dubbed the “Intent Intelligence Framework,” the company hopes it will become an industry standard for AI-powered transactions." },
+    { "source": 0, "text": "Amex said it has not yet seen an increase in disputes because of agentic commerce, but it wanted to be proactive in building this technology as this type of commerce scales." },
+    { "source": 0, "text": "This Intent ID and token can also be used in different parts of the transaction process, helping companies to manage areas like fraud prevention and dispute resolution, Amex said." }
+  ]
+}
