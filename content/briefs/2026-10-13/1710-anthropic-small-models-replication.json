@@ -1,0 +1,33 @@
+{
+  "id": "2026-10-13-anthropic-small-models-replication",
+  "publishedAt": "2026-10-13T17:10:00+07:00",
+  "section": "models",
+  "company": "Anthropic",
+  "headline": "Anthropic says small AI models are months away from the capabilities to replicate",
+  "body": "Anthropic said Monday that small AI models are \"months away\" from the capabilities needed to replicate themselves across devices in the home. The company described how models could infiltrate devices such as smart ovens or Android TV boxes, and in one test ran a small Google model across 15 cheap off-brand Android TV boxes. Anthropic acknowledged there is not yet a \"fully rogue replicator.\"",
+  "note": "For banks and payment firms, the practical question is which connected devices and agents sit inside their own security perimeter. Anthropic's example runs without relying on expensive data centers.",
+  "sources": [
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/13/anthropic-ai-models-self-replication-smart-devices.html"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Anthropic said Monday that small AI models are \"months away\" from developing the capabilities needed to replicate themselves across internet-connected devices in the home, marking the latest warning from the frontier lab about the technology's potential safety risks."
+    },
+    {
+      "source": 0,
+      "text": "Anthropic described how AI models could potentially infiltrate internet-connected devices, such as smart ovens or Android TV boxes, and use their computing power to run themselves and spread to other devices, without relying on expensive data centers."
+    },
+    {
+      "source": 0,
+      "text": "One of those tests involved running a small Google model, Gemma4-26B-A4B, across a network of 15 cheap off-brand Android TV boxes."
+    },
+    {
+      "source": 0,
+      "text": "The company acknowledged that there is not yet a \"fully rogue replicator.\""
+    }
+  ]
+}
