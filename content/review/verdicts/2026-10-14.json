@@ -1,7 +1,7 @@
 {
   "note": "2026-10-14",
-  "commit": "fcb06c9dfc55f80a15d512d2016a53746837abf8",
-  "verdict": "CHANGES",
-  "at": "2026-10-13T16:47:20.076Z",
-  "notes": "1. Section 4 says \"At the same time, JPMorgan is pitching a yield of about 11%...\". Source (The Star, dated \"Wednesday, 07 Oct 2026\"): \"JPMorgan Chase & Co is pitching a yield of about 11% on a US$5bil leveraged-loan sale\". The DBS remarks were made on 12 October, five days later, so \"At the same time\" and the present tense join two dates the sources do not put together. Fix: drop \"At the same time\" and date the loan report, e.g. \"On 7 October, The Star reported that JPMorgan was pitching a yield of about 11% on a US$5bil leveraged-loan sale on behalf of Volta Infrastructure Holdings, one of the highest borrowing costs seen in the market for risky debt that has become popular for financing the AI boom.\" Check that the \"Sources for this section\" evidence still covers the reworded sentence.\n2. Section 2 subheading \"Early days for disputes\". Source (TechCrunch): \"Amex said it has not yet seen an increase in disputes because of agentic commerce\". \"Early days\" is the desk's own characterisation, not Amex's or TechCrunch's. Fix: use a subheading the source supports, e.g. \"No rise in disputes yet\"."
+  "commit": "eab672e9eeef38d57940d0eebf9a101b1e7ac0a3",
+  "verdict": "APPROVED",
+  "at": "2026-10-13T22:47:01.783Z",
+  "notes": ""
 }
