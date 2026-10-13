@@ -93,13 +93,15 @@ async function page(path, html, lastmod) {
   pages.push({ path, lastmod });
 }
 
-await page('', T.frontPage({ lead, top, note: latestNote, river, wire: wireItems }), now.toISOString());
+// Sitemap dates follow the news, not the 5-minute rebuild, so search engines can trust them.
+const newest = (list) => list.map((b) => b.updatedAt ?? b.publishedAt).sort((a, b) => Date.parse(a) - Date.parse(b)).at(-1);
+await page('', T.frontPage({ lead, top, note: latestNote, river, wire: wireItems }), newest([...briefs.slice(0, 20), ...notes.slice(0, 1)]));
 
 for (const s of sections) {
   await page(
     `section/${s.id}/`,
     T.sectionPage({ section: s, briefs: briefs.filter(inSection(s.id)).slice(0, 60), wire: wireItems.filter(inSection(s.id)) }),
-    now.toISOString(),
+    newest(briefs.filter(inSection(s.id)).slice(0, 20)),
   );
 }
 

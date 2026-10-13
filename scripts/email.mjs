@@ -74,7 +74,7 @@ function grid(cards) {
 }
 
 const storyCard = (b) => {
-  const href = `${SITE}/story/${b.id}/`;
+  const href = `${SITE}/story/${b.id}/?ref=kit`;
   return `<a href="${esc(href)}" style="text-decoration:none;"><img src="${esc(`${SITE}/cards/${b.id}.png`)}" width="252" alt="${esc(b.headline)}" class="nft-img" style="display:block;width:100%;max-width:252px;height:auto;border:1px solid ${C.rule};"></a>
 <p style="margin:14px 0 6px;font-family:${MONO};font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:${C.rust};">${esc(label(b.section))}</p>
 <p style="margin:0 0 8px;font-family:${SERIF};font-size:19px;font-weight:600;line-height:1.25;color:${C.ink};"><a href="${esc(href)}" style="color:${C.ink};text-decoration:none;">${esc(b.headline)}</a></p>
@@ -106,7 +106,7 @@ const html = [
 ${emblem('28px 0 4px')}
 ${heading("Today's idea in " + noteSections.length + ' points', C.light)}
 ${noteSections.map(sectionRow).join('')}
-<tr><td align="center" style="padding:18px 30px 36px;">${pill(`${SITE}/notes/${date}/`, 'Read it on the site', C.light)}</td></tr>`,
+<tr><td align="center" style="padding:18px 30px 36px;">${pill(`${SITE}/notes/${date}/?ref=kit`, 'Read it on the site', C.light)}</td></tr>`,
   ),
   // The stories behind it
   block(

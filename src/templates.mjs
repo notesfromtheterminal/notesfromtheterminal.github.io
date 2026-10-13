@@ -18,8 +18,10 @@ export function makeTemplates(ctx) {
   const ext = (url, label, cls = '') =>
     `<a${cls ? ` class="${cls}"` : ''} href="${esc(url)}" target="_blank" rel="noopener">${label}</a>`;
   const followUrl = `https://x.com/intent/follow?screen_name=${encodeURIComponent(site.x)}`;
+  // ?ref=x tells GoatCounter where the reader came from (X's app often hides the referrer);
+  // the page's canonical link keeps the parameter out of the counted path.
   const shareUrl = (text, path) =>
-    `https://x.com/intent/post?text=${encodeURIComponent(text)}&url=${encodeURIComponent(abs(path))}&via=${encodeURIComponent(site.x)}`;
+    `https://x.com/intent/post?text=${encodeURIComponent(text)}&url=${encodeURIComponent(`${abs(path)}?ref=x`)}&via=${encodeURIComponent(site.x)}`;
   const storyPath = (b) => `story/${b.id}/`;
   const sec = (id) => sectionMap[id] ?? { id, label: id, short: id };
 
@@ -294,7 +296,7 @@ ${n.dek ? `<p class="note-card-dek">${esc(n.dek)}</p>` : ''}
 ${compact ? '' : '<p class="kicker">The Morning Note, by email</p>'}
 <h2 class="signup-head" id="signup-h-${id}">${head}</h2>
 <p class="signup-dek">${dek}</p>
-<form class="signup-form" action="${esc(action)}" method="post" data-signup>
+<form class="signup-form" action="${esc(action)}" method="post" data-signup="${esc(id)}">
 <label class="sr" for="signup-email-${id}">Email address</label>
 <input id="signup-email-${id}" type="email" name="email_address" placeholder="Your email" autocomplete="email" required>
 <button type="submit">Subscribe</button>

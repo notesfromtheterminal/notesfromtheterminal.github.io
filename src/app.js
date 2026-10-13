@@ -208,7 +208,9 @@
         if (res.ok && data.status === 'success') {
           form.hidden = true;
           say('Almost there: check your inbox and confirm your email.', 'ok');
-          window.goatcounter?.count?.({ path: 'newsletter-signup', title: 'Newsletter sign-up', event: true });
+          // One event per placement (front, story, footer...), so we can see which box earns sign-ups.
+          const where = form.dataset.signup || 'form';
+          window.goatcounter?.count?.({ path: `newsletter-signup-${where}`, title: `Newsletter sign-up (${where})`, event: true });
         } else if (data.status === 'quarantined') {
           form.submit(); // Kit wants a human check; its own page handles that
         } else {
