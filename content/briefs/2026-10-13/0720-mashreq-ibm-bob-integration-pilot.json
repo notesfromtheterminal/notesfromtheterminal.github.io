@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-13-mashreq-ibm-bob-integration-pilot",
+  "publishedAt": "2026-10-13T07:20:00+07:00",
+  "section": "banking",
+  "company": "Mashreq",
+  "headline": "IBM says an early Mashreq pilot cut integration design and troubleshooting time by up to 70%",
+  "body": "IBM says Mashreq cut integration design and troubleshooting time by up to 70% in an early pilot of IBM Bob. The press release adds that tasks that took two to three hours of manual work now take minutes.",
+  "note": "The 70% comes from an early pilot that IBM announced. A secure gateway handles about 4,000 AI-agent requests a month across Mashreq's banking, payments and enterprise systems.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/mashreqs-ai-agents-cut-integration-time-up-to-70/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "In an early pilot of IBM Bob, Mashreq cut integration design and troubleshooting time by up to 70%, turning two- to three-hour tasks into minutes." },
+    { "source": 0, "text": "In an early pilot of IBM Bob, IBM’s AI software engineering platform, the Dubai-based bank cut the time spent on integration design and troubleshooting by up to 70%, according to a Monday (Oct. 12) announcement from IBM." },
+    { "source": 0, "text": "The press release added that tasks that took two to three hours of manual work now take minutes." },
+    { "source": 0, "text": "A secure gateway built on Model Context Protocol (MCP) handles about 4,000 AI-agent requests a month across Mashreq’s banking, payments and enterprise systems." }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-13-jpmorgan-volta-ai-data-centre-loan-pitch",
+  "publishedAt": "2026-10-13T07:20:00+07:00",
+  "section": "banking",
+  "company": "JPMorgan",
+  "headline": "JPMorgan is pitching a yield of about 11% on a US$5bil loan for Volta's AI data centre",
+  "body": "On 7 Oct, The Star said JPMorgan is pitching a yield of about 11% on a US$5bil leveraged-loan sale for Volta Infrastructure Holdings. The loan is being marketed at 6.25 to 6.5 percentage points above the benchmark rate, according to a person familiar with the matter. The loan will finance a data centre complex in Norway, and Anthropic has signed a six-year agreement for compute capacity at the site, according to people familiar with the matter.",
+  "note": "At about 11%, the yield is one of the highest borrowing costs seen for risky debt that has become popular for financing the AI boom. The Star's report says the deal marks a new high in all-in yield.",
+  "sources": [
+    { "name": "The Star", "url": "https://www.thestar.com.my/business/business-news/2026/10/07/jpmorgan-dangles-11-yield-on-voltas-ai-loan-sale" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Wednesday, 07 Oct 2026" },
+    { "source": 0, "text": "LONDON: JPMorgan Chase & Co is pitching a yield of about 11% on a US$5bil leveraged-loan sale on behalf of Volta Infrastructure Holdings Ltd, one of the highest borrowing costs seen in the market for risky debt that’s become popular for financing the artificial intelligence (AI) boom." },
+    { "source": 0, "text": "The loan transaction for the new AI cloud company is being marketed in the range of 6.25 percentage points to 6.5 percentage points above the benchmark rate, and a discounted price of 97 US cents to 98 US cents on the US dollar, according to a person familiar with the matter." },
+    { "source": 0, "text": "The Volta deal, which is more than just a chip loan and also includes debt to support a data centre (DC), marks a new high in terms of all-in yield." },
+    { "source": 0, "text": "The transaction will be used to finance a DC complex in Norway that will be managed by Volta Infrastructure in partnership with Bitdeer Technologies Group, and Anthropic has already signed a six-year agreement for compute capacity at the site, according to people familiar with the matter." },
+    { "source": 0, "text": "But smaller, riskier companies without such partners, especially so-called neoclouds that rent access to chips and other AI infrastructure, are instead turning to the more expensive leveraged loan market." }
+  ]
+}
