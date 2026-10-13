@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-14-google-gemini-4-argon-availability",
+  "publishedAt": "2026-10-14T03:15:00+07:00",
+  "section": "models",
+  "company": "Google",
+  "headline": "Google makes Gemini 4 Argon globally available at an introductory price",
+  "body": "Google says Gemini 4 Argon is now globally available for developers and enterprises via the API. The introductory price is $2 per million input tokens and $10 per million output tokens. After the introductory period expires on November 30, 2026, $4 per 1M input tokens and $20 per 1M output tokens will apply.",
+  "note": "For banks and payment firms, the price is the figure to set against current model bills, and the introductory price ends on November 30, 2026.",
+  "figure": { "value": "$2", "label": "introductory price per million input tokens" },
+  "sources": [
+    { "name": "Google", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Gemini 4 Argon is now globally available today for developers and enterprises via the API in AI Studio and Gemini platform" },
+    { "source": 0, "text": "The model launches today at an introductory price" },
+    { "source": 0, "text": "of $2 per million input tokens and $10 per million output tokens" },
+    { "source": 0, "text": "After the introductory period expires on November 30, 2026, the price of $4 per 1M input tokens and $20 per 1M output tokens will apply." }
+  ]
+}

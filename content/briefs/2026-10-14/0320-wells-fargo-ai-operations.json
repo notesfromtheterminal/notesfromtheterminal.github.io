@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-14-wells-fargo-ai-agents-operations",
+  "publishedAt": "2026-10-14T03:20:00+07:00",
+  "section": "banking",
+  "company": "Wells Fargo",
+  "headline": "Wells Fargo uses AI, in some cases autonomous agents, across its operations",
+  "body": "Scharf, Wells Fargo's chairman and CEO, said on Tuesday (Oct. 13) during a third quarter earnings call that the bank is devoting \"significant management time and resources\" to AI. The bank is using AI and, in some cases, autonomous agents to write code faster, launch marketing campaigns faster, and accelerate response times for underwriting decisions and customer complaints. Scharf also said an AI-powered tool streamlines financial advisors’ routine work.",
+  "note": "The list runs from writing code and launching marketing campaigns to customer complaints and underwriting decisions. Scharf also said the bank is taking a disciplined approach to managing risk.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/earnings/2026/wells-fargo-enhances-banking-capabilities-using-ai-and-digital-assets/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Chairman and CEO Charlie Scharf said Tuesday (Oct. 13) during a third quarter earnings call" },
+    { "source": 0, "text": "Wells Fargo is devoting “significant management time and resources” to building artificial intelligence (AI) capabilities and driving value across its operations" },
+    { "source": 0, "text": "The bank is using AI and, in some cases, autonomous agents to write code faster, launch marketing campaigns faster, close previously unknown cyber vulnerabilities, improve and simplify risk management processes, help customers complete common banking tasks, and accelerate response times for underwriting decisions and customer complaints." },
+    { "source": 0, "text": "“We’re excited by the opportunities AI presents for our clients and our company, and we’re taking a disciplined approach to managing risk,” Scharf said." },
+    { "source": 0, "text": "as well as an AI-powered tool that streamlines financial advisors’ routine work and helps them access information to serve clients, Scharf said." }
+  ]
+}
