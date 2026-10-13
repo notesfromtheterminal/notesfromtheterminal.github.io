@@ -41,6 +41,7 @@ Beat priority, highest first:
 Rules of thumb:
 
 - 2 to 6 briefs per run is normal. Zero is fine.
+- **When two picks are equally strong, prefer the named institution with a figure.** A story where a specific bank, insurer, lender or regulator gives a number, ranking or index ("BBVA tops eurozone banks for AI as Evident's average bank score rose 26%") beats a general one ("banks speed up AI adoption, survey finds"). Readers stay longest on these. This only breaks ties: never pick a weaker story to fit the pattern, and a day without one is fine.
 - **Judge each story on its own.** In your summary, give every skipped story its own one-line reason that is true of that story: "no readable source" only after you tried `source.mjs` on it, "repeat" only when you can name the earlier brief's id. Never skip a group of stories under one shared reason.
 - **Stories that must not be missed.** When several established outlets on the wire cover the same story about a major lab (its finances, leadership, staff, safety or legal fights) or about a big bank's AI plans, brief it or name in your summary the specific reason you could not. Wide coverage on the wire is the signal that readers will expect it here.
 - Models & Labs gets up to 2 briefs a run on top of the finance picks, so model news never crowds out the core beats and never waits for a quiet day.
