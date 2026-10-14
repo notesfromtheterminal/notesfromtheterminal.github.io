@@ -5,9 +5,11 @@
   "tags": ["payments"],
   "star": true,
   "company": "JPMorgan Chase",
-  "headline": "JPMorgan won't allow outside AI agents to access customer accounts",
-  "body": "JPMorgan Chase CEO Jamie Dimon said the bank won't allow outside AI agents to access customer accounts and operate on their behalf, citing risk to clients. A spokeswoman told CNBC the bank currently blocks external agents from operating on behalf of retail customers, with no timeline for safeguards that would let agents interact directly with accounts. Agents can still read some data, such as balances, through connectors like Plaid.",
-  "note": "For finance teams, the line the bank draws is between reading account data and acting on it, and CNBC reports that agents can do the first but can't send money or pay a bill. Dimon said customers who use outside agents should understand there's a liability transfer.",
+  "headline": "JPMorgan won't let outside AI agents access customer accounts or operate on their behalf",
+  "body": "JPMorgan Chase CEO Jamie Dimon said the bank won't allow outside AI agents to access customer accounts and operate on their behalf, citing risks to the company and its customers. A spokeswoman told CNBC the bank currently blocks external agents from operating on behalf of retail customers, with no timeline for safeguards that would let agents interact directly with accounts. Agents can still access some customer data in a read-only fashion, such as balances, if Plaid or another connector has the user's credentials.",
+  "note": "For finance teams, the distinction that matters is between reading account data and acting on it, and CNBC reports that agents can do the first but can't send money or pay a bill. Dimon said customers who use outside agents should understand there's a liability transfer.",
+  "updatedAt": "2026-10-15T03:20:00+07:00",
+  "correction": "Headline dropped 'operate on their behalf', so it said less than the source. Body said 'citing risk to clients' and 'read some data through connectors like Plaid' with no condition. Note said the bank 'draws' a line the source does not attribute to it. Site Watch request, checked on the CNBC page: JPMorgan won't allow outside agents to access customer accounts and operate on their behalf, citing risks to the company and its customers; read-only access to balances applies only if Plaid or another connector has the user's credentials. Headline, body and note changed to match.",
   "sources": [
     {
       "name": "CNBC",
