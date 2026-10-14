@@ -7,8 +7,10 @@
   ],
   "company": "Harbor",
   "headline": "Harbor starts with $10M seed to measure and insure AI agent risk",
-  "body": "Harbor came out of stealth with $10 million in seed funding led by Base10, Abstract and 8VC. The company says it measures the operational, security and regulatory risk of each AI agent a company runs, and that its first customers are banks and insurers in the United States, Europe and Latin America. Harbor also says insurers do not have the claims history to price AI agent risk.",
+  "body": "Harbor came out of stealth with $10 million in seed funding led by Base10, Abstract and 8VC. The company says it measures the operational, security and regulatory risk of each AI agent a company runs, and that its first customers are banks and insurers in the United States, Europe and Latin America. Insurance Journal reports that insurers do not have the claims history to price AI agent risk.",
   "note": "Harbor says some insurers are now excluding AI from existing policies. For bank risk teams, the pitch is that measuring an agent's risk is what makes it insurable.",
+  "updatedAt": "2026-10-15T03:20:00+07:00",
+  "correction": "Body said Harbor says insurers do not have the claims history to price AI agent risk. Insurance Journal's own words say insurers do not have the claims history to price the risk; only the exclusion sentence is attributed to Harbor. Body now credits Insurance Journal for the claims-history point.",
   "sources": [
     {
       "name": "Harbor",

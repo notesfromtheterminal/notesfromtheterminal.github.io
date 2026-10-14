@@ -1,6 +1,0 @@
-{
-  "kind": "CORRECTION",
-  "subject": "2026-10-14-jpmorgan-outside-agents-accounts",
-  "at": "2026-10-14T16:08:46.489Z",
-  "text": "Brief says: \"JPMorgan won't allow outside AI agents to access customer accounts\" (headline), while the body says \"Agents can still read some data, such as balances, through connectors like Plaid.\"\nSource says: \"JPMorgan Chase won't allow outside artificial intelligence agents to access customer accounts and operate on their behalf, CEO Jamie Dimon said Tuesday\" and \"AI agents can access some customer data from Chase accounts in a read-only fashion, such as customer balances, if Plaid or another connector has the user's credentials. But they can't send money or pay a bill\" (https://www.cnbc.com/2026/10/13/jpmorgan-ai-agents-account-access.html)\nSuggested fix: headline: \"JPMorgan won't let outside AI agents act on customer accounts\". Dropping \"and operate on their behalf\" makes the headline say more than the body and the source.\n\nBrief says: \"...citing risk to clients.\"\nSource says: \"citing risks to the company and its customers\" and \"it's just too risky for clients and for JPMorgan\" (same page)\nSuggested fix: \"...citing risks to clients and to the bank.\" (Both filed by Site Watch, relayed by Marc; quotes confirmed on the page with source.mjs.)"
-}

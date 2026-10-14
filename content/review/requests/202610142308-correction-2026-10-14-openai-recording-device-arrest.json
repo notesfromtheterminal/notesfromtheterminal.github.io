@@ -1,6 +1,0 @@
-{
-  "kind": "CORRECTION",
-  "subject": "2026-10-14-openai-recording-device-arrest",
-  "at": "2026-10-14T16:08:46.355Z",
-  "text": "Brief says: \"OpenAI said it has \\\"no indications\\\" the employee accessed model weights, source code or customer data.\" (body) and \"OpenAI says it has no sign of access to model weights or customer data.\" (note)\nSource says: \"\\\"At this time, we have no indications of this individual inappropriately accessing or exfiltrating model weights, source code, or customer data,\\\" OpenAI said in the post.\" (https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html)\nSuggested fix: body: \"OpenAI said it has \\\"no indications\\\" the employee inappropriately accessed or exfiltrated model weights, source code or customer data.\" Note: \"...and OpenAI says it has no sign of inappropriate access to, or exfiltration of, model weights or customer data.\" OpenAI ruled out improper access, not all access: an employee can have normal access to source code. (Filed by Site Watch, relayed by Marc; quote confirmed on the page with source.mjs.)"
-}
