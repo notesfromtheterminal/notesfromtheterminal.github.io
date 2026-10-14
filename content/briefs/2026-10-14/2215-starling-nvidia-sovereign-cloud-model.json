@@ -1,0 +1,14 @@
+{
+  "id": "2026-10-14-starling-nvidia-sovereign-cloud-model",
+  "publishedAt": "2026-10-14T22:15:00+07:00",
+  "section": "banking",
+  "company": "Starling",
+  "headline": "Starling is working with Nvidia on a transactional model hosted in a UK sovereign cloud",
+  "body": "Starling is working with Nvidia to build a transactional foundational model that is trained and hosted within a UK sovereign cloud. Finextra reports Starling as the first bank to train an AI model on UK sovereign cloud.",
+  "note": "Where a bank trains and hosts a model is becoming part of the AI story for lenders, alongside what the model does.",
+  "sources": [{ "name": "Finextra", "url": "https://www.finextra.com/newsarticle/48583/starling-becomes-first-bank-to-train-ai-model-on-uk-sovereign-cloud" }],
+  "evidence": [
+    { "source": 0, "text": "Starling is working with AI chip making giant Nvidia to build a transactional foundational model that is trained and hosted within a UK sovereign cloud." },
+    { "source": 0, "text": "Starling becomes first bank to train AI model on UK sovereign cloud" }
+  ]
+}
