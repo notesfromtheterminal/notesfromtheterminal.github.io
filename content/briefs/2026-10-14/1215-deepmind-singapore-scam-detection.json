@@ -1,0 +1,52 @@
+{
+  "id": "2026-10-14-deepmind-singapore-on-device-scam-detection",
+  "publishedAt": "2026-10-14T12:15:00+07:00",
+  "section": "sea",
+  "tags": [
+    "banking"
+  ],
+  "company": "Google DeepMind",
+  "headline": "Google DeepMind and GovTech deliver an on-device scam detection model",
+  "body": "Google DeepMind and GovTech, the Government Technology Agency of Singapore, say their collaboration delivers an on-device scam detection model. Google DeepMind's Gemma model was fine-tuned on local scam conversations, including impersonations of banks, and the model triggers a real-time warning when it detects manipulative patterns. Scams make up over half of Singapore’s reported crimes, and account for more than S$4 billion in losses since 2019.",
+  "note": "Google says messaging platforms and operating system vendors can integrate these models directly, so banks tracking impersonation scams may want to watch where the model turns up next.",
+  "sources": [
+    {
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
+    }
+  ],
+  "figure": {
+    "value": "S$4B+",
+    "label": "scam losses in Singapore since 2019"
+  },
+  "evidence": [
+    {
+      "source": 0,
+      "text": "The collaboration delivers an on-device scam detection model that helps protect citizens without compromising privacy."
+    },
+    {
+      "source": 0,
+      "text": "To address this, Google DeepMind and the Government Technology Agency of Singapore (GovTech) have been working together as part of our National AI Partnership with the Singapore Government."
+    },
+    {
+      "source": 0,
+      "text": "To address this, Google DeepMind's lightweight Gemma model was fine-tuned on local scam conversations."
+    },
+    {
+      "source": 0,
+      "text": "These ranged from impersonations of public institutions, banks, and local figures, to trending regional schemes, ensuring the model can distinguish benign social chatter from genuine manipulation."
+    },
+    {
+      "source": 0,
+      "text": "When the model detects manipulative conversational patterns, it triggers a real-time warning directly on the user's device advising them to pause and exercise caution before sharing sensitive information or funds."
+    },
+    {
+      "source": 0,
+      "text": "Scams make up over half of Singapore’s reported crimes, and account for more than S$4 billion in losses since 2019."
+    },
+    {
+      "source": 0,
+      "text": "Messaging platforms and operating system vendors can directly integrate these lightweight models to safeguard users locally, ensuring chat interactions remain secure without exposing private data."
+    }
+  ]
+}

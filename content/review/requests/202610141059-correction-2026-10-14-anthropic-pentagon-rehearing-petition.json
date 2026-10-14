@@ -1,6 +1,0 @@
-{
-  "kind": "CORRECTION",
-  "subject": "2026-10-14-anthropic-pentagon-rehearing-petition",
-  "at": "2026-10-14T03:59:21.165Z",
-  "text": "Brief says: \"In September, the court upheld that label in a 2-1 decision, and the Pentagon did not immediately respond to a request for comment.\"\nSource says: \"In September, the D.C. Circuit upheld the Pentagon's blacklisting. The 2-1 decision rejected Anthropic's argument...\" The no-comment line belongs to this week's filing: \"The Pentagon didn't immediately respond to a request for comment.\" (https://www.cnbc.com/2026/10/13/anthropic-wants-court-in-dc-to-rehear-appeal-of-pentagon-blacklist-.html)\nSuggested fix: \"In September, the court upheld that label in a 2-1 decision. The Pentagon did not immediately respond to CNBC's request for comment on the new filing.\" (Filed by Site Watch, relayed by Marc.)"
-}

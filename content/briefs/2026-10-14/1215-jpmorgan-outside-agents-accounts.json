@@ -1,0 +1,47 @@
+{
+  "id": "2026-10-14-jpmorgan-outside-agents-accounts",
+  "publishedAt": "2026-10-14T12:15:00+07:00",
+  "section": "banking",
+  "tags": ["payments"],
+  "star": true,
+  "company": "JPMorgan Chase",
+  "headline": "JPMorgan won't allow outside AI agents to access customer accounts",
+  "body": "JPMorgan Chase CEO Jamie Dimon said the bank won't allow outside AI agents to access customer accounts and operate on their behalf, citing risk to clients. A spokeswoman told CNBC the bank currently blocks external agents from operating on behalf of retail customers, with no timeline for safeguards that would let agents interact directly with accounts. Agents can still read some data, such as balances, through connectors like Plaid.",
+  "note": "For finance teams, the line the bank draws is between reading account data and acting on it, and CNBC reports that agents can do the first but can't send money or pay a bill. Dimon said customers who use outside agents should understand there's a liability transfer.",
+  "sources": [
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/13/jpmorgan-ai-agents-account-access.html"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "JPMorgan Chase won't allow outside artificial intelligence agents to access customer accounts and operate on their behalf, CEO Jamie Dimon said Tuesday, citing risks to the company and its customers as tech firms including Meta release autonomous assistants."
+    },
+    {
+      "source": 0,
+      "text": "We're not going to allow just any … outside agent to come in inside the company, because it's just too risky for clients and for JPMorgan,\" Dimon told analysts on the bank's third-quarter earnings call."
+    },
+    {
+      "source": 0,
+      "text": "A JPMorgan spokeswoman confirmed to CNBC that the bank currently blocks external AI agents from operating on behalf of retail customers."
+    },
+    {
+      "source": 0,
+      "text": "There's no timeline for when the bank would have safeguards in place to allow agents to directly interact with customer accounts, the spokeswoman added."
+    },
+    {
+      "source": 0,
+      "text": "That means that AI agents can access some customer data from Chase accounts in a read-only fashion, such as customer balances, if Plaid or another connector has the user's credentials."
+    },
+    {
+      "source": 0,
+      "text": "But they can't send money or pay a bill — actions that make an agent useful."
+    },
+    {
+      "source": 0,
+      "text": "If people are using them, they should understand the risk,\" Dimon said. \"They should understand there's a liability transfer."
+    }
+  ]
+}

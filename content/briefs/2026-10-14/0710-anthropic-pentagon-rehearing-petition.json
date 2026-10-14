@@ -1,10 +1,12 @@
 {
   "id": "2026-10-14-anthropic-pentagon-rehearing-petition",
   "publishedAt": "2026-10-14T07:10:00+07:00",
+  "updatedAt": "2026-10-14T12:20:00+07:00",
+  "correction": "Site Watch (Fixes request, 14 Oct) said the CNBC page carries 'The Pentagon didn't immediately respond to a request for comment.' That sentence is not on the page (source.mjs and --find both miss it), so it was removed and the page's actual Pentagon line put in its place: a spokesperson said the agency doesn't comment on pending or ongoing litigation. Also 'the court upheld that label' became 'the D.C. Circuit upheld the blacklisting', the page's wording.",
   "section": "rules",
   "company": "Anthropic",
   "headline": "Anthropic asks D.C. appeals court to rehear Pentagon blacklisting case",
-  "body": "Anthropic is asking a federal appeals court in Washington, D.C. to rehear its appeal of the Pentagon's blacklisting of its AI models, CNBC reports. The Defense Department labeled the company a supply chain risk in March. In September, the court upheld that label in a 2-1 decision, and the Pentagon did not immediately respond to a request for comment.",
+  "body": "Anthropic is asking a federal appeals court in Washington, D.C. to rehear its appeal of the Pentagon's blacklisting of its AI models, CNBC reports. The Defense Department labeled the company a supply chain risk in March, and the D.C. Circuit upheld the blacklisting in a 2-1 decision in September. A Pentagon spokesperson told CNBC that the agency doesn't comment on pending or ongoing litigation.",
   "note": "The label blocks defense contractors from using Anthropic's technology in their work with the agency. For finance teams that work with defense contractors, a government designation of an AI vendor can reach their own supply chain.",
   "sources": [
     {
@@ -15,7 +17,7 @@
   "evidence": [
     {
       "source": 0,
-      "text": "Anthropic is asking a federal court in Washington, D.C. to rehear its appeal in a case concerning the Pentagon's blacklisting of the company's AI models."
+      "text": "Anthropic is asking a federal appeals court in Washington, D.C. to rehear its appeal in a case concerning the Pentagon's blacklisting of the company's AI models."
     },
     {
       "source": 0,
@@ -31,7 +33,7 @@
     },
     {
       "source": 0,
-      "text": "The Pentagon didn't immediately respond to a request for comment."
+      "text": "A Pentagon spokesperson told CNBC in an email that the agency doesn't comment on pending or ongoing litigation."
     },
     {
       "source": 0,

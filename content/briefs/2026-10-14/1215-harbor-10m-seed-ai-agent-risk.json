@@ -1,0 +1,52 @@
+{
+  "id": "2026-10-14-harbor-10m-seed-ai-agent-risk",
+  "publishedAt": "2026-10-14T12:15:00+07:00",
+  "section": "deals",
+  "tags": [
+    "banking"
+  ],
+  "company": "Harbor",
+  "headline": "Harbor starts with $10M seed to measure and insure AI agent risk",
+  "body": "Harbor came out of stealth with $10 million in seed funding led by Base10, Abstract and 8VC. The company says it measures the operational, security and regulatory risk of each AI agent a company runs, and that its first customers are banks and insurers in the United States, Europe and Latin America. Harbor also says insurers do not have the claims history to price AI agent risk.",
+  "note": "Harbor says some insurers are now excluding AI from existing policies. For bank risk teams, the pitch is that measuring an agent's risk is what makes it insurable.",
+  "sources": [
+    {
+      "name": "Harbor",
+      "url": "https://harbor.ai/seed-announcement"
+    },
+    {
+      "name": "Insurance Journal",
+      "url": "https://www.insurancejournal.com/news/national/2026/10/13/888747.htm"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Today Harbor comes out of stealth with $10 million led by Base10, Abstract and 8VC, in collaboration with Restive, NFX, Innovation Endeavors, Kibo Ventures, Masia and MVP Ventures."
+    },
+    {
+      "source": 0,
+      "text": "With our risk platform, we find every agent a company runs, measure its operational, security and regulatory risk, and block the decisions that break the company's rules before they go through."
+    },
+    {
+      "source": 0,
+      "text": "Our first customers are banks and insurers in the United States, Europe and Latin America."
+    },
+    {
+      "source": 1,
+      "text": "San Francisco-based Harbor starts with $10 million in seed funding from Base10 Partners, Abstract and 8VC."
+    },
+    {
+      "source": 1,
+      "text": "When it comes to AI agents, insurers do not have the claims history to price the risk."
+    },
+    {
+      "source": 1,
+      "text": "So some insurers are excluding AI out of existing policies, Harbor said."
+    },
+    {
+      "source": 0,
+      "text": "The measurement is what makes the risk insurable."
+    }
+  ]
+}
