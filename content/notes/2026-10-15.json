@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-15",
+  "publishedAt": "2026-10-15T07:00:00+07:00",
+  "title": "JPMorgan keeps outside agents out, Wells Fargo and DBS use AI inside",
+  "dek": "JPMorgan blocks outside agents while Wells Fargo and DBS put AI to work in their own operations, and a startup says it can measure agent risk.",
+  "lead": "2026-10-14-jpmorgan-outside-agents-accounts",
+  "stories": [
+    "2026-10-14-wells-fargo-ai-agents-operations",
+    "2026-10-14-dbs-ocbc-uob-ai-use-cases",
+    "2026-10-14-harbor-10m-seed-ai-agent-risk"
+  ],
+  "body": [
+    {
+      "head": "JPMorgan keeps outside agents out",
+      "text": "JPMorgan Chase CEO Jamie Dimon said the bank won't allow outside AI agents to access customer accounts and operate on their behalf, citing risks to the company and its customers. A spokeswoman confirmed the bank currently blocks external agents from operating on behalf of retail customers, with no timeline for safeguards that would let them interact directly with accounts.",
+      "support": [
+        "JPMorgan Chase won't allow outside artificial intelligence agents to access customer accounts and operate on their behalf, CEO Jamie Dimon said Tuesday, citing risks to the company and its customers as tech firms including Meta release autonomous assistants.",
+        "A JPMorgan spokeswoman confirmed to CNBC that the bank currently blocks external AI agents from operating on behalf of retail customers.",
+        "There's no timeline for when the bank would have safeguards in place to allow agents to directly interact with customer accounts, the spokeswoman added."
+      ]
+    },
+    {
+      "head": "Read-only access still works",
+      "text": "Agents can still access some customer data in a read-only fashion, such as balances, if Plaid or another connector has the user's credentials, CNBC reports. They can't send money or pay a bill. Dimon added that people using them should understand there is a liability transfer.",
+      "support": [
+        "That means that AI agents can access some customer data from Chase accounts in a read-only fashion, such as customer balances, if Plaid or another connector has the user's credentials.",
+        "But they can't send money or pay a bill — actions that make an agent useful.",
+        "If people are using them, they should understand the risk,\" Dimon said. \"They should understand there's a liability transfer."
+      ]
+    },
+    {
+      "head": "Banks already put AI to work",
+      "text": "Wells Fargo is using AI and, in some cases, autonomous agents to write code faster, launch marketing campaigns faster, and accelerate response times for underwriting decisions and customer complaints, PYMNTS reports. Scharf said the bank is taking a disciplined approach to managing risk. DBS, for its part, says it runs more than 430 AI use cases, and its 2025 annual report estimates about S$1 billion in economic value from its data analytics and AI and machine-learning initiatives.",
+      "support": [
+        "Chairman and CEO Charlie Scharf said Tuesday (Oct. 13) during a third quarter earnings call",
+        "Wells Fargo is devoting “significant management time and resources” to building artificial intelligence (AI) capabilities and driving value across its operations",
+        "The bank is using AI and, in some cases, autonomous agents to write code faster, launch marketing campaigns faster, close previously unknown cyber vulnerabilities, improve and simplify risk management processes, help customers complete common banking tasks, and accelerate response times for underwriting decisions and customer complaints.",
+        "“We’re excited by the opportunities AI presents for our clients and our company, and we’re taking a disciplined approach to managing risk,” Scharf said.",
+        "DBS says it runs more than 430 AI use cases, and OCBC and UOB each put theirs at more than 300.",
+        "Its 2025 annual report counts more than 430 use cases across over 2,000 AI models and estimates that its data analytics and AI and machine-learning initiatives delivered about S$1 billion in economic value in 2025."
+      ]
+    },
+    {
+      "head": "At DBS, humans still sign off",
+      "text": "In August, DBS gave around 1,500 relationship and credit risk managers worldwide a tool that drafts a corporate credit memo, the document that makes the case for lending to a company. The tool drafts the memo, and bankers and credit risk managers still make the assessment and approval decisions.",
+      "support": [
+        "In August, DBS gave around 1,500 relationship and credit risk managers worldwide a tool that works through more than 70 such tasks to draft a corporate credit memo, the document that makes the case for lending to a company.",
+        "It grew out of a pilot with 150 staff, and bankers and credit risk managers still make the assessment and approval decisions."
+      ]
+    },
+    {
+      "head": "Someone has to measure agent risk",
+      "text": "Harbor came out of stealth with $10 million in seed funding and says it measures the operational, security and regulatory risk of each AI agent a company runs, with banks and insurers in the United States, Europe and Latin America as its first customers. Insurance Journal reports that insurers do not have the claims history to price the risk of AI agents. If you work in a risk or operations team, a useful question to ask this week is which agents already run inside your own walls, and who signs off on each one.",
+      "support": [
+        "Today Harbor comes out of stealth with $10 million led by Base10, Abstract and 8VC, in collaboration with Restive, NFX, Innovation Endeavors, Kibo Ventures, Masia and MVP Ventures.",
+        "With our risk platform, we find every agent a company runs, measure its operational, security and regulatory risk, and block the decisions that break the company's rules before they go through.",
+        "Our first customers are banks and insurers in the United States, Europe and Latin America.",
+        "When it comes to AI agents, insurers do not have the claims history to price the risk."
+      ]
+    }
+  ]
+}
