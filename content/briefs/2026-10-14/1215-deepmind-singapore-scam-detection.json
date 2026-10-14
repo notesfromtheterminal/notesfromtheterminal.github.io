@@ -6,9 +6,9 @@
     "banking"
   ],
   "company": "Google DeepMind",
-  "headline": "Google DeepMind and GovTech deliver an on-device scam detection model",
-  "body": "Google DeepMind and GovTech, the Government Technology Agency of Singapore, say their collaboration delivers an on-device scam detection model. Google DeepMind's Gemma model was fine-tuned on local scam conversations, including impersonations of banks, and the model triggers a real-time warning when it detects manipulative patterns. Scams make up over half of Singapore’s reported crimes, and account for more than S$4 billion in losses since 2019.",
-  "note": "Google says messaging platforms and operating system vendors can integrate these models directly, so banks tracking impersonation scams may want to watch where the model turns up next.",
+  "headline": "Google DeepMind and GovTech say they fine-tuned an on-device scam detection model",
+  "body": "Google DeepMind and GovTech, the Government Technology Agency of Singapore, say they have fine-tuned a privacy-preserving, on-device scam detection model. Google’s lightweight Gemma model was fine-tuned on local scam conversations, which ranged from impersonations of public institutions and banks to trending regional schemes. When the model detects manipulative conversational patterns, it triggers a real-time warning on the user's device.",
+  "note": "Google says the model runs entirely on-device, and that neither the Singapore Government nor Google will be able to access users’ conversations through its deployment.",
   "sources": [
     {
       "name": "Google DeepMind",
@@ -22,19 +22,19 @@
   "evidence": [
     {
       "source": 0,
-      "text": "The collaboration delivers an on-device scam detection model that helps protect citizens without compromising privacy."
+      "text": "Together, we've fine-tuned a privacy-preserving, on-device scam detection model."
     },
     {
       "source": 0,
-      "text": "To address this, Google DeepMind and the Government Technology Agency of Singapore (GovTech) have been working together as part of our National AI Partnership with the Singapore Government."
+      "text": "To address this, Google DeepMind and the Government Technology Agency of Singapore (GovTech Singapore) have been working together as part of our National AI Partnership with the Singapore Government."
     },
     {
       "source": 0,
-      "text": "To address this, Google DeepMind's lightweight Gemma model was fine-tuned on local scam conversations."
+      "text": "To address this, Google’s lightweight Gemma model was fine-tuned on local scam conversations."
     },
     {
       "source": 0,
-      "text": "These ranged from impersonations of public institutions, banks, and local figures, to trending regional schemes, ensuring the model can distinguish benign social chatter from genuine manipulation."
+      "text": "These ranged from impersonations of public institutions, banks, and local figures, to trending regional schemes."
     },
     {
       "source": 0,
@@ -42,11 +42,13 @@
     },
     {
       "source": 0,
-      "text": "Scams make up over half of Singapore’s reported crimes, and account for more than S$4 billion in losses since 2019."
+      "text": "Scams, such as investment fraud, fake job offers, and impersonation of public officials make up over half of Singapore’s reported crimes, and account for more than S$4 billion in losses since 2019 ."
     },
     {
       "source": 0,
-      "text": "Messaging platforms and operating system vendors can directly integrate these lightweight models to safeguard users locally, ensuring chat interactions remain secure without exposing private data."
+      "text": "As the model runs entirely on-device, neither the Singapore Government nor Google, will be able to access users’ conversations through its deployment."
     }
-  ]
+  ],
+  "correction": "2026-10-14 17:10 WIB desk fix: evidence re-copied word for word from the page (several sentences had been paraphrased). \"The collaboration delivers\", \"Scams make up\" and the messaging-platform integration claim were not on the page, so they are gone. Headline and body now attribute the fine-tuning to Google DeepMind and GovTech as the page says. Removed the \"so\" link between scams and the note.",
+  "updatedAt": "2026-10-14T17:10:00+07:00"
 }

@@ -1,0 +1,22 @@
+{
+  "id": "2026-10-14-dbs-ocbc-uob-ai-use-cases",
+  "publishedAt": "2026-10-14T17:10:00+07:00",
+  "section": "sea",
+  "tags": ["banking"],
+  "company": "DBS",
+  "headline": "DBS counts more than 430 AI use cases in its 2025 annual report",
+  "body": "DBS says it runs more than 430 AI use cases. Its 2025 annual report counts over 2,000 AI models and estimates about S$1 billion in economic value from its data analytics, AI and machine-learning initiatives that year. In August, DBS gave around 1,500 relationship and credit risk managers a tool to draft a corporate credit memo, and bankers still make the approval decisions.",
+  "note": "Each bank counts AI use cases in its own way. A better test is what each has put in front of its bankers and customers.",
+  "figure": { "value": "430", "label": "AI use cases DBS counts in its 2025 annual report" },
+  "sources": [
+    { "name": "Fintech News Singapore", "url": "https://fintechnews.sg/137393/ai/how-dbs-ocbc-and-uob-are-betting-on-ai-in-2026/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "DBS says it runs more than 430 AI use cases, and OCBC and UOB each put theirs at more than 300." },
+    { "source": 0, "text": "Its 2025 annual report counts more than 430 use cases across over 2,000 AI models and estimates that its data analytics and AI and machine-learning initiatives delivered about S$1 billion in economic value in 2025." },
+    { "source": 0, "text": "In August, DBS gave around 1,500 relationship and credit risk managers worldwide a tool that works through more than 70 such tasks to draft a corporate credit memo, the document that makes the case for lending to a company." },
+    { "source": 0, "text": "It grew out of a pilot with 150 staff, and bankers and credit risk managers still make the assessment and approval decisions." },
+    { "source": 0, "text": "Every bank counts in its own way, and UOB's figure includes analytics, so the totals only go so far." },
+    { "source": 0, "text": "A better test is what each bank has put in front of its bankers and customers this year, and what it can show for it." }
+  ]
+}
