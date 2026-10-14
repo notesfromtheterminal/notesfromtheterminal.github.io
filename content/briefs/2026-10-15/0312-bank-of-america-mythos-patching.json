@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-15-bank-of-america-mythos-patching",
+  "publishedAt": "2026-10-15T03:12:00+07:00",
+  "section": "banking",
+  "star": true,
+  "company": "Bank of America",
+  "headline": "Bank of America hired 1,000 contractors to patch AI-exposed vulnerabilities",
+  "body": "Bank of America CEO Brian Moynihan told CNBC the bank hired 1,000 contractors to patch software vulnerabilities exposed by advanced AI models, including Anthropic's Mythos. The bank spent a \"couple hundred million plus\" on software remediation and regulatory issues related to anti-money laundering compliance in the third quarter, Moynihan told analysts. Savings from its about 130 internal AI projects are expected to rise from $300 million this year to $700 million in 2027, Moynihan told analysts.",
+  "note": "For bank operations teams, patching the flaws that advanced models expose is a cost that shows up in quarterly results, and Bank of America expects its remediation costs to decline over time.",
+  "sources": [
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Bank of America has hired an army of external contractors to help it patch software vulnerabilities exposed by advanced artificial intelligence models including Anthropic's Mythos , the bank's CEO, Brian Moynihan , told CNBC on Wednesday."
+    },
+    {
+      "source": 0,
+      "text": "We put on 1,000 contractors to help us do the patching work in the second quarter, and those people remain here today, helping us, on top of the 3,000 people we have in that area,\" he said."
+    },
+    {
+      "source": 0,
+      "text": "The bank spent a \"couple hundred million plus\" on the software remediation and regulatory issues related to anti-money laundering compliance in the third quarter, Moynihan told analysts earlier Wednesday."
+    },
+    {
+      "source": 0,
+      "text": "In an interview after the bank's third-quarter earnings release , Moynihan said that earlier this year the company rushed to bolster a wide spectrum of its internal and vendor code using thousands of employees and outside personnel."
+    },
+    {
+      "source": 0,
+      "text": "Moynihan said, adding that the bank expects remediation costs to decline over time."
+    },
+    {
+      "source": 0,
+      "text": "Bank of America has about 130 internal AI projects, and savings from those efforts are expected to rise from $300 million this year to $700 million in 2027, Moynihan told analysts."
+    }
+  ]
+}
