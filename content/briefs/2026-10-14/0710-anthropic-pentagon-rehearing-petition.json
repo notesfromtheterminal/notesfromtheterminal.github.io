@@ -1,0 +1,41 @@
+{
+  "id": "2026-10-14-anthropic-pentagon-rehearing-petition",
+  "publishedAt": "2026-10-14T07:10:00+07:00",
+  "section": "rules",
+  "company": "Anthropic",
+  "headline": "Anthropic asks D.C. appeals court to rehear Pentagon blacklisting case",
+  "body": "Anthropic is asking a federal appeals court in Washington, D.C. to rehear its appeal of the Pentagon's blacklisting of its AI models, CNBC reports. The Defense Department labeled the company a supply chain risk in March. In September, the court upheld that label in a 2-1 decision, and the Pentagon did not immediately respond to a request for comment.",
+  "note": "The label blocks defense contractors from using Anthropic's technology in their work with the agency. For finance teams that work with defense contractors, a government designation of an AI vendor can reach their own supply chain.",
+  "sources": [
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/13/anthropic-wants-court-in-dc-to-rehear-appeal-of-pentagon-blacklist-.html"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Anthropic is asking a federal court in Washington, D.C. to rehear its appeal in a case concerning the Pentagon's blacklisting of the company's AI models."
+    },
+    {
+      "source": 0,
+      "text": "The Defense Department labeled Anthropic a supply chain risk in March, and the AI company sued the Trump administration in an effort to undo that action."
+    },
+    {
+      "source": 0,
+      "text": "In September, the D.C. Circuit upheld the Pentagon's blacklisting."
+    },
+    {
+      "source": 0,
+      "text": "The 2-1 decision rejected Anthropic's argument that the Department of Defense's ban on its Claude models was arbitrary, unauthorized and unconstitutional."
+    },
+    {
+      "source": 0,
+      "text": "The Pentagon didn't immediately respond to a request for comment."
+    },
+    {
+      "source": 0,
+      "text": "The Defense Department, led by Pete Hegseth, applied the supply chain risk label in March, a move that blocked defense contractors from using the company's technology in their work with the agency."
+    }
+  ]
+}

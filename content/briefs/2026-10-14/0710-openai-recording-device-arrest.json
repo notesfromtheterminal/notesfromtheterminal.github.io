@@ -1,0 +1,37 @@
+{
+  "id": "2026-10-14-openai-recording-device-arrest",
+  "publishedAt": "2026-10-14T07:10:00+07:00",
+  "section": "models",
+  "company": "OpenAI",
+  "headline": "FBI arrests OpenAI employee over recording device hidden in conference room",
+  "body": "The DOJ said a Saudi national was arrested on Oct. 9 in connection with a recording device found in OpenAI's executive conference room. OpenAI said the employee planted the device a few days before it was found, and the employee was terminated. OpenAI said it has \"no indications\" the employee accessed model weights, source code or customer data.",
+  "note": "The incident is about the office, and OpenAI says it has no sign of access to model weights or customer data. Vendor reviews of AI labs should cover insider and physical risk as well as model security.",
+  "sources": [
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "An OpenAI employee was arrested after a \"sophisticated recording device\" was found hidden inside the executive conference room."
+    },
+    {
+      "source": 0,
+      "text": "Abdulrahman Alfozan, 35, who is a national of the Kingdom of Saudi Arabia, was arrested in connection with the matter, the DOJ said."
+    },
+    {
+      "source": 0,
+      "text": "Abdulrahman Alfozan, 35, who is a national of the Kingdom of Saudi Arabia, was arrested on Oct. 9 in connection with the matter, the DOJ said in a release on Tuesday."
+    },
+    {
+      "source": 0,
+      "text": "The company said an employee planted the device a few days before it was found, and the Federal Bureau of Investigation \"moved quickly to make an arrest,\" the post said. The employee was terminated."
+    },
+    {
+      "source": 0,
+      "text": "\"At this time, we have no indications of this individual inappropriately accessing or exfiltrating model weights, source code, or customer data,\" OpenAI said in the post."
+    }
+  ]
+}
