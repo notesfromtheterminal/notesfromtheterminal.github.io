@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-16-google-universal-cart-us-launch",
+  "publishedAt": "2026-10-16T03:15:00+07:00",
+  "section": "payments",
+  "company": "Google",
+  "headline": "Google makes Universal Cart available to US users across Search and Gemini",
+  "body": "Universal Cart lets users collect and monitor products they find across Search and the Gemini app. Google says the cart can help shoppers stay on top of deals and availability. Checkout runs through Google’s Universal Commerce Protocol, an open standard for AI agents and retailers.",
+  "note": "Checkout is the step to watch for payments teams. It runs on UCP, an open standard designed to help AI agents and retailers work together.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Google on Thursday said “Universal Cart,” a tool that lets users collect and monitor products they find across search and in the Gemini app, is now available to U.S. users." },
+    { "source": 0, "text": "Google says the cart can also help shoppers stay on top of deals and availability." },
+    { "source": 0, "text": "Checkout is tied to Google’s Universal Commerce Protocol, or UCP, an open standard the company introduced earlier this year." },
+    { "source": 0, "text": "UCP is designed to help AI agents and retailers work together across different parts of the shopping journey, including checkout." }
+  ]
+}

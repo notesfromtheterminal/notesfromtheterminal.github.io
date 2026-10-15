@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-16-us-bancorp-ai-cash-sorting-agents-deposits",
+  "publishedAt": "2026-10-16T03:14:30+07:00",
+  "section": "banking",
+  "company": "U.S. Bancorp",
+  "headline": "U.S. Bancorp has not encountered third-party AI cash-sorting agents",
+  "body": "On the third-quarter call, CEO Gunjan Kedia said the bank has not encountered third-party AI cash-sorting agents. Kedia said the logistics are “very complicated” and that the bank does not expect a near-term impact. Average deposits increased 2.9% year over year.",
+  "note": "Kedia pointed to the bank’s own digital tools for deposit pricing. He put outside cash-sorting agents beyond the near term.",
+  "figure": { "value": "2.9%", "label": "Average deposits, year over year" },
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/us-bancorp-says-ai-agents-are-not-moving-consumer-deposits-yet/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "U.S. Bancorp ’s consumers continued to spend during the third quarter, even as the bank carried more card balances and saw an increase in early-stage card delinquencies." },
+    { "source": 0, "text": "Asked whether personal AI agents could automatically move cash among banks to seek better rates, CEO Gunjan Kedia said U.S. Bank has not encountered third-party AI cash-sorting agents." },
+    { "source": 0, "text": "“The logistics of doing something like this are very complicated, so we do not expect it to be a near-term impact to us,” Kedia said." },
+    { "source": 0, "text": "Average deposits increased 2.9% year over year and 2.2% sequentially, with consumer deposits reaching another quarterly record." },
+    { "source": 0, "text": "U.S. Bank’s existing digital tools already provide deposit price discovery and automated optimization options, according to Kedia, who added that the technology is already being used internally for productivity." }
+  ]
+}

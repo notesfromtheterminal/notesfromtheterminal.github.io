@@ -1,0 +1,40 @@
+{
+  "id": "2026-10-16-boe-breeden-ai-cyber-attacks-recovery",
+  "publishedAt": "2026-10-16T03:14:00+07:00",
+  "section": "rules",
+  "tags": [
+    "banking"
+  ],
+  "star": true,
+  "headline": "Bank of England's Breeden says hackers or hostile nations are the chief concern with advanced AI",
+  "body": "Sarah Breeden, deputy governor of the Bank of England, said the chief concern is hackers or hostile nations weaponizing advanced AI models. The comments were made at the Institute of International Finance annual meeting in Bangkok.",
+  "note": "For bank technology teams, the speech points past prevention to recovery of core services. It also names rogue AI agents as a regulatory concern.",
+  "sources": [
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/cybersecurity/2026/boe-warns-banks-against-ai-cybersecurity-risks/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Sarah Breeden , deputy governor of the Bank of England (BoE) said Thursday (Oct. 15) that advances in artificial intelligence (AI) meant the technology now presents a “systemic risk” to the world financial system."
+    },
+    {
+      "source": 0,
+      "text": "“It’s not enough now to assume that the cyber attackers won’t get through,” said Breeden, whose comments at the Institute of International Finance annual meeting in Bangkok were reported by Reuters."
+    },
+    {
+      "source": 0,
+      "text": "Breeden said the chief concern is either hackers or hostile nations weaponizing advanced AI models to exploit weaknesses in banks’ systems."
+    },
+    {
+      "source": 0,
+      "text": "Regulators are also concerned about rogue AI agents functioning in ways that are not expected and bypassing banks’ safeguards."
+    },
+    {
+      "source": 0,
+      "text": "“We need to be thinking about what are the bare metal recovery options … that we need for the core services, and we need to think about that end-to-end across the financial system.”"
+    }
+  ]
+}

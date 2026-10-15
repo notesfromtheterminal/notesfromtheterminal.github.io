@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-16-nyc-comptroller-anthropic-ipo-safety-letter",
+  "publishedAt": "2026-10-16T03:13:00+07:00",
+  "section": "models",
+  "tags": ["rules", "deals"],
+  "star": true,
+  "company": "Anthropic",
+  "headline": "NYC comptroller asks Anthropic to delay its IPO and focus on safety",
+  "body": "Mark Levine, New York City’s comptroller, is calling on Anthropic to delay its initial public offering. In an Oct. 14 letter, he says the company should prioritize “the myriad safety concerns surrounding AI threats.” He asks Anthropic to disclose how it will implement audits and controls, with a projected timeline.",
+  "note": "The letter cites news reports that Anthropic’s draft S-1 filing includes 80 pages of risk disclosures. For IPO watchers, the open question is whether the audit and control timeline Levine asks for will come before the offering.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/nyc-comptroller-urges-anthropic-to-delay-ipo-and-focus-on-ai-safety/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "New York City Comptroller Mark Levine is calling on Anthropic to delay its initial public offering and focus its energies on artificial intelligence safety issues the company itself has highlighted." },
+    { "source": 0, "text": "Levine made this call in a Wednesday (Oct. 14) letter addressed to Anthropic CEO Dario Amodei and posted on the New York City Comptroller ’s website." },
+    { "source": 0, "text": "“Before going public, the company should prioritize addressing the myriad safety concerns surrounding AI threats and establishing a governance regime that matches the seriousness of the concerns being raised by you as well as industry researchers, policymakers and the public,” Levine said in the letter." },
+    { "source": 0, "text": "“Considering these concerns, Anthropic should disclose with specificity how it will implement appropriate audits and controls, the scope of what these controls are intended to address, as well as a projected timeline,” Levine said in the letter." },
+    { "source": 0, "text": "Levine cited a Sept. 12 essay in which Amodei said the industry “must slow the pace at which we improve the capabilities of AI models,” the claim of former Anthropic researcher Jacob Coxon that insiders believe AI “could kill us all by the end of the decade,” and news reports that Anthropic’s draft S-1 filing includes 80 pages of risk disclosures and says AI could pose “catastrophic or existential risks to humanity.”" }
+  ]
+}
