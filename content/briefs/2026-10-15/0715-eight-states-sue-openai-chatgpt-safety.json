@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-15-eight-states-sue-openai-chatgpt-safety",
+  "publishedAt": "2026-10-15T07:15:00+07:00",
+  "section": "rules",
+  "tags": ["models"],
+  "star": true,
+  "company": "OpenAI",
+  "headline": "Eight US states sue OpenAI, alleging ChatGPT is an unsafe product",
+  "body": "Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho and Montana have each sued OpenAI in their own state courts, Iowa Attorney General Brenna Bird said in a release. OpenAI spokesperson Drew Pusateri said the company has built age-specific protections that \"many other AI products lack.\"",
+  "note": "For finance teams, the case is a reminder that a consumer chatbot can draw state court action, which matters for any bank or fintech that puts one in front of customers.",
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/14/openai-sued-by-8-states-over-chatgpt-safety-concerns-.html" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Eight states filed lawsuits against OpenAI on Wednesday alleging that the artificial intelligence company's ChatGPT chatbot is an unsafe product that's harmed children and deceived parents." },
+    { "source": 0, "text": "Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho and Montana have individually sued OpenAI in their own state courts, Iowa Attorney General Brenna Bird said in a release ." },
+    { "source": 0, "text": "OpenAI spokesperson Drew Pusateri said the company has built age-specific protections into its product that \"many other AI products lack.\"" }
+  ]
+}

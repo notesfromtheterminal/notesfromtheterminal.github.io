@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-15-bbva-joins-personal-agent-protocol",
+  "publishedAt": "2026-10-15T07:16:00+07:00",
+  "section": "banking",
+  "tags": ["payments"],
+  "company": "BBVA",
+  "headline": "BBVA is first European bank to join Personal Agent Protocol",
+  "body": "BBVA has become the first European bank to join the Personal Agent Protocol (Poppy) initiative. The initiative aims to help develop a common protocol that enables secure interactions between AI agents and businesses.",
+  "note": "For bank operations teams, the open question is whether one shared protocol could let agents from different providers reach a bank's services under common rules.",
+  "sources": [
+    { "name": "Finextra", "url": "https://www.finextra.com/pressarticle/111261/bbva-joins-meta-backed-personal-agent-protocol-initiative" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "BBVA has become the first European bank to join the Personal Agent Protocol (Poppy) initiative to help develop a common protocol that enables secure interactions between artificial intelligence (AI) agents and businesses." }
+  ]
+}

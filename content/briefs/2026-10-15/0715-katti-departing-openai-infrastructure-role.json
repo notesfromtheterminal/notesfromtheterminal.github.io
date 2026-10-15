@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-15-katti-departing-openai-infrastructure-role",
+  "publishedAt": "2026-10-15T07:17:00+07:00",
+  "section": "models",
+  "company": "OpenAI",
+  "headline": "OpenAI infrastructure lead Sachin Katti is departing his role",
+  "body": "OpenAI's infrastructure lead, Sachin Katti, announced on Wednesday that he is departing his role after roughly a year at the artificial intelligence company. He'll continue to support OpenAI as an advisor after his last day on Nov. 15. Uday Ruddarraju, OpenAI's CTO of compute, will replace Katti and lead the company's overall compute organization, according to a spokesperson.",
+  "note": "The compute organization is tasked with the infrastructure roadmap and with training and serving the models, which makes its leadership worth watching for finance teams following data center projects.",
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/14/openais-sachin-katti-to-leave-infrastructure-role-stay-on-as-advisor.html" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "OpenAI's infrastructure lead, Sachin Katti, announced on Wednesday that he is departing his role after roughly a year at the artificial intelligence company." },
+    { "source": 0, "text": "Katti said in a post on LinkedIn that he \"decided to move on to build something new,\" and he'll continue to support OpenAI as an advisor after his last day on Nov. 15." },
+    { "source": 0, "text": "Uday Ruddarraju, OpenAI's CTO of compute, will replace Katti and lead the company's overall compute organization, according to a spokesperson." },
+    { "source": 0, "text": "OpenAI's compute organization is crucial to its overall strategy; it's tasked with developing the company's infrastructure roadmap and ensuring that it can train and serve its models." }
+  ]
+}
