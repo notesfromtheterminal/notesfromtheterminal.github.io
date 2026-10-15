@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-15-natwest-nvidia-accents-spending-tool",
+  "publishedAt": "2026-10-15T17:10:00+07:00",
+  "section": "banking",
+  "tags": [],
+  "company": "NatWest",
+  "headline": "NatWest taps Nvidia speech recognition to help spending tool understand accents",
+  "body": "NatWest has harnessed Nvidia AI speech recognition for its new audio-visual spending insights tool, to help it understand customers' accents and pronunciations.",
+  "note": "For banks adding voice features, accent handling is a test that customer-facing tools have to pass.",
+  "sources": [
+    { "name": "Finextra", "url": "https://www.finextra.com/newsarticle/48586/natwest-enlists-nvidia-to-help-its-ai-spending-tool-understand-regional-accents" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "NatWest has harnessed AI speech recognition technology from Nvidia to help its new audio-visual spending insights tool understand customers' accents and pronunciations." }
+  ]
+}

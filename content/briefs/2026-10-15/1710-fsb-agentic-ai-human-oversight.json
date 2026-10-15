@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-15-fsb-agentic-ai-human-oversight",
+  "publishedAt": "2026-10-15T17:10:00+07:00",
+  "section": "rules",
+  "tags": ["banking"],
+  "headline": "FSB consultation says continuous human monitoring of AI agents becomes impractical",
+  "body": "The FSB's June 2026 consultation report recommends supplementing human oversight with AI that monitors other AI. The report says an agent can take hundreds of intermediate steps towards a goal and err at any of them.",
+  "note": "The report sets a higher bar of human approval or dual authorisation above a threshold value for agents that execute financial transactions.",
+  "sources": [
+    { "name": "The Asian Banker", "url": "https://www.theasianbanker.com/updates-and-articles/financial-stability-board-points-banks-towards-ai-monitoring-ai-as-human-oversight-reaches-its-limits" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "The Financial Stability Board (FSB) published a consultation report on 10 June 2026 setting out 12 sound practices for responsible AI adoption." },
+    { "source": 0, "text": "As agentic AI systems multiply within financial institutions, the report accepts that continuous human monitoring of individual agent decisions becomes impractical, and recommends supplementing human oversight with AI that monitors other AI." },
+    { "source": 0, "text": "The report states that the impracticality of real-time human monitoring grows as agent use spreads, and that an agent can take hundreds of intermediate steps towards a goal and err at any of them." },
+    { "source": 0, "text": "for agents executing financial transactions, especially with customer funds, sets a higher bar of human approval or dual authorisation above a threshold value, restricted agent access to payment systems, and audit trails of every agent transaction." }
+  ]
+}

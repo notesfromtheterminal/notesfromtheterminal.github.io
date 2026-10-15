@@ -1,6 +1,0 @@
-{
-  "kind": "CORRECTION",
-  "subject": "2026-10-15-bbva-joins-personal-agent-protocol",
-  "at": "2026-10-15T07:34:51.110Z",
-  "text": "Brief says: \"BBVA is first European bank to join Personal Agent Protocol\" (headline) and \"BBVA has become the first European bank to join the Personal Agent Protocol (Poppy) initiative.\" (body)\nSource says: the same wording, in a Finextra item marked \"External: This content is provided by an external author without editing by Finextra\", i.e. BBVA's own press release (https://www.finextra.com/pressarticle/111261/bbva-joins-meta-backed-personal-agent-protocol-initiative)\nSuggested fix: attribute the \"first\" claim, e.g. headline \"BBVA joins Personal Agent Protocol, says it is the first European bank to do so\" and body \"BBVA says it is the first European bank to join...\". A company's claim to be first is never stated as fact. (Filed by Site Watch, relayed by Marc.)"
-}
