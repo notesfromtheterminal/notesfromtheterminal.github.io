@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-16",
+  "publishedAt": "2026-10-16T07:00:00+07:00",
+  "title": "The FSB doubts humans can watch every agent step",
+  "dek": "The FSB accepts continuous human monitoring of agents is impractical, while FIS offers an AML agent to any U.S. bank and Bank of America pays for patching.",
+  "lead": "2026-10-15-fsb-agentic-ai-human-oversight",
+  "stories": [
+    "2026-10-15-fis-aml-investigations-agent-available",
+    "2026-10-15-bank-of-america-mythos-patching"
+  ],
+  "body": [
+    {
+      "head": "Oversight is changing shape",
+      "text": "The Financial Stability Board (FSB) published a consultation report setting out 12 sound practices for responsible AI adoption, and it accepts that continuous human monitoring of individual agent decisions becomes impractical as agentic AI systems multiply. It recommends supplementing human oversight with AI that monitors other AI. If you run a review queue, that is worth sitting with for a minute.",
+      "support": [
+        "The Financial Stability Board (FSB) published a consultation report on 10 June 2026 setting out 12 sound practices for responsible AI adoption.",
+        "As agentic AI systems multiply within financial institutions, the report accepts that continuous human monitoring of individual agent decisions becomes impractical, and recommends supplementing human oversight with AI that monitors other AI."
+      ]
+    },
+    {
+      "head": "An AML agent goes on sale",
+      "text": "FIS announced that its AML Agent, developed with support from Anthropic, is now commercially available to any U.S.-based bank, including those that are not FIS clients today. At Amalgamated Bank, a design partner, the agent is projected to reduce Level 2 case investigation time by approximately 98 percent, based on the bank's analysis of its current workflows. That figure is a projection from Amalgamated's own analysis, and it is the number to ask for again once the agent has been running for a while.",
+      "support": [
+        "Developed by FIS with support from Anthropic, the FIS AML Agent is now commercially available to any U.S.-based bank, including those that are not FIS clients today.",
+        "At Amalgamated Bank, one of FIS’ design partners, the agent is projected to reduce Level 1 alert review time by more than 90 percent and Level 2 case investigation time by approximately 98 percent - referring respectively to initial alert triage and deeper case review after escalation - as well as SAR narrative preparation time by more than 80 percent, based on the bank’s analysis of its current workflows against the agent’s capabilities."
+      ]
+    },
+    {
+      "head": "Patching is a people job too",
+      "text": "At Bank of America, CEO Brian Moynihan told CNBC the bank put on 1,000 contractors to help with patching work in the second quarter, alongside the 3,000 it already has in that area, to deal with software vulnerabilities exposed by advanced AI models including Anthropic's Mythos. He told analysts the bank spent a \"couple hundred million plus\" on software remediation and regulatory issues related to anti-money laundering compliance in the third quarter, and said it expects remediation costs to decline over time. At the same time, Bank of America has about 130 internal AI projects, and Moynihan told analysts that savings from them are expected to rise from $300 million this year to $700 million in 2027.",
+      "support": [
+        "Bank of America has hired an army of external contractors to help it patch software vulnerabilities exposed by advanced artificial intelligence models including Anthropic's Mythos , the bank's CEO, Brian Moynihan , told CNBC on Wednesday.",
+        "We put on 1,000 contractors to help us do the patching work in the second quarter, and those people remain here today, helping us, on top of the 3,000 people we have in that area,\" he said.",
+        "The bank spent a \"couple hundred million plus\" on the software remediation and regulatory issues related to anti-money laundering compliance in the third quarter, Moynihan told analysts earlier Wednesday.",
+        "Moynihan said, adding that the bank expects remediation costs to decline over time.",
+        "Bank of America has about 130 internal AI projects, and savings from those efforts are expected to rise from $300 million this year to $700 million in 2027, Moynihan told analysts."
+      ]
+    },
+    {
+      "head": "Two places to look",
+      "text": "Side by side, these stories put work in two places: reviewing what agents do, and cleaning up what advanced models can find. Which of the two is bigger in your own shop, and who is staffed for it?"
+    }
+  ]
+}
