@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-15-nvidia-nemotron-3-5-super-vl",
+  "publishedAt": "2026-10-15T22:11:00+07:00",
+  "section": "models",
+  "company": "NVIDIA",
+  "headline": "NVIDIA releases Nemotron 3.5 Super VL, an open 120-billion-parameter model for agents",
+  "body": "NVIDIA released Nemotron 3.5 Super VL, an open 120-billion-parameter model, along with two edge models, Nemotron 3.5 Bolt 74B-A9B and Bolt E4B. NVIDIA says organizations are post-training Super VL for tasks that include credit agreement analysis at Hebbia and financial document intelligence at Ramp.",
+  "note": "Open weights let a bank post-train a model on its own data and keep it on its own infrastructure, which matters for lenders with data-residency rules. The customer examples are NVIDIA's own account of adoption.",
+  "sources": [
+    { "name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents." },
+    { "source": 0, "text": "Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized for intelligence per GB for fast conversational agents." },
+    { "source": 0, "text": "AfterQuery customized the model for Hebbia for credit agreement analysis." },
+    { "source": 0, "text": "Additional organizations customizing Nemotron 3.5 Super VL include Ramp for financial document intelligence; Dream , sovereign AI-powered cybersecurity research and vulnerability analysis; Lila Sciences for scientific discovery and search, and R1 for medical claims analysis and revenue cycle management." },
+    { "source": 0, "text": "Unlike closed frontier models, organizations can post-train Super VL on their own data, deploy it on their own infrastructure and oversee what they build." },
+    { "source": 0, "text": "Control runs in two directions. Organizations can run the model wherever their security and data-residency requirements dictate." }
+  ]
+}

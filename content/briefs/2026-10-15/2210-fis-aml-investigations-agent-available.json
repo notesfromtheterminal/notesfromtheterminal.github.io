@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-15-fis-aml-investigations-agent-available",
+  "publishedAt": "2026-10-15T22:10:00+07:00",
+  "section": "banking",
+  "company": "FIS",
+  "headline": "FIS makes its AML Investigations Agent available to any U.S. bank",
+  "body": "FIS announced that its AML Investigations Agent, developed with support from Anthropic, is now commercially available to any U.S.-based bank, including those that are not FIS clients today. At Amalgamated Bank, a design partner, the agent is projected to reduce Level 2 case investigation time by approximately 98 percent, based on the bank's analysis of its current workflows.",
+  "note": "The projection comes from Amalgamated's own analysis of its workflows, so the detail to watch is whether banks outside FIS's client base report their own numbers.",
+  "sources": [
+    {
+      "name": "FIS",
+      "url": "https://www.fisglobal.com/about-us/media-room/press-release/2026/fis-aml-investigations-agent-now-commercially-available"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Developed by FIS with support from Anthropic, the FIS AML Agent is now commercially available to any U.S.-based bank, including those that are not FIS clients today."
+    },
+    {
+      "source": 0,
+      "text": "At Amalgamated Bank, one of FIS’ design partners, the agent is projected to reduce Level 1 alert review time by more than 90 percent and Level 2 case investigation time by approximately 98 percent - referring respectively to initial alert triage and deeper case review after escalation - as well as SAR narrative preparation time by more than 80 percent, based on the bank’s analysis of its current workflows against the agent’s capabilities."
+    }
+  ]
+}
