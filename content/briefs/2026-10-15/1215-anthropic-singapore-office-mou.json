@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-15-anthropic-singapore-office-safety-mou",
+  "publishedAt": "2026-10-15T12:15:00+07:00",
+  "section": "sea",
+  "tags": ["banking"],
+  "company": "Anthropic",
+  "headline": "Anthropic opened a Singapore office and signed a safety MOU with MDDI",
+  "body": "Anthropic has opened an office in Singapore, its fifth in APAC, and signed a MoU with the Ministry of Digital Development and Information (MDDI). The MOU covers AI safety, security and model evaluation, and Anthropic plans technical exchanges with Singapore's AI safety institutions.",
+  "sources": [
+    { "name": "Fintech News Singapore", "url": "https://fintechnews.sg/138970/ai/anthropic-singapore-office-mou-dbs-gic/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Anthropic has opened an office in Singapore, its fifth in APAC, and signed a MoU with the Ministry of Digital Development and Information (MDDI)." },
+    { "source": 0, "text": "The MOU covers AI safety, security, model evaluation, research into AI adoption and its impact, and responsible deployment across the public and private sectors." },
+    { "source": 0, "text": "Anthropic plans to hold technical exchanges with Singapore’s AI safety institutions on model evaluation, testing standards and incident response." }
+  ]
+}

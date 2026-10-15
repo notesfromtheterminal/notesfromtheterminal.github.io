@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-15-anthropic-q3-revenue-16-8-billion",
+  "publishedAt": "2026-10-15T12:15:00+07:00",
+  "section": "deals",
+  "tags": ["models"],
+  "star": true,
+  "company": "Anthropic",
+  "headline": "Anthropic's third-quarter revenue reportedly hits $16.8 billion",
+  "body": "Anthropic told investors its third-quarter revenue stands at $16.8 billion, according to people familiar with the matter. Revenue rose from $11.6 billion in the second quarter, and Anthropic said it was profitable on an adjusted basis in the third quarter.",
+  "note": "The revenue comes from people familiar with the matter, and the offering is reportedly slated for November.",
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Anthropic told investors its third-quarter revenue stands at $16.8 billion as it prepares for a highly anticipated initial public offering reportedly slated for November, according to people familiar with the matter." },
+    { "source": 0, "text": "Revenue rose from $11.6 billion in the second quarter, with first-quarter revenue at $4.7 billion, the people said, adding that Anthropic said it was profitable on an adjusted basis in the third quarter." }
+  ]
+}
