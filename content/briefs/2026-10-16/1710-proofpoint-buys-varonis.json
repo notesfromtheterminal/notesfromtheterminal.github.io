@@ -1,0 +1,41 @@
+{
+  "id": "2026-10-16-proofpoint-buys-varonis",
+  "publishedAt": "2026-10-16T17:10:00+07:00",
+  "section": "deals",
+  "company": "Proofpoint",
+  "headline": "Proofpoint to buy Varonis in $6.3 billion all-cash deal",
+  "body": "Proofpoint, a Thoma Bravo portfolio company, will acquire Varonis in an all-cash transaction valued at about $6.3 billion, with Varonis shareholders receiving $49.75 per share. The companies expect the deal to close in the first half of 2027, subject to shareholder and regulatory approvals. Proofpoint CEO Sumit Dhawan says AI agents are increasingly accessing sensitive information.",
+  "note": "For banks deploying AI agents, the open question is who and what can reach sensitive data, and this deal is a bet that one vendor should answer it.",
+  "figure": {
+    "value": "$6.3B",
+    "label": "all-cash value of the Varonis deal"
+  },
+  "sources": [
+    {
+      "name": "Proofpoint press release",
+      "url": "https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-acquire-varonis-creating-global-leader-data-and-ai-security"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "MIAMI, FL and SUNNYVALE, CA – October 15, 2026 – Varonis Systems, Inc. (Nasdaq: VRNS) (“Varonis”), the data and AI security leader, and Proofpoint, Inc. (“Proofpoint”), a global leader in human and agent cybersecurity, today announced entrance into a definitive agreement under which Varonis will be acquired by Proofpoint, a portfolio company of Thoma Bravo, in an all-cash transaction valued at approximately $6.3 billion."
+    },
+    {
+      "source": 0,
+      "text": "Under the terms of the agreement, Varonis shareholders will receive $49.75 per share in cash."
+    },
+    {
+      "source": 0,
+      "text": "The transaction, which has been unanimously approved by the Varonis Board of Directors, is expected to close in the first half of 2027, subject to customary closing conditions, including approval by Varonis shareholders and receipt of regulatory approvals."
+    },
+    {
+      "source": 0,
+      "text": "AI agents are increasingly accessing sensitive information and taking action across systems, making it critical for organizations to understand not only what data needs protecting and who can access it, but how it is actually being used,"
+    },
+    {
+      "source": 0,
+      "text": "said Sumit Dhawan, CEO of Proofpoint."
+    }
+  ]
+}

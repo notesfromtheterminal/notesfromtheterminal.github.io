@@ -1,0 +1,40 @@
+{
+  "id": "2026-10-16-g7-ai-cyber-exercises",
+  "publishedAt": "2026-10-16T17:10:00+07:00",
+  "section": "rules",
+  "tags": [
+    "banking"
+  ],
+  "company": "G7",
+  "headline": "G7 finance leaders plan to hold exercises on AI cyberattacks",
+  "body": "G7 finance leaders agreed to hold tabletop exercises on AI cyber attacks, Japanese finance minister Satsuki Katayama said. The simulations will test how finance authorities respond to AI-driven cyberattacks, and private financial institutions could take part, depending on the nature of the simulations.",
+  "note": "The IMF had warned that an AI-enabled attack on a critical service could undermine confidence, and the results will be used to revise manuals.",
+  "sources": [
+    {
+      "name": "Reuters (via TimesLIVE)",
+      "url": "https://www.timeslive.co.za/news/world/2026-10-16-g7-to-launch-exercises-to-guard-against-ai-cyberattacks/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Finance leaders of the G7 grouping agreed to hold tabletop exercises to guard against AI cyber attacks, Japanese finance minister Satsuki Katayama said, as policymakers increasingly seek to co-ordinate responses to growing cybersecurity risks."
+    },
+    {
+      "source": 0,
+      "text": "The agreement comes after the International Monetary Fund (IMF) warned this week that confidence could be undermined by an AI-enabled cyberattack on a critical service of a financial institution."
+    },
+    {
+      "source": 0,
+      "text": "The plan will feature simulations evolved by G7 finance authorities to test how they can respond to AI-driven cyberattacks, said a Japanese finance ministry official who attended the finance leaders’ meeting."
+    },
+    {
+      "source": 0,
+      "text": "The results will test the effectiveness of existing protocols and be used to revise manuals to better tackle such incidents, the official told reporters."
+    },
+    {
+      "source": 0,
+      "text": "The exercises by G7 finance ministries and central banks could include private financial institutions depending on the nature of simulations, the official added."
+    }
+  ]
+}
