@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-17",
+  "publishedAt": "2026-10-17T07:00:00+07:00",
+  "title": "Bank of England and G7 turn to AI cyber risk",
+  "dek": "A Bank of England deputy governor and G7 finance leaders both turned to cyber risk from AI this week, while U.S. Bancorp said it has not encountered third-party AI cash-sorting agents.",
+  "lead": "2026-10-16-boe-breeden-ai-cyber-attacks-recovery",
+  "stories": [
+    "2026-10-16-g7-ai-cyber-exercises",
+    "2026-10-16-us-bancorp-ai-cash-sorting-agents-deposits"
+  ],
+  "body": [
+    {
+      "head": "Cyber risk moves to the front",
+      "text": "Sarah Breeden, deputy governor of the Bank of England (BoE), said at the Institute of International Finance annual meeting in Bangkok that the chief concern is either hackers or hostile nations weaponizing advanced AI models to exploit weaknesses in banks' systems.",
+      "support": [
+        "Sarah Breeden , deputy governor of the Bank of England (BoE) said Thursday (Oct. 15) that advances in artificial intelligence (AI) meant the technology now presents a “systemic risk” to the world financial system.",
+        "Breeden said the chief concern is either hackers or hostile nations weaponizing advanced AI models to exploit weaknesses in banks’ systems.",
+        "“It’s not enough now to assume that the cyber attackers won’t get through,” said Breeden, whose comments at the Institute of International Finance annual meeting in Bangkok were reported by Reuters."
+      ]
+    },
+    {
+      "head": "Planning for the breach",
+      "text": "Breeden also said we need to be thinking about \"bare metal recovery options\" for core services, and about that end to end across the financial system. That moves the question from keeping attackers out to how a core service comes back.",
+      "support": [
+        "“We need to be thinking about what are the bare metal recovery options … that we need for the core services, and we need to think about that end-to-end across the financial system.”",
+        "“It’s not enough now to assume that the cyber attackers won’t get through,” said Breeden, whose comments at the Institute of International Finance annual meeting in Bangkok were reported by Reuters."
+      ]
+    },
+    {
+      "head": "G7 agreed to hold exercises",
+      "text": "At the same time, finance leaders of the G7 agreed to hold tabletop exercises to guard against AI cyber attacks, Japanese finance minister Satsuki Katayama said. A Japanese finance ministry official said the exercises could include private financial institutions depending on the nature of the simulations, and that the results will be used to revise manuals.",
+      "support": [
+        "Finance leaders of the G7 grouping agreed to hold tabletop exercises to guard against AI cyber attacks, Japanese finance minister Satsuki Katayama said, as policymakers increasingly seek to co-ordinate responses to growing cybersecurity risks.",
+        "The exercises by G7 finance ministries and central banks could include private financial institutions depending on the nature of simulations, the official added.",
+        "The results will test the effectiveness of existing protocols and be used to revise manuals to better tackle such incidents, the official told reporters.",
+        "The plan will feature simulations evolved by G7 finance authorities to test how they can respond to AI-driven cyberattacks, said a Japanese finance ministry official who attended the finance leaders’ meeting."
+      ]
+    },
+    {
+      "head": "A quieter deposit question",
+      "text": "Away from cyber risk, U.S. Bancorp CEO Gunjan Kedia was asked whether personal AI agents could automatically move cash among banks to seek better rates, and said the bank has not encountered third-party AI cash-sorting agents. Kedia added that \"the logistics of doing something like this are very complicated,\" and that the bank does not expect a near-term impact.",
+      "support": [
+        "Asked whether personal AI agents could automatically move cash among banks to seek better rates, CEO Gunjan Kedia said U.S. Bank has not encountered third-party AI cash-sorting agents.",
+        "“The logistics of doing something like this are very complicated, so we do not expect it to be a near-term impact to us,” Kedia said."
+      ]
+    }
+  ]
+}
