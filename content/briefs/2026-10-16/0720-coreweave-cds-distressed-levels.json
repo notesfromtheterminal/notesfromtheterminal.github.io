@@ -1,0 +1,23 @@
+{
+  "id": "2026-10-16-coreweave-cds-distressed-levels",
+  "publishedAt": "2026-10-16T07:20:00+07:00",
+  "section": "banking",
+  "company": "CoreWeave",
+  "headline": "CoreWeave's credit default swaps widened to levels generally seen as distressed",
+  "body": "CNBC says the five-year credit default swap spread on CoreWeave last stood at nearly 1,038 basis points, a 16% week-over-week jump. S&P Global Market Intelligence's Gavan Nolan says a spread of 1,000 basis points or above is generally a sign of credit distress. CoreWeave has taken on more than $51 billion of debt and obligations to finance its AI infrastructure build-out.",
+  "note": "The CEO says the backlog more than supports its debt obligations, and the open question is whether the cash flows will ultimately arrive.",
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "CoreWeave — a so-called neocloud company — has taken on more than $51 billion of debt and obligations to finance its AI infrastructure build-out." },
+    { "source": 0, "text": "It last stood at nearly 1,038 bps — a 16% week-over-week jump and 164% higher than a year ago." },
+    { "source": 0, "text": "the spread on its five-year credit default swaps, which are insurance against default, at one point soared above 1,140 basis points." },
+    { "source": 0, "text": "Spreads in credit default swaps, which is insurance against defaults, widened to levels generally viewed as distressed." },
+    { "source": 0, "text": "A spread level of 1,000 basis points or above is generally a sign of credit distress, said Gavan Nolan, executive director of fixed income pricing at S&P Global Market Intelligence." },
+    { "source": 0, "text": "We are confident in our backlog which more than supports all of our debt obligations." },
+    { "source": 0, "text": "CEO Mike Intrator dismissed the market moves on Wednesday, according to a memo obtained by CNBC." },
+    { "source": 0, "text": "The question is whether the cash flows will ultimately arrive." },
+    { "source": 0, "text": "While AI debt worries have been rising steadily, investors have suddenly grown skittish about the underlying finances of companies borrowing heavily to buy chips, build data centers, and rent out computing power." }
+  ]
+}

@@ -12,7 +12,7 @@
   "evidence": [
     { "source": 0, "text": "Meta has launched what it calls the “most capable” open-weight model in the United States." },
     { "source": 0, "text": "Dubbed Muse Spark Open, the model also has the distinction of having been designed to work with Macs." },
-    { "source": 0, "text": "The new model, which leverages 816 billion parameters and a 1 million token context window, claims to offer superior performance to other popular open weight models, according to evaluation results released by Meta on Thursday." },
+    { "source": 0, "text": "The new model, which leverages 816 billion parameters and a 1 million token context window, claims to offer superior performance to other popular open-weight models, according to evaluation results released by Meta on Thursday." },
     { "source": 0, "text": "It has also been designed to run locally on Apple’s computers." },
     { "source": 0, "text": "However, you will still need a lot of power to run the model locally, with a requirement of at least 1 terabyte of RAM, per Engadget ." },
     { "source": 0, "text": "Meta is making the new model available now through a number of different API platforms." }

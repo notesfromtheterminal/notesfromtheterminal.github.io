@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-16-anthropic-metr-securebio-embedded-evaluators",
+  "publishedAt": "2026-10-16T07:20:00+07:00",
+  "section": "models",
+  "company": "Anthropic",
+  "headline": "Anthropic is working with METR and SecureBio as embedded evaluators",
+  "body": "Anthropic says it is working with the nonprofits METR and SecureBio to embed independent evaluators within the company. METR is a third-tier evaluator, Anthropic said, and has onboarded six employees with access to Anthropic hardware, office spaces and tools that are \"roughly on par\" with its own risk assessment teams. SecureBio, a first-tier evaluator with more limited access, is reviewing the chemical and biological weapons section of the risk report Anthropic released in August.",
+  "note": "The access tiers are Anthropic's own, and the company has said there are, as yet, no standards for what embedded evaluators should have access to.",
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/15/anthropic-metr-securebio-ai-safety-evaluators.html" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Anthropic on Thursday announced it's working with the nonprofits METR and SecureBio, and engaging in discussions with additional organizations, including Hugging Face , as part of its commitment to embed independent evaluators within the company." },
+    { "source": 0, "text": "Anthropic is developing three tiers for evaluators that grant varying levels of access to the company and its resources." },
+    { "source": 0, "text": "METR is considered a third-tier evaluator, Anthropic said." },
+    { "source": 0, "text": "The company has onboarded six employees from the organization, and they have access to Anthropic hardware, office spaces and tools that are \"roughly on par\" with what its own risk assessment teams have." },
+    { "source": 0, "text": "SecureBio is considered a first-tier evaluator, Anthropic said, so its access is more limited." },
+    { "source": 0, "text": "The organization is reviewing the chemical and biological weapons section of the risk report that it released in August." },
+    { "source": 0, "text": "There are, as yet, no standards for what information embedded evaluators should have access to, or how they should report what they find." }
+  ]
+}
