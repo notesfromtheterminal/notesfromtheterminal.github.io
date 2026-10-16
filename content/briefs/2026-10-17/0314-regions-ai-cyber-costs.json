@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-17-regions-ai-cybersecurity-expense",
+  "publishedAt": "2026-10-17T03:14:00+07:00",
+  "section": "banking",
+  "company": "Regions Financial",
+  "headline": "Regions expects cybersecurity to increase adjusted noninterest expense 1.5% to 3.5%",
+  "body": "Regions Financial, the parent of Regions Bank, expects cybersecurity to increase its adjusted noninterest expense by 1.5% to 3.5% for full-year 2026. Asked about banks redirecting tech investment toward cyber risk, CFO Anil Chadha said such investments are of heightened importance now. Chadha also said the company expects that to continue through time.",
+  "note": "Chadha expects this spending to continue through time. For a bank this size, that makes cyber a standing line in the expense plan.",
+  "figure": { "value": "1.5% to 3.5%", "label": "Expected 2026 rise in adjusted noninterest expense" },
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/earnings/2026/regions-bank-says-ai-cybersecurity-drives-up-costs-1-5percent-to-3-5percent/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Regions Financial Corp. , parent company of Regions Bank , expects the cost of cybersecurity to increase its adjusted noninterest expense by between 1.5% and 3.5% for full-year 2026" },
+    { "source": 0, "text": "Asked by an analyst about banks redirecting tech investment toward cyber risk due to the cyber threat posed by AI, Chadha said such investments have always been critical but are of heightened importance now." },
+    { "source": 0, "text": "“We do expect that to continue through time,” Chadha said." }
+  ]
+}
