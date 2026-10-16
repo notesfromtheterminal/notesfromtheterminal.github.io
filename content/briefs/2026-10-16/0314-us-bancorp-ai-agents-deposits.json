@@ -5,8 +5,10 @@
   "company": "U.S. Bancorp",
   "headline": "U.S. Bancorp has not encountered third-party AI cash-sorting agents",
   "body": "On the third-quarter call, CEO Gunjan Kedia said the bank has not encountered third-party AI cash-sorting agents. Kedia said the logistics are “very complicated” and that the bank does not expect a near-term impact. Average deposits increased 2.9% year over year.",
-  "note": "Kedia pointed to the bank’s own digital tools for deposit pricing. He put outside cash-sorting agents beyond the near term.",
+  "note": "Kedia pointed to the bank’s own digital tools for deposit pricing. Kedia put outside cash-sorting agents beyond the near term.",
   "figure": { "value": "2.9%", "label": "Average deposits, year over year" },
+  "updatedAt": "2026-10-17T03:20:00+07:00",
+  "correction": "Note used 'He' for Kedia; the PYMNTS source gives no pronoun. Note now names Kedia.",
   "sources": [
     { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/us-bancorp-says-ai-agents-are-not-moving-consumer-deposits-yet/" }
   ],
