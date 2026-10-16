@@ -1,7 +1,7 @@
 {
   "note": "2026-10-17",
-  "commit": "5460b735f2daaf2bfdad358315b16c5ef47d693b",
-  "verdict": "CHANGES",
-  "at": "2026-10-16T16:47:20.317Z",
-  "notes": "1. Title says \"Supervisors are rehearsing for AI-driven attacks\". Source: \"Finance leaders of the G7 grouping agreed to hold tabletop exercises\"; \"The plan will feature simulations\". Only the G7 has agreed to future exercises, and the Bank of England item is about recovery planning, not rehearsal. Fix: retitle to what the sections support, e.g. \"Supervisors turn to AI cyber risk, and the G7 plans drills\" (under 70 characters).\n2. Section 2 says \"For those of us who run operations, that moves the question from keeping attackers out to how a core service comes back.\" No source supports an operations author; this is invented experience. Fix: drop \"For those of us who run operations,\" and write e.g. \"That moves the question from keeping attackers out to how a core service comes back.\"\n3. Section 4 says \"She added that\" and brief 2026-10-16-us-bancorp-ai-cash-sorting-agents-deposits says \"He put outside cash-sorting agents beyond the near term.\" The source gives Kedia no pronoun (\"Kedia said\", \"according to Kedia, who added\"), and the two disagree with each other. Fix: use \"Kedia added that\" in the note and \"Kedia put outside cash-sorting agents beyond the near term\" in the brief.\n4. Section 4 ends \"It is a useful reminder to ask your own treasury team what they would see first if customers' agents started shopping for rates.\" Kedia's quoted answer says nothing about what other banks should do, and the section has no source for it. Fix: cut the sentence, or reduce it to pure argument with no new facts, e.g. \"The answer today is that there is little to see yet, which is a different question from whether that holds.\"\n5. Dek says one U.S. bank \"has not met AI agents moving deposits\". Source: \"has not encountered third-party AI cash-sorting agents\". Fix: \"said it has not encountered third-party AI cash-sorting agents\" (shorten as needed)."
+  "commit": "914ce7d02a9f2376667f98b7ea57e10fcf40ba98",
+  "verdict": "APPROVED",
+  "at": "2026-10-16T22:47:17.506Z",
+  "notes": ""
 }
