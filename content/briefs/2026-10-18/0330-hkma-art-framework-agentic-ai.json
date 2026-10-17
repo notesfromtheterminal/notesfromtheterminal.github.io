@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-18-hkma-art-framework-agentic-ai",
+  "publishedAt": "2026-10-18T03:08:00+07:00",
+  "section": "banking",
+  "company": "Hong Kong Monetary Authority",
+  "headline": "HKMA announces ART framework for responsible AI adoption in banking",
+  "body": "The Hong Kong Monetary Authority (HKMA) announced its ART Framework for responsible AI adoption in banking on Oct. 15, with the latest supervisory guidance and further testing of agentic AI in its Sandbox. The HKMA says more than 60% of use cases in its second GenA.I. Sandbox cohort explored agentic AI, with an upcoming discussion paper on a proposed supervisory framework for agentic AI governance.",
+  "note": "For banks, the upcoming discussion paper will explore a registry of material AI agents and effective intervention mechanisms.",
+  "sources": [
+    { "name": "HKMA", "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261015-3/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "The Hong Kong Monetary Authority (HKMA) announced today (15 October) the “ART” Framework to support the responsible adoption of artificial intelligence (A.I.) in the banking sector, fostering an A.I.-enabled banking ecosystem with A ccountability , R esilience , and T rust ." },
+    { "source": 0, "text": "Issued the latest Supervisory Guidance for Responsible Adoption of Artificial Intelligence, drawing on insights from the second cohort of the Generative A.I. (GenA.I.) Sandbox 1 ;" },
+    { "source": 0, "text": "Further testing of agentic A.I. applications through the GenA.I. Sandbox++ 2 and an upcoming discussion paper on a proposed supervisory framework for agentic A.I. governance, exploring intent-anchored accountability, a registry of material A.I. agents, and effective intervention mechanisms." },
+    { "source": 0, "text": "Notably, more than 60% of the use cases explored agentic A.I., demonstrating the industry’s active pursuit of advanced A.I. applications, such as automated planning and execution of multi-step tasks within defined boundaries and controls." }
+  ]
+}
