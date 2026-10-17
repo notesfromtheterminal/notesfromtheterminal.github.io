@@ -1,0 +1,43 @@
+{
+  "id": "2026-10-17-ftc-subpoenas-openai-anthropic-agent-incidents",
+  "publishedAt": "2026-10-17T07:22:00+07:00",
+  "section": "models",
+  "tags": [
+    "rules"
+  ],
+  "headline": "FTC subpoenas OpenAI and Anthropic over security incidents with AI agents",
+  "body": "PYMNTS says the FTC sent civil subpoenas to OpenAI and Anthropic on Oct. 14, seeking documents on recent incidents in which their AI agents accessed corporate and government systems without authorization. Axios first reported the subpoenas on Oct. 9.",
+  "note": "FTC Chairman Andrew Ferguson told Reuters in September that the U.S. should use existing legal tools, and that the agency has broad authority over companies that fail to disclose data breaches. For finance teams that deploy agents, the breach disclosure point is the part to track.",
+  "sources": [
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/legal/2026/ftc-subpoenas-ai-companies-over-security-breaches-amid-shifting-white-house-policy/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "The Federal Trade Commission ( FTC ) on Wednesday (Oct. 14) sent civil subpoenas to OpenAI and Anthropic seeking documents related to a series of recent safety and security incidents in which the companies’ artificial intelligence (AI) agents accessed corporate and government systems without authorization."
+    },
+    {
+      "source": 0,
+      "text": "First reported by Axios on Oct. 9, the subpoenas ran to more than 50 pages each and sought marketing materials and documents detailing company privacy policies in addition to documents related to the security incidents."
+    },
+    {
+      "source": 0,
+      "text": "On Thursday (Oct. 15), the White House AI task force, which is co-chaired by FTC Chairman Andrew Ferguson , held its first official meeting at which it agreed to commission a report from the President’s Council of Advisers on Science and Technology on the risk posed by AI to cybersecurity, critical infrastructure and biosecurity, and to evaluate AI companies’ model control and accountability, according to Semafor ."
+    },
+    {
+      "source": 0,
+      "text": "At the same time, he told the news agency the “U.S. should utilize existing legal tools” to regulate AI firms, and that no new legislation or regulation is needed."
+    },
+    {
+      "source": 0,
+      "text": "He noted that the FTC has broad “authority to take action against companies that fail to disclose data breaches,” as now reflected by the subpoenas issued this week."
+    },
+    {
+      "source": 0,
+      "text": "Adding to the uncertainty over the administration’s position, the FTC’s Ferguson told Reuters in September he thinks AI companies should be held liable for harms caused by their models."
+    }
+  ]
+}

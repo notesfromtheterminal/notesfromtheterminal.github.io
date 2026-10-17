@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-17-itau-ai-first-customers-employees",
+  "publishedAt": "2026-10-17T07:20:00+07:00",
+  "section": "banking",
+  "company": "Itaú",
+  "headline": "Itaú is building generative AI for its entire customer base",
+  "body": "Itaú is applying its AI First strategy to customers and employees with ia.i, a conversational interface, and the IARA governance platform. The work sits in one of Brazil's most regulated sectors.",
+  "note": "Pairing a conversational interface with a governance platform, for customers and employees alike, is the detail to watch in a regulated sector.",
+  "sources": [
+    {
+      "name": "OpenAI",
+      "url": "https://openai.com/index/itau-generative-ai"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "How Itaú is building generative AI for its entire customer base"
+    },
+    {
+      "source": 0,
+      "text": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors."
+    }
+  ]
+}
