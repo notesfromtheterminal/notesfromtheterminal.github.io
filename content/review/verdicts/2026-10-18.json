@@ -1,7 +1,7 @@
 {
   "note": "2026-10-18",
-  "commit": "f6fa4af055d7ef15838c62795195ace536dfe65c",
-  "verdict": "CHANGES",
-  "at": "2026-10-17T16:46:40.050Z",
-  "notes": "1. Title says \"Agent incidents now reach regulators and budgets\". Only the FTC story is about agent incidents; the Regions source ties the spend to \"the cyber threat posed by AI\" and \"frontier AI\", not to agent incidents. Fix: retitle, e.g. \"AI cyber risk now reaches regulators, budgets and drills\".\n2. Section 1 says \"for those of us who sit on the bank side of an AI vendor relationship\". The sources say nothing about this, and it invents the author's position. Fix: drop it, e.g. \"for banks that rely on AI vendors, that is a reminder of what a regulator can ask for\".\n3. Section 1 says \"incident records are now something a regulator can ask a lab for directly\". Source: the FTC \"sent civil subpoenas ... seeking documents related to a series of recent safety and security incidents\"; nothing says this is new (\"now\"). Fix: \"that is a reminder that a regulator can ask a lab for its incident documents\" (and drop \"now\").\n4. Section 1 heading \"Regulators ask for the paperwork\" is plural; only the FTC acted. Fix: \"A regulator asks for the paperwork\".\n5. Section 2 says \"Chadha said\" and never says who he is. Source: \"Chief Financial Officer Anil Chadha said Friday (Oct. 16) during an earnings call\". Fix: \"Asked about banks redirecting tech investment toward cyber risk, CFO Anil Chadha said ...\"\n6. Section 3 opens \"At the same time, G7 finance leaders agreed\". The FTC subpoenas are dated Oct. 14, Regions spoke Oct. 16, and Katayama spoke on Thursday (Oct. 15), so \"at the same time\" is not supported. Fix: \"Also this week, G7 finance leaders agreed ...\"."
+  "commit": "3ed5d5e4acdc2154888f1f35f60d0f94b5365fa2",
+  "verdict": "APPROVED",
+  "at": "2026-10-17T22:46:48.242Z",
+  "notes": ""
 }
