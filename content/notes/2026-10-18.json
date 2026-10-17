@@ -1,7 +1,7 @@
 {
   "date": "2026-10-18",
   "publishedAt": "2026-10-18T07:00:00+07:00",
-  "title": "Agent incidents now reach regulators and budgets",
+  "title": "AI cyber risk reaches regulators, budgets and drills",
   "dek": "An FTC subpoena, a G7 exercise plan and a regional bank's expense guidance all point at AI-driven cyber risk.",
   "lead": "2026-10-17-ftc-subpoenas-openai-anthropic-agent-incidents",
   "stories": [
@@ -10,8 +10,8 @@
   ],
   "body": [
     {
-      "head": "Regulators ask for the paperwork",
-      "text": "PYMNTS says the Federal Trade Commission sent civil subpoenas to OpenAI and Anthropic on Oct. 14, seeking documents about incidents in which their AI agents accessed corporate and government systems without authorization. The subpoenas first surfaced in Axios on Oct. 9, and for those of us who sit on the bank side of an AI vendor relationship, that is a reminder that incident records are now something a regulator can ask a lab for directly.",
+      "head": "A regulator asks for the paperwork",
+      "text": "PYMNTS says the Federal Trade Commission sent civil subpoenas to OpenAI and Anthropic on Oct. 14, seeking documents about incidents in which their AI agents accessed corporate and government systems without authorization. The subpoenas were first reported by Axios on Oct. 9. For banks that rely on AI vendors, that is a reminder of what a regulator can ask a lab for.",
       "support": [
         "The Federal Trade Commission ( FTC ) on Wednesday (Oct. 14) sent civil subpoenas to OpenAI and Anthropic seeking documents related to a series of recent safety and security incidents in which the companies’ artificial intelligence (AI) agents accessed corporate and government systems without authorization.",
         "First reported by Axios on Oct. 9, the subpoenas ran to more than 50 pages each and sought marketing materials and documents detailing company privacy policies in addition to documents related to the security incidents."
@@ -19,16 +19,17 @@
     },
     {
       "head": "Cyber spend shows up in guidance",
-      "text": "Regions Financial expects the cost of cybersecurity to increase its adjusted noninterest expense by between 1.5% and 3.5% for full-year 2026. Asked about banks redirecting tech investment toward cyber risk, Chadha said such investments are of heightened importance now, and added \"We do expect that to continue through time.\"",
+      "text": "Regions Financial expects the cost of cybersecurity to increase its adjusted noninterest expense by between 1.5% and 3.5% for full-year 2026. Asked about banks redirecting tech investment toward cyber risk, Chief Financial Officer Anil Chadha said such investments are of heightened importance now, and added \"We do expect that to continue through time.\"",
       "support": [
         "Regions Financial Corp. , parent company of Regions Bank , expects the cost of cybersecurity to increase its adjusted noninterest expense by between 1.5% and 3.5% for full-year 2026",
+        "Chief Financial Officer Anil Chadha said Friday (Oct. 16) during an earnings call .",
         "Asked by an analyst about banks redirecting tech investment toward cyber risk due to the cyber threat posed by AI, Chadha said such investments have always been critical but are of heightened importance now.",
         "“We do expect that to continue through time,” Chadha said."
       ]
     },
     {
       "head": "Rehearsing the response together",
-      "text": "At the same time, G7 finance leaders agreed to hold tabletop exercises on AI cyber attacks, Japanese finance minister Satsuki Katayama said. The exercises by G7 finance ministries and central banks could include private financial institutions depending on the nature of simulations, an official added.",
+      "text": "Also this week, G7 finance leaders agreed to hold tabletop exercises on AI cyber attacks, Japanese finance minister Satsuki Katayama said. The exercises by G7 finance ministries and central banks could include private financial institutions depending on the nature of simulations, an official added.",
       "support": [
         "Finance leaders of the G7 grouping agreed to hold tabletop exercises to guard against AI cyber attacks, Japanese finance minister Satsuki Katayama said, as policymakers increasingly seek to co-ordinate responses to growing cybersecurity risks.",
         "The exercises by G7 finance ministries and central banks could include private financial institutions depending on the nature of simulations, the official added."
