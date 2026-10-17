@@ -1,0 +1,22 @@
+{
+  "id": "2026-10-17-deepseek-v4-1-flash-1017",
+  "publishedAt": "2026-10-17T22:10:00+07:00",
+  "section": "models",
+  "company": "DeepSeek",
+  "headline": "DeepSeek releases open-weight V4.1-Flash-1017 and makes search tools available",
+  "body": "DeepSeek released Deepseek-V4.1-Flash-1017 as an open-weight model on Hugging Face and ModelScope. In DeepSeek's own benchmarks it scores 77.0 percent on DeepSWE at an average cost of just under $0.20 per task, against 74.2 percent at around $0.50 for its predecessor. The Decoder notes that independent benchmarks haven't come out yet. DeepSeek is also making Search and Fetch APIs available to developers at $0.75 per 1,000 calls.",
+  "note": "Vendor benchmarks are the only numbers so far, so a bank evaluating open-weight agent models would wait for independent tests. The price per task is the figure to watch for high-volume back-office agents.",
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Deepseek also published the model weights as open source on Hugging Face and ModelScope ." },
+    { "source": 0, "text": "V4.1-Flash-1017 hits a top score of 77.0 percent at an average cost of just under $0.20 per task." },
+    { "source": 0, "text": "The predecessor scored 74.2 percent but cost around $0.50 per run." },
+    { "source": 0, "text": "In Deepseek's own benchmarks, V4.1-Flash-1017 outperforms its predecessor V4.1-Flash." },
+    { "source": 0, "text": "Independent benchmarks haven't come out yet, and benchmarks only tell half the story anyway." },
+    { "source": 0, "text": "A cost chart for the DeepSWE benchmark shows how much the shorter outputs matter for efficiency." },
+    { "source": 0, "text": "Each endpoint costs $0.75 per 1,000 calls." },
+    { "source": 0, "text": "Alongside the language model, Deepseek is making its web search tools (Search & Fetch APIs) available to all developers." }
+  ]
+}
