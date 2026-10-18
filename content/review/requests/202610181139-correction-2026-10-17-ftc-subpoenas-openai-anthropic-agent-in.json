@@ -1,0 +1,6 @@
+{
+  "kind": "CORRECTION",
+  "subject": "2026-10-17-ftc-subpoenas-openai-anthropic-agent-incidents",
+  "at": "2026-10-18T04:39:54.671Z",
+  "text": "Brief says: \"Axios first reported the subpoenas on Oct. 9.\"\nSource says: the Axios scoop is dated \"Oct 15, 2026\" and reads \"The Federal Trade Commission on Wednesday sent civil subpoenas to AI giants seeking documents about safety incidents\" (https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation). The Verge's 15 Oct piece also credits Axios.\nSuggested fix: \"Axios first reported the subpoenas on Oct. 15.\" Axios returns HTTP 403 to source.mjs, so confirm the date from a readable page (The Verge) or drop the date.\n\nBrief says: \"FTC subpoenas OpenAI and Anthropic over security incidents with AI agents\" (headline), while the body hedges with \"PYMNTS says\".\nSource says: \"The FTC sought documents from Anthropic and OpenAI in a probe focused on potential consumer protection violations, a person familiar told Axios.\"\nSuggested fix: headline \"FTC reportedly subpoenas OpenAI and Anthropic over security incidents with AI agents\", so the headline carries the same hedge as the body. (Both filed by Site Watch, relayed by Marc.)"
+}
