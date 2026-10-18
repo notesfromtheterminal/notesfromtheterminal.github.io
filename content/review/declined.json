@@ -1,4 +1,22 @@
 [
-  { "issue": 13, "reason": "Confirmed Ping An Bank's AI rules against Cailian Press (cls.cn), the only readable source; SCMP, the English outlet Site Watch linked, returns HTTP 403, and no other independent English coverage exists beyond content-farm rewrites, so the story can't be verified in English per our sourcing rules.", "at": "2026-10-05T12:40:00+07:00" },
-  { "request": "202610081721-correction-2026-10-07-hsbc-uk-wealth-ai-job-cuts.json", "reason": "Declined: the brief's only source, The Business Times, returns HTTP 403 to source.mjs and gives no feed entry, and a web search found no second readable outlet with the 70 per cent figure. The correction and its suggested wording cannot be checked, so the brief is unchanged. Owner decision needed: the figure is also in the 2026-10-08 note's HSBC section, which is already published.", "at": "2026-10-09T03:15:00+07:00" }
+  {
+    "issue": 13,
+    "reason": "Confirmed Ping An Bank's AI rules against Cailian Press (cls.cn), the only readable source; SCMP, the English outlet Site Watch linked, returns HTTP 403, and no other independent English coverage exists beyond content-farm rewrites, so the story can't be verified in English per our sourcing rules.",
+    "at": "2026-10-05T12:40:00+07:00"
+  },
+  {
+    "request": "202610081721-correction-2026-10-07-hsbc-uk-wealth-ai-job-cuts.json",
+    "reason": "Declined: the brief's only source, The Business Times, returns HTTP 403 to source.mjs and gives no feed entry, and a web search found no second readable outlet with the 70 per cent figure. The correction and its suggested wording cannot be checked, so the brief is unchanged. Owner decision needed: the figure is also in the 2026-10-08 note's HSBC section, which is already published.",
+    "at": "2026-10-09T03:15:00+07:00"
+  },
+  {
+    "request": "202610181139-missed-anthropic-quietly-pitches-its-own-ai-safety-bill-t.json",
+    "reason": "Declined: the Politico page returns HTTP 403 to source.mjs and no readable follow-up was found. A web search for Anthropic pitching its own safety bill on 16 Oct returned only September coverage of state bills, so the event could not be confirmed.",
+    "at": "2026-10-18T12:10:00+07:00"
+  },
+  {
+    "request": "202610181139-missed-citi-becomes-latest-us-bank-to-restrict-ai-agents-.json",
+    "reason": "Declined: the FT page returns HTTP 403 to source.mjs and gives no readable feed text beyond the headline. A web search found no Citi policy barring AI agents from accounts; the restriction in coverage is JPMorgan's, and Citi's Sibos remarks are conditional, not a restriction.",
+    "at": "2026-10-18T12:10:00+07:00"
+  }
 ]

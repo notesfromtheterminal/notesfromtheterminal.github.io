@@ -1,19 +1,59 @@
 {
   "id": "2026-10-17-regions-ai-cybersecurity-expense",
   "publishedAt": "2026-10-17T03:14:00+07:00",
+  "updatedAt": "2026-10-18T12:10:00+07:00",
   "section": "banking",
   "company": "Regions Financial",
-  "headline": "Regions expects cybersecurity to increase adjusted noninterest expense 1.5% to 3.5%",
-  "body": "Regions Financial, the parent of Regions Bank, expects cybersecurity to increase its adjusted noninterest expense by 1.5% to 3.5% for full-year 2026. Asked about banks redirecting tech investment toward cyber risk, CFO Anil Chadha said such investments are of heightened importance now. Chadha also said the company expects that to continue through time.",
-  "note": "Chadha expects this spending to continue through time. For a bank this size, that makes cyber a standing line in the expense plan.",
-  "figure": { "value": "1.5% to 3.5%", "label": "Expected 2026 rise in adjusted noninterest expense" },
+  "headline": "Regions CFO says investing in cyber defense is even more heightened now",
+  "body": "Regions Financial expects full-year 2026 adjusted noninterest expense to be up between 1.5% and 3.5%, CFO Anil Chadha said on the Oct. 16 earnings call. Chadha said investing in cyber defense is even more heightened in today's environment, and that it does involve meaningful expense.",
+  "note": "Chadha expects that expense to continue through time. For a bank this size, that makes cyber a standing line in the expense plan.",
+  "figure": {
+    "value": "1.5% to 3.5%",
+    "label": "Expected 2026 rise in adjusted noninterest expense"
+  },
   "sources": [
-    { "name": "PYMNTS", "url": "https://www.pymnts.com/earnings/2026/regions-bank-says-ai-cybersecurity-drives-up-costs-1-5percent-to-3-5percent/" }
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/earnings/2026/regions-bank-says-ai-cybersecurity-drives-up-costs-1-5percent-to-3-5percent/"
+    },
+    {
+      "name": "Motley Fool",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/16/regions-financial-rf-q3-2026-earnings-call-transcript/"
+    }
   ],
   "evidence": [
-    { "source": 0, "text": "Regions Financial Corp. , parent company of Regions Bank , expects the cost of cybersecurity to increase its adjusted noninterest expense by between 1.5% and 3.5% for full-year 2026" },
-    { "source": 0, "text": "Chief Financial Officer Anil Chadha said Friday (Oct. 16) during an earnings call ." },
-    { "source": 0, "text": "Asked by an analyst about banks redirecting tech investment toward cyber risk due to the cyber threat posed by AI, Chadha said such investments have always been critical but are of heightened importance now." },
-    { "source": 0, "text": "“We do expect that to continue through time,” Chadha said." }
-  ]
+    {
+      "source": 0,
+      "text": "Regions Financial Corp. , parent company of Regions Bank , expects the cost of cybersecurity to increase its adjusted noninterest expense by between 1.5% and 3.5% for full-year 2026"
+    },
+    {
+      "source": 0,
+      "text": "Chief Financial Officer Anil Chadha said Friday (Oct. 16) during an earnings call ."
+    },
+    {
+      "source": 0,
+      "text": "Asked by an analyst about banks redirecting tech investment toward cyber risk due to the cyber threat posed by AI, Chadha said such investments have always been critical but are of heightened importance now."
+    },
+    {
+      "source": 0,
+      "text": "“We do expect that to continue through time,” Chadha said."
+    },
+    {
+      "source": 1,
+      "text": "For full year 2026, we continue to expect adjusted noninterest expense to be up between 1.5% and 3.5%"
+    },
+    {
+      "source": 1,
+      "text": "So investing in cyber defense has always been something very critical for us and is even more heightened in today's environment."
+    },
+    {
+      "source": 1,
+      "text": "And to your point, it does involve meaningful expense, both new expense and redirect of existing associates"
+    },
+    {
+      "source": 1,
+      "text": "We do expect that to continue through time."
+    }
+  ],
+  "correction": "Rewrote the headline and body so the 1.5% to 3.5% guidance is tied to what the source ties it to: full-year 2026 adjusted noninterest expense guidance from the Oct. 16 call. The cyber remarks are now a separate sentence attributed to Chadha, quoted from the call transcript (Motley Fool), not presented as the source of the 1.5% to 3.5% figure. The note now says the expense continues through time, which the transcript supports as 'We do expect that to continue through time.' Site Watch request, confirmed against both pages."
 }

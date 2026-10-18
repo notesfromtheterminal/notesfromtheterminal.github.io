@@ -1,6 +1,0 @@
-{
-  "kind": "CORRECTION",
-  "subject": "2026-10-17-itau-ai-first-customers-employees",
-  "at": "2026-10-18T04:39:54.525Z",
-  "text": "Brief says: \"Itaú is building generative AI for its entire customer base\" (headline). The body never mentions the customer base.\nSource says: \"With approximately 300,000 customers in the first phase\" and \"The bank expects to make the experience available to its entire customer base by the end of 2026.\" (https://openai.com/index/itau-generative-ai)\nSuggested fix: headline \"Itaú expects to make ia.i available to its entire customer base by end of 2026\", and add to the body: \"OpenAI says ia.i reached approximately 300,000 customers in its first phase, and the bank expects to make the experience available to its entire customer base by the end of 2026.\" Note: source.mjs reads this page only through OpenAI's feed summary, so if the feed text doesn't carry these sentences, at least cut \"for its entire customer base\" from the headline, since the body doesn't support it. (Filed by Site Watch, relayed by Marc.)"
-}

@@ -5,8 +5,8 @@
   "tags": [
     "rules"
   ],
-  "headline": "FTC subpoenas OpenAI and Anthropic over security incidents with AI agents",
-  "body": "PYMNTS says the FTC sent civil subpoenas to OpenAI and Anthropic on Oct. 14, seeking documents on recent incidents in which their AI agents accessed corporate and government systems without authorization. Axios first reported the subpoenas on Oct. 9.",
+  "headline": "FTC reportedly subpoenas OpenAI and Anthropic over security incidents with AI agents",
+  "body": "PYMNTS says the FTC sent civil subpoenas to OpenAI and Anthropic on Oct. 14, seeking documents on recent incidents in which their AI agents accessed corporate and government systems without authorization. PYMNTS says Axios first reported the subpoenas on Oct. 9.",
   "note": "FTC Chairman Andrew Ferguson told Reuters in September that the U.S. should use existing legal tools, and that the agency has broad authority over companies that fail to disclose data breaches. For finance teams that deploy agents, the breach disclosure point is the part to track.",
   "sources": [
     {
@@ -39,5 +39,7 @@
       "source": 0,
       "text": "Adding to the uncertainty over the administration’s position, the FTC’s Ferguson told Reuters in September he thinks AI companies should be held liable for harms caused by their models."
     }
-  ]
+  ],
+  "updatedAt": "2026-10-18T12:10:00+07:00",
+  "correction": "Headline now carries the same hedge as the body, since the subpoena detail comes from a person familiar who told Axios. The body's Oct. 9 date for the Axios report is kept, attributed to PYMNTS, which is the readable source the brief cites. The Site Watch request suggested Oct. 15 from an Axios page dated 15 Oct; that page returns HTTP 403 to source.mjs and could not be read, so the date was not changed."
 }

@@ -3,7 +3,7 @@
   "publishedAt": "2026-10-17T07:20:00+07:00",
   "section": "banking",
   "company": "Itaú",
-  "headline": "Itaú is building generative AI for its entire customer base",
+  "headline": "Itaú is applying its AI First strategy to customers and employees",
   "body": "Itaú is applying its AI First strategy to customers and employees with ia.i, a conversational interface, and the IARA governance platform. The work sits in one of Brazil's most regulated sectors.",
   "note": "Pairing a conversational interface with a governance platform, for customers and employees alike, is the detail to watch in a regulated sector.",
   "sources": [
@@ -21,5 +21,7 @@
       "source": 0,
       "text": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors."
     }
-  ]
+  ],
+  "updatedAt": "2026-10-18T12:10:00+07:00",
+  "correction": "Cut 'for its entire customer base' from the headline: the OpenAI page is readable only through its feed summary, which does not carry the 300,000-customer or end-2026 sentences, so the body and headline now use the summary's wording ('applying its AI First strategy to customers and employees'). Site Watch request; the figures could not be verified from a readable page, so they were not added."
 }
