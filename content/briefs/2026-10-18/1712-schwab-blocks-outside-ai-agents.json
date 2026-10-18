@@ -6,12 +6,15 @@
   "star": true,
   "company": "Charles Schwab",
   "headline": "Schwab blocks outside AI agents from client accounts and directs clients to Charley",
-  "body": "On October 15, Charles Schwab says it is blocking outside AI agents from accessing client accounts and is directing clients to its own assistant, Charley. CEO Rick Wurster said an agent trying to log in on behalf of a client is “not safe”.",
+  "body": "Charles Schwab said on October 15 that it is blocking outside AI agents that use client login credentials or browser automation, and is directing clients to its own assistant, Charley, while allowing them to use ChatGPT and other large language models for stock trades. CEO Rick Wurster said an agent trying to log in on behalf of a client is “not safe”.",
   "note": "Cash is part of the story too. Tim Welsh of Nexus Strategies says Schwab has an incentive to keep that business, and Schwab reported nearly $3.48 billion in net interest revenue in the third quarter.",
   "sources": [
     { "name": "American Banker", "url": "https://www.americanbanker.com/news/schwab-blocks-unauthorized-ai-agents-points-clients-to-charley" }
   ],
+  "updatedAt": "2026-10-18T22:10:00+07:00",
+  "correction": "Body said Schwab blocks outside agents from accessing accounts; the source says it blocks agents that use client login credentials or browser automation and still allows ChatGPT and other LLMs for trades. Tense fixed.",
   "evidence": [
+    { "source": 0, "text": "Schwab is specifically preventing AI agents from using clients' login credentials or browser automation to access its systems." },
     { "source": 0, "text": "Published October 15, 2026, 5:51 p.m. EDT" },
     { "source": 0, "text": "A little over a month after Meta released its Muse AI assistant capable of performing financial and other tasks, Charles Schwab says it's blocking outside agents from accessing its clients' accounts." },
     { "source": 0, "text": "Instead, Schwab is directing clients to its own fledgling AI assistant, Charley, while also allowing them to use ChatGPT and other large language models for stock trades and other transactions." },
