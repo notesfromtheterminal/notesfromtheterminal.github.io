@@ -587,6 +587,8 @@ ${signupBox('notes')}
 <p>Spot a mistake? Reply to ${x} on X, and the brief gets fixed.</p>
 <h2>Not advice</h2>
 <p>Nothing here is investment advice.</p>
+<h2>Privacy</h2>
+<p>We count visits with GoatCounter, which sets no cookies and keeps nothing that identifies you. Your browser remembers only the date of your last visit, so we can tell how many readers come back.</p>
 </article>`,
     });
   }

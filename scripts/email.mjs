@@ -114,12 +114,15 @@ ${noteSections.map(sectionRow).join('')}
     `${heading("Today's stories", C.ink)}
 ${grid(stories.slice(0, 4).map(storyCard))}`,
   ),
-  // House slot: the place a sponsor takes later
+  // House slot: the place a sponsor takes later. Until then it asks readers to pass the note on,
+  // and gives a forwarded reader their own sign-up (?ref=forward counts those arrivals).
   block(
     C.paper,
-    `<tr><td class="nft-pad" align="center" style="padding:30px 46px 32px;border-top:1px solid ${C.rule};border-bottom:1px solid ${C.rule};">${kicker('A note from us', C.rust)}
-<p style="margin:0 0 18px;font-family:${SERIF};font-style:italic;font-size:18px;line-height:1.5;color:${C.text};">Enjoying the Morning Note? Forward it to a colleague in finance, or follow along on X for the stories as they land.</p>
-${pill(`https://x.com/${site.x}`, `Follow @${esc(site.x)}`, C.ink)}</td></tr>`,
+    `<tr><td class="nft-pad" align="center" style="padding:30px 46px 32px;border-top:1px solid ${C.rule};border-bottom:1px solid ${C.rule};">${kicker('Pass it on', C.rust)}
+<p style="margin:0 0 10px;font-family:${SERIF};font-style:italic;font-size:18px;line-height:1.5;color:${C.text};">Know someone in finance who should read this? Forward this email. It takes them three minutes, every morning.</p>
+<p style="margin:0 0 18px;font-family:${SANS};font-size:14px;line-height:1.55;color:${C.muted};">Was this forwarded to you? Get your own at 07:00, free.</p>
+${pill(`${SITE}/?ref=forward#signup-h-front`, 'Get the Morning Note', C.ink)}
+<p style="margin:16px 0 0;font-family:${SANS};font-size:13px;line-height:1.5;color:${C.muted};">Or follow the stories as they land on X: <a href="https://x.com/${esc(site.x)}" style="color:${C.ink};text-decoration:underline;text-decoration-color:${C.amber};">@${esc(site.x)}</a></p></td></tr>`,
   ),
   // Also on the wire
   wireItems.length

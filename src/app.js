@@ -224,6 +224,32 @@
     });
   });
 
+  // Returning readers, without cookies: the browser keeps only the date of its last visit
+  // (Jakarta time). On the first visit of a new day, a browser seen before sends one event,
+  // bucketed by how long it was away, so the weekly report can count readers who come back.
+  // Browsers excluded with #toggle-goatcounter send nothing: goatcounter.count skips them.
+  (() => {
+    const today = new Date(Date.now() + 7 * 3600_000).toISOString().slice(0, 10);
+    let last;
+    try {
+      last = localStorage.getItem('nftt-last-visit');
+      if (last === today) return;
+      localStorage.setItem('nftt-last-visit', today);
+    } catch {
+      return; // storage blocked: count nothing rather than guess
+    }
+    if (!last || Number.isNaN(Date.parse(last))) return; // first visit from this browser
+    const away = Math.round((Date.parse(today) - Date.parse(last)) / 86_400_000);
+    const bucket = away <= 1 ? 'next-day' : away <= 7 ? 'within-week' : 'after-week';
+    let tries = 0;
+    const send = () => {
+      if (window.goatcounter?.count) {
+        window.goatcounter.count({ path: `returning-reader-${bucket}`, title: `Returning reader (${bucket})`, event: true });
+      } else if (tries++ < 20) setTimeout(send, 500); // count.js loads async
+    };
+    send();
+  })();
+
   localize();
   document.querySelectorAll('section.river:not(.river-solo)').forEach(regroupRiver);
   document.querySelectorAll('.wire-page').forEach(regroupWirePage);
