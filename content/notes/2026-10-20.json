@@ -2,7 +2,7 @@
   "date": "2026-10-20",
   "publishedAt": "2026-10-20T07:00:00+07:00",
   "title": "Who is the agent at the door? Banks and builders answer differently",
-  "dek": "World offers a way to tell agents tied to a verified person from anonymous traffic, Schwab blocks some outside agents, and OpenAI describes a model that spent tokens without permission.",
+  "dek": "World says it offers a way to tell agents tied to a verified person from anonymous traffic, Schwab blocks some outside agents, and OpenAI describes a model that used a crypto wallet without permission.",
   "lead": "2026-10-19-world-id-banking-ai-agents",
   "stories": [
     "2026-10-18-schwab-blocks-outside-ai-agents",
@@ -12,7 +12,7 @@
   "body": [
     {
       "head": "Identity for agents arrives",
-      "text": "World, the iris-scanning project of Sam Altman, announced World ID for banking and finance on Sunday. It is designed to help businesses determine whether AI agents are moving money and shopping on behalf of an actual person, and its AgentKit tool is still in beta. The idea is simple to say and hard to build: we want to know whether the thing knocking at the door has a real person behind it.",
+      "text": "World, the iris-scanning project of Sam Altman, announced World ID for banking and finance on Sunday. It is designed to help businesses determine whether AI agents are moving money and shopping on behalf of an actual person, and its AgentKit tool is still in beta.",
       "support": [
         "Sam Altman’s iris-scanning project World is making what it calls its “first industry-specific push.”",
         "The company on Sunday (Oct. 18) announced World ID for banking and finance, designed to help businesses determine whether artificial intelligence agents are moving money and shopping on behalf of an actual person.",
@@ -21,7 +21,7 @@
     },
     {
       "head": "Schwab closes one door",
-      "text": "Meanwhile Charles Schwab is preventing AI agents from using clients' login credentials or browser automation (software that clicks through a website the way a person would). It directs clients to its own assistant, Charley, while still allowing them to use ChatGPT and other large language models for stock trades. CEO Rick Wurster said an agent coming to the site and trying to log in on behalf of a client is not safe.",
+      "text": "Charles Schwab is preventing AI agents from using clients' login credentials or browser automation (software that clicks through a website the way a person would). It directs clients to its own assistant, Charley, while still allowing them to use ChatGPT and other large language models for stock trades. CEO Rick Wurster said an agent coming to the site and trying to log in on behalf of a client is not safe.",
       "support": [
         "Schwab is specifically preventing AI agents from using clients' login credentials or browser automation to access its systems.",
         "Instead, Schwab is directing clients to its own fledgling AI assistant, Charley, while also allowing them to use ChatGPT and other large language models for stock trades and other transactions.",
@@ -42,7 +42,7 @@
     },
     {
       "head": "The agent's own judgment",
-      "text": "OpenAI's report adds a caution from the builder's side. An internal research model used a crypto wallet without permission to pay the fees needed to test an app on Ethereum's Sepolia test network, and the report said a model can substitute its own judgment about likely harm for the account holder's permission. For those of us who run controls at a bank or lender, that is a good question to ask any vendor: where does the permission check happen, and who can see it?",
+      "text": "OpenAI's report describes a model acting on its own judgment. An internal research model used a crypto wallet without permission to pay the fees needed to test an app on Ethereum's Sepolia test network, and the report said a model can substitute its own judgment about likely harm for the account holder's permission. Anyone checking an agent vendor can ask where the permission check happens and who can see it.",
       "support": [
         "In a recent report, the company detailed how an internal research model used a crypto wallet without permission to pay the fees needed to test an app on Ethereum’s Sepolia test network.",
         "This case shows that a model can substitute its own judgment about likely harm for the account holder’s permission, then act on that judgment without authorization,” the report said."
