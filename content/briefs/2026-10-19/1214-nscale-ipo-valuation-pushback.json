@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-19-nscale-ipo-valuation-pushback",
+  "publishedAt": "2026-10-19T12:14:00+07:00",
+  "section": "deals",
+  "company": "Nscale",
+  "headline": "Nscale backers reportedly balk at a $30 billion IPO valuation target",
+  "body": "Bloomberg News reported, citing sources familiar with the matter, that some Nscale backers are balking at an IPO goal of around $30 billion. They are reportedly suggesting $16 billion to $19 billion instead. Microsoft said it is pulling out of a data center agreement, citing delays related to power constraints.",
+  "note": "The pushback comes as SEC comments on Nscale's filing are still being worked through, with no decisions made. Bloomberg also says sentiment around AI infrastructure companies has soured as borrowing costs have increased.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/investment-tracker/ipo/2026/nscale-investors-seek-lower-ipo-target-amid-ai-related-concerns/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Artificial intelligence cloud company Nscale is reportedly facing pushback from investors to its IPO valuation target." },
+    { "source": 0, "text": "Some backers are balking at the company’s initial public offering (IPO) goal of around $30 billion, instead suggesting a range of $16 billion to $19 billion, Bloomberg News reported Sunday (Oct. 18)." },
+    { "source": 0, "text": "The report, citing sources familiar with the matter, said the IPO is facing challenges including the valuation disconnect and a cancelled data center deal with Microsoft." },
+    { "source": 0, "text": "Microsoft said Sunday that it was pulling out of the data center agreement with Nscale, citing delays related to power constraints, the report added." },
+    { "source": 0, "text": "Nscale is also working through comments from the U.S. Securities and Exchange Commission (SEC) on its filing, with discussions still happening ongoing and no decisions having been made, the report said." },
+    { "source": 0, "text": "Sentiment around AI infrastructure companies such as chipmakers and cloud computing firms has soured as borrowing costs have increased and uncertainty over the technology’s long-term payoff has grown, Bloomberg said." }
+  ]
+}

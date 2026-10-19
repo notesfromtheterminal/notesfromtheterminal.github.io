@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-19-world-id-banking-ai-agents",
+  "publishedAt": "2026-10-19T12:10:00+07:00",
+  "section": "banking",
+  "tags": ["payments"],
+  "star": true,
+  "company": "World",
+  "headline": "World announces World ID for AI agents in banking and finance",
+  "body": "The company on Sunday announced World ID for banking and finance, the iris-scanning project of Sam Altman. The company says it helps businesses determine whether an AI agent moving money or shopping acts for an actual person. AgentKit, the tool that does this, is in beta.",
+  "note": "The question is whether an AI agent acting for a person can be told apart from anonymous automated traffic. World presents its proofs as trust infrastructure for that.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/sam-altmans-world-debuts-id-verification-for-ai-agents/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Sam Altman’s iris-scanning project World is making what it calls its “first industry-specific push.”" },
+    { "source": 0, "text": "The company on Sunday (Oct. 18) announced World ID for banking and finance, designed to help businesses determine whether artificial intelligence agents are moving money and shopping on behalf of an actual person." },
+    { "source": 0, "text": "World’s AgentKit, now in beta, lets a person delegate World ID Proofs to an AI agent, which can then show those Proofs to a website or service without revealing the person’s information, the company said in a news release provided to PYMNTS." },
+    { "source": 0, "text": "“For a merchant or financial institution, that offers a way to distinguish an AI agent connected to a verified human from anonymous automated traffic that some sites are now blocking,” the release said." },
+    { "source": 0, "text": "“World sees this as trust infrastructure for transactions and other sensitive requests as AI agents take on more work for consumers .”" }
+  ]
+}

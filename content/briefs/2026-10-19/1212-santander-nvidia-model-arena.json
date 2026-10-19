@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-19-santander-nvidia-model-arena",
+  "publishedAt": "2026-10-19T12:12:00+07:00",
+  "section": "banking",
+  "company": "Santander",
+  "headline": "Santander's AI lab uses Nvidia to evaluate models for banking tasks",
+  "body": "Santander’s AI lab has teamed with Nvidia on capabilities for evaluating AI models and agents for banking. Its “Model Arena” evaluates open-weight models against banking tasks. In one experimental customer-service use case, the companies say a more efficient model lowered costs by more than 50%.",
+  "note": "The bank says it is moving from large general-purpose models toward smaller, specialised ones. The cost figure comes from one experimental use case and is the companies' own claim.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/banking/2026/santander-turns-to-nvidia-to-build-new-ai-banking-capabilities/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Santander has teamed with Nvidia to come up with capabilities for evaluating artificial intelligence models and agents for banking." },
+    { "source": 0, "text": "“As part of this effort, Santander has been progressively moving from large general-purpose models towards smaller, specialised models designed for specific banking tasks,” Santander said in a news release provided to PYMNTS." },
+    { "source": 0, "text": "With the AI lab, Santander has constructed its “Model Arena” to evaluate open-weight models against banking tasks and determine which model is right for each workload." },
+    { "source": 0, "text": "The companies say their partnership is already bearing fruit." },
+    { "source": 0, "text": "In one experimental customer-service use case, Santander improved conversation quality while lowering costs by more than 50% by deploying a more efficient AI model." }
+  ]
+}
