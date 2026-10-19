@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-19-anthropic-public-benefit-fund",
+  "publishedAt": "2026-10-19T07:10:00+07:00",
+  "section": "models",
+  "company": "Anthropic",
+  "headline": "Anthropic says it will commit 5% of its shares to a public benefit fund",
+  "body": "**Anthropic** says it will commit 5% of its shares to a public benefit fund, a wholly-owned entity within the company. It has the option to contribute an additional 2% for every 50% increase in its value. The company says it will share more on structure and governance in the coming months.",
+  "note": "The fund is still mostly a shape without rules: the uses are broad, and who decides which projects get money is not yet public. Anthropic's CEO has described the industry's public sentiment as a crisis of trust, and this is one of the company's answers.",
+  "figure": { "value": "5%", "label": "share of Anthropic's shares committed to the fund" },
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Anthropic said that it will commit 5% of its shares to the fund — structured as a wholly-owned entity within the company — with the option to contribute an additional 2% for every 50% increase in Anthropic’s value." },
+    { "source": 0, "text": "Anthropic announced today that it’s creating a “public benefit fund” that will give the company “increased flexibility and scale” to support projects for societal good." },
+    { "source": 0, "text": "And it offered some broad-strokes ideas for how this money might actually be used, such as “large donations to traditional nonprofits or direct distributions to specific populations.”" },
+    { "source": 0, "text": "The AI industry faces increasingly negative public sentiment, which CEO Dario Amodei has described as “fundamentally a crisis of trust.”" },
+    { "source": 0, "text": "If you’re wondering who will actually decide which public benefits are worth funding, Anthropic said it will share more information about structure and governance in the coming months." }
+  ]
+}

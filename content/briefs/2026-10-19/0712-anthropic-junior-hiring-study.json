@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-19-anthropic-junior-hiring-agent-hours",
+  "publishedAt": "2026-10-19T07:12:00+07:00",
+  "section": "models",
+  "company": "Anthropic",
+  "headline": "Anthropic's junior share of technical hires fell from 27% to 9%, per its study",
+  "body": "An **Anthropic** study says the share of junior-level employees in technical departments slipped from 21% to 14% since early 2025. It says the junior share of technical hires fell faster, from 27% to 9%. By August, interactive AI agent hours outnumbered employees' six to one.",
+  "note": "Junior technical roles are where future specialists are trained, so a slowdown there deserves a closer look. Anthropic points to its agents as the reason, and the study itself admits the company is a special case.",
+  "figure": { "value": "9%", "label": "junior share of Anthropic's technical hires, per its study" },
+  "sources": [
+    { "name": "Anthropic", "url": "https://anthropic.com/research/employment-at-anthropic" },
+    { "name": "The Decoder", "url": "https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "By August interactive AI agent hours outnumbered employees’ six to one." },
+    { "source": 0, "text": "Figure 1 shows that the share of junior-level employees in technical departments at Anthropic slipped from 21% to 14% since early 2025." },
+    { "source": 0, "text": "The proportion of junior technical hires fell even faster, from 27% to 9%." },
+    { "source": 1, "text": "Anthropic points to the growing capability of its AI agents as the reason." },
+    { "source": 1, "text": "The study itself admits that Anthropic is a special case, though." }
+  ]
+}
