@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-20-fca-ai-advice-disclaimers",
+  "publishedAt": "2026-10-20T03:15:00+07:00",
+  "section": "rules",
+  "tags": ["banking"],
+  "headline": "FCA calls for disclaimers on AI financial advice",
+  "body": "The UK's financial services watchdog is calling on AI providers to issue disclaimers for services that provide financial advice to consumers via agentic AI.",
+  "note": "A call for disclaimers is a lighter step than a rule, and it points at firms that let AI agents give consumers advice.",
+  "sources": [
+    { "name": "Finextra", "url": "https://www.finextra.com/newsarticle/48604/fca-calls-for-disclaimers-on-ai-financial-advice" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "FCA calls for disclaimers on AI financial advice" },
+    { "source": 0, "text": "The UK's financial services watchdog is calling on AI providers to issue disclaimers for services that provide financial advice to consumers via agentic AI." }
+  ]
+}

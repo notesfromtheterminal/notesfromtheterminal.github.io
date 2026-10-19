@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-20-kapital-woz-acquisition",
+  "publishedAt": "2026-10-20T03:14:00+07:00",
+  "section": "deals",
+  "tags": ["banking"],
+  "company": "Kapital",
+  "headline": "Mexico-based Kapital is set to acquire AI startup Woz for $30 million",
+  "body": "**Kapital**, a Mexico-based B2B financial platform, is set to acquire artificial intelligence startup Woz in a $30 million deal. The deal is designed to strengthen Kapital's financial ecosystem with Woz's advanced coding agents for “complex business use cases,” the company said. The company says it serves more than 350,000 customers in the U.S., Mexico, Colombia and Spain.",
+  "note": "Kapital's AI suite already covers underwriting, risk and customer intelligence, and the deal adds coding agents to that stack.",
+  "figure": { "value": "$30M", "label": "price of the Woz acquisition" },
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/b2b-payments/2026/kapital-looks-to-enhance-finance-platform-with-30-million-woz-deal/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Mexico-based B2B financial platform Kapital is set to acquire artificial intelligence startup Woz" },
+    { "source": 0, "text": "The $30 million deal is designed to strengthen Kapital’s financial ecosystem with the addition of Woz’s advanced coding agents for “complex business use cases,” the company said in a Monday (Oct. 19) news release" },
+    { "source": 0, "text": "The company says it serves more than 350,000 customers in the U.S., Mexico, Colombia and Spain." },
+    { "source": 0, "text": "Kapital says the deal allows it to develop new AI models and products designed specifically for enterprise-grade financial applications, while also expanding on its existing AI suite, OctavIA, which helps operate live scoring systems, underwriting , risk and customer intelligence." }
+  ]
+}
