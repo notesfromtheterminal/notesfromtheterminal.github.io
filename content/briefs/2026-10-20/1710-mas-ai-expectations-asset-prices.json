@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-20-mas-ai-expectations-asset-prices",
+  "publishedAt": "2026-10-20T17:10:00+07:00",
+  "section": "sea",
+  "tags": ["rules"],
+  "headline": "MAS economist cautioned that expectations of AI gains could inflate asset prices",
+  "body": "Businesses are adopting AI rapidly, but the technology has yet to deliver widespread productivity gains, according to the Monetary Authority of Singapore (MAS). Its Chief Economist, Edward Robinson, highlighted this gap at the 2026 Beijing Financial Street Forum on 20 October. Robinson cautioned that expectations of future AI gains could inflate asset prices and encourage excessive borrowing.",
+  "note": "For lenders, the point is that loans sized on AI optimism could be exposed if productivity gains arrive later than expected.",
+  "sources": [
+    { "name": "Fintech News Singapore", "url": "https://fintechnews.sg/139225/ai/mas-ai-financial-risks/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Businesses are adopting AI rapidly, but the technology has yet to deliver widespread productivity gains, according to the Monetary Authority of Singapore (MAS) ." },
+    { "source": 0, "text": "Edward S. Robinson, MAS Deputy Managing Director (Economic Policy) and Chief Economist, highlighted this gap at the 2026 Beijing Financial Street Forum on 20 October." },
+    { "source": 0, "text": "Robinson cautioned that expectations of future AI gains could inflate asset prices and encourage excessive borrowing." },
+    { "source": 0, "text": "A reassessment of those expectations could trigger falling valuations and tighter credit conditions." }
+  ]
+}
