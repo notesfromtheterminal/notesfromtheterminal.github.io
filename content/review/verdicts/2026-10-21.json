@@ -1,7 +1,7 @@
 {
   "note": "2026-10-21",
-  "commit": "e46bf36d82a12ef2f7b96b5d6a2f9cd54df959da",
-  "verdict": "CHANGES",
-  "at": "2026-10-20T16:46:59.797Z",
-  "notes": "1. Section 2 (\"A person still approves\") opens \"Meanwhile, Centalion ...\". Source (PYMNTS, Oct. 19): \"Centalion, the Geneva trader formerly known as Gunvor, said Oct. 14 it has handed that legwork to an artificial intelligence agent.\" Visa's release is dated Tuesday Oct. 20, so \"Meanwhile\" wrongly implies the stories happened together. Fix: drop \"Meanwhile,\" and start \"Centalion, the Geneva commodity trader formerly known as Gunvor, deployed ...\" (or say it announced the agent on Oct. 14).\n2. Section 3 (\"A monitor for the agents\") opens \"At the same time, Microsoft introduced Guardian Agents\". Source (TechCrunch, Oct. 19): \"Microsoft on Monday introduced new security features\". That is Mon 19 Oct, not the same time as Centalion (Oct. 14) or Visa (Tue 20 Oct). Fix: drop \"At the same time,\" and write \"Microsoft introduced Guardian Agents on Monday, a new feature intended to monitor the AI agents a company uses.\""
+  "commit": "b0d7c0ca18f433b3c8d998d7193546b9ab533444",
+  "verdict": "APPROVED",
+  "at": "2026-10-20T22:47:13.144Z",
+  "notes": ""
 }
