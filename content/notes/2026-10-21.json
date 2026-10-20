@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-21",
+  "publishedAt": "2026-10-21T07:00:00+07:00",
+  "title": "Agents get the work, people keep the decision",
+  "dek": "Visa pilots agent-paid invoices, Centalion keeps a person on every approval, and Microsoft adds a monitor for agents.",
+  "lead": "2026-10-20-visa-bill-billtrust-agent-invoice-pilot",
+  "stories": [
+    "2026-10-20-centalion-trade-finance-agent",
+    "2026-10-20-microsoft-guardian-agents-monitor"
+  ],
+  "body": [
+    {
+      "head": "Agents move into payables",
+      "text": "Visa said its collaboration with BILL is the first live pilot to allow AI agents to complete approved buyer invoice payments end-to-end through supplier portals. In the release, the authorized BILL Payment Agent is registered using Visa's Trusted Agent Protocol and Agentic Directory, and uses tokenized payment credentials.",
+      "support": [
+        "The collaboration is the first live pilot to allow artificial intelligence (AI) agents “to initiate and complete approved buyer invoice payments end-to-end through supplier portals,” Visa said in a news release provided to PYMNTS Tuesday (Oct. 20).",
+        "“The flow begins when the authorized BILL Payment Agent — registered using Visa’s Trusted Agent Protocol and Agentic Directory — uses tokenized payment credentials and controls aligned with the buyer’s approved payment instructions to issue payments on behalf of BILL’s customers,” the release added."
+      ]
+    },
+    {
+      "head": "A person still approves",
+      "text": "Meanwhile, Centalion, the Geneva commodity trader formerly known as Gunvor, deployed an AI agent that prepares trade finance instruments from plain-language instructions, and it said amendment processing time fell about 80% on the first facility covered. Every transaction still goes to a treasury employee for approval (the company's own figures have not been independently verified).",
+      "support": [
+        "Centalion, the Geneva commodity trader formerly known as Gunvor, deployed an AI agent that prepares trade finance instruments from plain-language instructions.",
+        "On the first facility covered, issuance processing time fell about 55% and amendment processing time fell about 80%, Centalion said.",
+        "The figures are the company’s own and have not been independently verified.",
+        "Every transaction still goes to a treasury employee for approval, and Centalion plans to extend the agent across its other facilities."
+      ]
+    },
+    {
+      "head": "A monitor for the agents",
+      "text": "At the same time, Microsoft introduced Guardian Agents, a new feature intended to monitor the AI agents a company uses. Earlier this month, TechCrunch reports, Nadella warned that we need to separate the supply of intelligence from the authority over it.",
+      "support": [
+        "Guardian Agents , a new feature intended to monitor the AI agents a company uses.",
+        "Earlier this month, in his private blog , Nadella warned that it’s time to stop trusting AI model providers, even if they offer assurances of safety and security with their agentic products.",
+        "In other words, we need to separate the supply of intelligence from the authority over it."
+      ]
+    },
+    {
+      "head": "What to watch in our own shops",
+      "text": "Put side by side, these three stories give agents the preparing and the paying while keeping approval and oversight with people and monitors. For those of us in treasury, payables or operations, a useful question is who approves each step an agent takes, and where we can see it."
+    }
+  ]
+}
