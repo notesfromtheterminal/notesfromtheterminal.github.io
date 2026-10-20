@@ -1,0 +1,15 @@
+{
+  "id": "2026-10-20-visa-bill-billtrust-agent-invoice-pilot",
+  "publishedAt": "2026-10-20T22:08:00+07:00",
+  "section": "payments",
+  "tags": ["banking"],
+  "company": "Visa",
+  "headline": "Visa pilots AI agents completing invoice payments through supplier portals",
+  "body": "Visa said the collaboration is the first live pilot to allow AI agents \"to initiate and complete approved buyer invoice payments end-to-end through supplier portals.\" Visa's release says the authorized BILL Payment Agent is registered using Visa's Trusted Agent Protocol and Agentic Directory, and uses tokenized payment credentials.",
+  "note": "Agent payments here are invoices between businesses, and the open question is how many supplier portals will accept agent authentication.",
+  "sources": [{ "name": "PYMNTS", "url": "https://www.pymnts.com/partnerships/2026/visa-launches-agentic-payments-pilot-with-bill-and-billtrust/" }],
+  "evidence": [
+    { "source": 0, "text": "The collaboration is the first live pilot to allow artificial intelligence (AI) agents “to initiate and complete approved buyer invoice payments end-to-end through supplier portals,” Visa said in a news release provided to PYMNTS Tuesday (Oct. 20)." },
+    { "source": 0, "text": "“The flow begins when the authorized BILL Payment Agent — registered using Visa’s Trusted Agent Protocol and Agentic Directory — uses tokenized payment credentials and controls aligned with the buyer’s approved payment instructions to issue payments on behalf of BILL’s customers,” the release added." }
+  ]
+}

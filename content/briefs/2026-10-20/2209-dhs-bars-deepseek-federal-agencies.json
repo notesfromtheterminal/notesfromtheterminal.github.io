@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-20-dhs-bars-deepseek-federal-agencies",
+  "publishedAt": "2026-10-20T22:09:00+07:00",
+  "section": "rules",
+  "tags": ["models"],
+  "company": "DeepSeek",
+  "headline": "DHS order bars federal civilian agencies from using DeepSeek technology",
+  "body": "The DHS order, issued in July and made public Monday, also bars federal civilian agencies from procuring DeepSeek products and services, CNBC reports. The DHS cited concerns over potential transfers of sensitive U.S. government data to China and security vulnerabilities in DeepSeek's models.",
+  "note": "The order covers federal civilian agency systems, including third-party products built on DeepSeek's models, so vendors that sell into those agencies may need to check what their tools run on.",
+  "sources": [{ "name": "CNBC", "url": "https://www.cnbc.com/2026/10/20/us-deepseek-federal-agency-ban.html" }],
+  "evidence": [
+    { "source": 0, "text": "The DHS order, issued in July and made public Monday, also bars federal civilian agencies from procuring DeepSeek products and services." },
+    { "source": 0, "text": "The DHS cited concerns over potential transfers of sensitive U.S. government data to China and security vulnerabilities in DeepSeek's models." },
+    { "source": 0, "text": "The Trump administration has banned DeepSeek-related technology from federal civilian agency IT systems, including third-party products and services built using its AI models." }
+  ]
+}
