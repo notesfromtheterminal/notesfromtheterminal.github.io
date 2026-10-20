@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-20-minimax-m3-1-flash-open-weights",
+  "publishedAt": "2026-10-20T07:10:00+07:00",
+  "section": "models",
+  "company": "MiniMax",
+  "headline": "MiniMax has released M3.1 Flash, and plans open weights on October 23",
+  "body": "MiniMax has released M3.1 Flash, a reasoning model that handles up to one million tokens of context and accepts both text and images. API pricing sits at $0.15 per million input tokens and $0.60 per million output tokens. MiniMax plans to release the model as open weights on October 23.",
+  "note": "At these prices, testing an agent workflow costs little per run, and open weights, if released as planned, would let a bank host the model itself.",
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "MiniMax has released M3.1 Flash, a new reasoning model that scores 42 points on the Artificial Analysis Intelligence Index ." },
+    { "source": 0, "text": "The model handles up to one million tokens of context and accepts both text and images." },
+    { "source": 0, "text": "API pricing sits at $0.15 per million input tokens and $0.60 per million output tokens, with cached inputs at $0.015." },
+    { "source": 0, "text": "MiniMax plans to release the model as open weights on October 23." }
+  ]
+}

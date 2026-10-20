@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-20-tenstorrent-funding-round-valuation",
+  "publishedAt": "2026-10-20T07:10:00+07:00",
+  "section": "deals",
+  "company": "Tenstorrent",
+  "headline": "Tenstorrent raises $1.5 billion at a $6.2 billion valuation",
+  "body": "Tenstorrent, a chip startup focused on inference, has raised $1.5 billion at a $6.2 billion valuation, led by Trace Capital and Innovation X. CEO Jim Keller told Bloomberg the company decided to remain independent after its Galaxy servers could run DeepSeek models. The new capital will go toward scaling chips tailored for serving open-weight AI models and video generation.",
+  "note": "Each funded challenger gives buyers of AI compute another option beyond Nvidia.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Tenstorrent, a chip startup focused on inference, has raised $1.5 billion at a $6.2 billion valuation." },
+    { "source": 0, "text": "The fresh round, which more than doubled Tenstorrent’s valuation from the $2.6 billion it fetched in late 2024, was led by Trace Capital, a new firm launched by Quiet Capital co-founder Ben Mahdavi, and Innovation X." },
+    { "source": 0, "text": "Jim Keller, a prominent microprocessor engineer and Tenstorrent CEO, told Bloomberg that the company decided to remain independent and raise more capital after it showed that its Galaxy servers could run DeepSeek models." },
+    { "source": 0, "text": "The new capital will go toward scaling chips tailored for serving open-weight AI models and video generation." }
+  ]
+}

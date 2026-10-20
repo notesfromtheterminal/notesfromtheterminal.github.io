@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-20-centalion-trade-finance-agent",
+  "publishedAt": "2026-10-20T07:10:00+07:00",
+  "section": "banking",
+  "tags": ["payments"],
+  "star": true,
+  "company": "Centalion",
+  "headline": "Centalion says its AI agent cut trade finance amendment time about 80%",
+  "body": "Centalion, the Geneva commodity trader formerly known as Gunvor, deployed an AI agent that prepares trade finance instruments from plain-language instructions. On its first facility, amendment processing time fell about 80%, Centalion said. Every transaction still goes to a treasury employee for approval.",
+  "note": "The figure is self-reported and covers one facility. Banks running their own trade finance desks should wait for an independent count before treating it as a benchmark.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-agent-cuts-centalions-trade-finance-amendment-time-80/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Centalion, the Geneva commodity trader formerly known as Gunvor, deployed an AI agent that prepares trade finance instruments from plain-language instructions." },
+    { "source": 0, "text": "On the first facility covered, issuance processing time fell about 55% and amendment processing time fell about 80%, Centalion said." },
+    { "source": 0, "text": "The figures are the company’s own and have not been independently verified." },
+    { "source": 0, "text": "Every transaction still goes to a treasury employee for approval, and Centalion plans to extend the agent across its other facilities." },
+    { "source": 0, "text": "The agent prepares. A person decides." }
+  ]
+}
