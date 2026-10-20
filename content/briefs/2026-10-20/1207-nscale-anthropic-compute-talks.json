@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-20-nscale-anthropic-compute-talks",
+  "publishedAt": "2026-10-20T12:07:00+07:00",
+  "section": "models",
+  "tags": ["deals"],
+  "company": "Anthropic",
+  "headline": "Bloomberg reports Nscale and Anthropic near another $45 billion compute deal",
+  "body": "Bloomberg reports that Nscale and Anthropic are said to be on the verge of announcing another $45 billion compute deal, citing people familiar with the matter. The sources cautioned that talks are still underway and that the details could change. A little over a month ago, Anthropic and Nscale announced a $45 billion compute deal.",
+  "note": "TechCrunch reports that some investors worry the spending is too high for too little profit. Both Anthropic and Nscale are pursuing IPOs.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "A little over a month ago, Anthropic and AI infrastructure provider Nscale announced a $45 billion compute deal ." },
+    { "source": 0, "text": "Bloomberg reports that the two companies are said to be on the verge of announcing yet another $45 billion compute deal, citing people familiar with the matter." },
+    { "source": 0, "text": "Those sources cautioned that talks are still underway and that the details could change." },
+    { "source": 0, "text": "The massive amount of money being sunk into AI compute deals has spooked a certain segment of investors , who worry that companies are spending too much money for too little profit." },
+    { "source": 0, "text": "Both Anthropic and Nscale are also currently pursuing IPOs." }
+  ]
+}
