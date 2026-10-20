@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-21-deepseek-deepinfer-open-source",
+  "publishedAt": "2026-10-21T03:15:00+07:00",
+  "section": "models",
+  "company": "DeepSeek",
+  "headline": "DeepSeek makes its DeepInfer inference framework fully open source",
+  "body": "DeepSeek has made its in-house inference framework, DeepInfer, fully open source. DeepSeek says this will help make AI more affordable, and that DeepInfer powers its DeepSeek-V4.1-Flash model at scale, with high throughput and low latency.",
+  "note": "For banks and payment firms that run models on their own infrastructure, the cost of inference is a budget line. DeepSeek is sharing its production stack with the community.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/deepseek-open-sources-inference-tech-to-lower-ai-costs/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "DeepSeek has made its in-house inference framework, DeepInfer , fully open source, saying this will help make artificial intelligence more affordable." },
+    { "source": 0, "text": "DeepInfer powers the company’s DeepSeek-V4.1-Flash model at scale with high throughput and low latency, DeepSeek said in a Tuesday (Oct. 20) post on X." },
+    { "source": 0, "text": "“We’re sharing our production stack to help the community lower compute costs, reduce energy use and make AI more affordable,” DeepSeek said in the post." }
+  ]
+}
