@@ -19,7 +19,7 @@
     },
     {
       "head": "A person still approves",
-      "text": "Meanwhile, Centalion, the Geneva commodity trader formerly known as Gunvor, deployed an AI agent that prepares trade finance instruments from plain-language instructions, and it said amendment processing time fell about 80% on the first facility covered. Every transaction still goes to a treasury employee for approval (the company's own figures have not been independently verified).",
+      "text": "Centalion, the Geneva commodity trader formerly known as Gunvor, deployed an AI agent that prepares trade finance instruments from plain-language instructions, and it said amendment processing time fell about 80% on the first facility covered. Every transaction still goes to a treasury employee for approval (the company's own figures have not been independently verified).",
       "support": [
         "Centalion, the Geneva commodity trader formerly known as Gunvor, deployed an AI agent that prepares trade finance instruments from plain-language instructions.",
         "On the first facility covered, issuance processing time fell about 55% and amendment processing time fell about 80%, Centalion said.",
@@ -29,8 +29,9 @@
     },
     {
       "head": "A monitor for the agents",
-      "text": "At the same time, Microsoft introduced Guardian Agents, a new feature intended to monitor the AI agents a company uses. Earlier this month, TechCrunch reports, Nadella warned that we need to separate the supply of intelligence from the authority over it.",
+      "text": "Microsoft introduced Guardian Agents on Monday, a new feature intended to monitor the AI agents a company uses. Earlier this month, TechCrunch reports, Nadella warned that we need to separate the supply of intelligence from the authority over it.",
       "support": [
+        "Microsoft on Monday introduced new security features designed to protect enterprises from the growing threat of AI agents.",
         "Guardian Agents , a new feature intended to monitor the AI agents a company uses.",
         "Earlier this month, in his private blog , Nadella warned that it’s time to stop trusting AI model providers, even if they offer assurances of safety and security with their agentic products.",
         "In other words, we need to separate the supply of intelligence from the authority over it."
