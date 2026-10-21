@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-21-anthropic-draft-safety-bill-judge-halt",
+  "publishedAt": "2026-10-21T07:14:00+07:00",
+  "section": "models",
+  "tags": ["rules"],
+  "company": "Anthropic",
+  "headline": "Anthropic is shopping a draft AI safety bill to Congress",
+  "body": "Politico reported that Anthropic has been shopping a draft AI safety bill to Congress, and a spokesperson confirmed the draft. In it, the Commerce Department would have to ask a D.C. judge to halt a model's release after evaluators flag an imminent catastrophic risk.",
+  "note": "The draft would expressly forbid any federal agency from halting a model's distribution on its own. For a bank that depends on frontier models, the open question is how a court step would affect release timing.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Politico recently reported that the AI lab has been shopping around a new draft bill on AI safety that it hopes Congress might consider adopting." },
+    { "source": 0, "text": "Anthropic did not immediately respond to TechCrunch’s a request for comment but a spokesperson did confirm the draft bill to Politico." },
+    { "source": 0, "text": "In Anthropic’s draft bill, when evaluators determine that an imminent catastrophic risk is posed, they would have 72 hours to contact the Commerce Department about it." },
+    { "source": 0, "text": "The Commerce Department would then have to request to a D.C. judge to halt the model’s release." },
+    { "source": 0, "text": "The legislation would expressly forbid any federal agency from having the discretion to halt the model’s distribution on its own, Politico writes." }
+  ]
+}

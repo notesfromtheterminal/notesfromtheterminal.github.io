@@ -1,0 +1,15 @@
+{
+  "id": "2026-10-21-starling-agentic-fincrime-investigator",
+  "publishedAt": "2026-10-21T07:10:00+07:00",
+  "section": "banking",
+  "company": "Starling",
+  "headline": "UK digital bank says its agentic investigator can work in 17 seconds",
+  "body": "Starling, a UK digital bank, says it has deployed an agentic \"financial crime investigator\" that can carry out an end-to-end investigation within 17 seconds.",
+  "note": "For fincrime teams, the speed claim is the number to test before anyone repeats it.",
+  "sources": [
+    { "name": "Finextra", "url": "https://www.finextra.com/newsarticle/48623/starling-build-agentic-fincrime-investigator-that-takes-17-seconds" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Starling has deployed an agentic \"financial crime investigator\" that the UK digital bank says can carry out an end-to-end investigation within 17 seconds." }
+  ]
+}

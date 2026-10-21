@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-21-regional-banks-ai-operations-lending",
+  "publishedAt": "2026-10-21T07:12:00+07:00",
+  "section": "banking",
+  "company": "PNC",
+  "headline": "Regional banks are putting AI into everyday banking operations",
+  "body": "Third-quarter results from PNC, U.S. Bancorp, Truist, Fifth Third, Regions and KeyCorp show that regional banks are putting artificial intelligence into everyday banking operations. PNC reported average commercial loans increased $10.4 billion from the second quarter, and it attributed the increases to strong new production and higher utilization.",
+  "note": "PNC's CEO described an \"agentic workforce\" that includes systems able to recognize AI agents as well as employees, so the operations work is more than a pilot.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/banking/2026/regional-banks-put-ai-into-core-operations-as-business-lending-grows/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Third-quarter results from PNC , U.S. Bancorp , Truist , Fifth Third , Regions and KeyCorp show that regional banks are putting artificial intelligence into everyday banking operations, while several report more commercial lending and greater use of business credit." },
+    { "source": 0, "text": "PNC reported average commercial loans increased $10.4 billion from the second quarter and $42.4 billion from a year earlier." },
+    { "source": 0, "text": "The bank attributed the increases to strong new production and higher utilization, with the year-over-year comparison also reflecting FirstBank loans acquired in March, according to its third quarter financial highlights ." },
+    { "source": 0, "text": "PNC CEO Bill Demchak used the bank’s third-quarter earnings call to describe preparations for an “agentic workforce,” including work on data architecture, digitized policies and procedures, access controls and systems that can recognize AI agents as well as employees." }
+  ]
+}
