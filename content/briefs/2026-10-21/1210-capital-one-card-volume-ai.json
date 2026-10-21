@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-21-capital-one-card-volume-ai",
+  "publishedAt": "2026-10-21T12:10:00+07:00",
+  "section": "banking",
+  "tags": ["payments"],
+  "company": "Capital One",
+  "headline": "Capital One card volume rose 11% while investing further in AI",
+  "body": "Capital One's credit card purchase volume increased 11% year over year to $254.7 billion in the third quarter. Domestic card charge-offs fell to 3.98%, down 65 basis points from a year earlier. The bank is also investing further in generative and agentic AI.",
+  "note": "For card lenders, falling charge-offs alongside higher spending is the number to watch next quarter.",
+  "figure": { "value": "11%", "label": "year-over-year growth in credit card purchase volume, third quarter" },
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/credit-cards/2026/capital-one-pushes-deeper-into-ai-as-card-spending-grows/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "The Oct. 20 results showed that credit card purchase volume increased 11% year over year to $254.7 billion." },
+    { "source": 0, "text": "Capital One’s cardholders continued spending in the third quarter while credit losses declined, giving the bank room to pursue two expensive strategic priorities: building more volume on the Discover network and investing further in generative and agentic artificial intelligence." },
+    { "source": 0, "text": "Domestic card charge-offs fell to 3.98%, down 65 basis points from a year earlier and 73 basis points from the second quarter." }
+  ],
+  "wire": ["c47ad75385e3"]
+}

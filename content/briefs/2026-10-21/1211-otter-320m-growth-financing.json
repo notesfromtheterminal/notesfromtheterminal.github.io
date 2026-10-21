@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-21-otter-320m-growth-financing",
+  "publishedAt": "2026-10-21T12:11:00+07:00",
+  "section": "deals",
+  "company": "Otter.ai",
+  "headline": "Otter.ai secured $320 million in growth financing for its AI notetaker",
+  "body": "Otter.ai secured $320 million in growth financing from the Customer Value Fund (CVF) of General Catalyst, the company said in a press release on Tuesday. According to the release, Otter will invest the new financing in enterprise growth, international expansion and product innovation.",
+  "note": "For enterprise buyers, the test is whether the tool becomes more than a meeting recorder.",
+  "figure": { "value": "$320M", "label": "growth financing from General Catalyst's Customer Value Fund" },
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/otter-secures-320-million-to-turn-ai-notetaker-into-enterprise-knowledge-engine/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Otter.ai secured $320 million in growth financing from General Catalyst ’s Customer Value Fund (CVF) to accelerate the growth of its artificial intelligence notetaker and conversational knowledge platform, the company said in a Tuesday (Oct. 20) press release ." },
+    { "source": 0, "text": "Otter will invest the new financing in its enterprise growth, go-to-market strategy, international expansion and product innovation, according to the release." }
+  ],
+  "wire": ["f6b1baae2aaa"]
+}

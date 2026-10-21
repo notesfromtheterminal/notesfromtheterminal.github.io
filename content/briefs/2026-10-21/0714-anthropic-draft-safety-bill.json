@@ -10,11 +10,13 @@
   "sources": [
     { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/" }
   ],
+  "updatedAt": "2026-10-21T12:12:00+07:00",
+  "correction": "Evidence sentences 2 and 4 were not copied exactly from the TechCrunch page (a typo, and a paraphrase of the D.C. judge sentence). Replaced with the exact sentences. Body and note unchanged.",
   "evidence": [
     { "source": 0, "text": "Politico recently reported that the AI lab has been shopping around a new draft bill on AI safety that it hopes Congress might consider adopting." },
-    { "source": 0, "text": "Anthropic did not immediately respond to TechCrunch’s a request for comment but a spokesperson did confirm the draft bill to Politico." },
+    { "source": 0, "text": "Anthropic did not immediately respond to TechCrunch’s request for comment, but a spokesperson did confirm the draft bill to Politico." },
     { "source": 0, "text": "In Anthropic’s draft bill, when evaluators determine that an imminent catastrophic risk is posed, they would have 72 hours to contact the Commerce Department about it." },
-    { "source": 0, "text": "The Commerce Department would then have to request to a D.C. judge to halt the model’s release." },
+    { "source": 0, "text": "The Commerce Department would then have to request to a Washington, D.C., judge a halt to the model’s release." },
     { "source": 0, "text": "The legislation would expressly forbid any federal agency from having the discretion to halt the model’s distribution on its own, Politico writes." }
   ]
 }
