@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-22-cybercartel-ai-agents-latam-attacks",
+  "publishedAt": "2026-10-22T03:12:00+07:00",
+  "section": "banking",
+  "company": "Anthropic",
+  "headline": "Hackers reportedly used Claude and Grok agents in attacks that included banks",
+  "body": "A hacking group known as CyberCartel reportedly used AI agents from several tech companies to automate cyberattacks on Latin American businesses. According to the report, the hackers used AI agents powered by models such as Claude and Grok to attack more than 400 targets in Latin America, including banks and payments companies. Anthropic said it quickly blocked the hackers’ use of Claude.",
+  "note": "Straiker’s CEO said enterprises are “just not ready”, and the report says many companies are now investing heavily in AI-powered cyberprotections.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/cybersecurity/2026/hackers-employ-grok-and-claude-to-attack-latam-banks/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "A hacking group known as CyberCartel reportedly used artificial intelligence (AI) agents from several high profile tech companies to automate cyberattacks on Latin American businesses." },
+    { "source": 0, "text": "That’s according to a report Wednesday (Oct. 21) from The Information, citing research by the cybersecurity startup Straiker shared exclusively with the news outlet." },
+    { "source": 0, "text": "According to the report, the hackers used a web of AI agents powered by models such as Anthropic’s Claude and SpaceX’s Grok to attack more than 400 targets in Latin America, including banks and payments companies." },
+    { "source": 0, "text": "The report also included a statement from Anthropic which said it began an investigation after Straiker revealed its findings, and quickly blocked the hackers’ use of Claude." },
+    { "source": 0, "text": "Enterprises are just not ready." },
+    { "source": 0, "text": "That’s left many companies now investing heavily in AI-powered cyberprotections." }
+  ]
+}
