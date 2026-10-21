@@ -1,0 +1,23 @@
+{
+  "id": "2026-10-21-mastercard-agent-pay-one-budget",
+  "publishedAt": "2026-10-21T17:07:00+07:00",
+  "section": "payments",
+  "company": "Mastercard",
+  "headline": "Mastercard showcased AI agents that make multiple payments under a single budget",
+  "body": "Mastercard showcased its Agent Pay for Machines solution at Cloudflare Connect, where the agent completed nine payments across two providers without separate accounts, API keys or invoices. The solution builds on x402, an open protocol, and providers collect digitally signed payment vouchers and redeem them later. Mastercard has opened early access for developers to build and test AI agent payment applications.",
+  "note": "For payment firms, the useful detail is the spending limit set in advance, which caps what the agent can pay.",
+  "sources": [
+    { "name": "Fintech News Singapore", "url": "https://fintechnews.sg/139360/ai/mastercard-agent-pay-for-machines-demo/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Mastercard has demonstrated how AI agents can make multiple payments to different service providers under a single approved budget." },
+    { "source": 0, "text": "The company showcased its Agent Pay for Machines solution at Cloudflare Connect following pilots with Cloudflare, Ant International, AIsa, Base, BVNK, Coinbase and Hype." },
+    { "source": 0, "text": "The agent purchased social media research from AIsa and generated eight campaign images through Cloudflare AI Gateway." },
+    { "source": 0, "text": "It completed nine payments across the two providers without requiring separate accounts, API keys or invoices." },
+    { "source": 0, "text": "The solution builds on x402, an open protocol that allows digital services to request payments online." },
+    { "source": 0, "text": "The agent then generates a digitally signed payment voucher." },
+    { "source": 0, "text": "These transactions take place off-chain, allowing providers to collect vouchers and redeem them later rather than settling each payment immediately." },
+    { "source": 0, "text": "It has also opened early access for developers to build and test AI agent payment applications." },
+    { "source": 0, "text": "Businesses can assign AI agents tasks and set spending limits." }
+  ]
+}
