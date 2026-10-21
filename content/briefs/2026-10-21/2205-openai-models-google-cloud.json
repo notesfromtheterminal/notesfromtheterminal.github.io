@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-21-openai-models-google-cloud",
+  "publishedAt": "2026-10-21T22:05:00+07:00",
+  "section": "models",
+  "company": "OpenAI",
+  "headline": "OpenAI will make its models available through Google's cloud",
+  "body": "OpenAI will make its models available for developers through Google's cloud, CNBC reports. The GPT products are due in Google's model garden and Antigravity coding tool in the coming weeks, which puts OpenAI's models on all three of the top cloud infrastructure providers.",
+  "note": "Banks that already buy cloud capacity from Google would get another route to OpenAI models, which may matter for vendor choice and procurement.",
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/21/openai-bring-its-ai-models-to-googles-cloud-expands-beyond-microsoft.html" },
+    { "name": "OpenAI", "url": "https://openai.com/index/openai-models-google-cloud" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "OpenAI will make its artificial intelligence models available for developers through Google's cloud, following years of competition between the two companies." },
+    { "source": 0, "text": "Now Google is getting its shot, bringing OpenAI's GPT products to its cloud's model garden and Antigravity coding tool in the coming weeks." },
+    { "source": 0, "text": "For OpenAI, the effort reflects a growing push to expand distribution of its technology to enterprise developers. That's critical as the ChatGPT creator looks to build its business beyond its consumer roots, and the move puts OpenAI's models on all three of the top cloud infrastructure providers." }
+  ]
+}
