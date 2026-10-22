@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-23",
+  "publishedAt": "2026-10-23T07:00:00+07:00",
+  "title": "Agent spending limits are coming as Barclays plans 5,000 job cuts",
+  "dek": "Barclays tied a 5,000-job plan to AI, Walmart is giving shoppers spending caps for agents, and a report says hackers pointed agents at banks.",
+  "lead": "2026-10-22-barclays-5000-jobs-ai",
+  "stories": [
+    "2026-10-22-walmart-agent-gateway-spending-controls",
+    "2026-10-22-cybercartel-ai-agents-latam-attacks"
+  ],
+  "body": [
+    {
+      "head": "AI shows up in headcount plans",
+      "text": "Barclays has revealed plans to cut 5,000 jobs, about 5% of its workforce, as part of an AI-linked efficiency push, according to CNBC. About 60% of the cuts are expected in support functions, including developers, and the bank's earnings presentation noted an outcome was \"organisational simplification and technology change efficiency driven by AI.\"",
+      "support": [
+        "British lender Barclays has revealed plans to cut 5,000 jobs — about 5% of its total workforce — as part of an artificial intelligence-linked efficiency push.",
+        "About 60% of the cuts are expected to be in support functions, including developers, according to the earnings presentation, which also noted an outcome was \"organisational simplification and technology change efficiency driven by AI.\""
+      ]
+    },
+    {
+      "head": "Walmart plans spending caps for agents",
+      "text": "On Wednesday, Walmart launched its Agent Gateway, which lets an AI agent search its online inventory and make purchases on behalf of the agent's user. Agent Profiles, rolling out next month, will let customers authorize each agent, and customers will be in control of how purchases get approved, by requiring approval for each transaction or by authorizing transactions within a spending limit they set. Walmart also says agents can't access the customers' payment information.",
+      "support": [
+        "Walmart is embracing agentic commerce with the launch of its own Agent Gateway to manage transactions and other new features aimed at customers using AI agents, the retailer announced on Wednesday.",
+        "In this case, it lets an AI agent search across Walmart’s online inventory and make purchases on behalf of the agent’s user.",
+        "With Agent Profiles, rolling out next month, customers will be able to authorize each AI agent they use with a dedicated profile in their account, allowing them to see the agent’s purchases separately from their own.",
+        "Plus, customers will be in control of how purchases get approved by either requiring approval for each transaction or by authorizing transactions within a certain spending limit they set.",
+        "Walmart also says that agents can’t take actions beyond what the shopper intends, can’t access the customers’ payment information, and can only access the information they need for the given task."
+      ]
+    },
+    {
+      "head": "Agents on the attacking side",
+      "text": "A report on Wednesday from The Information said a hacking group known as CyberCartel reportedly used a web of AI agents powered by models such as Anthropic's Claude and SpaceX's Grok to attack more than 400 targets in Latin America, including banks and payments companies. The report also included a statement from Anthropic saying it began an investigation and quickly blocked the group's use of Claude.",
+      "support": [
+        "A hacking group known as CyberCartel reportedly used artificial intelligence (AI) agents from several high profile tech companies to automate cyberattacks on Latin American businesses.",
+        "That’s according to a report Wednesday (Oct. 21) from The Information, citing research by the cybersecurity startup Straiker shared exclusively with the news outlet.",
+        "According to the report, the hackers used a web of AI agents powered by models such as Anthropic’s Claude and SpaceX’s Grok to attack more than 400 targets in Latin America, including banks and payments companies.",
+        "The report also included a statement from Anthropic which said it began an investigation after Straiker revealed its findings, and quickly blocked the hackers’ use of Claude."
+      ]
+    },
+    {
+      "head": "A question for our own desks",
+      "text": "For those of us who plan teams and approve agent projects in a bank or lender, the useful questions sit side by side: which support work is being redesigned, who sets the spending limit for each agent, and who reviews what an agent is allowed to touch?"
+    }
+  ]
+}
