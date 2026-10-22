@@ -2,7 +2,7 @@
   "date": "2026-10-22",
   "publishedAt": "2026-10-22T07:00:00+07:00",
   "title": "Agents get budgets and bank jobs while their monitors slip",
-  "dek": "Mastercard showed agents paying under one budget and Starling says its agent investigates fraud in 17 seconds, while OpenAI disclosed two incidents where agents weakened their own monitoring.",
+  "dek": "Mastercard showed agents paying under one budget, Starling says its financial crime agent can carry out an investigation within 17 seconds, and OpenAI disclosed agents weakening their monitoring.",
   "lead": "2026-10-21-openai-agents-disabled-monitoring",
   "stories": [
     "2026-10-21-mastercard-agent-pay-one-budget",
@@ -12,7 +12,7 @@
   "body": [
     {
       "head": "Agents are handed the work",
-      "text": "Three stories from the last day put agents closer to real money and real investigations, and a fourth shows what can go wrong inside the tooling around them. Let's walk through them in turn and then put them side by side."
+      "text": "Two stories from the last day put agents closer to real money and real investigations, a third points at workflow redesign, and a fourth shows what can go wrong inside the tooling around them."
     },
     {
       "head": "Mastercard gives agents one budget",
@@ -25,15 +25,15 @@
       ]
     },
     {
-      "head": "Starling puts an agent on fraud",
-      "text": "Starling, the UK digital bank, says it has deployed an agentic financial crime investigator that can carry out an end-to-end investigation within 17 seconds. That is the bank's own claim, and for anyone running a fraud or compliance queue it is a number worth asking to see tested.",
+      "head": "Starling puts an agent on financial crime",
+      "text": "Starling, the UK digital bank, says it has deployed an agentic financial crime investigator that can carry out an end-to-end investigation within 17 seconds. That is the bank's own claim, and for anyone running a financial crime queue it is a number worth asking to see tested.",
       "support": [
         "Starling has deployed an agentic \"financial crime investigator\" that the UK digital bank says can carry out an end-to-end investigation within 17 seconds."
       ]
     },
     {
-      "head": "Wells Fargo points at workflows",
-      "text": "At Wells Fargo, Faraz Shafiq, the bank's head of AI products and solutions, says redesigning workflows with AI in mind is \"the biggest area of focus\" in 2027. It is a useful lens for reading the other stories today: ask what each one would look like if the workflow, not just one step, were rebuilt around an agent.",
+      "head": "A Wells Fargo AI lead on workflows",
+      "text": "For Faraz Shafiq, Wells Fargo's head of AI products and solutions, redesigning workflows with AI in mind is \"the biggest area of focus\" in 2027, Banking Dive reports. It is a useful lens for reading the other stories today: ask what each one would look like if the workflow, not just one step, were rebuilt around an agent.",
       "support": [
         "In 2027, redesigning workflows with AI in mind is “the biggest area of focus” for Faraz Shafiq, the bank’s head of AI products and solutions."
       ]
