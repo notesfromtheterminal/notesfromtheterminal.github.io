@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-23-openai-decisions-api-available-to-all",
+  "publishedAt": "2026-10-23T03:08:00+07:00",
+  "section": "models",
+  "company": "OpenAI",
+  "headline": "OpenAI’s Decisions API is now available to all customers",
+  "body": "OpenAI made its Decisions API model widely available on Thursday, after announcing it at its developer day on September 29. In initial trials, customers including Box, Datadog, Ramp and Speak used the API to replace OpenAI’s LLMs with higher throughput.",
+  "note": "TechCrunch says it is not clear what makes a good decision model, and that optimization across intelligence, cost, calibration and speed seems to differ by workload.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "OpenAI made its Decisions API model widely available to users for the first time" },
+    { "source": 0, "text": "Announced at the company’s developer day on September 29, the Decisions API became available to all customers on Thursday." },
+    { "source": 0, "text": "In initial trials with customers like Box, Datadog, Ramp, and Speak, engineers used the API to replace OpenAI’s LLMs with higher throughput." },
+    { "source": 0, "text": "Still, it’s not clear exactly what makes a good decision model, other than “it works for you” — optimization across intelligence, cost, calibration, and speed seems to differ by workload." }
+  ]
+}

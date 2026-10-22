@@ -4,9 +4,11 @@
   "section": "payments",
   "star": true,
   "company": "Walmart",
-  "headline": "Walmart’s Agent Gateway lets AI agents make purchases, with spending controls",
+  "headline": "Walmart’s Agent Gateway lets AI agents make purchases, with spending controls due next month",
   "body": "Walmart launched its Agent Gateway, an MCP server that lets approved AI agents search its inventory and make purchases for shoppers. Agent Profiles, rolling out next month, will let customers approve each transaction or set a spending limit for each agent. Walmart says agents can’t access customers’ payment information.",
-  "note": "The design mirrors an authorized user on a credit card, a structure card issuers already know how to cap and track.",
+  "note": "The retailer says the controls are similar to adding someone as an authorized user on a credit card, where their transactions are identified and you can cap their spending.",
+  "correction": "Headline and note reworded to match the source: Agent Profiles and spending limits are rolling out next month, and the credit-card comparison is Walmart's own claim, not the desk's.",
+  "updatedAt": "2026-10-23T03:20:00+07:00",
   "sources": [
     { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/" }
   ],

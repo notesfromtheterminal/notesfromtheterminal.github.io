@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-23-us-banks-restrict-ai-agent-logins",
+  "publishedAt": "2026-10-23T03:08:00+07:00",
+  "section": "banking",
+  "star": true,
+  "headline": "Major US banks are restricting external AI agent access, Axios reports",
+  "body": "Several major US banks, including Morgan Stanley, JPMorgan, Bank of America and Wells Fargo, are restricting external AI agent access, according to Axios. Most want to limit agents to read-only access, letting them view account data but not carry out any actions.",
+  "note": "Many banks also can’t tell whether an agent is acting on a user’s behalf, and The Decoder says blocking agents on the provider side will be hard.",
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/major-us-banks-are-locking-out-ai-agents-that-log-in-with-customer-credentials/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Several major US banks, including Morgan Stanley, JPMorgan, Bank of America, and Wells Fargo, are restricting external AI agent access, Axios reports ." },
+    { "source": 0, "text": "Most banks want to limit agents to read-only access, letting them view account data but not carry out any actions." },
+    { "source": 0, "text": "Many banks also can't tell whether an agent is acting on a user's behalf or accessing an account on its own." },
+    { "source": 0, "text": "Blocking that on the provider side will be hard." }
+  ]
+}
