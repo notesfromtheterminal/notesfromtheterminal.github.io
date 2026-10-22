@@ -3,7 +3,9 @@
   "publishedAt": "2026-10-21T07:10:00+07:00",
   "section": "banking",
   "company": "Starling",
-  "headline": "UK digital bank says its agentic investigator can work in 17 seconds",
+  "headline": "UK digital bank says its agentic investigator can carry out an investigation within 17 seconds",
+  "updatedAt": "2026-10-22T07:06:00+07:00",
+  "correction": "Headline said 'can work in 17 seconds', which is not in the source. The source says 'within 17 seconds' and an end-to-end investigation. Headline now uses the source's wording. Found in note review on claude/note-2026-10-22.",
   "body": "Starling, a UK digital bank, says it has deployed an agentic \"financial crime investigator\" that can carry out an end-to-end investigation within 17 seconds.",
   "note": "For fincrime teams, the speed claim is the number to test before anyone repeats it.",
   "sources": [
