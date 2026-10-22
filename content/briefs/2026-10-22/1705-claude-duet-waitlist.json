@@ -1,0 +1,23 @@
+{
+  "id": "2026-10-22-claude-duet-waitlist",
+  "publishedAt": "2026-10-22T17:05:00+07:00",
+  "section": "models",
+  "tags": ["payments"],
+  "company": "Anthropic",
+  "headline": "Anthropic made Claude Duet available by waitlist to US subscribers",
+  "body": "Anthropic says Claude Duet keeps working while the user is away, and it only reaches out when something needs attention. It waits for approval before sending a message, making a payment, signing a document or deleting anything. Bank transfers are blocked entirely, and purchases run through Stripe Link with a virtual card.",
+  "note": "For banks and payment firms, the early limits matter: Anthropic concedes that the early version can misread a message thread, misjudge urgency and miss things that arrive between two checks.",
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/anthropic-takes-on-grok-bot-metas-muse-and-openais-dots-with-its-always-on-agent-claude-duet/" },
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropics-new-ai-agent-purchases-business-supplies/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "The standalone app runs Claude as a proactive agent that keeps working on tasks while the user is away and asks for approval before taking sensitive steps." },
+    { "source": 0, "text": "After that, it only reaches out when something needs attention." },
+    { "source": 1, "text": "Anthropic made Claude Duet available by waitlist to Pro and Max subscribers in the U.S. on Wednesday." },
+    { "source": 1, "text": "waits for approval before sending a message, making a payment, signing a document or deleting anything" },
+    { "source": 0, "text": "Bank transfers are blocked entirely." },
+    { "source": 0, "text": "For purchases, it uses Stripe Link with a virtual card, so the user's real card number never gets shared." },
+    { "source": 0, "text": "Anthropic concedes that the early version can misread a message thread, misjudge urgency, and miss things that arrive between two checks." }
+  ]
+}

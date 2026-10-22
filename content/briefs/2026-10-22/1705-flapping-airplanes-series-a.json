@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-22-flapping-airplanes-series-a",
+  "publishedAt": "2026-10-22T17:05:00+07:00",
+  "section": "deals",
+  "company": "Flapping Airplanes",
+  "headline": "Index to lead $1B Series A for AI lab Flapping Airplanes",
+  "body": "Index says it will lead Flapping Airplanes’ $1B Series A, with partner Mark Xu joining the board. TNW says the AI research startup is now worth $6B, four times its January value.",
+  "note": "For finance people, Index frames efficiency as the way to unlock markets like robotics, trading and life sciences, where AI is still too expensive or the data is too scarce.",
+  "sources": [
+    { "name": "Index Ventures", "url": "https://www.indexventures.com/perspectives/toward-more-efficient-ai-leading-flapping-airplanes-1b-series-a/" },
+    { "name": "TNW", "url": "https://thenextweb.com/news/flapping-airplanes-1b-6b-valuation" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "We’re thrilled to double down and lead their $1B million Series A, with Mark joining the board." },
+    { "source": 0, "text": "Flapping Airplanes CEO Ben Spector and Index partner Mark Xu." },
+    { "source": 0, "text": "That efficiency is what will unlock the world’s biggest markets, like robotics, trading, and life sciences, where AI is still too expensive or the data is too scarce." },
+    { "source": 1, "text": "AI lab Flapping Airplanes is now worth $6B, four times its January value" },
+    { "source": 1, "text": "The research startup, backed by Nvidia and Sequoia, wants to train AI with far less data and computing power." }
+  ]
+}

@@ -18,5 +18,10 @@
     "request": "202610181139-missed-citi-becomes-latest-us-bank-to-restrict-ai-agents-.json",
     "reason": "Declined: the FT page returns HTTP 403 to source.mjs and gives no readable feed text beyond the headline. A web search found no Citi policy barring AI agents from accounts; the restriction in coverage is JPMorgan's, and Citi's Sibos remarks are conditional, not a restriction.",
     "at": "2026-10-18T12:10:00+07:00"
+  },
+  {
+    "request": "202610221457-missed-nvidia-in-talks-to-invest-in-firmus-grid-after-its.json",
+    "reason": "Declined: The Information is paywalled, and both mirrors (Yahoo Finance and Investing.com) returned fetch failure or HTTP 403 to source.mjs on 22 Oct, so the Nvidia talks cannot be quoted or sourced. The 9 Oct Firmus brief covers the withdrawn IPO only.",
+    "at": "2026-10-22T17:05:00+07:00"
   }
 ]
