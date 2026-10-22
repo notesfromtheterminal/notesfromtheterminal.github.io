@@ -1,0 +1,22 @@
+{
+  "id": "2026-10-22-walmart-agent-gateway-spending-controls",
+  "publishedAt": "2026-10-22T03:10:00+07:00",
+  "section": "payments",
+  "star": true,
+  "company": "Walmart",
+  "headline": "Walmart’s Agent Gateway lets AI agents make purchases, with spending controls",
+  "body": "Walmart launched its Agent Gateway, an MCP server that lets approved AI agents search its inventory and make purchases for shoppers. Agent Profiles, rolling out next month, will let customers approve each transaction or set a spending limit for each agent. Walmart says agents can’t access customers’ payment information.",
+  "note": "The design mirrors an authorized user on a credit card, a structure card issuers already know how to cap and track.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Walmart is embracing agentic commerce with the launch of its own Agent Gateway to manage transactions and other new features aimed at customers using AI agents, the retailer announced on Wednesday." },
+    { "source": 0, "text": "It starts with Walmart’s Agent Gateway, the company’s new MCP server, which is designed to help approved agents connect to Walmart over the model context protocol (MCP)." },
+    { "source": 0, "text": "In this case, it lets an AI agent search across Walmart’s online inventory and make purchases on behalf of the agent’s user." },
+    { "source": 0, "text": "With Agent Profiles, rolling out next month, customers will be able to authorize each AI agent they use with a dedicated profile in their account, allowing them to see the agent’s purchases separately from their own." },
+    { "source": 0, "text": "Plus, customers will be in control of how purchases get approved by either requiring approval for each transaction or by authorizing transactions within a certain spending limit they set." },
+    { "source": 0, "text": "Walmart also says that agents can’t take actions beyond what the shopper intends, can’t access the customers’ payment information, and can only access the information they need for the given task." },
+    { "source": 0, "text": "The retailer says these controls are similar to adding someone as an authorized user on your credit card, where their transactions are identified, and you can cap their spending." }
+  ]
+}

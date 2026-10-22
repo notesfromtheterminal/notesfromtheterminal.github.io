@@ -3,9 +3,11 @@
   "publishedAt": "2026-10-21T07:11:00+07:00",
   "section": "banking",
   "company": "Wells Fargo",
-  "headline": "Wells Fargo says redesigning workflows with AI is its biggest area of focus",
-  "body": "Faraz Shafiq, head of AI products and solutions at Wells Fargo, says redesigning workflows with AI in mind is \"the biggest area of focus\" in 2027.",
+  "headline": "Redesigning workflows with AI is the 2027 focus for Wells Fargo's head of AI products",
+  "body": "For Faraz Shafiq, Wells Fargo's head of AI products and solutions, redesigning workflows with AI in mind is \"the biggest area of focus\" in 2027, Banking Dive reports.",
   "note": "For banks, a focus on workflows points to process change as much as to the choice of model.",
+  "updatedAt": "2026-10-22T07:06:00+07:00",
+  "correction": "Body and headline said Faraz Shafiq says it and credited the bank with the focus. The Banking Dive text only says the focus is 'for' Shafiq, so the body now credits Banking Dive. Found in note review on claude/note-2026-10-22.",
   "sources": [
     { "name": "Banking Dive", "url": "https://www.bankingdive.com/news/wells-fargo-ai-strategy-banking-money2020-shafiq/833321/" }
   ],
