@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-22-ai-models-php-flaw-millions-of-websites",
+  "publishedAt": "2026-10-22T07:08:00+07:00",
+  "section": "models",
+  "headline": "AI models from OpenAI and Google found a critical PHP flaw that could affect millions",
+  "body": "AI models from OpenAI and Google found a critical PHP flaw that could affect millions of websites worldwide, The Decoder says. GPT-5.6 Sol tracked down the flaw before attackers did, and security firm Wiz found the same flaws independently. OpenAI expects findings on this scale to \"increase sharply in the coming months\" but warns that the same capabilities can help attackers too.",
+  "note": "For banks and payment firms running PHP, patch timing is the practical question.",
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "AI models from OpenAI and Google found a critical PHP vulnerability that could affect millions of websites worldwide." },
+    { "source": 0, "text": "GPT-5.6 Sol tracked down the flaw as part of the Patch-the-Planet initiative" },
+    { "source": 0, "text": "The model spotted the vulnerabilities before attackers did, giving developers and security vendors a window to respond." },
+    { "source": 0, "text": "Security firm Wiz found the same flaws independently, using its own Wiz Atlas platform alongside Google's Gemini 4 Argon and GPT-5.6 Sol." },
+    { "source": 0, "text": "The company expects findings on the scale of the PHP2Shell flaw to \"increase sharply in the coming months,\" but warns that the same AI capabilities that find vulnerabilities can help attackers too." }
+  ]
+}
