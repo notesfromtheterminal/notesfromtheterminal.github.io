@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-22-barclays-5000-jobs-ai",
+  "publishedAt": "2026-10-22T22:10:00+07:00",
+  "section": "banking",
+  "star": true,
+  "company": "Barclays",
+  "headline": "Barclays plans to cut 5,000 jobs in an AI-linked efficiency push",
+  "body": "Barclays plans to cut 5,000 jobs, about 5% of its workforce, as part of an artificial intelligence-linked efficiency push, CNBC reports. About 60% of the cuts are expected in support functions, including developers, according to the earnings presentation.",
+  "note": "Barclays tied the job plan to AI in its earnings presentation, and the cuts are expected to fall mainly in support functions. Other banks with similar functions may face the same question.",
+  "figure": { "value": "5,000", "label": "jobs Barclays plans to cut, about 5% of its workforce" },
+  "sources": [{ "name": "CNBC", "url": "https://www.cnbc.com/2026/10/22/barclays-ai-jobs-cuts.html" }],
+  "evidence": [
+    { "source": 0, "text": "British lender Barclays has revealed plans to cut 5,000 jobs — about 5% of its total workforce — as part of an artificial intelligence-linked efficiency push." },
+    { "source": 0, "text": "About 60% of the cuts are expected to be in support functions, including developers, according to the earnings presentation, which also noted an outcome was \"organisational simplification and technology change efficiency driven by AI.\"" },
+    { "source": 0, "text": "In its third-quarter earnings statement Thursday, Barclays said it was \"structurally reducing the cost base to generate capacity for investment.\"" }
+  ]
+}
