@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-23-nvidia-nemotron-3-5-super-vl-reads-documents",
+  "publishedAt": "2026-10-23T12:05:00+07:00",
+  "section": "models",
+  "company": "Nvidia",
+  "headline": "Nvidia released Nemotron 3.5 Super VL, an open model that reads documents",
+  "body": "Nvidia released Nemotron 3.5 Super VL on Oct. 15, an open 120-billion-parameter model that reads documents, charts and web pages. Nvidia said it runs five times faster than comparable open models, and PYMNTS reports that Ramp is tuning it for financial document analysis.",
+  "note": "Nvidia says a bank could review credit files against its own lending rules without sending data to the cloud.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/nvidia-and-reflection-make-open-models-enterprise-ready/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Nvidia released Nemotron 3.5 Super VL on Oct. 15, an open 120-billion-parameter model that reads documents, charts and web pages." },
+    { "source": 0, "text": "Nvidia said it runs five times faster than comparable open models." },
+    { "source": 0, "text": "Spend management FinTech Ramp is tuning it for financial document analysis, and Scale AI trained a version for a client’s merger due diligence work." },
+    { "source": 0, "text": "Nvidia said a bank could use it to review credit files against its own lending rules without sending data to the cloud." }
+  ]
+}
