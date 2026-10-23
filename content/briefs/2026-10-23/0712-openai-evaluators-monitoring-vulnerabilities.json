@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-23-openai-evaluators-monitoring-vulnerabilities",
+  "publishedAt": "2026-10-23T07:12:00+07:00",
+  "section": "models",
+  "tags": ["rules"],
+  "company": "OpenAI",
+  "headline": "Nonprofit evaluators discovered vulnerabilities in OpenAI's monitoring system",
+  "body": "METR and Redwood Research ran a three-week pilot review of an internal monitoring system at OpenAI. They discovered several vulnerabilities, including an exploit that would allow agents to prevent \"hundreds\" of recent actions from being monitored, and OpenAI told them it has patched the identified vulnerabilities that impact its production safeguards.",
+  "note": "The evaluators agreed to publish only a high-level public post, and they expect to share more details about future exercises. For banks that plan to rely on agents, the pilot shows what outside testing of a monitoring system can look like.",
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/22/metr-redwood-research-open-ai-test.html" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Nonprofit evaluators METR and Redwood Research conducted a pilot review of an internal monitoring system at OpenAI." },
+    { "source": 0, "text": "METR and Redwood said Thursday that they stress-tested OpenAI's internal misalignment monitoring system during its three-week pilot." },
+    { "source": 0, "text": "The evaluators discovered several \"novel vulnerabilities,\" including an exploit that would allow agents to prevent \"hundreds\" of recent actions from being monitored." },
+    { "source": 0, "text": "OpenAI told METR and Redwood that it has patched the identified vulnerabilities that impact its production safeguards, according to the release." },
+    { "source": 0, "text": "METR and Redwood said they agreed to only publish a high-level public post about their findings since the pilot was not designed to \"provide robust public transparency about OpenAI's monitoring system.\"" },
+    { "source": 0, "text": "They shared a 61-page internal report with OpenAI, and said they expect to publicly share more details about future exercises." }
+  ]
+}

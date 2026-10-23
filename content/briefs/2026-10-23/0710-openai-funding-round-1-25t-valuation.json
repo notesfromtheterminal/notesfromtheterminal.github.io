@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-23-openai-funding-round-1-25t-valuation",
+  "publishedAt": "2026-10-23T07:10:00+07:00",
+  "section": "deals",
+  "tags": ["models"],
+  "star": true,
+  "company": "OpenAI",
+  "headline": "OpenAI close to finalizing up to $30 billion round at $1.25 trillion valuation",
+  "body": "OpenAI is close to finalizing an up to $30 billion funding round at a $1.25 trillion pre-money valuation, according to people familiar with the deal, CNBC reports. Investors from the United Arab Emirates are leading it alongside Coatue, and the financing is being positioned as a bridge ahead of a potential IPO. TechCrunch notes that Bloomberg reported a $1.4 trillion valuation a month ago, and that terms are still being negotiated.",
+  "note": "The valuation does not include the new capital raised, and a valuation of more than $1 trillion would break records as the most valued private company ever. The round would also raise the bar for OpenAI's forthcoming IPO.",
+  "figure": { "value": "$1.25T", "label": "pre-money valuation in the reported round" },
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html" },
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "OpenAI is close to finalizing an up to $30 billion funding round at a $1.25 trillion pre-money valuation, according to people familiar with the deal." },
+    { "source": 0, "text": "The financing is being positioned as a bridge ahead of a potential IPO." },
+    { "source": 0, "text": "Investors from the United Arab Emirates are leading the round alongside Coatue, according to the people." },
+    { "source": 0, "text": "That valuation does not include new capital raised." },
+    { "source": 1, "text": "This follows a similar report by Bloomberg a month ago which said the AI lab was working on raising $30 billion at a $1.4 trillion valuation." },
+    { "source": 1, "text": "Terms are still being negotiated, both outlets report, so they could ultimately change." },
+    { "source": 1, "text": "Should OpenAI command a valuation of more than $1 trillion with this round, it would break records as the most valued private company ever." },
+    { "source": 1, "text": "That valuation would also raise the bar even higher for OpenAI's forthcoming IPO." }
+  ]
+}
