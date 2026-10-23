@@ -1,0 +1,32 @@
+{
+  "id": "2026-10-23-deepseek-15b-funding-round",
+  "publishedAt": "2026-10-23T17:06:00+07:00",
+  "section": "deals",
+  "tags": [
+    "models"
+  ],
+  "company": "DeepSeek",
+  "headline": "DeepSeek reportedly raises about $15 billion in a Chinese funding round",
+  "body": "DeepSeek has raised about $15 billion, about 100 billion yuan, in one of the biggest funding rounds in the country, Bloomberg reported. Potential investors include CATL and Tencent, according to the report.",
+  "note": "For finance people, funding of this size shows how much capital Chinese AI labs can still attract. The report also notes that DeepSeek faces restrictions in the U.S.",
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Just two days after the U.S. ordered federal civilian agencies to remove DeepSeek's AI technology from their systems over security concerns, the Chinese AI lab has raised about $15 billion, about 100 billion yuan, one of the biggest funding rounds in the country, Bloomberg reported."
+    },
+    {
+      "source": 0,
+      "text": "Potential investors include Chinese battery maker CATL and Tencent, the company behind WeChat, among others, according to the report."
+    },
+    {
+      "source": 0,
+      "text": "The Hangzhou-based AI startup is ramping up spending on AI infrastructure and open models for domestic and international markets, even as it faces restrictions in the U.S., the report said."
+    }
+  ]
+}

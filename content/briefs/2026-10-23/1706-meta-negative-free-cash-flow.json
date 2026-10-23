@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-23-meta-negative-free-cash-flow",
+  "publishedAt": "2026-10-23T17:06:00+07:00",
+  "section": "models",
+  "tags": ["deals"],
+  "company": "Meta",
+  "headline": "Meta shares sank nearly 7% as free cash flow turned negative",
+  "body": "Meta shares fell nearly 7% on Thursday, and free cash flow came in at a negative $2.12 billion in the third quarter. Meta said it expects full-year capex of $135 billion to $145 billion, raising the bottom of the range from $130 billion. CNBC says the spread on its five-year credit default swaps reached all-time highs.",
+  "note": "For finance people, the credit side is where this shows up: the spread on Meta's five-year credit default swaps reached an all-time high while the capex range moved up.",
+  "figure": { "value": "-$2.12B", "label": "Q3 free cash flow" },
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Meta stock sank almost 7% Thursday as free cash flow turned negative and the company raised the floor of its expected capex spend." },
+    { "source": 0, "text": "Meta shares slumped nearly 7% on Thursday as the social media giant showed negative free cash flow in its third-quarter earnings and raised the floor of its full-year capital expenditures." },
+    { "source": 0, "text": "Free cash flow came in at a negative $2.12 billion during the quarter." },
+    { "source": 0, "text": "Meta said it expects its full-year capex to range from $135 billion to $145 billion, raising the bottom of the range from a previous $130 billion." },
+    { "source": 0, "text": "The spread on the social media giant's five-year credit default swaps reached all-time highs on Thursday, a signal of growing credit concerns from investors as the company leans deeper into its artificial intelligence spending plans." }
+  ]
+}
