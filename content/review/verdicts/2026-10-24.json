@@ -1,7 +1,7 @@
 {
   "note": "2026-10-24",
-  "commit": "92ef8d6841bf1f4bcea3f056a791b39413b82a04",
-  "verdict": "CHANGES",
-  "at": "2026-10-23T16:47:25.029Z",
-  "notes": "1. Section 2 (\"Telling agents apart is hard\") says \"and The Decoder says blocking that on the provider side will be hard\", so \"that\" now points to banks being unable to tell whether an agent acts for the user or on its own. Source: \"Users can give their agents access to accounts through a browser, using tools like Computer Use or open-source agent software such as OpenClaw. Blocking that on the provider side will be hard.\" There \"that\" is agents getting access through a browser, not telling agents apart. Fix: \"...or accessing an account on its own, and The Decoder says users can give agents access to accounts through a browser, and blocking that on the provider side will be hard.\" (or drop the clause), and change the subheading \"Telling agents apart is hard\" so it does not rest on the blocking claim.\n2. Dek says \"Goldman's CEO and a pilot at OpenAI both point to accountability and testing.\" Source (CNBC): the pilot tested OpenAI's monitoring system and found vulnerabilities; nothing in it points to accountability. Fix: e.g. \"Goldman's CEO points to accountability and stress testing, and a pilot at OpenAI found gaps in its monitoring system.\" Title may stay."
+  "commit": "34ebae86845f3bca5704a2cb533b7320ac629e31",
+  "verdict": "APPROVED",
+  "at": "2026-10-23T22:46:37.151Z",
+  "notes": ""
 }
