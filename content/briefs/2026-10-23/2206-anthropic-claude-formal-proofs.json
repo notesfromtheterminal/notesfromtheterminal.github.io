@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-23-anthropic-claude-formal-proofs",
+  "publishedAt": "2026-10-23T22:06:00+07:00",
+  "section": "models",
+  "company": "Anthropic",
+  "headline": "Anthropic had Claude produce roughly 180 million lines of proof code for open-source libraries",
+  "body": "Anthropic's Frontier Red Team, working with partner Theorem, let Claude take over the proof work, The Decoder reports. The model produced roughly 180 million lines of mathematical proof code in just a few weeks, drawing on test programs from 123 open-source libraries. The proofs only hold under strict conditions, including a specific processor architecture and inputs under 64 MB.",
+  "note": "The Decoder says formal verification was long reserved for extreme cases like Airbus avionics software, and Anthropic wants it to become as routine as standard testing.",
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Anthropic's Frontier Red Team , working with partner Theorem , let Claude take over the proof work instead." },
+    { "source": 0, "text": "The model produced roughly 180 million lines of mathematical proof code in just a few weeks, drawing on test programs from 123 open-source libraries in Google's OSS-Fuzz security project." },
+    { "source": 0, "text": "The proofs only hold under strict conditions: a specific processor architecture, single-threaded programs, and inputs under 64 MB." },
+    { "source": 0, "text": "Proving that software runs error-free under all circumstances has always been prohibitively expensive." },
+    { "source": 0, "text": "A team of specialists needed 20 person-years just to formally verify the small operating system kernel seL4, so the method was reserved for extreme cases like Airbus avionics software ." },
+    { "source": 0, "text": "Anthropic wants formal verification with AI to become as routine as standard testing." }
+  ]
+}

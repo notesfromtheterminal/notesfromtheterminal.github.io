@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-23-goldman-solomon-ai-accountability",
+  "publishedAt": "2026-10-23T22:05:00+07:00",
+  "section": "banking",
+  "company": "Goldman Sachs",
+  "headline": "Goldman CEO Solomon says risk principles could be applied to AI oversight",
+  "body": "Goldman Sachs CEO David Solomon wrote in a Financial Times article published Thursday that the principles Goldman uses to manage risk could be applied to AI oversight. They include holding individual decision makers accountable for the outcomes produced by their systems and routinely stress testing AI systems, Solomon wrote.",
+  "note": "Solomon wrote that the principles could be used by both the developers of AI and the companies that deploy the technology.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/goldman-sachs-ceo-says-individuals-must-be-held-accountable-ai-failures/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "The principles Goldman Sachs uses to manage risk could be applied to artificial intelligence oversight , Goldman Sachs Chair and CEO David Solomon wrote in an article published Thursday (Oct. 22) by the Financial Times." },
+    { "source": 0, "text": "The principles include holding individual decision makers accountable for the outcomes produced by their systems; understanding the risks inherited from the model developers; routinely stress testing AI systems; and rewarding employees for raising concerns when they spot AI vulnerabilities, Solomon wrote." },
+    { "source": 0, "text": "The principles could be used by both the developers of AI and the companies that deploy the technology, Solomon wrote." }
+  ]
+}
