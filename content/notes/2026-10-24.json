@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-24",
+  "publishedAt": "2026-10-24T07:00:00+07:00",
+  "title": "Banks limit AI agents while Goldman asks who is accountable",
+  "dek": "Major US banks are restricting outside AI agents, and Goldman's CEO and a pilot at OpenAI both point to accountability and testing.",
+  "lead": "2026-10-23-us-banks-restrict-ai-agent-logins",
+  "stories": [
+    "2026-10-23-goldman-solomon-ai-accountability",
+    "2026-10-23-openai-evaluators-monitoring-vulnerabilities"
+  ],
+  "body": [
+    {
+      "head": "Banks are limiting outside agents",
+      "text": "Several major US banks, including Morgan Stanley, JPMorgan, Bank of America and Wells Fargo, are restricting external AI agent access, according to Axios as reported by The Decoder, and most banks want to limit agents to read-only access, which lets an agent view account data but not carry out any actions.",
+      "support": [
+        "Several major US banks, including Morgan Stanley, JPMorgan, Bank of America, and Wells Fargo, are restricting external AI agent access, Axios reports .",
+        "Most banks want to limit agents to read-only access, letting them view account data but not carry out any actions."
+      ]
+    },
+    {
+      "head": "Telling agents apart is hard",
+      "text": "Many banks also can't tell whether an agent is acting on a user's behalf or accessing an account on its own, and The Decoder says blocking that on the provider side will be hard. That leaves us with a plain question about how a bank knows who or what is on the other end of a login.",
+      "support": [
+        "Many banks also can't tell whether an agent is acting on a user's behalf or accessing an account on its own.",
+        "Blocking that on the provider side will be hard."
+      ]
+    },
+    {
+      "head": "Goldman points to accountability",
+      "text": "Goldman Sachs Chair and CEO David Solomon wrote in an article in the Financial Times that the principles Goldman uses to manage risk could be applied to AI oversight, and the list includes holding individual decision makers accountable for the outcomes produced by their systems and routinely stress testing AI systems.",
+      "support": [
+        "The principles Goldman Sachs uses to manage risk could be applied to artificial intelligence oversight , Goldman Sachs Chair and CEO David Solomon wrote in an article published Thursday (Oct. 22) by the Financial Times.",
+        "The principles include holding individual decision makers accountable for the outcomes produced by their systems; understanding the risks inherited from the model developers; routinely stress testing AI systems; and rewarding employees for raising concerns when they spot AI vulnerabilities, Solomon wrote."
+      ]
+    },
+    {
+      "head": "Stress tests find real gaps",
+      "text": "At the same time, the nonprofit evaluators METR and Redwood Research ran a three-week pilot review of an internal monitoring system at OpenAI and discovered several vulnerabilities, including an exploit that would allow agents to prevent \"hundreds\" of recent actions from being monitored, and OpenAI told them it has patched the identified vulnerabilities that impact its production safeguards.",
+      "support": [
+        "Nonprofit evaluators METR and Redwood Research conducted a pilot review of an internal monitoring system at OpenAI.",
+        "METR and Redwood said Thursday that they stress-tested OpenAI's internal misalignment monitoring system during its three-week pilot.",
+        "The evaluators discovered several \"novel vulnerabilities,\" including an exploit that would allow agents to prevent \"hundreds\" of recent actions from being monitored.",
+        "OpenAI told METR and Redwood that it has patched the identified vulnerabilities that impact its production safeguards, according to the release."
+      ]
+    },
+    {
+      "head": "A question for your team",
+      "text": "When your team next approves an AI tool, who is the named person answerable for what it does, and has anyone outside the team tried to break the way it is watched?"
+    }
+  ]
+}
