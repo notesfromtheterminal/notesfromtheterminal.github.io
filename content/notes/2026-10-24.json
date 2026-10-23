@@ -2,7 +2,7 @@
   "date": "2026-10-24",
   "publishedAt": "2026-10-24T07:00:00+07:00",
   "title": "Banks limit AI agents while Goldman asks who is accountable",
-  "dek": "Major US banks are restricting outside AI agents, and Goldman's CEO and a pilot at OpenAI both point to accountability and testing.",
+  "dek": "Major US banks are restricting outside AI agents, Goldman's CEO points to accountability and stress testing, and a pilot at OpenAI found vulnerabilities in its monitoring system.",
   "lead": "2026-10-23-us-banks-restrict-ai-agent-logins",
   "stories": [
     "2026-10-23-goldman-solomon-ai-accountability",
@@ -18,11 +18,10 @@
       ]
     },
     {
-      "head": "Telling agents apart is hard",
-      "text": "Many banks also can't tell whether an agent is acting on a user's behalf or accessing an account on its own, and The Decoder says blocking that on the provider side will be hard. That leaves us with a plain question about how a bank knows who or what is on the other end of a login.",
+      "head": "Many banks can't tell who is acting",
+      "text": "Many banks also can't tell whether an agent is acting on a user's behalf or accessing an account on its own. That leaves us with a plain question about how a bank knows who or what is on the other end of a login.",
       "support": [
-        "Many banks also can't tell whether an agent is acting on a user's behalf or accessing an account on its own.",
-        "Blocking that on the provider side will be hard."
+        "Many banks also can't tell whether an agent is acting on a user's behalf or accessing an account on its own."
       ]
     },
     {
