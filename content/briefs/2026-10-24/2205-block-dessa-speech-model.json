@@ -1,0 +1,40 @@
+{
+  "id": "2026-10-24-block-dessa-speech-model",
+  "publishedAt": "2026-10-24T22:05:00+07:00",
+  "section": "models",
+  "tags": [
+    "payments"
+  ],
+  "company": "Block",
+  "headline": "Block unveils Dessa, a speech model it says has no text training data",
+  "body": "Block, the company behind Square and Cash App, unveiled an AI speech model called Dessa. Block says Dessa processes speech directly as audio instead of converting it to text first, and that it runs locally on a MacBook Pro M4 Max. Dessa isn't publicly available yet, and Block is first looking for AI security researchers to test it.",
+  "note": "Voice is a common channel for customer service and fraud calls, so a model that works from audio directly is one for banks and payment firms to watch. Block has not said how it plans to use Dessa.",
+  "sources": [
+    {
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Block, the company behind Square and Cash App, has unveiled an AI speech model called Dessa."
+    },
+    {
+      "source": 0,
+      "text": "Block says Dessa is the first AI model trained entirely on human speech, with no text data at all, built from scratch."
+    },
+    {
+      "source": 0,
+      "text": "Instead of converting audio to text first, Dessa processes speech directly as audio."
+    },
+    {
+      "source": 0,
+      "text": "It runs locally on a MacBook Pro M4 Max and was trained on a single NVIDIA GB200 NVL72."
+    },
+    {
+      "source": 0,
+      "text": "Dessa isn't publicly available yet. The team is first looking for AI security researchers to test the model for unexpected risks."
+    }
+  ]
+}
