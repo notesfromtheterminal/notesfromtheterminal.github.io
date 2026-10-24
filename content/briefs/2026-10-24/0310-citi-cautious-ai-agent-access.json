@@ -5,7 +5,9 @@
   "company": "Citi",
   "headline": "Citi takes cautious approach on AI agent access",
   "body": "Naveed Anwar, Citi's global head of AI, digital and data platforms within its services business, said at Money20/20: \"There are places in which we want to go faster. This is not one of those places.\"",
-  "note": "Citi's remark sits alongside the wider bank moves to restrict outside agents, and it is a statement of caution.",
+  "note": "Citi's remark is a statement of caution on agent access.",
+  "updatedAt": "2026-10-25T03:10:00+07:00",
+  "correction": "The note said Citi's remark sat alongside wider bank moves to restrict outside agents. The Banking Dive page does not say that, so the clause was removed.",
   "sources": [
     { "name": "Banking Dive", "url": "https://www.bankingdive.com/news/citi-takes-cautious-approach-ai-agent-access/833849/" }
   ],
