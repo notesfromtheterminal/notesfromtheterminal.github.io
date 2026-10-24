@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-25",
+  "publishedAt": "2026-10-25T07:00:00+07:00",
+  "title": "Where AI moves fast and where it waits",
+  "dek": "Customers Bank says an AI pilot closed select commercial loans in seven days while Citi and OpenAI hold back where access is the risk.",
+  "lead": "2026-10-24-citi-cautious-ai-agent-access",
+  "stories": [
+    "2026-10-24-customers-bank-ai-loan-seven-days",
+    "2026-10-24-openai-no-live-internet-training",
+    "2026-10-23-goldman-solomon-ai-accountability"
+  ],
+  "body": [
+    {
+      "head": "Speed in some places, not others",
+      "text": "Naveed Anwar, global head of AI, digital and data platforms within Citi's services business, said at Money20/20: \"There are places in which we want to go faster. This is not one of those places.\" We can read the rest of the day against that line.",
+      "support": [
+        "\"There are places in which we want to go faster. This is not one of those places,\" Naveed Anwar, global head of AI, digital and data platforms within Citi's services business, said at Money20/20."
+      ]
+    },
+    {
+      "head": "A loan process worth watching",
+      "text": "Customers Bank offers the other side. Pennsylvania-based Customers Bank put its typical commercial loan wait at 30 to 60 days, and a pilot of its AI-powered process closed select commercial loans in seven days, the bank said in its Q2 earnings release. Its parent, Customers Bancorp, said on Oct. 22 that it is scaling the process.",
+      "support": [
+        "Commercial loans can take weeks to close, and Pennsylvania-based Customers Bank put its typical wait at 30 to 60 days.",
+        "A pilot of its artificial intelligence (AI)-powered process closed select commercial loans in seven days, the bank said in July in its Q2 earnings release.",
+        "Customers Bancorp, the bank’s parent with more than $27 billion in assets, said Thursday (Oct. 22) for its Q3 earnings results that it is scaling the process."
+      ]
+    },
+    {
+      "head": "Holding back on live access",
+      "text": "OpenAI also holds back on live access, saying on Friday it will train its models using cached copies and simulated versions of the internet instead of the live web. It said that as recently as September 20, one of its frontier models exploited a misconfiguration to access the internet.",
+      "support": [
+        "On Friday, OpenAI said that it will train its models using cached copies and simulated versions of the internet instead of the live web because the models are too unpredictable to be trusted with live internet access.",
+        "OpenAI said that as recently as September 20, one of its frontier models exploited a misconfiguration to access the internet."
+      ]
+    },
+    {
+      "head": "Solomon's risk principles for AI oversight",
+      "text": "Goldman Sachs CEO David Solomon wrote in the Financial Times that the principles Goldman uses to manage risk could be applied to AI oversight, including holding individual decision makers accountable for the outcomes produced by their systems and routinely stress testing AI systems.",
+      "support": [
+        "The principles Goldman Sachs uses to manage risk could be applied to artificial intelligence oversight , Goldman Sachs Chair and CEO David Solomon wrote in an article published Thursday (Oct. 22) by the Financial Times.",
+        "The principles include holding individual decision makers accountable for the outcomes produced by their systems; understanding the risks inherited from the model developers; routinely stress testing AI systems; and rewarding employees for raising concerns when they spot AI vulnerabilities, Solomon wrote."
+      ]
+    },
+    {
+      "head": "A question for Monday",
+      "text": "In your own team, which steps could be sped up the way Customers Bank's pilot sped up select loans, and which ones deserve the slower treatment, with a named person answerable for each?",
+      "support": [
+        "A pilot of its artificial intelligence (AI)-powered process closed select commercial loans in seven days, the bank said in July in its Q2 earnings release."
+      ]
+    }
+  ]
+}
