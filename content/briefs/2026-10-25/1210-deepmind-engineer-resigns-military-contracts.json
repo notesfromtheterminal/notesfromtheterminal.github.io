@@ -1,0 +1,45 @@
+{
+  "id": "2026-10-25-deepmind-engineer-resigns-military-contracts",
+  "publishedAt": "2026-10-25T12:10:00+07:00",
+  "section": "models",
+  "company": "Google DeepMind",
+  "headline": "Google DeepMind engineer resigns in protest of Pentagon contract",
+  "body": "On October 21, The Intercept reported that Sofia Liguori, a research engineer at Google DeepMind, resigned in protest. She says she is disturbed by Google's military contracts with the U.S. and Israel. Spokesperson Tom Hewett said Google uses \"a consistent process for reviewing and entering these contracts\".",
+  "note": "The story is about staff at a model lab. For banks and fintechs that rely on lab models, it is a reminder that a lab's military contracts can be disputed by its own researchers.",
+  "sources": [
+    {
+      "name": "The Intercept",
+      "url": "https://theintercept.com/2026/10/21/google-deepmind-resign-ai-military-gaza/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Google DeepMind Engineer Resigns in Protest of Pentagon Contract"
+    },
+    {
+      "source": 0,
+      "text": "October 21 2026, 12:25 p.m. ET"
+    },
+    {
+      "source": 0,
+      "text": "Sofia Liguori, a research engineer working at DeepMind, resigned in protest this week from Google’s pioneering artificial intelligence laboratory."
+    },
+    {
+      "source": 0,
+      "text": "Disenchanted and disturbed by Google’s military contracts with the U.S. and Israel, Liguori says she could no longer stand working at a company that was going to help kill people"
+    },
+    {
+      "source": 0,
+      "text": "In a letter she sent internally informing DeepMind and her colleagues of her resignation, Liguori urged them to “stay human” in the face of military work."
+    },
+    {
+      "source": 0,
+      "text": "Spokesperson Tom Hewett responded:"
+    },
+    {
+      "source": 0,
+      "text": "We work with public sector organisations worldwide and follow a consistent process for reviewing and entering these contracts, including compliance with our acceptable use policies and AI principles."
+    }
+  ]
+}
