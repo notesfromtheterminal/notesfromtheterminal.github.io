@@ -1,7 +1,7 @@
 {
   "note": "2026-10-25",
-  "commit": "1ebfa71a7841fb0939898b3420f869fe658985d7",
-  "verdict": "CHANGES",
-  "at": "2026-10-24T22:46:49.206Z",
-  "notes": "Earlier items 1-7 are fixed. Two new clear errors in brief notes that print in the email:\n1. Brief 2026-10-24-customers-bank-ai-loan-seven-days, note says \"The hours saved come from a survey of employees, and only 5% to 10% of large U.S. companies report a full return on AI tools.\" Source: \"Among large U.S. companies in financial services, healthcare and media, between 90% and 100% report some return on new AI tools. Only 5% to 10% report a full return\" and \"The June 2026 survey covered 60 senior technology executives at companies with at least $1 billion in revenue, so the figures are self-assessments.\" The note drops the three-sector scope and the survey basis, and \"The hours saved\" has no antecedent in the body. Fix: e.g. \"Employees said in a survey that they saved an estimated 76,000 cumulative hours, up nearly 65% from the second quarter.\" (drop the 5% to 10% clause, or scope it to large U.S. companies in financial services, healthcare and media per a June 2026 survey of 60 executives).\n2. Brief 2026-10-24-openai-no-live-internet-training, note says \"...and OpenAI now trains without it, which matters for any bank letting agents browse.\" No source says this matters for banks; it is the desk's claim. Fix: end the note after \"...two weeks earlier, and OpenAI now trains without it.\" (source: the policy came \"two weeks after its rival, Anthropic, began limiting its newest and, in theory, most capable models from accessing the live internet\")."
+  "commit": "10fea093c99ac2b6a56d691c8b5c65c53a3779e8",
+  "verdict": "APPROVED",
+  "at": "2026-10-25T00:47:13.178Z",
+  "notes": ""
 }
