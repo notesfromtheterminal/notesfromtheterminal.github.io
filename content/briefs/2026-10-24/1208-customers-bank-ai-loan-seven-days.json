@@ -5,7 +5,9 @@
   "company": "Customers Bank",
   "headline": "Customers Bank says an AI pilot closed select commercial loans in seven days",
   "body": "Customers Bank said a pilot of its AI loan process closed select commercial loans in seven days, against a typical 30 to 60 days. Its parent, Customers Bancorp, said on Oct. 22 that it is scaling the process and estimated more than $15 million in annualized capacity.",
-  "note": "The hours saved come from a survey of employees, and only 5% to 10% of large U.S. companies report a full return on AI tools.",
+  "note": "Employees said in a survey that they saved an estimated 76,000 cumulative hours, up nearly 65% from the second quarter.",
+  "updatedAt": "2026-10-25T07:10:00+07:00",
+  "correction": "Note said the hours saved came from a survey and added a 5% to 10% full-return figure that the source scopes to large U.S. companies in financial services, healthcare and media, from a separate PYMNTS survey, and that 'The hours saved' had no antecedent. Note now states only the bank's employee survey figure, as the source does.",
   "sources": [{ "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/customers-bank-uses-ai-to-close-commercial-loans-in-7-days/" }],
   "evidence": [
     { "source": 0, "text": "Commercial loans can take weeks to close, and Pennsylvania-based Customers Bank put its typical wait at 30 to 60 days." },
