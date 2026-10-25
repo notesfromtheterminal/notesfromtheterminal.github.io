@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-25-mas-bloom-bnm-bot-join",
+  "publishedAt": "2026-10-25T22:10:00+07:00",
+  "section": "sea",
+  "tags": ["payments", "rules"],
+  "company": "MAS",
+  "headline": "Bank Negara Malaysia and Bank of Thailand join MAS-led BLOOM digital money initiative",
+  "body": "On October 23, the Monetary Authority of Singapore (MAS) announced that Bank Negara Malaysia (BNM) and Bank of Thailand (BOT) have joined BLOOM as policymaker members. They will partner industry players to develop common approaches for the cross-border use of digital money. BLOOM's participation has also expanded to include Maybank, ShopeePay, Visa, Mastercard and the World Bank Group.",
+  "note": "Tokenised deposits and regulated stablecoins are the use cases MAS names, so Southeast Asian banks and payment firms can watch BLOOM for the settlement frameworks that emerge.",
+  "sources": [
+    { "name": "MAS", "url": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Singapore, 23 October 2026… The Monetary Authority of Singapore (MAS) today announced that Bank Negara Malaysia (BNM) and Bank of Thailand (BOT) have joined the BLOOM (Borderless, Liquid, Open, Online, Multi-currency) initiative as policymaker members." },
+    { "source": 0, "text": "Through BLOOM, MAS, BNM and BOT will partner industry players across their respective jurisdictions to develop common approaches for the cross-border use of digital money, including how different forms of digital money can be accepted, exchanged and settled across institutions, networks and jurisdictions." },
+    { "source": 0, "text": "BLOOM's participation has also expanded to include Airwallex, Mastercard, Maybank, Monee, Nium, Ripple, ShopeePay, Visa and the World Bank Group." },
+    { "source": 0, "text": "As financial institutions and jurisdictions develop different digital money use cases, including for tokenised deposits and regulated stablecoins, greater coordination will be important to support its effective use across borders." }
+  ]
+}

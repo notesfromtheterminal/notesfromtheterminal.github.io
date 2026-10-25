@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-25-moonshot-kimi-k3-1-pro",
+  "publishedAt": "2026-10-25T22:11:00+07:00",
+  "section": "models",
+  "company": "Moonshot",
+  "headline": "Moonshot releases Kimi K3.1 Pro, with open weights due by Nov 4",
+  "body": "Moonshot introduced Kimi K3.1 Pro, which it calls its most capable 3T-class open-weight model to date, with a 1-million-token context window. It is available on Kimi.ai, Kimi Work, Kimi Code and the Kimi API, and the full model weights will be released by Nov 4. Moonshot says that on an internal benchmark designed to stress-test factual accuracy, its claim-level hallucination rate fell from 23.4% for K3 to 8.3%.",
+  "note": "Open weights matter to banks that want to run models on infrastructure they control, though the factual accuracy results here come from an internal Moonshot benchmark.",
+  "sources": [
+    { "name": "Kimi", "url": "https://www.kimi.ai/blog/kimi-k3-1-pro" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "We're introducing Kimi K3.1 Pro , the first model in our new K3.1 series and our most capable 3T-class open-weight model to date, with a 1-million-token context window." },
+    { "source": 0, "text": "Kimi K3.1 Pro and Kimi K3.1 Pro Highspeed are available today on Kimi.ai , Kimi Work , Kimi Code , and the Kimi API . The full model weights will be released by Nov 4." },
+    { "source": 0, "text": "On Kimi Hallu Bench Hard bench, an internal benchmark designed to stress-test factual accuracy, its claim-level hallucination rate fell from 23.4% for K3 to 8.3%, while the share of responses containing at least one factual error was just 42.4% of its predecessor's rate." }
+  ]
+}
