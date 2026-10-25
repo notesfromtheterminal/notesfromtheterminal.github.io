@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-25-anthropic-single-agent-over-subagents",
+  "publishedAt": "2026-10-25T17:05:00+07:00",
+  "section": "models",
+  "company": "Anthropic",
+  "headline": "Anthropic recommends companies consolidate sub-agents into a single agent",
+  "body": "Anthropic recommends that companies evaluate whether they can consolidate sub-agents into a single agent that loads context on demand. In one comparison, Anthropic says the single-agent architecture ran about twice as fast as the multi-agent setup. It has published a migration kit on GitHub to help teams make the transition.",
+  "note": "For banks building agents, the cost and latency case for fewer, broader agents may matter more than the number of specialists.",
+  "wire": ["0050c9fd6a91"],
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Anthropic recommends that companies evaluate whether they can consolidate sub-agents into a single agent that loads context on demand." },
+    { "source": 0, "text": "In one comparison, Anthropic says the single-agent architecture ran about twice as fast as the multi-agent setup." },
+    { "source": 0, "text": "Anthropic has published a migration kit on GitHub to help teams make the transition." }
+  ]
+}

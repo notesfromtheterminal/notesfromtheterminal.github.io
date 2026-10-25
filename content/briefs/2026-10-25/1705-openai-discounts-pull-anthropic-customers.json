@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-25-openai-discounts-pull-anthropic-customers",
+  "publishedAt": "2026-10-25T17:05:00+07:00",
+  "section": "models",
+  "company": "OpenAI",
+  "headline": "OpenAI reportedly pulling Anthropic customers with aggressive discounts",
+  "body": "OpenAI is reportedly pulling major customers away from Anthropic with aggressive discounts, The Information reports. Rippling CEO Parker Conrad said his company boosted OpenAI's share of its coding workload from 16 to 52 percent, while Anthropic's share fell from 57 to 18 percent. Replit switched after OpenAI offered more than 30 percent off a contract worth over $100 million a year.",
+  "note": "For banks buying AI seats, the price gap between labs is now part of the vendor choice.",
+  "wire": ["1de99488d5d5"],
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "OpenAI is reportedly pulling major customers away from Anthropic with aggressive discounts, and the strategy is working." },
+    { "source": 0, "text": "Companies like Rippling, Replit, and DataCamp are shifting more of their AI spending to OpenAI, The Information reports ." },
+    { "source": 0, "text": "Rippling CEO Parker Conrad said his company boosted OpenAI's share of its coding workload from 16 to 52 percent, while Anthropic's share fell from 57 to 18 percent." },
+    { "source": 0, "text": "Replit switched after OpenAI offered more than 30 percent off a contract worth over $100 million a year." }
+  ]
+}
