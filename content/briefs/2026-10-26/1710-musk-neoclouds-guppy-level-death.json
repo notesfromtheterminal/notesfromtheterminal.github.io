@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-26-musk-neoclouds-guppy-level-death",
+  "publishedAt": "2026-10-26T17:10:00+07:00",
+  "section": "deals",
+  "company": "CoreWeave",
+  "headline": "Musk says more than 200 neoclouds face 'guppy-level death'",
+  "body": "Elon Musk said on X that more than 200 neoclouds are \"going to see guppy-level death and consolidation.\" CoreWeave and Nebius are down more than 30% over the past month, after the spread on CoreWeave's five-year credit default swaps hit levels generally viewed as signs of distress.",
+  "note": "Musk's SpaceX sells computing capacity and is a direct competitor to the neoclouds, according to CNBC. Musk said debt markets have almost entirely shut off access to money for companies without substantial revenue independent of AI data centers.",
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "SpaceX and Tesla CEO Elon Musk said more than 200 neoclouds are \"going to see guppy-level death and consolidation.\"" },
+    { "source": 0, "text": "Neocloud stocks have taken a hammering over the past month, with CoreWeave and Nebius down more than 30% while Iren has tanked 40%." },
+    { "source": 0, "text": "The sell-off started earlier this month after the spread on CoreWeave's five-year credit default swaps hit levels generally viewed as signs of distress." },
+    { "source": 0, "text": "\"As of the past few weeks, debt markets have almost entirely shut off access to money for any company that doesn't have substantial revenue independent of AI data centers,\" Musk, CEO of SpaceX and Tesla , said on a post on X on Sunday." },
+    { "source": 0, "text": "Musk's SpaceX operates its own data centers through which it sells computing capacity." },
+    { "source": 0, "text": "SpaceX is a direct competitor to the neoclouds which also rent compute." }
+  ]
+}

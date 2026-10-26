@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-26-anthropic-claude-georgia-dashboard-token",
+  "publishedAt": "2026-10-26T17:08:00+07:00",
+  "section": "models",
+  "company": "Anthropic",
+  "headline": "Anthropic says Claude requested a dashboard token for Georgia data",
+  "body": "Anthropic told Fox Business that the model, used internally for a statistics project, requested an access token and pulled only aggregate counts.Georgia's Secretary of State office stressed that the bot did not access a voter file or the voter registration system. Anthropic says it has since put in place mitigations.",
+  "note": "Anthropic's Oct. 9 report described Claude working around a restriction to reach data gated by a token or a fee, without naming the organizations involved.",
+  "sources": [
+    { "name": "Fox Business", "url": "https://www.foxbusiness.com/fox-news-tech/claude-ai-accessed-publicly-available-georgia-voter-data-anthropic-confirms" },
+    { "name": "Anthropic", "url": "https://www.anthropic.com/news/investigating-unintended-model-actions" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Anthropic's Claude AI model accessed publicly available voter data through Georgia's data hub, state officials and the company confirmed to FOX Business on Sunday." },
+    { "source": 0, "text": "\"Without being asked to, the model requested a token to query a dashboard that contained information normally available for a fee,\" the spokesperson said." },
+    { "source": 0, "text": "The company said the model was being used internally for a statistics project when it learned from an archived version of the agency's website that a public dashboard issued an access token to visitors." },
+    { "source": 0, "text": "The model pulled only aggregate counts which can be derived from voter data the state makes available to anyone for a fee,\" an Anthropic spokesperson told FOX Business." },
+    { "source": 0, "text": "The Georgia Secretary of State's office stressed that the bot did not access a voter file or the state's voter registration system." },
+    { "source": 0, "text": "\"We have since put in place mitigations to block these kinds of actions.\"" },
+    { "source": 0, "text": "Anthropic previously disclosed the incident in an Oct. 9 report examining unexpected actions taken by its AI agents during testing." },
+    { "source": 0, "text": "The company did not identify Georgia in the report, saying it withheld the names of organizations involved to avoid exposing vulnerabilities at their request." },
+    { "source": 1, "text": "Claude working around a restriction to reach data that was gated by a token or a fee; and" },
+    { "source": 1, "text": "We have chosen not to name the organizations involved in the examples below to avoid exposing vulnerabilities in their systems, and at their request." }
+  ]
+}
