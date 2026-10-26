@@ -6,13 +6,15 @@
   "company": "Apollo Global Management",
   "headline": "Apollo’s Slok says AI has delivered zero financial payoff outside tech",
   "body": "Apollo’s Torsten Slok says AI has delivered “zero financial payoff” to corporate America outside of tech. In a note on what he calls the S&P 493, profit margins and revenue per worker appear to be flat.",
-  "note": "The claim covers companies outside the largest tech stocks, so it says little about AI spending inside banks and asset managers.",
+  "note": "The claim covers the S&P 500 minus seven large tech stocks, a wider group than tech alone.",
+  "updatedAt": "2026-10-27T03:10:00+07:00",
+  "correction": "The note said the claim says little about AI spending inside banks and asset managers. The source does not say that, and the S&P 493 is the S&P 500 minus seven tech names, so the note now states only that definition.",
   "sources": [
     { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/" }
   ],
   "evidence": [
     { "source": 0, "text": "AI hasn’t benefited the bottom line of any big corporations outside the tech industry, according to a note recently published by the chief economist at Apollo Global Management (the private equity giant that used to own TechCrunch)." },
-    { "source": 0, "text": "Apollo’s Torsten Slok focuses on what he calls the S&P 493 — the S&P 500, minus Alphabet, Amazon, Apple, Meta, Microsoft, Nvidia and Tesla — finding that profit margins and revenue per worker appear to be flat, with no evidence that AI is improving productivity." },
+    { "source": 0, "text": "Apollo’s Torsten Slok focuses on what he calls the S&P 493 — the S&P 500, minus Alphabet, Amazon, Apple, Meta, Microsoft, Nvidia, and Tesla — finding that profit margins and revenue per worker appear to be flat, with no evidence that AI is improving productivity." },
     { "source": 0, "text": "“Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech,” Slok said." }
   ]
 }

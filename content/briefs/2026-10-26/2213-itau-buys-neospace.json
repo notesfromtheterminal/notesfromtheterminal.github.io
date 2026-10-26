@@ -8,7 +8,7 @@
   "company": "Itaú Unibanco",
   "headline": "Itaú Unibanco has agreed to buy all shares of AI startup NeoSpace",
   "body": "Itaú Unibanco entered into a Share Purchase Agreement for all shares of NeoSpace, a Brazilian artificial intelligence startup developing models trained on Itaú's proprietary data. The purchase price will be BRL 2,925,000,000.00, with an installment payable at closing and the rest deferred over five years. Closing is subject to approval by the Brazilian Antitrust Authority (CADE) and the Central Bank of Brazil.",
-  "note": "A large bank buying the team that already builds its credit, CRM and fraud models points to banks wanting those capabilities in house.",
+  "note": "Itaú's filing says the deal represents another step in its strategy to enhance its proprietary artificial intelligence capabilities.",
   "sources": [
     {
       "name": "Itaú Unibanco (SEC Form 6-K)",
@@ -39,6 +39,12 @@
     {
       "source": 0,
       "text": "The acquisition strengthens the ongoing relationship between NeoSpace and Ita&uacute;, which has already delivered significant and transformative results in areas such as credit, CRM (customer relationship management), and fraud prevention."
+    },
+    {
+      "source": 0,
+      "text": "It also represents another step in Ita&uacute;’s strategy to enhance its proprietary artificial intelligence capabilities and accelerate the development of competencies that will be essential for the future."
     }
-  ]
+  ],
+  "updatedAt": "2026-10-27T03:10:00+07:00",
+  "correction": "The note said NeoSpace builds the credit, CRM and fraud models and that banks want those capabilities in house. The filing says NeoSpace develops models trained on Itaú data and that the deal is another step in Itaú's own AI strategy. Note rewritten to that, with the sentence added to evidence."
 }

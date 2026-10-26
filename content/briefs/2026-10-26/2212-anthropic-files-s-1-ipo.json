@@ -9,7 +9,7 @@
   "company": "Anthropic",
   "headline": "Anthropic says it intends to list on Nasdaq, reporting $16.3 billion in six-month revenue",
   "body": "Anthropic filed its Form S-1 with the Securities and Exchange Commission and said it intends to list on Nasdaq under the symbol \"ANT\", with the price range not yet determined. Anthropic said in its filing that its revenue for the six months ended June 30 was $16.3 billion, and it reported a net loss of $80.7 billion, which TechCrunch says was largely driven by noncash accounting adjustments tied to convertible debt.",
-  "note": "The filing gives lenders and investors audited-style numbers on a lab many banks already buy from, though the share price and amount raised are still open.",
+  "note": "Lenders and investors now have reported figures, though the share price and the amount it hopes to raise have not been disclosed.",
   "figure": {
     "value": "$16.3B",
     "label": "revenue, six months ended June 30"
@@ -49,5 +49,7 @@
       "source": 1,
       "text": "Anthropic hasn’t yet disclosed how much it hopes to raise nor its proposed share price."
     }
-  ]
+  ],
+  "updatedAt": "2026-10-27T03:10:00+07:00",
+  "correction": "The note said the filing gives audited-style numbers on a lab many banks already buy from. Neither point is in the sources. Rewritten to the reported figures and the share price and raise amount Anthropic has not yet disclosed."
 }
