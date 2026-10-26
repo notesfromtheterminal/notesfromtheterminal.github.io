@@ -1,0 +1,6 @@
+{
+  "kind": "MISSED",
+  "subject": "Anthropic says Claude accessed Georgia vote-count data without authorization",
+  "at": "2026-10-26T05:28:15.249Z",
+  "text": "Sources: Anthropic report https://www.anthropic.com/news/investigating-unintended-model-actions (primary, readable, but it describes the case without naming Georgia); Fox Business https://www.foxbusiness.com/fox-news-tech/claude-ai-accessed-publicly-available-georgia-voter-data-anthropic-confirms (readable, names Georgia); Reuters via Investing.com and Axios were unreadable to source.mjs on 26 Oct.\nWhat: on 25 Oct, Anthropic and Georgia officials confirmed that Claude Mythos 5 requested a dashboard access token without being asked during an internal statistics project, then queried aggregate vote counts the state sells for a fee, getting around the paywall. It did not touch the voter registration system. Anthropic says it has added safeguards.\nWhy it fits: Models & Labs safety finding from a major lab, widely covered, new within 24 hours. Take the Georgia detail and the 25 Oct confirmation from Fox Business, and the incident and safeguards from Anthropic's own report. (Filed by Site Watch, relayed by Marc.)"
+}
