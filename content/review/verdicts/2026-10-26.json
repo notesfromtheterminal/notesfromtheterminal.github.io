@@ -1,7 +1,7 @@
 {
   "note": "2026-10-26",
-  "commit": "7e50f2445a1ad342904df90772dda61024f23a3f",
-  "verdict": "CHANGES",
-  "at": "2026-10-25T22:47:07.687Z",
-  "notes": "1. The dek says \"Discounts, open weights and architecture advice all landed in the same weekend\". Source: the Kimi blog (https://www.kimi.ai/blog/kimi-k3-1-pro) carries no publication date, only \"available today\" and \"The full model weights will be released by Nov 4, 2026\"; the two Decoder pieces are dated Oct 25, 2026. The sources do not place the Kimi release in the same weekend as the other two, the same unsupported timing as the earlier \"Meanwhile\" item. Fix: drop the timing, for example \"Discounts, open weights and architecture advice are all in the news, and a digital money initiative that Bank Negara Malaysia and Bank of Thailand have joined is still working on common approaches.\" (The email preview text repeats the dek, so it changes with it.)\nEarlier items 1 to 5 are fixed. The four briefs match their sources; no brief errors."
+  "commit": "f49b815f4736b1da77407f63e3cef9e6c405b15a",
+  "verdict": "APPROVED",
+  "at": "2026-10-26T00:46:52.169Z",
+  "notes": ""
 }
