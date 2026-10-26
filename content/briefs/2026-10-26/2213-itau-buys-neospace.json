@@ -1,0 +1,44 @@
+{
+  "id": "2026-10-26-itau-buys-neospace",
+  "publishedAt": "2026-10-26T22:13:00+07:00",
+  "section": "banking",
+  "tags": [
+    "deals"
+  ],
+  "company": "Itaú Unibanco",
+  "headline": "Itaú Unibanco has agreed to buy all shares of AI startup NeoSpace",
+  "body": "Itaú Unibanco entered into a Share Purchase Agreement for all shares of NeoSpace, a Brazilian artificial intelligence startup developing models trained on Itaú's proprietary data. The purchase price will be BRL 2,925,000,000.00, with an installment payable at closing and the rest deferred over five years. Closing is subject to approval by the Brazilian Antitrust Authority (CADE) and the Central Bank of Brazil.",
+  "note": "A large bank buying the team that already builds its credit, CRM and fraud models points to banks wanting those capabilities in house.",
+  "sources": [
+    {
+      "name": "Itaú Unibanco (SEC Form 6-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001132597/000113259726000245/materialfact_neospace.htm"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Ita&uacute; Unibanco Holding S.A. (the “Company”) hereby informs its shareholders and the market in general that it has entered into a Share Purchase Agreement for the acquisition, by the Company and/or its affiliates (“Ita&uacute;”), of all shares issued by NeoSpace A.I. Technologies Ltda. (“NeoSpace”)."
+    },
+    {
+      "source": 0,
+      "text": "NeoSpace is a Brazilian artificial intelligence startup specialized in the development of foundational models trained on large-scale datasets."
+    },
+    {
+      "source": 0,
+      "text": "NeoSpace has been providing services to Ita&uacute; for nearly two years by developing models trained on Ita&uacute;’s proprietary data."
+    },
+    {
+      "source": 0,
+      "text": "The purchase price for the acquisition will be BRL 2,925,000,000.00, comprising an installment payable at closing and the remaining installments deferred over a five-year period, subject to certain conditions."
+    },
+    {
+      "source": 0,
+      "text": "The closing of the transaction is subject to the approvals of certain conditions precedent, including prior approval by the Brazilian Antitrust Authority (CADE) and the Central Bank of Brazil, as well as other customary conditions applicable to transactions of this nature."
+    },
+    {
+      "source": 0,
+      "text": "The acquisition strengthens the ongoing relationship between NeoSpace and Ita&uacute;, which has already delivered significant and transformative results in areas such as credit, CRM (customer relationship management), and fraud prevention."
+    }
+  ]
+}

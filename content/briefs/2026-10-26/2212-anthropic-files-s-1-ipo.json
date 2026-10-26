@@ -1,0 +1,53 @@
+{
+  "id": "2026-10-26-anthropic-files-s-1-ipo",
+  "publishedAt": "2026-10-26T22:12:00+07:00",
+  "section": "deals",
+  "tags": [
+    "models"
+  ],
+  "star": true,
+  "company": "Anthropic",
+  "headline": "Anthropic says it intends to list on Nasdaq, reporting $16.3 billion in six-month revenue",
+  "body": "Anthropic filed its Form S-1 with the Securities and Exchange Commission and said it intends to list on Nasdaq under the symbol \"ANT\", with the price range not yet determined. Anthropic said in its filing that its revenue for the six months ended June 30 was $16.3 billion, and it reported a net loss of $80.7 billion, which TechCrunch says was largely driven by noncash accounting adjustments tied to convertible debt.",
+  "note": "The filing gives lenders and investors audited-style numbers on a lab many banks already buy from, though the share price and amount raised are still open.",
+  "figure": {
+    "value": "$16.3B",
+    "label": "revenue, six months ended June 30"
+  },
+  "sources": [
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-files-ipo-showing-16-3-billion-six-month-revenue-and-80-7-billion-net-loss/"
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "The artificial intelligence startup filed its Form S-1 with the Securities and Exchange Commission ."
+    },
+    {
+      "source": 0,
+      "text": "Announcing the IPO filing in a press release , Anthropic said: “Anthropic intends to list its Class A common stock on the Nasdaq Global Select Market under the symbol ‘ANT.’ The number of shares of Class A common stock to be offered and the price range for the proposed offering have not yet been determined.”"
+    },
+    {
+      "source": 0,
+      "text": "Anthropic said in its filing that its revenue for the six months ended June 30 was $16.3 billion, up from $1.2 billion during the same period in 2025, equaling an increase of 1,300%."
+    },
+    {
+      "source": 0,
+      "text": "The company also reported an operating loss of $693 million and a net loss of $80.7 billion."
+    },
+    {
+      "source": 1,
+      "text": "Anthropic’s net loss, however, hit $80.7 billion, which was largely driven by noncash accounting adjustments tied to convertible debt."
+    },
+    {
+      "source": 1,
+      "text": "Anthropic hasn’t yet disclosed how much it hopes to raise nor its proposed share price."
+    }
+  ]
+}
