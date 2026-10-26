@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-26-anthropic-combines-chat-and-cowork-enterprise",
+  "publishedAt": "2026-10-26T12:08:00+07:00",
+  "section": "models",
+  "star": false,
+  "company": "Anthropic",
+  "headline": "Anthropic combines Claude chat and Cowork for Enterprise customers",
+  "body": "Anthropic says it has unified Claude chat and Cowork for its enterprise customers. Users don’t have to choose between the two before starting, and a chat moves into a Cowork cloud session when a task needs agentic work. It is off by default in existing organizations and is due to turn on by default on Nov. 16.",
+  "note": "Enterprise organizations can check the rollout in the administration settings before the Nov. 16 default change.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-merges-claude-chat-and-cowork-for-enterprise-users/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Anthropic says it has unified Claude chat and Cowork for its enterprise customers." },
+    { "source": 0, "text": "The new offering combines chat and Cowork on web, desktop and mobile, meaning users don’t have to choose between the two services before starting, Anthropic announced Friday (Oct. 23)." },
+    { "source": 0, "text": "The “unified Claude experience” starts as a chat and moves into a Cowork cloud session when a task needs agentic work , and goes back to chat when it doesn’t, the announcement said." },
+    { "source": 0, "text": "It is turned off by default in existing organizations and is due to turn on by default on Nov. 16, Anthropic added." },
+    { "source": 0, "text": "According to the announcement, the unified Claude is available on Enterprise plans, where it appears in administration settings as Chat and Cowork unified." }
+  ]
+}
