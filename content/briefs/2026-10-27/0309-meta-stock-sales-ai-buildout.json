@@ -1,0 +1,53 @@
+{
+  "id": "2026-10-27-meta-stock-sales-ai-buildout",
+  "publishedAt": "2026-10-27T03:09:47+07:00",
+  "section": "deals",
+  "tags": [
+    "models"
+  ],
+  "star": true,
+  "company": "Meta",
+  "headline": "Meta plans up to $95 billion in stock sales for AI buildout",
+  "body": "Meta plans to sell up to $95 billion in shares to raise money for its AI infrastructure, according to The Information. A Meta announcement puts about $22.5 billion of that in Class A common stock, with $12.5 billion from depositary shares and the remaining $60 billion from open-market sales once new Class C shares start trading.",
+  "note": "The Class C shares carry no voting rights, which lets Meta raise money without diluting Zuckerberg's control.",
+  "figure": {
+    "value": "$95B",
+    "label": "planned share sales"
+  },
+  "sources": [
+    {
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/meta-plans-up-to-95-billion-in-stock-sales-to-fund-its-ai-buildout/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Meta plans to sell new stock to raise money for its AI infrastructure buildout."
+    },
+    {
+      "source": 0,
+      "text": "According to The Information, the company plans to sell up to $95 billion in shares ."
+    },
+    {
+      "source": 0,
+      "text": "About $22.5 billion will come from selling Class A common stock, according to a Meta announcement ."
+    },
+    {
+      "source": 0,
+      "text": "Another $12.5 billion will come from depositary shares, each representing one-twentieth of a new preferred share."
+    },
+    {
+      "source": 0,
+      "text": "The remaining $60 billion will come from ongoing sales on the open market once new Class C shares start trading, likely no earlier than the first quarter of 2027."
+    },
+    {
+      "source": 0,
+      "text": "The Class C shares, which Meta announced last week, carry no voting rights."
+    },
+    {
+      "source": 0,
+      "text": "That lets Meta raise money without diluting Zuckerberg's control."
+    }
+  ]
+}
