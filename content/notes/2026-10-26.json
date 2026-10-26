@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-26",
+  "publishedAt": "2026-10-26T07:00:00+07:00",
+  "title": "Choosing an AI model is turning into a buying decision",
+  "dek": "Discounts, open weights and architecture advice are all in the news, and a digital money initiative that Bank Negara Malaysia and Bank of Thailand have joined is still working on common approaches.",
+  "lead": "2026-10-25-openai-discounts-pull-anthropic-customers",
+  "stories": [
+    "2026-10-25-moonshot-kimi-k3-1-pro",
+    "2026-10-25-anthropic-single-agent-over-subagents",
+    "2026-10-25-mas-bloom-bnm-bot-join"
+  ],
+  "body": [
+    {
+      "head": "Price is entering the vendor choice",
+      "text": "OpenAI is reportedly pulling major customers away from Anthropic with aggressive discounts, according to The Information, and Rippling CEO Parker Conrad said his company boosted OpenAI's share of its coding workload from 16 to 52 percent. Replit switched after OpenAI offered more than 30 percent off a contract worth over $100 million a year. For a bank buying AI seats, the contract terms are now part of the vendor choice.",
+      "support": [
+        "OpenAI is reportedly pulling major customers away from Anthropic with aggressive discounts, and the strategy is working.",
+        "Companies like Rippling, Replit, and DataCamp are shifting more of their AI spending to OpenAI, The Information reports .",
+        "Rippling CEO Parker Conrad said his company boosted OpenAI's share of its coding workload from 16 to 52 percent, while Anthropic's share fell from 57 to 18 percent.",
+        "Replit switched after OpenAI offered more than 30 percent off a contract worth over $100 million a year."
+      ]
+    },
+    {
+      "head": "Open weights add another option",
+      "text": "Moonshot introduced Kimi K3.1 Pro, which it calls its most capable 3T-class open-weight model to date, and says the full model weights will be released by Nov 4. Moonshot also reports that on an internal benchmark built to stress-test factual accuracy, its claim-level hallucination rate fell from 23.4% for K3 to 8.3%. Those are the lab's own numbers, and a bank would want to test them on its own documents.",
+      "support": [
+        "We're introducing Kimi K3.1 Pro , the first model in our new K3.1 series and our most capable 3T-class open-weight model to date, with a 1-million-token context window.",
+        "Kimi K3.1 Pro and Kimi K3.1 Pro Highspeed are available today on Kimi.ai , Kimi Work , Kimi Code , and the Kimi API . The full model weights will be released by Nov 4.",
+        "On Kimi Hallu Bench Hard bench, an internal benchmark designed to stress-test factual accuracy, its claim-level hallucination rate fell from 23.4% for K3 to 8.3%, while the share of responses containing at least one factual error was just 42.4% of its predecessor's rate."
+      ]
+    },
+    {
+      "head": "Fewer agents may be enough",
+      "text": "Anthropic recommends that companies evaluate whether they can consolidate sub-agents into a single agent that loads context on demand, and says the single-agent architecture ran about twice as fast as the multi-agent setup in one comparison. It has also published a migration kit on GitHub. For anyone running agents in operations, that is a design question to put to the team before the next build.",
+      "support": [
+        "Anthropic recommends that companies evaluate whether they can consolidate sub-agents into a single agent that loads context on demand.",
+        "In one comparison, Anthropic says the single-agent architecture ran about twice as fast as the multi-agent setup.",
+        "Anthropic has published a migration kit on GitHub to help teams make the transition."
+      ]
+    },
+    {
+      "head": "Common approaches for digital money",
+      "text": "On October 23, MAS announced that Bank Negara Malaysia and Bank of Thailand have joined BLOOM as policymaker members, and BLOOM's participation has also expanded to include Maybank, ShopeePay, Visa, Mastercard and the World Bank Group. The aim is common approaches for the cross-border use of digital money. Which of these four choices, price, openness, architecture or common approaches to settlement, will matter most to your own team this quarter?",
+      "support": [
+        "Singapore, 23 October 2026… The Monetary Authority of Singapore (MAS) today announced that Bank Negara Malaysia (BNM) and Bank of Thailand (BOT) have joined the BLOOM (Borderless, Liquid, Open, Online, Multi-currency) initiative as policymaker members.",
+        "BLOOM's participation has also expanded to include Airwallex, Mastercard, Maybank, Monee, Nium, Ripple, ShopeePay, Visa and the World Bank Group.",
+        "Through BLOOM, MAS, BNM and BOT will partner industry players across their respective jurisdictions to develop common approaches for the cross-border use of digital money, including how different forms of digital money can be accepted, exchanged and settled across institutions, networks and jurisdictions."
+      ]
+    }
+  ]
+}
