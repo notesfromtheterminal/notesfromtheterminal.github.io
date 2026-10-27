@@ -21,7 +21,7 @@
       ]
     },
     {
-      "head": "Itaú agrees to buy its supplier",
+      "head": "Itaú agrees to buy the AI startup it has worked with",
       "text": "Itaú Unibanco entered into a Share Purchase Agreement for all shares of NeoSpace, a Brazilian artificial intelligence startup that has been developing models trained on Itaú's proprietary data for nearly two years. The purchase price will be BRL 2,925,000,000.00, with an installment payable at closing and the rest deferred over five years, and Itaú says the relationship has already delivered results in credit, CRM (customer relationship management) and fraud prevention. Closing is subject to approval by the Brazilian Antitrust Authority (CADE) and the Central Bank of Brazil.",
       "support": [
         "Ita&uacute; Unibanco Holding S.A. (the “Company”) hereby informs its shareholders and the market in general that it has entered into a Share Purchase Agreement for the acquisition, by the Company and/or its affiliates (“Ita&uacute;”), of all shares issued by NeoSpace A.I. Technologies Ltda. (“NeoSpace”).",
@@ -43,11 +43,12 @@
     },
     {
       "head": "Musk says debt access has shut off",
-      "text": "Elon Musk said on X that debt markets have almost entirely shut off access to money for any company that doesn't have substantial revenue independent of AI data centers, and that more than 200 neoclouds will see \"guppy-level death and consolidation\". Musk's SpaceX is a direct competitor to the neoclouds, which also rent compute, and that is worth keeping in mind when reading his view. The report adds that CoreWeave and Nebius are down more than 30% over the past month.",
+      "text": "Elon Musk said on X that debt markets have almost entirely shut off access to money for any company that doesn't have substantial revenue independent of AI data centers, and that more than 200 neoclouds will see \"guppy-level death and consolidation\". Musk's SpaceX operates its own data centers through which it sells computing capacity, and CNBC describes it as a direct competitor to the neoclouds, which also rent compute. CNBC adds that CoreWeave and Nebius are down more than 30% over the past month.",
       "support": [
         "\"As of the past few weeks, debt markets have almost entirely shut off access to money for any company that doesn't have substantial revenue independent of AI data centers,\" Musk, CEO of SpaceX and Tesla , said on a post on X on Sunday.",
         "SpaceX and Tesla CEO Elon Musk said more than 200 neoclouds are \"going to see guppy-level death and consolidation.\"",
         "SpaceX is a direct competitor to the neoclouds which also rent compute.",
+        "Musk's SpaceX operates its own data centers through which it sells computing capacity.",
         "Neocloud stocks have taken a hammering over the past month, with CoreWeave and Nebius down more than 30% while Iren has tanked 40%."
       ]
     },
