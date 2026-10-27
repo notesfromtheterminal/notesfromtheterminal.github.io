@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-27-openai-gpt-6-1-terra-half-price",
+  "publishedAt": "2026-10-27T07:10:00+07:00",
+  "section": "models",
+  "tags": ["banking"],
+  "headline": "OpenAI's GPT-6.1 Terra has half the API price of GPT-5.6 Terra",
+  "body": "OpenAI released GPT-6.1 Terra on Oct. 26, and its standard API prices are 50% lower than GPT-5.6 Terra and GPT-6.1 Sol, according to the release. Input tokens cost $1 per million and output tokens $5, compared to $2 and $10 for Claude Sonnet 5.5.",
+  "note": "The company says the model is practical for automating high-volume work such as reading invoices and entering their information into accounting software.",
+  "figure": { "value": "-50%", "label": "standard API price change versus GPT-5.6 Terra, per OpenAI" },
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models/" },
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-unveils-half-price-ai-model-to-target-enterprise-automation/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "API prices are half those of GPT-5.6 Terra." },
+    { "source": 0, "text": "Input tokens cost $1 per million, output tokens $5, compared to $2 and $10 for Claude Sonnet 5.5 and $2 and $12 for GPT-5.6 Terra." },
+    { "source": 0, "text": "OpenAI has released GPT-6.1 Terra, a new mid-range AI model at half the API price of its predecessor." },
+    { "source": 1, "text": "OpenAI is rolling out GPT-6.1 Terra, a new artificial intelligence (AI) model that costs half as much as two of its other models and is practical for automating high-volume work such as reading invoices and entering their information into accounting software, the company said in a Monday (Oct. 26) press release ." },
+    { "source": 1, "text": "its standard application programming interface (API) prices are 50% lower than those of GPT-5.6 Terra and GPT-6.1 Sol, according to the release." }
+  ]
+}
