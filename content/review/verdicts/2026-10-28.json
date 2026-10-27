@@ -1,0 +1,7 @@
+{
+  "note": "2026-10-28",
+  "commit": "08f04d83f7c8a11d059e6bd100fb4c0050488d8d",
+  "verdict": "APPROVED",
+  "at": "2026-10-27T16:47:56.361Z",
+  "notes": "Fixed by the review run, then approved:\n1. Meta section. Note said: \"The Information reports the total could reach $95 billion\". Source (The Decoder) says: \"According to The Information, the company plans to sell up to $95 billion in shares.\" New: \"according to The Information, the company plans to sell up to $95 billion in shares\" (a plan, not a possible total).\n2. Meta section. Note said: \"The Class C shares are described as carrying no voting rights\". Source says: \"The Class C shares, which Meta announced last week, carry no voting rights.\" New: \"The Class C shares carry no voting rights\" (dropped the hedge the source does not make)."
+}
