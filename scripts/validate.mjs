@@ -39,6 +39,10 @@ const NOTE_SUPPORT_FROM = '2026-10-03';
 // From 8 Oct: no hardened words, no invented cause and effect (see hardened() and linked()).
 const MEANING_FROM = Date.parse('2026-10-08T00:00:00+07:00');
 const NOTE_MEANING_FROM = '2026-10-08';
+// From 28 Oct the title, dek and subheadings get the same meaning checks as the sections: most
+// review changes were there ("all landed on the same day", "first hard questions", "picking sides").
+const NOTE_FRAME_FROM = process.env.NOTE_FRAME_FROM ?? '2026-10-28';
+const FRAME = /\b(same day|same week|same morning|in one day|in a single day|on one day|first|only|record|all-time|unprecedented|biggest|largest)\b/gi;
 // Briefs published from this moment are checked for repeats of earlier briefs.
 const REPEAT_RULES_FROM = Date.parse('2026-10-01T19:00:00+07:00');
 // Phrases that read as machine-written. None may appear in new briefs or notes, outside quotes.
@@ -293,6 +297,23 @@ export async function loadContent({ now = Date.now() } = {}) {
           const loose = untraced(x.text, [...sup, ...known, ...cited.map((b) => b.headline)]);
           if (loose.length) warnings.push(`${where}: body[${i}] words not in its support (check each keeps the source's meaning): ${loose.join(', ')}`);
         });
+        if (n.date >= NOTE_FRAME_FROM) {
+          const all = [...pool, ...known.map(norm)];
+          const frames = [['title', n.title, all], ['dek', n.dek, all], ...paras.map((x, i) => [`body[${i}].head`, x.head, x.support?.length ? [...x.support, ...known] : all])];
+          for (const [k, v, refs] of frames) {
+            if (typeof v !== 'string' || !v.trim()) continue;
+            const said = norm(refs.join(' '));
+            for (const name of namesIn(v)) if (!said.includes(norm(name)) && !norm(all.join(' ')).includes(norm(name))) e.push(`${k}: "${name}" is in none of the note's evidence`);
+            const hard = hardened(v, refs);
+            if (hard.length) e.push(`${k}: ${hard.map((w) => `"${w}"`).join(', ')} is stronger than the evidence, which never says it`);
+            const links = linked(v, refs);
+            if (links.length) e.push(`${k}: ${links.map((w) => `"${w}"`).join(', ')} makes one fact cause another, and the evidence never says so`);
+            const claims = [...new Set([...v.matchAll(FRAME)].map((m) => m[1].toLowerCase()))].filter((w) => !said.includes(w));
+            if (claims.length) e.push(`${k}: ${claims.map((w) => `"${w}"`).join(', ')} claims a timing, a first or a record the evidence never states: drop it`);
+            const loose = k.includes('head') ? [] : untraced(v, [...refs, ...cited.map((b) => b.headline)]);
+            if (loose.length) warnings.push(`${where}: ${k} words not in its evidence (check each keeps the source's meaning): ${loose.join(', ')}`);
+          }
+        }
       }
       paras.forEach((x, i) => {
         e.push(...tellIssues(`body[${i}]`, `${x.head ?? ''}. ${x.text}`));
