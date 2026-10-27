@@ -1,8 +1,8 @@
 {
   "date": "2026-10-27",
   "publishedAt": "2026-10-27T07:00:00+07:00",
-  "title": "AI's spending is meeting hard questions",
-  "dek": "Anthropic's filing, a bank's acquisition, a skeptical economist and a warning on neoclouds all surfaced within two days.",
+  "title": "Anthropic opens its books as Musk warns on AI debt",
+  "dek": "Anthropic's filing, Musk's neocloud warning and an Apollo economist's view sit beside a bank buying the AI startup it has worked with.",
   "lead": "2026-10-26-anthropic-files-s-1-ipo",
   "stories": [
     "2026-10-26-itau-buys-neospace",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "head": "Musk says debt access has shut off",
+      "head": "Musk says debt nearly shut off",
       "text": "Elon Musk said on X that debt markets have almost entirely shut off access to money for any company that doesn't have substantial revenue independent of AI data centers, and that more than 200 neoclouds will see \"guppy-level death and consolidation\". Musk's SpaceX operates its own data centers through which it sells computing capacity, and CNBC describes it as a direct competitor to the neoclouds, which also rent compute. CNBC adds that CoreWeave and Nebius are down more than 30% over the past month.",
       "support": [
         "\"As of the past few weeks, debt markets have almost entirely shut off access to money for any company that doesn't have substantial revenue independent of AI data centers,\" Musk, CEO of SpaceX and Tesla , said on a post on X on Sunday.",
@@ -54,7 +54,7 @@
     },
     {
       "head": "What we can watch",
-      "text": "Put side by side, these four stories describe money for AI that is large, unevenly earned and increasingly scrutinized. For those of us in credit and risk, the practical questions are which AI suppliers we rely on, how they are financed, and whether the gains we are promised show up in our own margins."
+      "text": "Put side by side, these four stories each concern how AI is paid for or what it returns. For those of us in credit and risk, the practical questions are which AI suppliers we rely on, how they are financed, and whether the gains we are promised show up in our own margins."
     }
   ]
 }
