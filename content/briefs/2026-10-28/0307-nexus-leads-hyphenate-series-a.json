@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-28-nexus-leads-hyphenate-series-a",
+  "publishedAt": "2026-10-28T03:07:00+07:00",
+  "section": "deals",
+  "tags": ["banking"],
+  "company": "Hyphenate",
+  "headline": "Nexus Venture Partners led a $45 million Series A for Hyphenate",
+  "body": "Hyphenate, the autonomous finance platform for the office of the CFO, announced a $45 million Series A led by Nexus Venture Partners. Participation came from B Capital and existing investors including Foundation Capital, BoldCap and Gaia Ventures.",
+  "note": "Hyphenate describes the shift as finance AI moving from helping teams work faster to taking responsibility for the work itself. That is the company's own framing.",
+  "sources": [
+    { "name": "Finextra", "url": "https://www.finextra.com/pressarticle/111474/hyphenate-raises-45m-for-autonomous-finance-agents" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "The first wave of finance AI helped teams work faster. The next is taking responsibility for the work itself." },
+    { "source": 0, "text": "Hyphenate, the autonomous finance platform for the office of the CFO, today announced a $45 million Series A led by Nexus Venture Partners, with participation from B Capital and existing investors including Foundation Capital, BoldCap and Gaia Ventures." }
+  ]
+}

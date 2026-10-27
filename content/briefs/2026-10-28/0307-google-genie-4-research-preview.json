@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-28-google-genie-4-research-preview",
+  "publishedAt": "2026-10-28T03:07:00+07:00",
+  "section": "models",
+  "tags": ["banking"],
+  "company": "Google",
+  "headline": "Google's Genie 4 world model is rolling out as a research preview",
+  "body": "Google announced Genie 4, a world model with enhanced photorealism and native audio. It is rolling out as a research preview for trusted testers, starting with Google AI Ultra subscribers in Project Genie and early access partners of the Gemini API and Google AI Studio.",
+  "note": "Google says it is gathering feedback before a wider release, and its own examples are training environments for robots and agents. For banks the link is indirect.",
+  "sources": [
+    { "name": "Google DeepMind", "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Today, we are announcing Genie 4, our new world model, which unlocks unprecedented realism and improves real-time interactive simulation." },
+    { "source": 0, "text": "Genie 4 delivers enhanced photorealism, fluid movement, and native audio." },
+    { "source": 0, "text": "We have started rolling Genie 4 out as a research preview for trusted testers" },
+    { "source": 0, "text": "starting with Google AI Ultra subscribers in Project Genie and early access partners of the Gemini API and Google AI Studio." },
+    { "source": 0, "text": "gathering feedback before we release it to consumers and developers" },
+    { "source": 0, "text": "Genie 4 advances our ability to create safe, infinitely variable simulations that can help with everything from developing training environments for robots and agents" }
+  ]
+}

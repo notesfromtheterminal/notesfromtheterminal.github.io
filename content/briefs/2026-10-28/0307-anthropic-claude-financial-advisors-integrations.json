@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-28-anthropic-claude-financial-advisors-integrations",
+  "publishedAt": "2026-10-28T03:07:00+07:00",
+  "section": "models",
+  "tags": ["banking"],
+  "company": "Anthropic",
+  "headline": "Anthropic adds FINNY, Jump and Conquest integrations to Claude for Financial Advisors",
+  "body": "Anthropic says the new integrations bring prospecting intelligence, client meeting context and financial planning capabilities into Claude. The integrations are with FINNY, Jump and Conquest.",
+  "note": "For wealth managers, prospecting, client meeting and planning work now sits inside the same assistant.",
+  "sources": [
+    { "name": "Finextra", "url": "https://www.finextra.com/pressarticle/111473/anthropic-expands-claude-for-financial-advisors-with-ne-integrations" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Today, Anthropic announced the next phase of Claude for Financial Advisors, introducing new integrations with FINNY, Jump and Conquest that bring prospecting intelligence, client meeting context and financial planning capabilities directly into Claude." }
+  ]
+}
