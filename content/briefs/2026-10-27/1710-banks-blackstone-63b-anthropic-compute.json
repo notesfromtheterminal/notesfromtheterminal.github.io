@@ -1,0 +1,46 @@
+{
+  "id": "2026-10-27-banks-blackstone-63b-anthropic-compute",
+  "publishedAt": "2026-10-27T17:10:00+07:00",
+  "section": "deals",
+  "tags": [
+    "banking",
+    "models"
+  ],
+  "star": true,
+  "company": "Bank of America",
+  "headline": "Bank of America, Blackstone, Citi and Morgan Stanley back $63B Anthropic compute deal",
+  "body": "Bank of America, Blackstone, Citi and Morgan Stanley are the Lead Financial Partners on a $63 billion transaction to enable the deployment of AI compute capacity for Anthropic, using Broadcom technology. The transaction runs through a newly formed special purpose vehicle that buys Broadcom XPU AI accelerators and networking solutions to be leased to Anthropic, with expected deliveries starting in calendar 2027.",
+  "note": "Bank of America, Citi and Morgan Stanley arrange the first-lien portion while Blackstone provides the committed second lien, and Broadcom backs the first lien with residual value support.",
+  "figure": {
+    "value": "$63B",
+    "label": "transaction to deploy AI compute for Anthropic"
+  },
+  "sources": [
+    {
+      "name": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/bank-of-america-blackstone-citi-and-morgan-stanley-announce-landmark-63-billion-financing-structure-to-enable-ai-compute-capacity-in-partnership-with-broadcom-302919849.html"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Bank of America (NYSE: BAC ), Blackstone (NYSE: BX ), Citi (NYSE: C ) and Morgan Stanley (NYSE: MS ) (the \"Lead Financial Partners\") today announced a $63 billion transaction to enable the deployment of AI compute capacity, leveraging Broadcom Inc.'s (NASDAQ: AVGO ) technology, for Anthropic."
+    },
+    {
+      "source": 0,
+      "text": "This transaction is part of the strategic compute capacity agreement previously announced by Broadcom, with expected deliveries starting in calendar 2027."
+    },
+    {
+      "source": 0,
+      "text": "The transaction will be executed through a newly formed special purpose vehicle (\"SPV\") with committed financing from the Lead Financial Partners to support the purchase of Broadcom XPU AI accelerators and networking solutions to be leased to Anthropic."
+    },
+    {
+      "source": 0,
+      "text": "The first lien portion of the financing is being arranged by Bank of America, Citi and Morgan Stanley, with Blackstone as the sole provider of the committed portion of the second lien financing."
+    },
+    {
+      "source": 0,
+      "text": "Broadcom is providing residual value support to the SPV for the amount equivalent to the first lien portion of the financing."
+    }
+  ]
+}

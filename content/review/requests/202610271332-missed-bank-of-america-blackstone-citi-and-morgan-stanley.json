@@ -1,6 +1,0 @@
-{
-  "kind": "MISSED",
-  "subject": "Bank of America, Blackstone, Citi and Morgan Stanley line up $63 billion to finance Broadcom AI chips for Anthropic",
-  "at": "2026-10-27T06:32:21.469Z",
-  "text": "Source: the joint release on PR Newswire https://www.prnewswire.com/news-releases/bank-of-america-blackstone-citi-and-morgan-stanley-announce-landmark-63-billion-financing-structure-to-enable-ai-compute-capacity-in-partnership-with-broadcom-302919849.html (source.mjs reads it and finds \"63 billion\", \"Anthropic\", \"second lien\", \"residual\" and \"2027\"). Broadcom's own investor page returns an error to source.mjs; Reuters via Investing.com is also unreadable.\nWhat (26 Oct): a new SPV buys Broadcom XPU accelerators and networking gear and leases them to Anthropic. Bank of America, Citi and Morgan Stanley arrange the first-lien financing; Blackstone is the sole committed second-lien lender. Broadcom gives residual value support. Deliveries start in calendar 2027.\nWhy it fits: big banks financing a major lab's compute is a must-not-miss lab-finance story with wide coverage, and a top-beat deal story. Not covered by the 22:00, 03:00 or 07:00 runs. (Filed by Site Watch, relayed by Marc.)"
-}
