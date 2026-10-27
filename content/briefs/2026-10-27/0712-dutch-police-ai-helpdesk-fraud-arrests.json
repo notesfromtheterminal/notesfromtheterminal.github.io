@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-27-dutch-police-ai-helpdesk-fraud-arrests",
+  "publishedAt": "2026-10-27T07:12:00+07:00",
+  "section": "banking",
+  "tags": ["payments"],
+  "headline": "Dutch police arrest two suspects in bank fraud that allegedly used AI-generated calls",
+  "body": "Rotterdam police arrested two suspects in a bank-helpdesk fraud that allegedly caused around €380,000 in losses for 170 victims in just three weeks. The suspects allegedly used AI-generated phone calls and a fake banking app to copy victims' bank cards remotely, allowing accomplices to withdraw thousands of euros. A Rotterdam court ruled on Tuesday that both men must remain in custody for at least another 90 days.",
+  "note": "Victims were instructed to download an app, and police described this technical method as one they had not encountered before.",
+  "sources": [
+    { "name": "NL Times", "url": "https://nltimes.nl/2026/10/21/police-arrest-two-suspects-ai-powered-bank-fraud-cost-victims-eu380000" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Rotterdam police arrested two suspects accused of a new form of bank-helpdesk fraud." },
+    { "source": 0, "text": "The operation allegedly caused around €380,000 in losses for 170 victims in just three weeks." },
+    { "source": 0, "text": "The suspects allegedly used AI-generated phone calls and a fake banking app to copy victims' bank cards remotely, allowing accomplices to withdraw thousands of euros." },
+    { "source": 0, "text": "A Rotterdam court's pretrial detention chamber ruled on Tuesday that both men must remain in custody for at least another 90 days while the investigation continues." },
+    { "source": 0, "text": "Victims were instructed to download an app and hold their bank cards against their phones to scan them." },
+    { "source": 0, "text": "Police described this technical method as one they had not encountered before." },
+    { "source": 0, "text": "The investigation began in mid-September, when Dutch banks reported cases of the new fraud method through the Electronic Crimes Task Force (ECTF), a partnership involving banks, police and prosecutors that shares information and expertise to tackle financial and digital crime." }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-27-first-internet-bank-sba-review-times",
+  "publishedAt": "2026-10-27T07:11:00+07:00",
+  "section": "banking",
+  "tags": [],
+  "company": "First Internet Bank",
+  "headline": "AI agents cut SBA compliance review times, according to a case study",
+  "body": "First Internet Bank of Indiana has cut compliance review times for Small Business Administration (SBA) loan applicants by 87% using AI agents, according to a case study from Bretton AI. Reviews that took eight to 10 hours now take less than an hour.",
+  "note": "The case is about capacity, with the bank growing and more files for the same analysts. The $6 billion-asset digital bank plans to use the freed capacity to take on more business, according to PYMNTS.",
+  "figure": { "value": "-87%", "label": "change in SBA compliance review times, per a Bretton AI case study" },
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/banking/2026/first-internet-bank-bets-ai-means-more-loans-not-fewer-people/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "First Internet Bank of Indiana has cut compliance review times for Small Business Administration (SBA) loan applicants by 87% using AI agents, according to a case study from artificial intelligence compliance company Bretton AI ." },
+    { "source": 0, "text": "Reviews that took eight to 10 hours now take less than an hour." },
+    { "source": 0, "text": "The $6 billion-asset digital bank plans to use the freed capacity to take on more business, not to reduce headcount." },
+    { "source": 0, "text": "The bank was already growing." }
+  ]
+}
