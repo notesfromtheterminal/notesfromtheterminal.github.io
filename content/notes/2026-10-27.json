@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-27",
+  "publishedAt": "2026-10-27T07:00:00+07:00",
+  "title": "Anthropic opens its books as Musk warns on AI debt",
+  "dek": "Anthropic's filing, Musk's neocloud warning and an Apollo economist's view sit beside a bank buying the AI startup it has worked with.",
+  "lead": "2026-10-26-anthropic-files-s-1-ipo",
+  "stories": [
+    "2026-10-26-itau-buys-neospace",
+    "2026-10-26-apollo-slok-zero-financial-payoff-outside-tech",
+    "2026-10-26-musk-neoclouds-guppy-level-death"
+  ],
+  "body": [
+    {
+      "head": "Anthropic opens its books",
+      "text": "Anthropic filed its Form S-1 with the Securities and Exchange Commission and said it intends to list on the Nasdaq Global Select Market under the symbol \"ANT\", with the price range not yet determined. In the filing, Anthropic said its revenue for the six months ended June 30 was $16.3 billion, and it reported a net loss of $80.7 billion, which TechCrunch says was largely driven by noncash accounting adjustments tied to convertible debt.",
+      "support": [
+        "The artificial intelligence startup filed its Form S-1 with the Securities and Exchange Commission .",
+        "Announcing the IPO filing in a press release , Anthropic said: “Anthropic intends to list its Class A common stock on the Nasdaq Global Select Market under the symbol ‘ANT.’ The number of shares of Class A common stock to be offered and the price range for the proposed offering have not yet been determined.”",
+        "Anthropic said in its filing that its revenue for the six months ended June 30 was $16.3 billion, up from $1.2 billion during the same period in 2025, equaling an increase of 1,300%.",
+        "Anthropic’s net loss, however, hit $80.7 billion, which was largely driven by noncash accounting adjustments tied to convertible debt."
+      ]
+    },
+    {
+      "head": "Itaú agrees to buy the AI startup it has worked with",
+      "text": "Itaú Unibanco entered into a Share Purchase Agreement for all shares of NeoSpace, a Brazilian artificial intelligence startup that has been developing models trained on Itaú's proprietary data for nearly two years. The purchase price will be BRL 2,925,000,000.00, with an installment payable at closing and the rest deferred over five years, and Itaú says the relationship has already delivered results in credit, CRM (customer relationship management) and fraud prevention. Closing is subject to approval by the Brazilian Antitrust Authority (CADE) and the Central Bank of Brazil.",
+      "support": [
+        "Ita&uacute; Unibanco Holding S.A. (the “Company”) hereby informs its shareholders and the market in general that it has entered into a Share Purchase Agreement for the acquisition, by the Company and/or its affiliates (“Ita&uacute;”), of all shares issued by NeoSpace A.I. Technologies Ltda. (“NeoSpace”).",
+        "NeoSpace has been providing services to Ita&uacute; for nearly two years by developing models trained on Ita&uacute;’s proprietary data.",
+        "The purchase price for the acquisition will be BRL 2,925,000,000.00, comprising an installment payable at closing and the remaining installments deferred over a five-year period, subject to certain conditions.",
+        "The acquisition strengthens the ongoing relationship between NeoSpace and Ita&uacute;, which has already delivered significant and transformative results in areas such as credit, CRM (customer relationship management), and fraud prevention.",
+        "NeoSpace is a Brazilian artificial intelligence startup specialized in the development of foundational models trained on large-scale datasets.",
+        "The closing of the transaction is subject to the approvals of certain conditions precedent, including prior approval by the Brazilian Antitrust Authority (CADE) and the Central Bank of Brazil, as well as other customary conditions applicable to transactions of this nature."
+      ]
+    },
+    {
+      "head": "The payoff question outside tech",
+      "text": "Torsten Slok, the chief economist at Apollo Global Management, said AI \"has delivered zero financial payoff to corporate America outside of tech\". He focuses on what he calls the S&P 493, the S&P 500 minus Alphabet, Amazon, Apple, Meta, Microsoft, Nvidia and Tesla, and finds that profit margins and revenue per worker appear to be flat.",
+      "support": [
+        "AI hasn’t benefited the bottom line of any big corporations outside the tech industry, according to a note recently published by the chief economist at Apollo Global Management (the private equity giant that used to own TechCrunch).",
+        "Apollo’s Torsten Slok focuses on what he calls the S&P 493 — the S&P 500, minus Alphabet, Amazon, Apple, Meta, Microsoft, Nvidia, and Tesla — finding that profit margins and revenue per worker appear to be flat, with no evidence that AI is improving productivity.",
+        "“Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech,” Slok said."
+      ]
+    },
+    {
+      "head": "Musk says debt nearly shut for firms without other revenue",
+      "text": "Elon Musk said on X that debt markets have almost entirely shut off access to money for any company that doesn't have substantial revenue independent of AI data centers, and that more than 200 neoclouds will see \"guppy-level death and consolidation\". Musk's SpaceX operates its own data centers through which it sells computing capacity, and CNBC describes it as a direct competitor to the neoclouds, which also rent compute. CNBC adds that CoreWeave and Nebius are down more than 30% over the past month.",
+      "support": [
+        "\"As of the past few weeks, debt markets have almost entirely shut off access to money for any company that doesn't have substantial revenue independent of AI data centers,\" Musk, CEO of SpaceX and Tesla , said on a post on X on Sunday.",
+        "SpaceX and Tesla CEO Elon Musk said more than 200 neoclouds are \"going to see guppy-level death and consolidation.\"",
+        "SpaceX is a direct competitor to the neoclouds which also rent compute.",
+        "Musk's SpaceX operates its own data centers through which it sells computing capacity.",
+        "Neocloud stocks have taken a hammering over the past month, with CoreWeave and Nebius down more than 30% while Iren has tanked 40%."
+      ]
+    },
+    {
+      "head": "What we can watch",
+      "text": "Put side by side, these four stories each concern how AI is paid for or what it returns. For those of us in credit and risk, the practical questions are which AI suppliers we rely on, how they are financed, and whether the gains we are promised show up in our own margins."
+    }
+  ]
+}
