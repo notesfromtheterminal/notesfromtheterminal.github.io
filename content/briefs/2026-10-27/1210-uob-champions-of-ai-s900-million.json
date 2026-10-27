@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-27-uob-champions-of-ai-s900-million",
+  "publishedAt": "2026-10-27T12:10:00+07:00",
+  "section": "sea",
+  "tags": ["banking"],
+  "company": "UOB",
+  "headline": "UOB aims for S$900 million in economic value from AI by 2030",
+  "body": "UOB aims to generate S$900 million in economic value from AI initiatives by 2030, under Enterprise Singapore's Champions of AI programme. It has deployed more than 300 AI and advanced analytics use cases, according to Fintech News Singapore, and is equipping around 32,000 employees with AI, data and blockchain skills.",
+  "note": "Stating the aim as economic value gives finance teams a figure they can check against results later. The programme's stated aim is to move past pilots to enterprise-wide change, which is the test that matters for credit and compliance teams.",
+  "sources": [{ "name": "Fintech News Singapore", "url": "https://fintechnews.sg/139741/ai/uob-champions-of-ai-900-million/" }],
+  "evidence": [
+    { "source": 0, "text": "UOB aims to generate S$900 million in economic value from AI initiatives by 2030 as part of Enterprise Singapore’s Champions of AI programme." },
+    { "source": 0, "text": "UOB has deployed more than 300 AI and advanced analytics use cases, alongside over 30 domain-specific knowledge chatbots." },
+    { "source": 0, "text": "On workforce development, UOB is equipping around 32,000 employees with AI, data and blockchain skills." },
+    { "source": 0, "text": "The national initiative supports Singapore-based companies in adopting AI across their operations, moving beyond pilot projects towards enterprise-wide transformation." }
+  ]
+}
