@@ -22,6 +22,9 @@ const editDir = (date) => path.join(tmpdir(), `nftt-review-edit-${date}`);
 const git = (...a) => execFileSync('git', a, { cwd: p(), encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] }).trim();
 // Today in Jakarta: a note dated earlier can no longer publish, so an old branch is left alone.
 const today = () => new Date(Date.now() + 7 * 3600_000).toISOString().slice(0, 10);
+// After 13:00 WIB on its own date a note is a missed morning: it is left alone, so it never
+// publishes late beside the next one.
+const stale = (date) => date < today() || (date === today() && new Date(Date.now() + 7 * 3600_000).getUTCHours() >= 13);
 
 // Open notes from git alone: the GitHub API refuses unauthenticated requests from shared
 // cloud addresses. A note branch is open until its note is on main, and only while its date is today or later.
@@ -34,7 +37,7 @@ export function openNotes() {
       const [sha, ref] = line.split('\t');
       return { sha, date: ref.slice('refs/heads/claude/note-'.length) };
     })
-    .filter((n) => /^\d{4}-\d{2}-\d{2}$/.test(n.date) && n.date >= today())
+    .filter((n) => /^\d{4}-\d{2}-\d{2}$/.test(n.date) && !stale(n.date))
     .filter((n) => {
       try {
         git('cat-file', '-e', `origin/main:content/notes/${n.date}.json`);
