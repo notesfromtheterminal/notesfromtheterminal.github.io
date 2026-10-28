@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-28-meta-muse-singapore-launch",
+  "publishedAt": "2026-10-28T12:06:00+07:00",
+  "section": "sea",
+  "tags": ["models"],
+  "company": "Meta",
+  "headline": "Meta launched its personal AI agent Muse in Singapore",
+  "body": "Meta has launched its personal AI agent Muse in Singapore, with local launch partners including Shopee, Grab, Singapore Airlines and Agoda. Fintech News Singapore says users must approve sensitive actions such as making purchases, and that Muse stores login credentials without exposing passwords or payment details to the agent.",
+  "note": "For banks and card issuers, the approval step on purchases is the control to watch as consumer agents move into shopping and travel apps.",
+  "sources": [
+    { "name": "Fintech News Singapore", "url": "https://fintechnews.sg/139860/ai/meta-muse-ai-agent-singapore/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Meta has launched its personal AI agent Muse in Singapore, allowing users to manage everyday tasks across shopping, travel and productivity apps." },
+    { "source": 0, "text": "The AI agent also supports services from local launch partners including Shopee , Grab , Singapore Airlines , Agoda , ShopBack , Klook , Trip.com and Lazada ." },
+    { "source": 0, "text": "Users control which services Muse can access and must approve sensitive actions such as sending emails or making purchases." },
+    { "source": 0, "text": "Muse runs on a cloud-based system called Muse Secure VM, which stores data and login credentials for connected services without exposing passwords or payment details to the AI agent." }
+  ]
+}
