@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-28-uob-agents-enter-finance-gradually",
+  "publishedAt": "2026-10-28T17:08:00+07:00",
+  "section": "sea",
+  "tags": ["payments"],
+  "headline": "UOB report says AI agents will enter finance gradually",
+  "body": "A UOB report says AI agents will first handle simple, repetitive tasks with clear rules before moving into more complex financial decisions. According to the experts it draws on, machine-to-machine payments are widely seen as the leading area for near-term large-scale deployments.",
+  "note": "For banks and payment firms, machine-to-machine payments are the first flows to watch as agents start paying for computing, data and APIs.",
+  "sources": [
+    { "name": "Fintech News Singapore", "url": "https://fintechnews.sg/139830/ai/ai-agents-will-enter-finance-gradually-uob-report/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "AI Agents Will Enter Finance Gradually: UOB Report" },
+    { "source": 0, "text": "According to the experts, adoption of AI agents in the financial sector will follow a gradual and uneven path rather than a single industry-wide transformation." },
+    { "source": 0, "text": "Instead, the technology will first handle simple, repetitive tasks with clear rules, before moving into more complex financial decisions and autonomous capital movement, according to a new report by the United Overseas Bank (UOB)." },
+    { "source": 0, "text": "The report, released in October 2026, draws insights from eight respondents spanning the payments, infrastructure, and digital asset stack." },
+    { "source": 0, "text": "Machine-to-machine payments are widely seen as the leading area for near-term large-scale deployments of agentic finance." },
+    { "source": 0, "text": "This is because payments for computing resources, data services, APIs and other digital inputs are highly structured, repetitive and governed by clearly defined rules, making them well suited to autonomous execution." }
+  ]
+}
