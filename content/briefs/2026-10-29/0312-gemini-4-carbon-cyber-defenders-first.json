@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-29-gemini-4-carbon-cyber-defenders-first",
+  "publishedAt": "2026-10-29T03:12:00+07:00",
+  "section": "models",
+  "company": "Google DeepMind",
+  "headline": "Google will make Gemini 4 Carbon available to a subset of cyber defenders",
+  "body": "Google DeepMind announced Gemini 4 Carbon, which it calls its strongest model, and says it ranks #1 on the Artificial Analysis Intelligence Index at 59. Google will make Carbon available to a subset of cyber defenders starting this week, and says it is gathering feedback and iterating on guardrails before making it available to developers, businesses and consumers.",
+  "note": "The first users are cyber defenders, and the benchmarks in Google's post test finding, exploitation and patching of vulnerabilities. Carbon launched two weeks after Gemini 4 Argon.",
+  "sources": [
+    { "name": "Google DeepMind", "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Today, we’re announcing the next frontier model: Gemini 4 Carbon, our strongest model with state-of-the-art cybersecurity and long horizon capabilities." },
+    { "source": 0, "text": "Carbon ranks #1 on the recently updated v5.0 of Artificial Analysis Intelligence Index at 59." },
+    { "source": 0, "text": "It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and CWE-bench (71.0%) for patching." },
+    { "source": 0, "text": "Starting this week, we will make Carbon available to a subset of cyber defenders and will gradually phase access to additional trusted partners through our Fairwind Program ." },
+    { "source": 0, "text": "We’re continuing to gather feedback and iterate on guardrails before making Carbon available to developers, businesses, and consumers via our product surfaces as soon as possible." },
+    { "source": 0, "text": "Carbon excels across key external benchmarks (evaluated without guardrails):" },
+    { "source": 0, "text": "Building on Gemini 4 Argon , which was launched two weeks ago, Carbon illustrates the pace at which we’re pushing the frontier forward." }
+  ]
+}

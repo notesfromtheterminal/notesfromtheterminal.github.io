@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-29-california-ab-1609-human-customer-service",
+  "publishedAt": "2026-10-29T03:14:00+07:00",
+  "section": "rules",
+  "headline": "California law requires companies to connect customers to a person within 15 minutes",
+  "body": "Gov. Gavin Newsom signed AB 1609, the Right to Human Customer Service Act, on Sept. 28. The law takes effect Jan. 1, 2027 and requires companies with more than $500 million in annual revenue to connect a customer with a person within 15 minutes of the request, or to book a call-back within one business day.",
+  "note": "For companies running AI service bots, the law turns the handoff into a fixed clock, and only public prosecutors can enforce it.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/california-puts-15-minute-clock-ai-customer-service-handoffs/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "California’s AB 1609 takes effect Jan. 1, 2027, and gives businesses with more than $500 million in revenue 15 minutes to connect a customer with a person or book a call back, with fines of up to $5,000 per violation." },
+    { "source": 0, "text": "Gov. Gavin Newsom signed AB 1609, the Right to Human Customer Service Act , on Sept. 28." },
+    { "source": 0, "text": "The law requires companies with more than $500 million in annual revenue to connect a customer with a person within 15 minutes of the request, or to book a specific call-back time within one business day." },
+    { "source": 0, "text": "Only public prosecutors can enforce the law, with fines of up to $5,000 for a first violation and $10,000 for each one after." },
+    { "source": 0, "text": "The California Chamber of Commerce opposed the bill, arguing that a fixed clock would push agents to end calls faster to reach the next person in the queue, and that handling account issues by phone raises security risks ." }
+  ]
+}

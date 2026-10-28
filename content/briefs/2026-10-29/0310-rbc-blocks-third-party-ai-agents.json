@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-29-rbc-blocks-third-party-ai-agents",
+  "publishedAt": "2026-10-29T03:10:00+07:00",
+  "section": "banking",
+  "star": true,
+  "company": "Royal Bank of Canada",
+  "headline": "RBC blocks third-party personal AI agents from online banking",
+  "body": "Royal Bank of Canada (RBC) has decided to block third-party personal AI agents from direct access to online banking, due to concerns about fraud and consumer harm. According to the article, the connections customers have used to let those agents reach their RBC accounts will stop working.",
+  "note": "RBC's reasoning is that personal agents need access to accounts and may store passwords, and that the stakes go up when something goes wrong. Its customers can still use the bank's own website, app and service team.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/banking/2026/rbc-blocks-third-party-personal-ai-agents-over-fraud-risks/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Royal Bank of Canada ( RBC ) has decided to block third-party personal AI agents from direct access to online banking and other RBC digital properties due to concerns about fraud and consumer harm, the bank told its customers in an article posted Tuesday (Oct. 27)." },
+    { "source": 0, "text": "The connections customers have used to allow third-party agents to reach their RBC accounts will stop working, according to the article." },
+    { "source": 0, "text": "Customers themselves can continue to access RBC digital banking through its official website and mobile app, the bank’s own digital tools and features, and the bank’s customer service team, per the article." },
+    { "source": 0, "text": "\"To perform these tasks, personal AI agents need access to your online accounts, including financial ones, and may store your passwords to get there,\" RBC said." },
+    { "source": 0, "text": "\"But as these systems become more autonomous, the stakes go up when something goes wrong — from fraud and consumer harm to risks that could ripple more broadly through the financial system." }
+  ]
+}
