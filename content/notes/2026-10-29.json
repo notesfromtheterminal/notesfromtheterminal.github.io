@@ -1,8 +1,8 @@
 {
   "date": "2026-10-29",
   "publishedAt": "2026-10-29T07:00:00+07:00",
-  "title": "AI starts with rules, and owners must keep up",
-  "dek": "Agents are taking on rule-bound bank work first, while lawyers and banks ask who answers for the results.",
+  "title": "AI works first on clear rules, and banks must explain loans",
+  "dek": "Agents will first handle simple tasks with clear rules, while a law firm says that in many cases nobody at the bank formally signed off on AI in lending.",
   "lead": "2026-10-28-outside-gc-ai-lending-oversight",
   "stories": [
     "2026-10-28-natwest-adclear-marketing-compliance",
@@ -36,7 +36,7 @@
     },
     {
       "head": "Customers hold the log-in",
-      "text": "On the customer side, Bank of America emailed customers to ask them to never share their username and password with an outside service, including an AI-enabled tool or agent. Account agreements at most banks hold customers responsible for anyone they give their log-in to, according to the report.",
+      "text": "On the customer side, Bank of America emailed customers to ask them to never share their username and password with an outside service, including an AI-enabled tool or agent. Account agreements at most banks hold customers responsible for anyone they give their log-in to, according to TechCrunch.",
       "support": [
         "In an email blast to customers titled “Protecting your finances in the Al World,” Bank of America urged customers to never share their username and password with another person or an outside service, “including an Al-enabled tool or agent that offers to act on your behalf.”",
         "Account agreements at most banks hold customers responsible for anyone they give their log-in to."
