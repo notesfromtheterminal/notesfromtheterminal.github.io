@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-28-robinhood-banking-deposits",
+  "publishedAt": "2026-10-28T07:10:00+07:00",
+  "section": "payments",
+  "tags": ["banking"],
+  "star": false,
+  "company": "Robinhood",
+  "headline": "Robinhood Banking has attracted nearly $5 billion in deposits",
+  "body": "Robinhood Banking has attracted nearly $5 billion in deposits from more than 350,000 funded customers, according to the company’s earnings release. Tenev said customers have put more than $250 million into agentic accounts.",
+  "note": "Deposits held in the app are one part of the plan, with payments and agent-led trading next to them.",
+  "figure": { "value": "$5B", "label": "deposits in Robinhood Banking, per the earnings release" },
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/earnings/2026/robinhood-looks-beyond-crypto-to-banking-and-agentic-trading/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Robinhood Banking has attracted nearly $5 billion in deposits from more than 350,000 funded customers, according to the company’s earnings release." },
+    { "source": 0, "text": "Customers have put more than $250 million into agentic accounts, Tenev said." },
+    { "source": 0, "text": "Tenev said customers can now use agentic trading directly within Robinhood’s app, without relying on an outside AI tool." },
+    { "source": 0, "text": "CEO Vlad Tenev outlined a future built around everyday banking, payments sent as easily as a text message and artificial intelligence agents that help customers understand investments and trade." }
+  ]
+}

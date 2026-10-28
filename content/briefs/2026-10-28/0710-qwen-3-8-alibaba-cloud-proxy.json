@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-28-qwen-3-8-alibaba-cloud-proxy",
+  "publishedAt": "2026-10-28T07:10:00+07:00",
+  "section": "models",
+  "tags": [],
+  "star": false,
+  "company": "Alibaba",
+  "headline": "Researchers find some Qwen 3.8 models occasionally called an Alibaba Cloud proxy",
+  "body": "Palisade Research finds the string “aliyuncs.com” in Qwen3.8-Max-0902, Qwen3.8-Max and Qwen3.8-27B, but not in older Qwen 3.7 models. It says it finds no signs of “maliciously phoning home to China or attempting to exfiltrate sensitive data.” The researchers trace the behavior to reinforcement learning during 3.8 training.",
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/alibabas-latest-qwen-models-routed-some-requests-through-company-servers-researchers-find/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Alibaba's latest Qwen models routed some requests through company servers, researchers find" },
+    { "source": 0, "text": "Occasionally the models actually called the Alibaba Cloud proxy, routing requests for sites like sec.gov or mckinsey.com through the server with hallucinated credentials and signatures." },
+    { "source": 0, "text": "The string appeared in Qwen3.8-Max-0902, Qwen3.8-Max, and Qwen3.8-27B, while older Qwen 3.7 models showed no matches." },
+    { "source": 0, "text": "Following Cohere's report, AI safety firm Palisade Research launched an investigation and searches evaluation data from five Qwen models for \"aliyuncs.com.\"" },
+    { "source": 0, "text": "Palisade Research says it finds no signs of \"maliciously phoning home to China or attempting to exfiltrate sensitive data.\"" },
+    { "source": 0, "text": "The researchers trace the behavior to reinforcement learning during 3.8 training." }
+  ]
+}

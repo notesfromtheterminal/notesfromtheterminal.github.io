@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-28-bank-of-america-ai-agent-logins",
+  "publishedAt": "2026-10-28T07:10:00+07:00",
+  "section": "banking",
+  "tags": ["payments"],
+  "star": false,
+  "company": "Bank of America",
+  "headline": "Bank of America urged customers not to share their password with AI agents",
+  "body": "In an email to customers, Bank of America urged them to never share their username and password with another person or an outside service, including an AI-enabled tool or agent. A spokesperson confirmed the authenticity of the email, and account agreements at most banks hold customers responsible for anyone they give their log-in to.",
+  "note": "Banks are still exploring how AI agents fit into the financial world, and customers stay responsible for activity resulting from that access.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "In an email blast to customers titled “Protecting your finances in the Al World,” Bank of America urged customers to never share their username and password with another person or an outside service, “including an Al-enabled tool or agent that offers to act on your behalf.”" },
+    { "source": 0, "text": "A spokesperson for Bank of America confirmed the authenticity of the bank’s email that was posted to social media ." },
+    { "source": 0, "text": "Account agreements at most banks hold customers responsible for anyone they give their log-in to." },
+    { "source": 0, "text": "“If you do share your credentials,” its email reads, “keep in mind that you’re responsible for activity resulting from that access.”" },
+    { "source": 0, "text": "This latest warning comes as banks are still exploring how AI agents fit into the financial world but are reportedly grappling with unauthorized agents accessing their customers’ money ." }
+  ]
+}
