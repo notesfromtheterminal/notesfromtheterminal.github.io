@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-28-outside-gc-ai-lending-oversight",
+  "publishedAt": "2026-10-28T22:13:00+07:00",
+  "section": "rules",
+  "tags": ["banking"],
+  "company": "Outside GC",
+  "headline": "Law firm warns AI tools score borrowers and draft loan memos without formal sign-off",
+  "body": "Outside GC, a firm that provides outside legal counsel to companies, warns that AI tools now score borrowers and write first drafts of loan approval memos, and that in many cases nobody at the bank formally signed off on that change. Banks must be able to explain loan decisions to regulators, borrowers and other lenders, the article said.",
+  "note": "The firm's advice is to keep a map of where AI appears in lending and a record when a person overrides the tool.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-is-changing-how-banks-decide-who-gets-business-loan/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Artificial intelligence tools now score borrowers, sort through financial statements and write first drafts of loan approval memos. In many cases, nobody at the bank formally signed off on that change." },
+    { "source": 0, "text": "That’s the warning from Outside GC , a firm that provides outside legal counsel to companies, in an article by Partner Kristin Kreuder ." },
+    { "source": 0, "text": "Banks must be able to explain loan decisions to regulators, borrowers and other lenders, the article said." },
+    { "source": 0, "text": "Banks should keep an up-to-date map of where AI shows up in the lending process, according to the article. Loan files should show real human review. When a person overrides the tool, the bank should record it and explain why." }
+  ]
+}

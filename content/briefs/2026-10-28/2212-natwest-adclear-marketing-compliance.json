@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-28-natwest-adclear-marketing-compliance",
+  "publishedAt": "2026-10-28T22:12:00+07:00",
+  "section": "banking",
+  "tags": [],
+  "company": "NatWest",
+  "headline": "NatWest has brought in Adclear AI agents for marketing compliance, with approval times cut by 80%",
+  "body": "NatWest has brought in AI agents from Adclear to overhaul how compliance is embedded across its marketing and communications operations, Finextra reports, slashing approval times by 80%.",
+  "note": "Marketing sign-off is a routine compliance queue, the kind of back-office work banks are starting to hand to agents.",
+  "figure": { "value": "-80%", "label": "approval times for marketing compliance, per Finextra" },
+  "sources": [
+    { "name": "Finextra", "url": "https://www.finextra.com/newsarticle/48660/natwest-slashes-marketing-compliance-approval-times-with-adclear-agents" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "NatWest has brought in AI agents from Adclear to overhaul how compliance is embedded across its marketing and communications operations, slashing approval times by 80%." }
+  ]
+}
