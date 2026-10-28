@@ -1,0 +1,7 @@
+{
+  "note": "2026-10-29",
+  "commit": "c8c7e516d7a2ad138f1d59cbc141f780d9593ba3",
+  "verdict": "APPROVED",
+  "at": "2026-10-28T16:48:45.707Z",
+  "notes": "Fixed by the review run, then approved:\n1. Title: note said \"AI starts with rules, and owners must keep up\" (owners/keep up not in any source). Sources: \"first handle simple, repetitive tasks with clear rules\"; \"Banks must be able to explain loan decisions\". New: \"AI works first on clear rules, and banks must explain loans\".\n2. Dek: note said \"lawyers and banks ask who answers for the results\" (banks asking is not in sources; only Outside GC warns). Source: \"In many cases, nobody at the bank formally signed off on that change.\" New: \"Agents will first handle simple tasks with clear rules, while a law firm says that in many cases nobody at the bank formally signed off on AI in lending.\"\n3. Section 4: \"according to the report\" pointed to a report; the source is a TechCrunch article. New: \"according to TechCrunch\"."
+}
