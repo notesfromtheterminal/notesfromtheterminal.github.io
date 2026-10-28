@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-29",
+  "publishedAt": "2026-10-29T07:00:00+07:00",
+  "title": "AI starts with rules, and owners must keep up",
+  "dek": "Agents are taking on rule-bound bank work first, while lawyers and banks ask who answers for the results.",
+  "lead": "2026-10-28-outside-gc-ai-lending-oversight",
+  "stories": [
+    "2026-10-28-natwest-adclear-marketing-compliance",
+    "2026-10-28-uob-agents-enter-finance-gradually",
+    "2026-10-28-bank-of-america-ai-agent-logins"
+  ],
+  "body": [
+    {
+      "head": "Rule-bound work goes first",
+      "text": "A UOB report says AI agents will first handle simple, repetitive tasks with clear rules, before moving into more complex financial decisions. NatWest has brought in AI agents from Adclear to overhaul how compliance is embedded across its marketing and communications operations, slashing approval times by 80%, according to Finextra.",
+      "support": [
+        "Instead, the technology will first handle simple, repetitive tasks with clear rules, before moving into more complex financial decisions and autonomous capital movement, according to a new report by the United Overseas Bank (UOB).",
+        "NatWest has brought in AI agents from Adclear to overhaul how compliance is embedded across its marketing and communications operations, slashing approval times by 80%."
+      ]
+    },
+    {
+      "head": "Lending is drifting too",
+      "text": "Outside GC, a firm that provides outside legal counsel to companies, warns that AI tools now score borrowers, sort through financial statements and write first drafts of loan approval memos. In many cases, it says, nobody at the bank formally signed off on that change.",
+      "support": [
+        "Artificial intelligence tools now score borrowers, sort through financial statements and write first drafts of loan approval memos. In many cases, nobody at the bank formally signed off on that change.",
+        "That’s the warning from Outside GC , a firm that provides outside legal counsel to companies, in an article by Partner Kristin Kreuder ."
+      ]
+    },
+    {
+      "head": "Explaining a decision",
+      "text": "The same article says banks must be able to explain loan decisions to regulators, borrowers and other lenders. Its advice: keep an up-to-date map of where AI shows up in the lending process, and when a person overrides the tool, record it and explain why.",
+      "support": [
+        "Banks must be able to explain loan decisions to regulators, borrowers and other lenders, the article said.",
+        "Banks should keep an up-to-date map of where AI shows up in the lending process, according to the article. Loan files should show real human review. When a person overrides the tool, the bank should record it and explain why."
+      ]
+    },
+    {
+      "head": "Customers hold the log-in",
+      "text": "On the customer side, Bank of America emailed customers to ask them to never share their username and password with an outside service, including an AI-enabled tool or agent. Account agreements at most banks hold customers responsible for anyone they give their log-in to, according to the report.",
+      "support": [
+        "In an email blast to customers titled “Protecting your finances in the Al World,” Bank of America urged customers to never share their username and password with another person or an outside service, “including an Al-enabled tool or agent that offers to act on your behalf.”",
+        "Account agreements at most banks hold customers responsible for anyone they give their log-in to."
+      ]
+    },
+    {
+      "head": "A map to draw this week",
+      "text": "Whatever role we hold in a bank or lender, a useful exercise is to list where an AI tool already touches our own files, and who signed off on it. Would we be able to show a regulator or a borrower where a person stepped in?"
+    }
+  ],
+  "suggestion": "A line on how your own clients ask who is accountable when an AI tool drafts part of a credit file would fit at the end."
+}
