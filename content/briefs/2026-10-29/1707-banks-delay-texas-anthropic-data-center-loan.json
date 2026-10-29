@@ -1,0 +1,37 @@
+{
+  "id": "2026-10-29-banks-delay-texas-anthropic-data-center-loan",
+  "publishedAt": "2026-10-29T17:07:00+07:00",
+  "section": "deals",
+  "tags": [
+    "banking",
+    "models"
+  ],
+  "company": "Morgan Stanley",
+  "headline": "Banks delay plans to offload part of $15B Anthropic-tied Texas data center loan",
+  "body": "Banks are delaying plans to offload part of a $15 billion loan for a data center tied to Anthropic PBC in Texas, after the state put a hold on new projects while assessing risks to its power grid. Bloomberg reports that the bond offering delay would leave the banks holding the debt on their balance sheet longer than they originally planned.",
+  "note": "A state hold on new projects can delay even a loan that lenders have already lined up, and the debt stays on bank balance sheets for longer.",
+  "figure": {
+    "value": "$15B",
+    "label": "loan led by Morgan Stanley for the Hubbard, Texas data center"
+  },
+  "sources": [
+    {
+      "name": "Bloomberg Law",
+      "url": "https://news.bloomberglaw.com/capital-markets/banks-shelve-bond-sale-for-anthropic-tied-texas-data-center"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Banks are delaying plans to offload part of a $15 billion loan to fund a data center tied to Anthropic PBC in Texas, after the state put a hold on new projects while assessing risks to its power grid."
+    },
+    {
+      "source": 0,
+      "text": "The bond offering delay, which comes as Anthropic is investing heavily on computing infrastructure ahead of its massive initial public offering , would leave the banks holding the debt on their balance sheet longer than they originally planned."
+    },
+    {
+      "source": 0,
+      "text": "Lenders, led by Morgan Stanley , have already lined up around $15 billion to finance construction of the data center in Hubbard, near ..."
+    }
+  ]
+}
