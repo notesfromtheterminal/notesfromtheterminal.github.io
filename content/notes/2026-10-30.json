@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-30",
+  "publishedAt": "2026-10-30T07:00:00+07:00",
+  "title": "Banks and Amazon are deciding who gets to front the agent",
+  "dek": "RBC blocks outside AI agents, Bank of America warns customers and Amazon expands Shop Direct, while Tencent and Visa explore how agents could complete purchases.",
+  "lead": "2026-10-29-rbc-blocks-third-party-ai-agents",
+  "stories": [
+    "2026-10-28-bank-of-america-ai-agent-logins",
+    "2026-10-29-amazon-shop-direct-ai-agents",
+    "2026-10-29-tencent-visa-ai-agent-payments"
+  ],
+  "body": [
+    {
+      "head": "RBC closes the door",
+      "text": "Royal Bank of Canada has decided to block third-party personal AI agents from direct access to online banking, and the connections customers used to let those agents reach their accounts will stop working. RBC says personal agents need access to your online accounts and may store your passwords.",
+      "support": [
+        "Royal Bank of Canada ( RBC ) has decided to block third-party personal AI agents from direct access to online banking and other RBC digital properties due to concerns about fraud and consumer harm, the bank told its customers in an article posted Tuesday (Oct. 27).",
+        "The connections customers have used to allow third-party agents to reach their RBC accounts will stop working, according to the article.",
+        "\"To perform these tasks, personal AI agents need access to your online accounts, including financial ones, and may store your passwords to get there,\" RBC said."
+      ]
+    },
+    {
+      "head": "Bank of America warns customers",
+      "text": "Bank of America urged customers to never share their username and password with an outside service, including an AI-enabled tool or agent. Account agreements at most banks hold customers responsible for anyone they give their log-in to, TechCrunch reported.",
+      "support": [
+        "In an email blast to customers titled “Protecting your finances in the Al World,” Bank of America urged customers to never share their username and password with another person or an outside service, “including an Al-enabled tool or agent that offers to act on your behalf.”",
+        "Account agreements at most banks hold customers responsible for anyone they give their log-in to."
+      ]
+    },
+    {
+      "head": "Amazon keeps shoppers home",
+      "text": "The Information reported that Amazon is expanding Shop Direct in an effort to keep shoppers coming to its site rather than using outside personal AI agents, and that it has increased the number of Shop Direct links by 2.5 times since March, to 250 million.",
+      "support": [
+        "Amazon is expanding its Shop Direct initiative, which lists products from brands that don’t sell on its site, in an effort to keep shoppers coming to its site rather than using outside personal artificial intelligence agents , The Information reported Wednesday (Oct. 28).",
+        "Since March, Amazon has increased the number of Shop Direct links by 2.5 times, to 250 million, highlighted these listings more prominently across its site, added items from new brands, and started showing more product details from these listings on its own site, according to the report."
+      ]
+    },
+    {
+      "head": "Payments explore the other path",
+      "text": "Tencent and Visa signed a memorandum of understanding to improve payment connectivity for travellers entering and leaving China, and will explore how Visa Intelligent Commerce could help AI agents find products, select items and complete purchases for eligible users while maintaining consumer control and security.",
+      "support": [
+        "Tencent and Visa will explore how Visa Intelligent Commerce could help AI agents find products, select items and complete purchases for eligible users while maintaining consumer control and security.",
+        "The companies signed a memorandum of understanding (MoU) to improve payment connectivity for travellers entering and leaving China."
+      ]
+    },
+    {
+      "head": "What to watch in your own shop",
+      "text": "Side by side, we see institutions deciding on what terms an outside agent may touch a customer account or a checkout page. If you work in a bank, a lender or a payments firm, it is worth asking where your own terms for agents are written down today, and who a customer would call when one goes wrong."
+    }
+  ]
+}
