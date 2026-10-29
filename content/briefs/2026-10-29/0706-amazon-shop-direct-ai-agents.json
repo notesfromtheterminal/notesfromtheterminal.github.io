@@ -1,0 +1,28 @@
+{
+  "id": "2026-10-29-amazon-shop-direct-ai-agents",
+  "publishedAt": "2026-10-29T07:06:00+07:00",
+  "section": "payments",
+  "tags": [
+    "models"
+  ],
+  "company": "Amazon",
+  "headline": "Amazon is expanding Shop Direct to keep shoppers off outside AI agents",
+  "body": "According to The Information, Amazon has increased its Shop Direct links 2.5 times since March, to 250 million. Shop Direct lists products from brands that don't sell on Amazon's own site.",
+  "note": "The report says the move is an effort to keep shoppers coming to Amazon's site.",
+  "sources": [
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/commerce/ecommerce/2026/amazon-expands-shop-direct-catalog-keep-shoppers-off-ai-shopping-agents/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Amazon is expanding its Shop Direct initiative, which lists products from brands that don’t sell on its site, in an effort to keep shoppers coming to its site rather than using outside personal artificial intelligence agents , The Information reported Wednesday (Oct. 28)."
+    },
+    {
+      "source": 0,
+      "text": "Since March, Amazon has increased the number of Shop Direct links by 2.5 times, to 250 million, highlighted these listings more prominently across its site, added items from new brands, and started showing more product details from these listings on its own site, according to the report."
+    }
+  ]
+}

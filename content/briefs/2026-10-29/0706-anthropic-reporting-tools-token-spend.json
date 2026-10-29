@@ -1,0 +1,36 @@
+{
+  "id": "2026-10-29-anthropic-reporting-tools-token-spend",
+  "publishedAt": "2026-10-29T07:06:00+07:00",
+  "section": "models",
+  "tags": [
+    "banking"
+  ],
+  "company": "Anthropic",
+  "headline": "Anthropic adds reporting tools showing enterprise customers the value of their token spend",
+  "body": "Anthropic has new reporting tools for enterprise customers. Managers can view a team's work, what the team produced and what it cost. Anthropic says it won't use this data for model training by default.",
+  "note": "For teams paying for tokens, return on investment is the concern, and TechCrunch says these reports are an attempt to show it.",
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Anthropic has focused on getting enterprise users to stick around and Wednesday announced a new suite of reporting tools designed to give those customers a more granular understanding of the value they get from their token spend."
+    },
+    {
+      "source": 0,
+      "text": "Using internal analytics and employee surveys, managers can view a team’s work over a given date range, what the team produced, how much it cost, and where its workflows broke down."
+    },
+    {
+      "source": 0,
+      "text": "Anthropic says it won’t use this data for model training by default."
+    },
+    {
+      "source": 0,
+      "text": "This is a clear attempt to demonstrate the return on investment of Anthropic’s tools and to show customers how to improve it — a major concern among large customers."
+    }
+  ]
+}
