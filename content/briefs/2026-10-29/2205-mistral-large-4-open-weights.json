@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-29-mistral-large-4-open-weights",
+  "publishedAt": "2026-10-29T22:05:00+07:00",
+  "section": "models",
+  "company": "Mistral",
+  "headline": "Mistral releases weights for Large 4, its largest model yet",
+  "body": "Mistral has released the weights for Mistral Large 4, which has about one trillion parameters in total, with 52 billion active per step. The company says the model beats its open rivals at coding. On Cognition's FrontierCode 2.0 benchmark, The Decoder reports, Large 4 leads open models at 19.7 percent while Claude Opus 5.5 scores 46 percent.",
+  "note": "For a bank weighing self-hosted models, open weights mean the model can run on its own hardware, but according to SGLang's docs, as The Decoder reports, the standard version runs on eight Nvidia B300 GPUs.",
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Mistral has released the weights for Mistral Large 4, its largest model yet." },
+    { "source": 0, "text": "It has about one trillion parameters in total, with 52 billion active per step." },
+    { "source": 0, "text": "The company says the model beats its open rivals at coding." },
+    { "source": 0, "text": "On Cognition's new FrontierCode 2.0 benchmark, Large 4 leads the open models at 19.7 percent. Claude Opus 5.5, however, scores 46 percent." },
+    { "source": 0, "text": "According to the docs for the inference framework SGLang, the standard version runs on eight Nvidia B300 GPUs, and a more heavily compressed variant runs on four GB300 GPUs." }
+  ]
+}

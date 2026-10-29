@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-29-doj-nvidia-hugging-face-review",
+  "publishedAt": "2026-10-29T22:06:00+07:00",
+  "section": "rules",
+  "company": "Nvidia",
+  "headline": "US Justice Department is looking into Nvidia's planned Hugging Face acquisition, Reuters sources say",
+  "body": "The US Justice Department is looking into Nvidia's planned acquisition of Hugging Face, according to two sources cited by Reuters. The deal is worth $12.93 billion, and Nvidia expects it to close in the first half of 2027. The company says Hugging Face will keep supporting partnerships with a range of chip, cloud, and AI providers.",
+  "note": "Hugging Face is where many open models are distributed, so the review is relevant to any bank or insurer that downloads open-weight models.",
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/us-antitrust-regulators-are-scrutinizing-nvidias-hugging-face-deal-and-sales-practices/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "The US Justice Department is looking into Nvidia's planned acquisition of open-source platform Hugging Face." },
+    { "source": 0, "text": "According to two sources cited by Reuters , department officials are asking whether the purchase could give Nvidia control over a key hub for distributing AI and hurt its competitors." },
+    { "source": 0, "text": "The deal is worth $12.93 billion, and Nvidia expects it to close in the first half of 2027." },
+    { "source": 0, "text": "The company says Hugging Face will keep supporting partnerships with a range of chip, cloud, and AI providers." }
+  ]
+}
