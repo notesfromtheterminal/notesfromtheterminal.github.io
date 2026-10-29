@@ -1,0 +1,40 @@
+{
+  "id": "2026-10-29-google-agents-gemini-consumers",
+  "publishedAt": "2026-10-29T12:05:00+07:00",
+  "section": "payments",
+  "tags": [
+    "models"
+  ],
+  "company": "Google",
+  "headline": "Google plans to bring enterprise AI capabilities to 1 billion Gemini users",
+  "body": "On the earnings call, CEO Sundar Pichai described plans to bring capabilities developed for enterprise customers to consumers, starting with the Gemini app’s billion users. Google also launched Universal Cart, which Chief Business Officer Philipp Schindler said helps retailers reduce abandoned purchases.",
+  "note": "PYMNTS says the Universal Commerce Protocol is the practical foundation for retailers and payments companies.",
+  "sources": [
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/earnings/2026/google-pushes-ai-agents-into-commerce-as-spending-pressures-cash-flow/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "On Wednesday’s (Oct. 28) earnings call, CEO Sundar Pichai described plans to bring capabilities developed for enterprise customers to consumers, starting with the Gemini app’s billion users."
+    },
+    {
+      "source": 0,
+      "text": "“Later this year, we will bring that same experience to consumers, obviously starting with 1 billion users in our Gemini app,” he said."
+    },
+    {
+      "source": 0,
+      "text": "Google also launched Universal Cart during the quarter, which Schindler said helps retailers preserve customer relationships and reduce abandoned purchases."
+    },
+    {
+      "source": 0,
+      "text": "For retailers and payments companies, the practical foundation is the Universal Commerce Protocol, a common framework supporting checkout across Google."
+    },
+    {
+      "source": 0,
+      "text": "Chief Business Officer Philipp Schindler said it enables direct checkout for hundreds of thousands of brands, including Chewy, Nike and Tapestry."
+    }
+  ]
+}

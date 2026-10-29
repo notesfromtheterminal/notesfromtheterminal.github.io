@@ -1,0 +1,34 @@
+{
+  "id": "2026-10-29-tencent-visa-ai-agent-payments",
+  "publishedAt": "2026-10-29T12:05:00+07:00",
+  "section": "payments",
+  "tags": [],
+  "company": "Visa",
+  "headline": "Tencent and Visa are expanding their partnership to explore AI agent payments",
+  "body": "Tencent and Visa signed a memorandum of understanding to take their partnership beyond cross-border payments. They plan to let travellers pay at participating merchants across the Weixin Pay and Visa networks.",
+  "note": "The two companies will explore how Visa Intelligent Commerce could help AI agents complete purchases for eligible users, while maintaining consumer control.",
+  "sources": [
+    {
+      "name": "Fintech News Singapore",
+      "url": "https://fintechnews.sg/139934/payments/tencent-visa-ai-payments/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Tencent and Visa are expanding their partnership beyond cross-border payments to explore transactions powered by AI agents."
+    },
+    {
+      "source": 0,
+      "text": "The companies signed a memorandum of understanding (MoU) to improve payment connectivity for travellers entering and leaving China."
+    },
+    {
+      "source": 0,
+      "text": "They plan to develop solutions that allow travellers to pay at participating merchants across the Weixin Pay and Visa networks using Tencent’s TenPay Global platform and Visa Pay."
+    },
+    {
+      "source": 0,
+      "text": "Tencent and Visa will explore how Visa Intelligent Commerce could help AI agents find products, select items and complete purchases for eligible users while maintaining consumer control and security."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "2026-10-29-alphabet-q3-cloud-revenue",
+  "publishedAt": "2026-10-29T12:05:00+07:00",
+  "section": "models",
+  "tags": [
+    "deals"
+  ],
+  "company": "Alphabet",
+  "headline": "Alphabet's Google Cloud revenue rose 103% to $30.7 billion in the third quarter",
+  "body": "Alphabet reported consolidated revenue of $127.6 billion, up 25%, and net income available to common stockholders of $26.2 billion. Google Cloud revenue rose 103% to $30.7 billion.",
+  "note": "The release says the Cloud growth was led by enterprise AI infrastructure and enterprise AI solutions.",
+  "figure": {
+    "value": "$30.7B",
+    "label": "Google Cloud revenue, Q3 2026"
+  },
+  "sources": [
+    {
+      "name": "Alphabet Q3 2026 earnings release (Exhibit 99.1, SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000080/googexhibit991q32026.htm"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Consolidated Alphabet revenues increased 25% to $127.6 billion, reflecting strong performance across the business and our 13th consecutive quarter of double-digit revenue growth."
+    },
+    {
+      "source": 0,
+      "text": "Google Cloud delivered record growth as revenues increased 103% to $30.7 billion, led by strong growth in Google Cloud Platform (GCP) across enterprise AI infrastructure and enterprise AI solutions, as well as core GCP services."
+    },
+    {
+      "source": 0,
+      "text": "Net income available to common stockholders was $26.2 billion and EPS was $2.12."
+    }
+  ]
+}
