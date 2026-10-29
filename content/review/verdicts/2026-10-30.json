@@ -1,0 +1,7 @@
+{
+  "note": "2026-10-30",
+  "commit": "fa4cba2932468be6a5382a1183d151db28359f6a",
+  "verdict": "APPROVED",
+  "at": "2026-10-29T16:47:45.785Z",
+  "notes": "Fixed by the review run, then approved:\n1. Title: \"Banks and retailers\" (only one retailer, Amazon) -> \"Banks and Amazon\".\n2. Dek: \"each set terms for outside AI agents\" overstated (BofA urged, Amazon expanded Shop Direct) -> \"RBC blocks outside AI agents, Bank of America warns customers and Amazon expands Shop Direct, while Tencent and Visa...\".\n3. Section 2: stray \",,\" -> single comma.\n4. Section 3: cut \"Retail is making a similar move.\" (not in sources); sentence now starts \"The Information reported\".\n5. Section 4: note: \"signed a memorandum of understanding, and they will explore\" implied the MoU was about agents; source: \"signed a memorandum of understanding (MoU) to improve payment connectivity for travellers entering and leaving China\". New: \"signed a memorandum of understanding to improve payment connectivity for travellers entering and leaving China, and will explore ...\". Dropped \"Meanwhile\"."
+}
