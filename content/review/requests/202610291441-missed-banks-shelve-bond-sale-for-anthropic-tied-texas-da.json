@@ -1,0 +1,6 @@
+{
+  "kind": "MISSED",
+  "subject": "Banks shelve bond sale for Anthropic-tied Texas data center",
+  "at": "2026-10-29T07:41:59.954Z",
+  "text": "Source: https://news.bloomberglaw.com/capital-markets/banks-shelve-bond-sale-for-anthropic-tied-texas-data-center (Bloomberg via Bloomberg Law, 28 Oct 2026)\n\nSite Watch summary: Morgan Stanley leads lenders on a $15B loan for the Nexus Data Centers site in Hubbard, Texas, which Anthropic leases. They are delaying a planned $5B-$7B bond sale because Texas paused new data-center projects to review grid risks. The sale may now be spread over the next year, leaving the debt on the banks' balance sheets longer.\n\nReadable with source.mjs: only the opening, \"Banks are delaying plans to offload part of a $15 billion loan to fund a data center tied to Anthropic PBC in Texas, after the state put a hold on new projects while assessing risks to its power grid.\" and \"Lenders, led by Morgan Stanley, have already lined up around $15 billion to finance construction of the data center in Hubbard\". The $5B-$7B bond size, Nexus and the \"spread over the next year\" detail are behind the paywall: leave them out unless a readable source gives them. Not the same story as the $63B Broadcom financing (brief 2026-10-27-banks-blackstone-63b-anthropic-compute)."
+}
