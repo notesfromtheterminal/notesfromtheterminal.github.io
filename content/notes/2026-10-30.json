@@ -1,8 +1,8 @@
 {
   "date": "2026-10-30",
   "publishedAt": "2026-10-30T07:00:00+07:00",
-  "title": "Banks and retailers are deciding who gets to front the agent",
-  "dek": "RBC, Bank of America and Amazon each set terms for outside AI agents, while Tencent and Visa explore how agents could complete purchases.",
+  "title": "Banks and Amazon are deciding who gets to front the agent",
+  "dek": "RBC blocks outside AI agents, Bank of America warns customers and Amazon expands Shop Direct, while Tencent and Visa explore how agents could complete purchases.",
   "lead": "2026-10-29-rbc-blocks-third-party-ai-agents",
   "stories": [
     "2026-10-28-bank-of-america-ai-agent-logins",
@@ -21,7 +21,7 @@
     },
     {
       "head": "Bank of America warns customers",
-      "text": "Bank of America urged customers to never share their username and password with an outside service, including an AI-enabled tool or agent. Account agreements at most banks hold customers responsible for anyone they give their log-in to,, TechCrunch reported.",
+      "text": "Bank of America urged customers to never share their username and password with an outside service, including an AI-enabled tool or agent. Account agreements at most banks hold customers responsible for anyone they give their log-in to, TechCrunch reported.",
       "support": [
         "In an email blast to customers titled “Protecting your finances in the Al World,” Bank of America urged customers to never share their username and password with another person or an outside service, “including an Al-enabled tool or agent that offers to act on your behalf.”",
         "Account agreements at most banks hold customers responsible for anyone they give their log-in to."
@@ -29,7 +29,7 @@
     },
     {
       "head": "Amazon keeps shoppers home",
-      "text": "Retail is making a similar move. The Information reported that Amazon is expanding Shop Direct in an effort to keep shoppers coming to its site rather than using outside personal AI agents, and that it has increased the number of Shop Direct links by 2.5 times since March, to 250 million.",
+      "text": "The Information reported that Amazon is expanding Shop Direct in an effort to keep shoppers coming to its site rather than using outside personal AI agents, and that it has increased the number of Shop Direct links by 2.5 times since March, to 250 million.",
       "support": [
         "Amazon is expanding its Shop Direct initiative, which lists products from brands that don’t sell on its site, in an effort to keep shoppers coming to its site rather than using outside personal artificial intelligence agents , The Information reported Wednesday (Oct. 28).",
         "Since March, Amazon has increased the number of Shop Direct links by 2.5 times, to 250 million, highlighted these listings more prominently across its site, added items from new brands, and started showing more product details from these listings on its own site, according to the report."
@@ -37,7 +37,7 @@
     },
     {
       "head": "Payments explore the other path",
-      "text": "Meanwhile Tencent and Visa signed a memorandum of understanding, and they will explore how Visa Intelligent Commerce could help AI agents find products, select items and complete purchases for eligible users while maintaining consumer control and security.",
+      "text": "Tencent and Visa signed a memorandum of understanding to improve payment connectivity for travellers entering and leaving China, and will explore how Visa Intelligent Commerce could help AI agents find products, select items and complete purchases for eligible users while maintaining consumer control and security.",
       "support": [
         "Tencent and Visa will explore how Visa Intelligent Commerce could help AI agents find products, select items and complete purchases for eligible users while maintaining consumer control and security.",
         "The companies signed a memorandum of understanding (MoU) to improve payment connectivity for travellers entering and leaving China."
