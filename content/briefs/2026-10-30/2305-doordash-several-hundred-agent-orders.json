@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-30-doordash-several-hundred-agent-orders",
+  "publishedAt": "2026-10-30T23:05:00+07:00",
+  "section": "payments",
+  "company": "DoorDash",
+  "headline": "DoorDash says it has seen only several hundred orders from third-party AI agents",
+  "body": "DoorDash CEO Tony Xu said on the company's third-quarter earnings call that it sees \"maybe several hundred orders in total from some of these third-party agents.\" TechCrunch notes the company's 2025 report put its average at 3 million deliveries daily.",
+  "note": "Early agentic commerce volume at a large consumer platform looks small next to its own app traffic, a useful yardstick for payment firms sizing agent-driven checkout.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Delivery company DoorDash revealed during its third-quarter earnings call that it has only seen “several hundred” orders from third-party agents like Muse, Instinct, Fo, and others." },
+    { "source": 0, "text": "For comparison, the company said in its 2025 report it completes an average of 3 million deliveries daily." },
+    { "source": 0, "text": "“What I mean by that is if you look at where AI agents are today, we’re seeing maybe several hundred orders in total from some of these third-party agents,” he said." },
+    { "source": 0, "text": "Xu mentioned that users are still predominantly placing orders through DoorDash’s app." }
+  ]
+}

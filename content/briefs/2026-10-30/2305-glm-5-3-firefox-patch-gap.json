@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-30-glm-5-3-firefox-patch-gap",
+  "publishedAt": "2026-10-30T23:05:00+07:00",
+  "section": "models",
+  "headline": "Epoch AI says open-weight GLM 5.3 exploited Firefox patch gaps for about $1,000 each",
+  "body": "Researchers at Epoch AI found that the Chinese open-weight model GLM 5.3 exploited the patch gap across 6 Firefox versions, at roughly $1,000 in API fees per successful attack, The Decoder reports. Neither Z.ai nor other API providers triggered any safety guardrails or refusals when the researchers used it for exploit development.",
+  "note": "Any firm that relies on vendor software could ask how quickly security fixes reach its own users after they become visible in public code.",
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Researchers at Epoch AI found that the Chinese open-weight model GLM 5.3 exploited this gap across 6 Firefox versions released between September 17 and October 26, at a cost of roughly $1,000 in API fees per successful attack." },
+    { "source": 0, "text": "Neither Z.ai nor other API providers triggered any safety guardrails or refusals when the researchers used GLM 5.3 for exploit development." },
+    { "source": 0, "text": "The \" patch gap \" is the window in which a security fix is visible in the code but has not yet reached users." }
+  ]
+}
