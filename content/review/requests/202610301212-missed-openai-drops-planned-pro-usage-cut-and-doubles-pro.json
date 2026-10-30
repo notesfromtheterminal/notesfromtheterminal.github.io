@@ -1,0 +1,6 @@
+{
+  "kind": "MISSED",
+  "subject": "OpenAI drops planned Pro usage cut and doubles Pro and Business Premium limits",
+  "at": "2026-10-30T05:12:27.108Z",
+  "text": "Source: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/ (BleepingComputer, 29 Oct 2026). OpenAI's release notes (https://help.openai.com/en/articles/6825453-chatgpt-release-notes) return HTTP 403 to source.mjs, so they can't be quoted.\n\nReadable in BleepingComputer: OpenAI \"won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium\". It had \"previously planned to reduce the included usage allowance for existing Pro 200 subscribers after October 29\". Quote from Tibo on X: \"We are doubling all usage limits for all Pro 100/200/500 tiers and Business Premium, effective today.\" The changes \"primarily affect ChatGPT Work and Codex\".\n\nCorrection to Site Watch's summary: per BleepingComputer the doubling covers all Pro 100/200/500 tiers and Business Premium, not only Pro 100 and Pro 500. Follow the source's wording, and credit the quote to Tibo on X as reported by BleepingComputer."
+}
