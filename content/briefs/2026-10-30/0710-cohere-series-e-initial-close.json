@@ -1,0 +1,40 @@
+{
+  "id": "2026-10-30-cohere-series-e-initial-close",
+  "publishedAt": "2026-10-30T07:10:00+07:00",
+  "section": "deals",
+  "tags": [
+    "models"
+  ],
+  "company": "Cohere",
+  "headline": "Cohere makes initial close of Series E round targeting up to $7 billion Canadian dollars",
+  "body": "Cohere announced the initial close of a Series E round targeting up to $7 billion Canadian dollars (about $5 billion), in a post that rejects what it calls frontier fatalism. Bloomberg reported that the round values Cohere at $20.5 billion, and that the Canadian government has agreed to invest up to $1.14 billion.",
+  "note": "For banks weighing where their models come from, Cohere's pitch is a platform that lets institutions own the AI they run on, the company says.",
+  "sources": [
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/cohere-raises-5-billion-dollars-alternative-ai-vision/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Canadian artificial intelligence company Cohere said in a Thursday (Oct. 29) company blog post that it rejects what it called “ frontier fatalism .”"
+    },
+    {
+      "source": 0,
+      "text": "That’s its term for the belief that AI will be monopolized by a handful of United States and Chinese tech giants. To offer other countries a sovereign alternative, Cohere announced in the post the initial close of a Series E funding round targeting up to $7 billion Canadian dollars (about $5 billion)."
+    },
+    {
+      "source": 0,
+      "text": "The funding values Cohere at $20.5 billion, roughly triple its value from last year."
+    },
+    {
+      "source": 0,
+      "text": "The Canadian government has agreed to invest up to $1.14 billion in Cohere, while the company plans to remain based in Canada and invest around $1.2 billion in new computing infrastructure in the country by 2030, Bloomberg reported Thursday."
+    },
+    {
+      "source": 0,
+      "text": "“Our ambition is to build frontier models that compete with the best in the world, a secure platform that lets institutions own the AI they run on, and cyber defenses democracies can rely on."
+    }
+  ]
+}

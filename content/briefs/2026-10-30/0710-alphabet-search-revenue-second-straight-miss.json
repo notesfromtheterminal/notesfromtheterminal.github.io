@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-30-alphabet-search-revenue-second-straight-miss",
+  "publishedAt": "2026-10-30T07:10:00+07:00",
+  "section": "models",
+  "company": "Alphabet",
+  "headline": "Alphabet's search revenue came in below estimates for a second straight quarter",
+  "body": "Search and other revenue grew 12% from a year ago to roughly $63 billion, below estimates for the second straight quarter. Google said search query growth was the strongest in five years, while the stock plummeted about 13% on Thursday, the steepest drop on record.",
+  "note": "While search remains a massive business, early signs of a shift are appearing, CNBC says. The gap between usage and revenue is getting harder to dismiss as AI tools draw more queries, including Google's own.",
+  "figure": { "value": "12%", "label": "Search and other revenue growth from a year ago, third quarter" },
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Revenue in the search and other segment grew 12% from a year ago to roughly $63 billion, but came in below estimates for the second straight quarter." },
+    { "source": 0, "text": "At the same time, Google said search query growth on the platform was the strongest it's been in five years." },
+    { "source": 0, "text": "The stock plummeted about 13% on Thursday, the steepest drop on record, reflecting the weaker-than-expected earnings report and negative free cash flow of $9 billion for the quarter, three times the estimated deficit." },
+    { "source": 0, "text": "The gap between usage and revenue within the search giant's flagship business is becoming harder to dismiss as more people turn to artificial intelligence bots and agents, including tools offered by Google." },
+    { "source": 0, "text": "While search remains a massive business, early signs of a shift are appearing." }
+  ]
+}
