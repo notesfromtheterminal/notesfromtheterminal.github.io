@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-30-aspire-aspirebooks-ai-accounting",
+  "publishedAt": "2026-10-30T12:10:00+07:00",
+  "section": "sea",
+  "tags": ["payments"],
+  "company": "Aspire",
+  "headline": "Aspire is moving beyond payments with AspireBooks for AI accounting",
+  "body": "Aspire is moving beyond business payments with AspireBooks, an AI accounting service that classifies transactions and matches payments with invoices and bills. It is available to businesses in Singapore for S$39 per month, with a three-month free introductory period. Aspire's internal research found that 41 percent of its customers still manage bookkeeping manually.",
+  "note": "Aspire's CEO says the goal is accounting that happens as a natural part of running a business. Users still review and approve the entries, and the reports update as transactions are recorded.",
+  "figure": { "value": "41%", "label": "Aspire customers still doing bookkeeping manually" },
+  "sources": [{ "name": "Fintech News Singapore", "url": "https://fintechnews.sg/140014/ai/aspire-ai-accounting-aspirebooks/" }],
+  "evidence": [
+    { "source": 0, "text": "Aspire is moving beyond business payments with a new AI-powered accounting platform that automates bookkeeping and reconciliation." },
+    { "source": 0, "text": "The AspireBooks service uses AI to classify transactions, recommend accounting categories and tax treatments, and match payments with invoices and bills." },
+    { "source": 0, "text": "Aspire's internal research found that 41 percent of its customers still manage bookkeeping manually." },
+    { "source": 0, "text": "AspireBooks is available to businesses in Singapore for S$39 per month, with a three-month free introductory period." },
+    { "source": 0, "text": "Users can then review and approve the entries, while financial reports such as profit and loss statements, balance sheets and trial balances are updated as transactions are recorded." },
+    { "source": 0, "text": "With AspireBooks, we're bringing these two worlds together so accounting happens as a natural part of running a business, rather than becoming a separate exercise at the end of every month." },
+    { "source": 0, "text": "said Andrea Baronchelli, Co-founder and CEO of Aspire." }
+  ]
+}

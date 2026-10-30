@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-30-microsoft-25b-debt-ai-buildout",
+  "publishedAt": "2026-10-30T12:10:00+07:00",
+  "section": "deals",
+  "tags": ["banking"],
+  "company": "Microsoft",
+  "headline": "Microsoft plans to raise $25 billion in bonds for infrastructure expansion",
+  "body": "Microsoft announced plans to raise $25 billion in bonds, taking advantage of its healthy credit rating to support infrastructure expansion. Management is targeting $170 billion in 2026 capital expenditures, as the company looks to meet heavy demand from Anthropic and OpenAI, as well as other clients.",
+  "note": "Microsoft reported positive free cash flow, differentiating itself from Alphabet, Meta and Amazon. Amazon and Alphabet have also turned to the bond market for infrastructure this year.",
+  "sources": [{ "name": "CNBC", "url": "https://www.cnbc.com/2026/10/29/microsoft-25-billion-debt-offering.html" }],
+  "evidence": [
+    { "source": 0, "text": "Microsoft on Thursday announced plans to raise $25 billion in bonds, taking advantage of its healthy credit rating to support its infrastructure expansion." },
+    { "source": 0, "text": "Management is targeting $170 billion in 2026 capital expenditures, as the company looks to meet heavy demand from artificial intelligence labs Anthropic and OpenAI, as well as other clients." },
+    { "source": 0, "text": "Microsoft reported positive free cash flow on Wednesday, differentiating itself from Alphabet, whose cash flow was negative for the second quarter in a row." },
+    { "source": 0, "text": "Last week Meta said it had negative free cash flow, and on Thursday Amazon reported negative free cash flow." },
+    { "source": 0, "text": "Amazon and Alphabet have engaged the bond market to support infrastructure projects this year, and AI-focused cloud CoreWeave has also relied on the debt market to broaden its data center footprint." }
+  ]
+}
