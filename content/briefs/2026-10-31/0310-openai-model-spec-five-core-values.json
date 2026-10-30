@@ -1,0 +1,34 @@
+{
+  "id": "2026-10-31-openai-model-spec-five-core-values",
+  "publishedAt": "2026-10-31T03:10:00+07:00",
+  "section": "models",
+  "tags": ["rules"],
+  "company": "OpenAI",
+  "headline": "OpenAI restructures its Model Spec around five core values",
+  "body": "According to The Decoder, OpenAI has restructured its public behavior guidelines for AI models, the Model Spec, around five core values. The spec puts more weight on correctability for agents and says GPT must not block oversight, correction, or shutdown.",
+  "note": "For banks testing agents, the spec's focus on correctability is the part to watch. The Decoder also notes that whether models follow these rules is another matter.",
+  "sources": [
+    {
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/openai-sets-new-behavioral-guidelines-for-ai-models-that-have-already-proven-hard-to-control/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "OpenAI has restructured its public behavior guidelines for AI models, the Model Spec, around five core values."
+    },
+    {
+      "source": 0,
+      "text": "The new spec also puts more weight on correctability for agents, models that carry out tasks on their own."
+    },
+    {
+      "source": 0,
+      "text": "GPT must not block oversight, correction, or shutdown, and must not pursue its own goals like self-preservation."
+    },
+    {
+      "source": 0,
+      "text": "Whether the models actually follow these rules is another matter."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-31-pymnts-receivables-automation-73-percent",
+  "publishedAt": "2026-10-31T03:12:00+07:00",
+  "section": "payments",
+  "tags": [],
+  "headline": "Surveyed companies automate an average 73% of accounts receivable processes",
+  "body": "PYMNTS Intelligence research with JPMorgan finds surveyed companies automate an average 73% of accounts receivable processes, compared with 55% in the previous year's survey. AI agents are processing purchase orders and preparing collections work as businesses automate more of the steps between a B2B sale and payment.",
+  "note": "The 73% comes from a survey of companies, so it measures reported automation and says little about results.",
+  "figure": { "value": "73%", "label": "average automated share of accounts receivable processes" },
+  "sources": [
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/news/b2b-payments/2026/unilever-and-nestle-put-ai-to-work-between-orders-and-payments/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "PYMNTS Intelligence research with JPMorgan finds surveyed companies automate an average 73% of accounts receivable processes, compared with 55% in the previous year’s survey."
+    },
+    {
+      "source": 0,
+      "text": "Artificial intelligence agents are processing purchase orders and preparing collections work as businesses automate more of the steps between a B2B sale and payment."
+    }
+  ]
+}
