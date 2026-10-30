@@ -1,0 +1,7 @@
+{
+  "note": "2026-10-31",
+  "commit": "fd7dd8d0eca7cc0c4433209b1f8c055e9a5f9dd9",
+  "verdict": "APPROVED",
+  "at": "2026-10-30T16:47:33.973Z",
+  "notes": "Fixed by the review run, then approved:\n1. Title: note said \"Today's earnings\"; the earnings were reported Wednesday/Thursday (CNBC) and the note goes live Saturday. New: \"Earnings put AI spending next to AI usage\".\n2. Section head: note said \"Bond markets carry the buildout\"; CNBC says Microsoft plans bonds \"to support its infrastructure expansion\", with proceeds for \"general corporate purposes\". New: \"Bonds to support the buildout\"."
+}
