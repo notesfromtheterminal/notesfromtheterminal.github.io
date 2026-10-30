@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-30-openai-drops-pro-usage-cut",
+  "publishedAt": "2026-10-30T17:13:00+07:00",
+  "section": "models",
+  "tags": [],
+  "company": "OpenAI",
+  "headline": "OpenAI reverses planned Pro usage cut and is doubling limits",
+  "body": "OpenAI says it won't reduce usage limits for the $100, $200 and $500 ChatGPT Pro plans or for Business Premium. It had planned to cut the included usage allowance for existing Pro 200 subscribers after October 29. Tibo said on X that OpenAI is \"doubling all usage limits\" for those tiers, effective immediately.",
+  "note": "For finance staff using Codex or ChatGPT Work on Pro plans, OpenAI has reversed the planned cut for Pro 200 subscribers. OpenAI gave no exact limits for each tier.",
+  "sources": [
+    {
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent."
+    },
+    {
+      "source": 0,
+      "text": "OpenAI had previously planned to reduce the included usage allowance for existing Pro 200 subscribers after October 29, despite keeping the subscription price at $200 per month."
+    },
+    {
+      "source": 0,
+      "text": "However, OpenAI has now reversed that decision following customer feedback."
+    },
+    {
+      "source": 0,
+      "text": "\"We are doubling all usage limits for all Pro 100/200/500 tiers and Business Premium, effective today,\" Tibo announced on X."
+    },
+    {
+      "source": 0,
+      "text": "In a post on X, Tibo, who is the face of ChatGPT and Codex on X, confirmed that the changes take effect immediately and primarily affect ChatGPT Work and Codex, which share usage allowances under eligible subscriptions."
+    },
+    {
+      "source": 0,
+      "text": "OpenAI won't provide exact numerical usage limits for each tier, but the changes give Pro subscribers more room to use Work and Codex without paying for a more expensive subscription."
+    }
+  ]
+}
