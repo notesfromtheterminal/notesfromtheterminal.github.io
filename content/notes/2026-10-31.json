@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-31",
+  "publishedAt": "2026-10-31T07:00:00+07:00",
+  "title": "Earnings put AI spending next to AI usage",
+  "dek": "Microsoft turns to the bond market, Alphabet's search revenue misses and DoorDash sees only several hundred agent orders.",
+  "lead": "2026-10-30-alphabet-search-revenue-second-straight-miss",
+  "stories": [
+    "2026-10-30-microsoft-25b-debt-ai-buildout",
+    "2026-10-30-doordash-several-hundred-agent-orders"
+  ],
+  "body": [
+    {
+      "head": "Spending and usage differ in speed",
+      "text": "Three stories from the last day put the cost of AI next to the demand for it, and the two do not line up neatly. We can read them side by side without forcing a single explanation onto them."
+    },
+    {
+      "head": "Bonds to support the buildout",
+      "text": "Microsoft announced plans to raise $25 billion in bonds to support its infrastructure expansion, and management is targeting $170 billion in 2026 capital expenditures to meet heavy demand from artificial intelligence labs Anthropic and OpenAI, as well as other clients. Microsoft reported positive free cash flow, which differentiates it from Alphabet, whose cash flow was negative for the second quarter in a row, and Amazon reported negative free cash flow on Thursday.",
+      "support": [
+        "Microsoft on Thursday announced plans to raise $25 billion in bonds, taking advantage of its healthy credit rating to support its infrastructure expansion.",
+        "Management is targeting $170 billion in 2026 capital expenditures, as the company looks to meet heavy demand from artificial intelligence labs Anthropic and OpenAI, as well as other clients.",
+        "Microsoft reported positive free cash flow on Wednesday, differentiating itself from Alphabet, whose cash flow was negative for the second quarter in a row.",
+        "Last week Meta said it had negative free cash flow, and on Thursday Amazon reported negative free cash flow."
+      ]
+    },
+    {
+      "head": "Searches are up, revenue lags",
+      "text": "Alphabet's search and other revenue grew 12% from a year ago to roughly $63 billion, but came in below estimates for the second straight quarter, while Google said search query growth was the strongest it has been in five years. The stock fell about 13% on Thursday, the steepest drop on record.",
+      "support": [
+        "Revenue in the search and other segment grew 12% from a year ago to roughly $63 billion, but came in below estimates for the second straight quarter.",
+        "At the same time, Google said search query growth on the platform was the strongest it's been in five years.",
+        "The stock plummeted about 13% on Thursday, the steepest drop on record, reflecting the weaker-than-expected earnings report and negative free cash flow of $9 billion for the quarter, three times the estimated deficit."
+      ]
+    },
+    {
+      "head": "Agent orders are still small",
+      "text": "DoorDash revealed during its third-quarter earnings call that it has only seen \"several hundred\" orders from third-party agents, and Xu said it is seeing \"maybe several hundred orders in total from some of these third-party agents,\" while TechCrunch notes the company's 2025 report put its average at 3 million deliveries daily. Xu mentioned that users are still predominantly placing orders through DoorDash's app.",
+      "support": [
+        "Delivery company DoorDash revealed during its third-quarter earnings call that it has only seen “several hundred” orders from third-party agents like Muse, Instinct, Fo, and others.",
+        "“What I mean by that is if you look at where AI agents are today, we’re seeing maybe several hundred orders in total from some of these third-party agents,” he said.",
+        "For comparison, the company said in its 2025 report it completes an average of 3 million deliveries daily.",
+        "Xu mentioned that users are still predominantly placing orders through DoorDash’s app."
+      ]
+    },
+    {
+      "head": "Keep two columns when you read",
+      "text": "If you work in a bank, a lender or a payments firm, a useful habit for the next round of earnings is to keep two columns, one for what is being spent and one for what customers are visibly doing. Where the second column is still thin, we can say that plainly, and it is a fair answer to give a client who asks."
+    }
+  ],
+  "suggestion": "A line on what your own clients ask about AI spending versus real adoption would fit at the end of the last section."
+}
