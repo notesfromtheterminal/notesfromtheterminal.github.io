@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-01",
+  "publishedAt": "2026-11-01T07:00:00+07:00",
+  "title": "The AI labs' funding gets harder to read",
+  "dek": "OpenAI's round falls short of its target while Blackstone's view of Anthropic's credit rating shifts.",
+  "lead": "2026-10-31-openai-raises-11b-of-30b-target",
+  "stories": [
+    "2026-10-31-anthropic-junk-rating-blackstone",
+    "2026-10-31-pymnts-receivables-automation-73-percent"
+  ],
+  "body": [
+    {
+      "head": "Two labs, two funding questions",
+      "text": "Two AI labs have each had a funding question reported in the past day. We can lay them side by side and see what a finance team would want to track."
+    },
+    {
+      "head": "OpenAI falls short of its target",
+      "text": "The Wall Street Journal says OpenAI has secured about $11 billion of its $30 billion fundraising target, and The Decoder adds that the valuation landed at $1.25 trillion, short of the $1.4 trillion it was aiming for. OpenAI now plans to raise up to $20 billion from family offices and high-net-worth individuals.",
+      "support": [
+        "The company has secured about $11 billion so far, according to the Wall Street Journal .",
+        "OpenAI raised less than half of its $30 billion fundraising target in its latest round.",
+        "Its valuation landed at $1.25 trillion, short of the $1.4 trillion it was aiming for.",
+        "OpenAI now plans to raise up to $20 billion from family offices and high-net-worth individuals."
+      ]
+    },
+    {
+      "head": "Anthropic's rating forecast flips",
+      "text": "The FT says Blackstone, the anchor investor in a $63 billion deal to finance Anthropic's chips, told investors it expects a \"high\" junk rating after the IPO. Previously, the FT notes, Blackstone had said the opposite, that the Claude maker would receive an investment-grade rating before 2027. TechCrunch's own reading is that a high junk rating would make it more difficult and costlier for Anthropic to raise money.",
+      "support": [
+        "The FT says the investment giant Blackstone, the anchor investor in a recent $63 billion deal to finance Anthropic’s chips, told investors in the deal that it expects the AI lab to receive a “high” junk rating after its IPO.",
+        "Previously, the FT notes, Blackstone had said the opposite: that the Claude maker would receive an investment-grade rating (indicating low risk for lenders) before 2027 rolls around.",
+        "Blackstone’s forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business."
+      ]
+    },
+    {
+      "head": "Automation inside ordinary companies",
+      "text": "Separately, PYMNTS Intelligence research with JPMorgan finds surveyed companies automate an average 73% of accounts receivable processes, compared with 55% in the previous year's survey. AI agents are processing purchase orders and preparing collections work as businesses automate more of the steps between a B2B sale and payment.",
+      "support": [
+        "PYMNTS Intelligence research with JPMorgan finds surveyed companies automate an average 73% of accounts receivable processes, compared with 55% in the previous year’s survey.",
+        "Artificial intelligence agents are processing purchase orders and preparing collections work as businesses automate more of the steps between a B2B sale and payment."
+      ]
+    },
+    {
+      "head": "What to watch in your own book",
+      "text": "If we lend to, insure or advise firms that sit near these labs, the useful question is who is funding the compute and on what terms, and how those terms read when the numbers shift. Which of our own exposures would look different if a rating forecast changed in a single report?"
+    }
+  ],
+  "suggestion": "A line on how your own clients ask about funding terms of AI vendors would fit at the end of the last section."
+}
