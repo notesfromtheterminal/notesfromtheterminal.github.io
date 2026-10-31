@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-01-anthropic-watermark-four-more-claude-models",
+  "publishedAt": "2026-11-01T03:10:00+07:00",
+  "section": "models",
+  "tags": ["rules"],
+  "company": "Anthropic",
+  "headline": "Anthropic is expanding its text watermark to four more Claude models",
+  "body": "Anthropic says it will watermark Claude Mythos 5, Claude Opus 4.7, Claude Opus 4.6 and Claude Sonnet 4.6, and points to the EU AI Act's December deadline as the reason. On Claude Opus 4.6 and Claude Sonnet 4.6, the watermark kicks in only at default settings, and a minor tweak to any one of temperature, top_p or top_k is enough to dodge it, according to The Decoder.",
+  "note": "For anyone relying on the mark for compliance, Anthropic advises keeping the sampling settings at their defaults.",
+  "sources": [{ "name": "The Decoder", "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/" }],
+  "evidence": [
+    { "source": 0, "text": "Anthropic is expanding its text watermark to four more Claude models, but API users can dodge the mark on two of them by tweaking a single sampling parameter." },
+    { "source": 0, "text": "In an email to API customers, Anthropic said it will watermark Claude Mythos 5, Claude Opus 4.7, Claude Opus 4.6, and Claude Sonnet 4.6." },
+    { "source": 0, "text": "Anthropic points to the EU AI Act's December deadline as the reason it's watermarking older models now." },
+    { "source": 0, "text": "On Claude Opus 4.6 and Claude Sonnet 4.6, Anthropic says the watermark kicks in only when developers leave the three sampling parameters at their default values." },
+    { "source": 0, "text": "Those parameters, temperature , top_p , and top_k , control how much randomness the model uses when picking words." },
+    { "source": 0, "text": "A minor tweak to any one of them is enough to dodge the watermark." },
+    { "source": 0, "text": "Anthropic warns in its email that \"If you rely on the watermark for your own compliance, keep these settings at their defaults.\"" }
+  ]
+}

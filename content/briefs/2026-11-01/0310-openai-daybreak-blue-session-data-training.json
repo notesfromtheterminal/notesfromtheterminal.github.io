@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-01-openai-daybreak-blue-session-data-training",
+  "publishedAt": "2026-11-01T03:10:00+07:00",
+  "section": "models",
+  "company": "OpenAI",
+  "headline": "OpenAI will train models on Daybreak Blue session data from November 29",
+  "body": "Starting November 29, OpenAI will use Daybreak Blue session data to train its models, according to an email to Trusted Access program members. Previously, this data was excluded from training even when users had the \"improve the model for everyone\" setting turned off.",
+  "note": "The change has researchers worried about a repeat of the Buckmaster-Alpöge case, in which mathematicians uploaded drafts to OpenAI's Codex. OpenAI denied using their inputs for training, and after backlash it promised a separate opt-out.",
+  "sources": [{ "name": "The Decoder", "url": "https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/" }],
+  "evidence": [
+    { "source": 0, "text": "Starting November 29, OpenAI will use Daybreak Blue session data to train its models." },
+    { "source": 0, "text": "An email to Trusted Access program members confirmed the change." },
+    { "source": 0, "text": "Previously, this data was excluded from training, even when users had the \"improve the model for everyone\" setting turned off." },
+    { "source": 0, "text": "Backlash was swift , and OpenAI followed up with a second email promising a separate opt-out." },
+    { "source": 0, "text": "The change has researchers worried about a repeat of the Buckmaster-Alpöge case ." },
+    { "source": 0, "text": "Mathematicians Tristan Buckmaster and Levent Alpöge uploaded Navier-Stokes equation drafts to OpenAI's Codex." },
+    { "source": 0, "text": "OpenAI soon presented its own proof but denied using their inputs for training." }
+  ]
+}
