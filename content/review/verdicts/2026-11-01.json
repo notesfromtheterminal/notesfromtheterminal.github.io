@@ -1,0 +1,7 @@
+{
+  "note": "2026-11-01",
+  "commit": "a3d01d763b1bfc09d2eef0602cff5729610722b0",
+  "verdict": "APPROVED",
+  "at": "2026-10-31T16:46:45.929Z",
+  "notes": "Fixed by the review run, then approved:\n1. Section 1: note said \"Two of the biggest AI labs are now being asked how they will pay for what they have promised to build, and the answers arrived within hours of each other.\" Briefs are ~15 hours apart (07:10 and 22:05 WIB, 31 Oct) and no source says the labs are being asked this or \"biggest\". New: \"Two AI labs have each had a funding question reported in the past day.\"\n2. Section 4: \"At the same time,\" joined a 03:12 brief to the others without support. New: \"Separately,\"."
+}
