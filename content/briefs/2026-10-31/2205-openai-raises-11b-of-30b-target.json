@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-31-openai-raises-11b-of-30b-target",
+  "publishedAt": "2026-10-31T22:05:00+07:00",
+  "section": "deals",
+  "tags": ["models"],
+  "star": true,
+  "company": "OpenAI",
+  "headline": "Wall Street Journal says OpenAI has secured about $11 billion of its $30 billion target",
+  "body": "OpenAI has secured about $11 billion of its $30 billion fundraising target, according to the Wall Street Journal. Its valuation landed at $1.25 trillion, short of the $1.4 trillion it was aiming for, and the company now plans to raise up to $20 billion from family offices and high-net-worth individuals.",
+  "note": "The reported gap arrives while The Decoder says Anthropic could go public as early as November, so how investors price the two labs against each other is worth watching for anyone with exposure to AI infrastructure credit.",
+  "figure": { "value": "$11B", "label": "raised so far of a $30B target, per WSJ via The Decoder" },
+  "sources": [{ "name": "The Decoder", "url": "https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite/" }],
+  "evidence": [
+    { "source": 0, "text": "OpenAI raised less than half of its $30 billion fundraising target in its latest round." },
+    { "source": 0, "text": "The company has secured about $11 billion so far, according to the Wall Street Journal ." },
+    { "source": 0, "text": "Its valuation landed at $1.25 trillion, short of the $1.4 trillion it was aiming for." },
+    { "source": 0, "text": "OpenAI now plans to raise up to $20 billion from family offices and high-net-worth individuals." },
+    { "source": 0, "text": "Rival Anthropic has been growing revenue faster lately and could go public as early as November." }
+  ]
+}
