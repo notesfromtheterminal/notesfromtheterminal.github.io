@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-31-anthropic-junk-rating-blackstone",
+  "publishedAt": "2026-10-31T07:10:00+07:00",
+  "section": "deals",
+  "tags": ["models"],
+  "star": true,
+  "company": "Anthropic",
+  "headline": "Blackstone expects Anthropic to receive a high junk rating after IPO, FT says",
+  "body": "The Financial Times says Blackstone told investors in a $63 billion deal to finance Anthropic’s chips that it expects a “high” junk rating after the IPO. The FT notes that Blackstone had earlier said the Claude maker would receive an investment-grade rating before 2027. Anthropic and Blackstone both declined to comment to TechCrunch.",
+  "note": "Blackstone's forecast is just a prediction, but a high junk rating would make raising money harder and costlier for Anthropic, which has been on a large compute spending spree.",
+  "sources": [{ "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/" }],
+  "evidence": [
+    { "source": 0, "text": "Anthropic is expected to receive a high “junk” rating from credit rating agencies following its initial public offering, according to a report from the Financial Times." },
+    { "source": 0, "text": "The FT says the investment giant Blackstone, the anchor investor in a recent $63 billion deal to finance Anthropic’s chips, told investors in the deal that it expects the AI lab to receive a “high” junk rating after its IPO." },
+    { "source": 0, "text": "Previously, the FT notes, Blackstone had said the opposite: that the Claude maker would receive an investment-grade rating (indicating low risk for lenders) before 2027 rolls around." },
+    { "source": 0, "text": "TechCrunch reached out to Anthropic and Blackstone but both declined to comment." },
+    { "source": 0, "text": "Blackstone’s forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business." },
+    { "source": 0, "text": "The lab has been on a spending spree, racking up large compute power deals throughout the past 12 months, which has worried investors ." }
+  ]
+}
