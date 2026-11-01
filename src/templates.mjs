@@ -571,13 +571,13 @@ ${signupBox('notes')}
   function subscribePage() {
     return layout({
       title: 'Subscribe',
-      description: 'Notes from the Terminal is a daily Morning Note on AI and finance, in your inbox at 07:00 WIB. Free, and you can leave anytime.',
+      description: 'Notes from the Terminal is a daily Morning Note on AI and finance, in your inbox at 00:00 UTC. Free, and you can leave anytime.',
       path: 'subscribe/',
       signup: false,
       body: `<div class="subscribe-page">${signupBox('subscribe', {
         tag: 'h1',
         title: 'Want the AI-in-finance news that matters, before work?',
-        intro: `Get the Morning Note, free in your inbox at 07:00 WIB. You'll get what changed in AI and finance overnight, a short brief on each of the main stories, and a few more headlines from the wire. You can leave anytime.`,
+        intro: `Get the Morning Note, free in your inbox at 00:00 UTC. You'll get what changed in AI and finance overnight, a short brief on each of the main stories, and a few more headlines from the wire. You can leave anytime.`,
       })}</div>`,
     });
   }
