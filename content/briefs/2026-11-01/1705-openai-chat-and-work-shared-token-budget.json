@@ -1,0 +1,33 @@
+{
+  "id": "2026-11-01-openai-chat-and-work-shared-token-budget",
+  "publishedAt": "2026-11-01T17:05:00+07:00",
+  "section": "models",
+  "company": "OpenAI",
+  "headline": "OpenAI is merging Chat and Work in ChatGPT, with one token budget from December",
+  "body": "According to an updated OpenAI support page, Plus, Pro and Business plans will share a single token budget across ChatGPT and Codex starting in December, as OpenAI folds Work's agentic features into the main interface. The Decoder says chats with Instant models won't count toward that budget, but heavy use on cheaper plans will likely mean lower-quality results.",
+  "note": "For banks and fintechs that give staff paid ChatGPT plans, complex work will eat through the shared budget faster than simple chats.",
+  "sources": [
+    {
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "ChatGPT is merging Chat and Work, changing how usage limits work."
+    },
+    {
+      "source": 0,
+      "text": "Starting in December, Plus, Pro, and Business plans will share a single token budget across ChatGPT and Codex, according to an updated OpenAI support page , as OpenAI folds Work's agentic features into the main interface."
+    },
+    {
+      "source": 0,
+      "text": "Tokens measure the information a model processes and generates, so more complex models and tasks eat through the budget faster."
+    },
+    {
+      "source": 0,
+      "text": "Chats with Instant models won't count toward the budget, so on paper ChatGPT stays a flat-rate service, but heavy usage on cheaper plans will likely mean lower-quality results."
+    }
+  ]
+}
