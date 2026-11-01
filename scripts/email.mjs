@@ -120,7 +120,7 @@ ${grid(stories.slice(0, 4).map(storyCard))}`,
     C.paper,
     `<tr><td class="nft-pad" align="center" style="padding:30px 46px 32px;border-top:1px solid ${C.rule};border-bottom:1px solid ${C.rule};">${kicker('Pass it on', C.rust)}
 <p style="margin:0 0 10px;font-family:${SERIF};font-style:italic;font-size:18px;line-height:1.5;color:${C.text};">Know someone in finance who should read this? Forward this email. It takes them three minutes, every morning.</p>
-<p style="margin:0 0 18px;font-family:${SANS};font-size:14px;line-height:1.55;color:${C.muted};">Was this forwarded to you? Get your own at 07:00, free.</p>
+<p style="margin:0 0 18px;font-family:${SANS};font-size:14px;line-height:1.55;color:${C.muted};">Was this forwarded to you? Get your own at 00:00 UTC, free.</p>
 ${pill(`${SITE}/?ref=forward#signup-h-front`, 'Get the Morning Note', C.ink)}
 <p style="margin:16px 0 0;font-family:${SANS};font-size:13px;line-height:1.5;color:${C.muted};">Or follow the stories as they land on X: <a href="https://x.com/${esc(site.x)}" style="color:${C.ink};text-decoration:underline;text-decoration-color:${C.amber};">@${esc(site.x)}</a></p></td></tr>`,
   ),
