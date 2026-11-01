@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-02",
+  "publishedAt": "2026-11-02T07:00:00+07:00",
+  "title": "AI spending now shows up in credit documents",
+  "dek": "A rating outlook, a loan facility and a bond sale each put the cost of the AI buildout on paper.",
+  "lead": "2026-11-01-sp-meta-outlook-negative",
+  "stories": [
+    "2026-11-01-amazon-80b-loan-facility",
+    "2026-10-30-microsoft-25b-debt-ai-buildout"
+  ],
+  "body": [
+    {
+      "head": "Credit documents now carry the AI bill",
+      "text": "Three big spenders have each put a piece of the AI buildout into a credit or debt document in the past few days. We can read them side by side and see what a lender or a credit analyst would want to track."
+    },
+    {
+      "head": "S&P turns cautious on Meta",
+      "text": "The credit agency said the outlook reflects \"uncertainty\" about Meta's elevated capex and its negative free cash flow, and Meta's credit rating was revised from AA- stable to AA- negative. Meta expects full-year capex of $135 billion to $145 billion, while a Meta spokesperson said the company respectfully disagrees with S&P's assertion about its AI monetization capabilities.",
+      "support": [
+        "The credit agency said Friday that the outlook reflects \"uncertainty\" about Meta's elevated capex and its negative free cash flow.",
+        "Meta's credit rating was revised from AA- stable to AA- negative, S&P said.",
+        "Meta said in its third-quarter earnings report last week that it expects full-year capex to come in the range of $135 billion to $145 billion. The company also posted negative free cash flow of $2.12 billion, going in the red for the first time.",
+        "\"We respectfully disagree with S&P's assertion about Meta's AI monetization capabilities,\" the spokesperson said in a statement."
+      ]
+    },
+    {
+      "head": "Amazon lines up a secured facility",
+      "text": "Amazon's quarterly filing describes a secured loan facility for borrowings at its discretion, from Q1 2027 through Q3 2028, of up to approximately $ 80.0 billion, with interest at variable rates and five-year maturities. Amounts outstanding will be classified as long-term debt, which is the filing's own wording.",
+      "support": [
+        "We enter into supplier financing arrangements that provide for certain purchases of technology infrastructure assets, including a secured loan facility (the “Loan Facility”) providing for borrowings at our discretion, from Q1 2027 through Q3 2028 and subject to variability based on the extent and timing of purchase orders and pricing terms, of up to approximately $ 80.0 billion, which accrue interest at variable rates and mature five years from the date of each borrowing.",
+        "Amounts outstanding for assets purchased under the Loan Facility will be classified as “Long-term debt” on our consolidated balance sheets, and principal payments made will be reported as “Repayments of long-term debt” on our consolidated statements of cash flows."
+      ]
+    },
+    {
+      "head": "Microsoft turns to the bond market",
+      "text": "Microsoft announced plans to raise $25 billion in bonds, taking advantage of its healthy credit rating, while management is targeting $170 billion in 2026 capital expenditures. CNBC reports that Amazon and Alphabet have also engaged the bond market to support infrastructure projects this year.",
+      "support": [
+        "Microsoft on Thursday announced plans to raise $25 billion in bonds, taking advantage of its healthy credit rating to support its infrastructure expansion.",
+        "Management is targeting $170 billion in 2026 capital expenditures, as the company looks to meet heavy demand from artificial intelligence labs Anthropic and OpenAI, as well as other clients.",
+        "Amazon and Alphabet have engaged the bond market to support infrastructure projects this year, and AI-focused cloud CoreWeave has also relied on the debt market to broaden its data center footprint."
+      ]
+    },
+    {
+      "head": "What to watch in the paperwork",
+      "text": "For anyone who lends to, rates or advises these companies, the useful habit is to read the filings and agency statements themselves and note which side is speaking in each. Which of these documents will we see more of next quarter?"
+    }
+  ],
+  "suggestion": "A line on how your own clients ask about exposure to the large AI spenders' debt would fit at the end of the last section."
+}
