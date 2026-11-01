@@ -1,0 +1,6 @@
+{
+  "kind": "CORRECTION",
+  "subject": "2026-11-01-openai-daybreak-blue-session-data-training",
+  "at": "2026-11-01T10:28:28.359Z",
+  "text": "The error is in the brief's \"note\" field.\nBrief says: \"OpenAI denied using their inputs for training, and after backlash it promised a separate opt-out.\"\nSource says: \"Backlash was swift , and OpenAI followed up with a second email promising a separate opt-out.\" That backlash and opt-out concern the Daybreak Blue change. The Buckmaster-Alpöge case is separate: \"OpenAI soon presented its own proof but denied using their inputs for training.\" (The Decoder, already the brief's source; both sentences are already in its evidence.)\nSuggested fix: Tie the opt-out to the Daybreak Blue change, e.g. \"After backlash, OpenAI sent a second email promising a separate opt-out. The change has researchers worried about a repeat of the Buckmaster-Alpöge case, in which mathematicians uploaded drafts to OpenAI's Codex and OpenAI denied using their inputs for training.\""
+}

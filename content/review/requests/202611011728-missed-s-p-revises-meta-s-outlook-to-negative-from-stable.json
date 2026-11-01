@@ -1,0 +1,6 @@
+{
+  "kind": "MISSED",
+  "subject": "S&P revises Meta's outlook to negative from stable over AI spending",
+  "at": "2026-11-01T10:28:28.438Z",
+  "text": "Source: https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html (CNBC, 30 Oct 2026). S&P's own release (https://spratings.spglobal.com/ratings/%5Blang%5D/regulatory/article/-/view/type/HTML/id/3652897) is unreadable to source.mjs.\n\nReadable in CNBC: \"Meta's credit rating was revised from AA- stable to AA- negative, S&P said.\" The outlook reflects \"uncertainty\" about Meta's elevated capex and negative free cash flow, and the agency questioned \"Meta's ability to monetize its AI investments\". Meta expects full-year capex of $135 billion to $145 billion and posted negative free cash flow of $2.12 billion.\n\nSite Watch also gives S&P forecasts: capex of $140B in 2026 and over $225B in 2027, free operating cash flow deficits of $22B in 2026 and $71B in 2027, and leverage possibly passing a 1.0x downgrade threshold as early as 2027. None of these is in the CNBC text, so leave them out unless a readable source gives them. Site Watch warns that X's summary gives a $39B 2026 deficit: do not use that either. The rating stays AA-: this is an outlook change, not a downgrade."
+}
