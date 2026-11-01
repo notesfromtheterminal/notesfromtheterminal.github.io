@@ -1,6 +1,0 @@
-{
-  "kind": "MISSED",
-  "subject": "Amazon sets up secured loan facility of up to about $80 billion for technology infrastructure",
-  "at": "2026-11-01T10:28:28.512Z",
-  "text": "Source: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm (Amazon 10-Q, quarter to 30 Sep 2026). Readable with source.mjs. Quartz (https://qz.com/amazon-80-billion-loan-facility-ai-hardware-103026) returns HTTP 403, so don't use it.\n\nReadable in the 10-Q: supplier financing arrangements for technology infrastructure assets, \"including a secured loan facility (the \"Loan Facility\") providing for borrowings at our discretion, from Q1 2027 through Q3 2028 and subject to variability based on the extent and timing of purchase orders and pricing terms, of up to approximately $ 80.0 billion, which accrue interest at variable rates and mature five years from the date of each borrowing.\" It adds: \"We will grant a security interest in certain purchased assets in connection with the Loan Facility.\" Amounts outstanding are classified as \"Long-term debt\".\n\nKeep \"up to approximately\" and that it is available from Q1 2027, not yet borrowed. The filing says \"technology infrastructure assets\"; \"AI hardware\" is Site Watch's and Quartz's reading, so use the filing's words."
-}

@@ -1,0 +1,44 @@
+{
+  "id": "2026-11-01-sp-meta-outlook-negative",
+  "publishedAt": "2026-11-01T22:10:00+07:00",
+  "section": "deals",
+  "tags": [
+    "banking"
+  ],
+  "company": "Meta",
+  "headline": "Meta's credit outlook revised to negative by S&P over AI spending and cash flow",
+  "body": "The credit agency said the outlook reflects \"uncertainty\" about Meta's elevated capex and its negative free cash flow. Meta's credit rating was revised from AA- stable to AA- negative. Meta expects full-year capex of $135 billion to $145 billion.",
+  "note": "The rating stays AA-, so this is an outlook change. Meta posted negative free cash flow of $2.12 billion.",
+  "figure": {
+    "value": "$2.12B",
+    "label": "Meta's negative free cash flow in the quarter"
+  },
+  "sources": [
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Meta's credit rating was revised from AA- stable to AA- negative, S&P said."
+    },
+    {
+      "source": 0,
+      "text": "The agency questioned \"Meta's ability to monetize its AI investments\" relative to its peers, which are also spending heavily on data center buildouts and going cash flow negative in the process."
+    },
+    {
+      "source": 0,
+      "text": "\"We respectfully disagree with S&P's assertion about Meta's AI monetization capabilities,\" the spokesperson said in a statement."
+    },
+    {
+      "source": 0,
+      "text": "Meta said in its third-quarter earnings report last week that it expects full-year capex to come in the range of $135 billion to $145 billion. The company also posted negative free cash flow of $2.12 billion, going in the red for the first time."
+    },
+    {
+      "source": 0,
+      "text": "The credit agency said Friday that the outlook reflects \"uncertainty\" about Meta's elevated capex and its negative free cash flow."
+    }
+  ]
+}

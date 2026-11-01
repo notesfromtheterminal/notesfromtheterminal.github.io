@@ -1,0 +1,28 @@
+{
+  "id": "2026-11-01-amazon-80b-loan-facility",
+  "publishedAt": "2026-11-01T22:12:00+07:00",
+  "section": "deals",
+  "tags": [
+    "banking"
+  ],
+  "company": "Amazon",
+  "headline": "Amazon sets up secured loan facility of up to approximately $80.0 billion",
+  "body": "Amazon's filing says the secured loan facility provides for borrowings at its discretion, from Q1 2027 through Q3 2028, of up to approximately $80.0 billion. Borrowings accrue interest at variable rates and mature five years from the date of each borrowing.",
+  "note": "The facility sits within supplier financing arrangements for technology infrastructure assets, and amounts outstanding will be classified as long-term debt.",
+  "sources": [
+    {
+      "name": "Amazon quarterly filing (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "We enter into supplier financing arrangements that provide for certain purchases of technology infrastructure assets, including a secured loan facility (the “Loan Facility”) providing for borrowings at our discretion, from Q1 2027 through Q3 2028 and subject to variability based on the extent and timing of purchase orders and pricing terms, of up to approximately $ 80.0 billion, which accrue interest at variable rates and mature five years from the date of each borrowing."
+    },
+    {
+      "source": 0,
+      "text": "Amounts outstanding for assets purchased under the Loan Facility will be classified as “Long-term debt” on our consolidated balance sheets, and principal payments made will be reported as “Repayments of long-term debt” on our consolidated statements of cash flows."
+    }
+  ]
+}
