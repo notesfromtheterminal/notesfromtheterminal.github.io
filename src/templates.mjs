@@ -576,17 +576,9 @@ ${signupBox('notes')}
       signup: false,
       body: `<div class="subscribe-page">${signupBox('subscribe', {
         tag: 'h1',
-        title: 'The Morning Note, in your inbox at 07:00 WIB',
-        intro: `${esc(site.name)} is a daily note on AI and finance: what changed overnight and why it matters. Free, and you can leave anytime.`,
-      })}
-<section class="subscribe-gets" aria-labelledby="subscribe-gets-h">
-<h2 class="label" id="subscribe-gets-h">What you get each morning</h2>
-<ul>
-<li><strong>The full Morning Note.</strong> What changed in AI and finance overnight, connected in four to six short sections.</li>
-<li><strong>The stories behind it.</strong> A short brief on each of the main stories, with a link to the full brief and its sources.</li>
-<li><strong>Also on the wire.</strong> A few more headlines from the last day, if you want to read further.</li>
-</ul>
-</section></div>`,
+        title: 'Want the AI-in-finance news that matters, before work?',
+        intro: `Get the Morning Note, free in your inbox at 07:00 WIB. You'll get what changed in AI and finance overnight, a short brief on each of the main stories, and a few more headlines from the wire. You can leave anytime.`,
+      })}</div>`,
     });
   }
 

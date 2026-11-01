@@ -296,11 +296,9 @@ mark { background: #ffe2c2; color: inherit; padding: 0 1px; border-radius: 2px; 
 .signup-status[data-state="ok"] { font-weight: 700; color: var(--ink); }
 .signup-status[data-state="error"] { color: var(--down); }
 .subscribe-page { max-width: 620px; margin: 0 auto; padding: 28px 0 56px; }
+.subscribe-page .signup { padding: 28px 24px 26px; }
 .subscribe-page .signup-head { font-size: 30px; }
-.subscribe-gets { margin-top: 30px; }
-.subscribe-gets ul { margin: 0; padding: 0; list-style: none; }
-.subscribe-gets li { padding: 14px 0; border-bottom: 1px solid var(--rule); font-family: var(--serif); font-size: 17px; line-height: 1.45; color: var(--text); }
-.subscribe-gets strong { font-family: var(--head); font-weight: 700; color: var(--ink); }
+.subscribe-page .signup-dek { margin-bottom: 18px; font-size: 18px; line-height: 1.5; color: var(--text); }
 .signup-compact { margin: 0 0 30px; padding: 0 0 26px; background: none; border-top: 0; border-bottom: 1px solid #2e2e33; }
 .signup-compact .signup-head { color: #fff; font-size: 20px; }
 .signup-compact .signup-dek { color: #b4b4bb; font-size: 15.5px; }
