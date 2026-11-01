@@ -477,7 +477,7 @@ ${shareBar(n.title, path)}
         const [latest, ...rest] = sorted;
         return `<div class="morning-note paper np-archive">
 <header class="np-head">
-<p class="np-folio"><span>Vol. I <span aria-hidden="true">·</span> ${notes.length} editions</span><span class="np-folio-mid">AI in finance, before the market opens</span><span>Every morning, 07:00 WIB</span></p>
+<p class="np-folio"><span>Vol. I <span aria-hidden="true">·</span> ${notes.length} editions</span><span class="np-folio-mid">AI in finance, before the market opens</span><span>Every morning, 00:00 UTC</span></p>
 <h1 class="np-nameplate">The Morning Note</h1>
 <p class="np-motto">&ldquo;What changed in AI and finance overnight.&rdquo;</p>
 <p class="np-dateline"><span>The archive</span><span class="np-ed">Every edition, newest first</span><span>By ${esc(site.author)}</span></p>
