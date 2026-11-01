@@ -1,0 +1,7 @@
+{
+  "note": "2026-11-02",
+  "commit": "fb5aceec01065aa44b492e12606a5051045e3f69",
+  "verdict": "APPROVED",
+  "at": "2026-11-01T16:47:19.508Z",
+  "notes": "Fixed by the review run, then approved:\n1. Dek: note said \"a bond sale\"; source (CNBC) says Microsoft \"announced plans to raise $25 billion in bonds\". New: \"a bond plan\".\n2. Section 1: note said the three spenders \"put\" a piece into a credit or debt document; the Meta document is S&P's, not Meta's. Source: \"The credit agency said Friday that the outlook reflects...\" New: \"have each had a piece of the AI buildout land in a credit or debt document\"."
+}
