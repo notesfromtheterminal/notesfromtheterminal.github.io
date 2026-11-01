@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-02-accenture-71-percent-bank-ai-assistant",
+  "publishedAt": "2026-11-02T03:15:00+07:00",
+  "section": "banking",
+  "tags": ["payments"],
+  "company": "Accenture",
+  "headline": "Accenture research found 71% of customers would welcome an AI assistant in their bank's app",
+  "body": "CNBC says Accenture research shows 71% of customers would welcome an AI assistant embedded within their primary bank's mobile app. JPMorgan CEO Jamie Dimon said the bank currently blocks external AI agents from operating on behalf of retail customers, citing security risks.",
+  "note": "A survey measures what customers say they would welcome. For a bank that blocks outside agents, the finding suggests the same demand could be met by an assistant the bank runs itself.",
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/01/jpmorgan-amazon-ai-agents-meta-muse.html" }
+  ],
+  "wire": ["f4f42c25ccd7"],
+  "evidence": [
+    { "source": 0, "text": "But research from Accenture shows that 71% of customers would welcome an AI assistant like Meta Muse embedded within their primary bank's mobile app." },
+    { "source": 0, "text": "Abbott said that Accenture research found that 65% of consumers are open to using a GPT-like financial assistant through a Gen AI platform or digital wallet, and 71% would welcome an AI assistant embedded within their primary bank's mobile app." },
+    { "source": 0, "text": "Reports last week of AI agents going rogue in customer accounts — and prominent politicians including Sen. Mark Warner and Sen. Bernie Sanders calling for bot legislation in response to the headlines — come on the heels of JPMorgan Chase CEO Jamie Dimon saying the bank currently blocks external AI agents from operating on behalf of retail customers, citing security risks." }
+  ]
+}
