@@ -197,7 +197,7 @@ ${body}
 <footer class="site-footer"><div class="wrap">
 ${signup ? signupBox('footer', { compact: true }) : ''}
 <div class="footer-top">${wordmark(' wordmark-inverse')}<p class="footer-tagline">${esc(site.tagline)}</p></div>
-<nav class="footer-links" aria-label="Footer"><a href="${u('about/')}">About</a><a href="${u('archive/')}">Archive</a><a href="${u('notes/')}">Morning Notes</a><a href="${u('wire/')}">The Wire</a><a href="${u('feed.xml')}">RSS</a><a href="https://x.com/${esc(site.x)}" target="_blank" rel="noopener">X @${esc(site.x)}</a>${site.substackUrl ? `<a href="${esc(site.substackUrl)}">Substack</a>` : ''}</nav>
+<nav class="footer-links" aria-label="Footer"><a href="${u('about/')}">About</a><a href="${u('archive/')}">Archive</a><a href="${u('notes/')}">Morning Notes</a><a href="${u('wire/')}">The Wire</a>${site.kitFormId && site.newsletterLive ? `<a href="${u('subscribe/')}">Subscribe</a>` : ''}<a href="${u('feed.xml')}">RSS</a><a href="https://x.com/${esc(site.x)}" target="_blank" rel="noopener">X @${esc(site.x)}</a>${site.substackUrl ? `<a href="${esc(site.substackUrl)}">Substack</a>` : ''}</nav>
 <p class="copyright">© ${now.getFullYear()} ${esc(site.name)}</p>
 </div></footer>
 <div class="fresh" hidden><button type="button" data-refresh><span class="pulse" aria-hidden="true"></span>New stories · Refresh</button></div>
@@ -284,17 +284,19 @@ ${n.dek ? `<p class="note-card-dek">${esc(n.dek)}</p>` : ''}
 
   // The Morning Note by email. The form posts straight to Kit, so it works without
   // JavaScript; app.js upgrades it to an in-page submit with a confirmation line.
-  function signupBox(id, { compact = false } = {}) {
+  function signupBox(id, { compact = false, title, intro, tag = 'h2' } = {}) {
     // Paused (site.newsletterLive false): no sign-up box anywhere. The Kit form stays set up.
     if (!site.kitFormId || !site.newsletterLive) return '';
     const action = `https://app.kit.com/forms/${encodeURIComponent(site.kitFormId)}/subscriptions`;
-    const head = compact ? 'Get the Morning Note by email' : 'The AI-in-finance stories that matter, before work';
-    const dek = compact
-      ? `The AI-in-finance stories that matter, before work. Free, and you can leave anytime.`
-      : `One short email each morning, readable in under three minutes. Free, and you can leave anytime.`;
+    const head = title ?? (compact ? 'Get the Morning Note by email' : 'The AI-in-finance stories that matter, before work');
+    const dek =
+      intro ??
+      (compact
+        ? `The AI-in-finance stories that matter, before work. Free, and you can leave anytime.`
+        : `One short email each morning, readable in under three minutes. Free, and you can leave anytime.`);
     return `<section class="signup${compact ? ' signup-compact' : ''}" aria-labelledby="signup-h-${id}">
-${compact ? '' : '<p class="kicker">The Morning Note, by email</p>'}
-<h2 class="signup-head" id="signup-h-${id}">${head}</h2>
+${compact || title ? '' : '<p class="kicker">The Morning Note, by email</p>'}
+<${tag} class="signup-head" id="signup-h-${id}">${head}</${tag}>
 <p class="signup-dek">${dek}</p>
 <form class="signup-form" action="${esc(action)}" method="post" data-signup="${esc(id)}">
 <label class="sr" for="signup-email-${id}">Email address</label>
@@ -565,6 +567,21 @@ ${signupBox('notes')}
     });
   }
 
+  // The sign-up on its own page, for links from X and elsewhere: ?ref= reaches GoatCounter with the page view.
+  function subscribePage() {
+    return layout({
+      title: 'Subscribe',
+      description: 'Notes from the Terminal is a daily Morning Note on AI and finance, in your inbox at 07:00 WIB. Free, and you can leave anytime.',
+      path: 'subscribe/',
+      signup: false,
+      body: `<div class="subscribe-page">${signupBox('subscribe', {
+        tag: 'h1',
+        title: 'The Morning Note, in your inbox at 07:00 WIB',
+        intro: `${esc(site.name)} is a daily note on AI and finance: what changed overnight and why it matters. Free, and you can leave anytime.`,
+      })}</div>`,
+    });
+  }
+
   function aboutPage() {
     const x = `<a href="https://x.com/${esc(site.x)}" target="_blank" rel="noopener">@${esc(site.x)}</a>`;
     return layout({
@@ -638,5 +655,5 @@ ${paths.map((x) => `<url><loc>${esc(abs(x.path))}</loc>${x.lastmod ? `<lastmod>$
 `;
   }
 
-  return { frontPage, sectionPage, storyPage, notePage, notesIndex, wirePage, archiveIndex, archiveDay, aboutPage, searchPage, notFoundPage, rss, sitemap, abs, u };
+  return { frontPage, sectionPage, storyPage, notePage, notesIndex, wirePage, archiveIndex, archiveDay, aboutPage, subscribePage, searchPage, notFoundPage, rss, sitemap, abs, u };
 }

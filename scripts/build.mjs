@@ -132,6 +132,7 @@ await page('archive/', T.archiveIndex({ days: [...days].map(([key, list]) => ({ 
 for (const [key, list] of days) await page(`archive/${key}/`, T.archiveDay({ key, date: list[0].publishedAt, briefs: list }));
 
 await page('about/', T.aboutPage({ sourceNames }));
+if (site.kitFormId && site.newsletterLive) await page('subscribe/', T.subscribePage());
 await page('search/', T.searchPage());
 
 // Search index for the client: every brief and note, plus the wire window.
