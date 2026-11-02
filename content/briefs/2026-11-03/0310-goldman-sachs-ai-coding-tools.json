@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-03-goldman-sachs-ai-coding-tools-engineers",
+  "publishedAt": "2026-11-03T03:10:00+07:00",
+  "section": "banking",
+  "star": true,
+  "company": "Goldman Sachs",
+  "headline": "Goldman Sachs reportedly cuts most employees off from AI coding tools",
+  "body": "Goldman Sachs has reportedly cut off most of its employees from advanced AI coding tools like Claude Code and GitHub. Only engineers can still use them, according to Bloomberg, citing internal guidelines from October. Goldman spokesperson Nick Carcaterra cited \"a variety of factors including productivity and risk management.\"",
+  "note": "Goldman treats who builds with AI coding tools as a separate decision from whether the firm uses them at all. Productivity and risk management are the factors the spokesperson named, and any bank giving these tools to non-engineers will have to weigh the same two.",
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/" },
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/goldman-sachs-bars-bankers-from-employing-some-ai-tools/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Goldman Sachs has cut off most of its employees from advanced AI coding tools like Anthropic's Claude Code and Microsoft's GitHub." },
+    { "source": 0, "text": "Only engineers can still use them, according to Bloomberg , citing internal guidelines from October." },
+    { "source": 0, "text": "Traders and bankers had spent months using the tools to monitor trading flows and create content." },
+    { "source": 0, "text": "Bloomberg's report cites only a \"variety of factors including productivity and risk management,\" according to Goldman spokesperson Nick Carcaterra." },
+    { "source": 1, "text": "Goldman Sachs has reportedly instituted a crackdown on artificial intelligence (AI) usage by its bankers." },
+    { "source": 1, "text": "After a period of experimentation where we assess a variety of factors including productivity and risk management, we put them in the hands of those who are best suited to leverage them for the long term." }
+  ]
+}
