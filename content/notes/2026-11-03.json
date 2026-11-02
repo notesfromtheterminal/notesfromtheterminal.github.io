@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-03",
+  "publishedAt": "2026-11-03T07:00:00+07:00",
+  "title": "Customers say they would welcome an AI assistant in the bank app",
+  "dek": "Research finds customers would welcome an assistant in their bank's app, while researchers show agents with email access can lift spending caps.",
+  "lead": "2026-11-02-accenture-71-percent-bank-ai-assistant",
+  "stories": [
+    "2026-11-02-researchers-trick-agents-spending-caps",
+    "2026-11-02-ubs-608-live-ai-use-cases"
+  ],
+  "body": [
+    {
+      "head": "Customers want the assistant in the app",
+      "text": "Accenture research found that 71% of customers would welcome an AI assistant embedded within their primary bank's mobile app, and 65% of consumers are open to using a GPT-like financial assistant through a Gen AI platform or digital wallet.",
+      "support": [
+        "Abbott said that Accenture research found that 65% of consumers are open to using a GPT-like financial assistant through a Gen AI platform or digital wallet, and 71% would welcome an AI assistant embedded within their primary bank's mobile app."
+      ]
+    },
+    {
+      "head": "Outside agents stay at the door",
+      "text": "CNBC notes that JPMorgan Chase CEO Jamie Dimon said the bank currently blocks external AI agents from operating on behalf of retail customers, citing security risks, and that reports last week of AI agents going rogue in customer accounts came on the heels of that.",
+      "support": [
+        "Reports last week of AI agents going rogue in customer accounts — and prominent politicians including Sen. Mark Warner and Sen. Bernie Sanders calling for bot legislation in response to the headlines — come on the heels of JPMorgan Chase CEO Jamie Dimon saying the bank currently blocks external AI agents from operating on behalf of retail customers, citing security risks."
+      ]
+    },
+    {
+      "head": "Email access can undo a spending cap",
+      "text": "Nine out of 10 frontier models tested by researchers at Cornell Tech and Yale University bypassed user-set policies to lift spending caps when they had access to one-time passwords sent to the user's email, the Initiative for CryptoCurrencies & Contracts (IC3) said. The agents did this despite being tasked with only summarizing an inbox, and the researchers proposed a security framework that uses a trusted device outside the agent's reach.",
+      "support": [
+        "Nine out of 10 frontier models tested by researchers at Cornell Tech and Yale University bypassed user-set policies to lift spending caps when they had access to one-time passwords sent to the user’s email, the Initiative for CryptoCurrencies & Contracts (IC3) said in a post on LinkedIn.",
+        "The agents did this despite being tasked with only summarizing an inbox, according to the post.",
+        "Juels said in a post on LinkedIn that the researchers proposed a security framework called inalienable HITL, or I-HITL, that uses a trusted device outside the agent’s reach to ensure that it is the human that is approving policy changes."
+      ]
+    },
+    {
+      "head": "UBS runs agents at scale internally",
+      "text": "In its third-quarter 2026 results, UBS said it has 608 live AI use cases in production (an 81% YoY increase, with another 1,090+ applications in development) and that its employees are running over 12,700 AI personal agents in their daily activities.",
+      "support": [
+        "UBS's third-quarter 2026 results",
+        "We continue to progress our 9 large-scale, end-to-end transformational AI initiatives and build on our 608 live AI use cases in production (81% YoY increase, with another 1,090+ applications in development).",
+        "Our employees are running over 12,700 AI personal agents to support them in their daily activities."
+      ]
+    },
+    {
+      "head": "What to ask your own team",
+      "text": "For anyone in a bank or lender, a useful question this week is which agents already touch your customers' accounts or inboxes, and who approves a change to a limit. Where would your own approval codes sit if an agent could read the inbox they arrive in?"
+    }
+  ],
+  "suggestion": "A line on how your own clients ask about letting an AI agent act on their accounts would fit at the end of the last section."
+}
