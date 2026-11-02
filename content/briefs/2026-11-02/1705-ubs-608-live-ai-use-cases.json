@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-02-ubs-608-live-ai-use-cases",
+  "publishedAt": "2026-11-02T17:05:00+07:00",
+  "section": "banking",
+  "tags": [],
+  "company": "UBS",
+  "headline": "UBS has 608 live AI use cases in production, up 81% YoY",
+  "body": "UBS said in its third-quarter 2026 results that it has 608 live AI use cases in production, up 81% YoY, with more than 1,090 applications in development. The bank also said its employees are running over 12,700 AI personal agents in their daily activities.",
+  "note": "The split between live cases and the 1,090-plus applications in development is a useful read on what is actually in production.",
+  "figure": { "value": "608", "label": "live AI use cases in production, UBS third quarter 2026" },
+  "sources": [
+    { "name": "UBS", "url": "https://www.ubs.com/global/en/media/display-page-ndp/en-20261028-3q26-quarterly-result.html" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "UBS's third-quarter 2026 results" },
+    { "source": 0, "text": "Zurich 28 Oct 2026, 06:45 CET" },
+    { "source": 0, "text": "We continue to progress our 9 large-scale, end-to-end transformational AI initiatives and build on our 608 live AI use cases in production (81% YoY increase, with another 1,090+ applications in development)." },
+    { "source": 0, "text": "Our employees are running over 12,700 AI personal agents to support them in their daily activities." }
+  ]
+}
