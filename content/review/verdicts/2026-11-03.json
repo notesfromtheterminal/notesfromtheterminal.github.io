@@ -1,0 +1,7 @@
+{
+  "note": "2026-11-03",
+  "commit": "4c47a5c64ded8daa9320b0aaf42f61d09a4634f4",
+  "verdict": "APPROVED",
+  "at": "2026-11-02T16:54:11.569Z",
+  "notes": "Fixed by the review run, then approved:\n1. Title. Note: \"Customers say yes to an AI assistant in the bank app\". Source: \"71% of customers would welcome an AI assistant ... embedded within their primary bank's mobile app\" (a survey of what customers would welcome). New: \"Customers say they would welcome an AI assistant in the bank app\".\n2. Dek. Note: \"Research finds customers welcome an assistant in their bank's app\". Source: \"would welcome\". New: \"Research finds customers would welcome an assistant in their bank's app\"."
+}
