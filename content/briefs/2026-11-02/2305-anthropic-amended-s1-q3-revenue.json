@@ -1,0 +1,41 @@
+{
+  "id": "2026-11-02-anthropic-amended-s1-q3-revenue",
+  "publishedAt": "2026-11-02T23:05:00+07:00",
+  "section": "deals",
+  "tags": [
+    "models"
+  ],
+  "star": true,
+  "company": "Anthropic",
+  "headline": "Anthropic reports roughly $17 billion in third quarter revenue in amended S-1",
+  "body": "Anthropic reported updated financials in an amended Form S-1 filing with the Securities and Exchange Commission on Monday: roughly $17 billion in revenue in its third quarter. In the filing, Anthropic said its aggregate committed spend on purchase commitments and lease agreements is about $895.4 billion, \"substantially all of which is related to compute and infrastructure.\" CNBC reports that third quarter revenue increased around 47%, down from 144% growth in Q2 and 132% in Q1.",
+  "note": "Growth slowed quarter to quarter while compute commitments grew large, a pairing lenders to AI infrastructure will read closely.",
+  "figure": {
+    "value": "$895.4B",
+    "label": "committed spend on purchase commitments and leases"
+  },
+  "sources": [
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Anthropic reported updated financials as part of an amended Form S-1 filing with the Securities and Exchange Commission on Monday, giving investors a more comprehensive look into the state of its business."
+    },
+    {
+      "source": 0,
+      "text": "During its third quarter, Anthropic generated roughly $17 billion in revenue, up about 1,127% from the same period last year."
+    },
+    {
+      "source": 0,
+      "text": "Revenue growth slowed on a quarter to quarter basis, however. Third quarter revenue increased around 47%, a steep drop from 144% growth in Q2 and 132% in Q1."
+    },
+    {
+      "source": 0,
+      "text": "In the amended S-1, Anthropic said it has entered into purchase commitments and lease agreements with an aggregate committed spend of about $895.4 billion, \"substantially all of which is related to compute and infrastructure.\""
+    }
+  ]
+}
