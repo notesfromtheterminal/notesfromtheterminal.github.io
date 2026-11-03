@@ -1,0 +1,7 @@
+{
+  "note": "2026-11-04",
+  "commit": "498f43cfebd2846f167ac21ed533358128888398",
+  "verdict": "APPROVED",
+  "at": "2026-11-03T16:47:09.321Z",
+  "notes": "Fixed by the review run, then approved:\n1. Title \"Banks widen AI access to some staff while others narrow it\": UBS source only says employees run over 12,700 AI personal agents, not that access was widened. New: \"Goldman reportedly narrows AI tool access as UBS cites agents\".\n2. Dek \"UBS counts 12,700 personal agents\": source \"Our employees are running over 12,700 AI personal agents\". New: \"UBS says employees run over 12,700 personal agents while ...\".\n3. Section 2 cut \"It is a reminder that a bank can adopt tools broadly in one place and restrict them in another at the same time.\" (no source for broad adoption or timing).\n4. Section 5 cut \"and they are worth watching as agents start placing orders\" (source does not say agents have started placing orders); sentence now ends \"figures from an earnings call.\""
+}
