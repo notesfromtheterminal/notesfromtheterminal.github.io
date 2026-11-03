@@ -1,8 +1,8 @@
 {
   "date": "2026-11-04",
   "publishedAt": "2026-11-04T07:00:00+07:00",
-  "title": "Banks widen AI access to some staff while others narrow it",
-  "dek": "UBS counts 12,700 personal agents while Goldman reportedly limits coding tools to engineers.",
+  "title": "Goldman reportedly narrows AI tool access as UBS cites agents",
+  "dek": "UBS says employees run over 12,700 personal agents while Goldman reportedly limits coding tools to engineers.",
   "lead": "2026-11-03-goldman-sachs-ai-coding-tools-engineers",
   "stories": [
     "2026-11-02-ubs-608-live-ai-use-cases",
@@ -21,7 +21,7 @@
     },
     {
       "head": "Goldman's stated reasons",
-      "text": "Goldman spokesperson Nick Carcaterra pointed to a \"variety of factors including productivity and risk management\". It is a reminder that a bank can adopt tools broadly in one place and restrict them in another at the same time.",
+      "text": "Goldman spokesperson Nick Carcaterra pointed to a \"variety of factors including productivity and risk management\".",
       "support": [
         "Bloomberg's report cites only a \"variety of factors including productivity and risk management,\" according to Goldman spokesperson Nick Carcaterra."
       ]
@@ -44,7 +44,7 @@
     },
     {
       "head": "Grab puts numbers on assistants",
-      "text": "Grab CEO Anthony Tan said \"merchants using our AI assistants see about 20% uplift\" and that drivers using it earn over 10% more per online hour. Those are the CEO's figures from an earnings call, and they are worth watching as agents start placing orders.",
+      "text": "Grab CEO Anthony Tan said \"merchants using our AI assistants see about 20% uplift\" and that drivers using it earn over 10% more per online hour. Those are the CEO's figures from an earnings call.",
       "support": [
         "“The results are already measurable,” CEO Anthony Tan said, noting that “merchants using our AI assistants see about 20% uplift. Drivers who use it earn over 10% more per online hour.”"
       ]
