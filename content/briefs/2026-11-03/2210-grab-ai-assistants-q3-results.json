@@ -1,0 +1,32 @@
+{
+  "id": "2026-11-03-grab-ai-assistants-q3-results",
+  "publishedAt": "2026-11-03T22:10:00+07:00",
+  "section": "sea",
+  "tags": [
+    "payments"
+  ],
+  "company": "Grab",
+  "headline": "Grab CEO says merchants using its AI assistants see about 20% uplift",
+  "body": "Grab CEO Anthony Tan said \"merchants using our AI assistants see about 20% uplift\" and that drivers using it earn over 10% more per online hour. PYMNTS says the Southeast Asian super app reported a 27% increase in revenue on Tuesday, in a quarter when mobility, deliveries and financial services reached profitability simultaneously for the first time.",
+  "note": "The assistant figures come from the CEO on an earnings call. Grab also piloted Meta's Muse assistant in Singapore for GrabMart baskets. Agent-led ordering is a channel payments partners in the region may want to watch.",
+  "sources": [
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/earnings/2026/grab-gets-ai-assistance-as-revenues-rise-27percent/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "The Southeast Asian super app reported earnings Tuesday (Nov. 3) showing a 27% increase in revenue, capping a quarter that also saw its three core operating segments — mobility, deliveries and financial services — reach profitability simultaneously for the first time."
+    },
+    {
+      "source": 0,
+      "text": "“The results are already measurable,” CEO Anthony Tan said, noting that “merchants using our AI assistants see about 20% uplift. Drivers who use it earn over 10% more per online hour.”"
+    },
+    {
+      "source": 0,
+      "text": "The company teamed with Meta to pilot the company’s Muse artificial intelligence assistant in Singapore, letting customers build GrabMart grocery baskets directly within chat interfaces before completing checkout inside the Grab app."
+    }
+  ]
+}
