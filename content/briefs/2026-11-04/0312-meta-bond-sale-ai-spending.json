@@ -1,0 +1,42 @@
+{
+  "id": "2026-11-04-meta-bond-sale-ai-spending",
+  "publishedAt": "2026-11-04T03:12:00+07:00",
+  "section": "deals",
+  "tags": ["models"],
+  "company": "Meta",
+  "headline": "Meta is seeking $20 billion to $25 billion in bond sale for AI spending",
+  "body": "Meta is seeking to raise between $20 billion and $25 billion in a bond sale on Tuesday as it ramps up spending on artificial intelligence infrastructure, models and services. The debt sale is expected to be two-thirds in U.S. dollars and one-third in euros, according to people familiar with the matter. The sale comes days after S&P Global Ratings revised Meta's outlook to negative, citing \"uncertainty\" about its capex spending and negative free cash flow.",
+  "note": "Meta's latest quarter posted negative free cash flow of $2.12 billion, and full-year capex will come in between $135 billion and $145 billion.",
+  "figure": {
+    "value": "$25B",
+    "label": "top of the bond sale Meta is seeking"
+  },
+  "sources": [
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/03/meta-bond-sale-ai-funding.html"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Meta is seeking to raise between $20 billion and $25 billion in a bond sale on Tuesday as the company ramps up its spending on artificial intelligence infrastructure along with AI models and services."
+    },
+    {
+      "source": 0,
+      "text": "The debt sale is expected to be two-thirds in U.S. dollars and one-third in euros, according to people familiar with the matter who asked not to be named because the details are private."
+    },
+    {
+      "source": 0,
+      "text": "Meta's bond sale comes days after S&P Global Ratings revised the company's outlook from AA- stable to AA- negative, citing \"uncertainty\" about its hefty capex spending and negative free cash flow."
+    },
+    {
+      "source": 0,
+      "text": "In its third-quarter earnings report last month, the Facebook parent revealed that its full-year capex will come in between $135 billion to $145 billion, representing a $5 billion increase to the low end of its previous guidance."
+    },
+    {
+      "source": 0,
+      "text": "Meta posted negative free cash flow of $2.12 billion for its latest quarter, joining Alphabet and Amazon in reporting a negative figure."
+    }
+  ]
+}

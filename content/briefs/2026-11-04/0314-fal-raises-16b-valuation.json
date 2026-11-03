@@ -1,0 +1,33 @@
+{
+  "id": "2026-11-04-fal-raises-16b-valuation",
+  "publishedAt": "2026-11-04T03:14:00+07:00",
+  "section": "deals",
+  "company": "Fal",
+  "headline": "Fal's funding round values it at $16 billion, Bloomberg reported",
+  "body": "Fal, a San Francisco-based startup that hosts and runs AI video, image and audio models, has raised $1.3 billion in its latest funding round led by Bessemer Venture Partners. The deal values Fal at $16 billion, double its $8 billion valuation in April, Bloomberg reported. Bloomberg also reported that Fal surpassed $800 million in annualized revenue earlier this year.",
+  "note": "Other inference providers are growing fast too, but their gross margins remain thin because compute is expensive, according to several people familiar with their financials.",
+  "figure": {
+    "value": "$16B",
+    "label": "valuation after the round"
+  },
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Fal , a San Francisco-based startup that hosts and runs AI video, image, and audio models, has raised $1.3 billion in its latest funding round led by Bessemer Venture Partners, with participation from Nvidia, Sound Ventures, and T. Rowe Price. The deal values Fal at $16 billion, double its $8 billion valuation in April, Bloomberg reported ."
+    },
+    {
+      "source": 0,
+      "text": "Fal surpassed $800 million in annualized revenue earlier this year, Bloomberg’s report noted."
+    },
+    {
+      "source": 0,
+      "text": "Companies providing inference services, including Baseten, Fireworks AI, and Modal, have also been growing rapidly and raising large funding rounds at higher valuations . But their gross margins remain thin because of the high cost of buying or leasing compute, according to several people familiar with inference companies’ financials."
+    }
+  ]
+}

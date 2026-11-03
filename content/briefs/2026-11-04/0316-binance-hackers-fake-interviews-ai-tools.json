@@ -1,0 +1,33 @@
+{
+  "id": "2026-11-04-binance-hackers-fake-interviews-ai-tools",
+  "publishedAt": "2026-11-04T03:16:00+07:00",
+  "section": "payments",
+  "company": "Binance",
+  "headline": "Binance says hackers used fake job interviews to infiltrate its wallet infrastructure",
+  "body": "Binance said hackers used fake job interviews, malicious software and compromised internal AI tools to infiltrate its wallet infrastructure, leading to an Oct. 29 cyberattack that resulted in more than $6 billion in assets being stolen. The attackers \"spent months building their way in,\" co-CEO Richard Teng told CNBC.",
+  "note": "Binance's security report says the attack began in June, when an engineer downloaded a tampered Homebrew installation to get a popular AI coding tool.",
+  "sources": [
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/03/binance-co-ceo-teng-says-hackers-used-fake-job-interviews-to-steal-6point3-billion-in-crypto.html"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Binance said hackers used fake job interviews, malicious software and compromised internal AI tools to infiltrate its wallet infrastructure, leading to the record-breaking Oct. 29 cyberattack that resulted in more than $6 billion in assets being stolen from the world's largest crypto exchange."
+    },
+    {
+      "source": 0,
+      "text": "The attackers \"spent months building their way in,\" Binance co-CEO Richard Teng told CNBC's \" Squawk on the Street \" Tuesday, rejecting suggestions that there was a single point of failure through one employee's laptop."
+    },
+    {
+      "source": 0,
+      "text": "As of Tuesday Binance has rebuilt the affected wallet system and internal AI tool, replaced compromised devices, decommissioned credentials and tokens associated with the affected engineers and expanded security scans across employee devices, Teng told \"Squawk on the Street.\""
+    },
+    {
+      "source": 0,
+      "text": "Preparations for the attack began in June, when a Binance Wallet DevOps engineer downloaded a tampered Homebrew installation \"to install a popular AI coding tool after searching for it on a search engine,\" according to a security report published by Binance Tuesday."
+    }
+  ]
+}
