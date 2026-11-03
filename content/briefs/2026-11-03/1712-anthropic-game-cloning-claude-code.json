@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-03-anthropic-blocks-game-cloning-claude-code",
+  "publishedAt": "2026-11-03T17:12:00+07:00",
+  "section": "models",
+  "tags": ["models"],
+  "company": "Anthropic",
+  "headline": "Anthropic is blocking Claude Code from recreating existing video games",
+  "body": "The Decoder says Anthropic is blocking Claude Code from recreating existing video games. Employee Addy Osmani confirmed on X that two sentences in Claude Code's system prompt for Opus 5.5 now prevent the tool from cloning other people's games. The rule has been active for several days and kicks in even when a clone gets renamed.",
+  "note": "For finance teams testing coding agents, the case shows that a vendor's usage rules can limit what a tool builds.",
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Anthropic is blocking its coding assistant Claude Code from recreating existing video games." },
+    { "source": 0, "text": "Employee Addy Osmani confirmed on X that two sentences in Claude Code's system prompt for Opus 5.5 now prevent the tool from cloning other people's games." },
+    { "source": 0, "text": "The rule has been active for several days and kicks in even when a clone gets renamed or passed off as an original work." },
+    { "source": 0, "text": "Using Claude to infringe on intellectual property violates the usage policy, Osmani said." }
+  ],
+  "wire": ["99195b081123"]
+}
