@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-04",
+  "publishedAt": "2026-11-04T07:00:00+07:00",
+  "title": "Banks widen AI access to some staff while others narrow it",
+  "dek": "UBS counts 12,700 personal agents while Goldman reportedly limits coding tools to engineers.",
+  "lead": "2026-11-03-goldman-sachs-ai-coding-tools-engineers",
+  "stories": [
+    "2026-11-02-ubs-608-live-ai-use-cases",
+    "2026-11-03-mastercard-openai-tencent-agent-pay",
+    "2026-11-03-grab-ai-assistants-q3-results"
+  ],
+  "body": [
+    {
+      "head": "Two banks, two postures",
+      "text": "Goldman Sachs has reportedly cut most of its employees off from AI coding tools such as Claude Code, and only engineers can still use them, according to Bloomberg citing internal guidelines from October. UBS says its employees are running over 12,700 AI personal agents in their daily activities.",
+      "support": [
+        "Goldman Sachs has cut off most of its employees from advanced AI coding tools like Anthropic's Claude Code and Microsoft's GitHub.",
+        "Only engineers can still use them, according to Bloomberg , citing internal guidelines from October.",
+        "Our employees are running over 12,700 AI personal agents to support them in their daily activities."
+      ]
+    },
+    {
+      "head": "Goldman's stated reasons",
+      "text": "Goldman spokesperson Nick Carcaterra pointed to a \"variety of factors including productivity and risk management\". It is a reminder that a bank can adopt tools broadly in one place and restrict them in another at the same time.",
+      "support": [
+        "Bloomberg's report cites only a \"variety of factors including productivity and risk management,\" according to Goldman spokesperson Nick Carcaterra."
+      ]
+    },
+    {
+      "head": "UBS counts what is live",
+      "text": "UBS reported 608 live AI use cases in production, an 81% YoY increase, with another 1,090+ applications in development. Counts like these give the rest of us something to compare our own pipelines against.",
+      "support": [
+        "We continue to progress our 9 large-scale, end-to-end transformational AI initiatives and build on our 608 live AI use cases in production (81% YoY increase, with another 1,090+ applications in development)."
+      ]
+    },
+    {
+      "head": "Payments firms court the agent",
+      "text": "Mastercard CEO Michael Miebach said a broad strategic partnership with OpenAI includes the use of Agent Pay. Mastercard also said in a press release that it and Tencent's cross-border payment platform, TenPay Global, will explore new opportunities in agentic payments. Miebach said consumers need to feel comfortable before this can really take off.",
+      "support": [
+        "Lost in the recent earnings announcement from Mastercard was a broad strategic partnership with OpenAI that Mastercard CEO Michael Miebach said includes the use of his company’s Agent Pay and “goes well beyond.”",
+        "Mastercard announced another partnership Monday (Nov. 2), saying in a press release that the company and Tencent ’s cross-border payment platform, TenPay Global , will explore new opportunities in agentic payments as well as greater cross-border payment interoperability.",
+        "“One of the things that need to happen before this to really take off is consumers need to feel comfortable,” Miebach said."
+      ]
+    },
+    {
+      "head": "Grab puts numbers on assistants",
+      "text": "Grab CEO Anthony Tan said \"merchants using our AI assistants see about 20% uplift\" and that drivers using it earn over 10% more per online hour. Those are the CEO's figures from an earnings call, and they are worth watching as agents start placing orders.",
+      "support": [
+        "“The results are already measurable,” CEO Anthony Tan said, noting that “merchants using our AI assistants see about 20% uplift. Drivers who use it earn over 10% more per online hour.”"
+      ]
+    },
+    {
+      "head": "What to watch in your own shop",
+      "text": "Which AI tools does your team use today, and who decides who gets them? That question looks different at a bank that has narrowed access than at one where employees run personal agents.",
+      "support": [
+        "Only engineers can still use them, according to Bloomberg , citing internal guidelines from October.",
+        "Our employees are running over 12,700 AI personal agents to support them in their daily activities."
+      ]
+    }
+  ]
+}
