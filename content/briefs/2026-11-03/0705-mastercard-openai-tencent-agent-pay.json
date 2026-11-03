@@ -1,0 +1,45 @@
+{
+  "id": "2026-11-03-mastercard-openai-tencent-agent-pay",
+  "publishedAt": "2026-11-03T07:05:00+07:00",
+  "section": "payments",
+  "company": "Mastercard",
+  "headline": "Mastercard ties Agent Pay to its OpenAI deal and signs a Tencent MoU",
+  "body": "Mastercard CEO Michael Miebach said on the Oct. 29 earnings call that a broad OpenAI agreement includes Agent Pay and \"goes well beyond\" it. On Nov. 2, Mastercard signed a memorandum of understanding with TenPay Global, Tencent's cross-border payment platform, to explore agentic payments.",
+  "note": "Miebach named trust as the gating factor, saying consumers need to feel comfortable and that a registered agent matters. The Tencent MoU commits the two sides to explore the idea, and nothing more is stated.",
+  "sources": [
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/partnerships/2026/mastercard-forms-openai-and-tencent-partnerships-to-drive-agentic-commerce/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Lost in the recent earnings announcement from Mastercard was a broad strategic partnership with OpenAI that Mastercard CEO Michael Miebach said includes the use of his company’s Agent Pay and “goes well beyond.”"
+    },
+    {
+      "source": 0,
+      "text": "“Our agreement establishes collaboration across payments, joint services growth and AI transformation,” Miebach said during the Thursday (Oct. 29) earnings call ."
+    },
+    {
+      "source": 0,
+      "text": "Mastercard Agent Pay is the company’s infrastructure for enabling payments in agentic commerce, according to a page on its website."
+    },
+    {
+      "source": 0,
+      "text": "“One of the things that need to happen before this to really take off is consumers need to feel comfortable,” Miebach said."
+    },
+    {
+      "source": 0,
+      "text": "“Use of Agent Pay and having a registered agent is a key thing."
+    },
+    {
+      "source": 0,
+      "text": "Mastercard announced another partnership Monday (Nov. 2), saying in a press release that the company and Tencent ’s cross-border payment platform, TenPay Global , will explore new opportunities in agentic payments as well as greater cross-border payment interoperability."
+    },
+    {
+      "source": 0,
+      "text": "Mastercard and TenPay Global signed a memorandum of understanding for a proposed collaboration that spans QR acceptance for international visitors in the Chinese mainland, remittances into the Weixin / WeChat ecosystem and AI-enabled commerce, according to the release."
+    }
+  ]
+}

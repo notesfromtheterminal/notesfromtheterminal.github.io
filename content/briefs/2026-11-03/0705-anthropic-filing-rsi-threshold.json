@@ -1,0 +1,42 @@
+{
+  "id": "2026-11-03-anthropic-filing-may-meet-rsi-threshold",
+  "publishedAt": "2026-11-03T07:05:00+07:00",
+  "section": "models",
+  "star": true,
+  "company": "Anthropic",
+  "headline": "Anthropic says internal estimates indicate it may imminently meet its RSI threshold",
+  "body": "In its revised S-1A, Anthropic says its internal estimates indicate it may imminently meet its Responsible Scaling Policy's definition of \"dramatically accelerated progress attributable to AI.\" The company says none of its current models has been designated as exceeding that threshold. TechCrunch says the filing seems to warn that Anthropic is on the cusp of creating a model capable of recursive self-improvement.",
+  "note": "The filing ties the risk to speed: Anthropic says its use of AI in research may cause capabilities to advance faster than its safety measures. For any bank that relies on frontier models, that is a reason to keep its own testing ahead of each model upgrade.",
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "While much attention has focused on the updated financials Anthropic revealed in its revised S-1A on Monday, (revenue is soaring, but so are expenses), the AI lab dropped another little bombshell in the fine print."
+    },
+    {
+      "source": 0,
+      "text": "The filing seems to warn that the company is on the cusp of creating a model capable of recursive self-improvement (RSI)."
+    },
+    {
+      "source": 0,
+      "text": "“Using AI to help build more capable AI could also pose a considerable safety risk, particularly if it sharply accelerates the pace of progress."
+    },
+    {
+      "source": 0,
+      "text": "In addition, our increasing use of AI systems to accelerate our own research and development may cause the capabilities of our models to advance more rapidly than our ability to develop, validate, and implement corresponding safety, alignment, and security measures."
+    },
+    {
+      "source": 0,
+      "text": "For example, our internal estimates and our expectations regarding future models, rather than our current models, indicate that we may imminently meet our Responsible Scaling Policy’s definition of “dramatically accelerated progress attributable to AI.”"
+    },
+    {
+      "source": 0,
+      "text": "We have not designated any of our current models as exceeding this threshold, and we continue to assess the underlying data."
+    }
+  ]
+}
