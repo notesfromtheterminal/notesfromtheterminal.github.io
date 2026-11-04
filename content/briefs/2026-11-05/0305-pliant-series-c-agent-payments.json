@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-05-pliant-series-c-agent-payments",
+  "publishedAt": "2026-11-05T03:05:00+07:00",
+  "section": "deals",
+  "tags": ["payments"],
+  "company": "Pliant",
+  "headline": "Pliant's Series C funding will deepen B2B payments for AI agents",
+  "body": "Pliant said it raised $80 million in a Series C round to deepen the capabilities of its B2B payment infrastructure around agentic payments and workflows. The Berlin-headquartered company will use the funding to support its expansion in the United States and Canada.",
+  "note": "The new funding is for infrastructure that lets businesses and AI agents use the same card issuing, payment accounts and foreign exchange.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/investment-tracker/2026/pliant-raises-80-million-to-open-b2b-payments-to-ai-agents/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Pliant raised $80 million in a Series C funding round to deepen its B2B payment infrastructure’s capabilities around agentic payments and workflows, the company said in a Wednesday (Nov. 4) press release ." },
+    { "source": 0, "text": "The Berlin-headquartered company will also use the new funding to support its expansion in the United States and Canada and to prepare its entry into additional international markets, according to the release." },
+    { "source": 0, "text": "Pliant’s modular B2B payments platform provides commercial card issuing, payment accounts, foreign exchange and spend management for businesses and artificial intelligence agents." },
+    { "source": 0, "text": "Pliant’s platform includes its own AI agents that help customers automate recurring finance work. It also allows third-party agents to connect to the platform via Model Context Protocol (MCP) and embed payment workflows into business processes, per the release." }
+  ]
+}

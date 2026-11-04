@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-05-openai-acquires-pierre-git-tooling",
+  "publishedAt": "2026-11-05T03:06:00+07:00",
+  "section": "deals",
+  "tags": ["models"],
+  "company": "OpenAI",
+  "headline": "OpenAI to acquire Pierre Computer Company for Git and coding tools",
+  "body": "OpenAI is buying Pierre Computer Company, the startup behind Code Storage and several open-source tools. OpenAI says the acquisition is about making Git workflows work better when developers and AI agents are writing code side by side, and Pierre’s libraries already power its Codex coding agent.",
+  "note": "As agents handle more tasks in parallel, the tooling around Git has to keep up. The deal still needs regulatory approval.",
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/openai-acquires-pierre-computer-company-to-make-git-keep-up-with-ai-coding-agents/" },
+    { "name": "OpenAI", "url": "https://openai.com/index/openai-to-acquire-pierre" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "OpenAI is buying Pierre Computer Company, Inc., the startup behind Code Storage and several open-source tools." },
+    { "source": 0, "text": "Pierre's libraries already power OpenAI's coding agent Codex." },
+    { "source": 0, "text": "OpenAI says the acquisition is about making Git workflows work better when developers and AI agents are writing code side by side." },
+    { "source": 0, "text": "As agents handle more tasks in parallel, the tooling around Git has to keep up." },
+    { "source": 0, "text": "The deal still needs regulatory approval." },
+    { "source": 1, "text": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code." }
+  ]
+}

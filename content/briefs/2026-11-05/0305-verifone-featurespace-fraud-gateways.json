@@ -1,0 +1,18 @@
+{
+  "id": "2026-11-05-verifone-featurespace-fraud-gateways",
+  "publishedAt": "2026-11-05T03:06:00+07:00",
+  "section": "payments",
+  "tags": ["banking"],
+  "company": "Verifone",
+  "headline": "Verifone adds Featurespace fraud models to its gateways",
+  "body": "Verifone said it has added Visa’s Featurespace to its anti-fraud framework, with adaptive machine learning models now deployed throughout its gateways. Verifone says its risk scoring framework examines more than 1,800 attributes of each transaction in real time, while keeping the request processing time under 100 milliseconds.",
+  "note": "Fraud scoring now examines each transaction in real time, with processing kept under 100 milliseconds.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/verifone-turns-to-visas-featurespace-to-combat-fraud/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Payments and commerce technology company Verifone has added Visa’s Featurespace to its anti-fraud framework." },
+    { "source": 0, "text": "The Featurespace platform and its adaptive machine learning models are now deployed throughout Verifone gateways, the company announced Wednesday (Nov. 4)." },
+    { "source": 0, "text": "Verifone’s risk scoring framework examines more than 1,800 attributes of each transaction in real time, while keeping the request processing time under 100 milliseconds." }
+  ]
+}
