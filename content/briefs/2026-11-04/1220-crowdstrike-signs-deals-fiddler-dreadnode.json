@@ -1,0 +1,42 @@
+{
+  "id": "2026-11-04-crowdstrike-signs-deals-fiddler-dreadnode",
+  "publishedAt": "2026-11-04T12:07:00+07:00",
+  "section": "deals",
+  "tags": [],
+  "company": "CrowdStrike",
+  "headline": "CrowdStrike signed a definitive agreement to acquire Fiddler and Dreadnode",
+  "body": "CrowdStrike signed a definitive agreement to acquire Fiddler, which adds AI observability to its Falcon platform, and Dreadnode, which provides automated AI security testing. The company expects both transactions to close in the fourth quarter of fiscal year 2027. The Wall Street Journal reported that CrowdStrike will pay about $400 million for Fiddler and about $95 million for Dreadnode.",
+  "note": "For companies deploying AI agents, the two deals cover testing before launch and monitoring of agent behavior after it.",
+  "sources": [
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/news/acquiring/2026/crowdstrike-to-acquire-2-firms-to-secure-enterprise-ai-agents/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "CrowdStrike plans to make two acquisitions that will add artificial intelligence (AI) observability and automated AI security testing to the CrowdStrike Falcon platform, the company said Tuesday (Nov. 3) in a pair of blog posts."
+    },
+    {
+      "source": 0,
+      "text": "One company CrowdStrike intends to acquire is Fiddler , whose pre-deployment evaluation and continuous behavioral monitoring will become part of the CrowdStrike Falcon platform and will help ensure enterprise AI agents act as intended, CrowdStrike said in a blog post ."
+    },
+    {
+      "source": 0,
+      "text": "CrowdStrike signed a definitive agreement to acquire Fiddler and expects the proposed transaction to close during its fourth quarter of fiscal year 2027, subject to customary closing conditions, the company said in a Tuesday press release ."
+    },
+    {
+      "source": 0,
+      "text": "The other company CrowdStrike intends to acquire, Dreadnode , provides automated AI security testing that enables companies to validate the security of AI systems before they go into product."
+    },
+    {
+      "source": 0,
+      "text": "CrowdStrike signed a definitive agreement to acquire Dreadnode and expects the proposed transaction to close during its fourth quarter of fiscal year 2027, subject to customary closing conditions, the company said in a Tuesday press release ."
+    },
+    {
+      "source": 0,
+      "text": "The Wall Street Journal reported Tuesday that CrowdStrike will pay about $400 million for Fiddler and about $95 million for Dreadnode."
+    }
+  ]
+}
