@@ -1,0 +1,23 @@
+{
+  "id": "2026-11-04-occ-ai-supervisory-framework-examiners",
+  "publishedAt": "2026-11-04T22:10:00+07:00",
+  "section": "rules",
+  "tags": ["banking"],
+  "star": true,
+  "company": "OCC",
+  "headline": "OCC issues supervisory framework for examiners evaluating banks' use of AI",
+  "body": "The Office of the Comptroller of the Currency (OCC), which oversees large national banks, issued a supervisory framework to support its examiners in evaluating banks' use of AI. The OCC says examiners should not treat it as a separate and distinct risk category, and banks are not required to define a separate risk appetite for it. The OCC says the framework does not establish supervisory expectations for banks.",
+  "note": "For risk teams, the framework points examiners at what an AI agent is allowed to do and what happens if it fails, which is a different question from how advanced the model is.",
+  "sources": [
+    { "name": "OCC", "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-54.html" },
+    { "name": "Reuters via KSEV Radio", "url": "https://ksevradio.com/us-bank-regulator-issues-first-ever-ai-guidance-for-examiners/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "The Office of the Comptroller of the Currency (OCC) today issued a supervisory framework designed to support OCC examiners in evaluating banks’ 1 use of super intelligence (SI) 2 in normal-course business activities." },
+    { "source": 0, "text": "clarifies that examiners should not treat SI as a separate and distinct risk category, and banks are not required to define a separate SI risk appetite." },
+    { "source": 0, "text": "This supervisory framework does not establish supervisory expectations for banks." },
+    { "source": 0, "text": "emphasizes a bank’s control intensity could increase with the potential consequences of an SI agent's failure or misuse." },
+    { "source": 0, "text": "clarifies that a bank’s risk classification of SI use cases may be based on potential consequences, transfer of agency, and the degree of human oversight rather than the technical sophistication of the SI used." },
+    { "source": 1, "text": "The Office of the Comptroller of the Currency, which oversees large national banks, issued what it said was the first-ever guidance for how examiners should probe banks’ AI usage, according to a copy of the document seen by Reuters." }
+  ]
+}
