@@ -1,0 +1,7 @@
+{
+  "note": "2026-11-05",
+  "commit": "153708c49d38c06b68c5b5f2fee32ad79fb10395",
+  "verdict": "APPROVED",
+  "at": "2026-11-04T16:48:07.720Z",
+  "notes": "Fixed by the review run, then approved:\n1. Title/dek/heading 1: note said supervisors \"start asking what an agent is allowed to do\" and the framework looks at an agent's \"authority\". Source says risk classification \"may be based on potential consequences, transfer of agency, and the degree of human oversight\" and control intensity \"could increase with the potential consequences of an SI agent's failure or misuse\"; nothing about what an agent is \"allowed to do\". New title, dek and heading say consequences of failure and human oversight.\n2. Section 1: note said \"with the technical sophistication of the system coming after those\". Source: \"rather than the technical sophistication of the SI used\". Restored \"rather than\".\n3. Section 4: cut \"A registered agent is one possible answer to an examiner's question about who an agent acts for.\" Miebach says nothing about examiners or who an agent acts for. Heading \"Payments sit close to the question\" changed to \"Mastercard's CEO points to trust\" (PYMNTS: \"trust in the agent is key\")."
+}
