@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-05",
+  "publishedAt": "2026-11-05T07:00:00+07:00",
+  "title": "The OCC's examiner framework weighs consequences of failure",
+  "dek": "The framework points to the consequences of an AI agent's failure and the degree of human oversight.",
+  "lead": "2026-11-04-occ-ai-supervisory-framework-examiners",
+  "stories": [
+    "2026-11-04-mas-future-of-finance-institute-begins-ai",
+    "2026-11-04-apple-filing-ai-agents-unintended-actions",
+    "2026-11-03-mastercard-openai-tencent-agent-pay"
+  ],
+  "body": [
+    {
+      "head": "Examiners weigh consequences",
+      "text": "The OCC issued a framework to support its examiners in evaluating banks' use of AI in normal-course business activities. It says a bank's control intensity could increase with the potential consequences of an agent's failure or misuse, and that risk classification may rest on potential consequences, transfer of agency and the degree of human oversight rather than the technical sophistication of the system.",
+      "support": [
+        "The Office of the Comptroller of the Currency (OCC) today issued a supervisory framework designed to support OCC examiners in evaluating banks’ 1 use of super intelligence (SI) 2 in normal-course business activities.",
+        "emphasizes a bank’s control intensity could increase with the potential consequences of an SI agent's failure or misuse.",
+        "clarifies that a bank’s risk classification of SI use cases may be based on potential consequences, transfer of agency, and the degree of human oversight rather than the technical sophistication of the SI used."
+      ]
+    },
+    {
+      "head": "A guide for examiners, with no new rules",
+      "text": "The OCC says the framework does not establish supervisory expectations for banks, and that banks are not required to define a separate risk appetite for this technology. For a risk team, the practical reading is that the examiner's questions are the part to prepare for: what can each agent do, and who watches it?",
+      "support": [
+        "This supervisory framework does not establish supervisory expectations for banks.",
+        "clarifies that examiners should not treat SI as a separate and distinct risk category, and banks are not required to define a separate SI risk appetite."
+      ]
+    },
+    {
+      "head": "Singapore and Apple point the same way",
+      "text": "The Monetary Authority of Singapore announced that its Future of Finance Institute has begun operations, and its SafeFin.ai programme will focus on strengthening risk management practices, particularly for agentic AI. Apple wrote in its filing that agents can take actions autonomously, including completing transactions, and may behave in unintended or unpredictable ways.",
+      "support": [
+        "The Future of Finance Institute (FFI) has begun operations, the Monetary Authority of Singapore (MAS) announced.",
+        "Its three programmes, PathFin.ai, BuildFin.ai and SafeFin.ai, will focus on sharing practical experience, developing tools and standards for AI deployment, and strengthening risk management practices, particularly for agentic AI.",
+        "\"In particular, artificial intelligence agents and other technologies can take actions autonomously, including interacting with internal or external systems that in some cases they may not be authorized to access, executing or altering code, sending communications, and completing transactions,\" Apple wrote in the filing .",
+        "The company added that agents \"may behave in unintended or unpredictable ways, including by taking actions that were not directed, instructed or authorized.\""
+      ]
+    },
+    {
+      "head": "Mastercard's CEO points to trust",
+      "text": "Mastercard CEO Miebach said on the earnings call that consumers need to feel comfortable before this can really take off, and that having a registered agent is a key thing.",
+      "support": [
+        "“One of the things that need to happen before this to really take off is consumers need to feel comfortable,” Miebach said.",
+        "“Use of Agent Pay and having a registered agent is a key thing.",
+        "“Our agreement establishes collaboration across payments, joint services growth and AI transformation,” Miebach said during the Thursday (Oct. 29) earnings call ."
+      ]
+    },
+    {
+      "head": "A list worth keeping",
+      "text": "If we were asked tomorrow to list every agent in our own shop that can move money or change a record, how long would that list take to write, and who would sign it?"
+    }
+  ],
+  "suggestion": "A line on how your own clients describe the approvals they put around agents that touch payments would fit at the end of the last section."
+}
