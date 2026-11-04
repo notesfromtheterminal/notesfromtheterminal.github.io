@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-04-apple-filing-ai-agents-unintended-actions",
+  "publishedAt": "2026-11-04T07:10:00+07:00",
+  "section": "models",
+  "tags": ["payments"],
+  "company": "Apple",
+  "headline": "Apple's annual filing says AI agents may act in unintended or unpredictable ways",
+  "body": "Apple wrote in its annual filing that AI agents can act autonomously, including by completing transactions. The company added that agents may behave in unintended or unpredictable ways, including by taking actions that were not directed, instructed or authorized. The filing says this could open the company up to lawsuits or hurt its reputation.",
+  "note": "For payment firms, the filing lists completing transactions among the actions an agent can take autonomously.",
+  "sources": [
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/03/apple-warns-of-ai-agents-behave-in-unintended-or-unpredictable-ways.html"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "\"In particular, artificial intelligence agents and other technologies can take actions autonomously, including interacting with internal or external systems that in some cases they may not be authorized to access, executing or altering code, sending communications, and completing transactions,\" Apple wrote in the filing ."
+    },
+    {
+      "source": 0,
+      "text": "The company added that agents \"may behave in unintended or unpredictable ways, including by taking actions that were not directed, instructed or authorized.\""
+    },
+    {
+      "source": 0,
+      "text": "Apple said in its annual financial filing on Tuesday that AI agents that can act in \"unintended or unpredictable ways\" could represent a threat to its business by opening the company up to lawsuits or hurting its reputation."
+    }
+  ]
+}

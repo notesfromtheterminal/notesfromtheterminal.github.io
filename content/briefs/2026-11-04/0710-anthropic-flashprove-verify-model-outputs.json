@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-04-anthropic-flashprove-verify-model-outputs",
+  "publishedAt": "2026-11-04T07:10:00+07:00",
+  "section": "models",
+  "company": "Anthropic",
+  "headline": "Anthropic is working on FlashProve to verify which model produced an output",
+  "body": "Anthropic is working on an open source system to verify which AI model produced a given output, according to a blog post. The system, called FlashProve, is meant to let users confirm that the answer they received came from the model they think they are using. TechCrunch reports that research is ongoing and there are no plans to deploy it at Anthropic or any other lab.",
+  "note": "For banks and fintechs that buy model access, the risk the researchers describe is an AI company secretly swapping in a cheaper model.",
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Anthropic is working on an open source system to verify which AI model produced a given output, according to a blog post published Tuesday."
+    },
+    {
+      "source": 0,
+      "text": "The system, called FlashProve , is built to provide what researchers call “provable inference” — a cryptographic proof, essentially a mathematical guarantee, that a given output came from a specific model."
+    },
+    {
+      "source": 0,
+      "text": "It’s meant to let users confirm that the answer they received really came from the model they think they’re using."
+    },
+    {
+      "source": 0,
+      "text": "In particular, the researchers note that the system could be used to prevent an AI company from secretly swapping in a cheaper model to cut costs, or a more expensive model to inflate its performance results."
+    },
+    {
+      "source": 0,
+      "text": "Research in the system is ongoing, and there are no plans to deploy it at Anthropic or any other lab."
+    }
+  ]
+}
