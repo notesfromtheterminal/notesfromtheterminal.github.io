@@ -1,8 +1,8 @@
 {
   "date": "2026-11-05",
   "publishedAt": "2026-11-05T07:00:00+07:00",
-  "title": "Supervisors start asking what an agent is allowed to do",
-  "dek": "The OCC's new examiner framework looks at an AI agent's authority and the consequences of its failure.",
+  "title": "The OCC's examiner framework weighs consequences of failure",
+  "dek": "The framework points to the consequences of an AI agent's failure and the degree of human oversight.",
   "lead": "2026-11-04-occ-ai-supervisory-framework-examiners",
   "stories": [
     "2026-11-04-mas-future-of-finance-institute-begins-ai",
@@ -11,8 +11,8 @@
   ],
   "body": [
     {
-      "head": "Examiners will ask about authority",
-      "text": "The OCC issued a framework to support its examiners in evaluating banks' use of AI in normal-course business activities. It says a bank's control intensity could increase with the potential consequences of an agent's failure or misuse, and that risk classification may rest on potential consequences, transfer of agency and the degree of human oversight, with the technical sophistication of the system coming after those.",
+      "head": "Examiners weigh consequences",
+      "text": "The OCC issued a framework to support its examiners in evaluating banks' use of AI in normal-course business activities. It says a bank's control intensity could increase with the potential consequences of an agent's failure or misuse, and that risk classification may rest on potential consequences, transfer of agency and the degree of human oversight rather than the technical sophistication of the system.",
       "support": [
         "The Office of the Comptroller of the Currency (OCC) today issued a supervisory framework designed to support OCC examiners in evaluating banks’ 1 use of super intelligence (SI) 2 in normal-course business activities.",
         "emphasizes a bank’s control intensity could increase with the potential consequences of an SI agent's failure or misuse.",
@@ -38,8 +38,8 @@
       ]
     },
     {
-      "head": "Payments sit close to the question",
-      "text": "Mastercard CEO Miebach said on the earnings call that consumers need to feel comfortable before this can really take off, and that having a registered agent is a key thing. A registered agent is one possible answer to an examiner's question about who an agent acts for.",
+      "head": "Mastercard's CEO points to trust",
+      "text": "Mastercard CEO Miebach said on the earnings call that consumers need to feel comfortable before this can really take off, and that having a registered agent is a key thing.",
       "support": [
         "“One of the things that need to happen before this to really take off is consumers need to feel comfortable,” Miebach said.",
         "“Use of Agent Pay and having a registered agent is a key thing.",
