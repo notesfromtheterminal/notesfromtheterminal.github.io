@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-05-kabilio-ai-accounting-funding",
+  "publishedAt": "2026-11-05T16:00:00+07:00",
+  "section": "deals",
+  "tags": ["deals"],
+  "company": "Kabilio",
+  "headline": "Barcelona's Kabilio has raised €10 million for AI accounting",
+  "body": "Kabilio, a Barcelona-based AI platform for accounting firms and the small businesses they serve, has raised €10 million in a funding round led by Picus Capital and Visionaries.",
+  "note": "The round is a data point for AI in back-office finance work, where accounting firms and their small business clients sit.",
+  "figure": {
+    "value": "€10M",
+    "label": "Kabilio funding round"
+  },
+  "sources": [
+    { "name": "Finextra", "url": "https://www.finextra.com/newsarticle/48704/ai-accounting-platform-kabilio-raises-10m" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Kabilio, a Barcelona-based AI platform for accounting firms and the small businesses they serve, has raised €10 million in a funding round led by Picus Capital and Visionaries." }
+  ],
+  "wire": ["5a2b365246d7"]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-05-capgemini-multi-agent-banking-orchestration",
+  "publishedAt": "2026-11-05T12:00:00+07:00",
+  "section": "banking",
+  "tags": ["banking"],
+  "company": "Capgemini",
+  "headline": "Financial institutions are struggling to scale multi-agent AI beyond pilots, per Capgemini research",
+  "body": "Financial institutions are struggling to scale multi-agent AI beyond pilots, according to Capgemini research. The research says 59% of banks and insurers are piloting or deploying the technology, but just 10% have achieved enterprise-wide orchestration.",
+  "note": "The gap sits between running pilots and coordinating several agents across a whole firm, the step where a bank or insurer has to manage how its agents work together.",
+  "figure": {
+    "value": "10%",
+    "label": "Banks and insurers with enterprise-wide AI orchestration"
+  },
+  "sources": [
+    { "name": "Finextra", "url": "https://www.finextra.com/newsarticle/48708/capgemini-multi-agent-ai-moves-into-banking-and-insurance-but-orchestration-remains-limited" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Financial institutions are struggling to scale multi-agent AI beyond pilot projects, with just 10% of banks and insurers having achieved enterprise-wide orchestration despite 59% piloting or deploying the technology, according to Capgemini research." }
+  ],
+  "wire": ["0a4fe5edab3c"]
+}
