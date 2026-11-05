@@ -1,0 +1,28 @@
+{
+  "id": "2026-11-05-kalepa-series-b-ai-underwriting",
+  "publishedAt": "2026-11-05T22:05:00+07:00",
+  "section": "deals",
+  "tags": [
+    "banking"
+  ],
+  "company": "Kalepa",
+  "headline": "Insurance AI firm Kalepa raises $75 million in Series B funding",
+  "body": "Insurance AI firm Kalepa has raised $75 million in Series B funding at a $470 million valuation, Finextra reports. It looks to expand its AI platform across the insurance value chain and into new markets.",
+  "note": "Underwriting is one of the insurance functions where AI vendors are now raising growth capital, so carriers may see more platforms pitching across the value chain.",
+  "figure": {
+    "value": "$75M",
+    "label": "Series B at a $470 million valuation"
+  },
+  "sources": [
+    {
+      "name": "Finextra",
+      "url": "https://www.finextra.com/newsarticle/48707/kalepa-raises-75m-to-expand-ai-underwriting-platform"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Insurance AI firm Kalepa has raised $75 million in Series B funding at a $470 million valuation, as it looks to expand its AI platform across the insurance value chain and into new markets."
+    }
+  ]
+}

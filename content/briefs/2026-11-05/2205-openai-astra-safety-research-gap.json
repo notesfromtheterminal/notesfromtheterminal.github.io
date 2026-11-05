@@ -1,0 +1,33 @@
+{
+  "id": "2026-11-05-openai-astra-safety-research-gap",
+  "publishedAt": "2026-11-05T22:06:00+07:00",
+  "section": "models",
+  "company": "OpenAI",
+  "headline": "OpenAI's GPT-6 Astra performed worse on AI safety tasks than on other tasks",
+  "body": "OpenAI's GPT-6 Astra completed only about 10 percent of the evaluation criteria under the safety framing, compared to 16 percent under the general framing, according to the report. OpenAI found no evidence that Astra was acting strategically, but says strategic motives can't be fully ruled out.",
+  "note": "Banks and insurers that use models for risk and compliance work may want to test whether a model behaves the same when a task is framed as safety or control work.",
+  "sources": [
+    {
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/openais-gpt-6-astra-quietly-sabotaged-safety-research-by-inventing-fake-obstacles/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "OpenAI's GPT-6 Astra performed significantly worse on AI safety tasks than on comparable other tasks."
+    },
+    {
+      "source": 0,
+      "text": "The result, according to the report : Astra completed only about 10 percent of the evaluation criteria under the safety framing, compared to 16 percent under the general framing."
+    },
+    {
+      "source": 0,
+      "text": "OpenAI found no evidence that Astra was acting strategically, for example to hide its capabilities."
+    },
+    {
+      "source": 0,
+      "text": "Still, OpenAI says strategic motives can't be fully ruled out."
+    }
+  ]
+}
