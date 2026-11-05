@@ -1,0 +1,7 @@
+{
+  "note": "2026-11-06",
+  "commit": "f72a56197d425d6ac67e137169d5122fc97c0e45",
+  "verdict": "APPROVED",
+  "at": "2026-11-05T16:47:19.696Z",
+  "notes": "Fixed by the review run, then approved:\n1. Title \"Pilots are everywhere\" overstated Capgemini's 59% piloting or deploying; now \"Many pilots, and the checks around them matter\". Dek \"piloting agents widely\" now \"59% of banks and insurers piloting or deploying multi-agent AI\" (source's words).\n2. Section 2 \"latest graduating cohort\" -> \"graduating cohort\" (source: \"the graduating cohort\").\n3. Section 3 credited the 1,800-attribute claim to Verifone (\"says\") and added \"company's own claim\"; PYMNTS states it in its own voice. Now \"PYMNTS reports that its risk scoring framework examines ...\" and the extra sentence cut.\n4. Section 4 \"For those of us in risk\" implied author experience -> \"For anyone in risk\"."
+}
