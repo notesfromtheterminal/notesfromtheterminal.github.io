@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-05-hong-leong-trainees-permanent-roles",
+  "publishedAt": "2026-11-05T12:05:00+07:00",
+  "section": "sea",
+  "tags": ["banking"],
+  "company": "Hong Leong Bank",
+  "headline": "All 10 graduating trainees at Hong Leong Bank take permanent roles",
+  "body": "All 10 trainees in the graduating cohort have taken permanent roles at HLB. During the 12-month programme's four rotations, trainees deployed AI chatbots powered by Google’s Agent Development Kit (ADK) and UiPath robotic process automation (RPA) tools.",
+  "note": "Building the tools in-house keeps the platforms under the bank's own ownership, which fits its “Digital At The Core” strategy.",
+  "sources": [
+    { "name": "Fintech News Malaysia", "url": "https://fintechnews.my/62150/ai/hong-leong-bank-tech-trainees-ai/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Hong Leong Bank (HLB) is strengthening its in-house technology capabilities through talent development, AI adoption and cloud modernisation." },
+    { "source": 0, "text": "The bank has followed its “Digital At The Core” strategy for more than a decade, focusing on building internal engineering expertise and maintaining ownership of its technology platforms." },
+    { "source": 0, "text": "The 12-month programme consists of four rotations designed to develop technical expertise and operational skills." },
+    { "source": 0, "text": "All 10 trainees in the graduating cohort have taken permanent roles at HLB." },
+    { "source": 0, "text": "During their rotations, trainees deployed AI chatbots powered by Google’s Agent Development Kit (ADK) and UiPath robotic process automation (RPA) tools." }
+  ]
+}

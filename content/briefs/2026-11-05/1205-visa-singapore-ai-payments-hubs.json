@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-05-visa-singapore-ai-payments-hubs",
+  "publishedAt": "2026-11-05T12:05:00+07:00",
+  "section": "sea",
+  "tags": ["payments"],
+  "company": "Visa",
+  "headline": "Visa is expanding with six new AI and payments hubs in Singapore",
+  "body": "Visa is expanding its work on AI and next-generation payments with six new global technology hubs in Singapore. The hubs will be based at its new Solution Center in Paya Lebar Green, which will bring together more than 1,500 employees across technology, product development, cybersecurity and engineering.",
+  "note": "Agentic commerce, stablecoins and security work will be based at one Solution Center in Singapore.",
+  "sources": [
+    { "name": "Fintech News Singapore", "url": "https://fintechnews.sg/140556/payments/visa-singapore-hubs/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Visa is expanding its work on AI and next-generation payments with six new global technology hubs in Singapore." },
+    { "source": 0, "text": "The hubs will be based at Visa’s new Solution Center in Paya Lebar Green." },
+    { "source": 0, "text": "The centre will bring together more than 1,500 employees across technology, product development, cybersecurity and engineering." },
+    { "source": 0, "text": "The six hubs will focus on three areas: AI and commerce, next-generation payments, and security and resilience." },
+    { "source": 0, "text": "Its AI teams will develop applications for payments and fintech, including agentic commerce, where AI agents can securely interact with consumers, merchants and payment networks." },
+    { "source": 0, "text": "Other teams will research stablecoins, digital money and programmable payments, alongside digital wallets and alternative payment methods." }
+  ]
+}

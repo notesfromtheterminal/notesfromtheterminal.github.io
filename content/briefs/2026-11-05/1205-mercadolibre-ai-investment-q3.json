@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-05-mercadolibre-ai-investment-q3",
+  "publishedAt": "2026-11-05T12:05:00+07:00",
+  "section": "payments",
+  "tags": [],
+  "company": "MercadoLibre",
+  "headline": "MercadoLibre says it increased its investment in artificial intelligence quarter over quarter",
+  "body": "The company said in a letter to shareholders that it increased its investment in artificial intelligence by $30 million quarter over quarter. Its FinTech AI assistant Mago is now holding 19 million conversations per month.",
+  "note": "For a fintech, the letter ties the spend to revenue uplift, cost avoidance and productivity, the returns the letter describes.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/earnings/2026/mercadolibre-expands-ai-war-chest-by-30-million-in-q3/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "E-commerce and FinTech company MercadoLibre increased its investment in artificial intelligence by $30 million quarter over quarter as it builds its work around AI, the company said in a Wednesday (Nov. 4) letter to shareholders about its third quarter results." },
+    { "source": 0, "text": "The company provided several examples in the letter." },
+    { "source": 0, "text": "The revenue uplift from deploying AI in search more than offset the cost of the models, the use of AI in customer service has reduced the need for representatives by “a multiple,” the company’s FinTech AI assistant Mago is now holding 19 million conversations per month and improving the user experience, AI has helped double the output of the technology teams over the past year, and the technology has freed up almost 20% of the hours worked by the finance teams." },
+    { "source": 0, "text": "MercadoLibre has seen returns from its investment in AI in the form of revenue uplift, better user experience, cost avoidance and productivity, according to the letter." }
+  ]
+}
