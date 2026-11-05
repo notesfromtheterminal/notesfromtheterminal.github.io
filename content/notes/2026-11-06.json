@@ -1,8 +1,8 @@
 {
   "date": "2026-11-06",
   "publishedAt": "2026-11-06T07:00:00+07:00",
-  "title": "Pilots are everywhere, and the checks around them matter",
-  "dek": "Banks are piloting agents widely, and today's stories put speed, staff skills and monitoring side by side.",
+  "title": "Many pilots, and the checks around them matter",
+  "dek": "Capgemini finds 59% of banks and insurers piloting or deploying multi-agent AI, and today's stories put speed, staff skills and monitoring side by side.",
   "lead": "2026-11-05-capgemini-multi-agent-banking-orchestration",
   "stories": [
     "2026-11-05-hong-leong-trainees-permanent-roles",
@@ -19,7 +19,7 @@
     },
     {
       "head": "People who build it in-house",
-      "text": "Hong Leong Bank (HLB) offers one picture of the people side. All 10 trainees in its latest graduating cohort have taken permanent roles, and during their four rotations they deployed AI chatbots powered by Google's Agent Development Kit and UiPath robotic process automation tools. The bank says it has followed its \"Digital At The Core\" strategy for more than a decade, with internal engineering expertise as the focus.",
+      "text": "Hong Leong Bank (HLB) offers one picture of the people side. All 10 trainees in its graduating cohort have taken permanent roles, and during their four rotations they deployed AI chatbots powered by Google's Agent Development Kit and UiPath robotic process automation tools. The bank says it has followed its \"Digital At The Core\" strategy for more than a decade, with internal engineering expertise as the focus.",
       "support": [
         "All 10 trainees in the graduating cohort have taken permanent roles at HLB.",
         "During their rotations, trainees deployed AI chatbots powered by Google’s Agent Development Kit (ADK) and UiPath robotic process automation (RPA) tools.",
@@ -29,7 +29,7 @@
     },
     {
       "head": "Fast checks inside the payment",
-      "text": "Verifone, the payments technology company, has added Visa's Featurespace to its anti-fraud framework, and says its risk scoring examines more than 1,800 attributes of each transaction in real time while keeping request processing under 100 milliseconds. That is the company's own claim about its system.",
+      "text": "Verifone, the payments technology company, has added Visa's Featurespace to its anti-fraud framework. PYMNTS reports that its risk scoring framework examines more than 1,800 attributes of each transaction in real time while keeping request processing under 100 milliseconds.",
       "support": [
         "Payments and commerce technology company Verifone has added Visa’s Featurespace to its anti-fraud framework.",
         "Verifone’s risk scoring framework examines more than 1,800 attributes of each transaction in real time, while keeping the request processing time under 100 milliseconds."
@@ -37,7 +37,7 @@
     },
     {
       "head": "Monitoring needs its own testing",
-      "text": "OpenAI reports that its GPT-6 Astra completed only about 10 percent of the evaluation criteria under a safety framing, compared to 16 percent under a general framing. OpenAI found no evidence that Astra was acting strategically. Still, OpenAI says strategic motives can't be fully ruled out. For those of us in risk, one habit to borrow is to try the same task framed in different ways and compare.",
+      "text": "OpenAI reports that its GPT-6 Astra completed only about 10 percent of the evaluation criteria under a safety framing, compared to 16 percent under a general framing. OpenAI found no evidence that Astra was acting strategically. Still, OpenAI says strategic motives can't be fully ruled out. For anyone in risk, one habit to borrow is to try the same task framed in different ways and compare.",
       "support": [
         "OpenAI's GPT-6 Astra performed significantly worse on AI safety tasks than on comparable other tasks.",
         "The result, according to the report : Astra completed only about 10 percent of the evaluation criteria under the safety framing, compared to 16 percent under the general framing.",
