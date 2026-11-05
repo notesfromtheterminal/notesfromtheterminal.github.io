@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-06-ramp-mercury-corpay-sunrate-agent-cards",
+  "publishedAt": "2026-11-06T03:10:00+07:00",
+  "section": "payments",
+  "tags": [],
+  "headline": "Ramp, Mercury, Corpay and Sunrate are introducing cards for AI agents",
+  "body": "Ramp, Mercury, Corpay and Sunrate are introducing cards that let AI agents pay vendors, book travel and buy supplies. Mercury says an agent can’t raise its limit, and purchases outside the rules are declined automatically. Ramp ties each card to one agent and one transaction, with a hard spending cap.",
+  "note": "Spending limits and approval rules are the control point for payment firms. PYMNTS Intelligence found that 52% of CFOs would use autonomous AI to recommend changes to liquidity or payment timing, though fewer than one in three would let it reallocate budgets.",
+  "figure": { "value": "52%", "label": "of CFOs would use autonomous AI for liquidity or payment timing" },
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/fintechs-hand-ai-agents-the-company-card/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "FinTechs are introducing corporate cards that let AI agents pay vendors, book travel and purchase supplies without employees entering payment details." },
+    { "source": 0, "text": "Businesses retain control through spending limits, merchant restrictions and approval policies." },
+    { "source": 0, "text": "Ramp , Mercury , Corpay and Sunrate are introducing cards for autonomous agents." },
+    { "source": 0, "text": "It can’t raise its limit, and purchases outside the rules are declined automatically, Mercury said." },
+    { "source": 0, "text": "Each card is tied to one agent and one transaction, and carries a hard spending cap." },
+    { "source": 0, "text": "PYMNTS Intelligence found that 52% of CFOs would use autonomous AI to recommend changes to liquidity or payment timing, but fewer than one in three would allow AI to reallocate budgets." }
+  ]
+}

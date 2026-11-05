@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-06-anthropic-claude-personal-finance-beta",
+  "publishedAt": "2026-11-06T03:10:00+07:00",
+  "section": "models",
+  "tags": ["banking"],
+  "company": "Anthropic",
+  "headline": "Anthropic says Claude Personal Finance gets read-only access to bank accounts",
+  "body": "Anthropic announced Thursday that Claude is getting a Personal Finance tool. Users can connect bank and credit card accounts through Plaid, and Anthropic says access is read-only. The beta starts this week for users on the Pro, Max, and Ultra plans in the U.S.",
+  "note": "For banks, the detail to watch is how much an assistant can see. TechCrunch reports Claude sees balances, credit limits and up to two years of transactions, and that ChatGPT offered similar tools from May.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Anthropic announced Thursday that Claude is getting a new tool called “Personal Finance,” designed to help users keep track of their money." },
+    { "source": 0, "text": "With it, users can connect their bank and credit card accounts through Plaid and ask Claude questions about their finances." },
+    { "source": 0, "text": "Anthropic says access is read-only, meaning Personal Finance can’t move, manage, or invest users’ money." },
+    { "source": 0, "text": "Personal Finance starts rolling out in beta this week to users on the Pro, Max, and Ultra plans in the U.S." },
+    { "source": 0, "text": "Anthropic says Claude’s access is limited to each connected bank’s name, account name and type, the last four digits of the account number, balances, credit limits, and up to two years of transaction history." },
+    { "source": 0, "text": "With the launch, Claude is playing catch-up to OpenAI’s ChatGPT, which introduced similar personal finance tools in May that also let users connect their financial accounts and ask questions about everything from spending patterns to long-term financial planning." }
+  ]
+}
