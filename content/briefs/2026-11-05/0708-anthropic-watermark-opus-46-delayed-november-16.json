@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-05-anthropic-watermark-opus-46-delayed-november-16",
+  "publishedAt": "2026-11-05T07:08:00+07:00",
+  "section": "models",
+  "company": "Anthropic",
+  "headline": "Anthropic moves the Opus 4.6 text watermark to November 16",
+  "body": "According to The Decoder, Anthropic emailed API customers about a second round of watermark retrofits. Claude Opus 4.6 should have gotten the watermark on November 3, and text watermarking now starts November 16 for Opus 4.6, Opus 4.5, Sonnet 4.5 and Haiku 4.5. The Decoder says Anthropic confirms the delay and gives no reason.",
+  "note": "Teams relying on the watermark should check the new date, and keep sampling settings at their defaults, because the mark only applies at those settings on this wave.",
+  "sources": [{ "name": "The Decoder", "url": "https://the-decoder.com/anthropics-text-watermark-is-easy-to-bypass-on-several-older-claude-models/" }],
+  "wire": ["cb88d0d32673"],
+  "evidence": [
+    { "source": 0, "text": "Anthropic emailed API customers again about a second round of watermark retrofits." },
+    { "source": 0, "text": "Starting November 16, 2026, Claude Opus 4.6, Claude Opus 4.5, Claude Sonnet 4.5, and Claude Haiku 4.5 will all get text watermarking." },
+    { "source": 0, "text": "Claude Opus 4.6 was originally part of the first wave and should have gotten the watermark on November 3." },
+    { "source": 0, "text": "Anthropic explicitly confirms the delay to November 16 but gives no reason." },
+    { "source": 0, "text": "Claude Opus 4.5, Claude Sonnet 4.5, and Claude Haiku 4.5 are three models that weren't part of the previous announcement." },
+    { "source": 0, "text": "All four models in this wave share the same sampling restriction: the watermark only applies when temperature , top_p , and top_k are set to their defaults." }
+  ]
+}
