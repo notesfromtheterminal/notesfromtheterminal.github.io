@@ -1,0 +1,41 @@
+{
+  "id": "2026-11-06-anthropic-ipo-valuation-resistance",
+  "publishedAt": "2026-11-06T22:10:00+07:00",
+  "section": "deals",
+  "company": "Anthropic",
+  "headline": "Investors push back on Anthropic's $1.5 trillion IPO valuation, The Decoder reports",
+  "body": "The Decoder, says, according to Reuters, potential backers doubt the planned roadshow can kick off next week as scheduled. Investors want a steeper discount because Anthropic is still losing money, The Decoder says, and one investor reportedly floated a valuation of just $1 trillion. The Decoder adds that as recently as September the company was eyeing up to $2 trillion.",
+  "note": "A delayed or repriced offering would be a signal for how public investors value the labs that banks and payment firms depend on. The Decoder says a delay could further shake confidence in the broader AI sector.",
+  "sources": [
+    {
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/anthropics-1-5-trillion-ipo-hits-resistance-as-investors-balk-at-valuation/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Anthropic's IPO is in trouble as investors push back on the $1.5 trillion valuation and the tech market sells off."
+    },
+    {
+      "source": 0,
+      "text": "According to Reuters , potential backers doubt the planned roadshow can kick off next week as scheduled."
+    },
+    {
+      "source": 0,
+      "text": "As recently as September, the company was eyeing a valuation of up to $2 trillion ."
+    },
+    {
+      "source": 0,
+      "text": "One investor reportedly floated a valuation of just $1 trillion."
+    },
+    {
+      "source": 0,
+      "text": "Investors want a steeper discount because Anthropic is still losing money and burning through cash to scale its AI infrastructure."
+    },
+    {
+      "source": 0,
+      "text": "A delay could further shake confidence in the broader AI sector."
+    }
+  ]
+}

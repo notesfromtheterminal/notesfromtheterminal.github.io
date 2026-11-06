@@ -1,0 +1,38 @@
+{
+  "id": "2026-11-06-metr-anthropic-ai-rd-acceleration",
+  "publishedAt": "2026-11-06T22:10:00+07:00",
+  "section": "models",
+  "star": true,
+  "company": "Anthropic",
+  "headline": "METR says Anthropic is likely improving its models at about twice its earlier rate",
+  "body": "METR says that as of October 2026 Anthropic is likely improving its models' capabilities on well-specified tasks at around twice the rate it did between March 2024 and October 2025, with high uncertainty. METR says a majority of the acceleration is likely attributable to Anthropic's extensive use of AI to do R&D. Anthropic redacted a majority of the evidence METR found most informative.",
+  "note": "Banks that build on frontier models should expect the upgrade cycle to be uneven and keep their own model testing ready for each new release. METR also says the public has to rely on its judgment more than would be ideal.",
+  "sources": [
+    {
+      "name": "METR",
+      "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "As of October 2026, Anthropic is likely improving the capabilities of their models on well-specified tasks at around twice the rate they did between March 2024 and October 2025."
+    },
+    {
+      "source": 0,
+      "text": "This estimate is given with high uncertainty; we would not be surprised if the true acceleration was closer to 1.3x or 3x the historical rate."
+    },
+    {
+      "source": 0,
+      "text": "A majority of this acceleration today is likely attributable to Anthropic’s extensive use of AI to do R&D, though there is significant uncertainty and other causes likely played a large role in acceleration in late 2025."
+    },
+    {
+      "source": 0,
+      "text": "Anthropic redacted a majority of the evidence we found most informative for these conclusions."
+    },
+    {
+      "source": 0,
+      "text": "As a consequence, the public has to rely on METR’s judgment much more than would be ideal, given the weight of the questions answered here."
+    }
+  ]
+}
