@@ -1,0 +1,7 @@
+{
+  "note": "2026-11-07",
+  "commit": "08b889b13ae8e383da07521a9dbb973ee2f371ed",
+  "verdict": "APPROVED",
+  "at": "2026-11-06T16:47:42.484Z",
+  "notes": "Fixed by the review run, then approved:\n1. Title: \"Models speed up while banks test the guardrails\" -> \"METR says Anthropic is likely improving its models faster\". Nothing in the sections says banks test guardrails.\n2. Dek: \"model progress has roughly doubled in pace\" dropped the source's \"likely\" and \"high uncertainty\"; now \"likely improving its models at around twice its earlier rate, with high uncertainty\". \"what banks can test for themselves\" cut.\n3. Section 1: \"the nonprofit that audits AI labs\" is not in the METR source; cut to \"METR says\".\n4. Section 2: \"For those of us who build on these models... our own checks and not wait for a lab to settle the question\" claimed experience the sources don't give; now \"For anyone building on these models, that is a reason to run their own checks.\""
+}
