@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-07",
+  "publishedAt": "2026-11-07T07:00:00+07:00",
+  "title": "METR says Anthropic is likely improving its models faster",
+  "dek": "METR says Anthropic is likely improving its models at around twice its earlier rate, with high uncertainty, and the finance stories of the day follow.",
+  "lead": "2026-11-06-metr-anthropic-ai-rd-acceleration",
+  "stories": [
+    "2026-11-06-anthropic-claude-personal-finance-beta",
+    "2026-11-06-anthropic-invites-banks-personal-finance",
+    "2026-11-06-visa-agentic-commerce-benchmark",
+    "2026-11-06-bill-underwriting-agents-robin"
+  ],
+  "body": [
+    {
+      "head": "The models are moving faster",
+      "text": "METR says Anthropic is likely improving its models on well-specified tasks at around twice the rate it did between March 2024 and October 2025, and it gives that estimate with high uncertainty. METR also says a majority of that acceleration is likely attributable to Anthropic's extensive use of AI to do R&D.",
+      "support": [
+        "As of October 2026, Anthropic is likely improving the capabilities of their models on well-specified tasks at around twice the rate they did between March 2024 and October 2025.",
+        "This estimate is given with high uncertainty; we would not be surprised if the true acceleration was closer to 1.3x or 3x the historical rate.",
+        "A majority of this acceleration today is likely attributable to Anthropic’s extensive use of AI to do R&D, though there is significant uncertainty and other causes likely played a large role in acceleration in late 2025."
+      ]
+    },
+    {
+      "head": "We can't see all the evidence",
+      "text": "Anthropic redacted a majority of the evidence METR found most informative, and METR says the public has to rely on its judgment much more than would be ideal. For anyone building on these models, that is a reason to run their own checks.",
+      "support": [
+        "Anthropic redacted a majority of the evidence we found most informative for these conclusions.",
+        "As a consequence, the public has to rely on METR’s judgment much more than would be ideal, given the weight of the questions answered here."
+      ]
+    },
+    {
+      "head": "Claude steps into personal finance",
+      "text": "Anthropic announced Personal Finance in Claude, where users connect their bank and credit card accounts through Plaid and ask Claude questions about their finances. Anthropic says access is read-only, meaning it can't move, manage or invest users' money, and it would like to hear from banks, wealth managers and financial services companies who want to help shape it.",
+      "support": [
+        "With it, users can connect their bank and credit card accounts through Plaid and ask Claude questions about their finances.",
+        "Anthropic says access is read-only, meaning Personal Finance can’t move, manage, or invest users’ money.",
+        "We’re exploring how to make that possible in Claude, and we’d like to hear from banks, wealth managers and financial services companies who want to help shape it.”"
+      ]
+    },
+    {
+      "head": "Shopping agents still fail often",
+      "text": "Visa put 22 AI models from 12 labs through realistic shopping scenarios, and 57.2% of the test runs passed while 42.8% failed. Among the best-performing models 82.2% of runs passed, against 28.9% among the worst.",
+      "support": [
+        "Visa found that when 22 artificial intelligence models from 12 labs were put through realistic shopping scenarios, 57.2% of the test runs passed and 42.8% failed, according to a Thursday (Nov. 5) press release.",
+        "Among the best-performing AI models, 82.2% of test runs passed, while among the worst-performing models, 28.9% of test runs passed, the release said."
+      ]
+    },
+    {
+      "head": "Agents with people in the loop",
+      "text": "Lacerte, BILL's CEO, said Robin sends each case to the right underwriter, pulls the customer's data into a summary and provides a one-click link to make a decision. He said each case and customer wait time now takes about 12 minutes instead of three hours. If you work in credit or operations, which of your queues looks like that, and what would a benchmark like Visa's say about it?",
+      "support": [
+        "Lacerte zeroed in on BILL’s three agents that work together as a suite called Robin to handle underwriting cases.",
+        "Robin sends each case to the right underwriter, pulls the customer’s data into a summary and provides a one-click link to make a decision.",
+        "“As a result, each case and customer wait time now takes about 12 minutes instead of three hours,” Lacerte said."
+      ]
+    }
+  ]
+}
