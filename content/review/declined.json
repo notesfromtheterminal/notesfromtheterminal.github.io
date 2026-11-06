@@ -23,5 +23,10 @@
     "request": "202610221457-missed-nvidia-in-talks-to-invest-in-firmus-grid-after-its.json",
     "reason": "Declined: The Information is paywalled, and both mirrors (Yahoo Finance and Investing.com) returned fetch failure or HTTP 403 to source.mjs on 22 Oct, so the Nvidia talks cannot be quoted or sourced. The 9 Oct Firmus brief covers the withdrawn IPO only.",
     "at": "2026-10-22T17:05:00+07:00"
+  },
+  {
+    "request": "202611061002-missed-cert-in-flags-crafty-falcon-ai-driven-attacks-on-i.json",
+    "reason": "Declined: the Indian Express page returns HTTP 403 to source.mjs and gives no feed text, so its quotes and the Nov 4 advisory cannot be checked. A web search found only older CERT-In coverage dated October, not the Crafty Falcon advisory, so the story is not confirmed from a readable source.",
+    "at": "2026-11-06T17:10:00+07:00"
   }
 ]

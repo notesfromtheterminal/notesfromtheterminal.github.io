@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-06-palo-alto-clutch-talks",
+  "publishedAt": "2026-11-06T17:10:00+07:00",
+  "section": "deals",
+  "tags": ["payments"],
+  "company": "Palo Alto Networks",
+  "headline": "Palo Alto Networks in talks to buy AI agent security startup Clutch",
+  "body": "Palo Alto Networks is in talks to acquire Clutch Security for $500 million in cash plus milestone-based payouts, according to a person familiar with the discussions. TechCrunch reports Clutch was last valued at $85 million, according to its source, and is approaching $10 million in annual recurring revenue.",
+  "note": "TechCrunch says the price would be about 50 times Clutch's ARR. Cyera paid $1 billion for Oasis Security, which also manages AI agents' access to company systems.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Palo Alto Networks is in talks to acquire Clutch Security , a startup that secures AI agents’ access to company systems, for $500 million in cash plus additional milestone-based payouts, according to a person familiar with the discussions." },
+    { "source": 0, "text": "Three-year-old Clutch was last valued at $85 million when it raised a $20 million Series A round in January 2025, led by Lightspeed and SignalFire, according to our source." },
+    { "source": 0, "text": "The startup is currently approaching $10 million in annual recurring revenue (ARR)." },
+    { "source": 0, "text": "That means the acquisition, if completed, would value Clutch at about 50 times its ARR, a standard way of pricing software companies." },
+    { "source": 0, "text": "Cyera, a cybersecurity startup valued at $12 billion earlier this year, acquired Oasis Security, which, like Clutch, focuses on managing AI agents’ access to systems, for $1 billion ." }
+  ]
+}

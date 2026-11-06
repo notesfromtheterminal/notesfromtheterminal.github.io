@@ -1,6 +1,0 @@
-{
-  "kind": "MISSED",
-  "subject": "Julius Research releases DeepFinance PE and IB benchmark",
-  "at": "2026-11-06T03:02:12.343Z",
-  "text": "Source: https://juliusresearch.ai/deep-finance (Julius Research). Readable with source.mjs.\n\nReadable on the page: DeepFinance is \"an ultra long-horizon benchmark for measuring models on real-world Private Equity and Investment Banking workflows that would take a human professional between 20 and 30 hours to complete\": 21 tasks, 10 attempts per task, average human time 27.1 hours per task, \"Updated Nov 5, 2026\". Mean rubric scores: Claude Opus 5.5 (max) 54.8% (± 9.1), Claude Sonnet 5.5 (max) 54.6% (± 9.0), GPT-6 Astra (xhigh) 54.2%. The rubric score is the percentage of rubric criteria satisfied.\n\nKeep it as Julius Research's own benchmark and results, and give the error bars or note that the top three are close: the scores sit within each other's confidence intervals, so don't call any model the winner. Not readable, so leave out: the experts' Evercore/JPM/UBS and HBS/Wharton backgrounds and \"built from real deal data\"."
-}

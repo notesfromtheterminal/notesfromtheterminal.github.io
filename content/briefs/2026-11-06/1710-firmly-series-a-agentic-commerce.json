@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-06-firmly-series-a-agentic-commerce",
+  "publishedAt": "2026-11-06T17:10:00+07:00",
+  "section": "payments",
+  "tags": ["deals"],
+  "company": "firmly",
+  "headline": "Firmly raised $15 million Series A to connect merchants with AI shopping channels",
+  "body": "Firmly, a Seattle startup, raised $15 million in a Series A led by Squarepoint Capital, the release said. J.P. Morgan Payments, Mastercard and Samsung Next joined as strategic investors. The release also says the platform can already reach more than 11 million merchants representing more than $900 billion in gross merchandise volume.",
+  "note": "For card networks and banks, the investor list shows which payment players want a path into AI shopping. Mastercard had already named firmly a partner for its Agent Connect in September.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/firmly-lands-15-million-as-investors-back-the-merchant-side-of-agentic-commerce/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Analysts expect AI-driven traffic to retail sites in the United States to grow 130% year over year this holiday season, according to a Thursday (Nov. 5) press release provided to PYMNTS from firmly , a Seattle startup." },
+    { "source": 0, "text": "That gap is what firmly, which connects merchants to AI shopping channels without requiring them to write code, has raised $15 million to close." },
+    { "source": 0, "text": "The company’s Series A was led by Squarepoint Capital , the release said." },
+    { "source": 0, "text": "J.P. Morgan Payments , Mastercard and Samsung Next joined as strategic investors, along with Alumni Ventures , ARK Invest , Benhamou Global Ventures , Granada Funds , Hike Ventures , The Mercantile Companies and Versus Ventures ." },
+    { "source": 0, "text": "The platform can already reach more than 11 million merchants representing more than $900 billion in gross merchandise volume." },
+    { "source": 0, "text": "The startup will use the capital to expand its firmly Connect platform with more merchants and more destinations, including AI agents, marketplaces, social networks and shoppable advertising platforms, according to the release." },
+    { "source": 0, "text": "Mastercard named firmly a partner in September when it launched Agent Connect , a single integration linking merchants, AI agents, digital platforms and payment providers." }
+  ]
+}

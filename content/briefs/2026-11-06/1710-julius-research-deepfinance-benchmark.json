@@ -1,0 +1,44 @@
+{
+  "id": "2026-11-06-julius-research-deepfinance-benchmark",
+  "publishedAt": "2026-11-06T17:10:00+07:00",
+  "section": "models",
+  "tags": [
+    "banking"
+  ],
+  "company": "Julius Research",
+  "headline": "Julius Research's DeepFinance benchmark for measuring models on PE and IB workflows",
+  "body": "Julius Research says DeepFinance is a benchmark for private equity and investment banking workflows, with average human time of 27.1 hours per task. Mean rubric scores put Claude Opus 5.5 at 54.8%, Claude Sonnet 5.5 at 54.6% and GPT-6 Astra at 54.2%. The 95% CI is 46.2 to 64.4 for Opus, 46.0 to 63.9 for Sonnet and 46.4 to 62.6 for Astra.",
+  "note": "The top three sit close together on this test, so the ranking says little about which model is best.",
+  "sources": [
+    {
+      "name": "Julius Research",
+      "url": "https://juliusresearch.ai/deep-finance"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "An ultra long-horizon benchmark for measuring models on real-world Private Equity and Investment Banking workflows that would take a human professional between 20 and 30 hours to complete."
+    },
+    {
+      "source": 0,
+      "text": "Source: DeepFinance (Julius Research) · Updated Nov 5, 2026 · juliusresearch.ai"
+    },
+    {
+      "source": 0,
+      "text": "average human time 27.1 hours per task"
+    },
+    {
+      "source": 0,
+      "text": "Claude Opus 5.5 (max) Anthropic 54.8% mean rubric score, 95% CI 46.2 to 64.4"
+    },
+    {
+      "source": 0,
+      "text": "Claude Sonnet 5.5 (max) Anthropic 54.6% mean rubric score, 95% CI 46.0 to 63.9"
+    },
+    {
+      "source": 0,
+      "text": "GPT-6 Astra (xhigh) OpenAI 54.2% mean rubric score, 95% CI 46.4 to 62.6"
+    }
+  ]
+}
