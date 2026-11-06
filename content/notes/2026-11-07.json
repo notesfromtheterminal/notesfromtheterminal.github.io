@@ -1,8 +1,8 @@
 {
   "date": "2026-11-07",
   "publishedAt": "2026-11-07T07:00:00+07:00",
-  "title": "Models speed up while banks test the guardrails",
-  "dek": "METR says Anthropic's model progress has roughly doubled in pace, and the finance stories of the day show what banks can test for themselves.",
+  "title": "METR says Anthropic is likely improving its models faster",
+  "dek": "METR says Anthropic is likely improving its models at around twice its earlier rate, with high uncertainty, and the finance stories of the day follow.",
   "lead": "2026-11-06-metr-anthropic-ai-rd-acceleration",
   "stories": [
     "2026-11-06-anthropic-claude-personal-finance-beta",
@@ -13,7 +13,7 @@
   "body": [
     {
       "head": "The models are moving faster",
-      "text": "METR, the nonprofit that audits AI labs, says Anthropic is likely improving its models on well-specified tasks at around twice the rate it did between March 2024 and October 2025, and it gives that estimate with high uncertainty. METR also says a majority of that acceleration is likely attributable to Anthropic's extensive use of AI to do R&D.",
+      "text": "METR says Anthropic is likely improving its models on well-specified tasks at around twice the rate it did between March 2024 and October 2025, and it gives that estimate with high uncertainty. METR also says a majority of that acceleration is likely attributable to Anthropic's extensive use of AI to do R&D.",
       "support": [
         "As of October 2026, Anthropic is likely improving the capabilities of their models on well-specified tasks at around twice the rate they did between March 2024 and October 2025.",
         "This estimate is given with high uncertainty; we would not be surprised if the true acceleration was closer to 1.3x or 3x the historical rate.",
@@ -22,7 +22,7 @@
     },
     {
       "head": "We can't see all the evidence",
-      "text": "Anthropic redacted a majority of the evidence METR found most informative, and METR says the public has to rely on its judgment much more than would be ideal. For those of us who build on these models, that is a reason to run our own checks and not wait for a lab to settle the question.",
+      "text": "Anthropic redacted a majority of the evidence METR found most informative, and METR says the public has to rely on its judgment much more than would be ideal. For anyone building on these models, that is a reason to run their own checks.",
       "support": [
         "Anthropic redacted a majority of the evidence we found most informative for these conclusions.",
         "As a consequence, the public has to rely on METR’s judgment much more than would be ideal, given the weight of the questions answered here."
