@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-06-anthropic-invites-banks-personal-finance",
+  "publishedAt": "2026-11-06T12:10:00+07:00",
+  "section": "banking",
+  "tags": ["models"],
+  "company": "Anthropic",
+  "headline": "Anthropic invites banks and wealth managers to help shape Personal Finance",
+  "body": "Anthropic says its Personal Finance feature is “a first step” and that it is exploring how Claude could work alongside licensed professionals and regulated firms on bigger money decisions. Anthropic says it would like to hear from banks, wealth managers and financial services companies who want to help shape that.",
+  "note": "Anthropic has not said what role banks would play, and Personal Finance is read-only for now.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/consumer-finance/2026/anthropic-invites-banks-to-help-shape-new-personal-finance-offerings/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Anthropic is rolling out a Personal Finance feature in Claude and is inviting financial services professionals and firms to help shape how it might work alongside them." },
+    { "source": 0, "text": "Anthropic said in its Thursday product update: “Personal Finance is a first step." },
+    { "source": 0, "text": "For life’s bigger money decisions, we think people are best served by Claude working alongside the licensed professionals and regulated firms they trust." },
+    { "source": 0, "text": "We’re exploring how to make that possible in Claude, and we’d like to hear from banks, wealth managers and financial services companies who want to help shape it.”" },
+    { "source": 0, "text": "Personal Finance is read-only; cannot move, manage or invest the user’s money; has no ads or sponsored recommendations; and offers no credit cards, loans or savings accounts of its own, the update said." }
+  ]
+}

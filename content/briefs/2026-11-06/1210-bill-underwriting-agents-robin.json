@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-06-bill-underwriting-agents-robin",
+  "publishedAt": "2026-11-06T12:10:00+07:00",
+  "section": "banking",
+  "star": true,
+  "company": "BILL",
+  "headline": "Lacerte says BILL's underwriting wait fell from three hours to about 12 minutes",
+  "body": "BILL CEO René Lacerte said on the earnings call that its AI agents save teams more than 1,400 hours per month. The risk team's three agents, a suite called Robin, send each underwriting case to the right underwriter and pull the customer's data into a summary.",
+  "note": "These are BILL's own figures from its earnings call. Lenders would need to test the same speed gain on their own underwriting decisions.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/earnings/2026/bill-slashes-underwriting-times-from-3-hours-to-12-minutes-with-ai/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "teams more than 1,400 hours per month, which is equivalent to about eight full-time employees, BILL CEO and Founder René Lacerte said Thursday (Nov. 5)" },
+    { "source": 0, "text": "during the company’s first quarter fiscal year 2027 earnings call" },
+    { "source": 0, "text": "Lacerte zeroed in on BILL’s three agents that work together as a suite called Robin to handle underwriting cases." },
+    { "source": 0, "text": "Robin sends each case to the right underwriter, pulls the customer’s data into a summary and provides a one-click link to make a decision." },
+    { "source": 0, "text": "“As a result, each case and customer wait time now takes about 12 minutes instead of three hours,” Lacerte said." }
+  ]
+}

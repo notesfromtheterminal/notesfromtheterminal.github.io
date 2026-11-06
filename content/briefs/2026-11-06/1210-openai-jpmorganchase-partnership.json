@@ -1,0 +1,18 @@
+{
+  "id": "2026-11-06-openai-jpmorganchase-partnership",
+  "publishedAt": "2026-11-06T12:10:00+07:00",
+  "section": "banking",
+  "tags": ["deals"],
+  "company": "JPMorganChase",
+  "headline": "OpenAI says it has formed a strategic partnership with JPMorganChase",
+  "body": "OpenAI co-founder and president Greg Brockman said on Wednesday (Nov. 4) that the company has formed a strategic partnership with JPMorganChase to supply the bank with AI services, The Wall Street Journal reported. Under the partnership, the bank gets access to cybersecurity-focused models through OpenAI's Daybreak program.",
+  "note": "The first use named is cybersecurity. Brockman says the companies will also explore how AI can help engineers, security teams, employees and customers.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-forms-jpmorgan-partnership-ahead-of-2027-ipo/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "OpenAI Co-Founder and President Greg Brockman said Wednesday (Nov. 4) that the company could be ready for an initial public offering in 2027 and that it has formed a strategic partnership with JPMorganChase to supply the bank with artificial intelligence services, The Wall Street Journal reported" },
+    { "source": 0, "text": "As part of the partnership with JPMorganChase, OpenAI will provide the bank with access to cybersecurity-focused models as part of the AI company’s Daybreak program, the report said." },
+    { "source": 0, "text": "After the event, Brockman said in a post on X that in the partnership with JPMorganChase, the companies will explore how advanced AI can support the bank by helping engineers, security teams, employees and customers." }
+  ]
+}
