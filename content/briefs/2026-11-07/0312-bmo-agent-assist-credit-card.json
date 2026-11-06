@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-07-bmo-agent-assist-credit-card",
+  "publishedAt": "2026-11-07T03:12:00+07:00",
+  "section": "banking",
+  "tags": ["payments"],
+  "company": "BMO",
+  "headline": "BMO is introducing AI Agent Assist for credit card clients",
+  "body": "Finextra reports that BMO is introducing AI Agent Assist to help clients get faster answers and resolutions when they contact BMO's Virtual Connect contact centre about their credit card transactions.",
+  "note": "The tool sits in the contact centre, the channel where clients ask about credit card transactions, and that makes it a practical test of AI in service work.",
+  "sources": [
+    { "name": "Finextra", "url": "https://www.finextra.com/pressarticle/111609/bmo-launches-ai-agent-to-help-credit-card-customers-get-answers" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "BMO is introducing AI Agent Assist to help clients get faster answers and resolutions when they contact BMO's Virtual Connect contact centre about their credit card transactions." }
+  ]
+}
