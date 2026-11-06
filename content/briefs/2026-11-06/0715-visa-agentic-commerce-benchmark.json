@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-06-visa-agentic-commerce-benchmark",
+  "publishedAt": "2026-11-06T07:15:00+07:00",
+  "section": "payments",
+  "star": true,
+  "company": "Visa",
+  "headline": "Visa's AI shopping benchmark reported 42.8% of test runs did not pass",
+  "body": "In Visa's benchmark, 57.2% of test runs passed when 22 AI models from 12 labs went through realistic shopping scenarios. The best-performing models passed 82.2% of runs, while the worst-performing passed 28.9%, according to the release.",
+  "note": "For payments firms, the gap between the best and worst models is the detail to watch. The benchmark is designed to create a roadmap for industry players, and the release says consumers can also use the test.",
+  "figure": { "value": "42.8%", "label": "of shopping test runs failed" },
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/visa-finds-ai-models-fail-43percent-shopping-test-runs/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Visa found that when 22 artificial intelligence models from 12 labs were put through realistic shopping scenarios, 57.2% of the test runs passed and 42.8% failed, according to a Thursday (Nov. 5) press release." },
+    { "source": 0, "text": "Among the best-performing AI models, 82.2% of test runs passed, while among the worst-performing models, 28.9% of test runs passed, the release said." },
+    { "source": 0, "text": "These are some of the findings of Visa’s new industry benchmark for AI shopping, Visa Agentic Commerce Benchmark , which is designed to create a roadmap for industry players to deliver better agentic shopping experiences." },
+    { "source": 0, "text": "The test can also be used by consumers, the release said." }
+  ]
+}
