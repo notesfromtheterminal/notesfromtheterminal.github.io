@@ -1,0 +1,7 @@
+{
+  "note": "2026-11-08",
+  "commit": "83a40689ed33b9529176f0c4a4280c6189533196",
+  "verdict": "APPROVED",
+  "at": "2026-11-07T16:47:00.572Z",
+  "notes": "Fixed by the review run, then approved:\n1. Section 1: note said \"Four briefs from the last day\"; briefs are dated 6 and 7 Nov and the Westpac source is dated Nov 2. Now \"Four recent briefs\".\n2. Section 1: \"investors haggling over a lab's price tag\"; Decoder says \"investors push back on the $1.5 trillion valuation\". Now \"pushing back on\".\n3. Westpac: note said \"Westpac says the tools, methods and experience developed can be reused\"; iTnews: \"The tools, methods and experience developed can be reused for other migrations,\" Miller said. Now \"Miller says\".\n4. Inkling subheading \"Cheaper tokens, heavier models\": nothing in its sources says this model's tokens are cheaper; source says higher token usage. Now \"Better results, higher token use\".\n5. Anthropic: \"and that investors want a steeper discount\" sat under \"citing Reuters\"; in the Decoder only the roadshow doubt is credited to Reuters. Now split: \"It adds that investors want...\"."
+}
