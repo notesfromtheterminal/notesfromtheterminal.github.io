@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-08",
+  "publishedAt": "2026-11-08T07:00:00+07:00",
+  "title": "AI has a price tag, and four numbers show it",
+  "dek": "A bank's migration cost, a flat spending line, a model with higher token usage and a valuation under pressure all point at what AI costs.",
+  "lead": "2026-11-07-westpac-ai-data-migration-cost",
+  "stories": [
+    "2026-11-07-ramp-ai-spend-flatlined",
+    "2026-11-07-thinking-machines-inkling-2-small",
+    "2026-11-06-anthropic-ipo-valuation-resistance"
+  ],
+  "body": [
+    {
+      "head": "Cost is the number to watch",
+      "text": "Four briefs from the last day share one thread, and it is the price of AI, seen from both sides of the bill. We have a bank counting its savings, a spending report with a flat line, a new model that uses more tokens (the units AI services bill by), and investors haggling over a lab's price tag."
+    },
+    {
+      "head": "A bank puts a figure on it",
+      "text": "Westpac says AI-accelerated migration of its legacy St.George data warehouse cut costs from a budgeted $70 million to around $35 million. CEO Anthony Miller says AI tools sped up code conversion, testing and documentation, completing the migration more than two years early. The migration is expected to deliver around $15 million a year in direct benefits, and Westpac says the tools, methods and experience developed can be reused for other migrations.",
+      "support": [
+        "Westpac says AI-accelerated migration of the legacy St.George data warehouse cut costs from a budgeted $70 million to around $35 million.",
+        "CEO Anthony Miller says AI tools sped up code conversion, testing and documentation, completing the migration more than two years early.",
+        "The migration is expected to deliver around $15 million a year in direct benefits.",
+        "The tools, methods and experience developed can be reused for other migrations"
+      ]
+    },
+    {
+      "head": "Usage grows while spending stalls",
+      "text": "Ramp's data shows token spend only grew 1.5% across August and September, against 42% in July, even as token volumes rose. Ramp's lead economist Ara Kharazian told TechCrunch that OpenAI and Anthropic price cuts have made it cheaper to use AI. A payments team could compare that flat line with its own customers.",
+      "support": [
+        "A new report from Ramp shows AI spending flatlined over late summer even as token volumes rose, a sign that price competition and savvier customers may be capping revenue for OpenAI and Anthropic.",
+        "According to Ramp’s data, token spend only grew 1.5% across August and September.",
+        "To compare, in July, it grew 42% from the previous month.",
+        "OpenAI and Anthropic price cuts have…just made it cheaper to use AI",
+        "Ramp’s lead economist Ara Kharazian told TechCrunch."
+      ]
+    },
+    {
+      "head": "Cheaper tokens, heavier models",
+      "text": "Thinking Machines introduced Inkling 2 Small, a mixture-of-experts model with 594 billion parameters, 17 billion of them active, and says it intends to release the full weights under an Apache 2.0 license after external safety testing. The Decoder says the better results come partly at the cost of higher token usage. For a bank weighing an open model, tokens used per finished task deserves a column next to the price per token.",
+      "support": [
+        "Thinking Machines, the startup from former OpenAI CTO Mira Murati, is releasing Inkling 2 Small, a mixture-of-experts model with 594 billion parameters, 17 billion of which are active at any given time.",
+        "We intend to make the full weights available under an Apache 2.0 license next week after the completion of external safety testing and red-teaming.",
+        "The better results come partly at the cost of higher token usage."
+      ]
+    },
+    {
+      "head": "Investors are pricing the labs",
+      "text": "The Decoder reports, citing Reuters, that potential backers doubt Anthropic's planned roadshow can kick off as scheduled, and that investors want a steeper discount on the $1.5 trillion valuation because the company is still losing money. One investor reportedly floated just $1 trillion. It is still talk for now, and the outcome may look different once the offering is priced.",
+      "support": [
+        "Anthropic's IPO is in trouble as investors push back on the $1.5 trillion valuation and the tech market sells off.",
+        "According to Reuters , potential backers doubt the planned roadshow can kick off next week as scheduled.",
+        "Investors want a steeper discount because Anthropic is still losing money and burning through cash to scale its AI infrastructure.",
+        "One investor reportedly floated a valuation of just $1 trillion."
+      ]
+    },
+    {
+      "head": "Which cost line do you track",
+      "text": "Price per token, tokens per task and savings at the end of a project are three different numbers, and each tells a different part of the story. It is worth asking which of them your own team reports today, and which one it would be easiest to leave out."
+    }
+  ]
+}
