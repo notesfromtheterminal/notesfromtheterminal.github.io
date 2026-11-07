@@ -12,11 +12,11 @@
   "body": [
     {
       "head": "Cost is the number to watch",
-      "text": "Four briefs from the last day share one thread, and it is the price of AI, seen from both sides of the bill. We have a bank counting its savings, a spending report with a flat line, a new model that uses more tokens (the units AI services bill by), and investors haggling over a lab's price tag."
+      "text": "Four recent briefs share one thread, and it is the price of AI, seen from both sides of the bill. We have a bank counting its savings, a spending report with a flat line, a new model that uses more tokens (the units AI services bill by), and investors pushing back on a lab's price tag."
     },
     {
       "head": "A bank puts a figure on it",
-      "text": "Westpac says AI-accelerated migration of its legacy St.George data warehouse cut costs from a budgeted $70 million to around $35 million. CEO Anthony Miller says AI tools sped up code conversion, testing and documentation, completing the migration more than two years early. The migration is expected to deliver around $15 million a year in direct benefits, and Westpac says the tools, methods and experience developed can be reused for other migrations.",
+      "text": "Westpac says AI-accelerated migration of its legacy St.George data warehouse cut costs from a budgeted $70 million to around $35 million. CEO Anthony Miller says AI tools sped up code conversion, testing and documentation, completing the migration more than two years early. The migration is expected to deliver around $15 million a year in direct benefits, and Miller says the tools, methods and experience developed can be reused for other migrations.",
       "support": [
         "Westpac says AI-accelerated migration of the legacy St.George data warehouse cut costs from a budgeted $70 million to around $35 million.",
         "CEO Anthony Miller says AI tools sped up code conversion, testing and documentation, completing the migration more than two years early.",
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "head": "Cheaper tokens, heavier models",
+      "head": "Better results, higher token use",
       "text": "Thinking Machines introduced Inkling 2 Small, a mixture-of-experts model with 594 billion parameters, 17 billion of them active, and says it intends to release the full weights under an Apache 2.0 license after external safety testing. The Decoder says the better results come partly at the cost of higher token usage. For a bank weighing an open model, tokens used per finished task deserves a column next to the price per token.",
       "support": [
         "Thinking Machines, the startup from former OpenAI CTO Mira Murati, is releasing Inkling 2 Small, a mixture-of-experts model with 594 billion parameters, 17 billion of which are active at any given time.",
@@ -46,7 +46,7 @@
     },
     {
       "head": "Investors are pricing the labs",
-      "text": "The Decoder reports, citing Reuters, that potential backers doubt Anthropic's planned roadshow can kick off as scheduled, and that investors want a steeper discount on the $1.5 trillion valuation because the company is still losing money. One investor reportedly floated just $1 trillion. It is still talk for now, and the outcome may look different once the offering is priced.",
+      "text": "The Decoder reports, citing Reuters, that potential backers doubt Anthropic's planned roadshow can kick off as scheduled. It adds that investors want a steeper discount on the $1.5 trillion valuation because the company is still losing money. One investor reportedly floated just $1 trillion. It is still talk for now, and the outcome may look different once the offering is priced.",
       "support": [
         "Anthropic's IPO is in trouble as investors push back on the $1.5 trillion valuation and the tech market sells off.",
         "According to Reuters , potential backers doubt the planned roadshow can kick off next week as scheduled.",
