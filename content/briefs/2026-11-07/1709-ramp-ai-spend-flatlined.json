@@ -1,0 +1,48 @@
+{
+  "id": "2026-11-07-ramp-ai-spend-flatlined",
+  "publishedAt": "2026-11-07T17:09:00+07:00",
+  "section": "payments",
+  "tags": [
+    "deals"
+  ],
+  "company": "Ramp",
+  "headline": "Ramp data shows AI spending flatlined even as token volumes rose",
+  "body": "Ramp's report shows token spend grew 1.5% across August and September, and it grew 42% in July. Ramp's lead economist, Ara Kharazian, says OpenAI and Anthropic price cuts have made AI cheaper to use. TechCrunch says the data suggests investors might be wrong to assume AI companies will keep growing at breakneck speed.",
+  "note": "For payments firms that sell AI-linked spend, the flat line in token spend is the number to track.",
+  "figure": {
+    "value": "1.5%",
+    "label": "Growth in token spend across August and September, after 42% in July"
+  },
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "A new report from Ramp shows AI spending flatlined over late summer even as token volumes rose, a sign that price competition and savvier customers may be capping revenue for OpenAI and Anthropic."
+    },
+    {
+      "source": 0,
+      "text": "According to Ramp’s data, token spend only grew 1.5% across August and September."
+    },
+    {
+      "source": 0,
+      "text": "To compare, in July, it grew 42% from the previous month."
+    },
+    {
+      "source": 0,
+      "text": "OpenAI and Anthropic price cuts have…just made it cheaper to use AI"
+    },
+    {
+      "source": 0,
+      "text": "Ramp’s lead economist Ara Kharazian told TechCrunch."
+    },
+    {
+      "source": 0,
+      "text": "As Anthropic gears up for its IPO , the data suggests investors might be wrong to assume AI companies will keep growing at breakneck speed."
+    }
+  ]
+}

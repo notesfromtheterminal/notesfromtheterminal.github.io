@@ -1,0 +1,61 @@
+{
+  "id": "2026-11-07-westpac-ai-data-migration-cost",
+  "publishedAt": "2026-11-07T17:09:00+07:00",
+  "section": "banking",
+  "tags": [
+    "rules"
+  ],
+  "star": true,
+  "company": "Westpac",
+  "headline": "Westpac says AI cut its St.George data warehouse migration cost to around $35 million",
+  "body": "On Nov 2, iTnews reported that Westpac says AI cut the budgeted cost of the legacy St.George data warehouse migration from $70 million to around $35 million, in its annual results. CEO Anthony Miller says the team used AI tools to speed up code conversion, testing and documentation, which helped complete the migration more than two years earlier at half the cost. The migration is expected to deliver around $15 million a year in direct benefits.",
+  "note": "Miller says the tools, methods and experience can be reused for other migrations.",
+  "figure": {
+    "value": "$35M",
+    "label": "Expected cost of St.George data warehouse migration, budgeted at $70M"
+  },
+  "sources": [
+    {
+      "name": "iTnews",
+      "url": "https://www.itnews.com.au/news/westpac-reveals-ai-cut-data-warehouse-migration-cost-from-70m-to-35m-630064"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Nov 2 2026 1:11PM"
+    },
+    {
+      "source": 0,
+      "text": "But the bank went further in quantifying the financial benefits of the AI use case at its annual results."
+    },
+    {
+      "source": 0,
+      "text": "CEO Anthony Miller says AI tools sped up code conversion, testing and documentation, completing the migration more than two years early."
+    },
+    {
+      "source": 0,
+      "text": "Westpac says AI-accelerated migration of the legacy St.George data warehouse cut costs from a budgeted $70 million to around $35 million."
+    },
+    {
+      "source": 0,
+      "text": "On the slide, Westpac revealed that the data warehouse migration was initially budgeted to cost $70 million, but would now come in at around $35 million."
+    },
+    {
+      "source": 0,
+      "text": "The team used AI tools to speed up code conversion, testing and documentation."
+    },
+    {
+      "source": 0,
+      "text": "This helped us complete the migration more than two years earlier at half the cost."
+    },
+    {
+      "source": 0,
+      "text": "The migration is expected to deliver around $15 million a year in direct benefits."
+    },
+    {
+      "source": 0,
+      "text": "The tools, methods and experience developed can be reused for other migrations"
+    }
+  ]
+}
