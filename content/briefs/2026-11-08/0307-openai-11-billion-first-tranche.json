@@ -1,0 +1,33 @@
+{
+  "id": "2026-11-08-openai-11-billion-first-tranche",
+  "publishedAt": "2026-11-08T03:07:00+07:00",
+  "section": "deals",
+  "company": "OpenAI",
+  "headline": "OpenAI has received roughly $11 billion of a round valuing it at $1.25 trillion",
+  "body": "Bloomberg reports the money was wired on Friday. The $11 billion is the first tranche, and The Decoder says the full round could grow to $20 billion. OpenAI had originally sought $30 billion at a $1.4 trillion valuation but scaled back after an AI-sector selloff.",
+  "note": "The round is smaller than the $30 billion OpenAI originally sought, after an AI-sector selloff.",
+  "sources": [
+    {
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "The money was wired on Friday, Bloomberg reports."
+    },
+    {
+      "source": 0,
+      "text": "OpenAI has received roughly $11 billion in new funding, the first tranche of a round valuing the company at $1.25 trillion."
+    },
+    {
+      "source": 0,
+      "text": "The full round could grow to $20 billion, with the rest expected in the coming weeks."
+    },
+    {
+      "source": 0,
+      "text": "OpenAI originally sought $30 billion at a $1.4 trillion valuation but scaled back after an AI-sector selloff."
+    }
+  ]
+}

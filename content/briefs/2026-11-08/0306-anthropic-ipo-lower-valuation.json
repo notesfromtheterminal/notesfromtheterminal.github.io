@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-08-anthropic-ipo-lower-valuation",
+  "publishedAt": "2026-11-08T03:06:00+07:00",
+  "section": "deals",
+  "star": true,
+  "company": "Anthropic",
+  "headline": "Anthropic aims to go public before Thanksgiving at a lower valuation",
+  "body": "Anthropic is pressing ahead with its IPO despite a tech selloff. According to investors cited by the Financial Times, it wants to go public before Thanksgiving and raise $80–100 billion at a $1.25–1.75 trillion valuation. The Decoder says that falls short of the $2 trillion the most optimistic investors had hoped for.",
+  "note": "Pressing ahead at a lower valuation is a useful read on how public investors price a frontier lab.",
+  "sources": [
+    {
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Anthropic is pressing ahead with its IPO despite the tech selloff, accepting a lower valuation."
+    },
+    {
+      "source": 0,
+      "text": "The Claude developer wants to go public before Thanksgiving and raise $80–100 billion at a $1.25–1.75 trillion valuation, according to investors cited by the Financial Times ."
+    },
+    {
+      "source": 0,
+      "text": "That tops the current $965 billion but falls short of the $2 trillion the most optimistic investors had hoped for."
+    }
+  ]
+}
