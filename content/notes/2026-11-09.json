@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-09",
+  "publishedAt": "2026-11-09T07:00:00+07:00",
+  "title": "Big AI money at the top, AI fraud at the desk",
+  "dek": "Two labs are raising at trillion-dollar valuations while prosecutors describe AI voices being used on accounting teams.",
+  "lead": "2026-11-08-anthropic-ipo-lower-valuation",
+  "stories": [
+    "2026-11-08-openai-11-billion-first-tranche",
+    "2026-11-08-ai-impersonation-scheme-indicted-129-million"
+  ],
+  "body": [
+    {
+      "head": "Two stories, two ends of AI",
+      "text": "Three briefs from the last day sit at opposite ends of the same industry, so it helps to read them side by side. Two are about how much money two labs are raising, and one is about what prosecutors say a small group did with AI voices, often aimed at accounting departments."
+    },
+    {
+      "head": "Anthropic keeps its IPO plan",
+      "text": "Anthropic is pressing ahead with its IPO despite the tech selloff, and The Decoder says it is accepting a lower valuation. According to investors cited by the Financial Times, it wants to go public before Thanksgiving and raise $80–100 billion at a $1.25–1.75 trillion valuation.",
+      "support": [
+        "Anthropic is pressing ahead with its IPO despite the tech selloff, accepting a lower valuation.",
+        "The Claude developer wants to go public before Thanksgiving and raise $80–100 billion at a $1.25–1.75 trillion valuation, according to investors cited by the Financial Times ."
+      ]
+    },
+    {
+      "head": "OpenAI scales its round back",
+      "text": "OpenAI has received roughly $11 billion, the first tranche of a round valuing it at $1.25 trillion, and Bloomberg reports the money was wired on Friday. OpenAI originally sought $30 billion at a $1.4 trillion valuation but scaled back after an AI-sector selloff, and the full round could grow to $20 billion.",
+      "support": [
+        "OpenAI has received roughly $11 billion in new funding, the first tranche of a round valuing the company at $1.25 trillion.",
+        "The money was wired on Friday, Bloomberg reports.",
+        "OpenAI originally sought $30 billion at a $1.4 trillion valuation but scaled back after an AI-sector selloff.",
+        "The full round could grow to $20 billion, with the rest expected in the coming weeks."
+      ]
+    },
+    {
+      "head": "Fraud aimed at accounting teams",
+      "text": "Prosecutors said Thursday that three people accused of using artificial intelligence to steal about $129 million have been indicted on charges of wire fraud and aggravated identity theft. The indictment says the defendants used AI to mimic the voice and sometimes the image of a CEO on calls, and the trio often targeted the companies' accounting departments, with victims including a bank in Rhode Island according to court documents.",
+      "support": [
+        "Three people accused of using artificial intelligence to impersonate corporate executives and attorneys to steal about $129 million have been indicted on charges of wire fraud and aggravated identity theft, prosecutors said Thursday.",
+        "They would also coordinate a phone or video call where the defendants used AI to mimic the voice and sometimes the image of the CEO, according to the indictment.",
+        "The trio, who have nicknames that include “Rocky Balboa,” “Superman Cash” and “Fat Boy,” often targeted the companies’ accounting departments.",
+        "Their victims included hospital systems in Missouri and California, a bank in Rhode Island, a financial technology company in the United Kingdom, a mutual fund company in Massachusetts and a pet food company in Florida, according to court documents."
+      ]
+    },
+    {
+      "head": "A question for your own desk",
+      "text": "We can hold both pictures at once: the labs are raising money at trillion-dollar valuations, while the fraud described in the indictment often targeted accounting departments. If you work in finance operations, it may be worth asking how your team confirms a large wire request when the voice on the line sounds right."
+    }
+  ]
+}
