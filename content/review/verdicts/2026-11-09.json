@@ -1,0 +1,7 @@
+{
+  "note": "2026-11-09",
+  "commit": "5b2dd7aab6357ee86e97810df0e41865df443972",
+  "verdict": "APPROVED",
+  "at": "2026-11-08T16:47:21.700Z",
+  "notes": "Fixed by the review run, then approved:\n1. Section 1: \"the biggest labs\" -> \"two labs\" (sources don't say biggest).\n2. Section 1: \"against ordinary finance teams\" -> \"often aimed at accounting departments\" (source: \"often targeted the companies' accounting departments\").\n3. OpenAI section: cut \"Meanwhile\".\n4. Last section: \"pricing AI in the hundreds of billions\" and \"accounts payable clerk is the one taking the call\" are not in the sources; replaced with \"raising money at trillion-dollar valuations\" and \"often targeted accounting departments\"."
+}
