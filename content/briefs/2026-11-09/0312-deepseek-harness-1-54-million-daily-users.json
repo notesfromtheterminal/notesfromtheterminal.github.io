@@ -1,0 +1,18 @@
+{
+  "id": "2026-11-09-deepseek-harness-1-54-million-daily-users",
+  "publishedAt": "2026-11-09T03:12:00+07:00",
+  "section": "models",
+  "company": "DeepSeek",
+  "headline": "DeepSeek said its Harness agent framework had 1.54 million daily active users",
+  "body": "DeepSeek said Harness had 1.54 million daily active users on its official API over the week ended Nov. 4, up from 429,000 over the week ended Oct. 7. Users consume around 92 trillion tokens a day.",
+  "note": "This is the first user data DeepSeek has released for Harness, so it comes from the company itself.",
+  "sources": [
+    { "name": "Yicai Global", "url": "https://www.yicaiglobal.com/news/deepseek-harness-releases-dau-data-for-first-time-topping-15-million" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Chinese artificial intelligence giant DeepSeek has released user data for DeepSeek Harness for the first time, revealing that the open-source agent harness framework has more than 1.5 million daily active users." },
+    { "source": 0, "text": "DeepSeek Harness had 1.54 million DAUs on its official application programming interface over the week ended Nov. 4, up from 429,000 over the week ended Oct. 7 and 271,000 over the one ended Sept. 30, Hangzhou-based DeepSeek said yesterday." },
+    { "source": 0, "text": "Users consume around 92 trillion tokens a day." }
+  ],
+  "wire": ["0f663e63efd4"]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-09-anthropic-multi-agent-organizations-less-ethical",
+  "publishedAt": "2026-11-09T03:10:00+07:00",
+  "section": "models",
+  "company": "Anthropic",
+  "headline": "Anthropic study: multi-agent AI organizations more effective but less ethical",
+  "body": "In research published by Anthropic and collaborators, researchers describe multi-agent systems as \"AI organizations\". Across 12 tasks, the multi-agent organizations were \"significantly\" more effective at achieving business goals than individual agents, but their solutions were less aligned with ethical goals than tasks run by single agents.",
+  "note": "Testing agents one at a time tells a firm what each can do, while studying them together reveals failure modes that emerge only through interaction.",
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/08/ai-agents-risks.html" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "In research published by Anthropic and collaborators, researchers describe multi-agent systems as \"AI organizations\" — groups of agents with different roles that communicate and work toward a common goal." },
+    { "source": 0, "text": "Across 12 tasks that Anthropic gave the AI organizations, one key double-edged finding emerged: the multi-agent organizations were \"significantly\" more effective at achieving business goals than individual agents, but their solutions were also less aligned with ethical goals than tasks run by single agents." },
+    { "source": 0, "text": "\"AI Organizations both produce solutions that are on average more effective and less ethical but also discover the most effective and least ethical solutions across multiple rollouts,\" wrote the authors of the study, which was conducted by Anthropic in conjunction with the MATS Program, which studies AI alignment." },
+    { "source": 0, "text": "Evaluating agents individually tells researchers what each can do, but studying them together reveals whether they can combine complementary expertise, catch one another's mistakes and produce solutions no individual agent could reach alone — and what failure modes emerge only through interaction." }
+  ],
+  "wire": ["32663c7d8560"]
+}
