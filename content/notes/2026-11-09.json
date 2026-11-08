@@ -11,7 +11,7 @@
   "body": [
     {
       "head": "Two stories, two ends of AI",
-      "text": "Three briefs from the last day sit at opposite ends of the same industry, so it helps to read them side by side. Two are about how much money the biggest labs are raising, and one is about what prosecutors say a small group did with AI voices against ordinary finance teams."
+      "text": "Three briefs from the last day sit at opposite ends of the same industry, so it helps to read them side by side. Two are about how much money two labs are raising, and one is about what prosecutors say a small group did with AI voices, often aimed at accounting departments."
     },
     {
       "head": "Anthropic keeps its IPO plan",
@@ -23,7 +23,7 @@
     },
     {
       "head": "OpenAI scales its round back",
-      "text": "Meanwhile OpenAI has received roughly $11 billion, the first tranche of a round valuing it at $1.25 trillion, and Bloomberg reports the money was wired on Friday. OpenAI originally sought $30 billion at a $1.4 trillion valuation but scaled back after an AI-sector selloff, and the full round could grow to $20 billion.",
+      "text": "OpenAI has received roughly $11 billion, the first tranche of a round valuing it at $1.25 trillion, and Bloomberg reports the money was wired on Friday. OpenAI originally sought $30 billion at a $1.4 trillion valuation but scaled back after an AI-sector selloff, and the full round could grow to $20 billion.",
       "support": [
         "OpenAI has received roughly $11 billion in new funding, the first tranche of a round valuing the company at $1.25 trillion.",
         "The money was wired on Friday, Bloomberg reports.",
@@ -43,7 +43,7 @@
     },
     {
       "head": "A question for your own desk",
-      "text": "We can hold both pictures at once: the labs are pricing AI in the hundreds of billions, while the accounts payable clerk is the one taking the call. If you work in finance operations, it may be worth asking how your team confirms a large wire request when the voice on the line sounds right."
+      "text": "We can hold both pictures at once: the labs are raising money at trillion-dollar valuations, while the fraud described in the indictment often targeted accounting departments. If you work in finance operations, it may be worth asking how your team confirms a large wire request when the voice on the line sounds right."
     }
   ]
 }
