@@ -1,0 +1,51 @@
+{
+  "id": "2026-11-08-ai-impersonation-scheme-indicted-129-million",
+  "publishedAt": "2026-11-08T17:10:00+07:00",
+  "section": "banking",
+  "tags": [
+    "payments"
+  ],
+  "headline": "Three charged in AI impersonation scheme accused of stealing about $129 million",
+  "body": "Prosecutors said Thursday that three people were indicted in New York on wire fraud and aggravated identity theft charges. Prosecutors say they used AI to mimic a CEO's voice and sometimes image on calls, and often targeted companies' accounting departments. Victims included hospital systems in Missouri and California and a bank in Rhode Island, according to court documents.",
+  "note": "For finance teams, the attack ran through accounting departments and the wire instructions, which suggests payment controls matter as much as the calls and emails.",
+  "sources": [
+    {
+      "name": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3373511/us-accuses-trio-using-ai-impersonate-ceos-and-lawyers-steal-us129-million"
+    },
+    {
+      "name": "News4JAX",
+      "url": "https://www.news4jax.com/tech/2026/11/06/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 1,
+      "text": "Three people accused of using artificial intelligence to impersonate corporate executives and attorneys to steal about $129 million have been indicted on charges of wire fraud and aggravated identity theft, prosecutors said Thursday."
+    },
+    {
+      "source": 1,
+      "text": "Over more than a year and a half, Jacob Soall, 41, Sharon Hazan, 54, and Guy Sheetrit, 42, targeted thousands of companies across the world in their AI scheme, according to the indictment filed in a U.S. District Court in New York."
+    },
+    {
+      "source": 1,
+      "text": "Their victims included hospital systems in Missouri and California, a bank in Rhode Island, a financial technology company in the United Kingdom, a mutual fund company in Massachusetts and a pet food company in Florida, according to court documents."
+    },
+    {
+      "source": 1,
+      "text": "They would also coordinate a phone or video call where the defendants used AI to mimic the voice and sometimes the image of the CEO, according to the indictment."
+    },
+    {
+      "source": 1,
+      "text": "The trio, who have nicknames that include “Rocky Balboa,” “Superman Cash” and “Fat Boy,” often targeted the companies’ accounting departments."
+    },
+    {
+      "source": 1,
+      "text": "The impersonated attorney would tell the employee to wire large payments to bank accounts across the world, according to court documents."
+    },
+    {
+      "source": 0,
+      "text": "Three people accused of using artificial intelligence to impersonate corporate executives and lawyers to steal about US$129 million have been indicted on charges of wire fraud and aggravated identity theft, prosecutors said Thursday."
+    }
+  ]
+}
