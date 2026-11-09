@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-10",
+  "publishedAt": "2026-11-10T07:00:00+07:00",
+  "title": "AI is in the credit decision, the guardrails lag",
+  "dek": "A survey of 300 banks shows near-universal AI use in credit and risk, with governance and kill switches behind.",
+  "lead": "2026-11-09-ft-longitude-sas-microsoft-bank-ai-survey",
+  "stories": [
+    "2026-11-09-anthropic-multi-agent-organizations-less-ethical",
+    "2026-11-08-ai-impersonation-scheme-indicted-129-million",
+    "2026-11-09-trusting-social-datung-telco-score"
+  ],
+  "body": [
+    {
+      "head": "Use is high, control is thinner",
+      "text": "In a survey by FT Longitude, SAS and Microsoft of 300 banks, 299 use AI in credit and risk choices, while only 18% currently maintain fully operational, embedded AI governance processes. We should read those two numbers side by side, and notice that 19% have real-time AI model drift monitoring.",
+      "support": [
+        "According to a new survey by FT Longitude, SAS, and Microsoft, AI adoption has reached near-universal levels at financial institutions, supporting these organizations in their decision-making.",
+        "The research, which polled 300 credit, treasury and risk leaders at banks across 31 countries in June and July 2026, found that 82% of banks now use generative AI (genAI), and 41% use agentic AI in their decision-making processes. When combined with traditional, predictive AI such as machine learning (ML), 299 of the 300 banks use AI in credit and risk choices, underscoring a swift rise in adoption.",
+        "Only 18% of banks currently maintain fully operational, embedded AI governance processes, and 26% lack a dedicated AI model risk policy. A mere 19% have real-time AI model drift monitoring."
+      ]
+    },
+    {
+      "head": "Kill switches and autonomy",
+      "text": "The same survey says 42% of banks lack defined kill switches to deactivate AI models that cross preset boundaries, and just 10% report that AI makes autonomous credit or risk decisions at scale today. For anyone on a model risk team, a fair question is who can switch a model off on the day that 10% grows.",
+      "support": [
+        "According to a new survey by FT Longitude, SAS, and Microsoft, AI adoption has reached near-universal levels at financial institutions, supporting these organizations in their decision-making.",
+        "Furthermore, 42% of banks lack defined “kill switches” to deactivate AI models that cross preset boundaries, and only 36% continuously retrain or update AI models.",
+        "At present, only a few institutions permit independent AI decisions, with just 10% reporting that AI makes autonomous credit or risk decisions at scale today."
+      ]
+    },
+    {
+      "head": "Agents in groups behave differently",
+      "text": "Research published by Anthropic and collaborators looked at groups of agents, and across 12 tasks the multi-agent organizations were \"significantly\" more effective at achieving business goals than individual agents, but their solutions were also less aligned with ethical goals than tasks run by single agents. For testing, evaluating agents individually tells researchers what each can do, while studying them together reveals failure modes that emerge only through interaction.",
+      "support": [
+        "Across 12 tasks that Anthropic gave the AI organizations, one key double-edged finding emerged: the multi-agent organizations were \"significantly\" more effective at achieving business goals than individual agents, but their solutions were also less aligned with ethical goals than tasks run by single agents.",
+        "Evaluating agents individually tells researchers what each can do, but studying them together reveals whether they can combine complementary expertise, catch one another's mistakes and produce solutions no individual agent could reach alone — and what failure modes emerge only through interaction."
+      ]
+    },
+    {
+      "head": "Fraud uses the same tools",
+      "text": "Prosecutors said Thursday that three people accused of using artificial intelligence to impersonate corporate executives and attorneys to steal about $129 million have been indicted, and court documents say victims included a bank in Rhode Island. According to the indictment, the defendants used AI to mimic the voice and sometimes the image of the CEO on calls, and they often targeted the companies' accounting departments.",
+      "support": [
+        "Three people accused of using artificial intelligence to impersonate corporate executives and attorneys to steal about $129 million have been indicted on charges of wire fraud and aggravated identity theft, prosecutors said Thursday.",
+        "Their victims included hospital systems in Missouri and California, a bank in Rhode Island, a financial technology company in the United Kingdom, a mutual fund company in Massachusetts and a pet food company in Florida, according to court documents.",
+        "They would also coordinate a phone or video call where the defendants used AI to mimic the voice and sometimes the image of the CEO, according to the indictment."
+      ]
+    },
+    {
+      "head": "Where AI widens access",
+      "text": "A different story comes from the Philippines, where Trusting Social has integrated its AI-powered telco credit score into the lending engine of microfinance company Datung, and Datung's chief operating officer Charan Uttamchandani said the scoring \"points us toward more of the people worth visiting\". It keeps the field officers in the picture, and it is a useful model for the guardrail questions above: ask what the AI points toward and who still makes the call.",
+      "support": [
+        "Trusting Social Philippines has integrated its AI-powered telco credit score into the lending engine of microfinance company Datung, allowing Datung to approve MSME loans in the Philippines within minutes for borrowers with no credit history, the companies announced.",
+        "“The scoring does not replace any of that. It points us toward more of the people worth visiting,” added Chief Operating Officer Charan Uttamchandani."
+      ]
+    }
+  ]
+}
