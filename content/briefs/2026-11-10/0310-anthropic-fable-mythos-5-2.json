@@ -1,0 +1,45 @@
+{
+  "id": "2026-11-10-anthropic-fable-mythos-5-2",
+  "publishedAt": "2026-11-10T03:10:00+07:00",
+  "section": "models",
+  "tags": [
+    "deals"
+  ],
+  "star": true,
+  "company": "Anthropic",
+  "headline": "Anthropic released Claude Fable 5.2 and Mythos 5.2 models",
+  "body": "Anthropic released Claude Fable 5.2 and Mythos 5.2 on Monday, as the company readies for a potentially historic IPO. Anthropic says the models generate outputs 30% faster than their predecessors and cost 20% less than the 5.1 generation. TechCrunch says Anthropic is lowering the cost of Fable from $10 to $8 per million input tokens, and Anthropic said Mythos 5.2 is available to vetted organizations.",
+  "note": "For banks, the split matters: Fable 5.2 is generally available, while Mythos 5.2 is available to vetted organizations.",
+  "sources": [
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html"
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Anthropic on Monday released two new artificial intelligence models, Claude Fable 5.2 and Claude Mythos 5.2, as the company readies for a potentially historic IPO that could take place as soon as next week."
+    },
+    {
+      "source": 0,
+      "text": "Fable 5.2 and Mythos 5.2 are Anthropic's most advanced offerings, and the company said they generate outputs 30% faster than their predecessors."
+    },
+    {
+      "source": 0,
+      "text": "The models also cost 20% less than the 5.1 generation, and will be available for $8 per million input tokens and $40 per million output tokens, the company said."
+    },
+    {
+      "source": 0,
+      "text": "Anthropic said Fable 5.2 is generally available on Monday, and Mythos 5.2 is available to vetted organizations through the company's Life Sciences and Cyber Verification Programs."
+    },
+    {
+      "source": 1,
+      "text": "Notably, Anthropic is lowering the cost of Fable from $10 to $8 per million input tokens."
+    }
+  ]
+}

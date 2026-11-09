@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-10-goldman-solomon-ai-financing",
+  "publishedAt": "2026-11-10T03:10:00+07:00",
+  "section": "banking",
+  "tags": ["deals"],
+  "company": "Goldman Sachs",
+  "headline": "Goldman CEO says demand for AI infrastructure financing remains strong",
+  "body": "Goldman Sachs CEO David Solomon told CNBC that demand for AI infrastructure financing remains strong, and that the bank has been \"very active\" in AI capital markets deals in recent weeks. CNBC says AI-related stocks, including chipmakers and neocloud providers, have tumbled in recent weeks. Solomon is declining to comment in detail on Anthropic's IPO, and Goldman is among the banks leading that process.",
+  "note": "Solomon's view is an executive's read, and the Anthropic IPO could become one of the biggest tests yet of public-market appetite for AI.",
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/09/goldman-ceo-ai-financing-market.html" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Goldman Sachs CEO David Solomon said demand for AI infrastructure financing remains strong and that he expects capital markets activity to continue over the next two months." },
+    { "source": 0, "text": "\"There's still very strong demand for investments in the AI infrastructure build and the technology around the growth of AI,\" Solomon told CNBC's Leslie Picker." },
+    { "source": 0, "text": "Solomon said that his firm has been \"very active\" in AI capital markets deals over recent weeks, a setup that he expects to continue." },
+    { "source": 0, "text": "AI-related stocks, including chipmakers and neocloud providers, have tumbled in recent weeks as investors reassess whether the hundreds of billions of dollars being poured into AI infrastructure will generate good returns." },
+    { "source": 0, "text": "Goldman is among the banks leading that IPO process." },
+    { "source": 0, "text": "\"We'll see, obviously, if this IPO moves forward, how it all plays out,\" Solomon said, declining to comment in detail about the IPO." },
+    { "source": 0, "text": "The shifting sentiment comes at a key moment for AI model lab Anthropic , which is preparing for a potential IPO that could become one of the biggest tests yet of public-market appetite for AI companies." }
+  ]
+}

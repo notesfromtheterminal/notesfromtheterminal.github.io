@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-10-meta-muse-ember",
+  "publishedAt": "2026-11-10T03:10:00+07:00",
+  "section": "models",
+  "company": "Meta",
+  "headline": "Meta releases Muse Ember, a lightweight model for agent execution",
+  "body": "Meta has introduced Muse Ember, its smallest and most efficient AI model to date, for routine agent tasks such as calling tools and routing requests. Meta says Muse Ember delivers more intelligence per dollar than Claude Haiku 5.5 or GPT-6 Luna, and it is available at $0.10 per million input tokens. The Decoder says Haiku outperforms it on real coding tasks in FrontierCode 2.0-AA, 34.9 percent to 27.2 percent.",
+  "note": "Meta's cost and intelligence claims come from its own comparisons, and the coding gap marks where a cheap model still trails Haiku.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/" },
+    { "name": "The Decoder", "url": "https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Meta releases Muse Ember, a new lightweight model for agent execution" },
+    { "source": 1, "text": "Meta has introduced Muse Ember, its smallest and most efficient AI model to date." },
+    { "source": 1, "text": "It's designed for the routine tasks AI agents handle all day: calling tools, handling small coding tasks, routing requests, extracting data, and processing long documents." },
+    { "source": 1, "text": "Meta says Muse Ember delivers more intelligence per dollar at every reasoning level than Claude Haiku 5.5 or GPT-6 Luna." },
+    { "source": 1, "text": "It's available now through the Meta Model API and Muse Code at $0.10 per million input tokens and $0.50 per million output tokens." },
+    { "source": 1, "text": "Muse Ember leads in most of Meta's own tests, but Haiku outperforms it on real coding tasks in FrontierCode 2.0-AA, scoring 34.9 percent to Muse Ember's 27.2 percent." }
+  ]
+}
