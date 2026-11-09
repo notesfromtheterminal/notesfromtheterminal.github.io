@@ -1,0 +1,41 @@
+{
+  "id": "2026-11-09-ft-longitude-sas-microsoft-bank-ai-survey",
+  "publishedAt": "2026-11-09T22:11:00+07:00",
+  "section": "banking",
+  "company": "SAS",
+  "headline": "Survey of 300 banks: near-universal AI in credit, governance falling behind",
+  "body": "According to a survey by FT Longitude, SAS, and Microsoft, 299 of the 300 banks polled use AI in credit and risk choices. Only 18% of banks currently maintain fully operational, embedded AI governance processes, and 42% lack defined \"kill switches\" to deactivate AI models that cross preset boundaries. Just 10% reported that AI makes autonomous credit or risk decisions at scale today.",
+  "note": "The gap between how widely models are used and how few banks have real-time drift monitoring or a kill switch is the part risk teams can act on first.",
+  "sources": [
+    {
+      "name": "Fintech News Singapore",
+      "url": "https://fintechnews.sg/140623/ai/ai-reaches-widespread-adoption-among-banks/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "According to a new survey by FT Longitude, SAS, and Microsoft, AI adoption has reached near-universal levels at financial institutions, supporting these organizations in their decision-making."
+    },
+    {
+      "source": 0,
+      "text": "The study also found that while AI adoption continues to gain speed, governance is falling behind."
+    },
+    {
+      "source": 0,
+      "text": "The research, which polled 300 credit, treasury and risk leaders at banks across 31 countries in June and July 2026, found that 82% of banks now use generative AI (genAI), and 41% use agentic AI in their decision-making processes. When combined with traditional, predictive AI such as machine learning (ML), 299 of the 300 banks use AI in credit and risk choices, underscoring a swift rise in adoption."
+    },
+    {
+      "source": 0,
+      "text": "Only 18% of banks currently maintain fully operational, embedded AI governance processes, and 26% lack a dedicated AI model risk policy. A mere 19% have real-time AI model drift monitoring."
+    },
+    {
+      "source": 0,
+      "text": "Furthermore, 42% of banks lack defined “kill switches” to deactivate AI models that cross preset boundaries, and only 36% continuously retrain or update AI models."
+    },
+    {
+      "source": 0,
+      "text": "At present, only a few institutions permit independent AI decisions, with just 10% reporting that AI makes autonomous credit or risk decisions at scale today."
+    }
+  ]
+}

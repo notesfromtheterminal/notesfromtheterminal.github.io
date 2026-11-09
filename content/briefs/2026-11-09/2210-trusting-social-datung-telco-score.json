@@ -1,0 +1,36 @@
+{
+  "id": "2026-11-09-trusting-social-datung-telco-score",
+  "publishedAt": "2026-11-09T22:10:00+07:00",
+  "section": "sea",
+  "tags": [
+    "banking"
+  ],
+  "company": "Datung",
+  "headline": "Datung to use Trusting Social's AI telco score for Philippine MSME loans",
+  "body": "Trusting Social Philippines has integrated its AI-powered telco credit score into the lending engine of microfinance company Datung, the companies announced. Datung will use the score for unsecured personal loans and microfinance. Datung COO Charan Uttamchandani said the scoring \"points us toward more of the people worth visiting\".",
+  "note": "Alternative data is meant to widen the pool of borrowers a lender can assess, and Datung describes the score as one input beside e-wallet cash flows and field officers.",
+  "sources": [
+    {
+      "name": "Fintech News Philippines",
+      "url": "https://fintechnews.ph/74307/lending/msme-loans-philippines-trusting-social-datung/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Trusting Social Philippines has integrated its AI-powered telco credit score into the lending engine of microfinance company Datung, allowing Datung to approve MSME loans in the Philippines within minutes for borrowers with no credit history, the companies announced."
+    },
+    {
+      "source": 0,
+      "text": "Datung, which operates from Singapore and Manila, will use the score for unsecured personal loans and microfinance."
+    },
+    {
+      "source": 0,
+      "text": "Datung CEO Kasper Abildgaard Svendsen said the company combines the telco score with e-wallet cash flows, insights from its field officers and its group lending model, with every repayment feeding back into its models."
+    },
+    {
+      "source": 0,
+      "text": "“The scoring does not replace any of that. It points us toward more of the people worth visiting,” added Chief Operating Officer Charan Uttamchandani."
+    }
+  ]
+}
