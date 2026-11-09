@@ -1,0 +1,53 @@
+{
+  "id": "2026-11-09-rba-hunter-ai-inflation-near-term",
+  "publishedAt": "2026-11-09T07:15:00+07:00",
+  "section": "rules",
+  "company": "Reserve Bank of Australia",
+  "headline": "RBA's Hunter says AI investment will put some upward pressure on inflation in the near term",
+  "body": "Sarah Hunter, the RBA's Assistant Governor (Economic), told a UBS conference that AI investment will put some upward pressure on inflation in the near term. She says supply will catch up with demand over time, and the initial inflationary pressures from AI investment are likely to dissipate. She also says there is limited evidence so far that AI has materially lifted productivity.",
+  "note": "The speech also treats AI as a financial stability question: if returns to AI investment disappoint, some asset prices, including equities and corporate debt, will be exposed to sharp repricing.",
+  "sources": [
+    {
+      "name": "Reserve Bank of Australia",
+      "url": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-11-09.html"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Sarah Hunter * Assistant Governor (Economic)"
+    },
+    {
+      "source": 0,
+      "text": "UBS Australasia Conference"
+    },
+    {
+      "source": 0,
+      "text": "In the near term, the positive shock to aggregate demand set against the economy"
+    },
+    {
+      "source": 0,
+      "text": "will put some upward pressure on inflation"
+    },
+    {
+      "source": 0,
+      "text": "Over time, supply will catch up with demand as data centre capacity and related sectors expand, easing current bottlenecks."
+    },
+    {
+      "source": 0,
+      "text": "As a result, the initial inflationary pressures from AI investment are likely to dissipate."
+    },
+    {
+      "source": 0,
+      "text": "So far, there is limited evidence that AI has materially lifted aggregate productivity"
+    },
+    {
+      "source": 0,
+      "text": "AI may also be increasing risks to financial stability via operational and financial risk channels"
+    },
+    {
+      "source": 0,
+      "text": "If the returns to AI investment disappoint, some asset prices (including equities and corporate debt) will be exposed to sharp repricing and possibly disorderly adjustments."
+    }
+  ]
+}
