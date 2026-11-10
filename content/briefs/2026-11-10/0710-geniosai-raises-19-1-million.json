@@ -1,0 +1,36 @@
+{
+  "id": "2026-11-10-geniosai-raises-19-1-million-seed-series-a",
+  "publishedAt": "2026-11-10T07:10:00+07:00",
+  "section": "deals",
+  "tags": [
+    "banking"
+  ],
+  "company": "geniosAI",
+  "headline": "geniosAI emerged from stealth with seed and Series A funding",
+  "body": "The financial intelligence startup geniosAI has emerged from stealth with $19.1 million in combined seed and Series A funding, according to an announcement. The company said its technology is already used by finance and investment teams at Fortune 500 banks and technology companies.",
+  "note": "The pitch is AI that shows how it reached an answer, for finance teams, with FactSet's data built in.",
+  "sources": [
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/geniosai-raises-19-1-million-to-bring-traceable-ai-analysis-to-financial-institutions/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Financial intelligence startup geniosAI has emerged from stealth with $19.1 million in combined seed and Series A funding , according to an announcement Monday (Nov. 9), betting that banks and investment firms will pay for AI that not only produces answers but also shows how it reached them."
+    },
+    {
+      "source": 0,
+      "text": "The funding comes from FactSet , Zoom and General Catalyst , with FactSet leading the Series A and serving as geniosAI’s strategic partner."
+    },
+    {
+      "source": 0,
+      "text": "The company said its technology is already being used by finance and investment teams at Fortune 500 banks and technology companies to prepare for earnings, compare results with analyst expectations and identify questions investors may raise."
+    },
+    {
+      "source": 0,
+      "text": "Financial institutions looking for artificial intelligence applications beyond employee productivity tools may have a new option."
+    }
+  ]
+}

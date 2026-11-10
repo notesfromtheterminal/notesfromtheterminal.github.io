@@ -1,0 +1,47 @@
+{
+  "id": "2026-11-10-dallas-fed-banks-restrict-ai-agents",
+  "publishedAt": "2026-11-10T07:10:00+07:00",
+  "section": "banking",
+  "tags": [
+    "payments"
+  ],
+  "headline": "11.4% of bankers in a Dallas Fed survey say they restrict customers' AI agents",
+  "body": "In a Dallas Fed survey of 70 bankers, for 11.4% of respondents, their institution or service provider had taken steps to restrict customers' AI agent activity on online banking platforms. Another 22.9% said they planned to introduce restrictions within six months.",
+  "note": "The findings suggest banks are still developing policies for AI agents, and the survey covers one Federal Reserve district only.",
+  "figure": {
+    "value": "11.4%",
+    "label": "bankers whose institution took steps to restrict AI agents"
+  },
+  "sources": [
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/news/banking/2026/banks-draw-lines-around-customers-ai-agents/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "In a recently released survey of 70 bankers, the Federal Reserve Bank of Dallas found that 11.4% said their institution or service provider had taken steps to restrict existing or prospective customers’ AI agent activity on online banking platforms."
+    },
+    {
+      "source": 0,
+      "text": "Another 22.9% said they planned to introduce restrictions within the next six months."
+    },
+    {
+      "source": 0,
+      "text": "More than a quarter of respondents, 27.1%, said they did not know whether their institution or service provider had restricted AI-agent activity."
+    },
+    {
+      "source": 0,
+      "text": "Meanwhile, 38.6% said no restrictions had been implemented and were not planned."
+    },
+    {
+      "source": 0,
+      "text": "The Dallas Fed collected responses between Oct. 27 and Nov. 4 from bankers in its Eleventh Federal Reserve District."
+    },
+    {
+      "source": 0,
+      "text": "The survey noted that the results provide a regional snapshot of how financial institutions are approaching AI-agent access rather than a measure of policies across the U.S. banking industry."
+    }
+  ]
+}

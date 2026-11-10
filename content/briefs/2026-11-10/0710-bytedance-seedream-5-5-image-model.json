@@ -1,0 +1,33 @@
+{
+  "id": "2026-11-10-bytedance-seedream-5-5-image-model",
+  "publishedAt": "2026-11-10T07:10:00+07:00",
+  "section": "models",
+  "company": "Bytedance",
+  "headline": "Bytedance introduces Seedream 5.5, an image model for production work",
+  "body": "According to Bytedance, Seedream 5.5 has stable multi-round editing across up to 100 rounds, with unchanged image areas preserved at the pixel level and no color shifts. It also generates native RGBA images with transparent backgrounds. A Pro version is planned.",
+  "note": "The gains are in image editing and design assets, which design and marketing teams are likelier to use first than finance teams.",
+  "sources": [
+    {
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Bytedance Seed introduces Seedream 5.5, a new image generation model built for professional production workflows."
+    },
+    {
+      "source": 0,
+      "text": "According to Bytedance, one improvement is stable multi-round editing across up to 100 rounds, with unchanged image areas preserved at the pixel level and no color shifts."
+    },
+    {
+      "source": 0,
+      "text": "Seedream 5.5 also generates native RGBA images with transparent backgrounds, letting generated elements serve directly as design assets without manual cutouts."
+    },
+    {
+      "source": 0,
+      "text": "A Pro version is planned."
+    }
+  ]
+}
