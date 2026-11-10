@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-11-anthropic-ipo-price-range",
+  "publishedAt": "2026-11-11T03:10:00+07:00",
+  "section": "deals",
+  "tags": [
+    "models"
+  ],
+  "star": true,
+  "company": "Anthropic",
+  "headline": "Estimated IPO price range is $70 to $78 per share",
+  "body": "Anthropic said in an updated filing that it will offer 825 million shares at a price range between $70 and $78 per share. TechCrunch says the company could be worth $1.404 trillion if its shares list at the top of the range, on a fully diluted basis.",
+  "note": "The price range is the number to watch, and the company's filing sets it. The $1.404 trillion figure assumes the shares list at the top of that range.",
+  "sources": [
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Anthropic said it will offer 825 million shares in its upcoming IPO at a price range between $70 and $78 per share, according to an updated filing on Tuesday"
+    },
+    {
+      "source": 1,
+      "text": "The Claude-maker said in an updated IPO filing on Tuesday that it would be offering a total of 825 million Class A shares at an estimated price range of $70 to $78 per share."
+    },
+    {
+      "source": 1,
+      "text": "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "2026-11-11-google-gemini-4-carbon-available",
+  "publishedAt": "2026-11-11T03:10:00+07:00",
+  "section": "models",
+  "tags": [],
+  "star": false,
+  "company": "Google",
+  "headline": "Google makes Gemini 4 Carbon available to developers and consumers",
+  "body": "Google says Gemini 4 Carbon is available to developers, enterprises, scientists and consumers, and calls it its strongest model. Google says Carbon ranks #1 on CursorBench 4.0, Perplexity’s WANDR and Zapier’s AutomationBench at more than 2X lower cost per task than the next best external model. In the API it costs $2 per million input tokens and $10 per million output tokens, the same introductory price as Gemini 4 Argon.",
+  "note": "For banks and payment firms, the API price is the number to watch. The cost-per-task gap is Google's own benchmark claim.",
+  "sources": [
+    {
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Today, we’re making Gemini 4 Carbon available to developers, enterprises, scientists, and consumers."
+    },
+    {
+      "source": 0,
+      "text": "Carbon is our strongest model with frontier performance in cybersecurity capabilities and long-horizon agentic workflows across complex knowledge work, software engineering, and scientific reasoning."
+    },
+    {
+      "source": 0,
+      "text": "It ranks #1 on CursorBench 4.0 , Perplexity’s WANDR , and Zapier’s AutomationBench at more than 2X lower cost per task compared to the next best external model."
+    },
+    {
+      "source": 0,
+      "text": "Gemini 4 Carbon is available via the API in Google AI Studio and Gemini for business for all paying developers and enterprises, at the same introductory price"
+    },
+    {
+      "source": 0,
+      "text": "as Gemini 4 Argon ($2 per million input tokens and $10 per million output tokens)."
+    }
+  ]
+}
