@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-11-anthropic-claude-sheets-whiteboards-connectors",
+  "publishedAt": "2026-11-11T07:09:00+07:00",
+  "section": "models",
+  "tags": [],
+  "company": "Anthropic",
+  "headline": "Anthropic adds spreadsheets, whiteboards and partner connectors to Claude",
+  "body": "Anthropic is adding Claude Sheets, Claude Whiteboards and Interactive Connectors to its Claude app. The connectors let partners like Adobe, Atlassian and Salesforce embed their apps into Claude. Anthropic also says Claude Meetings, which can join calls and take notes, is launching soon.",
+  "note": "Enterprise customers get audit logs, isolated virtual machines and a compliance API, which is the part a bank's risk team would check first.",
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Anthropic is adding several collaboration features to the Claude app." },
+    { "source": 0, "text": "Claude Sheets lets teams create and edit spreadsheets with AI assistance, including formulas and multiple tabs." },
+    { "source": 0, "text": "Claude Whiteboards lets teams brainstorm ideas and have Claude summarize them." },
+    { "source": 0, "text": "Anthropic is also launching Interactive Connectors , letting partners like Adobe, Atlassian, and Salesforce embed their apps into Claude, similar to ChatGPT's plugins ." },
+    { "source": 0, "text": "Anthropic also says Claude Meetings, which can join calls and take notes, is launching \"soon.\"" },
+    { "source": 0, "text": "Enterprise customers get security controls including audit logs, isolated virtual machines, and a compliance API." }
+  ]
+}

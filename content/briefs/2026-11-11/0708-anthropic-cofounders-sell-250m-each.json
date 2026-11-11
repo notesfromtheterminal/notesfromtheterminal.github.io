@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-11-anthropic-cofounders-sell-250m-each",
+  "publishedAt": "2026-11-11T07:08:00+07:00",
+  "section": "deals",
+  "tags": ["models"],
+  "star": true,
+  "company": "Anthropic",
+  "headline": "Each Anthropic co-founder would sell just shy of $250 million in the IPO",
+  "body": "Anthropic disclosed in its new S-1 filing that each of its seven co-founders will sell 3,378,378 shares. At the midrange of $74, each founder would take in just shy of $250 million. Collectively, the founders will control 51.1% of the votes.",
+  "note": "The control figure is the one to read: the founders will control 51.1% of the votes, and each also receives Class F stock with supervoting rights.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "As Anthropic barrels toward an enormous IPO that could value it at $1.4 trillion, the company has disclosed a tidbit in its new S-1 filing about how many shares each of its seven co-founders plan to sell." },
+    { "source": 0, "text": "Each will sell 3,378,378 shares." },
+    { "source": 0, "text": "At the midrange of $74, each founder would take in just shy of $250 million." },
+    { "source": 0, "text": "Collectively, the founders will control 51.1% of the votes, but no single founder will hold significantly more shares or votes than the others." },
+    { "source": 0, "text": "Each will also receive one share of Class F stock, which carries supervoting rights." }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-11-mercor-750m-series-d",
+  "publishedAt": "2026-11-11T07:07:00+07:00",
+  "section": "deals",
+  "tags": ["models"],
+  "company": "Mercor",
+  "headline": "Mercor says it is now a $20 billion company",
+  "body": "AI training platform Mercor says it is now a $20 billion company after a $750 million Series D funding round. The company plans to use the financing to help train and test AI agents.",
+  "note": "The CEO also said Mercor spends three times as much on inference as on employee salaries, a sign of how much model use now costs a company that trains models.",
+  "figure": { "value": "$20B", "label": "valuation Mercor says it has reached" },
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/investment-tracker/2026/mercor-raises-750-million-for-ai-training-platform/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Artificial intelligence (AI) training platform Mercor says it is now a $20 billion company." },
+    { "source": 0, "text": "The company reached that valuation with its $750 million Series D funding round, announced Tuesday (Nov. 10)." },
+    { "source": 0, "text": "Mercor, originally an AI-powered hiring platform, says it plans to use the financing to help train and test AI agents." },
+    { "source": 0, "text": "The CEO said Mercor is seeing the impact of AI investment on its own business, as it spends three times as much on inference as on employee salaries." }
+  ]
+}
