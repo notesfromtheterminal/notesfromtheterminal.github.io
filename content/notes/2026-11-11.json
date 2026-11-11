@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-11",
+  "publishedAt": "2026-11-11T07:00:00+07:00",
+  "title": "Labs set the pace, and the controls are still catching up",
+  "dek": "Anthropic's IPO terms, New York's new AI law and a Dallas Fed survey of bankers all bear on how much control banks keep over AI agents.",
+  "lead": "2026-11-11-anthropic-ipo-price-range",
+  "stories": [
+    "2026-11-11-anthropic-cofounders-sell-250m-each",
+    "2026-11-11-anthropic-claude-sheets-whiteboards-connectors",
+    "2026-11-10-dallas-fed-banks-restrict-ai-agents",
+    "2026-11-11-ny-raise-act-frontier-developers"
+  ],
+  "body": [
+    {
+      "head": "The IPO sets the price",
+      "text": "Anthropic's updated filing puts its IPO price range at $70 to $78 per share. At the midrange of $74, each co-founder would take in just shy of $250 million, and the founders will control 51.1% of the votes. The control line is the one to read next to the price.",
+      "support": [
+        "Anthropic said it will offer 825 million shares in its upcoming IPO at a price range between $70 and $78 per share, according to an updated filing on Tuesday",
+        "At the midrange of $74, each founder would take in just shy of $250 million.",
+        "Collectively, the founders will control 51.1% of the votes, but no single founder will hold significantly more shares or votes than the others."
+      ]
+    },
+    {
+      "head": "Labs widen into daily work",
+      "text": "Anthropic is adding Claude Sheets and Claude Whiteboards to the Claude app, and partners like Adobe and Atlassian can embed their apps into Claude. Enterprise customers get security controls, which is the part a bank's risk team would read first.",
+      "support": [
+        "Anthropic is adding several collaboration features to the Claude app.",
+        "Claude Sheets lets teams create and edit spreadsheets with AI assistance, including formulas and multiple tabs.",
+        "Claude Whiteboards lets teams brainstorm ideas and have Claude summarize them.",
+        "Anthropic is also launching Interactive Connectors , letting partners like Adobe, Atlassian, and Salesforce embed their apps into Claude, similar to ChatGPT's plugins .",
+        "Enterprise customers get security controls including audit logs, isolated virtual machines, and a compliance API."
+      ]
+    },
+    {
+      "head": "Banks are still setting limits",
+      "text": "In a Dallas Fed survey of 70 bankers, the Federal Reserve Bank of Dallas found that 11.4% of respondents report steps to restrict customers’ AI agent activity. More than a quarter did not know whether it had, and the responses come from the Dallas Fed’s Eleventh Federal Reserve District alone.",
+      "support": [
+        "In a recently released survey of 70 bankers, the Federal Reserve Bank of Dallas found that 11.4% said their institution or service provider had taken steps to restrict existing or prospective customers’ AI agent activity on online banking platforms.",
+        "More than a quarter of respondents, 27.1%, said they did not know whether their institution or service provider had restricted AI-agent activity.",
+        "The Dallas Fed collected responses between Oct. 27 and Nov. 4 from bankers in its Eleventh Federal Reserve District."
+      ]
+    },
+    {
+      "head": "Frontier labs face registration",
+      "text": "New York opened a registration portal for its RAISE Act on Tuesday. Large frontier AI developers like Anthropic and OpenAI will be required to register by January 1, 2027.",
+      "support": [
+        "The RAISE Act , New York’s safety and transparency bill, kicks in at the start of the year.",
+        "The state opened a registration portal Tuesday, with which large frontier AI developers like Anthropic and OpenAI will be required to register by January 1, 2027."
+      ]
+    },
+    {
+      "head": "A question for bank teams",
+      "text": "When a lab publishes its safety framework, a bank team can read it next to its own answers on AI agent controls. Which of the model providers in your stack has published one?"
+    }
+  ]
+}
