@@ -1,0 +1,29 @@
+{
+  "id": "2026-11-11-anthropic-mythos-amd-port-three-days",
+  "publishedAt": "2026-11-11T22:10:00+07:00",
+  "section": "models",
+  "company": "Anthropic",
+  "headline": "Anthropic says Claude was running on AMD GPUs after about three days of work",
+  "body": "Anthropic says in an investor presentation that Claude was running on AMD after just three days, with almost no human intervention. The Decoder says the figures haven't been independently verified.",
+  "note": "If the figures hold, switching between chip vendors gets cheaper for AI labs, which matters to banks and payment firms that buy model capacity.",
+  "sources": [
+    {
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "According to Anthropic, Claude was running on AMD after just three days, with almost no human intervention."
+    },
+    {
+      "source": 0,
+      "text": "Anthropic now claims in an investor presentation that it has solved this problem using AI itself."
+    },
+    {
+      "source": 0,
+      "text": "The figures come from Anthropic's investor presentation and haven't been independently verified."
+    }
+  ]
+}
