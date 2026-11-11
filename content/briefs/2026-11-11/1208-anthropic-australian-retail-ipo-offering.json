@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-11-anthropic-australian-retail-ipo-offering",
+  "publishedAt": "2026-11-11T12:08:00+07:00",
+  "section": "deals",
+  "tags": ["rules"],
+  "star": false,
+  "company": "Anthropic",
+  "headline": "Anthropic opened its Australian retail IPO offering on Wednesday",
+  "body": "Anthropic opened its Australian retail offering on Wednesday, ahead of its planned Nasdaq listing. Anthropic is seeking to raise as much as $64.4 billion in the IPO, with a separate $26 billion private placement. Shares are expected to be priced between $70 to $78 each.",
+  "note": "Australia is one of a small number of markets outside the U.S. where retail investors can buy shares directly. The offering comes as Australia moves to tighten oversight of AI companies.",
+  "figure": { "value": "$64.4B", "label": "maximum IPO raise Anthropic is seeking" },
+  "sources": [{ "name": "CNBC", "url": "https://www.cnbc.com/2026/11/11/anthopic-australian-retail-ipo-offering-.html" }],
+  "evidence": [
+    { "source": 0, "text": "Anthropic , the maker of AI chatbot Claude, opened its Australian retail initial public offering on Wednesday, giving individual investors access to shares ahead of the company's planned Nasdaq listing." },
+    { "source": 0, "text": "Anthropic is seeking to raise as much as $64.4 billion in its IPO, with a separate $26 billion private placement, bringing a combined total to as much as $90.4 billion." },
+    { "source": 0, "text": "Shares are expected to be priced between $70 to $78 each." },
+    { "source": 0, "text": "Prime Minister Anthony Albanese said Tuesday that the government would introduce mandatory reporting for certain AI-related incidents and establish an AI safety regulator with powers to enforce penalties." },
+    { "source": 0, "text": "The offering comes as Australia moves to tighten oversight of AI companies after an OpenAI agent gained unauthorized access to the medical statistics website of Medicare, the country's universal health insurance program." },
+    { "source": 0, "text": "Australia is one of the small numbers of markets outside the U.S. where retail investors will be able to buy the company's shares directly, alongside Japan, Canada and parts of Europe." }
+  ]
+}

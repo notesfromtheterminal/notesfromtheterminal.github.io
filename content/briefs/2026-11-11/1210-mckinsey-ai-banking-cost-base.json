@@ -1,0 +1,15 @@
+{
+  "id": "2026-11-11-mckinsey-ai-banking-cost-base",
+  "publishedAt": "2026-11-11T12:10:00+07:00",
+  "section": "banking",
+  "tags": [],
+  "star": false,
+  "headline": "AI could cut the banking industry's cost base by 20% or more",
+  "body": "AI could cut the banking industry's cost base by 20% or more, according to a McKinsey report. The report says most firms have so far only used the technology to boost individual employees' productivity, with negligible impact on the bottom line.",
+  "note": "The gap sits between that estimate and the bottom line firms have seen so far.",
+  "figure": { "value": "20%", "label": "possible cut to the banking industry's cost base, per the report" },
+  "sources": [{ "name": "Finextra", "url": "https://www.finextra.com/newsarticle/48739/ai-could-cut-banking-industrys-cost-base-by-20---mckinseys" }],
+  "evidence": [
+    { "source": 0, "text": "AI could cut the banking industry's cost base by 20% or more, but most firms have so far only used the technology to boost individual employees' productivity, with negligible impact on the bottom line, according to a report from McKinsey's." }
+  ]
+}
