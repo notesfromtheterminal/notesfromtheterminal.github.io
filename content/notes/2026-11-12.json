@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-12",
+  "publishedAt": "2026-11-12T07:00:00+07:00",
+  "title": "Banks weigh AI savings, agent access and financing",
+  "dek": "Cost savings, restrictions on customers' AI agents and AI financing each point to a different side of banks' AI plans.",
+  "lead": "2026-11-11-mckinsey-ai-banking-cost-base",
+  "stories": ["2026-11-10-dallas-fed-banks-restrict-ai-agents", "2026-11-10-goldman-solomon-ai-financing", "2026-11-11-anthropic-ipo-price-range"],
+  "body": [
+    {
+      "head": "The savings are still mostly ahead",
+      "text": "McKinsey says AI could cut the banking industry's cost base by 20% or more, and the same report says most firms have so far only used the technology to boost individual employees' productivity, with negligible impact on the bottom line. That is a useful split for us to hold in mind: a large possible number, and a present reality that sits mostly at the level of one person and one task.",
+      "support": ["AI could cut the banking industry's cost base by 20% or more, but most firms have so far only used the technology to boost individual employees' productivity, with negligible impact on the bottom line, according to a report from McKinsey's."]
+    },
+    {
+      "head": "Meanwhile, agents meet closed doors",
+      "text": "The Federal Reserve Bank of Dallas surveyed 70 bankers, and its results show that 11.4% were at an institution or service provider that had taken steps to restrict existing or prospective customers’ AI agent activity on online banking platforms, while another 22.9% said they planned to introduce restrictions within the next six months. The Dallas Fed also noted that the results are a regional snapshot rather than a measure of policies across the U.S. banking industry, and 27.1% of respondents did not know whether their institution had restricted AI-agent activity.",
+      "support": [
+        "In a recently released survey of 70 bankers, the Federal Reserve Bank of Dallas found that 11.4% said their institution or service provider had taken steps to restrict existing or prospective customers’ AI agent activity on online banking platforms.",
+        "Another 22.9% said they planned to introduce restrictions within the next six months.",
+        "More than a quarter of respondents, 27.1%, said they did not know whether their institution or service provider had restricted AI-agent activity.",
+        "The survey noted that the results provide a regional snapshot of how financial institutions are approaching AI-agent access rather than a measure of policies across the U.S. banking industry."
+      ]
+    },
+    {
+      "head": "Capital markets keep their appetite",
+      "text": "Goldman Sachs CEO David Solomon told CNBC that demand for AI infrastructure financing remains strong, and that his firm has been \"very active\" in AI capital markets deals over recent weeks. CNBC adds that AI-related stocks have tumbled in recent weeks as investors reassess whether the money going into AI infrastructure will generate good returns.",
+      "support": [
+        "Goldman Sachs CEO David Solomon said demand for AI infrastructure financing remains strong and that he expects capital markets activity to continue over the next two months.",
+        "Solomon said that his firm has been \"very active\" in AI capital markets deals over recent weeks, a setup that he expects to continue.",
+        "AI-related stocks, including chipmakers and neocloud providers, have tumbled in recent weeks as investors reassess whether the hundreds of billions of dollars being poured into AI infrastructure will generate good returns."
+      ]
+    },
+    {
+      "head": "Anthropic's filing is the test",
+      "text": "In an updated filing on Tuesday, Anthropic said it would offer 825 million shares at a price range of $70 to $78 per share, and TechCrunch says the company could be worth $1.404 trillion if its shares list at the top of the range. Goldman is among the banks leading that IPO process, and Solomon said \"We'll see, obviously, if this IPO moves forward, how it all plays out.\"",
+      "support": [
+        "Anthropic said it will offer 825 million shares in its upcoming IPO at a price range between $70 and $78 per share, according to an updated filing on Tuesday",
+        "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis.",
+        "Goldman is among the banks leading that IPO process.",
+        "\"We'll see, obviously, if this IPO moves forward, how it all plays out,\" Solomon said, declining to comment in detail about the IPO."
+      ]
+    },
+    {
+      "head": "What to watch in your own shop",
+      "text": "If you work in a bank, a useful question this week is where your own institution sits on these three lines: savings that reach the bottom line, a stated position on customers' AI agents, and exposure to AI financing. Which of the three could you answer today without checking?"
+    }
+  ]
+}
