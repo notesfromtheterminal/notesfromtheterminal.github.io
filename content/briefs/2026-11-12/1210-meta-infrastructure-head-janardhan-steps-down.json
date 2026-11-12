@@ -1,0 +1,49 @@
+{
+  "id": "2026-11-12-meta-infrastructure-head-janardhan-steps-down",
+  "publishedAt": "2026-11-12T12:10:00+07:00",
+  "section": "models",
+  "company": "Meta",
+  "headline": "Meta's longtime infrastructure head Santosh Janardhan is stepping down",
+  "body": "Meta told TechCrunch that Santosh Janardhan, its longtime head of infrastructure and co-head of engineering, will step down. Dave Brown, who joined as vice president of infrastructure earlier this year, will replace him. Meta says Janardhan will stay on for a transition.",
+  "note": "The role covers Meta Compute, the effort to scale data center investment, and PYMNTS reports Meta expects 2026 capital expenditures of $135 billion to $145 billion.",
+  "figure": {
+    "value": "$135B to $145B",
+    "label": "Meta 2026 capital expenditure outlook"
+  },
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/"
+    },
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/meta-taps-former-aws-executive-to-lead-infrastructure-as-ai-spending-surges/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Santosh Janardhan, the company’s longtime head of infrastructure and co-head of engineering, will be stepping down, Meta told TechCrunch."
+    },
+    {
+      "source": 0,
+      "text": "He will be replaced by Dave Brown, who joined the company as vice president of infrastructure earlier this year, the company added."
+    },
+    {
+      "source": 0,
+      "text": "It sounds like Janardhan will remain at Meta for a little bit, although he is expected to leave next year."
+    },
+    {
+      "source": 0,
+      "text": "Earlier this year, Janardhan was tasked with leading Meta Compute , the company initiative to scale its data center investments and strategy."
+    },
+    {
+      "source": 1,
+      "text": "The company said during its third-quarter earnings report that it expects 2026 capital expenditures of $135 billion to $145 billion, reflecting investments in data centers, computing equipment and supporting infrastructure."
+    },
+    {
+      "source": 0,
+      "text": "“Santosh will stay on for transition and he is moving into an advisory role on Meta Compute,” said a Meta representative."
+    }
+  ]
+}

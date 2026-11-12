@@ -1,0 +1,42 @@
+{
+  "id": "2026-11-12-openai-quarterly-revenue-10b",
+  "publishedAt": "2026-11-12T12:10:00+07:00",
+  "section": "models",
+  "star": true,
+  "company": "OpenAI",
+  "headline": "OpenAI's quarterly revenue reportedly crossed $10 billion for the first time",
+  "body": "Bloomberg reported, citing anonymous sources, that OpenAI's quarterly revenue crossed $10 billion for the first time, thanks to strong demand for its recent AI models. That would be an almost 50% jump from the $6.7 billion in sales the company reportedly recorded in the second quarter.",
+  "note": "TechCrunch says OpenAI lagged in catering to enterprises, and that its recent gains came from tighter pricing, discounts, improving models and more enterprise-focused products.",
+  "figure": {
+    "value": "$10B",
+    "label": "OpenAI quarterly revenue, as reported"
+  },
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "The company’s quarterly revenue crossed $10 billion for the first time, thanks to strong demand for its recent AI models, Bloomberg reported , citing anonymous sources."
+    },
+    {
+      "source": 0,
+      "text": "If true, that would represent an almost 50% jump from the $6.7 billion in sales the company reportedly recorded in the second quarter."
+    },
+    {
+      "source": 0,
+      "text": "But it was seeing those gains be trumped by its archrival Anthropic, which has taken the lead in capturing the enterprise market for AI models and recently reported Q3 revenue of $17 billion ."
+    },
+    {
+      "source": 0,
+      "text": "Still, the company lagged Anthropic in catering to enterprises, a market where the Claude maker has pulled ahead, at least in terms of revenue growth."
+    },
+    {
+      "source": 0,
+      "text": "OpenAI has recently benefited from a combination of tighter pricing, discounts, improving models, and a greater focus on building more enterprise-focused products and AI agents that can help people complete tasks."
+    }
+  ]
+}
