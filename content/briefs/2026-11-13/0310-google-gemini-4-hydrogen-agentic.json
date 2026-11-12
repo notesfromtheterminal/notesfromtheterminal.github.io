@@ -1,0 +1,39 @@
+{
+  "id": "2026-11-13-google-gemini-4-hydrogen-agentic",
+  "publishedAt": "2026-11-13T03:10:00+07:00",
+  "section": "models",
+  "tags": [],
+  "star": false,
+  "company": "Google",
+  "headline": "Google introduces Gemini 4 Hydrogen, a faster model for agentic workflows",
+  "body": "Google says Gemini 4 Hydrogen surpasses Gemini 4 Argon on the Artificial Analysis Intelligence Index at its default high thinking level, 51 to 50. It is priced at $1.50 per million input tokens and $7.50 per million output tokens, flat across its 1 million-token context window. Google also says Hydrogen reduces overreach in agentic tasks by up to 81%.",
+  "note": "For banks and payment firms testing agents, the token price is the first number to check. The 81% overreach figure comes from Google's own release.",
+  "sources": [
+    {
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Today, we’re introducing Gemini 4 Hydrogen, bringing cutting-edge intelligence to everyone — with speed and efficiency for everyday coding and agentic workflows."
+    },
+    {
+      "source": 0,
+      "text": "Hydrogen surpasses Argon on the Artificial Analysis Intelligence Index at its default high thinking level (51 vs. 50, and reaching 54 at its highest xhigh thinking setting), while often completing tasks faster than models in its class."
+    },
+    {
+      "source": 0,
+      "text": "Gemini 4 Hydrogen is priced flat across its entire 1 million-token context window at $1.50 per million input tokens and $7.50 per million output tokens."
+    },
+    {
+      "source": 0,
+      "text": "It reduces overreach in agentic tasks by up to 81% and under-service by up to 79%, and cuts misaligned actions and task shortcutting across tool-use and coding evaluations by 12x."
+    },
+    {
+      "source": 0,
+      "text": "Starting today, Hydrogen is rolling out globally across our developer, enterprise, and consumer surfaces:"
+    }
+  ]
+}
