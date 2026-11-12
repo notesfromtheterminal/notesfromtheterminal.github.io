@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-13",
+  "publishedAt": "2026-11-13T07:00:00+07:00",
+  "title": "Nvidia loses its CEO while the labs report growth",
+  "dek": "A chip maker searches for a CEO while two AI labs report sales and chips.",
+  "lead": "2026-11-12-nvidia-huang-resigns-ceo",
+  "stories": [
+    "2026-11-12-openai-quarterly-revenue-10b",
+    "2026-11-11-anthropic-mythos-amd-port-three-days"
+  ],
+  "body": [
+    {
+      "head": "Nvidia is looking for a CEO",
+      "text": "Jensen Huang resigned as CEO, president, and board member of Nvidia effective immediately, according to a statement on November 12, 2026, and CFO Colette Kress is taking over on an interim basis while the board searches for a permanent successor. The Decoder adds that Nvidia has shed roughly $1.4 trillion in market value since a New York Times report on October 29.",
+      "support": [
+        "Jensen Huang resigned as CEO, president, and board member of Nvidia effective immediately, according to a statement on November 12, 2026.",
+        "CFO Colette Kress is taking over on an interim basis while the board searches for a permanent successor.",
+        "Since a New York Times report on October 29 about possible ties to Chinese intelligence, Nvidia has shed roughly $1.4 trillion in market value."
+      ]
+    },
+    {
+      "head": "The labs keep reporting growth",
+      "text": "Bloomberg reported, citing anonymous sources, that OpenAI's quarterly revenue crossed $10 billion for the first time. Anthropic recently reported Q3 revenue of $17 billion, and the first figure is still a report from anonymous sources.",
+      "support": [
+        "The company’s quarterly revenue crossed $10 billion for the first time, thanks to strong demand for its recent AI models, Bloomberg reported , citing anonymous sources.",
+        "But it was seeing those gains be trumped by its archrival Anthropic, which has taken the lead in capturing the enterprise market for AI models and recently reported Q3 revenue of $17 billion ."
+      ]
+    },
+    {
+      "head": "One lab shows a second chip route",
+      "text": "According to Anthropic, Claude was running on AMD after just three days, with almost no human intervention, and the figures come from an investor presentation and haven't been independently verified.",
+      "support": [
+        "According to Anthropic, Claude was running on AMD after just three days, with almost no human intervention.",
+        "The figures come from Anthropic's investor presentation and haven't been independently verified."
+      ]
+    },
+    {
+      "head": "What we can watch next",
+      "text": "Side by side, we have a chip supplier searching for a permanent leader, labs reporting large sales, and one lab describing work on another chip. For those of us who lend to or invest around AI, two things are worth following in our own files: who the Nvidia board picks, and whether the AMD claim is later verified.",
+      "support": [
+        "CFO Colette Kress is taking over on an interim basis while the board searches for a permanent successor.",
+        "The figures come from Anthropic's investor presentation and haven't been independently verified."
+      ]
+    }
+  ]
+}
