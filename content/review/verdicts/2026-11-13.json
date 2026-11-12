@@ -1,0 +1,7 @@
+{
+  "note": "2026-11-13",
+  "commit": "758e11227565a7b9b8693f68e21918f34850c0c0",
+  "verdict": "APPROVED",
+  "at": "2026-11-12T16:47:00.907Z",
+  "notes": "Fixed by the review run, then approved:\n1. Title/dek/headings: note said \"the labs report growth\" / \"two AI labs report sales and chips\" / \"The labs keep reporting growth\"; source says OpenAI's figure is \"Bloomberg reported, citing anonymous sources\", not reported by OpenAI. New: \"lab revenue reports arrive\", \"Two lab revenue reports\".\n2. Heading \"One lab shows a second chip route\"; source: \"According to Anthropic... haven't been independently verified\", and Anthropic runs on four chip families. New: \"One lab's AMD claim\".\n3. Section 4 \"labs reporting large sales, and one lab describing work on another chip\" and \"those of us who lend to or invest around AI... our own files\": unsupported framing. New: \"two lab revenue reports, and one unverified AMD claim. Two things to follow: ...\""
+}
