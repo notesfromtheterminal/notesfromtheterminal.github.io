@@ -1,0 +1,23 @@
+{
+  "id": "2026-11-12-nvidia-huang-resigns-ceo",
+  "publishedAt": "2026-11-12T22:15:00+07:00",
+  "section": "models",
+  "tags": ["deals"],
+  "star": true,
+  "company": "Nvidia",
+  "headline": "Jensen Huang resigns as Nvidia CEO, CFO Colette Kress named interim",
+  "body": "Jensen Huang resigned as CEO, president, and board member of Nvidia effective immediately, according to a statement on November 12. Colette Kress is taking over as interim CEO while the board searches for a permanent successor, and Harvey C. Jones will serve as the first independent board chair. The Decoder says Nvidia has shed roughly $1.4 trillion in market value since a New York Times report on October 29.",
+  "note": "Nvidia now has an interim CEO and a board search under way, so the permanent choice is the open question for anyone tracking AI infrastructure.",
+  "figure": { "value": "$1.4T", "label": "market value Nvidia has shed since October 29, per The Decoder" },
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value/" },
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Jensen Huang resigned as CEO, president, and board member of Nvidia effective immediately, according to a statement on November 12, 2026." },
+    { "source": 0, "text": "Since a New York Times report on October 29 about possible ties to Chinese intelligence, Nvidia has shed roughly $1.4 trillion in market value." },
+    { "source": 0, "text": "CFO Colette Kress is taking over on an interim basis while the board searches for a permanent successor." },
+    { "source": 0, "text": "Harvey C. Jones will serve as the first independent board chair and stressed that business operations continue without disruption." },
+    { "source": 1, "text": "Nvidia confirmed in an SEC filing on Thursday that the board accepted Huang’s resignation on Wednesday." }
+  ]
+}
