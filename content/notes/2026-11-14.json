@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-14",
+  "publishedAt": "2026-11-14T07:00:00+07:00",
+  "title": "AI agents get a card, and some doors close",
+  "dek": "OpenAI, Mastercard and United each made a move on agents that spend money.",
+  "lead": "2026-11-13-openai-chatgpt-wallet",
+  "stories": [
+    "2026-11-13-mastercard-agentic-travel-booking",
+    "2026-11-13-united-airlines-restricts-ai-agents"
+  ],
+  "body": [
+    {
+      "head": "Agents are being handed cards",
+      "text": "Three stories from the last day show the same question from different seats: who lets an AI agent spend a customer's money, and on what terms? OpenAI announced ChatGPT Wallet, a payment feature built in partnership with American Express, Mastercard and Visa that enables its \"dots\" agents to make purchases on behalf of users.",
+      "support": [
+        "OpenAI on Friday announced ChatGPT Wallet, a new payment feature that enables its \"dots\" artificial intelligence agents to make purchases on behalf of users.",
+        "OpenAI built ChatGPT Wallet in partnership with American Express, Mastercard and Visa, and it allows those customers to maintain their existing credit card rewards and protections."
+      ]
+    },
+    {
+      "head": "A deliberately narrow rollout",
+      "text": "The launch is small on purpose: ChatGPT Wallet is initially available to Pro subscribers in the U.S. who are over 18, and OpenAI said it is not taking a cut of transactions to start. For those of us in payments, the detail to hold on to is that existing card rewards and protections come along with the agent.",
+      "support": [
+        "ChatGPT Wallet is initially available to OpenAI's Pro subscribers in the U.S. who are over 18 years old.",
+        "Purchases made through ChatGPT Wallet could eventually kickstart a new revenue stream for OpenAI, but the company said it is not taking a cut of transactions to start."
+      ]
+    },
+    {
+      "head": "Mastercard shows the rails working",
+      "text": "Mastercard announced on Thursday that an AI travel agent searched, booked, paid for and ticketed a live flight without the agent ever seeing the underlying card number. Mastercard Agent Pay initiated the payment with a secure tokenized credential, and Mastercard stressed that the airline remained the merchant throughout.",
+      "support": [
+        "This effort, announced Thursday (Nov. 12), combined Mastercard’s payment network with Travelport’s travel retailing and connectivity, Booked AI’s conversational travel platform, and Basis Theory’s payment vault.",
+        "“Through the collaboration, an AI travel agent searched, booked, paid for and ticketed a live flight without the customer leaving the conversation, and without the agent ever seeing the underlying card number,” Mastercard said in a news release.",
+        "Mastercard Agent Pay initiated payment with a secure tokenized credential, with the underlying card credential held in Basis Theory’s PCI-compliant vault.",
+        "Mastercard also stressed the importance of the fact that the airline “remained the merchant” throughout this transaction, and that processing “the payment itself with no intermediary checkout in between, demonstrating that airlines can sell through AI agents while keeping control of how they are paid.”"
+      ]
+    },
+    {
+      "head": "United draws a line",
+      "text": "United Airlines said it will restrict access to AI agents seeking to book flights and manage reservations on users' behalf, citing a risk to cybersecurity. United warns that sharing account credentials with third-party AI assistants can expose sensitive information, and the airline's move follows a warning from banks, including Bank of America, which last week urged customers not to share their passwords with their AI assistants.",
+      "support": [
+        "United Airlines said it will restrict access to AI agents seeking to book flights and manage reservations on their users’ behalf, citing a risk to cybersecurity and undermining federal regulations.",
+        "United warns that “sharing account credentials with personal, third-party, AI assistants can expose sensitive information, and actions taken by these tools may result in unintended purchases, account changes, or use of MileagePlus miles.”",
+        "The airline’s move follows a warning from banks, including Bank of America, which last week urged customers not to share their passwords with their AI assistants."
+      ]
+    },
+    {
+      "head": "What to watch in our own shops",
+      "text": "Side by side, we have a wallet where the user approves purchases, a tokenized payment where the agent never sees the card, and a warning against sharing logins. If we run cards, accounts or checkout, the question to ask is which of those three paths our customers' agents will actually use.",
+      "support": [
+        "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections."
+      ]
+    }
+  ]
+}
