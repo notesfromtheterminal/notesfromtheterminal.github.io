@@ -11,15 +11,15 @@
   "body": [
     {
       "head": "Agents are being handed cards",
-      "text": "Three stories from the last day show the same question from different seats: who lets an AI agent spend a customer's money, and on what terms? OpenAI announced ChatGPT Wallet, a payment feature built in partnership with American Express, Mastercard and Visa that enables its \"dots\" agents to make purchases on behalf of users.",
+      "text": "Three stories show the same question from different seats: who lets an AI agent spend a customer's money, and on what terms? OpenAI announced ChatGPT Wallet, a payment feature built in partnership with American Express, Mastercard and Visa that enables its \"dots\" agents to make purchases on behalf of users.",
       "support": [
         "OpenAI on Friday announced ChatGPT Wallet, a new payment feature that enables its \"dots\" artificial intelligence agents to make purchases on behalf of users.",
         "OpenAI built ChatGPT Wallet in partnership with American Express, Mastercard and Visa, and it allows those customers to maintain their existing credit card rewards and protections."
       ]
     },
     {
-      "head": "A deliberately narrow rollout",
-      "text": "The launch is small on purpose: ChatGPT Wallet is initially available to Pro subscribers in the U.S. who are over 18, and OpenAI said it is not taking a cut of transactions to start. For those of us in payments, the detail to hold on to is that existing card rewards and protections come along with the agent.",
+      "head": "A narrow rollout",
+      "text": "ChatGPT Wallet is initially available to Pro subscribers in the U.S. who are over 18, and OpenAI said it is not taking a cut of transactions to start. For those of us in payments, the detail to hold on to is that existing card rewards and protections come along with the agent.",
       "support": [
         "ChatGPT Wallet is initially available to OpenAI's Pro subscribers in the U.S. who are over 18 years old.",
         "Purchases made through ChatGPT Wallet could eventually kickstart a new revenue stream for OpenAI, but the company said it is not taking a cut of transactions to start."
