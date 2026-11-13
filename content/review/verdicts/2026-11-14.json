@@ -1,0 +1,7 @@
+{
+  "note": "2026-11-14",
+  "commit": "a3d0d5630a6279f6c2e3c21b653559f36e239008",
+  "verdict": "APPROVED",
+  "at": "2026-11-13T16:51:05.733Z",
+  "notes": "Fixed by the review run, then approved:\n1. Section 1: note said \"Three stories from the last day\"; briefs/sources are dated Nov 12-13, note publishes Nov 14. Cut \"from the last day\".\n2. Section 2: note said \"A deliberately narrow rollout\" and \"The launch is small on purpose\"; sources say only \"initially available to ... Pro subscribers in the U.S. who are over 18\" and no cut \"to start\". No source gives intent. Heading now \"A narrow rollout\"; cut \"small on purpose\"."
+}
