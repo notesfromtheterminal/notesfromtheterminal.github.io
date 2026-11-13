@@ -1,0 +1,18 @@
+{
+  "id": "2026-11-13-meta-muse-places-calls-us-businesses",
+  "publishedAt": "2026-11-13T12:12:00+07:00",
+  "section": "models",
+  "tags": [],
+  "company": "Meta",
+  "headline": "Meta's Muse can now place calls to US businesses for paid subscribers",
+  "body": "Meta's consumer AI agent Muse can now place calls to US businesses on behalf of its users. After initially testing the feature in September, Meta says only paid subscribers have access. TechCrunch reports that many businesses and receptionists hang up on calls from AI agents.",
+  "note": "For banks and insurers, an AI agent calling a contact centre is a new kind of inbound call, and the reception TechCrunch describes suggests it will not always go smoothly.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "After initially testing the feature in September, Meta’s consumer AI agent Muse is now able to place calls to U.S. businesses on behalf of its users." },
+    { "source": 0, "text": "However, only paid subscribers have access to the feature, the company says." },
+    { "source": 0, "text": "Many businesses and receptionists hang up on calls from AI agents as soon as they identify that it’s not a human on the phone." }
+  ]
+}

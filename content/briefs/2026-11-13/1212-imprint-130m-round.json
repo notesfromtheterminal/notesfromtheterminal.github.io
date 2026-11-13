@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-13-imprint-130-million-round",
+  "publishedAt": "2026-11-13T12:12:00+07:00",
+  "section": "deals",
+  "tags": ["payments"],
+  "company": "Imprint",
+  "headline": "Imprint raises $130 million at about $1.9 billion valuation",
+  "body": "Imprint has raised $130 million at a valuation of about $1.9 billion, PYMNTS reports. The New York company builds co-branded credit cards for retailers and other brands. Imprint points to a projection that agentic commerce could shape up to $1 trillion in U.S. retail revenue by 2030.",
+  "note": "The bet is that brands will need their own payment cards as AI agents take over more shopping. Imprint's new tool lets agents see members' rewards and virtual cards, and members approve any purchase an agent starts.",
+  "figure": { "value": "$130M", "label": "raised in the round, per PYMNTS" },
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/payments-innovation/2026/imprint-raises-130-million-as-brands-race-to-keep-customers-in-the-ai-era/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Imprint has raised $130 million at a valuation of about $1.9 billion." },
+    { "source": 0, "text": "The bet is that brands will need their own payment cards to hold on to customers as artificial intelligence agents take over more of the shopping." },
+    { "source": 0, "text": "The New York company builds co-branded credit cards for retailers and other brands." },
+    { "source": 0, "text": "The company pointed to a projection that agentic commerce, where AI agents shop on a person’s behalf, could shape up to $1 trillion in U.S. retail revenue by 2030." },
+    { "source": 0, "text": "To prepare, Imprint released a tool that lets AI agents securely see members’ rewards, virtual cards and purchase history." },
+    { "source": 0, "text": "Members can review and approve any purchase an agent starts." }
+  ]
+}

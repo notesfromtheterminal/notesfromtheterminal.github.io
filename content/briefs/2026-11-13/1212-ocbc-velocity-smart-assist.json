@@ -1,0 +1,24 @@
+{
+  "id": "2026-11-13-ocbc-velocity-smart-assist",
+  "publishedAt": "2026-11-13T12:12:00+07:00",
+  "section": "sea",
+  "tags": ["banking"],
+  "star": true,
+  "company": "OCBC",
+  "headline": "OCBC launches AI assistant for business account maintenance",
+  "body": "OCBC has launched Velocity Smart Assist, an AI assistant on its Velocity business banking platform. In the first phase, business customers can add or remove users and approvers, and change their roles, with requests routed digitally for review. According to the bank, businesses submit 20,000 account maintenance requests a year.",
+  "note": "The first phase covers access changes, a routine task where requests are routed for approval before they take effect. OCBC plans to extend the assistant to limits and addresses from 2027.",
+  "figure": { "value": "20,000", "label": "account maintenance requests a year, according to OCBC" },
+  "sources": [
+    { "name": "Fintech News Singapore", "url": "https://fintechnews.sg/141119/ai/ocbc-velocity-smart-assist-ai-business-banking/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "OCBC has launched an AI assistant called Velocity Smart Assist on its Velocity business banking platform." },
+    { "source": 0, "text": "The bank said the tool lets business customers complete account maintenance requests digitally within minutes" },
+    { "source": 0, "text": "In its first phase, Velocity Smart Assist focuses on managing who has access to a business account." },
+    { "source": 0, "text": "Customers can add or remove users and approvers, assign and amend user roles, identify the parties who need to approve a change and route the request digitally for review." },
+    { "source": 0, "text": "According to the bank, businesses submit 20,000 account maintenance requests a year." },
+    { "source": 0, "text": "From 2027, OCBC plans to extend the assistant to cover additional maintenance requests." },
+    { "source": 0, "text": "These include updates to transaction authorisation limits, registered business names and mailing addresses." }
+  ]
+}
