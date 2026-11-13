@@ -1,0 +1,23 @@
+{
+  "id": "2026-11-14-fed-barr-ai-benefits-narrowly-shared",
+  "publishedAt": "2026-11-14T03:07:02+07:00",
+  "section": "rules",
+  "tags": ["banking"],
+  "headline": "Fed's Barr says AI benefits could be more narrowly shared",
+  "body": "Federal Reserve Gov. Michael Barr said at Yale University on November 12 that the benefits of AI could be more narrowly shared than those that came before. He said the labor share of national income reached a record low of 52.8 percent in the second quarter of 2026. He also said \"So far, there has been relatively little displacement of workers by AI.\"",
+  "note": "Barr treats lower prices and broadly shared gains as separate questions. Falling prices alone would not show that AI's benefits are broadly shared.",
+  "sources": [
+    { "name": "Federal Reserve Board", "url": "https://www.federalreserve.gov/newsevents/speech/barr20261112a.htm" },
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/feds-barr-warns-ai-could-lower-prices-while-concentrating-market-power/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "At Yale University, New Haven, Connecticut" },
+    { "source": 0, "text": "November 12, 2026" },
+    { "source": 0, "text": "the benefits of this technological revolution could be more narrowly shared than those that came before." },
+    { "source": 0, "text": "After World War II, the labor share of national income was fairly steady between 60 percent and 65 percent, but it began falling in fits and starts beginning in 2001." },
+    { "source": 0, "text": "The decline accelerated after the pandemic and has been especially steep in the past year, reaching a record low of 52.8 percent in the second quarter of 2026." },
+    { "source": 0, "text": "So far, there has been relatively little displacement of workers by AI and some significant evidence that the transition to AI is enhancing the productivity of some workers, increasing demand in some sectors, and even creating new occupations." },
+    { "source": 1, "text": "Federal Reserve Gov. Michael Barr warned on Thursday (Nov. 12)." },
+    { "source": 1, "text": "For businesses and policymakers, that distinction means falling prices alone would not establish that AI’s benefits were being broadly shared." }
+  ]
+}

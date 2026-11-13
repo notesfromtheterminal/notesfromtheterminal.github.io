@@ -1,0 +1,18 @@
+{
+  "id": "2026-11-14-banks-bar-china-hong-kong-anthropic-ipo",
+  "publishedAt": "2026-11-14T03:07:02+07:00",
+  "section": "deals",
+  "tags": ["banking"],
+  "headline": "Banks reportedly bar mainland China and Hong Kong investors from Anthropic IPO",
+  "body": "Investors from mainland China and Hong Kong are being shut out of Anthropic's IPO, according to Bloomberg. Multiple banks have reportedly rejected buy orders from those regions or consider allocations unlikely, with some of the people involved citing ITAR, the US export control rules governing defense-related goods. Goldman Sachs and Morgan Stanley lead the offering, with 20 other banks involved. Anthropic declined to comment.",
+  "note": "Export control rules can limit who may buy an IPO, whatever the order book looks like.",
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Investors from mainland China and Hong Kong are being shut out of Anthropic's IPO, according to Bloomberg." },
+    { "source": 0, "text": "Multiple banks have reportedly rejected buy orders from those regions or consider allocations unlikely, with some of the people involved citing ITAR, the US export control rules governing defense-related goods, as the reason." },
+    { "source": 0, "text": "Anthropic declined to comment." },
+    { "source": 0, "text": "Goldman Sachs and Morgan Stanley are leading the offering, with 20 other banks involved." }
+  ]
+}

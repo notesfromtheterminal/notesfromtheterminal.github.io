@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-14-jpmorgan-blocks-agents-card-numbers",
+  "publishedAt": "2026-11-14T03:07:02+07:00",
+  "section": "banking",
+  "tags": ["payments"],
+  "star": true,
+  "company": "JPMorgan Chase",
+  "headline": "JPMorgan Chase blocks AI agents from shopping with customer card numbers",
+  "body": "JPMorgan Chase is blocking AI agents from shopping with customers' credit cards when customers give the agent their card number, the Wall Street Journal reported. Cards from Bank of America, Capital One and Citigroup are already used by agents when customers allow it, the Journal said.",
+  "note": "Chase already bars outside agents from logging in, sending money or paying bills. The card block applies the same caution to shopping.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/2026/jpmorgan-stops-ai-agents-from-using-customer-credit-cards/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "JPMorgan Chase is blocking artificial intelligence (AI) agents from shopping with its customers’ credit cards when customers give the agent their card number, The Wall Street Journal reported Friday (Nov. 13)." },
+    { "source": 0, "text": "Cards from Bank of America , Capital One and Citigroup are already being used by agents when customers allow it, the Journal said." },
+    { "source": 0, "text": "Outside agents already cannot log in with a Chase customer’s credentials, send money or pay bills, PYMNTS reported after the bank’s Oct. 13 third-quarter earnings call." },
+    { "source": 0, "text": "The card block applies the same caution to shopping, and the card business is a large one to protect." }
+  ]
+}
