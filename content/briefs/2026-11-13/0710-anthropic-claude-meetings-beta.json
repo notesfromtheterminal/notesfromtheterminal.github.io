@@ -1,0 +1,18 @@
+{
+  "id": "2026-11-13-anthropic-claude-meetings-beta",
+  "publishedAt": "2026-11-13T07:10:00+07:00",
+  "section": "models",
+  "headline": "Anthropic launches Claude Meetings in beta for Team and Enterprise plans",
+  "body": "Anthropic has launched Claude Meetings, a feature that puts Claude into video calls as a visible participant. During a call, Claude can answer questions, generate documents and whiteboards, and log notes and action items. The feature is in beta for Team and Enterprise plans, with Google Meet as the only supported platform so far.",
+  "note": "The useful detail for finance teams is where the records go: notes, transcripts and documents sit on a dedicated claude.ai page after the call, and HIPAA or customer-managed encryption setups can't use Meetings yet.",
+  "sources": [{ "name": "The Decoder", "url": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/" }],
+  "evidence": [
+    { "source": 0, "text": "Anthropic has launched Claude Meetings, a feature that puts Claude into video calls as a visible participant." },
+    { "source": 0, "text": "During a call, Claude can answer questions, generate documents and whiteboards, and log notes and action items, responding in text by default and accessing connected tools when granted permission." },
+    { "source": 0, "text": "The feature is in beta for Team and Enterprise plans, with Google Meet as the only supported platform so far." },
+    { "source": 0, "text": "Anthropic says more platforms will follow." },
+    { "source": 0, "text": "Organizations running HIPAA or customer-managed encryption configurations can't use Meetings yet." },
+    { "source": 0, "text": "Privacy controls prevent Claude from joining calls with external participants by default." },
+    { "source": 0, "text": "All notes, transcripts, and documents Claude produced are available on a dedicated page in claude.ai once the meeting ends." }
+  ]
+}
