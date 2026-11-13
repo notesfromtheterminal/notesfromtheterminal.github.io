@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-13-openai-chatgpt-wallet",
+  "publishedAt": "2026-11-13T22:56:00+07:00",
+  "section": "payments",
+  "tags": ["models"],
+  "star": true,
+  "company": "OpenAI",
+  "headline": "OpenAI launches ChatGPT Wallet so its dots agents can make purchases",
+  "body": "OpenAI announced ChatGPT Wallet, built with American Express, Mastercard and Visa, which lets its \"dots\" agents buy on behalf of users. It is initially available to Pro subscribers in the U.S. who are over 18, and OpenAI said it is not taking a cut of transactions to start.",
+  "note": "Card networks and issuers are named launch partners, so the rewards and protections cardholders already have are part of the pitch for agent-led shopping.",
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html" },
+    { "name": "OpenAI", "url": "https://openai.com/index/introducing-chatgpt-wallet" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "OpenAI on Friday announced ChatGPT Wallet, a new payment feature that enables its \"dots\" artificial intelligence agents to make purchases on behalf of users." },
+    { "source": 0, "text": "OpenAI built ChatGPT Wallet in partnership with American Express, Mastercard and Visa, and it allows those customers to maintain their existing credit card rewards and protections." },
+    { "source": 0, "text": "ChatGPT Wallet is initially available to OpenAI's Pro subscribers in the U.S. who are over 18 years old." },
+    { "source": 0, "text": "Purchases made through ChatGPT Wallet could eventually kickstart a new revenue stream for OpenAI, but the company said it is not taking a cut of transactions to start." },
+    { "source": 1, "text": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections." }
+  ]
+}
