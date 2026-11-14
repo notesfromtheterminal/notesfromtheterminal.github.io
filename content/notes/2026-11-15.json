@@ -2,7 +2,7 @@
   "date": "2026-11-15",
   "publishedAt": "2026-11-15T07:00:00+07:00",
   "title": "Banks are choosing how much AI to let in",
-  "dek": "A card block, a regulator's report and a Thai growth warning show three ways finance is deciding how far to go.",
+  "dek": "A card block, a regulator's report and a Thai growth warning show three takes on how far finance is going with AI.",
   "lead": "2026-11-14-jpmorgan-agent-card-block",
   "stories": [
     "2026-11-14-occ-fall-2026-risk-perspective-ai",
@@ -11,7 +11,7 @@
   "body": [
     {
       "head": "One bank draws a line",
-      "text": "Start with the most concrete decision of the weekend. The Wall Street Journal reported that JPMorgan Chase is blocking AI agents from shopping with its customers' credit cards when customers give the agent their card number, while cards from Bank of America, Capital One and Citigroup are already being used by agents when customers allow it, the Journal said.",
+      "text": "The Wall Street Journal reported that JPMorgan Chase is blocking AI agents from shopping with its customers' credit cards when customers give the agent their card number, while cards from Bank of America, Capital One and Citigroup are already being used by agents when customers allow it, the Journal said.",
       "support": [
         "JPMorgan Chase is blocking artificial intelligence (AI) agents from shopping with its customers’ credit cards when customers give the agent their card number, The Wall Street Journal reported Friday (Nov. 13).",
         "Cards from Bank of America , Capital One and Citigroup are already being used by agents when customers allow it, the Journal said."
@@ -19,7 +19,7 @@
     },
     {
       "head": "The workaround has a price",
-      "text": "Stripe gets around the block, because its Link wallet gives the agent a one-time virtual card. Merchants have complained to Visa and Mastercard that this virtual card costs more on average to accept, since it is classified as a commercial card rather than a consumer card, the Journal reported, and for those of us in payments that is the detail to watch.",
+      "text": "Stripe gets around the block. Its Link wallet gives the agent a one-time virtual card. Merchants have complained to Visa and Mastercard that this virtual card costs more on average to accept than the shopper's own card because it is classified as a commercial card rather than a consumer card, the Journal reported.",
       "support": [
         "Stripe gets around the block. Its Link wallet gives the agent a one-time virtual card instead of the customer’s own card.",
         "Merchants have complained to Visa and Mastercard that the virtual card costs more on average to accept than the shopper’s own card because it is classified as a commercial card rather than a consumer card, the Journal reported."
@@ -27,7 +27,7 @@
     },
     {
       "head": "A regulator sees an opportunity",
-      "text": "Meanwhile the OCC, the US federal banking regulator, said in its latest risk report that banks of all sizes are continuing to explore ways to leverage Super Intelligence. The OCC said credit risk in the loan portfolios of OCC-supervised banks remains modest overall, and that the technology creates opportunities to enhance efficiency and internal controls.",
+      "text": "The OCC said that banks of all sizes are continuing to explore ways to leverage Super Intelligence. The OCC said credit risk in the loan portfolios of OCC-supervised banks remains modest overall, and that the technology creates opportunities to enhance efficiency and internal controls.",
       "support": [
         "Banks of all sizes are continuing to explore ways to leverage Super Intelligence (SI).",
         "Credit risk in the loan portfolios of OCC-supervised banks remains modest overall.",
@@ -36,7 +36,7 @@
     },
     {
       "head": "Thailand watches the other side",
-      "text": "At the same time ttb analytics in Thailand pointed to the other side of the boom. It said growth is heavily concentrated in AI-linked electronics, and that if the global AI boom experiences a bubble burst, the impact on Thailand will be immediate and pronounced, especially within financial markets.",
+      "text": "ttb analytics in Thailand said growth is heavily concentrated in AI-linked electronics, and that if the global AI boom experiences a bubble burst, the impact on Thailand will be immediate and pronounced, especially within financial markets.",
       "support": [
         "Growth is heavily concentrated in AI-linked electronics.",
         "If the global AI boom experiences a bubble burst, the impact on Thailand will be immediate and pronounced—especially within financial markets—because we are formally indexed as a key upstream and downstream supplier."
