@@ -1,0 +1,18 @@
+{
+  "id": "2026-11-14-occ-fall-2026-risk-perspective-ai",
+  "publishedAt": "2026-11-14T22:05:00+07:00",
+  "section": "rules",
+  "tags": ["banking"],
+  "company": "OCC",
+  "headline": "OCC says banks of all sizes are exploring \"Super Intelligence\" in its Fall 2026 risk report",
+  "body": "The Office of the Comptroller of the Currency (OCC) reported on November 12 the key issues facing the federal banking system in its Semiannual Risk Perspective for Fall 2026. It said that credit risk in the loan portfolios of OCC-supervised banks remains modest overall, and banks of all sizes are continuing to explore ways to leverage Super Intelligence.",
+  "note": "The regulator frames the technology as an efficiency and controls opportunity in this release, which is a useful marker for how supervisors describe bank AI use.",
+  "sources": [{ "name": "OCC", "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-99.html" }],
+  "evidence": [
+    { "source": 0, "text": "November 12, 2026" },
+    { "source": 0, "text": "The Office of the Comptroller of the Currency (OCC) today reported the key issues facing the federal banking system in the Semiannual Risk Perspective (SARP) for Fall 2026." },
+    { "source": 0, "text": "Credit risk in the loan portfolios of OCC-supervised banks remains modest overall." },
+    { "source": 0, "text": "Banks of all sizes are continuing to explore ways to leverage Super Intelligence (SI)." },
+    { "source": 0, "text": "The growing availability and advancement of SI create opportunities to enhance efficiency and internal controls as well as to improve analytics and customize services." }
+  ]
+}
