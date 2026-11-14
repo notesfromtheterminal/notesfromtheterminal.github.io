@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-14-jpmorgan-agent-card-block",
+  "publishedAt": "2026-11-14T07:07:00+07:00",
+  "section": "banking",
+  "tags": ["payments"],
+  "star": true,
+  "company": "JPMorgan Chase",
+  "headline": "JPMorgan is blocking AI agents from shopping with customer cards",
+  "body": "JPMorgan Chase is blocking AI agents from shopping with cards when customers give the agent their card number, the Wall Street Journal reported. Cards from Bank of America, Capital One and Citigroup are already being used by agents when customers allow it. Stripe gets around the block with a one-time virtual card, and merchants say it costs more on average to accept.",
+  "note": "Banks can refuse agents at the card level, and wallets route around that with virtual cards. Merchants say that workaround costs more to accept, and card economics now sit inside the agent fight.",
+  "sources": [
+    { "name": "PYMNTS (citing the Wall Street Journal)", "url": "https://www.pymnts.com/news/2026/jpmorgan-stops-ai-agents-from-using-customer-credit-cards/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "JPMorgan Chase is blocking artificial intelligence (AI) agents from shopping with its customers’ credit cards when customers give the agent their card number, The Wall Street Journal reported Friday (Nov. 13)." },
+    { "source": 0, "text": "Cards from Bank of America , Capital One and Citigroup are already being used by agents when customers allow it, the Journal said." },
+    { "source": 0, "text": "Stripe gets around the block. Its Link wallet gives the agent a one-time virtual card instead of the customer’s own card." },
+    { "source": 0, "text": "Merchants have complained to Visa and Mastercard that the virtual card costs more on average to accept than the shopper’s own card because it is classified as a commercial card rather than a consumer card, the Journal reported." }
+  ]
+}

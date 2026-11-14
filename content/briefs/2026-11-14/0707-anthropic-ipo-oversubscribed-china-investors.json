@@ -1,0 +1,24 @@
+{
+  "id": "2026-11-14-anthropic-ipo-oversubscribed-china-investors",
+  "publishedAt": "2026-11-14T07:07:00+07:00",
+  "section": "deals",
+  "tags": ["rules"],
+  "star": true,
+  "company": "Anthropic",
+  "headline": "Anthropic's IPO is reportedly six times oversubscribed",
+  "body": "Orders for Anthropic's IPO are exceeding available shares by a factor of six, according to Bloomberg. The Claude developer and its co-founders aim to raise up to $64.4 billion through the public offering. Investors from mainland China and Hong Kong are being shut out, and some of the people involved cite ITAR, the US export control rules governing defense-related goods.",
+  "note": "Demand looks strong, and export rules are narrowing who can buy. For finance people, allocation is becoming a compliance question as much as a pricing one.",
+  "sources": [
+    { "name": "The Decoder (citing Bloomberg)", "url": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/" },
+    { "name": "The Decoder (citing Bloomberg)", "url": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Anthropic's IPO is six times oversubscribed and on track to become the largest public offering in history" },
+    { "source": 0, "text": "Anthropic is on track for the largest IPO ever, with orders exceeding available shares by a factor of six." },
+    { "source": 0, "text": "That's according to Bloomberg ." },
+    { "source": 0, "text": "The Claude developer and its co-founders aim to raise up to $64.4 billion through the public offering and another $26 billion via a private placement, which would surpass even SpaceX's IPO." },
+    { "source": 1, "text": "Investors from mainland China and Hong Kong are being shut out of Anthropic's IPO, according to Bloomberg." },
+    { "source": 1, "text": "Multiple banks have reportedly rejected buy orders from those regions or consider allocations unlikely, with some of the people involved citing ITAR, the US export control rules governing defense-related goods, as the reason." },
+    { "source": 1, "text": "Anthropic declined to comment." }
+  ]
+}
