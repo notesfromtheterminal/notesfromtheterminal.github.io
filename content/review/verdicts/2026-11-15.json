@@ -1,0 +1,7 @@
+{
+  "note": "2026-11-15",
+  "commit": "03b7791bfe4ccfabb3737855792c20f71607dac2",
+  "verdict": "APPROVED",
+  "at": "2026-11-14T22:47:04.973Z",
+  "notes": "Fixed by the review run, then approved:\n1. Section 1: note said \"Start with the most concrete decision of the weekend.\" Source gives only that the WSJ reported it Friday (Nov. 13); no ranking or weekend. Cut the sentence.\n2. Section 2: note said \"gets around the block, because its Link wallet gives\". Source: \"Stripe gets around the block. Its Link wallet gives the agent a one-time virtual card.\" Restored as two sentences. Also cut \"for those of us in payments that is the detail to watch\" (invented experience, no source) and restored the source's comparison \"than the shopper's own card\".\n3. Section 3: note said \"Meanwhile the OCC, the US federal banking regulator, said\". Source release is dated Nov 12; \"Meanwhile\" and \"federal banking regulator\" not claimed. Now \"The OCC said that banks\" (also cut \"in its latest risk report\", which the checker would not accept).\n4. Section 4: note said \"At the same time ... pointed to the other side of the boom\". Source article is dated 9 Nov, so \"at the same time\" is wrong. Now \"ttb analytics in Thailand said\".\n5. Dek: \"three ways finance is deciding how far to go\" overstated (a warning is not a decision). Now \"three takes on how far finance is going with AI.\""
+}
