@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-15-gemini-4-carbon-matharena-cost",
+  "publishedAt": "2026-11-15T17:05:00+07:00",
+  "section": "models",
+  "tags": [],
+  "star": false,
+  "company": "Google",
+  "headline": "Gemini 4 Carbon tops MathArena math benchmark, with roughly 15 times GPT-6.1 Sol's cost",
+  "body": "The Decoder says Google's Gemini 4 Carbon knocked GPT-6.1 Sol from the top spot on the MathArena math benchmark. Claude Fable 5.2 came in second. Under the reasoning settings used in testing, Carbon and Fable 5.2 cost roughly 15 and 40 times as much as GPT-6.1 Sol, respectively.",
+  "note": "A math leaderboard says little about banking workloads directly, but the cost gap matters for any team weighing a top model for high-volume work.",
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/" },
+    { "name": "MathArena", "url": "https://matharena.ai" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Google's Gemini 4 Carbon has become the first non-OpenAI model in a while to top the MathArena math benchmark." },
+    { "source": 0, "text": "It knocked GPT-6.1 Sol from the top spot, while Claude Fable 5.2 came in second, making it potentially one of the most capable publicly available models for math tasks." },
+    { "source": 0, "text": "With the reasoning settings used in testing, Carbon and Fable 5.2 cost roughly 15 and 40 times as much as GPT-6.1 Sol, respectively." },
+    { "source": 0, "text": "Subscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section." },
+    { "source": 1, "text": "We added Claude Fable 5.2 and Gemini 4 Carbon results to MathArena!" }
+  ]
+}
