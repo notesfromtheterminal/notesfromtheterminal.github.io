@@ -1,0 +1,7 @@
+{
+  "note": "2026-11-16",
+  "commit": "bc38978abdddbce63c9ddae5c2f96490acb0bcd0",
+  "verdict": "APPROVED",
+  "at": "2026-11-15T16:46:54.341Z",
+  "notes": "Fixed by the review run, then approved:\n1. Title: note said \"AI assistants see the money, banks guard the card\"; source: only JPMorgan is reported blocking, while cards from Bank of America, Capital One and Citigroup \"are already being used by agents\". New: \"Assistants get a view of the money, one bank guards the card\".\n2. Section 3 heading: note said \"Most banks have not settled it\" (a claim about most banks); source: survey is \"a regional snapshot ... rather than a measure of policies across the U.S. banking industry\". New: \"A regional snapshot of bankers' restrictions\".\n3. Section 3 text: percentages were stated as facts about institutions; source: \"11.4% said their institution or service provider had taken steps\", \"Another 22.9% said they planned\", \"27.1%, said they did not know\". Restored the \"said\" attribution and \"institution or service provider\", cut \"at all\", replaced \"the Dallas Fed describes\" with the source's \"The survey noted that the results provide a regional snapshot ...\", and closed the sentence with a period."
+}
