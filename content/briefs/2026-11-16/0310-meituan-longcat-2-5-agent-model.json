@@ -1,0 +1,51 @@
+{
+  "id": "2026-11-16-meituan-longcat-2-5-agent-model",
+  "publishedAt": "2026-11-16T03:10:00+07:00",
+  "section": "models",
+  "tags": [],
+  "star": false,
+  "company": "Meituan",
+  "headline": "Meituan releases LongCat-2.5, a 1.6-trillion-parameter model under MIT license",
+  "body": "Meituan has released the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents, under an MIT license. The LongCat team reports 88.4 on Terminal Bench v2.1, while Meituan lists Claude Opus 5 at 89.1. The self-hosting guide describes a cluster of 194 Huawei Ascend accelerators and gives no guidance for Nvidia GPUs.",
+  "note": "The MIT license allows commercial use, which could give firms that host models themselves another option, though the self-hosting guide covers Huawei chips and offers no Nvidia guidance.",
+  "sources": [
+    {
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Meituan releases the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents."
+    },
+    {
+      "source": 0,
+      "text": "The LongCat team at Chinese food delivery company Meituan has released the weights for LongCat-2.5, one week after the model's official unveiling."
+    },
+    {
+      "source": 0,
+      "text": "LongCat-2.5 is built for agents that work through long, multi-step tasks autonomously, particularly coding."
+    },
+    {
+      "source": 0,
+      "text": "The weights are available under the MIT license, which allows commercial use, modification, and redistribution."
+    },
+    {
+      "source": 0,
+      "text": "The LongCat team reports 88.4 points on Terminal Bench v2.1, a benchmark that measures how well agents solve command-line tasks."
+    },
+    {
+      "source": 0,
+      "text": "Meituan lists Claude Opus 5 at 89.1, GPT-5.6 Sol at 88.8, and Deepseek-V4.1-Flash at the top of the table with 90.6."
+    },
+    {
+      "source": 0,
+      "text": "The self-hosting guide describes a cluster of 194 Huawei Ascend accelerators from the Atlas A2 series."
+    },
+    {
+      "source": 0,
+      "text": "There's no guidance for Nvidia GPUs."
+    }
+  ]
+}
