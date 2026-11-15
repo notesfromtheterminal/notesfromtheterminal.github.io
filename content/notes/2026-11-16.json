@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-16",
+  "publishedAt": "2026-11-16T07:00:00+07:00",
+  "title": "AI assistants see the money, banks guard the card",
+  "dek": "Google, JPMorgan and a Dallas Fed survey show how banks and platforms treat AI agents near customers' money.",
+  "lead": "2026-11-15-gemini-google-wallet-read-only",
+  "stories": [
+    "2026-11-14-jpmorgan-agent-card-block",
+    "2026-11-10-dallas-fed-banks-restrict-ai-agents"
+  ],
+  "body": [
+    {
+      "head": "Gemini gets a view, not a wallet",
+      "text": "Google has connected Google Wallet to Gemini, and users in the US can now ask the Gemini app about their spending, subscriptions and budgets based on their real transactions. Google says Gemini only gets read access to Wallet, and Gemini cannot transfer money, manage accounts, make investments, or complete transactions.",
+      "support": [
+        "Google has connected Google Wallet to Gemini.",
+        "Users can now ask the Gemini app questions about their spending, subscriptions, and budgets based on their real transactions.",
+        "Google says Gemini only gets read access to Wallet.",
+        "Gemini cannot transfer money, manage accounts, make investments, or complete transactions."
+      ]
+    },
+    {
+      "head": "One bank blocks agents at the card",
+      "text": "The Wall Street Journal reported that JPMorgan Chase is blocking AI agents from shopping with its customers' credit cards when customers give the agent their card number, while cards from Bank of America, Capital One and Citigroup are already being used by agents when customers allow it, the Journal said.",
+      "support": [
+        "JPMorgan Chase is blocking artificial intelligence (AI) agents from shopping with its customers’ credit cards when customers give the agent their card number, The Wall Street Journal reported Friday (Nov. 13).",
+        "Cards from Bank of America , Capital One and Citigroup are already being used by agents when customers allow it, the Journal said."
+      ]
+    },
+    {
+      "head": "Most banks have not settled it",
+      "text": "In a survey of 70 bankers, 11.4% had taken steps to restrict customers' AI agent activity on online banking platforms, while another 22.9% planned to introduce restrictions within the next six months and 27.1% did not know whether their institution had restricted AI-agent activity at all (the Dallas Fed describes the results as a regional snapshot)",
+      "support": [
+        "In a recently released survey of 70 bankers, the Federal Reserve Bank of Dallas found that 11.4% said their institution or service provider had taken steps to restrict existing or prospective customers’ AI agent activity on online banking platforms.",
+        "Another 22.9% said they planned to introduce restrictions within the next six months.",
+        "More than a quarter of respondents, 27.1%, said they did not know whether their institution or service provider had restricted AI-agent activity.",
+        "The survey noted that the results provide a regional snapshot of how financial institutions are approaching AI-agent access rather than a measure of policies across the U.S. banking industry."
+      ]
+    },
+    {
+      "head": "Questions for your own team",
+      "text": "Put side by side, the three stories show assistants getting a view of the money while the right to spend is still being worked out, and each of us can ask where our own organization stands: which agents can see our customers' accounts today, which can pay, and who decides?"
+    }
+  ],
+  "suggestion": "A line on how your own clients ask about letting an assistant see their spending would fit at the end of the last section."
+}
