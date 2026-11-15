@@ -1,0 +1,31 @@
+{
+  "id": "2026-11-15-anthropic-compute-commitments-901-billion",
+  "publishedAt": "2026-11-15T07:12:00+07:00",
+  "section": "deals",
+  "tags": [],
+  "star": false,
+  "company": "Anthropic",
+  "headline": "Anthropic's compute commitments reach nearly $901 billion, Bloomberg reports",
+  "body": "Anthropic's commitments have reached nearly $901 billion, most of it tied to compute and chips, according to Bloomberg. Roughly $71 billion of that comes due by September 2027, and the company plans to raise up to $64.4 billion through its IPO.",
+  "note": "Set against the up to $64.4 billion IPO plan, the commitments are much larger. The Decoder says the offering is designed to build a cash buffer. The figures are Bloomberg's, as relayed by The Decoder.",
+  "sources": [
+    {
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Anthropic's commitments have reached nearly $901 billion, according to Bloomberg, most of it tied to compute and chips, with roughly $71 billion coming due by September 2027 alone."
+    },
+    {
+      "source": 0,
+      "text": "Anthropic plans to raise up to $64.4 billion through the IPO and another $26 billion through a private placement, Bloomberg reports."
+    },
+    {
+      "source": 0,
+      "text": "The IPO is designed to build a cash buffer large enough to carry the company through a potential mismatch between spending and revenue."
+    }
+  ]
+}

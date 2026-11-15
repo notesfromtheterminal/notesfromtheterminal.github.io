@@ -1,0 +1,39 @@
+{
+  "id": "2026-11-15-anthropic-opus-5-5-medium-effort-default",
+  "publishedAt": "2026-11-15T07:16:00+07:00",
+  "section": "models",
+  "tags": [],
+  "star": false,
+  "company": "Anthropic",
+  "headline": "Anthropic says Opus 5.5 defaults to Medium effort, where Opus 5 defaulted to High",
+  "body": "Anthropic's prompting guide for Claude Opus 5.5 says to start at Medium effort and test several levels against your own evals. In Anthropic's testing, Opus 5.5 at Medium matches or exceeds Opus 5 at High on coding and knowledge-work evaluations.",
+  "note": "The guide's first lever for cost is effort. It says lowering the effort level reduces thinking more reliably than prompt instructions do.",
+  "sources": [
+    {
+      "name": "Anthropic",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "This guide covers the prompting patterns specific to Claude Opus 5.5."
+    },
+    {
+      "source": 0,
+      "text": "Start at medium , the default on Claude Opus 5.5 (Claude Opus 5 defaults to high ), set it explicitly, and test several levels against your own evals rather than carrying over the setting you used on Claude Opus 5."
+    },
+    {
+      "source": 0,
+      "text": "In Anthropic’s testing, Claude Opus 5.5 at medium matches or exceeds Claude Opus 5 at high on coding and knowledge-work evaluations, and on several coding evaluations low comes close to it at much lower cost."
+    },
+    {
+      "source": 0,
+      "text": "To get less thinking, lower the effort level first."
+    },
+    {
+      "source": 0,
+      "text": "Lowering effort reduces thinking, and with it cost and latency, more reliably than prompt instructions do."
+    }
+  ]
+}
