@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-15-gemini-google-wallet-read-only",
+  "publishedAt": "2026-11-15T12:06:00+07:00",
+  "section": "payments",
+  "tags": [],
+  "star": false,
+  "company": "Google",
+  "headline": "Gemini can read Google Wallet spending in the US but cannot move money",
+  "body": "Google has connected Google Wallet to Gemini. US users can ask about spending, subscriptions and budgets based on their real transactions, and bank and credit card accounts can be linked through Plaid. gHacks reports that Gemini gets read access only and cannot transfer money, manage accounts, make investments or complete transactions.",
+  "note": "The design separates analysis from payment power. A wallet or bank team can see the spending view opened up without the assistant gaining any right to pay.",
+  "sources": [
+    {
+      "name": "gHacks",
+      "url": "https://www.ghacks.net/2026/11/15/gemini-can-now-read-your-google-wallet-to-track-spending-and-subscriptions-but-it-cannot-move-money/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Google has connected Google Wallet to Gemini."
+    },
+    {
+      "source": 0,
+      "text": "The feature is rolling out to all Gemini app users in the US on Android , iOS, and the web."
+    },
+    {
+      "source": 0,
+      "text": "Users can now ask the Gemini app questions about their spending, subscriptions, and budgets based on their real transactions."
+    },
+    {
+      "source": 0,
+      "text": "For deeper insights, they can link bank and credit card accounts to Wallet through Plaid, a third party service that connects financial accounts."
+    },
+    {
+      "source": 0,
+      "text": "Google says Gemini only gets read access to Wallet."
+    },
+    {
+      "source": 0,
+      "text": "Gemini cannot transfer money, manage accounts, make investments, or complete transactions."
+    }
+  ]
+}
