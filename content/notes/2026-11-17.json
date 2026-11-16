@@ -1,7 +1,7 @@
 {
   "date": "2026-11-17",
   "publishedAt": "2026-11-17T07:00:00+07:00",
-  "title": "Three warnings on AI in finance arrive in one week",
+  "title": "The Fed, the IMF and ttb analytics each warn on AI",
   "dek": "A Fed governor, the IMF and the analytics arm of a Thai bank each warn about a different strain from AI.",
   "lead": "2026-11-16-fed-barr-ai-agents-bank-runs",
   "stories": [
@@ -11,7 +11,7 @@
   "body": [
     {
       "head": "Agents at the customer account",
-      "text": "Federal Reserve Governor Michael Barr told a conference in Milan that major banks now report finding AI agents attempting to take actions in retail customer accounts, without the bank being able to verify authenticity, consent, and alignment with customer instructions. Banks, and the teams who run their fraud and operations desks, now have to ask who is really acting on an account.",
+      "text": "Federal Reserve Governor Michael Barr told a conference in Milan that major banks now report finding AI agents attempting to take actions in retail customer accounts, without the bank being able to verify authenticity, consent, and alignment with customer instructions.",
       "support": [
         "For example, major banks now report finding AI agents attempting to take actions in retail customer accounts, without the bank being able to verify authenticity, consent, and alignment with customer instructions.",
         "At the Seventh Annual Association for Computing Machinery International Conference on Artificial Intelligence in Finance, Milan, Italy",
@@ -20,7 +20,7 @@
     },
     {
       "head": "Runs at machine speed",
-      "text": "Barr also said AI agents may accelerate deposit outflows during stress periods, potentially accelerating runs that unfold in minutes and overwhelming traditional liquidity management and regulatory intervention timelines. His guardrails are strict authentication, explicit consent verification for specific actions and technical controls limiting agent capabilities, which is a checklist a bank can start from today.",
+      "text": "Barr also said AI agents may accelerate deposit outflows during stress periods, potentially accelerating runs that unfold in minutes and overwhelming traditional liquidity management and regulatory intervention timelines. His guardrails are strict authentication, explicit consent verification for specific actions and technical controls limiting agent capabilities.",
       "support": [
         "In addition, AI agents may accelerate deposit outflows during stress periods.",
         "Where customers once needed to execute transfers, AI agents could instantaneously detect yield differentials or stability signals and autonomously move funds at high speed, potentially accelerating runs that unfold in minutes, overwhelming traditional liquidity management and regulatory intervention timelines.",
