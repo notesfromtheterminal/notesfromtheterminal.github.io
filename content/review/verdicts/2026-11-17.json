@@ -1,0 +1,7 @@
+{
+  "note": "2026-11-17",
+  "commit": "b46e77b2ced5f0fda00867ea64a61bdfb346754c",
+  "verdict": "APPROVED",
+  "at": "2026-11-16T16:46:37.424Z",
+  "notes": "Fixed by the review run, then approved:\n1. Title: old \"Three warnings on AI in finance arrive in one week\". Sources dated Nov 9 (ttb), Nov 16 (IMF, Barr), so \"one week\" and \"arrive\" are not supported. New: \"The Fed, the IMF and ttb analytics each warn on AI\".\n2. Section 1: cut \"Banks, and the teams who run their fraud and operations desks, now have to ask who is really acting on an account.\" Source only says banks report finding agents they cannot verify; the obligation is not stated.\n3. Section 2: old \"which is a checklist a bank can start from today\". Source lists guardrails only. Cut; sentence ends after \"agent capabilities.\""
+}
