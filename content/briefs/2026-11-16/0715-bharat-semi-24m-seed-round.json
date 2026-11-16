@@ -1,0 +1,35 @@
+{
+  "id": "2026-11-16-bharat-semi-24m-seed-round",
+  "publishedAt": "2026-11-16T07:15:00+07:00",
+  "section": "deals",
+  "tags": [],
+  "star": false,
+  "company": "Bharat Semi",
+  "headline": "Indian chip startup Bharat Semi raises seed funding for AI image sensors",
+  "body": "Bharat Semi, an Indian semiconductor startup, has raised $24 million in seed funding to develop AI-enabled image sensors. The startup says it has secured design wins with General Atomics and Kaynes Semicon, while its image sensors remain under development, with commercial production targeted for 2027.",
+  "note": "For investors, this is an early bet: the startup is pre-revenue, and its sensors are still in development.",
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Bharat Semi , an Indian semiconductor startup, has raised $24 million in seed funding to develop AI-enabled image sensors, as it seeks to win customers in the United States and elsewhere."
+    },
+    {
+      "source": 0,
+      "text": "The investment comes as the nearly five-year-old, pre-revenue startup says it has secured design wins with U.S. defense technology company General Atomics and India’s Kaynes Semicon."
+    },
+    {
+      "source": 0,
+      "text": "Its image sensors, however, remain under development, with the startup targeting its initial commercial production in 2027."
+    },
+    {
+      "source": 0,
+      "text": "The all-equity seed round was led by Info Edge Group, South Park Commons, and Indus Bridge Ventures, with participation from Valour Capital, Micromax, Gaingels, and individual investors."
+    }
+  ]
+}
