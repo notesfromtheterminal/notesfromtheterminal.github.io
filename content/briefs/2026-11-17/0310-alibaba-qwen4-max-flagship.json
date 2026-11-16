@@ -1,0 +1,23 @@
+{
+  "id": "2026-11-17-alibaba-qwen4-max-flagship",
+  "publishedAt": "2026-11-17T03:10:00+07:00",
+  "section": "models",
+  "company": "Alibaba",
+  "headline": "Alibaba launches Qwen4-Max, which it says cuts cost per task",
+  "body": "Alibaba launched Qwen4-Max, a mixture-of-experts model with 2.4 trillion parameters that activates 71 billion per token, according to the Qwen team. According to Alibaba, the average cost per Work360 task falls 62 percent, from $4.43 to $1.67. Through its own API, Alibaba charges $1.50 per million input tokens and $4.50 per million output tokens.",
+  "note": "The cost figures come from Alibaba's own Work360 benchmark, and the page says Qwen4-Max trails Opus 5.5 and the GPT models on Humanity's Last Exam.",
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Alibaba launched Qwen4-Max, whose revamped architecture processes long texts more efficiently and with less compute." },
+    { "source": 0, "text": "The mixture-of-experts model has 2.4 trillion parameters but activates only 71 billion per token, according to the Qwen team." },
+    { "source": 0, "text": "Work360 is Alibaba's own benchmark for industrial work tasks across 721 specialized fields." },
+    { "source": 0, "text": "According to Alibaba, the average cost per Work360 task falls 62 percent, from $4.43 to $1.67." },
+    { "source": 0, "text": "Results on external benchmarks are mixed." },
+    { "source": 0, "text": "It trails Opus 5.5 and the GPT models on Humanity's Last Exam." },
+    { "source": 0, "text": "Through its own API, Alibaba charges $1.50 per million input tokens and $4.50 per million output tokens." },
+    { "source": 0, "text": "Qwen4-Max is Alibaba's answer to Opus 5.5, GPT-6, and Kimi K3.1 Pro." },
+    { "source": 0, "text": "The new flagship pairs a more efficient architecture with much lower prices and targets professional work in industry, science, and finance." }
+  ]
+}

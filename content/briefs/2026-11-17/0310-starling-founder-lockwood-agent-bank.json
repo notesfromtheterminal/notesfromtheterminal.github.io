@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-17-starling-founder-lockwood-agent-bank",
+  "publishedAt": "2026-11-17T03:10:00+07:00",
+  "section": "banking",
+  "company": "Starling",
+  "headline": "Starling founder Anne Boden reportedly building AI-focused bank Lockwood",
+  "body": "Anne Boden, Starling's founder, is reportedly using proceeds from selling her shares in her former company to help launch Lockwood, The Times reported. She said, \"I'm building a bank that's going to be built by agents.\" Lockwood will offer a traditional current account, but will not be a lender or offer savings products.",
+  "note": "The report says the U.K.'s big banks are refusing AI agents access to customer accounts, while Lockwood is being built for agents.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/banking/2026/starling-founder-launches-agentic-ai-focused-bank-lockwood/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "The founder of British neobank Starling is reportedly embarking on an artificial intelligence (AI)-focused banking venture." },
+    { "source": 0, "text": "Anne Boden is using some of the proceeds from selling her shares in her former company to help launch her new startup Lockwood , The Times reported Sunday (Nov. 15)." },
+    { "source": 0, "text": "“I’m building a bank that’s going to be built by agents, to serve customers that want to use agents, and then be defended by agents,” Boden said." },
+    { "source": 0, "text": "Lockwood will be developed specifically to work with agents." },
+    { "source": 0, "text": "It will offer a “traditional current account,” but will not be a lender or offer savings products." },
+    { "source": 0, "text": "The report noted that safety is a critical part of the debate as the U.K.’s big banks are refusing to grant AI agents access to customer accounts out of concerns that they might go rogue and make unauthorized transactions." }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-17-ecb-vujcic-ai-financial-stability",
+  "publishedAt": "2026-11-17T03:10:00+07:00",
+  "section": "rules",
+  "tags": ["banking"],
+  "star": true,
+  "company": "European Central Bank",
+  "headline": "ECB vice president says rapid AI expansion could threaten financial stability",
+  "body": "ECB Vice President Boris Vujčić said AI stock market valuations remain stretched and the risk of a repricing has risen. He added that \"AI-related risks to system-wide stability now stem from a range of additional factors,\" pointing to the expansion of external funding from equity to debt markets, concentration of exposures, quickening AI adoption and potential cyberattacks.",
+  "note": "In the same remarks, Vujčić flagged private credit, where rapid growth warrants close monitoring given limited transparency and growing interconnectedness with banks and insurers.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ecb-warns-rapid-ai-expansion-threatens-eu-financial-stability/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "A European Central Bank official is warning that rapid artificial intelligence (AI) expansion could threaten the region’s financial stability." },
+    { "source": 0, "text": "AI stock market valuations remain stretched and the risk of a repricing has risen, European Central Bank Vice President Boris Vujčić said Monday (Nov. 16)." },
+    { "source": 0, "text": "“AI-related risks to system-wide stability now stem from a range of additional factors,” he added, also pointing to “the expansion of external funding from equity to debt markets, concentration of exposures, quickening AI adoption and potential cyberattacks.”" },
+    { "source": 0, "text": "While risks currently appear contained, the rapid growth of private credit warrants close monitoring, given limited transparency, growing interconnectedness with banks and insurers, and potential liquidity mismatches,” he said." }
+  ]
+}
