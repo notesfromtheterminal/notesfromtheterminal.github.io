@@ -1,0 +1,39 @@
+{
+  "id": "2026-11-16-imf-georgieva-ai-circular-financing",
+  "publishedAt": "2026-11-16T17:04:00+07:00",
+  "section": "rules",
+  "tags": ["deals"],
+  "star": false,
+  "headline": "IMF estimates AI circular financing at a little over $1 trillion",
+  "body": "IMF Managing Director Kristalina Georgieva says the world economy is \"standing on one leg\" on AI. The IMF estimates circular financing among AI companies at a little over $1 trillion, with two-thirds funded by debt.",
+  "note": "Two-thirds of it is funded by debt, which makes the AI leg a financing question as well as a market one. Georgieva warned that if this leg wobbles, that can lead to financial stability troubles, while characterizing the recent market swings as \"orderly\" and urging caution.",
+  "figure": { "value": "$1T+", "label": "IMF estimate of AI circular financing, two-thirds funded by debt" },
+  "sources": [
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/16/imf-georgieva-warning-ai-circular-financing.html"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "The global economy is \"on the AI leg,\" International Monetary Fund Managing Director Kristalina Georgieva said Monday, warning that the overdependence on the sector risks the world's financial stability."
+    },
+    {
+      "source": 0,
+      "text": "We have a world economy that is standing on one leg on the AI leg."
+    },
+    {
+      "source": 0,
+      "text": "\"If this leg wobbles, that can lead to financial stability troubles,\" Georgieva warned."
+    },
+    {
+      "source": 0,
+      "text": "Circular financing among AI companies — where money invested in an AI company ultimately flows back to the investor through purchase orders — has grown to a little over $1 trillion, two-thirds of it funded by debt, the IMF estimates."
+    },
+    {
+      "source": 0,
+      "text": "Georgieva on Monday characterized the recent market swings as \"orderly,\" and unlikely to spiral into anything that could undermine the world economy, while urging caution."
+    }
+  ]
+}
