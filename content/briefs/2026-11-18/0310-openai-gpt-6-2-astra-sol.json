@@ -1,0 +1,15 @@
+{
+  "id": "2026-11-18-openai-gpt-6-2-astra-sol",
+  "publishedAt": "2026-11-18T03:10:00+07:00",
+  "section": "models",
+  "company": "OpenAI",
+  "headline": "OpenAI introduces GPT-6.2 Astra and Sol for professional work and coding",
+  "body": "OpenAI says GPT-6.2 Astra and Sol come with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+  "note": "Computer use and lower cost are the two claims that matter most to banks testing agents, and both come from OpenAI's own description.",
+  "sources": [
+    { "name": "OpenAI", "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API." }
+  ]
+}

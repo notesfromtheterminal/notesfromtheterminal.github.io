@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-18-tearsheet-big-five-banks-agents",
+  "publishedAt": "2026-11-18T03:10:00+07:00",
+  "section": "banking",
+  "company": "JPMorgan Chase",
+  "headline": "Big US banks send AI agents first to employees and back-office teams",
+  "body": "Tearsheet reports that at the five largest U.S. banks by assets, agents go first to employees and back-office teams, and humans still review the output. Autonomous software touching customer accounts remains the exception. It also reports that CEO Jamie Dimon said in October that JPMorgan won't let third-party agents operate customer accounts.",
+  "note": "Most of the rollout is internal, so the open question for customers is who may act inside an account.",
+  "sources": [
+    { "name": "Tearsheet", "url": "https://tearsheet.co/member-exclusive/the-big-five-banks-are-putting-ai-agents-to-work-mostly-out-of-customers-sight/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "At the five largest U.S. banks by assets, the pattern is consistent." },
+    { "source": 0, "text": "Agents go to employees and back-office teams first, humans still review the output, and autonomous software touching customer accounts remains the exception." },
+    { "source": 0, "text": "CEO Jamie Dimon saying in October that JPMorgan won’t let third-party agents operate customer accounts, warning of a “liability transfer” for customers who authorize them." }
+  ]
+}

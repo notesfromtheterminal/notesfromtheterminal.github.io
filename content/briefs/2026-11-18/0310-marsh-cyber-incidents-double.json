@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-18-marsh-cyber-incidents-double",
+  "publishedAt": "2026-11-18T03:10:00+07:00",
+  "section": "banking",
+  "tags": ["payments"],
+  "company": "Marsh",
+  "headline": "Marsh clients saw 105 cyber incidents in late October, more than two-fold late May",
+  "body": "Marsh said its clients saw 105 cyber incidents in the second half of October, more than two-fold the 48 recorded in the last two weeks of May. Marsh's Meredith Schnur said \"we could attribute AI to a significant number of these\". GlobalData, cited by Reuters, expects global cyber insurance premiums to rise to $18.3 billion in 2027.",
+  "note": "GlobalData, as cited by Reuters, projects premium growth to accelerate to 10% in 2027.",
+  "sources": [
+    { "name": "PYMNTS (citing Reuters)", "url": "https://www.pymnts.com/cybersecurity/2026/cyber-insurance-costs-to-jump-10percent-amid-rising-ai-attacks/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Marsh said its clients saw 105 cyber incidents in the second half of October, a more than two-fold increase from the 48 recorded in the last two weeks of May." },
+    { "source": 0, "text": "Meredith Schnur , Marsh Risk’s U.S. and Canada cyber practice leader, said in an interview with Reuters." },
+    { "source": 0, "text": "So I would say we could attribute AI to a significant number of these." },
+    { "source": 0, "text": "Reuters cited findings from GlobalData showing that cyber insurance premiums are projected to grow at a faster pace over the next two years world wide as businesses respond to increasing attack frequency." },
+    { "source": 0, "text": "It expects global cyber insurance premiums to increase 6.9% to $16.6 billion this year, before accelerating to 10% growth for 2027 to $18.3 billion." }
+  ]
+}
