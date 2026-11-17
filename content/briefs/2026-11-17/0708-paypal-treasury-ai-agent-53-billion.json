@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-17-paypal-treasury-ai-agent-53-billion",
+  "publishedAt": "2026-11-17T07:08:00+07:00",
+  "section": "payments",
+  "company": "PayPal",
+  "headline": "PayPal's treasury AI agent handles $53 billion in cash, per a Deutsche Bank case study",
+  "body": "A Deutsche Bank case study describes PayPal's treasury operation, which runs on one system with a conversational agent on top. The system handles $53 billion in corporate cash and customer funds. The study credits it with cash visibility across about 1,000 accounts that rose from 78% to nearly 100%, and reports about 1,700 hours saved.",
+  "note": "The case shows a payments firm moving treasury questions into a chat window, but PayPal has not disclosed how much of the saved time becomes cost savings.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/paypal-tracks-53-billion-in-treasury-cash-with-an-ai-agent/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Ask PayPal’s treasury team where its cash sits, and the answer now comes from a chat window." },
+    { "source": 0, "text": "A Deutsche Bank case study describes how that change unfolded inside the company." },
+    { "source": 0, "text": "PayPal’s treasury operation now runs on one system with a conversational agent on top, according to the Deutsche Bank case study." },
+    { "source": 0, "text": "The system handles $53 billion in corporate cash and customer funds, and the team once relied on 90 spreadsheets to track it." },
+    { "source": 0, "text": "The study credits the system with coverage across 160 currency pairs and cash visibility that rose from 78% to nearly 100% across about 1,000 accounts." },
+    { "source": 0, "text": "It also reports accuracy above 99% in cash positioning and about 1,700 hours saved." },
+    { "source": 0, "text": "PayPal has not disclosed how much of that time becomes cost savings." }
+  ]
+}

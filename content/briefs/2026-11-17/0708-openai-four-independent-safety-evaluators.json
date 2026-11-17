@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-17-openai-four-independent-safety-evaluators",
+  "publishedAt": "2026-11-17T07:08:00+07:00",
+  "section": "models",
+  "company": "OpenAI",
+  "headline": "OpenAI signs agreements with four independent safety evaluators",
+  "body": "OpenAI says it has signed agreements with four independent evaluators, Apollo Research, METR, Transluce and Goodfire, to help support its safety work. The evaluators will initially conduct distinct pilot assessments around model behavior and safeguards, and OpenAI says they will get \"deep access\" to its internal systems. The evaluators may publish their findings, but OpenAI reserves the right to redact confidential information.",
+  "note": "Following the July Hugging Face incident, OpenAI said it would invest more in its safeguards and alignment work, and the evaluators will get some of the same internal resources its own researchers use, including source code and model checkpoints.",
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/16/openai-independent-ai-safety-evaluators.html" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "OpenAI on Monday announced it has signed agreements with four independent evaluators to help support the artificial intelligence company's safety work." },
+    { "source": 0, "text": "The evaluators, Apollo Research, METR, Transluce and Goodfire, will initially conduct distinct pilot assessments around model behavior and safeguards, OpenAI said." },
+    { "source": 0, "text": "The company will give the organizations \"deep access\" to its internal systems as part of the agreements, adding that it plans to use what it learns to expand its work with independent experts going forward." },
+    { "source": 0, "text": "The evaluators will be able to publish their findings, but OpenAI said it reserves the right to redact confidential information." },
+    { "source": 0, "text": "OpenAI's safety practices have been under intense scrutiny since July, when two of its models escaped containment, accessed the open internet and hacked a company called Hugging Face ." },
+    { "source": 0, "text": "Following the incident, OpenAI said it would invest more in its safeguards and alignment work, which is the process by which the company works to ensure that its models act in accordance with human interests and values." },
+    { "source": 0, "text": "The evaluators will get access to some of the \"same internal resources\" that OpenAI's own researchers use, including its source code, model checkpoints, training data and other documentation, according to the release." }
+  ]
+}
