@@ -1,0 +1,36 @@
+{
+  "id": "2026-11-17-mastercard-singapore-innovation-centre-250-roles",
+  "publishedAt": "2026-11-17T17:05:00+07:00",
+  "section": "sea",
+  "tags": [
+    "payments"
+  ],
+  "company": "Mastercard",
+  "headline": "Mastercard opened a Singapore innovation centre and plans to add more than 250 specialist roles",
+  "body": "Mastercard has opened a new innovation centre in Singapore as of November 13, 2026, and plans to add more than 250 specialist roles by the end of 2029. The centre houses an AI Centre of Excellence focused on agentic commerce and fraud prevention, alongside a Fusion Centre for cybersecurity, fraud and physical security.",
+  "note": "The hiring points to where Mastercard is putting its AI staff: agentic commerce and fraud prevention.",
+  "figure": {
+    "value": "250",
+    "label": "specialist roles planned in Singapore by the end of 2029"
+  },
+  "sources": [
+    {
+      "name": "Fintech News Singapore",
+      "url": "https://fintechnews.sg/141118/payments/mastercard-innovation-centre/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Mastercard has opened a new innovation centre in Singapore as it plans to add more than 250 specialist roles by the end of 2029."
+    },
+    {
+      "source": 0,
+      "text": "It houses an AI Centre of Excellence focused on agentic commerce and fraud prevention, alongside a Fusion Centre that combines cybersecurity, fraud and physical security expertise."
+    },
+    {
+      "source": 0,
+      "text": "Fintech News Singapore November 13, 2026 1 Min Read"
+    }
+  ]
+}
