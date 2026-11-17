@@ -1,0 +1,59 @@
+{
+  "id": "2026-11-17-warsh-fed-ai-scenarios-illustrative",
+  "publishedAt": "2026-11-17T12:10:00+07:00",
+  "section": "rules",
+  "tags": [
+    "banking"
+  ],
+  "company": "Federal Reserve",
+  "headline": "Warsh says Federal Reserve staff use model-based AI scenarios",
+  "body": "Federal Reserve Board Chairman Kevin Warsh said Federal Reserve staff are using model-based frameworks to generate scenarios of AI outcomes. Warsh said of the scenarios: \"illustrative scenarios, not forecasts.\" He outlined both positive and negative scenarios, from broadly shared gains to AI that displaces jobs and an economic slowdown with a notable rise in unemployment.",
+  "note": "Presenting AI as a set of scenarios gives finance teams a useful frame, since the paths run from shared gains to a slowdown.",
+  "sources": [
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/fed-builds-plans-for-best-and-worst-ai-driven-economic-outcomes/"
+    },
+    {
+      "name": "Federal Reserve Bank of San Francisco",
+      "url": "https://www.frbsf.org/?p=446248"
+    }
+  ],
+  "wire": [
+    "953e20890d2a"
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Federal Reserve staff are using model-based frameworks to generate scenarios of outcomes that could result from the progress of artificial intelligence (AI), Federal Reserve Board Chairman Kevin Warsh said Monday (Nov. 16)."
+    },
+    {
+      "source": 0,
+      "text": "In opening remarks delivered at the Productivity and Jobs Task Force Conference hosted by the Federal Reserve Board and the Federal Reserve Bank of San Francisco in San Francisco, Warsh said of the scenarios: “These are illustrative scenarios, not forecasts."
+    },
+    {
+      "source": 0,
+      "text": "Warsh outlined both positive and negative scenarios."
+    },
+    {
+      "source": 0,
+      "text": "In one, AI leads to an increase in productivity and economic gains that are broadly shared among labor and owners of capital."
+    },
+    {
+      "source": 0,
+      "text": "In another, AI displaces jobs, rather than complementing them."
+    },
+    {
+      "source": 0,
+      "text": "In a third, AI fails to deliver the expected returns, resulting in an economic slowdown and a notable rise in unemployment."
+    },
+    {
+      "source": 1,
+      "text": "The Federal Reserve Board and the Federal Reserve Bank of San Francisco will host a conference on the economic impacts of new technologies on November 16, 2026."
+    },
+    {
+      "source": 1,
+      "text": "Opening Remarks by Kevin Warsh, Chairman of the Board of Governors of the Federal Reserve System"
+    }
+  ]
+}
