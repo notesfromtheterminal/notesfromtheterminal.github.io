@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-18",
+  "publishedAt": "2026-11-18T07:00:00+07:00",
+  "title": "Officials set out their AI plans for finance",
+  "dek": "The ECB, the Fed and the Philippines each set out how they view AI, and PayPal shows one finance team already using it.",
+  "lead": "2026-11-17-ecb-vujcic-ai-financial-stability",
+  "stories": [
+    "2026-11-17-warsh-fed-ai-scenarios-illustrative",
+    "2026-11-17-philippines-national-ai-council",
+    "2026-11-17-paypal-treasury-ai-agent-53-billion"
+  ],
+  "body": [
+    {
+      "head": "Europe lists the stability risks",
+      "text": "European Central Bank Vice President Boris Vujčić said on Monday that AI stock market valuations remain stretched and the risk of a repricing has risen. He also pointed to the expansion of external funding from equity to debt markets, concentration of exposures, quickening AI adoption and potential cyberattacks.",
+      "support": [
+        "AI stock market valuations remain stretched and the risk of a repricing has risen, European Central Bank Vice President Boris Vujčić said Monday (Nov. 16).",
+        "“AI-related risks to system-wide stability now stem from a range of additional factors,” he added, also pointing to “the expansion of external funding from equity to debt markets, concentration of exposures, quickening AI adoption and potential cyberattacks.”"
+      ]
+    },
+    {
+      "head": "The Fed plans in scenarios",
+      "text": "Federal Reserve Board Chairman Kevin Warsh said Fed staff are using model-based frameworks to generate scenarios of AI outcomes, and he called them illustrative scenarios, not forecasts. One scenario has AI increasing productivity with gains broadly shared, another has AI displacing jobs, and a third has AI failing to deliver the expected returns, with an economic slowdown and a notable rise in unemployment.",
+      "support": [
+        "Federal Reserve staff are using model-based frameworks to generate scenarios of outcomes that could result from the progress of artificial intelligence (AI), Federal Reserve Board Chairman Kevin Warsh said Monday (Nov. 16).",
+        "In opening remarks delivered at the Productivity and Jobs Task Force Conference hosted by the Federal Reserve Board and the Federal Reserve Bank of San Francisco in San Francisco, Warsh said of the scenarios: “These are illustrative scenarios, not forecasts.",
+        "In one, AI leads to an increase in productivity and economic gains that are broadly shared among labor and owners of capital.",
+        "In another, AI displaces jobs, rather than complementing them.",
+        "In a third, AI fails to deliver the expected returns, resulting in an economic slowdown and a notable rise in unemployment."
+      ]
+    },
+    {
+      "head": "The Philippines builds a council",
+      "text": "President Ferdinand Marcos Jr. established a National Artificial Intelligence Council under Executive Order No. 131, signed on 12 November, and the country adopted a national AI Governance Framework. The council must review that framework at least once every two years.",
+      "support": [
+        "President Ferdinand Marcos Jr. has established a National Artificial Intelligence Council (NAIC) to oversee the development and use of AI in the Philippines.",
+        "Under Executive Order No. 131, signed on 12 November, the country has also adopted a national AI Governance Framework, ABS-CBN News reported.",
+        "The NAIC must review the AI Governance Framework at least once every two years, or sooner if significant technological, regulatory or market developments warrant changes."
+      ]
+    },
+    {
+      "head": "PayPal shows the day-to-day",
+      "text": "A Deutsche Bank case study describes PayPal's treasury operation runs on one system with a conversational agent on top, handling $53 billion in corporate cash and customer funds. The study credits it with cash visibility that rose from 78% to nearly 100% across about 1,000 accounts, while PayPal has not disclosed how much of the time saved becomes cost savings.",
+      "support": [
+        "PayPal’s treasury operation now runs on one system with a conversational agent on top, according to the Deutsche Bank case study.",
+        "The system handles $53 billion in corporate cash and customer funds, and the team once relied on 90 spreadsheets to track it.",
+        "The study credits the system with coverage across 160 currency pairs and cash visibility that rose from 78% to nearly 100% across about 1,000 accounts.",
+        "PayPal has not disclosed how much of that time becomes cost savings."
+      ]
+    },
+    {
+      "head": "What to watch in our own work",
+      "text": "Put side by side, we have a central bank listing risks, another central bank planning in scenarios, a government setting up a council and a payments firm putting an agent on its cash. A fair question for any finance team is which Fed scenario its own planning assumes, and whether anyone has written it down.",
+      "support": [
+        "In opening remarks delivered at the Productivity and Jobs Task Force Conference hosted by the Federal Reserve Board and the Federal Reserve Bank of San Francisco in San Francisco, Warsh said of the scenarios: “These are illustrative scenarios, not forecasts.",
+        "In one, AI leads to an increase in productivity and economic gains that are broadly shared among labor and owners of capital.",
+        "In another, AI displaces jobs, rather than complementing them.",
+        "In a third, AI fails to deliver the expected returns, resulting in an economic slowdown and a notable rise in unemployment."
+      ]
+    }
+  ]
+}
