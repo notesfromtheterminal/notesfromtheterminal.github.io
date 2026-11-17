@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
   "publishedAt": "2026-11-18T07:00:00+07:00",
-  "title": "Officials set out their AI plans for finance",
+  "title": "Officials set out how they see AI in finance",
   "dek": "The ECB, the Fed and the Philippines each set out how they view AI, and PayPal shows one finance team already using it.",
   "lead": "2026-11-17-ecb-vujcic-ai-financial-stability",
   "stories": [
@@ -40,7 +40,7 @@
     },
     {
       "head": "PayPal shows the day-to-day",
-      "text": "A Deutsche Bank case study describes PayPal's treasury operation runs on one system with a conversational agent on top, handling $53 billion in corporate cash and customer funds. The study credits it with cash visibility that rose from 78% to nearly 100% across about 1,000 accounts, while PayPal has not disclosed how much of the time saved becomes cost savings.",
+      "text": "A Deutsche Bank case study describes PayPal's treasury operation, which runs on one system with a conversational agent on top, handling $53 billion in corporate cash and customer funds. The study credits it with cash visibility that rose from 78% to nearly 100% across about 1,000 accounts.",
       "support": [
         "PayPal’s treasury operation now runs on one system with a conversational agent on top, according to the Deutsche Bank case study.",
         "The system handles $53 billion in corporate cash and customer funds, and the team once relied on 90 spreadsheets to track it.",
