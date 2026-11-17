@@ -1,0 +1,7 @@
+{
+  "note": "2026-11-18",
+  "commit": "fc7577864cfbc7ba6e351a51bbf992fe870e8ac1",
+  "verdict": "APPROVED",
+  "at": "2026-11-17T16:46:43.529Z",
+  "notes": "Fixed by the review run, then approved:\n1. Title: note said \"Officials set out their AI plans for finance\"; the ECB section is a list of risks, not a plan. New: \"Officials set out how they see AI in finance\".\n2. PayPal section: note said \"describes PayPal's treasury operation runs on one system\"; source: \"PayPal's treasury operation now runs on one system with a conversational agent on top, according to the Deutsche Bank case study\". New: \"describes PayPal's treasury operation, which runs on\".\n3. PayPal section: note ended \"while PayPal has not disclosed how much of the time saved becomes cost savings\"; the note never states any time saved (source's \"about 1,700 hours saved\" is not in the note), so \"that time\" had no antecedent. Cut the clause."
+}
