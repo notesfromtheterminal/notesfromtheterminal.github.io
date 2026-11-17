@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-17-philippines-national-ai-council",
+  "publishedAt": "2026-11-17T22:10:00+07:00",
+  "section": "sea",
+  "tags": ["rules"],
+  "headline": "Philippines establishes National AI Council and adopts an AI governance framework",
+  "body": "President Ferdinand Marcos Jr. established a National Artificial Intelligence Council under Executive Order No. 131, signed on November 12, and the country adopted a national AI Governance Framework, ABS-CBN News reported. The council must review the framework at least once every two years.",
+  "note": "The order sets up a coordinating body for AI policy and regulation. Banks and fintechs in the Philippines may want to watch what the council issues.",
+  "sources": [{ "name": "Fintech News Philippines", "url": "https://fintechnews.ph/74443/ai/ai-council-philippines-executive-order-131/" }],
+  "evidence": [
+    { "source": 0, "text": "President Ferdinand Marcos Jr. has established a National Artificial Intelligence Council (NAIC) to oversee the development and use of AI in the Philippines." },
+    { "source": 0, "text": "Under Executive Order No. 131, signed on 12 November, the country has also adopted a national AI Governance Framework, ABS-CBN News reported." },
+    { "source": 0, "text": "The NAIC must review the AI Governance Framework at least once every two years, or sooner if significant technological, regulatory or market developments warrant changes." },
+    { "source": 0, "text": "Executive Order 131 tasks the new council with coordinating AI policy and regulation, with the national framework due for review at least every two years." }
+  ]
+}
