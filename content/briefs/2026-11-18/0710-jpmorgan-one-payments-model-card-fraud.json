@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-18-jpmorgan-one-payments-model-card-fraud",
+  "publishedAt": "2026-11-18T07:10:00+07:00",
+  "section": "banking",
+  "tags": ["payments"],
+  "star": true,
+  "company": "JPMorgan",
+  "headline": "JPMorgan's single AI model improved card fraud detection by up to 85.5%, its paper says",
+  "body": "JPMorgan built a single AI model for fraud detection, payment authorization predictions and retries, trained on up to 400 billion tokens of card, ACH and wire transaction data. Compared with the bank's task-specific models, the researchers wrote that card fraud detection improved by up to 85.5%, measured by average precision. The paper includes no figures on fraud losses, false declines or cost savings.",
+  "note": "The second version reads up to six months of prior transactions tied to the same party, and that history pushed the fraud detection gain to 85.5%. Every result is measured on JPMorgan's own card and treasury payments, and the paper does not test against a public benchmark.",
+  "figure": { "value": "85.5%", "label": "Card fraud detection gain, up to, over task-specific models" },
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/jpmorgan-builds-one-ai-model-to-catch-85-more-fraud/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "JPMorgan built a single AI model for fraud detection, payment authorization predictions and retries, trained on up to 400 billion tokens of card, ACH and wire transaction data." },
+    { "source": 0, "text": "The model improved card fraud detection by up to 85.5%, ACH fraud detection by 27.4% and payment retry predictions by 22.8% compared with the bank’s task-specific models." },
+    { "source": 0, "text": "The measure, average precision, tracks how well a model ranks rare fraud cases above legitimate payments, the researchers said." },
+    { "source": 0, "text": "Building a separate model for each one means teaching every model the same payment patterns again, the bank’s researchers wrote in a paper published Nov. 11." },
+    { "source": 0, "text": "The paper does not name those models, give their absolute scores or test LPM against a public benchmark." },
+    { "source": 0, "text": "It includes no figures on fraud losses, false declines or cost savings." },
+    { "source": 0, "text": "Every result is a gain over JPMorgan’s own single-task models, measured on the bank’s own card and treasury payments, the researchers said." },
+    { "source": 0, "text": "The second version reads up to six months of prior transactions tied to the same party." },
+    { "source": 0, "text": "That history pushed the fraud detection gain to 85.5%." }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-18-jpmorgan-hyundai-card-ai-agent-fx-trial",
+  "publishedAt": "2026-11-18T07:10:00+07:00",
+  "section": "banking",
+  "tags": ["payments"],
+  "company": "JPMorgan",
+  "headline": "JPMorgan and Hyundai Card completed an initial trial of AI agent FX transactions",
+  "body": "JPMorgan and Hyundai Card completed a proof-of-concept in which AI agents carried out simulated foreign exchange transactions without direct human intervention. Wee Kee Toh, global head of Kinexys Insights, told CNBC that governance and internal controls proved more difficult than building the technology itself. The companies are targeting the first half of 2027 for a more complex phase involving multiple AI agents.",
+  "note": "The hard part, Toh said, is governance and accountability. Kinexys developed a framework that restricts AI agents to predefined transaction parameters, and JPMorgan has yet to set a timeline for commercializing the technology.",
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/18/jpmorgan-hyundai-card-ai-agents-payments.html" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "JPMorgan and Hyundai Card completed a proof-of-concept in which AI agents carried out simulated foreign exchange transactions without direct human intervention." },
+    { "source": 0, "text": "Wee Kee Toh, global head of Kinexys Insights at Kinexys by JP Morgan, told CNBC that the next step is to test what happens when autonomous agents move beyond execution and begin interacting with each other in an ecosystem." },
+    { "source": 0, "text": "Toh said building the technology itself was relatively straightforward, but establishing appropriate governance and internal controls proved more difficult." },
+    { "source": 0, "text": "The companies have completed an initial proof-of-concept involving a simulated foreign exchange transaction and are targeting the first half of 2027 for a more complex phase involving multiple AI agents." },
+    { "source": 0, "text": "While the initial trial has been completed, JPMorgan has yet to set a timeline for commercializing the technology." },
+    { "source": 0, "text": "Kinexys developed a framework that restricts AI agents to predefined transaction parameters, automatically rejecting requests that fall outside authorized limits." },
+    { "source": 0, "text": "pointing instead to questions around accountability and the risks of allowing AI agents to execute financial transactions without direct human oversight." }
+  ]
+}
