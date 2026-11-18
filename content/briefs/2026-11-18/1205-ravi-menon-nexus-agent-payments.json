@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-18-ravi-menon-nexus-agent-payments",
+  "publishedAt": "2026-11-18T12:05:00+07:00",
+  "section": "payments",
+  "tags": ["sea"],
+  "star": true,
+  "company": "Project Nexus",
+  "headline": "Ravi Menon called for common standards for AI agents that pay across borders",
+  "body": "Ravi Menon, chairman of the Global Finance & Technology Network (GFTN), reiterated that Project Nexus is targeting a 2027 launch for a network that would link instant payment systems in five Southeast Asian countries and India. He drew a parallel with Project Nexus when discussing what it would take for AI agents to make payments across borders, and said the agents need interoperable standards for agent identity and authorisation.",
+  "note": "Each payment system would connect to one shared gateway, and for payment firms the open question is whether agent authorisation can be standardised across borders in the same way.",
+  "sources": [
+    { "name": "Fintech News Singapore", "url": "https://fintechnews.sg/141521/payments/ravi-menon-project-nexus-ai-agent-payments/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Project Nexus is targeting a 2027 launch for a network that would link instant payment systems in five Southeast Asian countries and India." },
+    { "source": 0, "text": "Global Finance & Technology Network (GFTN) Chairman Ravi Menon reiterated the target at the opening of the Singapore Fintech Festival on 18 November." },
+    { "source": 0, "text": "Each participating payment system would connect to a shared gateway to reach the other markets on the network without setting up a separate link with each one." },
+    { "source": 0, "text": "He drew a parallel with Project Nexus when discussing what it would take for AI agents to make payments across borders." },
+    { "source": 0, "text": "Menon called for common standards to verify AI agents and check what they’re authorised to do when paying across borders." },
+    { "source": 0, "text": "“What Nexus is doing for payment systems, we now need to do for agentic AI: interoperable standards for agent identity and authorisation, so that an agent trusted in one jurisdiction can transact in another,”" }
+  ]
+}

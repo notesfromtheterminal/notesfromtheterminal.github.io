@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-18-amazon-google-anthropic-stakes-ipo",
+  "publishedAt": "2026-11-18T12:05:00+07:00",
+  "section": "deals",
+  "company": "Anthropic",
+  "headline": "Amazon and Google will hold about 15% and just under 14% of Anthropic in IPO",
+  "body": "Amazon's conversion would give it about 15% ownership of Anthropic, and Google will own just under 14%, both in non-voting shares. If Amazon converted all of its notes now, it would own just under 24% of Anthropic.",
+  "note": "For investors, the non-voting structure means the two cloud companies would hold large Anthropic stakes without voting power in the lab.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Amazon has opted to convert a chunk of them as part of the IPO into a special class of non-voting shares that will give it about 15% ownership." },
+    { "source": 0, "text": "Google, meanwhile, will own just under 14% (13.7%), also in non-voting shares, which come from the conversion of notes, as well as the “private placement” sale of shares as part of this IPO." },
+    { "source": 0, "text": "If it converted them all right now, it would own just under 24% of Anthropic (23.8% to be precise)." }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-18-google-gemini-tasks-expands",
+  "publishedAt": "2026-11-18T12:05:00+07:00",
+  "section": "models",
+  "tags": ["payments"],
+  "company": "Google",
+  "headline": "Google is expanding Gemini Tasks, which can book appointments and make purchases",
+  "body": "Google says Tasks can call businesses and book appointments for users, and complete purchases via Google Pay. The feature was initially launched to select testers in May as Gemini Spark, and Google is now making it available for free to hundreds of millions of people using Gemini 4 Hydrogen.",
+  "note": "For payment firms, the change is that an assistant can now complete purchases via Google Pay for hundreds of millions of people using Gemini 4 Hydrogen.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Google is expanding the rollout of Tasks, a toggle in Gemini that converts the chatbot into a more active helper." },
+    { "source": 0, "text": "Google says that the app can call businesses and book appointments on users’ behalf; it can also complete purchases for them via Google Pay, and even sign into websites securely if prompted to do so." },
+    { "source": 0, "text": "Tasks was initially launched to select testers back in May as Gemini Spark, a 24/7 agentic helper, and was expanded to U.S. subscribers of its Google AI Ultra tier." },
+    { "source": 0, "text": "Google is now making the feature available for free to hundreds of millions of people who are using the company’s new Gemini 4 Hydrogen model." }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-18-singapore-fintech-ai-survey-4-percent",
+  "publishedAt": "2026-11-18T12:05:00+07:00",
+  "section": "sea",
+  "tags": ["payments"],
+  "company": "Airwallex",
+  "headline": "Only 4% of Singapore fintechs say new revenue is AI's top benefit",
+  "body": "A report from the Singapore Fintech Association (SFA), Airwallex and Kapronasia surveyed 100 fintech leaders in Singapore. Only 4 percent of respondents name new revenue as AI's biggest benefit, while lower operating costs were the most common answer at 41 percent.",
+  "note": "Most of these firms have deployed AI, and how they manage their own data was the most common barrier to wider use, cited by 63 percent of respondents.",
+  "figure": { "value": "4%", "label": "of surveyed fintechs name new revenue as top AI benefit" },
+  "sources": [
+    { "name": "Fintech News Singapore", "url": "https://fintechnews.sg/141459/ai/singapore-fintech-ai-adoption/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "More than eight in ten Singapore fintechs surveyed have deployed artificial intelligence (AI), yet only 4 percent of respondents name new revenue as its biggest benefit." },
+    { "source": 0, "text": "The Singapore Fintech Association (SFA) , Airwallex and Kapronasia released the report, The AI Inflection Point: Rewiring Fintech , on 18 November at the Singapore Fintech Festival." },
+    { "source": 0, "text": "They surveyed 100 fintech leaders in Singapore and interviewed 10 senior industry practitioners." },
+    { "source": 0, "text": "Lower operating costs were the most common answer at 41 percent." },
+    { "source": 0, "text": "How firms manage their own data was the most common barrier to expanding AI use, cited by 63 percent of respondents." }
+  ]
+}

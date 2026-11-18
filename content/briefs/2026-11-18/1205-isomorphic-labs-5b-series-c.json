@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-18-isomorphic-labs-5b-series-c",
+  "publishedAt": "2026-11-18T12:05:00+07:00",
+  "section": "deals",
+  "star": true,
+  "company": "Isomorphic Labs",
+  "headline": "Isomorphic Labs raises $5 billion Series C for AI drug design",
+  "body": "Isomorphic Labs, the AI drug discovery startup founded by Demis Hassabis, has raised a $5 billion Series C, the company said. The round was co-led by Greenoaks and Sequoia Capital. Isomorphic last raised in May, with a $2.1 billion Series B.",
+  "note": "For finance readers, the round is a sign of how much capital is moving into AI drug discovery: Dealroom counts $23.2 billion raised by drug discovery startups in 2026, a record.",
+  "figure": { "value": "$5B", "label": "Series C raised by Isomorphic Labs" },
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/17/isomorphic-labs-series-c-ai-drug-discovery-.html" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Isomorphic Labs, an artificial intelligence drug discovery startup founded by former Google DeepMind chief Demis Hassabis, has raised a $5 billion Series C, the company said on Tuesday." },
+    { "source": 0, "text": "The round was co-led by Greenoaks and Sequoia Capital, alongside Andreessen Horowitz, with investment from Alphabet , Google's parent." },
+    { "source": 0, "text": "The fresh funds will help fund the design and development of new medicines using AI." },
+    { "source": 0, "text": "Isomorphic last raised in May, with a $2.1 billion Series B." },
+    { "source": 0, "text": "Drug discovery startups have raised $23.2 billion in 2026, according to deal-counting platform Dealroom, a record figure." }
+  ]
+}
