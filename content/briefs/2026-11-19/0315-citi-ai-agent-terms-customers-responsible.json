@@ -1,0 +1,24 @@
+{
+  "id": "2026-11-19-citi-ai-agent-terms-customers-responsible",
+  "publishedAt": "2026-11-19T03:15:00+07:00",
+  "section": "banking",
+  "tags": ["payments"],
+  "star": true,
+  "company": "Citi",
+  "headline": "Citi changed its terms to make customers responsible for third-party AI agents",
+  "body": "Customers who grant third-party AI agents account access are responsible for activities conducted through those agents, a Citi spokesperson told TechCrunch. TechCrunch reports that Citi’s update goes beyond that: if the AI tool leaks credentials or is hacked, the customer is responsible for anything hackers do with the account. JPMorgan and Bank of America announced similar policies last month, and PNC changed its terms too.",
+  "note": "The terms put responsibility for agent activity on the account holder.  TechCrunch also says banks view AI tools' push into their franchise as a competitive threat.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/" }
+  ],
+  "wire": ["cdbe2595664a"],
+  "evidence": [
+    { "source": 0, "text": "Citibank, the third largest commercial bank in the United States, changed its terms of service this week, telling customers who use third-party AI tools for personal finance that anything that goes wrong is their problem — even if they get hacked." },
+    { "source": 0, "text": "“As third-party AI tools become more widely available, we want customers to understand the risks associated with sharing banking credentials or authorizing those tools to access their accounts,” a Citi spokesperson told TechCrunch." },
+    { "source": 0, "text": "We recently updated our Online User Agreement to provide greater clarity about those risks and to reinforce that customers who choose to grant account access to third-party AI agents are responsible for activities conducted through those agents." },
+    { "source": 0, "text": "Citi’s update goes beyond telling customers that they are responsible for anything their agents may do; it also informs them that if the AI tool leaks their credentials or is hacked, the customer will be responsible for anything hackers do with their account." },
+    { "source": 0, "text": "JPMorgan and Bank of America , the two largest banks in the country, announced similar policies last month." },
+    { "source": 0, "text": "And PNC, the eighth largest bank, changed its terms today." },
+    { "source": 0, "text": "Beyond cybersecurity concerns, banks also view efforts to enter their franchise as a competitive threat." }
+  ]
+}

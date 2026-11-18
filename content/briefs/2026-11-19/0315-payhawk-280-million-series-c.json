@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-19-payhawk-280-million-series-c",
+  "publishedAt": "2026-11-19T03:15:00+07:00",
+  "section": "deals",
+  "tags": ["payments"],
+  "company": "Payhawk",
+  "headline": "Payhawk raised $280 million in a Series C round led by Goldman Sachs Alternatives",
+  "body": "Payhawk raised $280 million in a Series C round led by Growth Equity at Goldman Sachs Alternatives, the company said in a press release on Wednesday. The round values Payhawk at $2 billion, and its total funding is more than $515 million. Payhawk says it will keep building a finance operating system around AI agents, payments and enterprise controls.",
+  "note": "The release says the controls decide whether an agent or a human makes a decision, which is where spend management and agent payments meet.",
+  "figure": { "value": "$280M", "label": "Series C round, per Payhawk's press release" },
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/startups/2026/payhawk-raises-280-million-dollars-expand-expense-management-platform-into-finance-operating-system/" }
+  ],
+  "wire": ["c9607d76e780"],
+  "evidence": [
+    { "source": 0, "text": "Payhawk raised $280 million in a Series C funding round to fuel its effort to move beyond expense management and build a financial operating system that brings together artificial intelligence agents, payments and enterprise controls, the company said in a Wednesday (Nov. 18) press release." },
+    { "source": 0, "text": "The round values Payhawk at $2 billion and brings the company’s total funding to more than $515 million, according to the release." },
+    { "source": 0, "text": "Payhawk’s Series C round was led by Growth Equity at Goldman Sachs Alternatives ." },
+    { "source": 0, "text": "With the new capital, Payhawk will continue building its Finance Operating System around AI agents that perform financial work; payments infrastructure that allows agents to safely interact with money; and enterprise controls that determine whether a decision can be made by an agent or requires a human, per the release." }
+  ]
+}
