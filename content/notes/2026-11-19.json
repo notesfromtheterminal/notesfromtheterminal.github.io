@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-19",
+  "publishedAt": "2026-11-19T07:00:00+07:00",
+  "title": "Agent payments are moving into shared testing",
+  "dek": "Standards, card-network programs and a bank trial all point at one question: how an AI agent gets trusted to pay.",
+  "lead": "2026-11-18-ravi-menon-nexus-agent-payments",
+  "stories": [
+    "2026-11-18-visa-agentic-ready-merchant-expansion",
+    "2026-11-18-jpmorgan-hyundai-card-ai-agent-fx-trial",
+    "2026-11-18-uob-stanchart-mas-ai-stress-test"
+  ],
+  "body": [
+    {
+      "head": "A call for common agent standards",
+      "text": "At the opening of the Singapore Fintech Festival on 18 November, Ravi Menon, chairman of the Global Finance & Technology Network, drew a parallel with Project Nexus when discussing what it would take for AI agents to make payments across borders. He said we now need interoperable standards for agent identity and authorisation, where an agent trusted in one jurisdiction can transact in another.",
+      "support": [
+        "Global Finance & Technology Network (GFTN) Chairman Ravi Menon reiterated the target at the opening of the Singapore Fintech Festival on 18 November.",
+        "He drew a parallel with Project Nexus when discussing what it would take for AI agents to make payments across borders.",
+        "“What Nexus is doing for payment systems, we now need to do for agentic AI: interoperable standards for agent identity and authorisation, so that an agent trusted in one jurisdiction can transact in another,”"
+      ]
+    },
+    {
+      "head": "Visa opens testing to merchants",
+      "text": "Visa is expanding its Agentic Ready program to the merchant acceptance ecosystem, adding partners including PayPal, Adyen and Fiserv. The program is kicking off with 140-plus participants, Visa said, and Stripe is among the companies joining with this expansion.",
+      "support": [
+        "Visa is expanding its Agentic Ready program to the merchant acceptance ecosystem, adding several new partners including PayPal , Adyen and Fiserv .",
+        "The program is kicking off with 140-plus participants, with more financial institutions, merchants and enablers expected to join throughout next year, Visa said.",
+        "Other companies joining the program with this latest expansion include Antom , Billtrust , Checkout.com , Global Payments , and Stripe , the release said."
+      ]
+    },
+    {
+      "head": "A bank trial puts controls first",
+      "text": "JPMorgan and Hyundai Card completed a proof-of-concept in which AI agents carried out simulated foreign exchange transactions without direct human intervention. Wee Kee Toh, global head of Kinexys Insights, said establishing appropriate governance and internal controls proved more difficult than building the technology itself, and the companies are targeting the first half of 2027 for a more complex phase involving multiple AI agents.",
+      "support": [
+        "JPMorgan and Hyundai Card completed a proof-of-concept in which AI agents carried out simulated foreign exchange transactions without direct human intervention.",
+        "Wee Kee Toh, global head of Kinexys Insights at Kinexys by JP Morgan, told CNBC that the next step is to test what happens when autonomous agents move beyond execution and begin interacting with each other in an ecosystem.",
+        "Toh said building the technology itself was relatively straightforward, but establishing appropriate governance and internal controls proved more difficult.",
+        "The companies have completed an initial proof-of-concept involving a simulated foreign exchange transaction and are targeting the first half of 2027 for a more complex phase involving multiple AI agents."
+      ]
+    },
+    {
+      "head": "Singapore tests AI with real firms",
+      "text": "In Singapore, the A*STAR Institute of Advanced Intelligence and Computing signed an MoU with the Future of Finance Institute, which the Monetary Authority of Singapore (MAS) set up. They will test AI systems with the finance firms that take part, UOB and Standard Chartered are the first to join, and the two will look for risks and gaps in how these systems perform.",
+      "support": [
+        "The A*STAR Institute of Advanced Intelligence and Computing (A*STAR IAIC) has signed an MoU with the Future of Finance Institute (FFI)",
+        "FFI was set up by the Monetary Authority of Singapore (MAS)",
+        "A*STAR IAIC and FFI will test AI systems with the finance firms that take part.",
+        "Together, they will look for risks and gaps in how these systems perform.",
+        "UOB and Standard Chartered are the first to join."
+      ]
+    },
+    {
+      "head": "What to watch in your own shop",
+      "text": "Placed side by side, these stories describe a standards call, a card-network program and a bank trial aimed at agents that pay, plus a regulator-linked effort to test AI with finance firms. For anyone in payments or risk, a useful question to ask is who in your own firm owns the controls on an agent that pays."
+    }
+  ]
+}
