@@ -2,7 +2,7 @@
   "date": "2026-11-19",
   "publishedAt": "2026-11-19T07:00:00+07:00",
   "title": "Agent payments are moving into shared testing",
-  "dek": "Standards, card-network programs, bank trials and Singapore testing all point at one question: how an AI agent gets trusted to pay.",
+  "dek": "Standards, card-network programs and a bank trial all point at one question: how an AI agent gets trusted to pay.",
   "lead": "2026-11-18-ravi-menon-nexus-agent-payments",
   "stories": [
     "2026-11-18-visa-agentic-ready-merchant-expansion",
@@ -40,7 +40,7 @@
     },
     {
       "head": "Singapore tests AI with real firms",
-      "text": "Meanwhile in Singapore, the A*STAR Institute of Advanced Intelligence and Computing signed an MoU with the Future of Finance Institute, which the Monetary Authority of Singapore (MAS) set up. They will test AI systems with the finance firms that take part, UOB and Standard Chartered are the first to join, and the two will look for risks and gaps in how these systems perform.",
+      "text": "In Singapore, the A*STAR Institute of Advanced Intelligence and Computing signed an MoU with the Future of Finance Institute, which the Monetary Authority of Singapore (MAS) set up. They will test AI systems with the finance firms that take part, UOB and Standard Chartered are the first to join, and the two will look for risks and gaps in how these systems perform.",
       "support": [
         "The A*STAR Institute of Advanced Intelligence and Computing (A*STAR IAIC) has signed an MoU with the Future of Finance Institute (FFI)",
         "FFI was set up by the Monetary Authority of Singapore (MAS)",
@@ -51,7 +51,7 @@
     },
     {
       "head": "What to watch in your own shop",
-      "text": "Placed side by side, these stories describe a standards call, a card-network program, a bank trial and a regulator-linked testing effort, each aimed at agents that pay. For anyone in payments or risk, a useful question to ask is who in your own firm owns the controls on an agent that pays."
+      "text": "Placed side by side, these stories describe a standards call, a card-network program and a bank trial aimed at agents that pay, plus a regulator-linked effort to test AI with finance firms. For anyone in payments or risk, a useful question to ask is who in your own firm owns the controls on an agent that pays."
     }
   ]
 }
