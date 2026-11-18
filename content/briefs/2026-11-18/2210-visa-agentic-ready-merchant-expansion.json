@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-18-visa-agentic-ready-merchant-expansion",
+  "publishedAt": "2026-11-18T22:10:00+07:00",
+  "section": "payments",
+  "company": "Visa",
+  "headline": "Visa expands Agentic Ready program to merchants, with PayPal, Adyen and Stripe joining",
+  "body": "Visa is expanding its Agentic Ready program to the merchant acceptance ecosystem, adding partners including PayPal, Adyen and Fiserv. The program is kicking off with 140-plus participants, Visa said, with more financial institutions, merchants and enablers expected to join throughout next year.",
+  "note": "Card networks are moving agent payments from announcements to shared testing with the firms that process the transactions. Banks and acquirers will want to see how the tests recognize agent-initiated payments.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/visa-adds-paypal-and-stripe-to-agentic-ready-program/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Visa is expanding its Agentic Ready program to the merchant acceptance ecosystem, adding several new partners including PayPal , Adyen and Fiserv ." },
+    { "source": 0, "text": "The program is kicking off with 140-plus participants, with more financial institutions, merchants and enablers expected to join throughout next year, Visa said." },
+    { "source": 0, "text": "Other companies joining the program with this latest expansion include Antom , Billtrust , Checkout.com , Global Payments , and Stripe , the release said." }
+  ]
+}
