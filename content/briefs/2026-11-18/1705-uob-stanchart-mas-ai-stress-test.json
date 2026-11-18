@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-18-uob-stanchart-mas-ai-stress-test",
+  "publishedAt": "2026-11-18T17:05:00+07:00",
+  "section": "sea",
+  "tags": ["banking"],
+  "company": "UOB",
+  "headline": "UOB and Standard Chartered are first to join MAS-backed AI stress-test effort",
+  "body": "A*STAR's Institute of Advanced Intelligence and Computing and the Future of Finance Institute (FFI), which MAS set up, signed an MoU to advance AI research for finance. Work will first focus on MERaLiON, A*STAR's multilingual AI model, and on how AI systems perform when firms test them. UOB and Standard Chartered are the first to join.",
+  "note": "For banks, the focus is on how AI systems perform in use, with risks and gaps as the things the partners will look for.",
+  "sources": [
+    { "name": "Fintech News Singapore", "url": "https://fintechnews.sg/141600/ai/mas-ai-research-collaboration-astar-ffi/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "UOB, StanChart Join MAS-Backed Effort to Stress-Test AI for Finance" },
+    { "source": 0, "text": "The A*STAR Institute of Advanced Intelligence and Computing (A*STAR IAIC) has signed an MoU with the Future of Finance Institute (FFI)" },
+    { "source": 0, "text": "FFI was set up by the Monetary Authority of Singapore (MAS)" },
+    { "source": 0, "text": "Both aim to advance AI research and bring it into the finance sector faster." },
+    { "source": 0, "text": "Work will first focus on two areas." },
+    { "source": 0, "text": "One is MERaLiON, the multilingual AI model built by A*STAR." },
+    { "source": 0, "text": "The second area tests how well AI works in practice." },
+    { "source": 0, "text": "A*STAR IAIC and FFI will test AI systems with the finance firms that take part." },
+    { "source": 0, "text": "Together, they will look for risks and gaps in how these systems perform." },
+    { "source": 0, "text": "UOB and Standard Chartered are the first to join." }
+  ]
+}
