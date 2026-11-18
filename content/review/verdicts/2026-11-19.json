@@ -1,0 +1,7 @@
+{
+  "note": "2026-11-19",
+  "commit": "f8e910a62b7b608300b8ec8b6c0e8aaa07a62198",
+  "verdict": "APPROVED",
+  "at": "2026-11-18T16:46:45.454Z",
+  "notes": "Fixed by the review run, then approved:\n1. Dek: note said \"Standards, card-network programs, bank trials and Singapore testing all point at one question: how an AI agent gets trusted to pay.\" The A*STAR/FFI source covers testing AI systems with finance firms and never mentions agents or payments. New: \"Standards, card-network programs and a bank trial all point at one question: how an AI agent gets trusted to pay.\"\n2. Last section: note said the four stories were \"each aimed at agents that pay\", same unsupported claim for the Singapore effort. Source: \"A*STAR IAIC and FFI will test AI systems with the finance firms that take part.\" New: \"...a standards call, a card-network program and a bank trial aimed at agents that pay, plus a regulator-linked effort to test AI with finance firms.\"\n3. Section 4: \"Meanwhile in Singapore\" (checker flagged \"meanwhile\", no timing in source) became \"In Singapore\"."
+}
