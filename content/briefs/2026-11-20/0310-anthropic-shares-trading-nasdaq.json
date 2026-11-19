@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-20-anthropic-shares-trading-nasdaq",
+  "publishedAt": "2026-11-20T03:10:00+07:00",
+  "section": "deals",
+  "tags": ["models"],
+  "star": true,
+  "company": "Anthropic",
+  "headline": "Anthropic shares trading on Nasdaq at $111.50, a 33% premium to IPO price",
+  "body": "Anthropic shares are now trading on the Nasdaq exchange. In the early minutes of availability, shares were trading at $111.50, a 33% premium over the $83 IPO price. The IPO price was already higher than the projected range of $70 to $78 per share, and the offering will raise over $81 billion.",
+  "note": "Shares were higher than the projected range, and TechCrunch says the share price continues to fluctuate.",
+  "figure": {
+    "value": "$111.50",
+    "label": "early trading price, against an $83 IPO price"
+  },
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Shares of Anthropic are now trading on the Nasdaq exchange, as the company successfully executes its initial public offering." },
+    { "source": 0, "text": "In the early minutes of availability, shares were trading at $111.50, a 33% premium over the $83 IPO price." },
+    { "source": 0, "text": "Set on Wednesday, the IPO price was already higher than the projected range set by the company, which anticipated a price between $70 and $78 per share." },
+    { "source": 0, "text": "All told, the offering will raise over $81 billion, directed to a combination of employees and the company’s own coffers." },
+    { "source": 0, "text": "The share price continues to fluctuate, but the opening price would put the company’s market cap over $2 trillion, making it more valuable than Meta, Tesla, or Walmart." }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "2026-11-20-mas-national-ai-missions-financial-services",
+  "publishedAt": "2026-11-20T03:10:00+07:00",
+  "section": "sea",
+  "tags": [
+    "banking",
+    "payments"
+  ],
+  "star": true,
+  "company": "Monetary Authority of Singapore",
+  "headline": "MAS announced three national AI missions for financial services",
+  "body": "At the Singapore FinTech Festival on 18 November, Gan Kim Yong announced three National AI Missions for Financial Services focused on financial crime prevention, SME financing and safe agentic transactions. MAS and the Future of Finance Institute also jointly announced initiatives in support of the missions.",
+  "note": "Financial crime and agentic transactions are the two missions closest to bank and payments operations.",
+  "sources": [
+    {
+      "name": "MAS",
+      "url": "https://www.mas.gov.sg/news/media-releases/2026/singapore-fintech-festival-2026-explores-rewiring-of-global-finance"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "At the Singapore FinTech Festival 2026, Mr Gan Kim Yong, Deputy Prime Minister, Minister for Energy, Trade and Industry (Trade), and Chairman of MAS, announced three National AI Missions for Financial Services focused on financial crime prevention, SME financing and safe agentic transactions."
+    },
+    {
+      "source": 0,
+      "text": "MAS and the Future of Finance Institute (FFI) jointly announced initiatives in support of the National AI Missions for financial services."
+    },
+    {
+      "source": 0,
+      "text": "Ministerial Keynote by Mr Gan Kim Yong, Deputy Prime Minister and Minister for Energy, Trade and Industry (Trade), and Chairman of the Monetary Authority of Singapore, at the Singapore FinTech Festival 2026 on 18 November 2026"
+    }
+  ]
+}

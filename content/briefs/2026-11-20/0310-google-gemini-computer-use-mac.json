@@ -1,0 +1,29 @@
+{
+  "id": "2026-11-20-google-gemini-computer-use-mac",
+  "publishedAt": "2026-11-20T03:10:00+07:00",
+  "section": "models",
+  "company": "Google",
+  "headline": "Google is bringing computer use to Gemini on macOS",
+  "body": "Google announced on Thursday that it is bringing computer use to its Gemini desktop application on macOS, allowing the AI to complete tasks on users’ behalf in native Mac apps and websites in the background. The feature is initially available in English in the U.S. and requires a Google AI Plus, Pro, or Ultra subscription.",
+  "note": "TechCrunch says Google is a little late, with OpenAI, Anthropic and Meta already offering agentic features in their desktop applications for some time.",
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Google on Thursday announced that it is bringing computer use to its Gemini desktop application on macOS, allowing its AI to complete tasks on users’ behalf, navigating native Mac apps, and browsing websites in the background."
+    },
+    {
+      "source": 0,
+      "text": "The tech giant is a little late to the game with this launch, as other leading AI model makers like OpenAI, Anthropic, and Meta have already been offering agentic features in their desktop applications for some time."
+    },
+    {
+      "source": 0,
+      "text": "The feature is initially available in English in the U.S. and requires the Gemini app for Mac and a Google AI Plus, Pro, or Ultra subscription."
+    }
+  ]
+}
