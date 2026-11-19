@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-20",
+  "publishedAt": "2026-11-20T07:00:00+07:00",
+  "title": "Who answers for an agent's mistake?",
+  "dek": "A regulator, a bank and two firms with agents at work each draw a line around who decides and who is responsible.",
+  "lead": "2026-11-19-mas-chia-agents-bank-login",
+  "stories": [
+    "2026-11-19-citi-ai-agent-terms-customers-responsible",
+    "2026-11-19-payhawk-280-million-series-c",
+    "2026-11-19-wtw-ai-agents-benefits-vendors"
+  ],
+  "body": [
+    {
+      "head": "A regulator asks about responsibility",
+      "text": "Chia Der Jiun, Managing Director of the Monetary Authority of Singapore (MAS), said some users are giving agents their login credentials to financial accounts, and that he would not advise it. He also questioned who would be responsible if an agent made a mistake or acted beyond its instructions, and MAS plans to help develop a \"know your agent\" protocol so banks can check.",
+      "support": [
+        "“Some users are giving agents their login credentials to financial accounts. I would not advise giving personal agents such access, as there is insufficient assurance of safety,”",
+        "said Chia Der Jiun, Managing Director of MAS.",
+        "He also questioned who would be responsible if the agent made a mistake or acted beyond those instructions.",
+        "The Monetary Authority of Singapore (MAS) plans to help develop a “know your agent” protocol so banks can check."
+      ]
+    },
+    {
+      "head": "One bank has answered already",
+      "text": "Citi told TechCrunch that customers who choose to grant account access to third-party AI agents are responsible for activities conducted through those agents. TechCrunch reports that the update goes further: if the AI tool leaks credentials or is hacked, the customer is responsible for anything hackers do with the account. JPMorgan and Bank of America announced similar policies last month, and PNC changed its terms too.",
+      "support": [
+        "We recently updated our Online User Agreement to provide greater clarity about those risks and to reinforce that customers who choose to grant account access to third-party AI agents are responsible for activities conducted through those agents.",
+        "Citi’s update goes beyond telling customers that they are responsible for anything their agents may do; it also informs them that if the AI tool leaks their credentials or is hacked, the customer will be responsible for anything hackers do with their account.",
+        "JPMorgan and Bank of America , the two largest banks in the country, announced similar policies last month.",
+        "And PNC, the eighth largest bank, changed its terms today."
+      ]
+    },
+    {
+      "head": "Firms draw lines inside the agent",
+      "text": "Inside firms, the same question shows up as who decides. Payhawk, which raised $280 million in a Series C round, says its Finance Operating System will include enterprise controls that determine whether a decision can be made by an agent or requires a human. At WTW, an insurance broker and benefits consultant, human analysts retain final control over benefits eligibility and coverage decisions, while the agents now manage that work end to end for 160 vendors across more than 20 clients.",
+      "support": [
+        "Payhawk raised $280 million in a Series C funding round to fuel its effort to move beyond expense management and build a financial operating system that brings together artificial intelligence agents, payments and enterprise controls, the company said in a Wednesday (Nov. 18) press release.",
+        "With the new capital, Payhawk will continue building its Finance Operating System around AI agents that perform financial work; payments infrastructure that allows agents to safely interact with money; and enterprise controls that determine whether a decision can be made by an agent or requires a human, per the release.",
+        "The company serves 12 million employees, dependents and retirees, with human analysts retaining final control over benefits eligibility and coverage decisions.",
+        "Large U.S. employers hire WTW, an insurance broker and benefits consultant, to run their health, insurance and pension benefits.",
+        "The agents now manage that work end to end for 160 vendors across more than 20 clients, WTW CEO Carl Hess said on the company's third-quarter earnings call."
+      ]
+    },
+    {
+      "head": "What to ask in your own shop",
+      "text": "Placed side by side, these stories describe a regulator asking the question, a bank answering it in its terms, and two firms writing the answer into how work is split between agents and people. For anyone in risk or operations, a useful question is which of your agents can act without a person, and who signs for them when they do."
+    }
+  ]
+}
