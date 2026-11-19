@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-19-palo-alto-applied-compute-4-5-billion",
+  "publishedAt": "2026-11-19T07:14:00+07:00",
+  "section": "deals",
+  "tags": ["payments"],
+  "company": "Palo Alto Networks",
+  "headline": "Palo Alto Networks to buy AI startup Applied Compute for $4.5 billion",
+  "body": "Palo Alto Networks is buying AI startup Applied Compute for $4.5 billion in an all-stock deal. Arora said the deal will help businesses secure open-weight models as adoption grows. CNBC says it marks a major investment for Palo Alto beyond cybersecurity.",
+  "note": "The startup helps businesses run and customize their own AI models, which takes Palo Alto beyond cybersecurity.",
+  "figure": { "value": "$4.5B", "label": "all-stock deal value" },
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "The company is buying AI startup Applied Compute for $4.5 billion." },
+    { "source": 0, "text": "Arora said the company's $4.5 billion all-stock deal for Applied Compute will help businesses secure open-weight models as adoption grows." },
+    { "source": 0, "text": "The startup helps businesses run and customize their own AI models and marks a major investment for Palo Alto beyond cybersecurity." }
+  ]
+}

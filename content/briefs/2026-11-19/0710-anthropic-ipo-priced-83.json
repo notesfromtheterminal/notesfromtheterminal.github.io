@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-19-anthropic-ipo-priced-83-a-share",
+  "publishedAt": "2026-11-19T07:10:00+07:00",
+  "section": "deals",
+  "tags": [
+    "models"
+  ],
+  "star": true,
+  "company": "Anthropic",
+  "headline": "Anthropic reportedly prices IPO at $83 a share, above expected range",
+  "body": "Anthropic reportedly priced its IPO at $83 per share, above its expected range of $70 to $78, according to TechCrunch. CNBC says the company sold about 980 million shares, raising $81.3 billion, according to a press release. The stock is expected to begin trading on Nasdaq on Thursday under the ticker ANT.",
+  "note": "CNBC calls the listing a major test for the AI industry, which has faced recent shocks. Trading on Thursday will be the next read on investor appetite.",
+  "figure": {
+    "value": "$81.3B",
+    "label": "raised in the IPO, per CNBC"
+  },
+  "sources": [
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Anthropic priced its IPO at $83 per share on Wednesday, above the expected range, setting the stage for the Claude creator's eagerly awaited Nasdaq listing and a historic moment for the artificial intelligence industry."
+    },
+    {
+      "source": 0,
+      "text": "The company, along with its seven co-founders, upsized the offering, selling about 980 million shares, according to a press release ."
+    },
+    {
+      "source": 0,
+      "text": "That brings the amount raised to $81.3 billion, surpassing SpaceX, which held a record IPO in June."
+    },
+    {
+      "source": 0,
+      "text": "The stock is expected to begin trading on the Nasdaq on Thursday under the ticker symbol \"ANT.\""
+    },
+    {
+      "source": 0,
+      "text": "After publicly unveiling its prospectus in October, Anthropic updated the document last week with an expected price range between $70 and $78 per share."
+    },
+    {
+      "source": 0,
+      "text": "The listing is a major test for the AI industry, which has experienced a set of recent shocks, including a dramatic backlash that was felt at the polls in the midterm elections and last week's ouster of Nvidia CEO Jensen Huang ."
+    },
+    {
+      "source": 1,
+      "text": "Anthropic has reportedly priced its long-awaited IPO at $83 per share, above its initial range of $70 to $78, signaling strong investor appetite for one of the companies at the center of the AI boom, despite market jitters following the departure of Nvidia CEO Jensen Huang, which shook confidence in the industry."
+    }
+  ]
+}

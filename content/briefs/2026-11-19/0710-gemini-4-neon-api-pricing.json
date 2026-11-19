@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-19-gemini-4-neon-api-pricing",
+  "publishedAt": "2026-11-19T07:12:00+07:00",
+  "section": "models",
+  "tags": ["payments"],
+  "company": "Google",
+  "headline": "Google DeepMind introduces Gemini 4 Neon for coding and enterprise work",
+  "body": "Google DeepMind introduces Gemini 4 Neon, built for complex coding, analytical reasoning and enterprise workflows. It is priced at $3 per million input tokens and $15 per million output tokens, with a 1 million-token context window. Google says Neon has a 32% lower cost per task than Carbon at its default high thinking level.",
+  "note": "Google places Neon between Carbon, for its hardest projects, and Hydrogen, for fast everyday work. The cost comparison with Carbon is Google's own, so banks and payment firms will need to test it on their workloads.",
+  "figure": { "value": "$3", "label": "per million input tokens" },
+  "sources": [
+    { "name": "Google DeepMind", "url": "https://deepmind.google/blog/introducing-gemini-4-neon/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Today, we’re introducing Gemini 4 Neon — bringing frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows." },
+    { "source": 0, "text": "The model is priced at $3 per million input tokens ($0.15 per million cached input tokens, a 95% discount) and $15 per million output tokens, with a 1 million-token context window." },
+    { "source": 0, "text": "At its default high thinking level, it pairs a high Artificial Analysis Intelligence Index score with a 32% lower cost per task than Carbon." },
+    { "source": 0, "text": "Neon is built for complex coding, analytical reasoning, and production-grade enterprise workflows." },
+    { "source": 0, "text": "While Carbon tackles your hardest, long-horizon projects and Hydrogen handles fast everyday execution, Neon balances depth and efficiency." },
+    { "source": 0, "text": "Enterprise work lives in spreadsheets, PDFs, charts, audio, and video." }
+  ]
+}
