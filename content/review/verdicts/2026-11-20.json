@@ -1,0 +1,7 @@
+{
+  "note": "2026-11-20",
+  "commit": "a915b32009e941074f5679aa6e313aa9c706a789",
+  "verdict": "APPROVED",
+  "at": "2026-11-19T16:46:58.155Z",
+  "notes": "Fixed by the review run, then approved:\n1. Note: \"says its Finance Operating System will include enterprise controls that determine whether a decision can be made by an agent or requires a human\". Source: \"Payhawk will continue building its Finance Operating System around AI agents ...; and enterprise controls that determine whether a decision can be made by an agent or requires a human, per the release.\" New: \"says it will continue building its Finance Operating System around enterprise controls that determine whether a decision can be made by an agent or requires a human\" (\"will include\" was not what the source said)."
+}
