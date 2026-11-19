@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-19-bnm-ai-feedback-statement",
+  "publishedAt": "2026-11-19T22:10:00+07:00",
+  "section": "sea",
+  "tags": ["rules", "banking"],
+  "company": "Bank Negara Malaysia",
+  "headline": "BNM publishes feedback statement on AI in the financial sector, drawing on 113 respondents",
+  "body": "Bank Negara Malaysia (BNM, the central bank) published a feedback statement on AI in the Malaysian financial sector, following its discussion paper of 5 August 2025. BNM Governor Datuk Seri Abdul Rasheed Ghaffour said in July that more than 70% of Malaysian financial service providers have implemented at least one AI application.",
+  "note": "Respondents stressed governance, accountability and data management, and BNM welcomed an industry-led AI Model Risk Management Framework that the Chief Risk Officers' Forum is driving.",
+  "sources": [
+    { "name": "Fintech News Malaysia", "url": "https://fintechnews.my/62504/ai/ai-bnm-feedback-statement-malaysia/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Bank Negara Malaysia (BNM) has published a feedback statement on AI in the Malaysian financial sector." },
+    { "source": 0, "text": "The statement follows BNM’s discussion paper of 5 August 2025 and draws on feedback from 113 respondents, as well as wider engagement with industry stakeholders." },
+    { "source": 0, "text": "BNM Governor Datuk Seri Abdul Rasheed Ghaffour said in July that more than 70% of Malaysian financial service providers have implemented at least one AI application." },
+    { "source": 0, "text": "They stressed the importance of governance, accountability, data management, talent development and continued industry collaboration." },
+    { "source": 0, "text": "The central bank welcomed industry-led initiatives that turn emerging risks and practices into practical guidance. One example is the forthcoming AI Model Risk Management Framework from the Asian Institute of Chartered Bankers (AICB)." },
+    { "source": 0, "text": "AICB’s Chief Risk Officers’ Forum (CROs Forum) is driving the framework." }
+  ]
+}

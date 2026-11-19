@@ -1,0 +1,46 @@
+{
+  "id": "2026-11-19-mas-chia-agents-bank-login",
+  "publishedAt": "2026-11-19T22:05:00+07:00",
+  "section": "sea",
+  "tags": [
+    "rules",
+    "payments"
+  ],
+  "star": true,
+  "company": "MAS",
+  "headline": "MAS's Chia advises against giving AI agents bank logins, plans \"know your agent\" protocol",
+  "body": "Chia Der Jiun, Managing Director of the Monetary Authority of Singapore (MAS), said some users are giving agents their login credentials to financial accounts and that he would not advise it. MAS plans to help develop a \"know your agent\" protocol so banks can check, and will work with the industry on it in the next phase of its SAFR initiative.",
+  "note": "A shared way to identify agents is what would let a bank tell instructions a customer gave from the rest, and the open question in the speech is who is responsible when an agent errs.",
+  "sources": [
+    {
+      "name": "Fintech News Singapore",
+      "url": "https://fintechnews.sg/141929/ai/mas-know-your-agent-protocol/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "The Monetary Authority of Singapore (MAS) plans to help develop a “know your agent” protocol so banks can check."
+    },
+    {
+      "source": 0,
+      "text": "“Some users are giving agents their login credentials to financial accounts. I would not advise giving personal agents such access, as there is insufficient assurance of safety,”"
+    },
+    {
+      "source": 0,
+      "text": "said Chia Der Jiun, Managing Director of MAS."
+    },
+    {
+      "source": 0,
+      "text": "Chia explained that a financial institution may not know whether the customer authorised the agent or whether a particular transaction falls within the instructions the customer gave it."
+    },
+    {
+      "source": 0,
+      "text": "He also questioned who would be responsible if the agent made a mistake or acted beyond those instructions."
+    },
+    {
+      "source": 0,
+      "text": "MAS plans to work with the industry on the protocol in the next phase of its Safeguards for Agentic Finance at Runtime (SAFR) initiative."
+    }
+  ]
+}
