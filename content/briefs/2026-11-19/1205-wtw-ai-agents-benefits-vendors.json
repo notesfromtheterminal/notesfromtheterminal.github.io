@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-19-wtw-ai-agents-benefits-vendors",
+  "publishedAt": "2026-11-19T12:05:00+07:00",
+  "section": "banking",
+  "star": false,
+  "company": "WTW",
+  "headline": "WTW says AI agents now manage benefits work for 160 vendors",
+  "body": "WTW, an insurance broker and benefits consultant, says its AI agents manage that work end to end for 160 vendors across more than 20 clients. CEO Carl Hess said on the third-quarter earnings call that the agents have saved tens of thousands of human hours so far.",
+  "note": "The useful detail for benefits outsourcing is where the human check sits. Vendor files run through agents, while PYMNTS reports that human analysts keep final control over eligibility and coverage decisions.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-agents-run-wtws-benefits-machine-humans-still-sign-off/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "WTW has deployed AI agents across 160 vendors and more than 20 clients, saving tens of thousands of staff hours." },
+    { "source": 0, "text": "The company serves 12 million employees, dependents and retirees, with human analysts retaining final control over benefits eligibility and coverage decisions." },
+    { "source": 0, "text": "Large U.S. employers hire WTW, an insurance broker and benefits consultant, to run their health, insurance and pension benefits." },
+    { "source": 0, "text": "The agents now manage that work end to end for 160 vendors across more than 20 clients, WTW CEO Carl Hess said on the company's third-quarter earnings call." },
+    { "source": 0, "text": "They have saved tens of thousands of human hours so far, he said." },
+    { "source": 0, "text": "WTW built the agents with Microsoft inside Violet, its AI suite for benefits outsourcing, and started with vendor files." }
+  ]
+}

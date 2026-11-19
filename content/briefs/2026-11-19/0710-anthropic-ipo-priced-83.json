@@ -7,9 +7,11 @@
   ],
   "star": true,
   "company": "Anthropic",
-  "headline": "Anthropic reportedly prices IPO at $83 a share, above expected range",
-  "body": "Anthropic reportedly priced its IPO at $83 per share, above its expected range of $70 to $78, according to TechCrunch. CNBC says the company sold about 980 million shares, raising $81.3 billion, according to a press release. The stock is expected to begin trading on Nasdaq on Thursday under the ticker ANT.",
+  "headline": "Anthropic prices IPO at $83 a share, above expected range",
+  "body": "Anthropic priced its IPO at $83 per share, above its expected range of $70 to $78, according to TechCrunch. CNBC says the company sold about 980 million shares, raising $81.3 billion, according to a press release. The stock is expected to begin trading on Nasdaq on Thursday under the ticker ANT.",
   "note": "CNBC calls the listing a major test for the AI industry, which has faced recent shocks. Trading on Thursday will be the next read on investor appetite.",
+  "updatedAt": "2026-11-19T12:06:00+07:00",
+  "correction": "Evidence sentence 6 had 'reportedly' where TechCrunch's page says 'has priced'; evidence now copies the page. The headline and body hedge was dropped to match. Figures unchanged.",
   "figure": {
     "value": "$81.3B",
     "label": "raised in the IPO, per CNBC"
@@ -51,7 +53,7 @@
     },
     {
       "source": 1,
-      "text": "Anthropic has reportedly priced its long-awaited IPO at $83 per share, above its initial range of $70 to $78, signaling strong investor appetite for one of the companies at the center of the AI boom, despite market jitters following the departure of Nvidia CEO Jensen Huang, which shook confidence in the industry."
+      "text": "Anthropic has priced its long-awaited IPO at $83 per share , above its initial range of $70 to $78, signaling strong investor appetite for one of the companies at the center of the AI boom, despite market jitters following the departure of Nvidia CEO Jensen Huang, which shook confidence in the industry."
     }
   ]
 }
