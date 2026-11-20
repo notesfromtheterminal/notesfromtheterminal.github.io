@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-21",
+  "publishedAt": "2026-11-21T07:00:00+07:00",
+  "title": "Who answers when an AI agent gets it wrong",
+  "dek": "Regulators and lawyers are asking who is responsible when an AI agent makes a mistake or acts beyond its instructions.",
+  "lead": "2026-11-19-mas-chia-agents-bank-login",
+  "stories": [
+    "2026-11-20-clearing-house-panel-agent-liability",
+    "2026-11-20-mas-national-ai-missions-financial-services"
+  ],
+  "body": [
+    {
+      "head": "A regulator advises against sharing the login",
+      "text": "Chia Der Jiun, Managing Director of the Monetary Authority of Singapore (MAS), said some users are giving agents their login credentials to financial accounts and that he would not advise giving personal agents such access. Chia explained that a financial institution may not know whether the customer authorised the agent, or whether a transaction falls within the instructions the customer gave it.",
+      "support": [
+        "“Some users are giving agents their login credentials to financial accounts. I would not advise giving personal agents such access, as there is insufficient assurance of safety,”",
+        "said Chia Der Jiun, Managing Director of MAS.",
+        "Chia explained that a financial institution may not know whether the customer authorised the agent or whether a particular transaction falls within the instructions the customer gave it."
+      ]
+    },
+    {
+      "head": "The loss question is open in the US too",
+      "text": "At The Clearing House's annual conference, panelists considered who should bear the loss when an agent exceeds its authority. Chris Filburn, senior enforcement counsel in the New York State Attorney General's office, would put that loss on the AI provider, and he added that under existing law a bank could end up absorbing the loss in some cases.",
+      "support": [
+        "At The Clearing House ’s annual conference Wednesday (Nov. 18), panelists considered who should bear the loss when an agent exceeds that authority and how existing consumer protection laws apply.",
+        "Duncan Douglass , partner and co-lead of Alston & Bird ’s Payments and Fintech Group , moderated the discussion with Eli Alper , managing chief counsel for regulatory affairs legal at PNC ; Kelvin Chen , senior executive vice president and head of policy at the Consumer Bankers Association ; Chris Filburn , senior enforcement counsel at the Office of the New York State Attorney General ; Jelena McWilliams , president of corporate, legal and external affairs at Plaid ; and Carla Sanchez-Adams , senior attorney at the National Consumer Law Center .",
+        "When software exceeds the authority it was given, he would put the loss elsewhere.",
+        "In this case, it’s the AI provider.",
+        "Under existing law, a bank could end up absorbing the loss in some cases, giving it a reason to restrict access, Filburn said."
+      ]
+    },
+    {
+      "head": "Singapore plans the checks",
+      "text": "MAS plans to help develop a \"know your agent\" protocol so banks can check, and to work with the industry on it in the next phase of its Safeguards for Agentic Finance at Runtime (SAFR) initiative. Separately, Gan Kim Yong, chairman of MAS, announced three National AI Missions for Financial Services, one of them focused on safe agentic transactions.",
+      "support": [
+        "The Monetary Authority of Singapore (MAS) plans to help develop a “know your agent” protocol so banks can check.",
+        "MAS plans to work with the industry on the protocol in the next phase of its Safeguards for Agentic Finance at Runtime (SAFR) initiative.",
+        "At the Singapore FinTech Festival 2026, Mr Gan Kim Yong, Deputy Prime Minister, Minister for Energy, Trade and Industry (Trade), and Chairman of MAS, announced three National AI Missions for Financial Services focused on financial crime prevention, SME financing and safe agentic transactions."
+      ]
+    },
+    {
+      "head": "What we can ask this week",
+      "text": "We can ask a plain question of our own agent projects: when an agent acts for a customer, who in our firm can show what the customer actually authorised? The answer will matter to compliance, fraud and customer service teams alike, and it is easier to settle before the volumes arrive."
+    }
+  ],
+  "suggestion": "A line on how your own clients or colleagues ask about agent authorisation would fit at the end of the last section."
+}
