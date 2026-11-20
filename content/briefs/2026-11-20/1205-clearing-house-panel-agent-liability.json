@@ -1,0 +1,53 @@
+{
+  "id": "2026-11-20-clearing-house-panel-agent-liability",
+  "publishedAt": "2026-11-20T12:05:00+07:00",
+  "section": "rules",
+  "tags": [
+    "banking",
+    "payments"
+  ],
+  "company": "The Clearing House",
+  "headline": "Panelists at The Clearing House considered who pays when AI agents exceed authority",
+  "body": "At The Clearing House's annual conference on Wednesday, panelists considered who should bear the loss when an agent exceeds its authority. Chris Filburn, senior enforcement counsel at the Office of the New York State Attorney General, said he would put that loss on the AI provider when software exceeds the authority it was given. Douglass cited a Visa benchmark in which AI models failed 42.8% of simulated runs.",
+  "note": "For banks, the practical question is who ends up absorbing the loss when an agent exceeds what a customer authorized. McWilliams said data and fraud detection systems can flag transactions that deviate from normal patterns.",
+  "figure": {
+    "value": "42.8%",
+    "label": "simulated shopping runs where AI models failed, per a Visa benchmark"
+  },
+  "sources": [
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/panel-weighs-who-pays-when-ai-agents-exceed-consumers-instructions/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "At The Clearing House ’s annual conference Wednesday (Nov. 18), panelists considered who should bear the loss when an agent exceeds that authority and how existing consumer protection laws apply."
+    },
+    {
+      "source": 0,
+      "text": "Duncan Douglass , partner and co-lead of Alston & Bird ’s Payments and Fintech Group , moderated the discussion with Eli Alper , managing chief counsel for regulatory affairs legal at PNC ; Kelvin Chen , senior executive vice president and head of policy at the Consumer Bankers Association ; Chris Filburn , senior enforcement counsel at the Office of the New York State Attorney General ; Jelena McWilliams , president of corporate, legal and external affairs at Plaid ; and Carla Sanchez-Adams , senior attorney at the National Consumer Law Center ."
+    },
+    {
+      "source": 0,
+      "text": "When software exceeds the authority it was given, he would put the loss elsewhere."
+    },
+    {
+      "source": 0,
+      "text": "In this case, it’s the AI provider."
+    },
+    {
+      "source": 0,
+      "text": "Douglass cited Visa ’s November shopping benchmark , in which AI models failed 42.8% of simulated runs."
+    },
+    {
+      "source": 0,
+      "text": "“We shouldn’t underestimate the power of data and fraud detection systems to flag transactions that deviate from normal patterns, place a temporary hold, and ask for verification,” McWilliams said."
+    },
+    {
+      "source": 0,
+      "text": "Under existing law, a bank could end up absorbing the loss in some cases, giving it a reason to restrict access, Filburn said."
+    }
+  ]
+}
