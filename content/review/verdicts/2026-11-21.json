@@ -1,0 +1,7 @@
+{
+  "note": "2026-11-21",
+  "commit": "e17b39cbd3c636ed434fecd245c3d6e6247702af",
+  "verdict": "APPROVED",
+  "at": "2026-11-20T16:46:54.119Z",
+  "notes": "Fixed by the review run, then approved:\n1. Dek: note said \"Regulators and lawyers are working on the question of responsibility before agents handle more of our customers' money.\" Source: Chia \"questioned who would be responsible if the agent made a mistake or acted beyond those instructions\"; panelists \"considered who should bear the loss\". New: \"Regulators and lawyers are asking who is responsible when an AI agent makes a mistake or acts beyond its instructions.\" (cut unsupported \"working on\", \"before agents handle more...money\")\n2. Heading 1: \"A regulator would not hand over the login\" -> source \"I would not advise giving personal agents such access\". New: \"A regulator advises against sharing the login\".\n3. Heading 3: \"Singapore is building the checks\" -> source \"plans to help develop\". New: \"Singapore plans the checks\".\n4. Section 3: \"At the same time Gan Kim Yong\" -> sources give no timing link between Chia's remarks and the 18 November announcement. New: \"Separately, Gan Kim Yong\"."
+}
