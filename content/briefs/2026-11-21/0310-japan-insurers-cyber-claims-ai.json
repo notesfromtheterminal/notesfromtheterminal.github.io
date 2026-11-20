@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-21-japan-insurers-cyber-claims-ai",
+  "publishedAt": "2026-11-21T03:10:00+07:00",
+  "section": "banking",
+  "headline": "Two of Japan's largest property insurers say cyber claims more than double",
+  "body": "Two of Japan’s largest property insurers said they have seen cyber insurance claims more than double, according to Bloomberg. Tokio Marine Holdings said it received three times as many cyber insurance claim notifications in October as usual, and Sompo Holdings said it received 2.5 times as many claims in October as its average for the 12 months ended Sept. 30.",
+  "note": "The report attributed the rise to hacking driven by artificial intelligence. Tokio Marine is considering capping payouts or tightening coverage terms, per the report.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/cybersecurity/2026/japans-top-insurers-see-cyber-claims-more-than-double-amid-ai-hacking-surge/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Two of Japan’s largest property insurers said Thursday (Nov. 19) that they have seen cyber insurance claims more than double, Bloomberg reported Friday (Nov. 20)." },
+    { "source": 0, "text": "During earnings briefings, Tokio Marine Holdings said it received three times as many cyber insurance claim notifications in October as usual, while Sompo Holdings said it received 2.5 times as many claims in October as the average it received over the 12 months ended Sept. 30, according to the report." },
+    { "source": 0, "text": "The report attributed these increases to a surge in hacking incidents across Japan that has resulted from increasingly sophisticated attacks driven by artificial intelligence." },
+    { "source": 0, "text": "In response to the surge in cyber claims, Sompo plans a December launch of a new service that spots cyber vulnerabilities, while Tokio Marine is considering capping payouts or tightening coverage terms, per the report." }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-21-new-york-asset-unit-raise-act",
+  "publishedAt": "2026-11-21T03:10:00+07:00",
+  "section": "rules",
+  "headline": "New York attorney general creates unit to enforce AI safety law",
+  "body": "New York Attorney General Letitia James announced an AI enforcement unit, called ASSET, on Nov. 17. The unit will lead enforcement of the RAISE Act, which takes effect Jan. 1, 2027. The law requires covered frontier model developers to publicly disclose their safety measures and promptly report qualifying security and safety incidents.",
+  "note": "The unit comes a day after California's attorney general sued OpenAI over allegations about testing advanced models. PYMNTS says states are setting their own AI rules because there is no comprehensive federal AI regulatory framework.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/new-york-creates-ai-enforcement-unit-as-states-step-up-oversight/" },
+    { "name": "KOMO News", "url": "https://komonews.com/news/nation-world/ny-attorney-letitia-general-james-announces-new-unit-to-oversee-ai-safety-and-enforcement-new-york-artificial-intelligence-technologies-chatbots-governor-kathy-hochul-raise-act-asset-unit-shield-safety-legislation-penal-law-cbs6-wrgb" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "New York Attorney General Letitia James has created a dedicated artificial intelligence (AI) enforcement unit to police model developers, chatbot operators and other businesses whose use of AI may violate state law." },
+    { "source": 1, "text": "The AI Safety, Standards, Enforcement, and Transparency (ASSET) Unit will focus on enforcing AI safety laws, protecting consumer privacy and addressing potential threats involving cybersecurity, digital scams and online safety." },
+    { "source": 1, "text": "The unit will also oversee enforcement of New York’s Responsible AI Safety Education (RAISE) Act, which takes effect Jan. 1, 2027." },
+    { "source": 0, "text": "The Responsible AI Safety Education Act, or RAISE Act, requires covered frontier model developers to publicly disclose their safety measures and promptly report qualifying security and safety incidents." },
+    { "source": 0, "text": "The unit will lead the office’s enforcement of the law, giving New York a dedicated team to assess whether developers are meeting those obligations." },
+    { "source": 0, "text": "A day before James announced the unit on Tuesday (Nov. 17), California Attorney General Rob Bonta sued OpenAI over allegations that it failed to secure and monitor the testing of advanced models." },
+    { "source": 0, "text": "The move gives New York a team that can investigate AI-related conduct and bring cases as states set their own rules in the absence of a comprehensive federal AI regulatory framework." }
+  ]
+}
