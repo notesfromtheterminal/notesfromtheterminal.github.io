@@ -1,0 +1,40 @@
+{
+  "id": "2026-11-20-sfa-talent-report-ai-finance-roles",
+  "publishedAt": "2026-11-20T22:12:00+07:00",
+  "section": "sea",
+  "tags": [
+    "banking"
+  ],
+  "company": "Singapore Fintech Association",
+  "headline": "SFA report: AI roles in financial services are among the hardest jobs to fill in Singapore fintech",
+  "body": "The Singapore Fintech Association (SFA) and Page Executive identified hiring gaps in the eighth edition of the Singapore Fintech Talent Report. Among the hardest jobs to fill are roles that involve applying AI in financial services, overseeing AI models, or analysing data to detect fraud. The report recommends practical AI training across departments.",
+  "note": "Fintech News Singapore says the report expects AI to take on more routine work such as reviewing alerts, and cites a risk that junior staff get fewer chances to learn the business.",
+  "sources": [
+    {
+      "name": "Fintech News Singapore",
+      "url": "https://fintechnews.sg/142054/ai/sfa-singapore-fintech-talent-report-2026/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "The Singapore Fintech Association (SFA) and Page Executive identified those hiring gaps in the eighth edition of the Singapore Fintech Talent Report ."
+    },
+    {
+      "source": 0,
+      "text": "Among the hardest jobs to fill are roles that involve applying artificial intelligence (AI) in financial services, overseeing AI models, using technology to meet regulatory requirements or analysing data to detect fraud."
+    },
+    {
+      "source": 0,
+      "text": "The report recommends practical AI training across departments, with expectations that vary by role."
+    },
+    {
+      "source": 0,
+      "text": "The report expects AI to take on more routine work such as reviewing alerts and writing basic code, leaving staff more time to make decisions and work with clients."
+    },
+    {
+      "source": 0,
+      "text": "Junior staff could have fewer chances to learn the business as AI takes on more of the research and documentation that have traditionally helped train new hires."
+    }
+  ]
+}

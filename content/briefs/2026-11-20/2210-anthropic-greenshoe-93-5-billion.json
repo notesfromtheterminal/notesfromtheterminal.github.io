@@ -1,0 +1,48 @@
+{
+  "id": "2026-11-20-anthropic-greenshoe-93-5-billion",
+  "publishedAt": "2026-11-20T22:10:00+07:00",
+  "section": "deals",
+  "tags": [
+    "models"
+  ],
+  "company": "Anthropic",
+  "headline": "Anthropic IPO reported at $93.5 billion in total after the overallotment",
+  "body": "Anthropic's underwriters exercised their overallotment, bringing the total raised to $93.5 billion, according to a release on Friday. Anthropic said it sold an aggregate of 1,127,000,000 Class A shares at $83 per share. Including a concurrent private placement, aggregate gross proceeds totaled $119.5 billion, before offering expenses.",
+  "note": "CNBC reports the offering surpassed SpaceX's record IPO from June. The private placement participants named include AMD, Google, Microsoft and Nvidia.",
+  "figure": {
+    "value": "$93.5B",
+    "label": "total raised in Anthropic's IPO after the overallotment, per CNBC"
+  },
+  "sources": [
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Anthropic underwriters have officially exercised their overallotment of shares in the historic initial public offering , bringing the total raised to $93.5 billion, according to a release on Friday."
+    },
+    {
+      "source": 0,
+      "text": "Anthropic said it sold an aggregate of 1,127,000,000 shares of its Class A common stock at $83 per share in the offering."
+    },
+    {
+      "source": 0,
+      "text": "Anthropic said Friday that aggregate gross proceeds from its IPO, including the private placement, totaled $119.5 billion, before deducting offering expenses."
+    },
+    {
+      "source": 0,
+      "text": "The artificial intelligence company raised $81.3 billion on Wednesday and net an additional $12.2 billion through the overallotment, surpassing SpaceX , which held a record IPO in June."
+    },
+    {
+      "source": 0,
+      "text": "In addition to the sale of its Class A common stock, Anthropic closed a concurrent sale of its Class N common stock after a group of tech companies, including Advanced Micro Devices , Google , Microsoft , Nvidia and others, agreed to participate in a $26 billion private placement at the IPO price."
+    },
+    {
+      "source": 0,
+      "text": "It sold 980 million shares on Wednesday and its underwriters had the option to purchase up to an additional 147 million shares by Friday as part of the overallotment, which is commonly referred to as the \"greenshoe.\""
+    }
+  ]
+}

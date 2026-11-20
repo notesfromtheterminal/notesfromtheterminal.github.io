@@ -2,25 +2,41 @@
   "id": "2026-11-20-anthropic-shares-fall-premarket",
   "publishedAt": "2026-11-20T17:06:00+07:00",
   "section": "models",
-  "tags": ["deals"],
+  "tags": [
+    "deals"
+  ],
   "company": "Anthropic",
-  "headline": "Anthropic shares fall nearly 6% in premarket trading after Nasdaq debut",
-  "body": "CNBC says Anthropic fell nearly 6% in Friday premarket trading after its Nasdaq debut. The AI lab was 5.6% down at 4.23am ET, with Nvidia down 1.66% and AMD down 4.12%. The stock had closed Thursday at $97.17, up 17% on its first day.",
-  "note": "Investors had hoped the debut would revive the AI trade, which CNBC says has been under pressure over capex fears. The premarket drop came as Nvidia and AMD also fell.",
+  "headline": "Anthropic shares reported down 9% on Friday after Nasdaq debut",
+  "body": "CNBC says Anthropic shares fell 9% on Friday after a historic Nasdaq debut, as concerns about the AI trade continued to drag tech stocks lower. The stock opened at $111.50 on Thursday and closed at $97.17.",
+  "note": "Investors had been eagerly awaiting the debut in the hope that it could revitalize the AI trade, CNBC says. Nvidia and AMD were also trading lower.",
   "figure": {
-    "value": "-5.6%",
-    "label": "Anthropic premarket change on Friday, per CNBC"
+    "value": "-9%",
+    "label": "Anthropic share move on Friday, per CNBC"
   },
   "sources": [
-    { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html" }
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html"
+    }
   ],
   "evidence": [
-    { "source": 0, "text": "Anthropic fell nearly 6% in Friday premarket trading after a historic debut on Nasdaq." },
-    { "source": 0, "text": "The AI lab was 5.6% down in premarket trading at 4.23am ET on Friday." },
-    { "source": 0, "text": "Nvidia was down 1.66% and AMD fell 4.12%." },
-    { "source": 0, "text": "Anthropic soared 17% in its first day of trading on Thursday, after the company completed the biggest initial public offering on record, topping SpaceX' s historic debut in June." },
-    { "source": 0, "text": "The stock closed at $97.17 per share." },
-    { "source": 0, "text": "Investors had hoped that Anthropic's debut would revitalize the AI trade, which has come under pressure in recent months amid fears over capex spending." },
-    { "source": 0, "text": "Anthropic fell nearly 6% on Friday morning after a historic debut on Nasdaq, as AI fears continued to cause a selloff with Nvidia and AMD lower." }
-  ]
+    {
+      "source": 0,
+      "text": "Anthropic shares fell 9% on Friday after a historic Nasdaq debut, as concerns about artificial intelligence trade continued to drag tech stocks lower."
+    },
+    {
+      "source": 0,
+      "text": "The stock opened at $111.50 on the Nasdaq Thursday after Anthropic raised $81.3 billion in the largest IPO of all time, but shares slid throughout the day and closed at $97.17."
+    },
+    {
+      "source": 0,
+      "text": "Investors had been eagerly awaiting Anthropic's debut in the hopes that it could revitalize the AI trade, which has come under pressure."
+    },
+    {
+      "source": 0,
+      "text": "Nvidia and AMD were also trading lower."
+    }
+  ],
+  "updatedAt": "2026-11-20T22:20:00+07:00",
+  "correction": "CNBC rewrote its article after publication: the figures first cited (premarket -5.6%, Nvidia -1.66%, AMD -4.12%, +17% first day) are no longer on the page. Rewritten to the current text (-9% Friday, opened $111.50, closed $97.17 Thursday)."
 }
