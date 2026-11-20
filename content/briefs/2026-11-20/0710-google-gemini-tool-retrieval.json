@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-20-google-gemini-tool-retrieval-preview",
+  "publishedAt": "2026-11-20T07:10:00+07:00",
+  "section": "models",
+  "company": "Google",
+  "headline": "Google previews Tool Retrieval for Gemini agents with large tool libraries",
+  "body": "Google has put Tool Retrieval in preview in the Gemini Interactions API. Agents load tool parameter schemas only when a task needs them, which Google says reduces latency and input token costs. Tool Retrieval has no separate charge and works with Gemini 3.6 and later models.",
+  "note": "For finance teams wiring agents into many internal systems, the cost of sending every tool definition on each call is the part this addresses.",
+  "sources": [
+    { "name": "Google", "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Tool Retrieval is now in preview in the Gemini Interactions API." },
+    { "source": 0, "text": "By loading parameter schemas only when needed, you reduce latency and input token costs for complex tasks." },
+    { "source": 0, "text": "We are launching Tool Retrieval in the Gemini API to help your agents manage large tool libraries more efficiently." },
+    { "source": 0, "text": "When an agent connects to dozens or even hundreds of tools, sending every full parameter schema on every request adds up fast." },
+    { "source": 0, "text": "Tool Retrieval has no separate charge." },
+    { "source": 0, "text": "Tool Retrieval works with Gemini 3.6 and later models, including all Gemini 4 models , in the Interactions API." }
+  ],
+  "wire": ["278dc93a7337"]
+}

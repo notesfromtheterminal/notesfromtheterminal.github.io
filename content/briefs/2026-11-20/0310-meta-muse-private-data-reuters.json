@@ -6,7 +6,9 @@
   "company": "Meta",
   "headline": "Meta employees raised concerns that Muse is exposing private user data",
   "body": "Meta employees have raised concerns that its AI agent Muse has been mixing up conversations across different accounts and exposing private user data, according to a new Reuters report. Employees said Muse surfaced bank account balances that didn’t belong to them.",
-  "note": "Muse launched in September and has more than 10 million downloads, while Meta did not immediately respond to a request for comment.",
+  "note": "Muse launched in September and has more than 10 million downloads. Meta's spokesperson said employees have access to different versions of Muse than the public.",
+  "updatedAt": "2026-11-20T07:15:00+07:00",
+  "correction": "TechCrunch updated its article on 11/19 at 12:05 PM PT to add Meta's comment. The first version's 'did not immediately respond' sentence is no longer on the page, so it was replaced with the spokesperson's statement and the note was revised to match.",
   "sources": [
     { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/" }
   ],
@@ -14,6 +16,7 @@
     { "source": 0, "text": "Meta employees have raised concerns that the company’s AI agent Muse has been mixing up conversations across different accounts and exposing private user data, according to a new Reuters report that looked at internal company posts." },
     { "source": 0, "text": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn’t belong to them." },
     { "source": 0, "text": "Launched in September, Muse is one of the fastest-growing apps on record, with more than 10 million downloads." },
-    { "source": 0, "text": "Meta did not immediately respond to TechCrunch’s request for comment." }
+    { "source": 0, "text": "“Employee testing is core to the product development process and the entire point is to get feedback, so we can implement safety and privacy protections and improve products,” a Meta spokesperson said in an email to TechCrunch." },
+    { "source": 0, "text": "Importantly, employees have access to different versions of Muse than the public, so they’re often reviewing features, functionality, and behavior not available elsewhere." }
   ]
 }
