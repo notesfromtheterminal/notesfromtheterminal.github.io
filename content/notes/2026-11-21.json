@@ -2,7 +2,7 @@
   "date": "2026-11-21",
   "publishedAt": "2026-11-21T07:00:00+07:00",
   "title": "Who answers when an AI agent gets it wrong",
-  "dek": "Regulators and lawyers are working on the question of responsibility before agents handle more of our customers' money.",
+  "dek": "Regulators and lawyers are asking who is responsible when an AI agent makes a mistake or acts beyond its instructions.",
   "lead": "2026-11-19-mas-chia-agents-bank-login",
   "stories": [
     "2026-11-20-clearing-house-panel-agent-liability",
@@ -10,7 +10,7 @@
   ],
   "body": [
     {
-      "head": "A regulator would not hand over the login",
+      "head": "A regulator advises against sharing the login",
       "text": "Chia Der Jiun, Managing Director of the Monetary Authority of Singapore (MAS), said some users are giving agents their login credentials to financial accounts and that he would not advise giving personal agents such access. Chia explained that a financial institution may not know whether the customer authorised the agent, or whether a transaction falls within the instructions the customer gave it.",
       "support": [
         "“Some users are giving agents their login credentials to financial accounts. I would not advise giving personal agents such access, as there is insufficient assurance of safety,”",
@@ -30,8 +30,8 @@
       ]
     },
     {
-      "head": "Singapore is building the checks",
-      "text": "MAS plans to help develop a \"know your agent\" protocol so banks can check, and to work with the industry on it in the next phase of its Safeguards for Agentic Finance at Runtime (SAFR) initiative. At the same time Gan Kim Yong, chairman of MAS, announced three National AI Missions for Financial Services, one of them focused on safe agentic transactions.",
+      "head": "Singapore plans the checks",
+      "text": "MAS plans to help develop a \"know your agent\" protocol so banks can check, and to work with the industry on it in the next phase of its Safeguards for Agentic Finance at Runtime (SAFR) initiative. Separately, Gan Kim Yong, chairman of MAS, announced three National AI Missions for Financial Services, one of them focused on safe agentic transactions.",
       "support": [
         "The Monetary Authority of Singapore (MAS) plans to help develop a “know your agent” protocol so banks can check.",
         "MAS plans to work with the industry on the protocol in the next phase of its Safeguards for Agentic Finance at Runtime (SAFR) initiative.",
