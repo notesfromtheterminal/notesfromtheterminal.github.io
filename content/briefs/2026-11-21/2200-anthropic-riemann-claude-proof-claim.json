@@ -1,0 +1,49 @@
+{
+  "id": "2026-11-21-anthropic-riemann-claude-proof-claim",
+  "publishedAt": "2026-11-21T22:00:00+07:00",
+  "section": "models",
+  "company": "Anthropic",
+  "headline": "Anthropic mathematician says he discovered a Riemann hypothesis proof working with Claude",
+  "body": "Levent Alpöge, a mathematician at Anthropic, said Friday he used a large language model to solve math's most famous open problem. Stanford's Ravi Vakil shared an independent draft proof by Alessandro Masullo, saying \"It is all human, with no AI\", and wrote that all issues need to be resolved to the satisfaction of the community before that proof would be accepted as true.",
+  "note": "The Decoder reports that Alpöge released the proof only in the Lean programming language, which checks each logical step by computer.",
+  "sources": [
+    {
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Levent Alpöge, a mathematician at Anthropic, said Friday he used a large language model to solve math's most famous open problem."
+    },
+    {
+      "source": 0,
+      "text": "\"I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis,\" he wrote in his announcement ."
+    },
+    {
+      "source": 0,
+      "text": "Hours after Alpöge's announcement, the story took a dramatic turn."
+    },
+    {
+      "source": 0,
+      "text": "Just before a board meeting, Stanford math professor and American Mathematical Society (AMS) president Ravi Vakil posted a \"hurried announcement\" on his blog, sharing an independent draft proof of the Generalized Riemann Hypothesis written by mathematician Alessandro Masullo."
+    },
+    {
+      "source": 0,
+      "text": "\"It is all human, with no AI,\" Vakil wrote."
+    },
+    {
+      "source": 0,
+      "text": "As is usual, all issues need to be resolved to the satisfaction of the community before this proof would be accepted as true."
+    },
+    {
+      "source": 0,
+      "text": "To spare mathematicians that wall of text, Alpöge released the proof only in the Lean programming language, split into 14 data packages ."
+    },
+    {
+      "source": 0,
+      "text": "Lean acts like a digital referee, checking step by step whether every logical deduction follows from math's basic rules without errors or unproven assumptions."
+    }
+  ]
+}

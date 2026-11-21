@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-21-anthropic-ipo-nasdaq-worst-week",
+  "publishedAt": "2026-11-21T22:00:00+07:00",
+  "section": "deals",
+  "company": "Anthropic",
+  "headline": "Anthropic closed Friday at $88.91 after opening at $111.50, in Nasdaq's worst week since 2020",
+  "body": "CNBC reports that Anthropic opened at $111.50 on Thursday and closed on Friday at $88.91. The Nasdaq slid 10% over the past five trading days, its worst week since 2020, led by a 23% plunge in Nvidia.",
+  "note": "CNBC reports that investors spent the week debating whether Anthropic will trade alongside AI hardware or stand alone. For finance readers, the first weeks of public trading will show how the market prices a pure-play AI developer.",
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Anthropic opened at $111.50 on Thursday and closed on Friday at $88.91." },
+    { "source": 0, "text": "Led by Nvidia's 23% plunge , which marked the stock's sharpest weekly pullback in 18 years, the Nasdaq slid 10% over the past five trading days in its worst week since the early days of Covid in 2020." },
+    { "source": 0, "text": "Investors and analysts spent the week debating whether Anthropic will trade alongside AI hardware, as it's reliant on advanced chips, memory and data centers, or whether it will stand alone as the first public pure-play AI developer and a company that's achieved unrivaled growth in less than six years of existence." }
+  ]
+}
