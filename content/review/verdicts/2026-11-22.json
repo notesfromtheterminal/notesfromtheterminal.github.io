@@ -1,0 +1,7 @@
+{
+  "note": "2026-11-22",
+  "commit": "601078ec88dfc4eef53f2a0678779ffb104b36e0",
+  "verdict": "APPROVED",
+  "at": "2026-11-21T16:46:49.319Z",
+  "notes": "Fixed by the review run, then approved:\n1. Dek: old \"Banks, insurers and markets are each putting a price or a term on AI risk this week.\" Source (PYMNTS): Tokio Marine \"is considering capping payouts or tightening coverage terms\"; insurers are not putting a term on anything yet. New: \"Banks are changing their terms, Japanese X\"\n2. Section 1 head: old \"Markets put a price on AI first\". No source says markets were first. New: \"Markets put a price on AI\".\n3. Section 4: old \"At the same time, Klarna has become\". Source dates the release Friday Nov. 20, no simultaneity with the bank terms. New: \"Klarna has become\".\n4. Section 4: old \"and what we would want our own customers to know before they hand an agent access\". Implies the author has customers (invented clients). Cut."
+}
