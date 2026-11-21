@@ -1,0 +1,18 @@
+{
+  "id": "2026-11-21-adyen-klarna-agentic-payments",
+  "publishedAt": "2026-11-21T07:05:00+07:00",
+  "section": "payments",
+  "company": "Adyen",
+  "headline": "Adyen adds Klarna as first payment option beyond cards for AI agents",
+  "body": "Klarna is now the first payment option beyond cards in Adyen's agentic commerce suite, Adyen Agentic, the two companies said. Merchants that already offer Klarna through Adyen can switch it on with no integration work, and shoppers can pay with Klarna when an AI agent checks out for them, according to the release.",
+  "note": "Shoppers still see the same Klarna options and confirm each purchase before it completes, and Klarna's head of agentic commerce payments says agentic commerce only works if shoppers keep that choice and control. Both points come from the companies' release.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/commerce/ecommerce/2026/adyen-taps-klarna-to-enable-agentic-commerce-payment-options-beyond-cards/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Klarna has become the first payment option beyond cards available in Adyen ’s agentic commerce suite, Adyen Agentic , the two companies said in a Friday (Nov. 20) press release ." },
+    { "source": 0, "text": "This combination enables merchants that already offer Klarna through Adyen to switch on the new payment option with no integration work, allowing shoppers to pay with Klarna when an AI agent checks out for them through Adyen Agentic, according to the release." },
+    { "source": 0, "text": "Shoppers will be shown the same Klarna options the merchant already offers, such as paying in full, in interest-free installments or with financing, and will then review and confirm the purchase before it is completed, the release said." },
+    { "source": 0, "text": "Darren Moore , head of agentic commerce payments at Klarna, said in the release: “Agentic commerce only works if shoppers keep the choice and control they have at any other checkout." }
+  ]
+}

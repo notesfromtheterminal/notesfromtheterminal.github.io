@@ -1,0 +1,18 @@
+{
+  "id": "2026-11-21-openai-reasoning-extraction-safeguards",
+  "publishedAt": "2026-11-21T07:05:00+07:00",
+  "section": "models",
+  "company": "OpenAI",
+  "headline": "OpenAI says it sharply cut attacks on GPT-6.2 reasoning",
+  "body": "According to The Decoder, which cites OpenAI, safeguards against extracting internal reasoning from GPT-6.2 Astra and GPT-6.2 Sol have been sharply tightened. In internal automated tests, attacks pulling protected reasoning from prior requests dropped from 54.0 percent on GPT-6 Astra to 0.2 percent on GPT-6.2 Astra. OpenAI also bans thousands to tens of thousands of accounts weekly over coordinated campaigns.",
+  "note": "For banks and insurers that build on these models, the change adds API blocks that stop older models from reading protected reasoning, per The Decoder. The tests are internal to OpenAI, so the figures are OpenAI's own.",
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "OpenAI has sharply tightened safeguards against extracting internal reasoning from GPT-6.2 Astra and GPT-6.2 Sol." },
+    { "source": 0, "text": "In internal automated tests, attacks pulling protected reasoning from prior requests dropped from a 54.0 percent success rate on GPT-6 Astra to 0.2 percent on GPT-6.2 Astra." },
+    { "source": 0, "text": "Against coordinated campaigns, OpenAI bans thousands to tens of thousands of accounts weekly." },
+    { "source": 0, "text": "For individual requests, the systems combine targeted training, input and output filters for messages and tool calls, and API blocks that stop older models from reading protected reasoning." }
+  ]
+}
