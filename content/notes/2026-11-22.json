@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-22",
+  "publishedAt": "2026-11-22T07:00:00+07:00",
+  "title": "AI risk is being written into contracts and prices",
+  "dek": "Banks are changing their terms, insurers in Japan report more cyber claims and the Nasdaq slid this week.",
+  "lead": "2026-11-21-anthropic-ipo-nasdaq-worst-week",
+  "stories": [
+    "2026-11-19-citi-ai-agent-terms-customers-responsible",
+    "2026-11-21-japan-insurers-cyber-claims-ai",
+    "2026-11-21-adyen-klarna-agentic-payments"
+  ],
+  "body": [
+    {
+      "head": "Markets put a price on AI",
+      "text": "Anthropic opened at $111.50 on Thursday and closed on Friday at $88.91, according to CNBC, while the Nasdaq slid 10% over five trading days in its worst week since 2020. CNBC also reports that investors spent the week debating whether Anthropic will trade alongside AI hardware or stand alone, and that is a question we can watch in the coming weeks.",
+      "support": [
+        "Anthropic opened at $111.50 on Thursday and closed on Friday at $88.91.",
+        "Led by Nvidia's 23% plunge , which marked the stock's sharpest weekly pullback in 18 years, the Nasdaq slid 10% over the past five trading days in its worst week since the early days of Covid in 2020.",
+        "Investors and analysts spent the week debating whether Anthropic will trade alongside AI hardware, as it's reliant on advanced chips, memory and data centers, or whether it will stand alone as the first public pure-play AI developer and a company that's achieved unrivaled growth in less than six years of existence."
+      ]
+    },
+    {
+      "head": "Banks write the risk into their terms",
+      "text": "Citi told TechCrunch that customers who grant third-party AI agents account access are responsible for activities conducted through those agents. TechCrunch reports that Citi's update also covers a case where the AI tool leaks credentials or is hacked, and that JPMorgan and Bank of America announced similar policies last month while PNC changed its terms too.",
+      "support": [
+        "We recently updated our Online User Agreement to provide greater clarity about those risks and to reinforce that customers who choose to grant account access to third-party AI agents are responsible for activities conducted through those agents.",
+        "Citi’s update goes beyond telling customers that they are responsible for anything their agents may do; it also informs them that if the AI tool leaks their credentials or is hacked, the customer will be responsible for anything hackers do with their account.",
+        "JPMorgan and Bank of America , the two largest banks in the country, announced similar policies last month.",
+        "And PNC, the eighth largest bank, changed its terms today."
+      ]
+    },
+    {
+      "head": "Insurers see claims rise",
+      "text": "In Japan, Tokio Marine Holdings said it received three times as many cyber insurance claim notifications in October as usual, while Sompo Holdings said it received 2.5 times as many as its average over the 12 months ended Sept. 30, according to the report. The report attributed the increases to a surge in hacking incidents driven by increasingly sophisticated attacks using artificial intelligence, and Tokio Marine is considering capping payouts or tightening coverage terms.",
+      "support": [
+        "During earnings briefings, Tokio Marine Holdings said it received three times as many cyber insurance claim notifications in October as usual, while Sompo Holdings said it received 2.5 times as many claims in October as the average it received over the 12 months ended Sept. 30, according to the report.",
+        "The report attributed these increases to a surge in hacking incidents across Japan that has resulted from increasingly sophisticated attacks driven by artificial intelligence.",
+        "In response to the surge in cyber claims, Sompo plans a December launch of a new service that spots cyber vulnerabilities, while Tokio Marine is considering capping payouts or tightening coverage terms, per the report."
+      ]
+    },
+    {
+      "head": "Payments keep building for agents",
+      "text": "Klarna has become the first payment option beyond cards in Adyen's agentic commerce suite, Adyen Agentic, the two companies said, and shoppers will review and confirm the purchase before it is completed. For those of us in finance, the open question is how these agent checkouts will sit alongside the account terms banks are now writing.",
+      "support": [
+        "Klarna has become the first payment option beyond cards available in Adyen ’s agentic commerce suite, Adyen Agentic , the two companies said in a Friday (Nov. 20) press release .",
+        "Shoppers will be shown the same Klarna options the merchant already offers, such as paying in full, in interest-free installments or with financing, and will then review and confirm the purchase before it is completed, the release said."
+      ]
+    }
+  ]
+}
