@@ -2,7 +2,7 @@
   "date": "2026-11-22",
   "publishedAt": "2026-11-22T07:00:00+07:00",
   "title": "AI risk is being written into contracts and prices",
-  "dek": "Banks, insurers and markets are each putting a price or a term on AI risk this week.",
+  "dek": "Banks are changing their terms, insurers in Japan report more cyber claims and the Nasdaq slid this week.",
   "lead": "2026-11-21-anthropic-ipo-nasdaq-worst-week",
   "stories": [
     "2026-11-19-citi-ai-agent-terms-customers-responsible",
@@ -11,7 +11,7 @@
   ],
   "body": [
     {
-      "head": "Markets put a price on AI first",
+      "head": "Markets put a price on AI",
       "text": "Anthropic opened at $111.50 on Thursday and closed on Friday at $88.91, according to CNBC, while the Nasdaq slid 10% over five trading days in its worst week since 2020. CNBC also reports that investors spent the week debating whether Anthropic will trade alongside AI hardware or stand alone, and that is a question we can watch in the coming weeks.",
       "support": [
         "Anthropic opened at $111.50 on Thursday and closed on Friday at $88.91.",
@@ -40,7 +40,7 @@
     },
     {
       "head": "Payments keep building for agents",
-      "text": "At the same time, Klarna has become the first payment option beyond cards in Adyen's agentic commerce suite, Adyen Agentic, the two companies said, and shoppers will review and confirm the purchase before it is completed. For those of us in finance, the open question is how these agent checkouts will sit alongside the account terms banks are now writing, and what we would want our own customers to know before they hand an agent access.",
+      "text": "Klarna has become the first payment option beyond cards in Adyen's agentic commerce suite, Adyen Agentic, the two companies said, and shoppers will review and confirm the purchase before it is completed. For those of us in finance, the open question is how these agent checkouts will sit alongside the account terms banks are now writing.",
       "support": [
         "Klarna has become the first payment option beyond cards available in Adyen ’s agentic commerce suite, Adyen Agentic , the two companies said in a Friday (Nov. 20) press release .",
         "Shoppers will be shown the same Klarna options the merchant already offers, such as paying in full, in interest-free installments or with financing, and will then review and confirm the purchase before it is completed, the release said."
