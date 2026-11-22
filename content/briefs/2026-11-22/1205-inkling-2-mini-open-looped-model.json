@@ -1,0 +1,41 @@
+{
+  "id": "2026-11-22-inkling-2-mini-open-looped-model",
+  "publishedAt": "2026-11-22T12:05:00+07:00",
+  "section": "models",
+  "tags": [],
+  "company": "Thinking Machines",
+  "headline": "Thinking Machines has released Inkling 2 Mini, an open model for Macs",
+  "body": "Thinking Machines has released Inkling 2 Mini, a looped transformer that runs 12 of its 24 layers three times in a row. The open mixture-of-experts model has 26.4 billion parameters, with 5.4 billion active per token, the company says. Artificial Analysis gives it 20 points on its Intelligence Index, tying it with Qwen3.8 27B at roughly six times lower cost and four times the speed.",
+  "note": "For banks and fintechs that prefer to run models on their own hardware, a small open model that runs locally on a Mac is worth a test. The cost and speed comparisons are Artificial Analysis figures.",
+  "sources": [
+    {
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Thinking Machines has released Inkling 2 Mini, a so-called looped transformer."
+    },
+    {
+      "source": 0,
+      "text": "Inkling 2 Mini runs 12 of its 24 layers three times in a row."
+    },
+    {
+      "source": 0,
+      "text": "The open mixture-of-experts model has 26.4 billion parameters, with 5.4 billion active per token because of the loops, the company says."
+    },
+    {
+      "source": 0,
+      "text": "Inkling 2 Mini runs locally on Macs with at least 32 GB of memory and on Nvidia's DGX Spark."
+    },
+    {
+      "source": 0,
+      "text": "Artificial Analysis gives it 20 points on its Intelligence Index, tying it with Qwen3.8 27B at roughly six times lower cost and four times the speed."
+    }
+  ],
+  "wire": [
+    "ea48b7370a2c"
+  ]
+}
