@@ -1,0 +1,36 @@
+{
+  "id": "2026-11-22-wells-fargo-third-party-ai-agent-terms",
+  "publishedAt": "2026-11-22T22:06:00+07:00",
+  "section": "banking",
+  "tags": [
+    "payments"
+  ],
+  "company": "Wells Fargo",
+  "headline": "Wells Fargo updates its online agreement for third-party AI tools and agents",
+  "body": "Wells Fargo is updating its Online Access Agreement, effective November 24, 2026. The bank says requests submitted through a third-party AI tool may be treated as if they came directly from the user, and that it included responsibilities for managing the tool's access to accounts. Wells Fargo also reserves the right to restrict or block access from certain third-party AI tools.",
+  "note": "Wells Fargo's notice follows Citi's similar terms change, which the desk covered on November 19.",
+  "sources": [
+    {
+      "name": "Wells Fargo",
+      "url": "https://www.wellsfargo.com/mobile-online-banking/updates/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "We wanted to let you know we're updating our Online Access Agreement (“Agreement”), effective November 24, 2026 , which covers your use of Wells Fargo's online and mobile services."
+    },
+    {
+      "source": 0,
+      "text": "we've clarified that if you use a third-party AI tool or agent to access your accounts or services, the tool is not operated by Wells Fargo and you'll be authorizing Wells Fargo to share information needed for the service to work."
+    },
+    {
+      "source": 0,
+      "text": "The information shared with the tool will be subject to the provider's privacy practices and terms, requests submitted through the tool may be treated as if they came directly from you, and we included your responsibilities for managing the tool's access to your accounts."
+    },
+    {
+      "source": 0,
+      "text": "We also reserve the right to restrict or block access from certain third-party AI tools."
+    }
+  ]
+}

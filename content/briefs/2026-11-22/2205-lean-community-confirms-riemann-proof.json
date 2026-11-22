@@ -1,0 +1,38 @@
+{
+  "id": "2026-11-22-lean-community-confirms-riemann-proof",
+  "publishedAt": "2026-11-22T22:05:00+07:00",
+  "section": "models",
+  "tags": [],
+  "company": "Levent Alpöge",
+  "headline": "Lean and Mathlib community says Levent Alpöge's Riemann hypothesis proof is correct",
+  "body": "The Lean and Mathlib community said \"We have full confidence that Alpöge's proof is correct,\" The Decoder reports. Alpöge published the proof on Nov. 20 as 17 million lines of Lean code, and dozens of people ran the code independently and got the same result, The Decoder says.",
+  "note": "The Decoder says the solution arrived much earlier than expected.",
+  "sources": [
+    {
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "The Lean and Mathlib community has confirmed that Levent Alpöge's proof of the Riemann hypothesis is correct."
+    },
+    {
+      "source": 0,
+      "text": "\"We have full confidence that Alpöge's proof is correct, and we congratulate him on this achievement,\" the community said in a statement ."
+    },
+    {
+      "source": 0,
+      "text": "Alpöge, a Stanford mathematician, published the proof on Nov. 20, 2026, as 17 million lines of code written in Lean , a tool that checks mathematical proofs for errors."
+    },
+    {
+      "source": 0,
+      "text": "Dozens of people ran the code independently and got the same result."
+    },
+    {
+      "source": 0,
+      "text": "The solution arrived much earlier than expected."
+    }
+  ]
+}
