@@ -1,0 +1,15 @@
+{
+  "id": "2026-11-23-metr-acceleration-data-limits",
+  "publishedAt": "2026-11-23T03:08:00+07:00",
+  "section": "models",
+  "headline": "METR says public data isn't enough to rule out a drastic acceleration in AI research",
+  "body": "According to the AI research organization METR, current public data isn't enough to rule out a drastic acceleration in AI research over the next few years. The organization also warns that common, easy-to-run tests may overestimate how well models perform in real-world use.",
+  "note": "For banks and insurers, that gap matters when a model's test results are the main basis for deploying it. METR's warning suggests those results may read higher than daily use will.",
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "According to the AI research organization METR , current public data isn't enough to rule out a drastic acceleration in AI research over the next few years." },
+    { "source": 0, "text": "The organization also warns that common, easy-to-run tests may overestimate how well the models perform in real-world use, since developers train them in very similar test environments." }
+  ]
+}
