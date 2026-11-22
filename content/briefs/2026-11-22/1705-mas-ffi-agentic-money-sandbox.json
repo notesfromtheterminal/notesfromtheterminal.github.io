@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-22-mas-ffi-agentic-money-sandbox",
+  "publishedAt": "2026-11-22T17:05:00+07:00",
+  "section": "sea",
+  "tags": ["payments", "banking", "rules"],
+  "star": true,
+  "company": "Future of Finance Institute",
+  "headline": "Future of Finance Institute to set up an Agentic Money Sandbox for AI agent payments",
+  "body": "The Future of Finance Institute (FFI) will set up an Agentic Money Sandbox, where financial institutions can test how AI agents transact with digital money within defined authority, limits and safeguards. Initial use cases will include agent-initiated payments and treasury management. MAS and FFI also named DBS, OCBC, Standard Chartered and UOB as FFI's launch partners.",
+  "note": "The sandbox tests the controls before agent-initiated payments and treasury work reach live environments, the step payment and treasury teams will need to plan around.",
+  "sources": [
+    { "name": "MAS", "url": "https://www.mas.gov.sg/news/media-releases/2026/mas-and-future-of-finance-institute-set-out-initiatives-in-support-of-national-ai-missions" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "The Monetary Authority of Singapore (MAS) and the Future of Finance Institute (FFI) today jointly announced initiatives in support of the National AI Missions for financial services." },
+    { "source": 0, "text": "FFI will establish an Agentic Money Sandbox, which provides a controlled environment for financial institutions to develop and test how AI agents can transact using digital money within defined authority, limits and safeguards." },
+    { "source": 0, "text": "Initial use cases will include agent-initiated payments and treasury management across participating financial institutions." },
+    { "source": 0, "text": "The Sandbox will enable participants to test the controls and arrangements needed for AI agents to transact safely before such use cases are deployed in live environments." },
+    { "source": 0, "text": "MAS and FFI also unveiled FFI’s financial institutions launch partners — DBS, OCBC, Standard Chartered and UOB — at SFF 2026." }
+  ]
+}
