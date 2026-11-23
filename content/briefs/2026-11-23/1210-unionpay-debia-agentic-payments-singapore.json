@@ -1,0 +1,45 @@
+{
+  "id": "2026-11-23-unionpay-debia-agentic-payments-singapore",
+  "publishedAt": "2026-11-23T12:10:00+07:00",
+  "section": "sea",
+  "tags": [
+    "payments"
+  ],
+  "star": false,
+  "company": "Debia",
+  "headline": "UnionPay and Debia sign MoU on agentic payments in Singapore",
+  "body": "UnionPay International and Debia, a Singapore merchant acquirer, signed a memorandum of understanding on 18 November at the Singapore FinTech Festival. Under the MoU, Debia plans to use its AI agent platform to help merchants accept transactions initiated by AI agents, and the two will assess the solution's performance. Debia says it has enabled approximately 3,000 merchants to accept UnionPay cards.",
+  "note": "The release puts transaction tracking and settlement reconciliation on the agenda, as part of what merchants need to adopt the model.",
+  "sources": [
+    {
+      "name": "PR Newswire",
+      "url": "https://www.prnewswire.com/apac/news-releases/unionpay-international-and-debia-ink-mou-to-explore-agentic-payments-in-singapore-302947673.html"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "a Singapore-based merchant acquirer, signed a memorandum of understanding (MoU) to collaborate on advancing agentic payments in Singapore."
+    },
+    {
+      "source": 0,
+      "text": "Signed on 18 November at the Singapore FinTech Festival 2026"
+    },
+    {
+      "source": 0,
+      "text": "Debia plans to use its AI agent platform to help merchants integrate UnionPay's agentic payment solution and accept transactions initiated by AI agents."
+    },
+    {
+      "source": 0,
+      "text": "UnionPay International and Debia will assess the solution's performance and identify further use cases for agentic payments in Singapore, with merchant needs in focus."
+    },
+    {
+      "source": 0,
+      "text": "Debia has enabled approximately 3,000 merchants to accept UnionPay cards."
+    },
+    {
+      "source": 0,
+      "text": "The parties will also consider the operational support merchants need to adopt this new payment model, including transaction tracking, settlement reconciliation and access to assistance with payment or settlement queries."
+    }
+  ]
+}

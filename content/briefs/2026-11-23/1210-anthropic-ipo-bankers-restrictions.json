@@ -1,0 +1,45 @@
+{
+  "id": "2026-11-23-anthropic-ipo-bankers-restrictions",
+  "publishedAt": "2026-11-23T12:10:00+07:00",
+  "section": "deals",
+  "tags": [
+    "banking"
+  ],
+  "star": false,
+  "company": "Anthropic",
+  "headline": "Bankers complained about Anthropic's IPO, Reuters reports",
+  "body": "Reuters reports that some bankers complained in private about Anthropic's record-setting IPO, saying the process was riddled with complications. Anthropic asked some of its 22 underwriters to limit the number of bankers on the deal to four, and asked some senior bank officers to sign documents restricting rival work for six months after it went public, according to people familiar with the matter.",
+  "note": "Reuters describes a new power dynamic between technology companies and Wall Street, and says banks and investors appear to have little choice but to play along.",
+  "sources": [
+    {
+      "name": "Reuters via The Korea Times",
+      "url": "https://www.koreatimes.co.kr/world/20261123/like-spacex-anthropic-ran-an-unusual-ipo-process-chafing-some-bankers"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "For the second time this year, Wall Street bankers and lawyers took home a massive paycheck from a record-setting initial public offering."
+    },
+    {
+      "source": 0,
+      "text": "And for the second time this year, some of them came out of it complaining in private about how the process was riddled with complications and unlike any they had worked on before."
+    },
+    {
+      "source": 0,
+      "text": "Anthropic, for example, instructed some of its 22 IPO underwriters to limit the number of bankers working on the deal to four, asking the firms to make sure they were senior staff, several people familiar with the matter said."
+    },
+    {
+      "source": 0,
+      "text": "Anthropic asked some senior officers at banks working on its IPO to sign legal documents restricting core members of the transaction team from working with rival companies, including OpenAI, Cursor, DeepSeek and Hugging Face, for six months after it went public, according to the people."
+    },
+    {
+      "source": 0,
+      "text": "Underlying these complaints is a new power dynamic between technology companies and Wall Street."
+    },
+    {
+      "source": 0,
+      "text": "But banks and investors appear to have little choice but to play along."
+    }
+  ]
+}
