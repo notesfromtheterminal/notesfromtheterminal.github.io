@@ -1,8 +1,8 @@
 {
   "date": "2026-11-24",
   "publishedAt": "2026-11-24T07:00:00+07:00",
-  "title": "Agent rules are arriving from banks and regulators",
-  "dek": "Wells Fargo's new terms start today, and Singapore is opening a sandbox to test the controls agents need.",
+  "title": "Banks spell out agent terms as Singapore plans a sandbox",
+  "dek": "Wells Fargo's new terms start today, and an institute in Singapore will set up a sandbox to test the controls agents need.",
   "lead": "2026-11-22-wells-fargo-third-party-ai-agent-terms",
   "stories": [
     "2026-11-19-citi-ai-agent-terms-customers-responsible",
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "head": "Singapore builds a test bed",
+      "head": "Singapore plans a test bed",
       "text": "The Future of Finance Institute will set up an Agentic Money Sandbox, a controlled environment where financial institutions can test how AI agents transact with digital money within defined authority, limits and safeguards. MAS and the Institute named DBS, OCBC, Standard Chartered and UOB as launch partners, and initial use cases include agent-initiated payments and treasury management.",
       "support": [
         "FFI will establish an Agentic Money Sandbox, which provides a controlled environment for financial institutions to develop and test how AI agents can transact using digital money within defined authority, limits and safeguards.",
@@ -50,7 +50,7 @@
     },
     {
       "head": "What to watch in our own roles",
-      "text": "Side by side, one group of banks is spelling out who answers for an agent's actions, while a regulator-backed sandbox is testing the limits and safeguards agents would work within. Whatever our role, we can ask which of those two questions our own institution has written down an answer to."
+      "text": "Side by side, one group of banks is spelling out who answers for an agent's actions, while a sandbox announced with MAS will test the limits and safeguards agents would work within. Whatever our role, we can ask which of those two questions our own institution has written down an answer to."
     }
   ]
 }
