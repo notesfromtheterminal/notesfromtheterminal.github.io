@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-23-sierra-series-f-30-billion",
+  "publishedAt": "2026-11-23T22:10:00+07:00",
+  "section": "deals",
+  "tags": ["banking"],
+  "company": "Sierra",
+  "headline": "Sierra raises $1.75 billion Series F at a $30 billion valuation",
+  "body": "Sierra, the customer experience company co-founded by former Salesforce co-CEO Bret Taylor, said on Monday that it raised $1.75 billion in a Series F round that doubles its valuation to $30 billion. The round was led by Greenoaks and Lightspeed Venture Partners, and its clients include BNY, HSBC, Wells Fargo and JPMorganChase, TechCrunch reports.",
+  "note": "Banks appear on the client list of one of the best-funded customer service agent vendors, which shows where investor money is going in contact-center AI.",
+  "figure": { "value": "$30B", "label": "Sierra valuation after Series F" },
+  "sources": [{ "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/" }],
+  "evidence": [
+    { "source": 0, "text": "Enterprise customer experience company Sierra, co-founded by former Salesforce co-CEO Bret Taylor, said on Monday that it has raised $1.75 billion in a Series F round that doubles the company’s valuation to $30 billion." },
+    { "source": 0, "text": "The new round was led by Greenoaks and Lightspeed Venture Partners, with participation from existing investors who have led previous rounds, including Benchmark, Sequoia, Greenoaks, GV, and Tiger Global." },
+    { "source": 0, "text": "Sierra said that it currently serves almost 50% of Fortune 50 companies, and its clients include BNY, HSBC, Singtel, Wells Fargo, JPMorganChase, Pearson, Next, and Cox Automotive." }
+  ]
+}
