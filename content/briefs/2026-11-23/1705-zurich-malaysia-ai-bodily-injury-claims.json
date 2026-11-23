@@ -1,0 +1,48 @@
+{
+  "id": "2026-11-23-zurich-malaysia-ai-bodily-injury-claims",
+  "publishedAt": "2026-11-23T17:05:00+07:00",
+  "section": "sea",
+  "tags": [
+    "banking"
+  ],
+  "company": "Zurich Malaysia",
+  "headline": "Zurich Malaysia rolls out AI tool for motor bodily injury claims",
+  "body": "Zurich Malaysia has rolled out an AI-enabled decision-support tool for motor third-party bodily injury (TPBI) claims, working with Lawdify Pte Ltd to deploy it. More than 80% of its claims handlers use the tool daily, and 90% report time savings on case review and preparation, according to an internal survey.",
+  "note": "Zurich Malaysia says the motor segment's combined ratio has been above 100% for a fourth consecutive year, a level that indicates an underwriting loss.",
+  "sources": [
+    {
+      "name": "Fintech News Malaysia",
+      "url": "https://fintechnews.my/62552/ai/zurich-malaysia-ai-bodily-injury-claims/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Zurich Malaysia has rolled out an AI-enabled decision-support tool for motor third-party bodily injury (TPBI) claims."
+    },
+    {
+      "source": 0,
+      "text": "More than 80% of its claims handlers use the tool daily, while 90% report time savings on case review and preparation, according to an internal survey."
+    },
+    {
+      "source": 0,
+      "text": "The insurer is working with Lawdify Pte Ltd to deploy the tool, which uses an intelligence layer drawing on jurisdiction-specific insights into injuries, fraud and settlement data."
+    },
+    {
+      "source": 0,
+      "text": "Malaysia's motor insurance segment recorded an underwriting loss of RM289.3 million in 2025, according to the General Insurance Association of Malaysia (PIAM)."
+    },
+    {
+      "source": 0,
+      "text": "The segment's combined ratio stood at 103%, measuring claims and underwriting expenses against premiums earned."
+    },
+    {
+      "source": 0,
+      "text": "A ratio above 100% indicates an underwriting loss."
+    },
+    {
+      "source": 0,
+      "text": "Zurich Malaysia said this was the fourth consecutive year the segment's combined ratio remained above that level."
+    }
+  ]
+}
