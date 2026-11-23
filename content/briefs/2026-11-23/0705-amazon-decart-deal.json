@@ -1,0 +1,38 @@
+{
+  "id": "2026-11-23-amazon-decart-deal",
+  "publishedAt": "2026-11-23T07:05:00+07:00",
+  "section": "deals",
+  "tags": [],
+  "company": "Amazon",
+  "headline": "Amazon is reportedly closer to a $7.5 billion deal for AI startup Decart",
+  "body": "The Financial Times reported that Amazon is closer to a deal valuing Decart at roughly $7.5 billion. The sources said a deal could come together in the coming days, though talks could still fall apart.",
+  "note": "The report says the software frees up computer chip capacity, a cost question for any firm paying for AI compute.",
+  "sources": [
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/amazon-nears-7-5-billion-purchase-of-ai-startup-decart/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Amazon is reportedly closer to a $7.5 billion deal to acquire artificial intelligence startup Decart"
+    },
+    {
+      "source": 0,
+      "text": "That’s according to a report Saturday (Nov. 21) by the Financial Times (FT), citing sources familiar with the matter."
+    },
+    {
+      "source": 0,
+      "text": "The sources said the negotiations were at an advanced stage for a deal valuing Decart at roughly $7.5 billion."
+    },
+    {
+      "source": 0,
+      "text": "A deal could come together in the coming days, though talks could still fall apart, the sources added."
+    },
+    {
+      "source": 0,
+      "text": "The report notes that the purchase of Decart, whose software allows AI models to function more efficiently and free up computer chip capacity, helps Amazon Web Services compete with Nvidia ."
+    }
+  ]
+}
