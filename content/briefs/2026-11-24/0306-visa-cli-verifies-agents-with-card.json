@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-24-visa-cli-verifies-agents-with-card",
+  "publishedAt": "2026-11-24T03:06:00+07:00",
+  "section": "payments",
+  "tags": [],
+  "company": "Visa",
+  "headline": "Visa CLI lets people verify an AI agent with a Visa card",
+  "body": "Visa launched a new version of Visa CLI, an agent wallet, and Cuy Sheffield, head of Visa Crypto Labs, said in a Sunday post on X. Sheffield said Visa's 5 billion payment credentials are well-suited to verify that an agent is authorized by an accountable individual. The new version is available to users in the United States with eligible Visa cards.",
+  "note": "Using a card to show who stands behind an agent could put card issuers into agent verification, if this model spreads beyond Visa's own product.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/visa-uses-payment-credentials-verify-ai-agents/" }
+  ],
+  "wire": ["46130ea26c4f"],
+  "evidence": [
+    { "source": 0, "text": "Visa launched a new version of its artificial intelligence agent wallet , Visa CLI , Cuy Sheffield , head of Visa Crypto Labs, said in a Sunday (Nov. 22) post on social platform X." },
+    { "source": 0, "text": "The new version of Visa CLI is available to users in the United States with eligible Visa cards, according to the post." },
+    { "source": 0, "text": "Visa can support that confidence with its 5 billion Visa payment credentials that connect consumers and businesses with merchants and financial institutions, Sheffield said in the article." },
+    { "source": 0, "text": "“We believe that these 5B existing credentials are well-suited to be used by consumers and businesses to verify that an agent is authorized by an accountable individual,” Sheffield said in the article." },
+    { "source": 0, "text": "Visa CLI is “an agent wallet that lets people verify their agent with a Visa card, then work with it to earn OUSD by completing creative tasks,” Sheffield said in the post." }
+  ]
+}
