@@ -1,0 +1,7 @@
+{
+  "note": "2026-11-24",
+  "commit": "7a2c09d0ec4bbdcbdc24a5b89d53a0f12b393a40",
+  "verdict": "APPROVED",
+  "at": "2026-11-23T16:46:52.008Z",
+  "notes": "Fixed by the review run, then approved:\n1. Title: \"Agent rules are arriving from banks and regulators\" -> \"Banks spell out agent terms as Singapore plans a sandbox\". Source: MAS/FFI announce a sandbox for testing, not rules; \"FFI will establish an Agentic Money Sandbox\".\n2. Dek: \"Singapore is opening a sandbox\" -> \"an institute in Singapore will set up a sandbox\" (source: \"FFI will establish\").\n3. Heading \"Singapore builds a test bed\" -> \"Singapore plans a test bed\" (future, not built).\n4. Last section: \"a regulator-backed sandbox is testing the limits\" -> \"a sandbox announced with MAS will test the limits\" (source: MAS and FFI jointly announced; sandbox \"will enable participants to test\")."
+}
