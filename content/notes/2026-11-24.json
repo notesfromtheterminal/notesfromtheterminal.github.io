@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-24",
+  "publishedAt": "2026-11-24T07:00:00+07:00",
+  "title": "Banks spell out agent terms as Singapore plans a sandbox",
+  "dek": "Wells Fargo's new terms start today, and an institute in Singapore will set up a sandbox to test the controls agents need.",
+  "lead": "2026-11-22-wells-fargo-third-party-ai-agent-terms",
+  "stories": [
+    "2026-11-19-citi-ai-agent-terms-customers-responsible",
+    "2026-11-22-mas-ffi-agentic-money-sandbox",
+    "2026-11-23-unionpay-debia-agentic-payments-singapore"
+  ],
+  "body": [
+    {
+      "head": "Wells Fargo's terms start today",
+      "text": "Wells Fargo's updated Online Access Agreement takes effect today, November 24. The bank says that if you use a third-party AI tool or agent, requests submitted through it may be treated as if they came directly from you, and that it reserves the right to restrict or block access from certain tools.",
+      "support": [
+        "We wanted to let you know we're updating our Online Access Agreement (“Agreement”), effective November 24, 2026 , which covers your use of Wells Fargo's online and mobile services.",
+        "The information shared with the tool will be subject to the provider's privacy practices and terms, requests submitted through the tool may be treated as if they came directly from you, and we included your responsibilities for managing the tool's access to your accounts.",
+        "We also reserve the right to restrict or block access from certain third-party AI tools."
+      ]
+    },
+    {
+      "head": "Other big banks changed terms",
+      "text": "Citi told TechCrunch that customers who grant third-party AI agents account access are responsible for activities conducted through those agents. TechCrunch reports that JPMorgan and Bank of America announced similar policies last month, and that PNC changed its terms too.",
+      "support": [
+        "We recently updated our Online User Agreement to provide greater clarity about those risks and to reinforce that customers who choose to grant account access to third-party AI agents are responsible for activities conducted through those agents.",
+        "JPMorgan and Bank of America , the two largest banks in the country, announced similar policies last month.",
+        "And PNC, the eighth largest bank, changed its terms today."
+      ]
+    },
+    {
+      "head": "Singapore plans a test bed",
+      "text": "The Future of Finance Institute will set up an Agentic Money Sandbox, a controlled environment where financial institutions can test how AI agents transact with digital money within defined authority, limits and safeguards. MAS and the Institute named DBS, OCBC, Standard Chartered and UOB as launch partners, and initial use cases include agent-initiated payments and treasury management.",
+      "support": [
+        "FFI will establish an Agentic Money Sandbox, which provides a controlled environment for financial institutions to develop and test how AI agents can transact using digital money within defined authority, limits and safeguards.",
+        "MAS and FFI also unveiled FFI’s financial institutions launch partners — DBS, OCBC, Standard Chartered and UOB — at SFF 2026.",
+        "Initial use cases will include agent-initiated payments and treasury management across participating financial institutions.",
+        "The Monetary Authority of Singapore (MAS) and the Future of Finance Institute (FFI) today jointly announced initiatives in support of the National AI Missions for financial services."
+      ]
+    },
+    {
+      "head": "Merchants prepare for agent payments",
+      "text": "At the Singapore FinTech Festival, UnionPay and a merchant acquirer called Debia signed an MoU on agentic payments, and Debia plans to use its AI agent platform to help merchants accept transactions initiated by AI agents. The parties will also consider the operational support merchants need, including transaction tracking and settlement reconciliation.",
+      "support": [
+        "a Singapore-based merchant acquirer, signed a memorandum of understanding (MoU) to collaborate on advancing agentic payments in Singapore.",
+        "Signed on 18 November at the Singapore FinTech Festival 2026",
+        "Debia plans to use its AI agent platform to help merchants integrate UnionPay's agentic payment solution and accept transactions initiated by AI agents.",
+        "The parties will also consider the operational support merchants need to adopt this new payment model, including transaction tracking, settlement reconciliation and access to assistance with payment or settlement queries."
+      ]
+    },
+    {
+      "head": "What to watch in our own roles",
+      "text": "Side by side, one group of banks is spelling out who answers for an agent's actions, while a sandbox announced with MAS will test the limits and safeguards agents would work within. Whatever our role, we can ask which of those two questions our own institution has written down an answer to."
+    }
+  ]
+}
