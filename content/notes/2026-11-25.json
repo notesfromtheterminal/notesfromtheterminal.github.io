@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-25",
+  "publishedAt": "2026-11-25T07:00:00+07:00",
+  "title": "Agents need an identity, and a regulator is watching",
+  "dek": "The FCA, a Singapore trial and Visa are each working on who an agent is and whom it is acting for.",
+  "lead": "2026-11-24-fca-agentic-guidance-regulated-activity",
+  "stories": [
+    "2026-11-24-pathfin-ai-agent-identity-trial",
+    "2026-11-24-visa-cli-verifies-agents-with-card",
+    "2026-11-24-danamon-advance-intelligence-ai-agents"
+  ],
+  "body": [
+    {
+      "head": "A regulator draws a line",
+      "text": "The Financial Conduct Authority, the UK's financial watchdog, published updated guidance on agentic products yesterday, calling on developers to consider whether their agents are offering regulated financial services. The FCA said that a business describing itself as a technology provider does not mean it does not need to be authorized by the FCA, and that it would not hesitate to use its power to intervene.",
+      "support": [
+        "If you’re a tech company launching agentic AI products in England, the country’s financial watchdog may want to hear from you.",
+        "The Financial Conduct Authority published updated guidance for agentic products Tuesday (Nov. 24), calling on companies developing such products to consider whether their agents are offering regulated financial services, and to consult with regulators if that’s the case.",
+        "“Just because a business describes itself as a technology provider does not mean that they do not need to be authorized by us to provide financial services in the UK. This boundary is set by Parliament.”",
+        "The FCA said it would not hesitate to use its power to intervene in cases where it believes regulated financial services are being offered without its consent."
+      ]
+    },
+    {
+      "head": "Singapore tests agent identity",
+      "text": "Meanwhile, Green Link Digital Bank, AXS, Terminal 3 and HSBC Singapore ran a proof of concept under the Monetary Authority of Singapore's PathFin.ai initiative. The work focused on verifying an AI agent's identity, confirming whom it represented and what it was authorised to do, and keeping an auditable record of decisions, and it was a controlled test, not the launch of a customer proposition.",
+      "support": [
+        "Green Link Digital Bank (GLDB) , AXS , Terminal 3 and HSBC Singapore have conducted a proof of concept under the Monetary Authority of Singapore’s (MAS) PathFin.ai initiative.",
+        "The work focused on verifying an AI agent’s identity, confirming whom it represented and what it was authorised to do, applying controls during request processing and maintaining an auditable record of decisions.",
+        "They do not represent the launch of a customer proposition or an autonomous payment service."
+      ]
+    },
+    {
+      "head": "Visa points to its credentials",
+      "text": "At the same time, Visa launched a new version of Visa CLI, an agent wallet, and Cuy Sheffield, head of Visa Crypto Labs, said Visa's 5 billion payment credentials are well-suited to verify that an agent is authorized by an accountable individual. It is available to users in the United States with eligible Visa cards.",
+      "support": [
+        "Visa launched a new version of its artificial intelligence agent wallet , Visa CLI , Cuy Sheffield , head of Visa Crypto Labs, said in a Sunday (Nov. 22) post on social platform X.",
+        "“We believe that these 5B existing credentials are well-suited to be used by consumers and businesses to verify that an agent is authorized by an accountable individual,” Sheffield said in the article.",
+        "The new version of Visa CLI is available to users in the United States with eligible Visa cards, according to the post."
+      ]
+    },
+    {
+      "head": "Banks keep humans in oversight",
+      "text": "In Indonesia, Bank Danamon Indonesia and a partner signed a MoU to explore two AI agents for collections and telesales, with governance and oversight from Danamon's teams.",
+      "support": [
+        "Bank Danamon Indonesia has partnered with Advance Intelligence Group (AIGL) to explore how AI agents can support its banking operations.",
+        "The two companies signed a MoU to explore the potential use of two AI agents for collections and telesales.",
+        "The agents would support selected customer interactions through voice and text channels, with governance and oversight from Danamon’s teams."
+      ]
+    },
+    {
+      "head": "What to watch in our own roles",
+      "text": "Placed next to each other, a regulator, a trial group and a card network are each working on who an agent is and whom it answers to, and nobody in these stories has finished the job. Whatever our role, we can ask where our own institution records which person stands behind each agent it uses or accepts."
+    }
+  ]
+}
