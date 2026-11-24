@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-24-pathfin-ai-agent-identity-trial",
+  "publishedAt": "2026-11-24T12:08:00+07:00",
+  "section": "sea",
+  "tags": ["payments", "banking"],
+  "headline": "Singapore's PathFin.ai trial tests how to verify AI agents' identity",
+  "body": "Green Link Digital Bank (GLDB), AXS, Terminal 3 and HSBC Singapore have conducted a proof of concept under the Monetary Authority of Singapore (MAS) PathFin.ai initiative. The work focused on verifying an AI agent's identity and confirming whom it represented. The two scenarios were controlled tests, and they do not represent the launch of a customer proposition.",
+  "note": "Before processing a payment, a bank has to confirm who an agent represents. This trial tested one way to check that across financial institutions.",
+  "sources": [
+    { "name": "Fintech News Singapore", "url": "https://fintechnews.sg/142186/ai/pathfin-ai-agentic-payments-safeguards-mas/" }
+  ],
+  "wire": ["7dcbb3a13cad"],
+  "evidence": [
+    { "source": 0, "text": "Green Link Digital Bank (GLDB) , AXS , Terminal 3 and HSBC Singapore have conducted a proof of concept under the Monetary Authority of Singapore’s (MAS) PathFin.ai initiative." },
+    { "source": 0, "text": "The trial examined how safeguards for agentic finance could work across financial institutions and payment providers." },
+    { "source": 0, "text": "The work focused on verifying an AI agent’s identity, confirming whom it represented and what it was authorised to do, applying controls during request processing and maintaining an auditable record of decisions." },
+    { "source": 0, "text": "Both scenarios tested safeguards in a controlled environment." },
+    { "source": 0, "text": "They do not represent the launch of a customer proposition or an autonomous payment service." },
+    { "source": 0, "text": "Terminal 3 provided the trust infrastructure for the proof of concept." }
+  ]
+}
