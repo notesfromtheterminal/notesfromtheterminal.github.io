@@ -1,0 +1,18 @@
+{
+  "id": "2026-11-25-openai-anthropic-insiders-doubt-model-safety",
+  "publishedAt": "2026-11-25T03:08:00+07:00",
+  "section": "models",
+  "tags": [],
+  "company": "OpenAI",
+  "headline": "Axios reports employees at OpenAI and Anthropic consider unreleased models too powerful to ship",
+  "body": "Axios reports, citing more than two dozen insiders, that many employees now consider unreleased systems too powerful to safely ship to the public. Both companies are already debating whether to halt their release altogether, according to the report. Many employees no longer believe the models can be safely controlled.",
+  "note": "For banks and fintechs that build on these labs' models, a halt to a release would change what they can plan to deploy.",
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Unreleased frontier models from OpenAI and Anthropic have grown so capable that many employees no longer believe they can be safely controlled, according to a new report." },
+    { "source": 0, "text": "Internally, both companies are already debating whether to halt their release altogether." },
+    { "source": 0, "text": "Axios reports, citing more than two dozen insiders , that many employees now consider the unreleased systems too powerful to safely ship to the public." }
+  ]
+}

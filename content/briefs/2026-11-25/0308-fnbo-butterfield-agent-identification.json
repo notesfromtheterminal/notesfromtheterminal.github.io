@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-25-fnbo-butterfield-agent-identification",
+  "publishedAt": "2026-11-25T03:08:00+07:00",
+  "section": "banking",
+  "tags": ["payments"],
+  "company": "FNBO",
+  "headline": "FNBO's Marc Butterfield says banks must identify AI shopping agents",
+  "body": "FNBO, a Midwest super regional with about $35 billion in assets, is working on that responsibility across data, fraud, product design and its roadmap. On agents, “Do we know if it’s an agent or not? Well, in some cases, we don’t,” Butterfield said.",
+  "note": "For card issuers, the first practical step is telling an agent apart from a customer, before any product or catalog work.",
+  "sources": [
+    { "name": "Tearsheet", "url": "https://tearsheet.co/podcasts/fnbos-marc-butterfield-on-preparing-for-ai-agents-that-shop-for-credit-cards/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "FNBO’s Marc Butterfield says banks must feed AI models better data and identify shopping agents to protect customers as LLMs drive card searches." },
+    { "source": 0, "text": "FNBO, a Midwest super regional with about $35 billion in assets, is working on that responsibility across data, fraud, product design, and its own roadmap." },
+    { "source": 0, "text": "The payment rails for agentic transactions largely already exist; the open question is identification." },
+    { "source": 0, "text": "“Do we know if it’s an agent or not? Well, in some cases, we don’t,” Butterfield said." }
+  ]
+}

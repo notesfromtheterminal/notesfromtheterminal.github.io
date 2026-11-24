@@ -1,0 +1,18 @@
+{
+  "id": "2026-11-25-meta-muse-instagram-dms",
+  "publishedAt": "2026-11-25T03:08:00+07:00",
+  "section": "models",
+  "tags": [],
+  "company": "Meta",
+  "headline": "Meta's Muse AI agent can now chat with users in Instagram DMs",
+  "body": "Instagram users can now chat with Meta’s AI agent Muse in a DM thread, the company announced on Tuesday. Users can share posts with Muse and ask it to take action, such as finding a Black Friday deal on a pair of shoes. Muse in Instagram DMs will begin rolling out on Tuesday for iOS and Android users in the U.S., Canada, Mexico, Japan and Singapore.",
+  "note": "Singapore is among the launch markets, and the open question for payment firms there is how an assistant inside a social app handles requests that involve money.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Instagram users can now chat with Meta’s AI agent Muse in a DM thread, the company announced on Tuesday." },
+    { "source": 0, "text": "Users can share Instagram posts with Muse and ask it to take action, such as adding a coffee shop to their Mexico City itinerary or finding a Black Friday deal on a pair of shoes." },
+    { "source": 0, "text": "Muse in Instagram DMs will begin rolling out on Tuesday for iOS and Android users in the U.S., Canada, Mexico, Japan, and Singapore." }
+  ]
+}
