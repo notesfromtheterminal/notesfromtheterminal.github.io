@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-24-danamon-advance-intelligence-ai-agents",
+  "publishedAt": "2026-11-24T17:08:00+07:00",
+  "section": "sea",
+  "tags": ["banking"],
+  "company": "Bank Danamon",
+  "headline": "Bank Danamon signs MoU with AIGL to explore AI agents for collections and telesales",
+  "body": "Bank Danamon Indonesia and Advance Intelligence Group (AIGL) signed a MoU to explore two AI agents for collections and telesales. The agents would support selected customer interactions through voice and text channels, with governance and oversight from Danamon’s teams.",
+  "note": "Collections and telesales are customer-facing work, so the governance terms in the MoU matter as much as what the agents can do.",
+  "sources": [
+    { "name": "Fintech News Indonesia", "url": "https://fintechnews.id/111085/ai/danamon-advance-intelligence-group-ai/" }
+  ],
+  "wire": ["d510e29c5f79"],
+  "evidence": [
+    { "source": 0, "text": "Bank Danamon Indonesia has partnered with Advance Intelligence Group (AIGL) to explore how AI agents can support its banking operations." },
+    { "source": 0, "text": "The two companies signed a MoU to explore the potential use of two AI agents for collections and telesales." },
+    { "source": 0, "text": "The agents would support selected customer interactions through voice and text channels, with governance and oversight from Danamon’s teams." },
+    { "source": 0, "text": "The partnership forms part of Danamon’s broader plans to integrate artificial intelligence (AI) across its business." }
+  ]
+}

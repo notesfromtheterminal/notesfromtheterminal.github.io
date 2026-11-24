@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-24-signal-limits-ai-agents",
+  "publishedAt": "2026-11-24T17:08:00+07:00",
+  "section": "banking",
+  "tags": ["payments"],
+  "company": "Signal",
+  "headline": "Signal tightens protections against AI agents that can access screens",
+  "body": "Signal says AI agents built into mobile operating systems can \"scan\" information on users' screens. The company said it will block screenshots in its iOS app. The move follows restrictions by United Airlines, JPMorgan Chase and Charles Schwab.",
+  "note": "Banks are drawing lines around third-party agents, and OCBC tells customers to exercise caution when using them for banking.",
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/24/signal-airlines-banks-ai-limit.html" }
+  ],
+  "wire": ["edd96d2dec26"],
+  "evidence": [
+    { "source": 0, "text": "Privacy-focused messaging application Signal is tightening protections against artificial intelligence agents that can access information displayed on users' screens, citing concerns over privacy and security." },
+    { "source": 0, "text": "Signal said AI agents built into mobile operating systems, such as Google's Gemini and Apple's Siri with onscreen awareness, can \"scan\" information on users' screens, potentially capturing and storing Signal data outside its control." },
+    { "source": 0, "text": "The company said it will block screenshots in its iOS app and, on Android, enable screen security when it detects an AI assistant attempting to read the screen." },
+    { "source": 0, "text": "The move follows restrictions by companies including United Airlines, JPMorgan Chase and Charles Schwab, which have limited or blocked AI agents over security and customer-protection concerns." },
+    { "source": 0, "text": "JPMorgan Chase CEO Jamie Dimon said in October that outside agents were too risky for the bank and its clients." },
+    { "source": 0, "text": "Singapore's OCBC Bank has said it will not let third-party agents to interact with the bank to transfer money autonomously and warned that \"customers should exercise caution\" when using such agents for banking." }
+  ]
+}
