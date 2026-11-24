@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-24-fca-agentic-guidance-regulated-activity",
+  "publishedAt": "2026-11-24T22:05:00+07:00",
+  "section": "rules",
+  "tags": ["payments"],
+  "company": "FCA",
+  "headline": "FCA publishes updated guidance on agentic AI products and regulated services",
+  "body": "The Financial Conduct Authority (FCA), the UK's financial watchdog, published updated guidance on Tuesday calling on companies developing agentic products to consider whether their agents offer regulated financial services. The FCA said it would not hesitate to use its power to intervene where it believes regulated services are offered without its consent.",
+  "note": "The FCA is telling AI developers that calling yourself a technology provider does not settle whether you need authorization, which is the same question banks ask when an agent touches a customer's money.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/fca-warns-companies-against-unregulated-agentic-activity/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "If you’re a tech company launching agentic AI products in England, the country’s financial watchdog may want to hear from you." },
+    { "source": 0, "text": "The Financial Conduct Authority published updated guidance for agentic products Tuesday (Nov. 24), calling on companies developing such products to consider whether their agents are offering regulated financial services, and to consult with regulators if that’s the case." },
+    { "source": 0, "text": "The FCA said it would not hesitate to use its power to intervene in cases where it believes regulated financial services are being offered without its consent." },
+    { "source": 0, "text": "“Just because a business describes itself as a technology provider does not mean that they do not need to be authorized by us to provide financial services in the UK. This boundary is set by Parliament.”" }
+  ]
+}
