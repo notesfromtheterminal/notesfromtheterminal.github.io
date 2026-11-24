@@ -1,0 +1,34 @@
+{
+  "id": "2026-11-24-paypal-agentic-virtual-card-terms",
+  "publishedAt": "2026-11-24T07:05:00+07:00",
+  "section": "payments",
+  "star": false,
+  "company": "PayPal",
+  "headline": "PayPal's agentic virtual card terms take effect for US business accounts",
+  "body": "PayPal's terms for a new payment type for agentic commerce took effect Monday (Nov. 23), according to updated terms posted by the company. Under the terms, merchants pay the costs to accept the card, including network fees and interchange, and the transactions are not eligible under PayPal's Seller Protection program.",
+  "note": "For merchants taking payments from AI agents, the fee and dispute terms are the part to read first, since disputes go through the card network's chargeback process.",
+  "sources": [
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/paypal-sets-virtual-card-rules-for-agentic-commerce/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "PayPal ’s terms applicable to a new payment type for agentic commerce took effect Monday (Nov. 23), according to updated terms posted by the company."
+    },
+    {
+      "source": 0,
+      "text": "This new payment type involves \"PayPal payments received by eligible U.S. business accounts from purchases made through an agentic commerce service that are settled by PayPal to [the business account] through a virtual payment card provided by PayPal to the agentic commerce service,\" the company said in the policy update."
+    },
+    {
+      "source": 0,
+      "text": "In addition, the merchant is responsible for paying the costs to accept the agentic virtual card, including payment card network fees, interchange and assessments owed under the merchant's agreement with their card processor, per the terms."
+    },
+    {
+      "source": 0,
+      "text": "In addition, these transactions are not eligible under PayPal's Seller Protection program, and any disputes association with these payments are resolved through the agentic virtual card's payment card network's chargeback process, per the terms."
+    }
+  ]
+}

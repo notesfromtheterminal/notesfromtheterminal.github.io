@@ -1,0 +1,38 @@
+{
+  "id": "2026-11-24-anthropic-claude-ship",
+  "publishedAt": "2026-11-24T07:05:00+07:00",
+  "section": "models",
+  "star": false,
+  "company": "Anthropic",
+  "headline": "Anthropic launches Claude Ship, AI agents for code review and approvals",
+  "body": "Anthropic launched Claude Ship. The offering includes AI agents for code reviews, fixes and approvals, with Code Review generally available and PR Steward and Claude Approvals in beta, rolling out to Claude Team and Enterprise plans on GitHub.",
+  "note": "The approval step is the part to watch: TechCrunch describes it as delegating approval authority to an AI agent, and Anthropic suggests observe-only mode first.",
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "On Monday, the newly public AI company announced the launch of Claude Ship , a suite of AI agents for automating code reviews, fixes, and approvals of routine code changes."
+    },
+    {
+      "source": 0,
+      "text": "Claude Approvals then applies an approval policy that the team writes as a file in the repository."
+    },
+    {
+      "source": 0,
+      "text": "Because the offering is still in beta, Anthropic suggests running the approval functionality in observe-only mode first."
+    },
+    {
+      "source": 0,
+      "text": "Claude Ship is rolling out to Claude Team and Enterprise plans for repositories on GitHub. Code Review is generally available, while PR Steward and Claude Approvals are in beta."
+    },
+    {
+      "source": 0,
+      "text": "With Claude Ship, the idea is to automate even more of the work involved in the development process, essentially by delegating approval authority to an AI agent itself."
+    }
+  ]
+}
