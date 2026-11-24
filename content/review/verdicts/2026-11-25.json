@@ -1,0 +1,7 @@
+{
+  "note": "2026-11-25",
+  "commit": "5b5a547baac8adc10d9781a1e15ebacee37efec9",
+  "verdict": "APPROVED",
+  "at": "2026-11-24T16:46:53.723Z",
+  "notes": "Fixed by the review run, then approved:\n1. Section 2/3 openers: \"Meanwhile,\" and \"At the same time,\" removed (Visa post dated Nov 22, others Nov 24).\n2. Heading \"Banks keep humans in oversight\" -> \"A bank explores agents with oversight\" (one bank, a MoU to explore; source: \"The agents would support selected customer interactions ... with governance and oversight from Danamon's teams\").\n3. Danamon text now \"The agents would support selected customer interactions, with governance and oversight from Danamon's teams.\" (was stated as fact).\n4. Closing: cut \"and nobody in these stories has finished the job\" (no source makes this claim)."
+}
