@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-26-amazon-meta-muse-store-talks",
+  "publishedAt": "2026-11-26T03:12:00+07:00",
+  "section": "payments",
+  "tags": ["models"],
+  "company": "Amazon",
+  "headline": "Amazon and Meta reportedly in talks on a deal to connect Muse to Amazon’s store",
+  "body": "Amazon and Meta have reportedly held multiple rounds of talks on a deal that would let Meta’s Muse connect directly to Amazon’s store, according to a Fortune report cited by TechCrunch. Two months ago Muse users were unable to purchase products on Amazon, and two key issues remain under negotiation: how search results would be presented and how advertising would be handled. Meta and Amazon have not yet responded to TechCrunch’s requests for comment.",
+  "note": "For payments firms, the open question is which large marketplaces an AI agent can check out through. Advertising is one of the open issues, and shopping agents like Muse could affect Amazon’s advertising business.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "The two tech giants are reportedly discussing a potential deal that would allow Meta’s popular AI agent to connect directly to Amazon’s store." },
+    { "source": 0, "text": "The talks would mark a significant reversal from just two months ago, when Muse users discovered they were unable to purchase products on Amazon and instead received an error message when attempting to check out." },
+    { "source": 0, "text": "According to a Wednesday report by Fortune , citing people familiar with the discussions, Amazon and Meta have held multiple rounds of talks about the matter." },
+    { "source": 0, "text": "Two key issues remain under negotiation: how search results would be presented and how advertising would be handled under a potential agreement." },
+    { "source": 0, "text": "Meta and Amazon have not yet responded to TechCrunch’s requests for comment." },
+    { "source": 0, "text": "One of Amazon’s biggest concerns is how third-party shopping agents like Muse could affect its advertising business." }
+  ]
+}
