@@ -1,0 +1,7 @@
+{
+  "note": "2026-11-26",
+  "commit": "84f3163472a7de4ca0cb4f22d590509ccf5be316",
+  "verdict": "APPROVED",
+  "at": "2026-11-25T16:54:07.858Z",
+  "notes": "Fixed by the review run, then approved:\n1. Section 2 and its support: note said \"fell 8%\"; CNBC and the corrected brief say \"closed down 6.5% on Tuesday\". Now \"closed down 6.5%\"; support text matches the brief.\n2. Section 2: cut \"Meanwhile\"; \"on the Nasdaq on Thursday\" in the source's words.\n3. Title: \"getting pickier\" now the source's \"become pickier\". Dek rewritten to state only what the sections report (removed unsupported \"venture investors\", \"public shareholders\").\n4. Section 3: cut unsupported sentence about banks as lenders and buyers; heading now \"Banks appear among Sierra's clients\"; \"lists\" now \"its clients include\" (source's words)."
+}
