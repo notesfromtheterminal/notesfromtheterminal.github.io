@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-25-pimco-ai-bonds-250-billion",
+  "publishedAt": "2026-11-25T17:05:00+07:00",
+  "section": "deals",
+  "company": "PIMCO",
+  "headline": "PIMCO expects the biggest AI companies to tap about $250 billion in bonds this year",
+  "body": "PIMCO, citing Goldman Sachs data, expects the biggest AI companies to tap about $250 billion through bond sales this year. CNBC reports Big Tech could find it increasingly tough to secure funding from debt markets as lenders become pickier. According to Man Group analysis, Microsoft, Amazon, Meta and Alphabet are on track to spend more on capital projects than their businesses generated in cash in both 2026 and 2027.",
+  "note": "For bank and fintech readers, the AI build-out is also a question about who will fund it and how willing lenders stay.",
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/25/ai-debt-big-tech-spending-nvidia.html" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Bond investors are weighing heavy AI-related issuance against weaker free cash flow and uncertainty over how quickly data-center investment will pay off." },
+    { "source": 0, "text": "Accelerated AI-related borrowing is becoming a bigger share of U.S. corporate debt." },
+    { "source": 0, "text": "PIMCO, citing Goldman Sachs data, expects the biggest AI companies to tap about $250 billion through bond sales this year." },
+    { "source": 0, "text": "Big Tech could find it increasingly tough to secure funding from debt markets critical to the AI build-out, as lenders become pickier over corporate bonds." },
+    { "source": 0, "text": "Microsoft, Amazon , Meta and Alphabet are now on track to spend more on capital projects than their businesses generated in cash in both 2026 and 2027, according to Man Group analysis." }
+  ]
+}
