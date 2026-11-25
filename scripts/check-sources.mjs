@@ -83,6 +83,7 @@ for (const file of files) {
   if (!Array.isArray(b.evidence) || !b.evidence.length) continue;
   checked++;
   const where = path.relative(p(), file);
+  const missing = {};
   for (const [i, ev] of b.evidence.entries()) {
     const src = b.sources?.[ev.source];
     if (!src) {
@@ -102,9 +103,34 @@ for (const file of files) {
       }
       continue;
     }
-    if (!norm(page.text).includes(norm(ev.text))) {
-      console.log(`ERROR ${where}: evidence[${i}] is not on ${src.name}'s page (${src.url}): "${ev.text.slice(0, 90)}${ev.text.length > 90 ? '…' : ''}"`);
-      errors++;
+    if (!norm(page.text).includes(norm(ev.text))) (missing[src.url] ??= { src, items: [] }).items.push(i);
+  }
+  // A sentence the page lacks. In CI (a GitHub runner, whose requests news sites sometimes answer
+  // with a different page: a bot check, a paywall, a regional edition) read the page once more
+  // before deciding. If none of the brief's sentences from that source are on the page even then,
+  // the runner was served another page: a warning. If some are and some are not, the article
+  // changed (an updated figure in a live story): an error, as it is outside CI.
+  for (const { src, items } of Object.values(missing)) {
+    let still = items;
+    let page = await read(src.url);
+    if (ci) {
+      await new Promise((r) => setTimeout(r, 15000));
+      pages.delete(src.url);
+      page = await read(src.url);
+      still = page.ok ? items.filter((i) => !norm(page.text).includes(norm(b.evidence[i].text))) : items;
+    }
+    const fromSource = b.evidence.filter((ev) => b.sources[ev.source]?.url === src.url).length;
+    const variant = ci && still.length === fromSource;
+    for (const i of still) {
+      const ev = b.evidence[i];
+      const msg = `${where}: evidence[${i}] is not on ${src.name}'s page (${src.url}): "${ev.text.slice(0, 90)}${ev.text.length > 90 ? '…' : ''}"`;
+      if (variant) {
+        console.log(`warn  ${msg} (none of this source's sentences matched: the runner was likely served a different page)`);
+        warnings++;
+      } else {
+        console.log(`ERROR ${msg}`);
+        errors++;
+      }
     }
   }
   if (Date.parse(b.publishedAt) >= READABLE_FROM) {

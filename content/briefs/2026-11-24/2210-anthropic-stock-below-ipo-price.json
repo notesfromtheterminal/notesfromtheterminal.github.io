@@ -3,16 +3,16 @@
   "publishedAt": "2026-11-24T22:10:00+07:00",
   "section": "deals",
   "company": "Anthropic",
-  "updatedAt": "2026-11-25T03:12:00+07:00",
-  "correction": "CNBC's page now says the stock fell 8% on Tuesday, not 7%. Body and evidence changed to 8% to match the page; the rest of the brief checked against the same page.",
-  "headline": "Anthropic shares fall below the $83 IPO price on Tuesday, CNBC reports",
-  "body": "Shares of Anthropic fell 8% on Tuesday, sending the stock below the company's $83 IPO price, CNBC reports. The stock has been sinking steadily since opening at $111.50 on the Nasdaq on Thursday, after Anthropic raised $81.3 billion. Canaccord Genuity, Wedbush and Oppenheimer have each initiated coverage with a buy or outperform rating.",
+  "updatedAt": "2026-11-25T22:48:00+07:00",
+  "correction": "CNBC updated this story through the day (7%, then 8% intraday). The brief now uses the closing figure: Anthropic closed down 6.5% on Tuesday, below its $83 IPO price.",
+  "headline": "Anthropic shares close below the $83 IPO price on Tuesday, CNBC reports",
+  "body": "Shares of Anthropic closed down 6.5% on Tuesday, below the company's $83 IPO price, CNBC reports. The stock has been sinking steadily since opening at $111.50 on the Nasdaq on Thursday, after Anthropic raised $81.3 billion. Canaccord Genuity, Wedbush and Oppenheimer have each initiated coverage with a buy or outperform rating.",
   "note": "The first week of trading shows how much a record AI listing still swings with the wider debate over the infrastructure buildout.",
   "sources": [
     { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html" }
   ],
   "evidence": [
-    { "source": 0, "text": "Shares of Anthropic fell 8% on Tuesday, sending the stock below the artificial intelligence company's $83 IPO price." },
+    { "source": 0, "text": "Shares of Anthropic closed down 6.5% on Tuesday, sending the stock below the artificial intelligence company's $83 IPO price." },
     { "source": 0, "text": "The AI lab's stock has been sinking steadily since opening at $111.50 on the Nasdaq on Thursday, after Anthropic raised $81.3 billion in the largest offering of all time." },
     { "source": 0, "text": "Canaccord Genuity initiated coverage of Anthropic with a buy rating and a $135 price target." },
     { "source": 0, "text": "Wedbush analysts initiated coverage of Anthropic with an outperform rating and a $120 price target on Monday." },
