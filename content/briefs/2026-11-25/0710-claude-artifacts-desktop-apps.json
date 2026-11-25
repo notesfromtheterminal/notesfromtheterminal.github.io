@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-25-claude-artifacts-desktop-apps",
+  "publishedAt": "2026-11-25T07:10:00+07:00",
+  "section": "models",
+  "tags": [],
+  "company": "Anthropic",
+  "headline": "Anthropic lets Claude Artifacts install as Mac and Windows apps, in beta",
+  "body": "The Decoder reports that Claude Artifacts can now be installed as Mac and Windows apps, and the feature is in beta. Installed apps can use OS APIs, connectors, and Claude itself, which lets an app add menu bar items, create transparent windows, and send notifications.",
+  "note": "This is a product launch, and its link to banks and payment firms is indirect: a chat turns into an installed app without any code.",
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows/" }
+  ],
+  "wire": ["08aa29d7226c"],
+  "evidence": [
+    { "source": 0, "text": "Anthropic now lets you install Claude Artifacts as Mac or Windows apps." },
+    { "source": 0, "text": "The feature is in beta as of today and requires the latest version of Claude for macOS or Windows." },
+    { "source": 0, "text": "You build an Artifact in chat and keep it in the dock without writing any code." },
+    { "source": 0, "text": "The installed apps can use OS APIs, connectors, and Claude itself." },
+    { "source": 0, "text": "That lets an app add menu bar items, create transparent windows, and send notifications, among other things." }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2026-11-25-walmart-muse-black-friday-deals",
+  "publishedAt": "2026-11-25T07:10:00+07:00",
+  "section": "payments",
+  "tags": ["models"],
+  "company": "Walmart",
+  "headline": "Walmart lets shoppers buy through Meta's Muse AI agent",
+  "body": "Walmart is teaming up with Meta to let customers shop its Black Friday deals through Muse, Meta's AI agent, in a partnership announced Tuesday. Walmart says Muse does not get access to a customer's Walmart shopping history or other personal information, and shoppers can set spending limits and require approval before purchases.",
+  "note": "Walmart's Agent Gateway lets outside AI assistants connect to its online store, and the spending limits and purchase approvals are the controls a payments team would look for in agent checkout.",
+  "sources": [
+    { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/" }
+  ],
+  "wire": ["49ed90d2409f"],
+  "evidence": [
+    { "source": 0, "text": "Walmart is the latest retailer making that shift, teaming up with Meta to let customers shop its Black Friday deals through Muse, Meta’s AI agent." },
+    { "source": 0, "text": "The partnership, announced Tuesday, gives shoppers another way to find products, compare prices, and make purchases without browsing Walmart’s website themselves." },
+    { "source": 0, "text": "Walmart says it has built privacy protections into the experience." },
+    { "source": 0, "text": "For instance, Muse doesn’t get access to a customer’s Walmart shopping history or other personal information." },
+    { "source": 0, "text": "Shoppers can also set spending limits, require approval before purchases, and review orders placed by the agent." },
+    { "source": 0, "text": "The experience is powered by Walmart’s Agent Gateway, a new system that allows outside AI assistants to connect directly with the retailer’s online store." },
+    { "source": 0, "text": "While Amazon has taken steps to stop third-party AI agents from making purchases for customers, Walmart is leaning into the idea." }
+  ]
+}
