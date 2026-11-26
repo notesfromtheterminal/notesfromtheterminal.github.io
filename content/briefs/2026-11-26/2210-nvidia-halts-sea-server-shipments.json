@@ -1,0 +1,44 @@
+{
+  "id": "2026-11-26-nvidia-halts-sea-server-shipments",
+  "publishedAt": "2026-11-26T22:10:00+07:00",
+  "section": "sea",
+  "tags": [
+    "banking"
+  ],
+  "company": "Nvidia",
+  "headline": "Nvidia reportedly told partners to stop shipping servers to Malaysia, Singapore, Thailand and Indonesia",
+  "body": "The Financial Times reported, citing three people familiar with the matter, that Nvidia has told manufacturing partners such as Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia. The move follows tighter US export controls, and the Financial Times reported that banks have halted about $500 million in loans to Singapore-based cloud provider Aolani.",
+  "note": "Data center lending in the region now sits next to a 90-day license window, and it is not clear whether the pause is only temporary.",
+  "sources": [
+    {
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "Nvidia has told manufacturing partners such as Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia."
+    },
+    {
+      "source": 0,
+      "text": "The Financial Times reported the halt, citing three people familiar with the matter."
+    },
+    {
+      "source": 0,
+      "text": "The move follows tighter US export controls from the Commerce Department's Bureau of Industry and Security."
+    },
+    {
+      "source": 0,
+      "text": "It isn't clear whether the pause is only temporary, according to the report."
+    },
+    {
+      "source": 0,
+      "text": "Cloud providers have 90 days to apply for a license and prove that no restricted companies are among their end users."
+    },
+    {
+      "source": 0,
+      "text": "Banks have halted about $500 million in loans to Singapore-based cloud provider Aolani, which planned to rent computing power to TikTok parent ByteDance, the Financial Times reported."
+    }
+  ]
+}
