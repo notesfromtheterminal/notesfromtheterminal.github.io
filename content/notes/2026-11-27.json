@@ -2,7 +2,7 @@
   "date": "2026-11-27",
   "publishedAt": "2026-11-27T07:00:00+07:00",
   "title": "Lenders sit behind the AI build-out",
-  "dek": "Bond buyers, banks and a Treasury desk are each setting limits on how AI gets paid for and used.",
+  "dek": "Lenders are getting pickier, banks have halted some loans, and a Treasury pilot kept traders approving the terms.",
   "lead": "2026-11-26-nvidia-halts-sea-server-shipments",
   "stories": [
     "2026-11-25-pimco-ai-bonds-250-billion",
@@ -11,7 +11,7 @@
   "body": [
     {
       "head": "Bond markets fund the build-out",
-      "text": "PIMCO, citing Goldman Sachs data, expects the biggest AI companies to tap about $250 billion through bond sales this year, and CNBC reports that Big Tech could find it increasingly tough to secure funding from debt markets as lenders become pickier. Man Group's analysis, meanwhile, has Microsoft, Amazon, Meta and Alphabet on track to spend more on capital projects than their businesses generated in cash in both 2026 and 2027.",
+      "text": "PIMCO, citing Goldman Sachs data, expects the biggest AI companies to tap about $250 billion through bond sales this year, and CNBC reports that Big Tech could find it increasingly tough to secure funding from debt markets as lenders become pickier. According to Man Group analysis, Microsoft, Amazon, Meta and Alphabet on track to spend more on capital projects than their businesses generated in cash in both 2026 and 2027.",
       "support": [
         "PIMCO, citing Goldman Sachs data, expects the biggest AI companies to tap about $250 billion through bond sales this year.",
         "Big Tech could find it increasingly tough to secure funding from debt markets critical to the AI build-out, as lenders become pickier over corporate bonds.",
@@ -20,7 +20,7 @@
     },
     {
       "head": "Bank loans meet export rules",
-      "text": "The Financial Times reported, citing three people familiar with the matter, that Nvidia has told partners such as Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia, following tighter US export controls. In the same report, banks have halted about $500 million in loans to Singapore-based cloud provider Aolani, and it is not clear whether the pause is only temporary.",
+      "text": "The Financial Times reported, citing three people familiar with the matter, that Nvidia has told partners such as Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia, following tighter US export controls, and it is not clear whether that pause is only temporary. The Financial Times also reported that banks have halted about $500 million in loans to Singapore-based cloud provider Aolani.",
       "support": [
         "Nvidia has told manufacturing partners such as Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia.",
         "The Financial Times reported the halt, citing three people familiar with the matter.",
@@ -31,7 +31,7 @@
     },
     {
       "head": "A desk keeps humans in the loop",
-      "text": "At the same time, BNY says it completed a pilot with Microsoft in which AI agents negotiated a U.S. Treasury bill trade within predefined limits. The agents could not execute the trade on their own, and traders at BNY and Microsoft reviewed and approved the terms.",
+      "text": "BNY says it completed a pilot with Microsoft in which AI agents negotiated a U.S. Treasury bill trade within predefined limits. The agents could not execute the trade on their own, and traders at BNY and Microsoft reviewed and approved the terms.",
       "support": [
         "BNY, which oversees $63.4 trillion in assets under custody or administration, completed a pilot with Microsoft in which AI agents negotiated a U.S. Treasury bill trade within predefined limits.",
         "The agents could not execute the trade on their own.",
