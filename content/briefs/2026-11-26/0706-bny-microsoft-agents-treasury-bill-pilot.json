@@ -1,0 +1,45 @@
+{
+  "id": "2026-11-26-bny-microsoft-agents-treasury-bill-pilot",
+  "publishedAt": "2026-11-26T07:06:00+07:00",
+  "section": "banking",
+  "tags": [
+    "payments"
+  ],
+  "star": true,
+  "company": "BNY",
+  "headline": "BNY and Microsoft complete a pilot where AI agents negotiate a Treasury bill trade",
+  "body": "BNY says it completed a pilot with Microsoft in which AI agents negotiated a U.S. Treasury bill trade within predefined limits. Traders at both companies reviewed and approved the terms before the trade was booked. The release gives no size, price or date for the trade.",
+  "note": "For banks, the controls matter as much as the agents: each agent works inside limits set in advance, and traders still review and approve the terms.",
+  "sources": [
+    {
+      "name": "PYMNTS",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/bny-and-microsoft-let-ai-agents-haggle-over-treasurys/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "BNY, which oversees $63.4 trillion in assets under custody or administration, completed a pilot with Microsoft in which AI agents negotiated a U.S. Treasury bill trade within predefined limits."
+    },
+    {
+      "source": 0,
+      "text": "The agents could not execute the trade on their own."
+    },
+    {
+      "source": 0,
+      "text": "Neither agent could go past its authorized limits."
+    },
+    {
+      "source": 0,
+      "text": "Traders at BNY and Microsoft then reviewed and approved the terms."
+    },
+    {
+      "source": 0,
+      "text": "The companies executed and booked the trade through their existing trading systems and controls, BNY said."
+    },
+    {
+      "source": 0,
+      "text": "BNY’s release gives no size, price or date for the trade."
+    }
+  ]
+}

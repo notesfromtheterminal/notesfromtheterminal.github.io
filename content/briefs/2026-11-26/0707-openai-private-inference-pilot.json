@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-26-openai-private-inference-pilot",
+  "publishedAt": "2026-11-26T07:07:00+07:00",
+  "section": "models",
+  "tags": ["banking"],
+  "company": "OpenAI",
+  "headline": "OpenAI is piloting Private Inference with its first enterprise customers",
+  "body": "OpenAI CEO Sam Altman said the company is piloting Private Inference with its first enterprise customers. The feature lets companies run queries on its most powerful models without OpenAI being able to access the data, and queries are processed on specially isolated hardware whose security can be independently verified, according to OpenAI. The Decoder notes that the offering targets business customers, whose data OpenAI already does not use for training.",
+  "note": "For banks and insurers weighing AI on customer data, the open question is whether the isolation holds up to outside checks. OpenAI says the security can be verified independently.",
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "OpenAI is testing a new feature called \"Private Inference\" that lets companies run queries on its most powerful models without OpenAI being able to access the data." },
+    { "source": 0, "text": "CEO Sam Altman said the company is now piloting the previously announced offering with its first enterprise customers." },
+    { "source": 0, "text": "With Private Inference, queries are processed on specially isolated hardware whose security can be independently verified, according to OpenAI ." },
+    { "source": 0, "text": "For now, Private Inference targets business customers, whose data OpenAI already doesn't use for training ." }
+  ]
+}
