@@ -1,0 +1,7 @@
+{
+  "note": "2026-11-27",
+  "commit": "46adbe077d0429a4bb3631c84a775efef59d9a43",
+  "verdict": "APPROVED",
+  "at": "2026-11-26T16:47:27.363Z",
+  "notes": "Fixed by the review run, then approved:\n1. Section 2: note said \"banks have halted about $500 million in loans to Aolani, and it is not clear whether the pause is only temporary\". Source: \"It isn't clear whether the pause is only temporary\" refers to the Nvidia shipment halt. Moved it to the Nvidia sentence.\n2. Dek: \"Bond buyers, banks and a Treasury desk are each setting limits on how AI gets paid for and used\" overstated (CNBC: lenders \"could\" find funding tougher as \"pickier\"; BNY pilot is not about paying). Now: \"Lenders are getting pickier, banks have halted some loans, and a Treasury pilot kept traders approving the terms.\"\n3. Section 1: \"Man Group's analysis, meanwhile,\" -> \"According to Man Group analysis,\" (source's wording, no invented link).\n4. Section 3: \"At the same time, BNY says\" -> \"BNY says\"; the release was Nov 17, no simultaneity in sources."
+}
