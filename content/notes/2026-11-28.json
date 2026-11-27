@@ -41,7 +41,7 @@
     },
     {
       "head": "Questions for our own supplier lists",
-      "text": "Taken together, the three stories cover who builds the software, where the servers come from and who can see the data. We can ask where each of those sits in our own institution's vendor list, and who owns the answer."
+      "text": "Taken together, the three stories cover who builds the software, where the servers are allowed to ship and who can see the data. We can ask where each of those sits in our own institution's vendor list, and who owns the answer."
     }
   ]
 }
