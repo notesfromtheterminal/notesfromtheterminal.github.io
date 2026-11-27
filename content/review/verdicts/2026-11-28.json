@@ -1,0 +1,7 @@
+{
+  "note": "2026-11-28",
+  "commit": "6ef3fb38d45aa91e66fd23537cab198a9cdef6c5",
+  "verdict": "APPROVED",
+  "at": "2026-11-27T16:46:54.502Z",
+  "notes": "Fixed by the review run, then approved:\n1. Closing section. Note's old words: \"where the servers come from\". Source (The Decoder): \"Nvidia has told manufacturing partners such as Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia.\" The story is about where servers may ship, not where they come from. New words: \"where the servers are allowed to ship\"."
+}
