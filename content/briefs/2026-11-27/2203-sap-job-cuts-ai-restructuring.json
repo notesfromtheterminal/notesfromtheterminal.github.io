@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-27-sap-job-cuts-ai-restructuring",
+  "publishedAt": "2026-11-27T22:03:00+07:00",
+  "section": "models",
+  "company": "SAP",
+  "headline": "SAP is reportedly preparing to cut at least 10,000 positions as it reshapes for AI",
+  "body": "Bloomberg reported, citing people familiar with the matter, that SAP is preparing a plan to eliminate at least 10,000 positions. SAP employs more than 110,000 people worldwide, and Bloomberg reported that all departments had been asked to identify potential cuts. SAP said in a statement to CNBC that it is continuously reviewing how its organization and workforce need to evolve.",
+  "note": "Software vendors that sell to banks and insurers are among the firms tying workforce plans to AI, and the final number for SAP has not been set.",
+  "sources": [
+    { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html" },
+    { "name": "The Decoder", "url": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "SAP is preparing a plan to eliminate at least 10,000 positions as the German firm reshapes its software business for the artificial intelligence era, Bloomberg reported on Thursday , citing people familiar with the matter." },
+    { "source": 0, "text": "SAP employs more than 110,000 people worldwide." },
+    { "source": 0, "text": "Bloomberg reported that all departments had been asked to identify potential cuts, with product, engineering and sales in particular focus." },
+    { "source": 0, "text": "\"The business environment in which we operate is changing rapidly through AI, and we are continuously reviewing how our organization and workforce need to evolve to remain successful,\" SAP said in a statement to CNBC." },
+    { "source": 1, "text": "The final number hasn't been set and could change after negotiations with employee representatives." }
+  ]
+}
