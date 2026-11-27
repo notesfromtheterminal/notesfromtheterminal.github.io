@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-28",
+  "publishedAt": "2026-11-28T07:00:00+07:00",
+  "title": "Software, servers and data: three AI stories",
+  "dek": "SAP's reported job plan, a pause in server shipments and OpenAI's Private Inference pilot, side by side.",
+  "lead": "2026-11-27-sap-job-cuts-ai-restructuring",
+  "stories": [
+    "2026-11-26-nvidia-halts-sea-server-shipments",
+    "2026-11-26-openai-private-inference-pilot"
+  ],
+  "body": [
+    {
+      "head": "A software vendor reshapes itself",
+      "text": "Bloomberg reported, citing people familiar with the matter, that SAP is preparing a plan to eliminate at least 10,000 positions, and SAP says it is continuously reviewing how its organization and workforce need to evolve. SAP employs more than 110,000 people worldwide, and the final number has not been set. For those of us in finance, that is one more vendor plan to read in full.",
+      "support": [
+        "SAP is preparing a plan to eliminate at least 10,000 positions as the German firm reshapes its software business for the artificial intelligence era, Bloomberg reported on Thursday , citing people familiar with the matter.",
+        "SAP employs more than 110,000 people worldwide.",
+        "\"The business environment in which we operate is changing rapidly through AI, and we are continuously reviewing how our organization and workforce need to evolve to remain successful,\" SAP said in a statement to CNBC.",
+        "The final number hasn't been set and could change after negotiations with employee representatives."
+      ]
+    },
+    {
+      "head": "Hardware and loans sit side by side",
+      "text": "The Financial Times reported, citing three people familiar with the matter, that Nvidia has told partners such as Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia, and that banks have halted about $500 million in loans to Singapore-based cloud provider Aolani. It is not clear whether the pause is only temporary, and cloud providers have 90 days to apply for a license.",
+      "support": [
+        "Nvidia has told manufacturing partners such as Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia.",
+        "The Financial Times reported the halt, citing three people familiar with the matter.",
+        "Banks have halted about $500 million in loans to Singapore-based cloud provider Aolani, which planned to rent computing power to TikTok parent ByteDance, the Financial Times reported.",
+        "It isn't clear whether the pause is only temporary, according to the report.",
+        "Cloud providers have 90 days to apply for a license and prove that no restricted companies are among their end users."
+      ]
+    },
+    {
+      "head": "Data stays out of the lab's view",
+      "text": "OpenAI CEO Sam Altman said the company is piloting Private Inference with its first enterprise customers, which lets companies run queries on its most powerful models without OpenAI being able to access the data. OpenAI says the security of its isolated hardware can be independently verified, and for banks and insurers handling customer records, that outside check is the part to read closely.",
+      "support": [
+        "OpenAI is testing a new feature called \"Private Inference\" that lets companies run queries on its most powerful models without OpenAI being able to access the data.",
+        "CEO Sam Altman said the company is now piloting the previously announced offering with its first enterprise customers.",
+        "With Private Inference, queries are processed on specially isolated hardware whose security can be independently verified, according to OpenAI ."
+      ]
+    },
+    {
+      "head": "Questions for our own supplier lists",
+      "text": "Taken together, the three stories cover who builds the software, where the servers come from and who can see the data. We can ask where each of those sits in our own institution's vendor list, and who owns the answer."
+    }
+  ]
+}
