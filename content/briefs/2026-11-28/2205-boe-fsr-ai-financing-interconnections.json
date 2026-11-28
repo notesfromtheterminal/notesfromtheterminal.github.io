@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-28-boe-fsr-ai-financing-interconnections",
+  "publishedAt": "2026-11-28T22:05:00+07:00",
+  "section": "rules",
+  "tags": ["banking"],
+  "company": "Bank of England",
+  "headline": "Bank of England says AI financing is increasingly complex, circular and opaque",
+  "body": "The Bank of England says on 26 November 2026 that the rapid expansion of AI financing is deepening interconnections across the global financial system. It adds that credit spreads have widened particularly sharply for some lower-quality AI-related borrowers since July, and that some private credit funds are becoming more selective about further AI and data-centre financing.",
+  "note": "For lenders and credit investors, the central bank is describing AI exposure as a question of how financing is linked, beyond the size of any single borrower.",
+  "sources": [
+    { "name": "Bank of England", "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/november-2026" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "26 November 2026" },
+    { "source": 0, "text": "However, the very rapid expansion and broadening of its financing – in a form that is increasingly complex, circular and opaque – is also contributing to a deepening of interconnections across the global financial system, making it increasingly likely for stress in one area to propagate to another." },
+    { "source": 0, "text": "Credit spreads have widened particularly sharply for some lower-quality AI-related borrowers since the July FSR." },
+    { "source": 0, "text": "Recent market intelligence suggests that some private credit funds are becoming more selective about further AI and data-centre financing, with some looking to distribute or offload exposures amid concerns about concentration in their investment portfolios." }
+  ]
+}

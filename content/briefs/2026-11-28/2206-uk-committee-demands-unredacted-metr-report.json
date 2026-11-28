@@ -1,0 +1,18 @@
+{
+  "id": "2026-11-28-uk-committee-demands-unredacted-metr-report",
+  "publishedAt": "2026-11-28T22:06:00+07:00",
+  "section": "models",
+  "company": "Anthropic",
+  "headline": "UK committee chair asks Anthropic for the unredacted METR acceleration report",
+  "body": "Liam Byrne, who chairs the House of Commons Business, Innovation, Science and Trade Committee, made the request in a letter dated November 27, wanting a complete, unredacted copy of METR's November 5 report, by December 4. The Decoder reports that METR has said publicly that Anthropic cut major parts of the report before publication.",
+  "note": "Banks and insurers that lean on lab-published safety evaluations when approving models will want to know how much of the evidence readers actually get to see.",
+  "sources": [
+    { "name": "The Decoder", "url": "https://the-decoder.com/uk-parliament-demands-unredacted-metr-safety-report-after-anthropic-redacts-most-of-the-evidence/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Liam Byrne, who chairs the House of Commons Business, Innovation, Science and Trade Committee, made the request in a letter dated November 27 ." },
+    { "source": 0, "text": "Byrne wants a complete, unredacted copy of METR's November 5 report on how fast AI research and development at Anthropic was accelerating in October." },
+    { "source": 0, "text": "METR , an AI safety organization, has said publicly that Anthropic cut major parts of the report before publication, including much of the evidence the group called \"most informative.\"" },
+    { "source": 0, "text": "Byrne, whose inquiry centers on AI safety, wants the redacted material by December 4, along with an explanation of why it was redacted." }
+  ]
+}
