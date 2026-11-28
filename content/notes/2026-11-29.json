@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-29",
+  "publishedAt": "2026-11-29T07:00:00+07:00",
+  "title": "Who approved it, and where is the record?",
+  "dek": "Agent payments and AI financing both come down to records we can read.",
+  "lead": "2026-11-28-truelayer-papa-johns-pay-by-bank-agent-pilot",
+  "stories": [
+    "2026-11-28-shopify-agentic-chargeback-evidence",
+    "2026-11-28-boe-fsr-ai-financing-interconnections",
+    "2026-11-28-uk-committee-demands-unredacted-metr-report"
+  ],
+  "body": [
+    {
+      "head": "A limit set in the bank app",
+      "text": "TrueLayer and Papa Johns completed a pilot in which an AI agent made a Pay by Bank payment, and the customer set a spending limit with their bank that the agent cannot exceed. Authorization happened in the user's bank app, with no credentials or passwords shared with the agent, per the release. It ran through the Financial Conduct Authority's Supercharged Sandbox, and it is one picture of what a bank-side control on an agent can look like.",
+      "support": [
+        "Pay by Bank network TrueLayer and pizza retailer Papa Johns completed a pilot that showed that an artificial intelligence (AI) agent could complete a Pay by Bank payment to a retailer, TrueLayer said in a Friday (Nov. 27) press release .",
+        "Open banking made possible the linking of the bank account, an inbuilt guardrail enabled the customer to set a spending limit with their bank that cannot be exceeded by an AI agent, and authorization happened within the user’s bank app, so no credentials or passwords were shared with the agent, per the release.",
+        "The pilot used Lloyd’s and NatWest ’s variable recurring payment application programming interfaces for agentic payments, and it was conducted through the United Kingdom’s Financial Conduct Authority ’s Supercharged Sandbox , according to the release."
+      ]
+    },
+    {
+      "head": "The merchant side keeps a record too",
+      "text": "Shopify says it now adds checkout information to chargeback responses for these orders. The response includes a payment authorization record with the spending limit the customer set for the assistant and the payment approval recorded at checkout. Shopify's changelog describes the problem as a customer later saying they did not authorize the payment while the merchant's own records could not show what the customer set up.",
+      "support": [
+        "“Shopify-provided information from checkout is now added to your chargeback response for these orders,” Shopify said in the changelog.",
+        "The response includes a Payment authorization record with the spending limit that the customer set for the assistant, the payment approval that was recorded at checkout and the assistant’s name when it’s known.",
+        "This change is meant to solve the challenge merchants have faced when an artificial intelligence (AI) shopping assistant placed an order for the customer, the customer later said they didn’t authorize the payment and the merchant’s own records couldn’t show what the customer set up, according to the changelog."
+      ]
+    },
+    {
+      "head": "Financing that is harder to read",
+      "text": "The Bank of England said on 26 November 2026 that the very rapid expansion and broadening of AI financing is in a form that is increasingly complex, circular and opaque. It also said credit spreads have widened particularly sharply for some lower-quality AI-related borrowers since July. For lenders, that puts the same question on the credit side: who is exposed to whom, and can we see it on paper?",
+      "support": [
+        "26 November 2026",
+        "However, the very rapid expansion and broadening of its financing – in a form that is increasingly complex, circular and opaque – is also contributing to a deepening of interconnections across the global financial system, making it increasingly likely for stress in one area to propagate to another.",
+        "Credit spreads have widened particularly sharply for some lower-quality AI-related borrowers since the July FSR."
+      ]
+    },
+    {
+      "head": "Evidence readers cannot see",
+      "text": "The same theme shows up in AI safety. Liam Byrne, who chairs the House of Commons Business, Innovation, Science and Trade Committee, has asked Anthropic for a complete, unredacted copy of METR's November 5 report by December 4. METR has said publicly that Anthropic cut major parts of the report before publication, including much of the evidence the group called \"most informative.\" If we lean on a lab's published evaluation, it is fair to ask how much of the evidence we are shown.",
+      "support": [
+        "Byrne wants a complete, unredacted copy of METR's November 5 report on how fast AI research and development at Anthropic was accelerating in October.",
+        "METR , an AI safety organization, has said publicly that Anthropic cut major parts of the report before publication, including much of the evidence the group called \"most informative.\"",
+        "Byrne, whose inquiry centers on AI safety, wants the redacted material by December 4, along with an explanation of why it was redacted.",
+        "Liam Byrne, who chairs the House of Commons Business, Innovation, Science and Trade Committee, made the request in a letter dated November 27 ."
+      ]
+    },
+    {
+      "head": "What to check this week",
+      "text": "In our own work, where would we find the record of what a customer approved, what a borrower owes and what an evaluator saw? Which of those could we hand to a colleague or a regulator today?"
+    }
+  ]
+}
