@@ -1,0 +1,18 @@
+{
+  "id": "2026-11-28-shopify-agentic-chargeback-evidence",
+  "publishedAt": "2026-11-28T07:12:00+07:00",
+  "section": "payments",
+  "company": "Shopify",
+  "headline": "Shopify gives merchants more evidence for chargebacks on agentic orders",
+  "body": "Shopify says it now adds checkout information to chargeback responses for agentic orders, in a changelog entry on Wednesday. The response includes a payment authorization record with the spending limit the customer set for the assistant, plus the payment approval recorded at checkout. The change is meant to solve the challenge merchants have faced when an AI shopping assistant placed an order and the customer later said they did not authorize the payment.",
+  "note": "For payments teams, the dispute question with agent orders is what the customer approved, and this record is meant to show it.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/commerce/ecommerce/2026/shopify-gives-merchants-proof-to-fight-agentic-order-chargebacks/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Shopify now provides its merchants with more evidence for chargebacks on agentic orders, the company said in a Wednesday (Nov. 25) entry on its changelog ." },
+    { "source": 0, "text": "This change is meant to solve the challenge merchants have faced when an artificial intelligence (AI) shopping assistant placed an order for the customer, the customer later said they didn’t authorize the payment and the merchant’s own records couldn’t show what the customer set up, according to the changelog." },
+    { "source": 0, "text": "“Shopify-provided information from checkout is now added to your chargeback response for these orders,” Shopify said in the changelog." },
+    { "source": 0, "text": "The response includes a Payment authorization record with the spending limit that the customer set for the assistant, the payment approval that was recorded at checkout and the assistant’s name when it’s known." }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-28-truelayer-papa-johns-pay-by-bank-agent-pilot",
+  "publishedAt": "2026-11-28T07:10:00+07:00",
+  "section": "payments",
+  "tags": ["banking"],
+  "company": "TrueLayer",
+  "headline": "TrueLayer and Papa Johns pilot AI agent payments via Pay by Bank",
+  "body": "TrueLayer and pizza retailer Papa Johns completed a pilot in which an AI agent made a Pay by Bank payment to a retailer, TrueLayer said in a press release. The agent paid from the bank account the customer had linked to their Papa Johns account, under a spending limit the customer set with their bank. The pilot ran through the Financial Conduct Authority's Supercharged Sandbox.",
+  "note": "For banks, the pilot tests whether a spending limit set in the customer's own bank app can control what an agent pays, without sharing card details.",
+  "sources": [
+    { "name": "PYMNTS", "url": "https://www.pymnts.com/news/payment-methods/2026/truelayer-and-papa-johns-pit-pay-by-bank-against-cards-in-agentic-commerce/" }
+  ],
+  "evidence": [
+    { "source": 0, "text": "Pay by Bank network TrueLayer and pizza retailer Papa Johns completed a pilot that showed that an artificial intelligence (AI) agent could complete a Pay by Bank payment to a retailer, TrueLayer said in a Friday (Nov. 27) press release ." },
+    { "source": 0, "text": "In the pilot, the Papa Johns AI helped the customer with their order and then paid from the bank account the customer had linked to their Papa Johns account, the release said." },
+    { "source": 0, "text": "Open banking made possible the linking of the bank account, an inbuilt guardrail enabled the customer to set a spending limit with their bank that cannot be exceeded by an AI agent, and authorization happened within the user’s bank app, so no credentials or passwords were shared with the agent, per the release." },
+    { "source": 0, "text": "The pilot used Lloyd’s and NatWest ’s variable recurring payment application programming interfaces for agentic payments, and it was conducted through the United Kingdom’s Financial Conduct Authority ’s Supercharged Sandbox , according to the release." }
+  ]
+}
