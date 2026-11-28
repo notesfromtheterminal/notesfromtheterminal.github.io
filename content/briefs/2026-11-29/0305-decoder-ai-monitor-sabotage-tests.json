@@ -1,0 +1,47 @@
+{
+  "id": "2026-11-29-uk-aisi-monitor-sabotage-tests",
+  "publishedAt": "2026-11-29T03:05:00+07:00",
+  "section": "models",
+  "tags": [
+    "rules"
+  ],
+  "headline": "UK AI Security Institute questions what simulated sabotage tests prove",
+  "body": "A UK AI Security Institute study questions what simulated sabotage tests prove about AI agent monitors. Its case study is a GPT-5.4 monitor that OpenAI previously used in production. It missed just 0.2 to 0.5 percent of harmful actions under standard attacks, but better-optimized attacks pushed that miss rate as high as 23 percent.",
+  "note": "The study's point is that simulated attacks alone can't show a monitor will hold up in live use, a question for any bank letting AI agents act on its systems.",
+  "sources": [
+    {
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/new-study-casts-doubt-on-how-ai-companies-test-the-safety-systems-meant-to-keep-their-agents-in-check/"
+    }
+  ],
+  "evidence": [
+    {
+      "source": 0,
+      "text": "AI companies including OpenAI and Anthropic test them with simulated sabotage attempts."
+    },
+    {
+      "source": 0,
+      "text": "A new study from the UK AI Security Institute calls into question what those tests actually prove."
+    },
+    {
+      "source": 0,
+      "text": "As a case study, the researchers examined a monitoring system built on GPT-5.4 that OpenAI previously used in production."
+    },
+    {
+      "source": 0,
+      "text": "Against standard attacks, the monitor missed just 0.2 to 0.5 percent of harmful actions."
+    },
+    {
+      "source": 0,
+      "text": "Better-optimized attacks pushed that false-negative rate as high as 23 percent."
+    },
+    {
+      "source": 0,
+      "text": "Simulated attack tests alone can't show that an AI monitor will hold up in live use, and the industry hasn't made a solid case yet that such tests reflect real-world safety, the study concludes."
+    },
+    {
+      "source": 0,
+      "text": "AI companies including OpenAI and Anthropic use these tests to evaluate automated monitors for AI agents."
+    }
+  ]
+}
